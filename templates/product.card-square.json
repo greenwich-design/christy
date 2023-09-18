@@ -1,0 +1,14 @@
+{
+  "name": "Product card template Square",
+  "layout": false,
+  "sections": {
+    "main": {
+      "type": "product-card-square-template",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

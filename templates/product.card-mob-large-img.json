@@ -1,0 +1,12 @@
+{
+  "name": "Product card template Mob Large Img",
+  "layout": false,
+  "sections": {
+    "main": {
+      "type": "product-card-template-mob-large-img"
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

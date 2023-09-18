@@ -1,0 +1,28 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "169276539839bf5a49": {
+      "type": "apps",
+      "blocks": {
+        "45dbb680-0d40-4cb0-bedc-7f89f6659120": {
+          "type": "shopify:\/\/apps\/unlimited-bundles-discounts\/blocks\/embed-all\/d33d0f48-dee0-42a0-b156-2a5dce91814a",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "45dbb680-0d40-4cb0-bedc-7f89f6659120"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "169276539839bf5a49"
+  ]
+}

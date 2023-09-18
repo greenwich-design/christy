@@ -1,0 +1,71 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "800bd310-82f2-405a-8f8a-77b9e6e7f6d3": {
+          "type": "view_size_guide",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "800bd310-82f2-405a-8f8a-77b9e6e7f6d3",
+        "buy_buttons"
+      ],
+      "settings": {
+      }
+    },
+    "169090501824a740ea": {
+      "type": "apps",
+      "blocks": {
+        "f3397e0f-45a3-4f61-ab8c-5fac7340eaa3": {
+          "type": "shopify:\/\/apps\/live-product-options\/blocks\/app-block\/88bfdf40-5e27-4962-a966-70c8d1e87757",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "f3397e0f-45a3-4f61-ab8c-5fac7340eaa3"
+      ],
+      "settings": {
+      }
+    },
+    "recent-products": {
+      "type": "recent-products",
+      "settings": {
+        "heading": "Previously explored"
+      }
+    },
+    "86a4f019-bc37-4060-9067-8a759a38958f": {
+      "type": "billboard",
+      "settings": {
+        "subtitle": "Christy Life",
+        "title": "<p>Caring Cotton<\/p>",
+        "copy": "<p>Sustainably made cotton is kinder to the environment and the people who produce it – which is why we’re using it more than ever. <\/p><p>Our Made In Green-certified products are guaranteed to have been made sustainably, under socially responsible working environments and using transparent supply chains.<\/p>",
+        "button_label": "Read More",
+        "button_link": "#",
+        "button_type": "tertiary",
+        "colour_theme": "white",
+        "alignment": "left",
+        "alignment_vertical": "center",
+        "mobile_content_position": "overlay"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "169090501824a740ea",
+    "recent-products",
+    "86a4f019-bc37-4060-9067-8a759a38958f"
+  ]
+}

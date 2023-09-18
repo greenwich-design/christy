@@ -1,0 +1,35 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "1e7969e2-e46d-4f05-8747-02807e3876f4": {
+          "type": "link_list",
+          "settings": {
+            "footer_links": "footer-menu-new-theme"
+          }
+        }
+      },
+      "block_order": [
+        "1e7969e2-e46d-4f05-8747-02807e3876f4"
+      ],
+      "settings": {
+        "email_signup_text": "<p>Enter your email for our monthly newsletter + <strong>10% off your first purchase.<\/strong><\/p>"
+      }
+    },
+    "footer-copyright": {
+      "type": "footer-copyright",
+      "settings": {
+        "terms_links": "footer-terms-privacy",
+        "social_links": "footer-social-media",
+        "copyright": "© CHRISTY 2023. ALL RIGHTS RESERVED"
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "footer-copyright"
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "sections": {
+    "hero-collection": {
+      "type": "hero-collection",
+      "blocks": {
+        "8c3ac597-805a-4b98-a59f-708e3545945d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hero-2.jpg",
+            "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
+            "subtitle": "Bath",
+            "title": "Gentle on the skin, balancing softness with absorbence.",
+            "collection": "all-bath",
+            "button_text": "Shop Bath"
+          }
+        },
+        "c4c43d90-6461-4c99-aee1-543890d018df": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hp_banner_bed2.jpg",
+            "video": "shopify:\/\/files\/videos\/Untitled (1) (1).mp4",
+            "subtitle": "Bed",
+            "title": "Sink into a restful night's sleep in cosy bedding.",
+            "collection": "all-bedding",
+            "button_text": "Shop Bed"
+          }
+        },
+        "2af0950f-0322-4b80-b489-ee1f6aafc079": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hero-3.jpg",
+            "video": "shopify:\/\/files\/videos\/8ecb9c0bb18343eeaebb289b5770b60f.mp4",
+            "subtitle": "Wimbledon",
+            "title": "The ultimate serve in comfort: our collaboration with Wimbledon.",
+            "collection": "wimbledon",
+            "button_text": "Discover Wimbledon"
+          }
+        }
+      },
+      "block_order": [
+        "8c3ac597-805a-4b98-a59f-708e3545945d",
+        "c4c43d90-6461-4c99-aee1-543890d018df",
+        "2af0950f-0322-4b80-b489-ee1f6aafc079"
+      ],
+      "settings": {
+      }
+    },
+    "heading": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Discover the magic in <br\/>everyday moments.<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "right",
+        "horiz_padding": true,
+        "margin_top": false
+      }
+    },
+    "billboard": {
+      "type": "billboard",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bath-home.jpg",
+        "subtitle": "Explore",
+        "title": "<p>Bath<\/p>",
+        "copy": "<p>Step into a spa-like sanctuary with our luxurious selection of bathroom products.<\/p>",
+        "button_label": "Shop All",
+        "button_link": "shopify:\/\/collections\/all-bath",
+        "button_type": "default",
+        "colour_theme": "white",
+        "alignment": "left",
+        "alignment_vertical": "top",
+        "mobile_content_position": "overlay"
+      }
+    },
+    "c-info-columns": {
+      "type": "c-info-columns",
+      "blocks": {
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thick-fluffy.jpg",
+            "image_aspect": "1:1",
+            "title": "Thick & Indulgent",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bath",
+            "collection_tag": "Thick & Indulgent"
+          }
+        },
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/light-easy.jpg",
+            "image_aspect": "1:1",
+            "title": "Fluffy & Light",
+            "text": "<p>Keep your home comforts close with take-them-anywhere lightweight options. <\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bath",
+            "collection_tag": "Fluffy & Light"
+          }
+        },
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/invigorating.jpg",
+            "image_aspect": "2:3",
+            "title": "Invigorating & Durable",
+            "text": "<p>Start (or end) your day the refreshing way, with our selection of revitalising products.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bath",
+            "collection_tag": "Invigorating & Durable"
+          }
+        }
+      },
+      "block_order": [
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-0",
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-1",
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2"
+      ],
+      "settings": {
+      }
+    },
+    "heading2": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Your style, your choice: keep it personal with perfect-fit products.<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "left",
+        "horiz_padding": false,
+        "margin_top": false
+      }
+    },
+    "billboard2": {
+      "type": "billboard",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bed-home.jpg",
+        "subtitle": "Explore",
+        "title": "<p>Bed<\/p>",
+        "copy": "<p>Slip between a fresh pair of sheets, from crisp cotton options to sumptuously silky ones.<\/p>",
+        "button_label": "Shop All",
+        "button_link": "shopify:\/\/collections\/all-bedding",
+        "button_type": "default",
+        "colour_theme": "white",
+        "alignment": "right",
+        "alignment_vertical": "top",
+        "mobile_content_position": "overlay"
+      }
+    },
+    "c-info-columns2": {
+      "type": "c-info-columns",
+      "blocks": {
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hp_banner_bed.jpg",
+            "image_aspect": "2:3",
+            "title": "Soft & Relaxed",
+            "text": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bedding",
+            "collection_tag": "Soft & Relaxed"
+          }
+        },
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cool-crisp.jpg",
+            "image_aspect": "1:1",
+            "title": "Cool & Crisp",
+            "text": "<p>Keep comfortably cool in fresh cotton bedding.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bedding",
+            "collection_tag": "Cool & Crisp"
+          }
+        },
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smooth_sily_hp.jpg",
+            "image_aspect": "1:1",
+            "title": "Smooth & Silky",
+            "text": "<p>Add a touch of luxury to your bedtime routine with silky-smooth materials.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bedding",
+            "collection_tag": "Smooth & Silky"
+          }
+        }
+      },
+      "block_order": [
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-0",
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-1",
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2"
+      ],
+      "settings": {
+      }
+    },
+    "billboard3": {
+      "type": "billboard",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/innovators-home.jpg",
+        "subtitle": "Technology",
+        "title": "<p>Innovators <br\/>since 1850<\/p>",
+        "copy": "<p>From our pioneering terry towels to today’s ultra-absorbent Hygro technology, we have over 170 years’ experience at the forefront of innovation.<\/p>",
+        "button_label": "Discover our Innovation",
+        "button_link": "shopify:\/\/pages\/innovation",
+        "button_type": "default",
+        "colour_theme": "blue",
+        "alignment": "left",
+        "alignment_vertical": "center",
+        "mobile_content_position": "below"
+      }
+    },
+    "images-copy-cta": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/timeless-2.jpg",
+        "image2": "shopify:\/\/shop_images\/timeless-1.jpg",
+        "subtitle": "Responsibility",
+        "title": "<p>Timeless products, consciously made<\/p>",
+        "copy": "<p>We’re devoted to building a sustainable future, always moving forwards to improve our processes for the good of our consumers, our communities and the wider environment.<\/p>",
+        "button_label": "Discover our Initiatives",
+        "button_link": "shopify:\/\/pages\/responsibility",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
+      }
+    },
+    "heading3": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Feel-good <br\/>Bedding<\/p>",
+        "heading_width": "4",
+        "copy": "<p>Elevate your sleep sanctuary with our selection of sustainably made pieces.<\/p>",
+        "copy_style": "heading3",
+        "alignment": "right",
+        "horiz_padding": true,
+        "margin_top": true
+      }
+    },
+    "product-showcase": {
+      "type": "product-showcase",
+      "blocks": {
+        "1b8b376d-7bf4-4d5e-bfec-6c2f6e9f5998": {
+          "type": "hotspot",
+          "settings": {
+            "position_left": 70,
+            "position_top": 55,
+            "position_left_mob": 10,
+            "position_top_mob": 30,
+            "product": "lerwick-stripe"
+          }
+        },
+        "e490f271-e9b9-4412-8982-d5926491cf34": {
+          "type": "hotspot",
+          "settings": {
+            "position_left": 40,
+            "position_top": 30,
+            "position_left_mob": 40,
+            "position_top_mob": 30,
+            "product": "stornoway-chambray"
+          }
+        },
+        "70806f5e-2a45-4753-a883-ae305fcec33f": {
+          "type": "hotspot",
+          "settings": {
+            "position_left": 55,
+            "position_top": 75,
+            "position_left_mob": 55,
+            "position_top_mob": 75,
+            "product": "oslo"
+          }
+        }
+      },
+      "block_order": [
+        "1b8b376d-7bf4-4d5e-bfec-6c2f6e9f5998",
+        "e490f271-e9b9-4412-8982-d5926491cf34",
+        "70806f5e-2a45-4753-a883-ae305fcec33f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product-showcase.jpg"
+      }
+    },
+    "heading4": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Christy Life<\/p>",
+        "heading_width": "4",
+        "copy": "<p>Welcome to our blog: from interiors inspiration to expert how-tos, walkthroughs and all our latest news, it's designed to guide and inspire your bath and bedding journey.<\/p>",
+        "copy_style": "default",
+        "alignment": "right",
+        "horiz_padding": true,
+        "margin_top": true
+      }
+    },
+    "billboard4": {
+      "type": "billboard",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/perfect-towel.jpg",
+        "subtitle": "Feature",
+        "title": "<p>Only the best: picking your perfect towel<\/p>",
+        "copy": "<p>There's an art to choosing the right towel. Absorb our expert tips to discover your ideal drying-down companion.<\/p>",
+        "button_label": "Read more",
+        "button_link": "https:\/\/www.christy.co.uk\/blogs\/lifestyle\/christys-towel-size-guide",
+        "button_type": "tertiary",
+        "colour_theme": "white",
+        "alignment": "left",
+        "alignment_vertical": "center",
+        "mobile_content_position": "overlay"
+      }
+    },
+    "featured-blogs": {
+      "type": "featured-blogs",
+      "blocks": {
+        "30dec819-818b-4bc2-b9c3-ff19c89ebaf4": {
+          "type": "article",
+          "settings": {
+            "article": "lifestyle\/how-to-take-care-of-your-towels"
+          }
+        },
+        "458e4f16-65af-45ea-bf76-156d0bfc8da1": {
+          "type": "article",
+          "settings": {
+            "article": "homekeeping\/how-to-make-your-bed-easy-tips-and-tricks"
+          }
+        },
+        "dc2e0744-3035-4a8f-b0c9-4abd1e420569": {
+          "type": "article",
+          "settings": {
+            "article": "lifestyle\/how-to-dress-a-bed-the-complete-guide"
+          }
+        }
+      },
+      "block_order": [
+        "30dec819-818b-4bc2-b9c3-ff19c89ebaf4",
+        "458e4f16-65af-45ea-bf76-156d0bfc8da1",
+        "dc2e0744-3035-4a8f-b0c9-4abd1e420569"
+      ],
+      "settings": {
+        "blog": "news,guides,products,lifestyle"
+      }
+    },
+    "d1799047-2d3f-4748-9804-8038692b0c63": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>                                 Creating  little luxuries since 1850.                                   <\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "right",
+        "horiz_padding": false,
+        "margin_top": false
+      }
+    }
+  },
+  "order": [
+    "hero-collection",
+    "heading",
+    "billboard",
+    "c-info-columns",
+    "heading2",
+    "billboard2",
+    "c-info-columns2",
+    "billboard3",
+    "images-copy-cta",
+    "heading3",
+    "product-showcase",
+    "heading4",
+    "billboard4",
+    "featured-blogs",
+    "d1799047-2d3f-4748-9804-8038692b0c63"
+  ]
+}

@@ -1,0 +1,58 @@
+{% if product.media.size > 0 %}
+  {% liquid
+    assign widths = '375, 550, 750, 1100, 1500, 1780, 1920'
+    assign sizes = '100vw'
+
+    assign image_class = 'object-cover object-center w-full h-full inset-0 aspect-[0.8/1] image-magnify-hover cursor-zoom-in opacity-0'
+  %}
+  <div
+    id="media-gallery"
+    class="{{ group_class }} flex flex-wrap gap-2 [&_>div]:w-full [&_>div]:md:w-[calc(50%_-_.25rem)] [&_>div:first-child]:md:w-full  [&_>.img--variant]:hidden [&_>.img--variant:first-child]:!block"
+  >
+    {%- if product.selected_or_first_available_variant.featured_media != null -%}
+      {%- assign featured_media = product.selected_or_first_available_variant.featured_media -%}
+      <div
+        id="media-{{ featured_media.id }}"
+        class="flex {% if variant_images contains featured_media.src %} img--variant{% endif %} {% if media.media_type == 'video' or media.media_type == 'external_video' %}!w-full aspect-video{% endif %}"
+      >
+        {% if featured_media.media_type == 'image' %}
+          <figure class="aspect-[0.8/1] w-full relative z-0">
+            {%- render 'spinner' -%}
+            {%- render 'lazyimg', img: featured_media, widths: widths, class: image_class, sizes: sizes -%}
+          </figure>
+
+        {% elsif featured_media.media_type == 'video' %}
+          {{
+            featured_media
+            | video_tag: muted: true, autoplay: true, loop: true, playsinline: true, class: 'w-full h-full object-cover'
+          }}
+        {% endif %}
+      </div>
+    {%- endif %}
+    {% for media in product.media %}
+      {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
+        <div
+          id="media-{{ media.id }}"
+          class="flex {% if variant_images contains media.src %} img--variant{% endif %} {% if media.media_type == 'video' or media.media_type == 'external_video' %}!w-full aspect-video{% endif %}"
+        >
+          {% if media.media_type == 'image' %}
+            <figure class="md:aspect-[0.8/1] w-full relative z-0">
+              {%- render 'spinner' -%}
+              {%- render 'lazyimg', img: media, widths: widths, class: image_class, sizes: sizes -%}
+            </figure>
+          {% elsif media.media_type == 'video' or media.media_type == 'external_video' %}
+            {{
+              media
+              | video_tag:
+                muted: true,
+                autoplay: true,
+                loop: true,
+                playsinline: true,
+                class: 'w-full h-full object-cover'
+            }}
+          {% endif %}
+        </div>
+      {%- endunless -%}
+    {% endfor %}
+  </div>
+{% endif %}

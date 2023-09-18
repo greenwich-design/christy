@@ -1,0 +1,183 @@
+{{ 'splide.min.css' | asset_url | stylesheet_tag }}
+
+<div
+  id="HeroCollection-{{ section.id }}"
+>
+  {%- liquid
+    assign full_width = '100vw'
+    assign widths = '375, 550, 750, 1100, 1500, 1780, 2000'
+    assign sizes = '(max-width: 767px) 100vw, (min-width: 768px) 50vw'
+    assign image_class = 'object-cover object-center w-full h-full absolute inset-0'
+  -%}
+
+  <div
+    class="splide min-h-[calc(100vh-90px)] lg:min-h-[calc(100vh-107px)] flex flex-col"
+    data-splide='{"arrows": false, "pagination": false, "type": "loop"}'
+  >
+    <div class="splide__track flex flex-1">
+      <ul class="splide__list flex !h-auto w-full">
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'slide' -%}
+            <li class="splide__slide flex">
+              <section
+                id="{{ block.id }}"
+                class="flex-1 grid gap-2 {% if block.settings.video != null %} max-md:grid-rows-[minmax(auto,50%)_auto] max-md:min-h-[calc(100vh-90px)] md:grid-cols-2{% endif %}"
+              >
+                <div class="relative flex items-end max-md:order-2">
+                  {%- if block.settings.image != blank -%}
+                    {%- assign image_height = block.settings.image.width
+                      | divided_by: block.settings.image.aspect_ratio
+                    -%}
+
+                    {% if forloop.index == 1 %}
+                      {%- assign loading = 'eager' -%}
+                      {% render 'spinner' %}
+                      {%- render 'lazyimg',
+                        img: block.settings.image,
+                        width: 1000,
+                        widths: widths,
+                        class: image_class,
+                        sizes: sizes,
+                        loading: loading
+                      -%}
+
+                    {% else %}
+                      {%- assign loading = 'lazy' -%}
+                      {% render 'spinner' %}
+                      {%- render 'lazyimg',
+                        img: block.settings.image,
+                        width: 1000,
+                        widths: widths,
+                        class: image_class,
+                        sizes: sizes
+                      -%}
+                    {% endif %}
+
+                  {%- else -%}
+                    {{ 'hero-apparel-1' | placeholder_svg_tag: image_class }}
+                  {%- endif -%}
+
+                  <div class="relative space-y-10 lg:space-y-12 py-10 lg:py-28  container max-w-none">
+                    <header class=" space-y-3 lg:space-y-4 text-white md:max-w-[500px]">
+                      {%- if block.settings.subtitle != blank %}
+                        <h2 class="m-h5 lg:d-h5">{{ block.settings.subtitle }}</h2>
+                      {%- endif -%}
+                      {%- if block.settings.title != blank %}
+                        <h3 class="s-m-h3 lg:s-d-h2">{{ block.settings.title }}</h3>
+                      {%- endif -%}
+                    </header>
+
+                    {% assign collection_handle = block.settings.collection %}
+                    {% assign collection = collections[collection_handle] %}
+                    {% if collection.url != blank and block.settings.button_text != blank %}
+                      <div>
+                        <a class="btn-large btn-alt hover:bg-blue-1 hover:text-white" href="{{ collection.url }}">
+                          {{- block.settings.button_text -}}
+                        </a>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+                {%- if block.settings.video != blank -%}
+                  <div class="max-md:relative">
+                    {{
+                      block.settings.video
+                      | video_tag:
+                        muted: true,
+                        autoplay: true,
+                        loop: true,
+                        playsinline: true,
+                        class: 'w-full h-full object-cover max-md:absolute inset-0',
+                        preload: 'none'
+                    }}
+                  </div>
+                {%- endif -%}
+              </section>
+            </li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </div>
+
+    <nav class="py-4">
+      <div class="splide-pag container max-w-none text-blue-1 font-light text-[12px] leading-[20px] lg:leading-[24px] lg:text-[14px] flex space-x-6">
+        {%- for block in section.blocks -%}
+          <a class="{%- if forloop.index0 == 0 -%}font-semibold underline{%- endif %}" href="{{ block.id }}">
+            {{- block.settings.subtitle -}}
+          </a>
+        {%- endfor -%}
+      </div>
+    </nav>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hero Collection Carousel",
+  "tag": "section",
+  "class": "section-hero",
+  "disabled_on": {
+    "groups": ["header", "footer"],
+    "templates": ["article"]
+  },
+  "settings": [],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Carousel Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Choose a static image for this item"
+        },
+        {
+          "type": "video",
+          "id": "video",
+          "label": "Choose a video for this item"
+        },
+        {
+          "type": "text",
+          "id": "subtitle",
+          "label": "Item Sub Title",
+          "default": "Bed"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Item Title",
+          "default": "Sink into a restful night's sleep in cosy bedding."
+        },
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Button Collection Link"
+        },
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "Shop Bed"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Collection Carousel",
+      "blocks": [
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        },
+        {
+          "type": "slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
