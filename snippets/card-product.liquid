@@ -133,19 +133,21 @@
       </div>
       <div class="card__content text-blue-1">
         <div class="card__information space-y-2">
-          <div class="flex justify-between max-md:text-[10px]">
+          <div class="flex justify-between max-md:text-[10px] flex-wrap">
             {% if card_product.metafields.custom.collection %}
               <p>{{ card_product.metafields.custom.collection.value }}</p>
             {% endif %}
 
-            <div class="ml-auto pl-6 text-right">
+            <div class="ml-auto pl-6 text-right whitespace-nowrap">
               {% if card_product.price_min != card_product.price_max %}
                 <p>
-                  <strong>{{ card_product.price_min | money }} - {{ card_product.price_max | money }}</strong>
+                  <strong class="block">
+                    {{- card_product.price_min | money }} - {{ card_product.price_max | money -}}
+                  </strong>
                 </p>
               {% else %}
                 <p>
-                  <strong>{{ card_product.price | money }}</strong>
+                  <strong class="block">{{ card_product.price | money }}</strong>
                 </p>
               {% endif %}
             </div>
