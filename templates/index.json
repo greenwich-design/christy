@@ -3,6 +3,17 @@
     "hero-collection": {
       "type": "hero-collection",
       "blocks": {
+        "c4c43d90-6461-4c99-aee1-543890d018df": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hp_banner_bed2.jpg",
+            "video": "shopify:\/\/files\/videos\/Untitled (1) (1).mp4",
+            "subtitle": "Snuggle Season Sale",
+            "title": "25% off bedding, robes, duvets, pillows and accessories - Ends tonight!",
+            "collection": "snuggle-season-sale",
+            "button_text": "Shop Now"
+          }
+        },
         "8c3ac597-805a-4b98-a59f-708e3545945d": {
           "type": "slide",
           "settings": {
@@ -14,19 +25,9 @@
             "button_text": "Shop Bath"
           }
         },
-        "c4c43d90-6461-4c99-aee1-543890d018df": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp_banner_bed2.jpg",
-            "video": "shopify:\/\/files\/videos\/Untitled (1) (1).mp4",
-            "subtitle": "Bed",
-            "title": "Sink into a restful night's sleep in cosy bedding.",
-            "collection": "all-bedding",
-            "button_text": "Shop Bed"
-          }
-        },
         "2af0950f-0322-4b80-b489-ee1f6aafc079": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/hero-3.jpg",
             "video": "shopify:\/\/files\/videos\/8ecb9c0bb18343eeaebb289b5770b60f.mp4",
@@ -38,8 +39,8 @@
         }
       },
       "block_order": [
-        "8c3ac597-805a-4b98-a59f-708e3545945d",
         "c4c43d90-6461-4c99-aee1-543890d018df",
+        "8c3ac597-805a-4b98-a59f-708e3545945d",
         "2af0950f-0322-4b80-b489-ee1f6aafc079"
       ],
       "settings": {
