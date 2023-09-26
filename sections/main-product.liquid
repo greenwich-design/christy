@@ -770,7 +770,7 @@
         class="modal fixed inset-0 bg-white pt-[90px] lg:pt-[107px] !m-0 z-50 opacity-0 invisible transition-[opacity,visibility] duration-500 [&.active]:opacity-100 [&.active]:visible"
       >
         <div
-          class="container space-y-5 h-full flex flex-col"
+          class="container relative space-y-5 h-full flex flex-col after:w-[40px] after:h-full after:bg-gradient-to-l after:to-transparent after:from-white after:absolute after:right-0 after:top-0"
           data-sizeguide
           id="sizeguide"
         >
@@ -781,10 +781,6 @@
             <span>Size Guide</span>
           </h4>
 
-          <div class="absolute top-0 right-0 container flex justify-end !m-0 min-h-[90px] lg:min-h-[107px] items-center">
-            <button data-modalclose="sizeguide" class="p-5 -mr-5">{% render 'icon-close' %}</button>
-          </div>
-
           <div class="max-lg:-mr-[40px] h-full overflow-auto pb-20 pr-[40px] whitespace-nowrap wysiwyg [&_table]:bg-white">
             {% if product.metafields.custom.size_guide != blank %}
               {{ product.metafields.custom.size_guide }}
@@ -792,6 +788,10 @@
               {{ product.metafields.custom.product_specification }}
             {% endif %}
           </div>
+        </div>
+
+        <div class="absolute top-0 right-0 container flex justify-end !m-0 min-h-[90px] lg:min-h-[107px] items-center">
+          <button data-modalclose="sizeguide" class="p-5 -mr-5">{% render 'icon-close' %}</button>
         </div>
       </aside>
     {% endif %}
