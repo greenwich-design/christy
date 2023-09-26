@@ -9,7 +9,12 @@
   }
 {% endstylesheet %}
 
-{%- capture variant_skus -%}
+<section
+  id="MainProduct-{{ section.id }}"
+  class="page-width section-{{ section.id }}-padding"
+  data-section="{{ section.id }}"
+>
+  {%- capture variant_skus -%}
 {%- for variant in product.variants -%}
     {%- if variant.sku != blank -%}
     {{- variant.sku -}}{%- if forloop.last == false -%},{%- endif -%}
@@ -17,62 +22,57 @@
 {%- endfor -%}
 {%- endcapture -%}
 
-{% liquid
-  comment
-    Get the current variant 'Color' and 'Size' from the URL
-  endcomment
-  assign path_array = request.path | split: '/'
-  assign path_array_length = path_array | size
-  assign ind = path_array_length | minus: 1
-  assign variant_option_array = path_array[ind] | split: ','
-  assign variant_option_array_length = variant_option_array | size
-  assign selected_colour = ''
-  assign selected_size = ''
-  if variant_option_array_length > 0
-    if variant_option_array[0] contains 'c:'
-      assign selected_colour = variant_option_array[0] | replace: 'c:', '' | handleize
+  {% liquid
+    comment
+      Get the current variant 'Color' and 'Size' from the URL
+    endcomment
+    assign path_array = request.path | split: '/'
+    assign path_array_length = path_array | size
+    assign ind = path_array_length | minus: 1
+    assign variant_option_array = path_array[ind] | split: ','
+    assign variant_option_array_length = variant_option_array | size
+    assign selected_colour = ''
+    assign selected_size = ''
+    if variant_option_array_length > 0
+      if variant_option_array[0] contains 'c:'
+        assign selected_colour = variant_option_array[0] | replace: 'c:', '' | handleize
+      endif
+      if variant_option_array[1] contains 's:'
+        assign selected_size = variant_option_array[1] | replace: 's:', '' | handleize
+      endif
+      if variant_option_array[2] contains 's:'
+        assign option3 = variant_option_array[2] | replace: 's:', '' | handleize
+      endif
     endif
-    if variant_option_array[1] contains 's:'
-      assign selected_size = variant_option_array[1] | replace: 's:', '' | handleize
-    endif
-    if variant_option_array[2] contains 's:'
-      assign option3 = variant_option_array[2] | replace: 's:', '' | handleize
-    endif
-  endif
 
-  assign current_variant = product.selected_or_first_available_variant
-  if selected_colour != blank and selected_size != blank and option3 != blank
-    for variant in product.variants
-      assign colour_slug = variant.option1 | handleize
-      assign size_slug = variant.option2 | handleize
-      assign option3_slug = variant.option2 | handleize
-      if colour_slug == selected_colour and size_slug == selected_size and option3_slug == option3
-        assign current_variant = variant
-      endif
-    endfor
-  elsif selected_size == ''
-    for variant in product.variants
-      assign colour_slug = variant.option1 | handleize
-      if colour_slug == selected_colour and variant.available
-        assign current_variant = variant
-      endif
-    endfor
-  else
-    for variant in product.variants
-      assign colour_slug = variant.option1 | handleize
-      assign size_slug = variant.option2 | handleize
-      if colour_slug == selected_colour and size_slug == selected_size
-        assign current_variant = variant
-      endif
-    endfor
-  endif
-%}
+    assign current_variant = product.selected_or_first_available_variant
+    if selected_colour != blank and selected_size != blank and option3 != blank
+      for variant in product.variants
+        assign colour_slug = variant.option1 | handleize
+        assign size_slug = variant.option2 | handleize
+        assign option3_slug = variant.option2 | handleize
+        if colour_slug == selected_colour and size_slug == selected_size and option3_slug == option3
+          assign current_variant = variant
+        endif
+      endfor
+    elsif selected_size == ''
+      for variant in product.variants
+        assign colour_slug = variant.option1 | handleize
+        if colour_slug == selected_colour and variant.available
+          assign current_variant = variant
+        endif
+      endfor
+    else
+      for variant in product.variants
+        assign colour_slug = variant.option1 | handleize
+        assign size_slug = variant.option2 | handleize
+        if colour_slug == selected_colour and size_slug == selected_size
+          assign current_variant = variant
+        endif
+      endfor
+    endif
+  %}
 
-<section
-  id="MainProduct-{{ section.id }}"
-  class="page-width section-{{ section.id }}-padding"
-  data-section="{{ section.id }}"
->
   {% comment %}
     {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
     {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -135,12 +135,12 @@
 
   <div class="product md:flex md:space-x-6 md:justify-between container">
     {% if product.media.size > 0 %}
-      <div class="product__gallery md:w-6/12 hidden md:!block">
+      <div class="product__gallery md:w-6/12 ">
         {% render 'product-media-gallery', variant_images: variant_images, current_variant: current_variant %}
       </div>
     {% endif %}
 
-    <div class="product__info-wrapper md:w-6/12 lg:w-5/12 self-start md:sticky md:top-[90px] lg:top-[107px]">
+    <div class="product__info-wrapper md:w-6/12 lg:w-5/12 self-start md:sticky md:top-[90px] lg:top-[107px] relative max-md:pt-7">
       <product-info
         id="ProductInfo-{{ section.id }}"
         data-section="{{ section.id }}"
@@ -158,7 +158,7 @@
                 <div
                   id="colour-picker-mobile"
                   role="button"
-                  class="absolute top-0 left-0 -translate-y-full bg-white/90 container md:hidden invisible opacity-0 transition-[opacity,transform,visibility] duration-500"
+                  class="w-auto max-md:-mx-[40px] absolute top-0 left-0 right-0 -translate-y-full bg-white/90 container md:hidden invisible opacity-0 transition-[opacity,transform,visibility] duration-500"
                   aria-hidden="true"
                 >
                   <div class="flex justify-between py-5 border-b border-blue-1/10 space-x-5">
@@ -190,7 +190,7 @@
 
           <div
             id="product-panel"
-            class="max-md:absolute max-md:bg-white/90 transition-colors max-md:left-0 max-md:top-0 max-md:-translate-y-full group-[.init]/product-page:bg-transparent group-[.init]/product-page:max-md:relative group-[.init]/product-page:max-md:-translate-y-0 max-md:px-[40px] max-md:w-full group-[.init]/product-page:max-md:px-0"
+            class="max-md:bg-white/90 transition-colors "
           >
             <div class="space-y-3 md:space-y-5">
               <header class="space-y-2 md:space-y-4">

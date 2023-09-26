@@ -1,6 +1,6 @@
 <!doctype html>
 <html
-  class="no-js"
+  class="no-js {% if request.page_type == 'product' %}[&_.section-header]:max-md:fixed max-md:fixed max-md:overflow-hidden max-md:h-full w-full{% endif %} overscroll-none "
   lang="{{ request.locale.iso_code }}"
 >
   <head>
@@ -198,23 +198,48 @@
       {% if request.page_type == 'product' %}
         id="product-wrap"
       {% endif %}
-      class=""
+      class="{% if request.page_type == 'product' %}group/prodwrap [&.no-drawer]:max-md:!overflow-auto max-md:!h-full max-md:pt-[90px] max-md:w-full max-md:!overflow-hidden {% endif %}"
     >
+      {% if request.page_type == 'product' and product.images.size > 0 %}
+        {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
+        <div
+          id="product-mobile-gallery"
+          class="group-[.no-drawer]/prodwrap:max-md:!h-auto h-full relative md:!hidden overflow-x-hidden max-md:overscroll-none max-md:h-[calc(100%_+_90px)] max-md:mt-[-90px]"
+        >
+          <div class="group-[.no-drawer]/prodwrap:max-md:!relative absolute inset-0 bottom-[var(--product-panel)]">
+            {% render 'product-media-gallery', variant_images: variant_images, group_class: '', mob: true %}
+            <div class="h-[var(--product-panel)]"></div>
+          </div>
+        </div>
+      {% endif %}
+
       <div
         {% if request.page_type == 'product' %}
           id="product-page"
         {% endif %}
-        class=""
+        class="
+          {% if request.page_type == 'product' %}max-md:opacity-0 max-md:transition-opacity group-[.no-drawer]/prodwrap:max-md:!h-auto group-[.no-drawer]/prodwrap:max-md:!translate-y-0 select-none max-md:flex max-md:flex-col max-md:h-full max-md:bg-white/90 relative group/product-page will-change-transform [&.init]:max-md:translate-y-[calc(-0%_-_var(--product-panel))] md:!translate-x-0 data-[pos=top]:max-md:bg-white data-[pos=top]:max-md:shadow-megamenu max-md:!ease-in-out {% endif %}
+          {% if request.page_type == 'product' %}{%- unless product.media.size > 0 -%}max-md:!overflow-auto max-md:transform-none{%- endunless -%}{%endif%}
+        "
         data-pos=""
       >
         {% if request.page_type == 'product' %}
-          <main id="MainContent" class="outline-none" role="main">
-            {{ content_for_layout }}
-          </main>
+          <div
+            id="product-info-handle"
+            class="product__info-handle flex md:hidden justify-center py-7 after:w-[40px] after:h-[2px] after:bg-blue-1/10 after:rounded-sm bg-white/90 translate-y-[calc(0%_-_var(--product-panel))] group-[.init]/product-page:translate-y-0 group-[.init]/product-page:bg-transparent group-[.no-drawer]/prodwrap:hidden"
+          ></div>
+          <div
+            id="product-info-wrap"
+            class="product__info-wrap max-md:overflow-hidden max-md:overscroll-none group-[.no-drawer]/prodwrap:max-md:pt-7"
+          >
+            <main id="MainContent" class="outline-none" role="main">
+              {{ content_for_layout }}
+            </main>
 
-          <footer class="footer bg-grey-2">
-            {% sections 'footer-group' %}
-          </footer>
+            <footer class="footer bg-grey-2">
+              {% sections 'footer-group' %}
+            </footer>
+          </div>
         {% elsif request.page_type == 'article' %}
           <main id="MainContent" class="outline-none" role="main">
             <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">

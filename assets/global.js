@@ -958,15 +958,23 @@ class VariantSelects extends HTMLElement {
             behavior: 'smooth'
           });
 
-          if (document.querySelector('#product-wrap')) {
-            document.querySelector('#product-wrap').scrollTo({
-              top: 0,
-              left: 0,
-              behavior: "smooth",
+          let activeMedia = document.querySelectorAll('#media-gallery > div:not(.hidden)');
+          let galleryMob = document.querySelector('#media-gallery-mob');
+          if (activeMedia && galleryMob) {
+
+            galleryMob.querySelector('.splide__list').innerHTML = '';
+            activeMedia.forEach(function (el) {
+              let li = document.createElement('li');
+              li.classList.add('splide__slide')
+              li.appendChild(el.cloneNode(true));
+              li.querySelector('img').classList.remove('loaded');
+              galleryMob.querySelector('.splide__list').appendChild(li)
             });
+
+            // refresh slider
+            const splidegalrefresh = new Event('splidegalrefresh');
+            window.dispatchEvent(splidegalrefresh);
           }
-
-
 
         }
 

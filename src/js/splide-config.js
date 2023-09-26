@@ -80,12 +80,26 @@ SplideConfig = {
 
                 }
 
-
                 splideItem.mount();
+
 
                 window.addEventListener('spliderefresh', function () {
                     splideItem.refresh();
                 });
+
+                if (splide.classList.contains('splide-gallery-mob')) {
+
+                    window.addEventListener('splidegalrefresh', function () {
+
+                        splideItem.on('refresh', function () {
+                            const lazyimg = new Event('lazyimg');
+                            window.dispatchEvent(lazyimg);
+                        });
+
+                        splideItem.refresh();
+                    });
+
+                }
 
             });
         }
