@@ -770,7 +770,7 @@
         class="modal fixed inset-0 bg-white pt-[90px] lg:pt-[107px] !m-0 z-50 opacity-0 invisible transition-[opacity,visibility] duration-500 [&.active]:opacity-100 [&.active]:visible"
       >
         <div
-          class="container relative space-y-5 h-full flex flex-col after:w-[40px] after:h-full after:bg-gradient-to-l after:to-transparent after:from-white after:absolute after:right-0 after:top-0"
+          class="container relative space-y-10 h-full flex flex-col after:w-[40px] after:h-full after:bg-gradient-to-l after:to-transparent after:from-white after:absolute after:right-0 after:top-0"
           data-sizeguide
           id="sizeguide"
         >
@@ -781,7 +781,7 @@
             <span>Size Guide</span>
           </h4>
 
-          <div class="max-lg:-mr-[40px] h-full overflow-auto pb-20 pr-[40px] whitespace-nowrap wysiwyg [&_table]:bg-white">
+          <div class="max-lg:-mr-[40px] h-full overflow-auto pb-20 pr-[40px] whitespace-nowrap wysiwyg [&_table]:bg-white text-[14px]">
             {% if product.metafields.custom.size_guide != blank %}
               {{ product.metafields.custom.size_guide }}
             {% elsif product.metafields.custom.product_specification != blank %}
