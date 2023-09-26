@@ -281,7 +281,7 @@
                 </div>
               </header>
 
-              <div class="flex gap-3 justify-between items-center">
+              <div class="flex gap-3 justify-between md:items-center max-md:flex-col">
                 {% if product.price_min != product.price_max %}
                   <p>
                     Price Range
@@ -296,7 +296,7 @@
                 {% endif %}
 
                 <!-- TrustBox widget - Product Mini -->
-                <div class="flex justify-end w-[165px]">
+                <div class="flex md:justify-end ">
                   <div
                     class="trustpilot-widget"
                     data-locale="en-US"
