@@ -1,7 +1,7 @@
 <div
   id="Heading-{{ section.id }}"
   class="
-    container md:flex max-md:space-y-6 {% if section.settings.alignment == 'right' and section.settings.copy == blank %}md:justify-end{% endif %} {% if section.settings.copy != blank %}md:items-center md:gap-5 lg:gap-6{% endif %}
+    container md:flex max-md:space-y-6 {% if section.settings.alignment == 'center' %}justify-center{% endif %} {% if section.settings.alignment == 'right' and section.settings.copy == blank %}md:justify-end{% endif %} {% if section.settings.copy != blank %}md:items-center md:gap-5 lg:gap-6{% endif %}
     {% if section.settings.margin_top == true %}lg:pt-10{% endif %}
   "
 >
@@ -98,6 +98,10 @@
         {
           "value": "left",
           "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
         },
         {
           "value": "right",
