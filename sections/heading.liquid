@@ -23,9 +23,9 @@
   {%- if section.settings.copy != blank -%}
     {% liquid
       if section.settings.copy_style == 'heading3'
-        assign copyclass = 'md:s-m-h3 lg:s-d-h3 md:w-4/12'
+        assign copyclass = 'md:s-m-h3 lg:s-d-h3 md:w-8/12 md:max-w-[500px]'
       else
-        assign copyclass = 'md:w-8/12 md:max-w-[500px]'
+        assign copyclass = 'md:w-4/12'
       endif
     %}
     <div class="animation an-fadeup md:delay-200 wysiwyg text-blue-1 {{ copyclass }}">
