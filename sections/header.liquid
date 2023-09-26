@@ -48,7 +48,11 @@
               href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
               class="max-lg:hidden"
             >
-              {% render 'icon-account' %}
+              {% if customer %}
+                {% render 'icon-account-customer' %}
+              {% else %}
+                {% render 'icon-account' %}
+              {% endif %}
               <span class="visually-hidden">
                 {%- liquid
                   if customer
@@ -77,7 +81,11 @@
 
           <a href="{{ routes.cart_url }}" class="relative flex items-center outline-none" id="cart-icon-bubble">
             {%- liquid
-              render 'icon-cart'
+              if cart != empty
+                render 'icon-cart-notempty'
+              else
+                render 'icon-cart'
+              endif
             -%}
             <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
             {%- if cart != empty -%}

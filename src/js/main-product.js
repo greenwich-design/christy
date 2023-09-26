@@ -64,6 +64,10 @@ document.addEventListener('DOMContentLoaded', function () {
             colourPickerMobile.classList.remove('!-translate-y-full', '!opacity-100', '!visible');
         });
 
+        window.addEventListener('scroll', function () {
+            colourPickerMobile.classList.remove('!-translate-y-full', '!opacity-100', '!visible');
+        });
+
 
         colourPickerMobile.addEventListener('click', function (e) {
             e.stopPropagation();

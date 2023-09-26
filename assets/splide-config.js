@@ -11,9 +11,9 @@ SplideConfig = {
         var splideItem = new Splide(splide, {
           classes: {
             // Add classes for pagination.
-            pagination: 'splide__pagination text-[0px] !static !mt-10',
+            pagination: 'splide__pagination text-[0px] !static !mt-10 flex-wrap gap-y-2',
             // container
-            page: 'splide__pagination__page !h-[2px] !w-[40px] !m-0 !mx-[6px] !rounded-none [&.is-active]:!bg-blue-1',
+            page: 'splide__pagination__page !bg-transparent !h-auto !w-auto !py-2 after:!h-[2px] after:!w-[40px] !m-0 !mx-[6px] !rounded-none after:!bg-blue-1 after:block !opacity-50 [&.is-active]:!opacity-100',
             // each button
             arrow: 'splide__arrow'
           }
@@ -24,6 +24,9 @@ SplideConfig = {
             videos.forEach(function (video) {
               video.pause();
             });
+          }
+          if (document.querySelector('#colour-picker-mobile')) {
+            document.querySelector('#colour-picker-mobile').classList.remove('!-translate-y-full', '!opacity-100', '!visible');
           }
         });
         splideItem.on('active', function (slide) {

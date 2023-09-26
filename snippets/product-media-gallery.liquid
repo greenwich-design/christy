@@ -63,16 +63,16 @@
 
   <div
     id="media-gallery-mob"
-    class="md:!hidden splide splide-gallery-mob min-h-[90px] lg:min-h-[107px] {{ group_class }} max-md:-mx-[40px] flex flex-wrap gap-2 [&_>div]:w-full [&_>div]:md:w-[calc(50%_-_.25rem)] [&_>div:first-child]:md:w-full  [&_>.img--variant]:hidden [&_>.img--variant:first-child]:!block"
+    class="md:!hidden splide splide-gallery-mob min-h-[90px] lg:min-h-[107px] {{ group_class }} max-md:-mx-[40px] group/splide"
     data-splide='
-      {"arrows": true, "pagination": false, "type": "slide","destroy": "true", "breakpoints": {
+      {"arrows": true, "pagination": true, "type": "slide","destroy": "true", "breakpoints": {
         "768": {
           "destroy": false
         }
       }}
     '
   >
-    <div class="splide__track flex flex-1">
+    <div class="splide__track flex flex-1 [&_figure>img]:aspect-square [&_figure>img]:object-cover">
       <ul class="splide__list flex !h-auto w-full">
         {% assign first_image = true %}
         {% assign has_product_image = false %}
@@ -189,9 +189,9 @@
       </ul>
     </div>
 
-    <div class="splide__arrows splide__arrows--ltr">
+    <div class="splide__arrows splide__arrows--ltr hidden group-[.is-initialized]/splide:!block">
       <button
-        class="splide__arrow splide__arrow--prev !w-10 !h-10 disabled:!opacity-0 transition-opacity"
+        class="splide__arrow splide__arrow--prev !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-white"
         type="button"
         aria-label="Previous slide"
         aria-controls="splide01-track"
@@ -201,7 +201,7 @@
         </svg>
       </button>
       <button
-        class="splide__arrow splide__arrow--next !w-10 !h-10 disabled:!opacity-0 transition-opacity"
+        class="splide__arrow splide__arrow--next !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-white"
         type="button"
         aria-label="Next slide"
         aria-controls="splide01-track"
@@ -211,6 +211,10 @@
         </svg>
       </button>
     </div>
+
+    <ul
+      class="splide__pagination !absolute  !bottom-0 [&_button]:block !flex items-center !p-3 [&:not(:has(li:nth-child(2)))]:hidden"
+    ></ul>
   </div>
 
   <div
@@ -321,23 +325,4 @@
   </div>
 {% endif %}
 
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    let activeMedia = document.querySelectorAll('#media-gallery > div:not(.hidden)');
-    let galleryMob = document.querySelector('#media-gallery-mob');
-    if (activeMedia && galleryMob) {
-      galleryMob.querySelector('.splide__list').innerHTML = '';
-      activeMedia.forEach(function (el) {
-        let li = document.createElement('li');
-        li.classList.add('splide__slide');
-        li.appendChild(el.cloneNode(true));
-        galleryMob.querySelector('.splide__list').appendChild(li);
-      });
-
-      SplideConfig.initSplides();
-    }
-
-    //document.querySelector('#media-gallery-mob').classList.add('max-md:!block');
-    //document.querySelector('#media-gallery').classList.add('max-md:hidden');
-  });
-</script>
+<script></script>
