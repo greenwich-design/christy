@@ -35,6 +35,14 @@
           </a>
         {% endif %}
       {%- endfor %}
+
+      {% if product.metafields.custom.product_specification != blank %}
+        <div id="sideguidemodal" class="text-right !ml-auto pl-5">
+          <button aria-label="Go to sizeguide" class="btn-tertiary" data-modaltrigger="sizeguide">
+            View Size Guide
+          </button>
+        </div>
+      {% endif %}
     </nav>
 
     {% assign fs_count = 0 %}
