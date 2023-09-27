@@ -63,10 +63,10 @@
   let quizTarget = document.querySelector('#shopify-section-{{ section.id }}');
 
   if (quizTarget) {
-    let quizTargetTop = target.getBoundingClientRect().top + window.scrollY;
+    let quizTargetTop = quizTarget.getBoundingClientRect().top + window.scrollY;
 
     window.addEventListener('resize', function () {
-      quizTargetTop = target.getBoundingClientRect().top + window.scrollY;
+      quizTargetTop = quizTarget.getBoundingClientRect().top + window.scrollY;
     });
 
     window.addEventListener('scroll', function () {
