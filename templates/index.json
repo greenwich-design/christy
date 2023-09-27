@@ -355,6 +355,14 @@
         "horiz_padding": false,
         "margin_top": false
       }
+    },
+    "1a0d2189-d58c-4af4-9a8a-1cf7a78ac4ef": {
+      "type": "quiz-popup",
+      "settings": {
+        "title": "What's your deam bedding?",
+        "copy": "<p>Not sure what to buy? Take our quiz to discover your <strong>perfect bedding<\/strong> match for a restful night’s slumber. <\/p>",
+        "button_link": "https:\/\/www.christy.co.uk\/"
+      }
     }
   },
   "order": [
@@ -372,6 +380,7 @@
     "heading4",
     "billboard4",
     "featured-blogs",
-    "d1799047-2d3f-4748-9804-8038692b0c63"
+    "d1799047-2d3f-4748-9804-8038692b0c63",
+    "1a0d2189-d58c-4af4-9a8a-1cf7a78ac4ef"
   ]
 }
