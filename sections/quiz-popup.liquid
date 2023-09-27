@@ -35,121 +35,16 @@
 
       <div class="container pt-5 lg:pt-8 pb-10 lg:pb-20 space-y-4 lg:space-y-6 flex-1 flex justify-center flex-col">
         <div class="max-w-[365px] mx-auto space-y-5 lg:space-y-8">
-          <div class="s-m-h4 lg:s-d-h3">{{ settings.email_modal_signup_text }}</div>
+          <div class="d-h5">Quiz</div>
 
-          <div class="[&_svg]:w-5 [&_svg]:h-auto [&_svg]:mr-3">
-            {% form 'customer', class: 'newsletter-form' %}
-              <input type="hidden" name="contact[tags]" value="newsletter">
-              <div class="newsletter-form__field-wrapper">
-                <div class="space-y-12">
-                  {%- if form.posted_successfully? -%}
-                    <h3
-                      class="font-semibold flex"
-                      id="Newsletter-success--{{ section.id }}"
-                    >
-                      {% render 'icon-success' -%}
-                      Thank you for signing up for our newsletter.
-                    </h3>
-
-                    <p>Please check your email for your 10% discount code and to confirm your interest.</p>
-                  {%- endif -%}
-
-                  {%- if form.errors -%}
-                    <small class="font-semibold flex" id="Newsletter-error--{{ section.id }}">
-                      {%- render 'icon-error' -%}
-                      {{- form.errors.translated_fields.email | capitalize }}
-                      {{ form.errors.messages.email -}}
-                    </small>
-                  {%- endif -%}
-
-                  {%- if form.posted_successfully? -%}
-                  {%- else -%}
-                    <div class="space-y-4 lg:space-y-6">
-                      <div class="field-large">
-                        <input
-                          type="text"
-                          name="contact[first_name]"
-                          id="{{ formId }}-first_name"
-                          class="field__input !border-blue-1/10"
-                          value="{{ form.first_name }}"
-                          placeholder="First name"
-                          aria-label="First name"
-                          aria-required="true"
-                          autocorrect="off"
-                          autocapitalize="off"
-                          {% if form.errors %}
-                            autofocus
-                            aria-invalid="true"
-                            aria-describedby="Newsletter-error--{{ section.id }}"
-                          {% elsif form.posted_successfully? %}
-                            aria-describedby="Newsletter-success--{{ section.id }}"
-                          {% endif %}
-                        >
-                      </div>
-
-                      <div class="field-large">
-                        <input
-                          type="text"
-                          name="contact[last_name]"
-                          id="{{ formId }}-last_name"
-                          class="field__input !border-blue-1/10"
-                          value="{{ form.last_name }}"
-                          placeholder="Last name"
-                          aria-label="Last name"
-                          aria-required="true"
-                          autocorrect="off"
-                          autocapitalize="off"
-                          {% if form.errors %}
-                            autofocus
-                            aria-invalid="true"
-                            aria-describedby="Newsletter-error--{{ section.id }}"
-                          {% elsif form.posted_successfully? %}
-                            aria-describedby="Newsletter-success--{{ section.id }}"
-                          {% endif %}
-                        >
-                      </div>
-
-                      <div class="field-large">
-                        <input
-                          id="NewsletterForm--{{ section.id }}-email"
-                          type="email"
-                          name="contact[email]"
-                          class="field__input !border-blue-1/10"
-                          value="{{ form.email }}"
-                          aria-required="true"
-                          autocorrect="off"
-                          autocapitalize="off"
-                          autocomplete="email"
-                          {% if form.errors %}
-                            autofocus
-                            aria-invalid="true"
-                            aria-describedby="Newsletter-error--{{ section.id }}"
-                          {% elsif form.posted_successfully? %}
-                            aria-describedby="Newsletter-success--{{ section.id }}"
-                          {% endif %}
-                          placeholder="{{ 'newsletter.label' | t }}"
-                          required
-                        >
-                        <label class="field__label hidden" for="NewsletterForm--{{ section.id }}-email">
-                          {{ 'newsletter.label' | t }}
-                        </label>
-                      </div>
-                    </div>
-
-                    <button
-                      type="submit"
-                      class="btn-large btn-primary"
-                      name="commit"
-                      id="Subscribe"
-                      aria-label="{{ 'newsletter.button_label' | t }}"
-                    >
-                      Sign Up
-                    </button>
-                  {%- endif -%}
-                </div>
-              </div>
-            {% endform %}
+          <h3 class="s-m-h4 lg:s-d-h3">{{ section.settings.title }}</h3>
+          <div class="wysiwyg">
+            {{ section.settings.copy }}
           </div>
+
+          {% if section.settings.button_link %}
+            <a href="{{ section.settings.button_link }}" class="btn-large btn-primary">Start Quiz</a>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -165,7 +60,25 @@
     "groups": ["header", "footer"],
     "templates": ["page"]
   },
-  "settings": [],
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "title",
+      "label": "Title",
+      "default": "What's your deam bedding?"
+    },
+    {
+      "type": "richtext",
+      "id": "copy",
+      "label": "Copy",
+      "default": "<p>Not sure what to buy? Take our quiz to discover your <strong>perfect bedding</strong> match for a restful night’s slumber. </p>"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    }
+  ],
 
   "presets": [
     {
