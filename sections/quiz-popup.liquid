@@ -1,8 +1,11 @@
+{% if request.design_mode %}
+  <h2 class="m-h1 lg:d-h1 text-blue-1">Quiz popup will be trigger when this point is in view</h2>
+{% endif %}
+
 <div
   data-modal="quiz_popup"
   class="modal group/drawer drawer z-40 [&.active]:visible fixed w-full h-full top-0 right-0"
 >
-  {{ section.id }}
   <div class="h-full flex justify-end opacity-0 transition-opacity group-[.active]/drawer:opacity-100 ">
     <div data-modalclose class="absolute w-full h-full bg-black/50"></div>
 
@@ -52,6 +55,31 @@
     </div>
   </div>
 </div>
+
+<script>
+  // on scroll, when target section.id enters the view, add 'active' class to the modal
+  // when modal is active, add 'overflow-hidden' to the body
+
+  let quizTarget = document.querySelector('#shopify-section-{{ section.id }}');
+
+  if (quizTarget) {
+    let quizTargetTop = target.getBoundingClientRect().top + window.scrollY;
+
+    window.addEventListener('resize', function () {
+      quizTargetTop = target.getBoundingClientRect().top + window.scrollY;
+    });
+
+    window.addEventListener('scroll', function () {
+      let currentStatus = localStorage.getItem('quizpopup-{{ section.id }}');
+
+      if (window.scrollY + window.innerHeight > quizTargetTop && currentStatus != 'true') {
+        document.querySelector('#shopify-section-{{ section.id }} [data-modal]').classList.add('active');
+
+        localStorage.setItem('quizpopup-{{ section.id }}', 'true');
+      }
+    });
+  }
+</script>
 
 {% schema %}
 {
