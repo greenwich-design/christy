@@ -87,36 +87,45 @@ SplideConfig = {
     }
 
     // product gallery
-    var main = new Splide('#media-gallery-mob', {
-      type: 'fade',
-      pagination: false,
-      arrows: true,
-      cover: true
-    });
-    var thumbnails = new Splide('#media-gallery-thumbs', {
-      rewind: true,
-      fixedWidth: 61,
-      fixedHeight: 61,
-      isNavigation: true,
-      gap: 10,
-      focus: 'center',
-      pagination: false,
-      cover: true,
-      arrows: false,
-      dragMinThreshold: {
-        mouse: 4,
-        touch: 10
-      },
-      breakpoints: {
-        640: {
-          fixedWidth: 61,
-          fixedHeight: 61
+
+    if (document.querySelector('#media-gallery-mob')) {
+      var main = new Splide('#media-gallery-mob', {
+        type: 'slide',
+        pagination: false,
+        arrows: true,
+        cover: true
+      });
+    }
+    if (document.querySelector('#media-gallery-thumbs')) {
+      var thumbnails = new Splide('#media-gallery-thumbs', {
+        rewind: true,
+        fixedWidth: 61,
+        fixedHeight: 61,
+        isNavigation: true,
+        gap: 10,
+        focus: 'center',
+        pagination: false,
+        cover: true,
+        arrows: false,
+        dragMinThreshold: {
+          mouse: 4,
+          touch: 10
+        },
+        breakpoints: {
+          640: {
+            fixedWidth: 61,
+            fixedHeight: 61
+          }
         }
-      }
-    });
-    main.sync(thumbnails);
-    main.mount();
-    thumbnails.mount();
+      });
+    }
+    if (document.querySelector('#media-gallery-mob')) {
+      main.sync(thumbnails);
+      main.mount();
+    }
+    if (document.querySelector('#media-gallery-thumbs')) {
+      thumbnails.mount();
+    }
     window.addEventListener('splidegalrefresh', function () {
       main.on('refresh', function () {
         var lazyimg = new Event('lazyimg');
