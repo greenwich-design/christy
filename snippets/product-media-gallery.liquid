@@ -57,20 +57,13 @@
       assign current_variant = product.selected_or_first_available_variant
     endif
 
-    assign widths = '375, 550, 664, 750, 1100, 1344, 1500, 1780, 1920'
+    assign widths = '61, 122, 375, 550, 664, 750, 1100, 1344, 1500, 1780, 1920'
     assign sizes = '(max-width: 767px) 100vw, (min-width: 768px) 332px'
   %}
 
   <div
     id="media-gallery-mob"
-    class="md:!hidden splide splide-gallery-mob min-h-[90px] lg:min-h-[107px] {{ group_class }} max-md:-mx-[40px] group/splide"
-    data-splide='
-      {"arrows": true, "pagination": true, "type": "slide","destroy": "true", "breakpoints": {
-        "768": {
-          "destroy": false
-        }
-      }}
-    '
+    class="md:!hidden splide splide-custom splide-gallery-mob min-h-[90px] lg:min-h-[107px] {{ group_class }} max-md:-mx-[40px] group/splide"
   >
     <div class="splide__track flex flex-1 [&_figure>img]:aspect-square [&_figure>img]:object-cover">
       <ul class="splide__list flex !h-auto w-full">
@@ -109,7 +102,7 @@
               {% if current_variant.option1 == alt_striped and first_image == true %}
                 {% assign first_image = false %}
               {% endif %}
-              <li class="splide__slide">
+              <li class="splide__slide !translate-x-0">
                 <div
                   id="media-{{ media.id }}"
                   class="flex block "
@@ -215,6 +208,114 @@
     <ul
       class="splide__pagination !absolute  !bottom-0 [&_button]:block !flex items-center !p-3 [&:not(:has(li:nth-child(2)))]:hidden"
     ></ul>
+  </div>
+
+  <div
+    id="media-gallery-thumbs"
+    class="md:!hidden splide splide-custom splide-gallery-mob {{ group_class }} max-md:-mx-[40px] group/splide  [&_.is-active]:!border-[2px] [&_.is-active]:!border-blue-1 !mt-[10px]"
+  >
+    <div class="splide__track flex flex-1 [&_figure>img]:aspect-square [&_figure>img]:object-cover">
+      <ul class="splide__list flex !h-auto w-full">
+        {% assign first_image = true %}
+        {% assign has_product_image = false %}
+        {% for media in product.media %}
+          {%- assign image_class = 'object-contain object-center w-full h-full inset-0 opacity-0' -%}
+          {%- assign alt_array = media.alt | split: '-' -%}
+          {%- assign alt_striped = alt_array[0] | strip -%}
+          {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
+
+          {% if alt_array[1] == 'product_image' and media.media_type == 'image' %}
+            {% if has_product_image == false %}
+              {% assign has_product_image = true %}
+            {% endif %}
+
+            {%- assign loading = 'lazy' %}
+
+            {%- assign width = 61 -%}
+            {%- assign sizes = '61px' -%}
+
+            {%- assign aspect_ratio = 1 -%}
+            {%- assign height = 61 -%}
+            {% comment %}
+              {% assign height = width | divided_by: 0.8 | round: 0 %}
+            {% endcomment %}
+
+            {% if current_variant.option1 == alt_striped %}
+              {% if current_variant.option1 == alt_striped and first_image == true %}
+                {% assign first_image = false %}
+              {% endif %}
+              <li class="splide__slide">
+                <div
+                  id="media-{{ media.id }}"
+                  class="flex block "
+                  data-option1="{{ alt_striped }}"
+                >
+                  <figure class=" w-full relative z-0">
+                    {%- render 'spinner' -%}
+
+                    {%- render 'lazyimg',
+                      width: width,
+                      height: height,
+                      img: media,
+                      widths: '61, 122',
+                      class: image_class,
+                      sizes: sizes,
+                      loading: loading
+                    -%}
+                  </figure>
+                </div>
+              </li>
+            {% endif %}
+          {%- endif -%}
+        {% endfor %}
+
+        {% if has_product_image == false %}
+          {% for media in product.images %}
+            {%- assign image_class = 'object-contain object-center w-full h-full inset-0  image-magnify-hover cursor-zoom-in opacity-0' -%}
+            {%- assign loading = 'lazy' %}
+
+            {%- assign width = 61 -%}
+            {%- assign sizes = '61px' %}
+
+            {%- assign aspect_ratio = media.height | times: 100 | divided_by: media.width | times: 100 -%}
+            {%- assign height = 61 -%}
+            {% comment %}
+              {% assign height = width | divided_by: 0.8 | round: 0 %}
+            {% endcomment %}
+
+            {%- assign alt_array = media.alt | split: '-' -%}
+            {%- assign alt_striped = alt_array[0] | strip -%}
+
+            {% if alt_array[1] != 'product_swatch' %}
+              {% if first_image == true %}
+                {% assign first_image = false %}
+              {% endif %}
+              <li class="splide__slide">
+                <div
+                  id="media-{{ media.id }}"
+                  class="flex  "
+                  data-option1="{{ alt_striped }}"
+                >
+                  <figure class="w-full relative z-0">
+                    {%- render 'spinner' -%}
+
+                    {%- render 'lazyimg',
+                      width: width,
+                      height: height,
+                      img: media,
+                      widths: widths,
+                      class: image_class,
+                      sizes: sizes,
+                      loading: loading
+                    -%}
+                  </figure>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </ul>
+    </div>
   </div>
 
   <div

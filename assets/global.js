@@ -960,15 +960,20 @@ class VariantSelects extends HTMLElement {
 
           let activeMedia = document.querySelectorAll('#media-gallery > div:not(.hidden)');
           let galleryMob = document.querySelector('#media-gallery-mob');
+          let galleryThumbs = document.querySelector('#media-gallery-thumbs');
           if (activeMedia && galleryMob) {
 
             galleryMob.querySelector('.splide__list').innerHTML = '';
+            galleryThumbs.querySelector('.splide__list').innerHTML = '';
             activeMedia.forEach(function (el) {
               let li = document.createElement('li');
-              li.classList.add('splide__slide')
+              li.classList.add('splide__slide', '!translate-x-0')
               li.appendChild(el.cloneNode(true));
               li.querySelector('img').classList.remove('loaded');
-              galleryMob.querySelector('.splide__list').appendChild(li)
+              galleryMob.querySelector('.splide__list').appendChild(li.cloneNode(true))
+
+              li.querySelector('img').classList.remove('image-magnify-hover', 'cursor-zoom-in');
+              galleryThumbs.querySelector('.splide__list').appendChild(li.cloneNode(true))
             });
 
             // refresh slider
