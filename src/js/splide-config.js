@@ -117,7 +117,7 @@ SplideConfig = {
                 }
             });
 
-            main.on('move', function () {
+            main.on('move drag', function () {
                 if (document.querySelector('#colour-picker-mobile')) {
                     document.querySelector('#colour-picker-mobile').classList.remove('!-translate-y-full', '!opacity-100', '!visible');
                 }
