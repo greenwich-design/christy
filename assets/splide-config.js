@@ -95,6 +95,11 @@ SplideConfig = {
         arrows: true,
         cover: true
       });
+      main.on('move', function () {
+        if (document.querySelector('#colour-picker-mobile')) {
+          document.querySelector('#colour-picker-mobile').classList.remove('!-translate-y-full', '!opacity-100', '!visible');
+        }
+      });
     }
     if (document.querySelector('#media-gallery-thumbs')) {
       var thumbnails = new Splide('#media-gallery-thumbs', {
