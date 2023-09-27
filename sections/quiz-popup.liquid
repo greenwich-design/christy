@@ -35,15 +35,16 @@
 
       <div class="container pt-5 lg:pt-8 pb-10 lg:pb-20 space-y-4 lg:space-y-6 flex-1 flex justify-center flex-col">
         <div class="max-w-[365px] mx-auto space-y-5 lg:space-y-8">
-          <div class="d-h5">Quiz</div>
-
-          <h3 class="s-m-h4 lg:s-d-h3">{{ section.settings.title }}</h3>
+          <div class="space-y-3">
+            <div class="d-h5">Quiz</div>
+            <h3 class="s-m-h4 lg:s-d-h3">{{ section.settings.title }}</h3>
+          </div>
           <div class="wysiwyg">
             {{ section.settings.copy }}
           </div>
 
           {% if section.settings.button_link %}
-            <a href="{{ section.settings.button_link }}" class="btn-large btn-primary">Start Quiz</a>
+            <a href="{{ section.settings.button_link }}" class="btn-large btn-primary !mt-12">Start Quiz</a>
           {% endif %}
         </div>
       </div>
