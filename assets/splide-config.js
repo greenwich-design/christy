@@ -93,7 +93,13 @@ SplideConfig = {
         type: 'slide',
         pagination: false,
         arrows: true,
-        cover: true
+        cover: true,
+        destroy: true,
+        breakpoints: {
+          768: {
+            destroy: false
+          }
+        }
       });
       main.on('move', function () {
         if (document.querySelector('#colour-picker-mobile')) {
@@ -116,10 +122,14 @@ SplideConfig = {
           mouse: 4,
           touch: 10
         },
+        destroy: true,
         breakpoints: {
           640: {
             fixedWidth: 61,
             fixedHeight: 61
+          },
+          768: {
+            destroy: false
           }
         }
       });

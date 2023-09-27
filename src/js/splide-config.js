@@ -109,6 +109,12 @@ SplideConfig = {
                 pagination: false,
                 arrows: true,
                 cover: true,
+                destroy: true,
+                breakpoints: {
+                    768: {
+                        destroy: false
+                    }
+                }
             });
 
             main.on('move', function () {
@@ -133,12 +139,16 @@ SplideConfig = {
                     mouse: 4,
                     touch: 10,
                 },
+                destroy: true,
                 breakpoints: {
                     640: {
                         fixedWidth: 61,
                         fixedHeight: 61,
                     },
-                },
+                    768: {
+                        destroy: false
+                    }
+                }
             });
         }
 
