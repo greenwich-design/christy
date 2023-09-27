@@ -22,7 +22,7 @@
           </h2>
           <ul>
             {%- for field in form.errors -%}
-              <li>
+              <li class="wysiwyg">
                 {%- if field == 'form' -%}
                   {{ form.errors.messages[field] }}
                 {%- else -%}
