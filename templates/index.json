@@ -356,6 +356,14 @@
         "horiz_padding": false,
         "margin_top": false
       }
+    },
+    "2970b3ab-743a-4054-95d1-048d41881e08": {
+      "type": "quiz-popup",
+      "settings": {
+        "title": "What's your deam bedding?",
+        "copy": "<p>Not sure what to buy? Take our quiz to discover your <strong>perfect bedding<\/strong> match for a restful night’s slumber. <\/p>",
+        "button_link": "#quiz-gWHPoe"
+      }
     }
   },
   "order": [
@@ -373,6 +381,7 @@
     "heading4",
     "billboard4",
     "featured-blogs",
-    "d1799047-2d3f-4748-9804-8038692b0c63"
+    "d1799047-2d3f-4748-9804-8038692b0c63",
+    "2970b3ab-743a-4054-95d1-048d41881e08"
   ]
 }
