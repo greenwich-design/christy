@@ -952,11 +952,11 @@ class VariantSelects extends HTMLElement {
               option1Item.classList.add('hidden');
             }
           });
-
+          /*
           window.scrollTo({
             top: 0,
             behavior: 'smooth'
-          });
+          });*/
 
           let activeMedia = document.querySelectorAll('#media-gallery > div:not(.hidden)');
           let galleryMob = document.querySelector('#media-gallery-mob');

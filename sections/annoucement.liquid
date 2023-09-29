@@ -1,0 +1,30 @@
+{% if section.settings.message %}
+  <aside id="announcement-bar" class="relative text-white text-center bg-blue-1 top-0 left-0 py-3 font-bold">
+    <div class="container">{{ section.settings.message }}</div>
+  </aside>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Announcement Bar",
+  "tag": "section",
+  "class": "section-annoucement w-full",
+  "enabled_on": {
+    "groups": ["header"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "message",
+      "default": "Message",
+      "label": "Annoucement Bar Message",
+      "info": "Enter Annoucement Bar Message"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Announcement Bar"
+    }
+  ]
+}
+{% endschema %}
