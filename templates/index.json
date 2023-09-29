@@ -360,8 +360,8 @@
     "2970b3ab-743a-4054-95d1-048d41881e08": {
       "type": "quiz-popup",
       "settings": {
-        "title": "What's your deam bedding?",
-        "copy": "<p>Not sure what to buy? Take our quiz to discover your <strong>perfect bedding<\/strong> match for a restful night’s slumber. <\/p>",
+        "title": "What's your perfect towel?",
+        "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
         "button_link": "#quiz-gWHPoe"
       }
     }
