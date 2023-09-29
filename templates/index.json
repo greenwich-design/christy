@@ -5,6 +5,7 @@
       "blocks": {
         "c4c43d90-6461-4c99-aee1-543890d018df": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/hp_banner_bed2.jpg",
             "video": "shopify:\/\/files\/videos\/Untitled (1) (1).mp4",
@@ -55,82 +56,6 @@
         "copy_style": "default",
         "alignment": "right",
         "horiz_padding": true,
-        "margin_top": false
-      }
-    },
-    "billboard": {
-      "type": "billboard",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/bath-home.jpg",
-        "subtitle": "Explore",
-        "title": "<p>Bath<\/p>",
-        "copy": "<p>Step into a spa-like sanctuary with our luxurious selection of bathroom products.<\/p>",
-        "button_label": "Shop All",
-        "button_link": "shopify:\/\/collections\/all-bath",
-        "button_type": "default",
-        "colour_theme": "white",
-        "alignment": "left",
-        "alignment_vertical": "top",
-        "mobile_content_position": "overlay"
-      }
-    },
-    "c-info-columns": {
-      "type": "c-info-columns",
-      "blocks": {
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/thick-fluffy.jpg",
-            "image_aspect": "1:1",
-            "title": "Thick & Indulgent",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "all-bath",
-            "collection_tag": "Thick & Indulgent"
-          }
-        },
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/light-easy.jpg",
-            "image_aspect": "1:1",
-            "title": "Fluffy & Light",
-            "text": "<p>Keep your home comforts close with take-them-anywhere lightweight options. <\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "all-bath",
-            "collection_tag": "Fluffy & Light"
-          }
-        },
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/invigorating.jpg",
-            "image_aspect": "2:3",
-            "title": "Invigorating & Durable",
-            "text": "<p>Start (or end) your day the refreshing way, with our selection of revitalising products.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "all-bath",
-            "collection_tag": "Invigorating & Durable"
-          }
-        }
-      },
-      "block_order": [
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-0",
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-1",
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2"
-      ],
-      "settings": {
-      }
-    },
-    "heading2": {
-      "type": "heading",
-      "settings": {
-        "heading": "<p>Your style, your choice: keep it personal with perfect-fit products.<\/p>",
-        "heading_width": "4",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "left",
-        "horiz_padding": false,
         "margin_top": false
       }
     },
@@ -194,6 +119,82 @@
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-0",
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-1",
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2"
+      ],
+      "settings": {
+      }
+    },
+    "heading2": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Your style, your choice: keep it personal with perfect-fit products.<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "left",
+        "horiz_padding": false,
+        "margin_top": false
+      }
+    },
+    "billboard": {
+      "type": "billboard",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/bath-home.jpg",
+        "subtitle": "Explore",
+        "title": "<p>Bath<\/p>",
+        "copy": "<p>Step into a spa-like sanctuary with our luxurious selection of bathroom products.<\/p>",
+        "button_label": "Shop All",
+        "button_link": "shopify:\/\/collections\/all-bath",
+        "button_type": "default",
+        "colour_theme": "white",
+        "alignment": "left",
+        "alignment_vertical": "top",
+        "mobile_content_position": "overlay"
+      }
+    },
+    "c-info-columns": {
+      "type": "c-info-columns",
+      "blocks": {
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thick-fluffy.jpg",
+            "image_aspect": "1:1",
+            "title": "Thick & Indulgent",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bath",
+            "collection_tag": "Thick & Indulgent"
+          }
+        },
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/light-easy.jpg",
+            "image_aspect": "1:1",
+            "title": "Fluffy & Light",
+            "text": "<p>Keep your home comforts close with take-them-anywhere lightweight options. <\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bath",
+            "collection_tag": "Fluffy & Light"
+          }
+        },
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/invigorating.jpg",
+            "image_aspect": "2:3",
+            "title": "Invigorating & Durable",
+            "text": "<p>Start (or end) your day the refreshing way, with our selection of revitalising products.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bath",
+            "collection_tag": "Invigorating & Durable"
+          }
+        }
+      },
+      "block_order": [
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-0",
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-1",
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2"
       ],
       "settings": {
       }
@@ -351,7 +352,7 @@
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
-        "alignment": "center",
+        "alignment": "right",
         "horiz_padding": false,
         "margin_top": false
       }
@@ -360,11 +361,11 @@
   "order": [
     "hero-collection",
     "heading",
-    "billboard",
-    "c-info-columns",
-    "heading2",
     "billboard2",
     "c-info-columns2",
+    "heading2",
+    "billboard",
+    "c-info-columns",
     "billboard3",
     "images-copy-cta",
     "heading3",
