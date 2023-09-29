@@ -177,10 +177,12 @@ App = {
 
         const navMob = document.querySelector('#NavMob');
         function navMobOpen() {
+            document.querySelector('#header').classList.add('[&>.header-bar]:!translate-y-0');
             navMob.classList.add('open');
         }
 
         function navMobClose() {
+            document.querySelector('#header').classList.remove('[&>.header-bar]:!translate-y-0');
             navMob.classList.remove('open');
         }
 
