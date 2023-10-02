@@ -136,11 +136,11 @@
                           <ul class="columns-3 column gap-16 column-rule-blue-1 [&_>li]:mb-12 fake-column-rule-blue-1 min-h-full">
                             {% assign links = linklists[menu].links %}
                             {% for parent in links %}
-                              {% if parent.levels > 0 %}
-                                <li class="space-y-4 break-inside-avoid">
-                                  <a href="{{ parent.url }}" class="m-body-copy-med lg:d-body-copy-med">
-                                    {{- parent.title | escape -}}
-                                  </a>
+                              <li class="space-y-4 break-inside-avoid">
+                                <a href="{{ parent.url }}" class="m-body-copy-med lg:d-body-copy-med">
+                                  {{- parent.title | escape -}}
+                                </a>
+                                {% if parent.levels > 0 %}
                                   <ul class="space-y-3 font-light">
                                     {% for child in parent.links %}
                                       <li>
@@ -150,8 +150,8 @@
                                       </li>
                                     {% endfor %}
                                   </ul>
-                                </li>
-                              {% endif %}
+                                {% endif %}
+                              </li>
                             {% endfor %}
                           </ul>
                         </li>
