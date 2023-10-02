@@ -184,7 +184,10 @@
                               </li>
                             {% else %}
                               <li class="space-y-4 break-inside-avoid border-blue-1/10 border-b last:border-b-0">
-                                <a href="{{ parent.url }}" class="block !my-0 py-5 lg:py-7">
+                                <a
+                                  href="{{ parent.url }}"
+                                  class="m-body-copy-med lg:d-body-copy-med block !my-0 py-5 lg:py-7"
+                                >
                                   {{- parent.title | escape -}}
                                 </a>
                               </li>
