@@ -279,7 +279,7 @@
 // non tailwind
 
 .shopify-challenge__container {
-    @apply py-[90px] lg:py-[107px] flex flex-col items-center;
+    @apply py-[45px] md:py-[90px] lg:py-[107px] flex flex-col items-center;
 
     .shopify-challenge__message {
         @apply font-semibold;
