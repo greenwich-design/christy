@@ -147,7 +147,7 @@
                                         <a class="{% if child.current %} active{% endif %}" href="{{child.url}}">
                                           {{- child.title -}}
                                           {% unless child.title contains 'Shop by'
-                                            and child.type != 'collection_link'
+                                            and child.type == 'collection_link'
                                             and child.object.metafields.christy23.collection_usp == blank
                                           %}
                                             <strong
