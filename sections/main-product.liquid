@@ -284,14 +284,13 @@
               <div class="flex gap-3 justify-between md:items-center max-md:flex-col">
                 {% if product.price_min != product.price_max %}
                   <p>
-                    Price Range
                     <strong class="inline-block">
                       {{- product.price_min | money }} - {{ product.price_max | money -}}
                     </strong>
                   </p>
                 {% else %}
                   <p>
-                    Price <strong class="inline-block">{{ product.price | money }}</strong>
+                    <strong class="inline-block">{{ product.price | money }}</strong>
                   </p>
                 {% endif %}
 
