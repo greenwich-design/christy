@@ -487,23 +487,40 @@
           <div class="space-y-2 lg:space-y-3">
             {%- assign cumulative_rrp = 0 -%}
             {%- for item in cart.items -%}
-              {%- unless product.price_varies == false and product.compare_at_price_varies %}
+              {% assign priceset = false %}
+
+              {% if item.variant.compare_at_price > item.variant.price %}
+                {% assign this_rrp = item.variant.compare_at_price | times: item.quantity %}
+                {%- assign cumulative_rrp = cumulative_rrp | plus: this_rrp -%}
+                {%- assign priceset = true %}
+              {% elsif item.product.compare_at_price > item.product.price %}
                 {% assign this_rrp = item.product.compare_at_price | times: item.quantity %}
                 {%- assign cumulative_rrp = cumulative_rrp | plus: this_rrp -%}
-              {%- endunless -%}
+                {%- assign priceset = true %}
+              {% endif %}
+
+              {% if priceset == false %}
+                {% if item.variant.price %}
+                  {% assign this_rrp = item.variant.price | times: item.quantity %}
+                  {%- assign cumulative_rrp = cumulative_rrp | plus: this_rrp -%}
+                {% elsif item.product.price %}
+                  {% assign this_rrp = item.product.price | times: item.quantity %}
+                  {%- assign cumulative_rrp = cumulative_rrp | plus: this_rrp -%}
+                {% endif %}
+              {% endif %}
             {%- endfor -%}
 
-            {% if cumulative_rrp and cumulative_rrp > giftship_subtotal %}
-              <div class="totals flex justify-end space-x-6" role="status">
-                <h2 class="totals__subtotal">RRP</h2>
-                <p class="totals__subtotal-value line-through">
-                  <strong>{{ cumulative_rrp | money }}</strong>
-                </p>
-              </div>
-
+            {% if cumulative_rrp %}
               {% assign savings = cumulative_rrp | minus: cart.total_price %}
 
               {% if savings > 0 %}
+                <div class="totals flex justify-end space-x-6" role="status">
+                  <h2 class="totals__subtotal">RRP</h2>
+                  <p class="totals__subtotal-value line-through">
+                    <strong>{{ cumulative_rrp | money }}</strong>
+                  </p>
+                </div>
+
                 <div class="totals flex justify-end space-x-6" role="status">
                   <h2 class="totals__subtotal">Savings</h2>
                   <p class="totals__subtotal-value">
