@@ -175,6 +175,16 @@
                                         <li>
                                           <a class="{% if child.current %} active{% endif %}" href="{{child.url}}">
                                             {{- child.title -}}
+                                            {% unless child.title contains 'Shop by' %}
+                                              {%- if child.type == 'collection_link'
+                                                and child.object.metafields.christy23.collection_usp != blank
+                                              -%}
+                                                <strong
+                                                  >&nbsp;&nbsp;|&nbsp;&nbsp;
+                                                  {{- child.object.metafields.christy23.collection_usp -}}
+                                                </strong>
+                                              {%- endif -%}
+                                            {% endunless %}
                                           </a>
                                         </li>
                                       {% endfor %}
@@ -189,6 +199,16 @@
                                   class="m-body-copy-med lg:d-body-copy-med block !my-0 py-5 lg:py-7"
                                 >
                                   {{- parent.title | escape -}}
+                                  {% unless parent.title contains 'Shop by' %}
+                                    {%- if parent.type == 'collection_link'
+                                      and parent.object.metafields.christy23.collection_usp != blank
+                                    -%}
+                                      <strong
+                                        >&nbsp;&nbsp;|&nbsp;&nbsp;
+                                        {{- parent.object.metafields.christy23.collection_usp -}}
+                                      </strong>
+                                    {%- endif -%}
+                                  {% endunless %}
                                 </a>
                               </li>
                             {% endif %}
