@@ -485,7 +485,35 @@
           <!-- Subtotals -->
 
           <div class="space-y-2 lg:space-y-3">
-            <div class="totals flex justify-between space-x-6" role="status">
+            {%- assign cumulative_rrp = 0 -%}
+            {%- for item in cart.items -%}
+              {%- unless product.price_varies == false and product.compare_at_price_varies %}
+                {% assign this_rrp = item.product.compare_at_price | times: item.quantity %}
+                {%- assign cumulative_rrp = cumulative_rrp | plus: this_rrp -%}
+              {%- endunless -%}
+            {%- endfor -%}
+
+            {% if cumulative_rrp %}
+              <div class="totals flex justify-end space-x-6" role="status">
+                <h2 class="totals__subtotal">RRP</h2>
+                <p class="totals__subtotal-value line-through">
+                  <strong>{{ cumulative_rrp | money }}</strong>
+                </p>
+              </div>
+
+              {% assign savings = cumulative_rrp | minus: cart.total_price %}
+
+              {% if savings > 0 %}
+                <div class="totals flex justify-end space-x-6" role="status">
+                  <h2 class="totals__subtotal">Savings</h2>
+                  <p class="totals__subtotal-value">
+                    <strong>{{ savings | money }}</strong>
+                  </p>
+                </div>
+              {% endif %}
+            {% endif %}
+
+            <div class="totals flex justify-end space-x-6" role="status">
               <h2 class="totals__subtotal">Subtotal (incl. VAT)</h2>
               <p class="totals__subtotal-value">
                 <strong>{{ giftship_subtotal | money }}</strong>
@@ -506,7 +534,7 @@
               </div>
             {%- endif -%}
 
-            <p class="tax-note caption-large rte">
+            <p class="tax-note caption-large rte [&_a]:underline">
               {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
                 {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
               {%- elsif cart.taxes_included -%}
