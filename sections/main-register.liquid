@@ -44,6 +44,11 @@
               value="{{ form.first_name }}"
             {% endif %}
             autocomplete="given-name"
+            aria-required="true"
+            {% if form.errors contains 'first_name' %}
+              aria-invalid="true"
+              aria-describedby="RegisterForm-FirstName-error"
+            {% endif %}
             placeholder="{{ 'customer.register.first_name' | t }}"
           >
           <label for="RegisterForm-FirstName">
@@ -59,6 +64,11 @@
               value="{{ form.last_name }}"
             {% endif %}
             autocomplete="family-name"
+            aria-required="true"
+            {% if form.errors contains 'last_name' %}
+              aria-invalid="true"
+              aria-describedby="RegisterForm-LastName-error"
+            {% endif %}
             placeholder="{{ 'customer.register.last_name' | t }}"
           >
           <label for="RegisterForm-LastName">
