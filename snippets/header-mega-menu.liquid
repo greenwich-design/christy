@@ -146,14 +146,16 @@
                                       <li>
                                         <a class="{% if child.current %} active{% endif %}" href="{{child.url}}">
                                           {{- child.title -}}
-                                          {%- if child.type == 'collection_link'
-                                            and child.object.metafields.christy23.collection_usp
-                                          -%}
-                                            <strong
-                                              >&nbsp;&nbsp;|&nbsp;&nbsp;
-                                              {{- child.object.metafields.christy23.collection_usp -}}
-                                            </strong>
-                                          {%- endif -%}
+                                          {% unless child.title contains 'Shop by' %}
+                                            {%- if child.type == 'collection_link'
+                                              and child.object.metafields.christy23.collection_usp
+                                            -%}
+                                              <strong
+                                                >&nbsp;&nbsp;|&nbsp;&nbsp;
+                                                {{- child.object.metafields.christy23.collection_usp -}}
+                                              </strong>
+                                            {%- endif -%}
+                                          {% endunless %}
                                         </a>
                                       </li>
                                     {% endfor %}
