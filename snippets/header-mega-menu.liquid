@@ -139,13 +139,6 @@
                               <li class="space-y-4 break-inside-avoid">
                                 <a href="{{ parent.url }}" class="m-body-copy-med lg:d-body-copy-med">
                                   {{- parent.title | escape -}}
-                                  {%- if parent.type == 'collection_link'
-                                    and parent.object.metafields.christy23.collection_usp
-                                  -%}
-                                    <strong
-                                      >&nbsp;&nbsp;|&nbsp;&nbsp;{{ parent.object.metafields.christy23.collection_usp -}}
-                                    </strong>
-                                  {%- endif -%}
                                 </a>
                                 {% if parent.levels > 0 %}
                                   <ul class="space-y-3 font-light">
@@ -153,6 +146,14 @@
                                       <li>
                                         <a class="{% if child.current %} active{% endif %}" href="{{child.url}}">
                                           {{- child.title -}}
+                                          {%- if child.type == 'collection_link'
+                                            and child.object.metafields.christy23.collection_usp
+                                          -%}
+                                            <strong
+                                              >&nbsp;&nbsp;|&nbsp;&nbsp;
+                                              {{- child.object.metafields.christy23.collection_usp -}}
+                                            </strong>
+                                          {%- endif -%}
                                         </a>
                                       </li>
                                     {% endfor %}
