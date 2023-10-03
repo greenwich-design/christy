@@ -1,7 +1,10 @@
 <div
   id="Infocolumns-{{ section.id }}"
-  class="container"
+  class="container space-y-5 lg:space-y-8"
 >
+  {% if section.settings.title != blank %}
+    <h2 class="s-m-h2 lg:s-d-h2">{{ section.settings.title }}</h2>
+  {% endif %}
   <div class="grid md:grid-cols-3 text-blue-1 gap-12 md:gap-3">
     {%- for block in section.blocks -%}
       <div
@@ -81,6 +84,14 @@
     "groups": ["header", "footer"],
     "templates": ["article"]
   },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Title",
+      "label": "Title"
+    }
+  ],
   "blocks": [
     {
       "type": "column",
