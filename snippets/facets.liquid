@@ -226,8 +226,12 @@
           class="flex lg:gap-6 justify-between items-center group/shopby shop_by {{ currentType }} [&.default_.input-collection]:!block [&.collection_.input-collection]:!block [&.tag_.input-tag]:!block lg:pb-7 lg:-mb-7"
         >
           <div class="flex lg:items-center py-5 lg:py-7 lg:-mb-7 gap-4 md:gap-6 max-lg:flex-wrap max-lg:flex-col w-full lg:overflow-hidden">
-            <div class="flex space-x-6 whitespace-nowrap">
+            <div class="flex items-center space-x-4 md:space-x-6 whitespace-nowrap">
               {{ shop_by_btns }}
+
+              <div class="!ml-auto lg:hidden">
+                {% render 'header-collection-buttons-mobile' %}
+              </div>
             </div>
 
             {% comment %}
