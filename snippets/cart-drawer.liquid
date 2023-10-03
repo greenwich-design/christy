@@ -493,7 +493,7 @@
               {%- endunless -%}
             {%- endfor -%}
 
-            {% if cumulative_rrp %}
+            {% if cumulative_rrp and cumulative_rrp > giftship_subtotal %}
               <div class="totals flex justify-end space-x-6" role="status">
                 <h2 class="totals__subtotal">RRP</h2>
                 <p class="totals__subtotal-value line-through">
