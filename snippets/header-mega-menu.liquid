@@ -139,7 +139,7 @@
                               <li class="space-y-4 break-inside-avoid">
                                 <a href="{{ parent.url }}" class="m-body-copy-med lg:d-body-copy-med">
                                   {{- parent.title | escape -}}
-                                  {% if parent.type == 'collection_link' and parent.collection %}
+                                  {% if parent.type == 'collection_link' %}
                                     d
                                   {% endif %}
                                 </a>
