@@ -514,25 +514,18 @@
               {% assign savings = cumulative_rrp | minus: cart.total_price %}
 
               {% if savings > 0 %}
-                <div class="totals flex justify-end space-x-6" role="status">
-                  <h2 class="totals__subtotal">RRP</h2>
-                  <p class="totals__subtotal-value line-through">
-                    <strong>{{ cumulative_rrp | money }}</strong>
-                  </p>
-                </div>
-
-                <div class="totals flex justify-end space-x-6" role="status">
-                  <h2 class="totals__subtotal">Savings</h2>
-                  <p class="totals__subtotal-value">
-                    <strong>{{ savings | money }}</strong>
-                  </p>
+                <div class="totals flex justify-center space-x-6 p-2 bg-blue-1 text-white" role="status">
+                  <p class="totals__subtotal-value">You saved {{ savings | money }}!</p>
                 </div>
               {% endif %}
             {% endif %}
 
-            <div class="totals flex justify-end space-x-6" role="status">
+            <div class="totals flex justify-between space-x-6" role="status">
               <h2 class="totals__subtotal">Subtotal (incl. VAT)</h2>
               <p class="totals__subtotal-value">
+                {% if savings > 0 %}
+                  <strong class="line-through">{{ cumulative_rrp | money }}</strong>
+                {% endif %}
                 <strong>{{ giftship_subtotal | money }}</strong>
               </p>
             </div>
