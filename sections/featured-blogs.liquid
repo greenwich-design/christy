@@ -60,7 +60,7 @@
               assign btn_wrap_class = '!mt-7'
             %}
             <div class="splide__slide {{ span_class }}">
-              <article class="space-y-6 lg:space-y-8 max-sm:flex max-sm:flex-col max-sm:space-y-reverse">
+              <article class="space-y-6 lg:space-y-8 max-sm:flex max-sm:flex-col">
                 {%- liquid
                   assign widths = '245, 327, 490, 550, 654'
                   assign sizes = '(max-width: 1023px) 245px, (min-width: 1024px) 327px'
@@ -69,7 +69,7 @@
                 -%}
                 {%- if article.image != blank -%}
                   {%- assign image_height = article.image.width -%}
-                  <figure class="max-sm:order-2">
+                  <figure class="">
                     <a href="{{ article.url }}">
                       {% render 'spinner' %}
                       {%- render 'lazyimg',
