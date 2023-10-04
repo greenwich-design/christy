@@ -19,7 +19,7 @@
         {%- for block in section.blocks -%}
           {%- if block.type == 'slide' -%}
             <li class="splide__slide flex w-full">
-              <section
+              <div
                 id="{{ block.id }}"
                 class="flex-1 md:grid md:gap-2 relative {% if block.settings.video != null %}md:grid-cols-2{% endif %} max-md:before:aspect-video max-md:before:block {% if block.settings.video != blank and block.settings.mobile_media == 'video'%}[&_.hero-image]:max-md:hidden [&_.hero-video]:max-md:!block{% endif %}"
               >
@@ -57,7 +57,7 @@
                     {{ 'hero-apparel-1' | placeholder_svg_tag: image_class }}
                   {%- endif -%}
 
-                  <div class="relative space-y-10 lg:space-y-12 py-10 lg:py-28  container max-w-none">
+                  <div class="relative space-y-10 lg:space-y-12 py-10 lg:py-28  container max-w-none {% if section.blocks.size == 1 %}max-md:pb-0{% endif %}">
                     <header class=" space-y-3 lg:space-y-4 md:text-white md:max-w-[500px]">
                       {%- if block.settings.subtitle != blank %}
                         <h2 class="m-h5 lg:d-h5">{{ block.settings.subtitle }}</h2>
@@ -96,7 +96,7 @@
                     }}
                   </div>
                 {%- endif -%}
-              </section>
+              </div>
             </li>
           {%- endif -%}
         {%- endfor -%}
