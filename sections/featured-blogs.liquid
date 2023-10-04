@@ -9,6 +9,7 @@
       data-splide='
         {"arrows": true, "pagination": false, "type": "slide", "gap": "40px", "autoWidth": true, "focus": 0, "omitEnd": true, "breakpoints": {
           "768": {
+            "gap": "20px"
           }
         }}
       '
@@ -53,7 +54,7 @@
               assign blog_handle = split_2[0] | strip
               assign article_blog = blogs[blog_handle]
 
-              assign span_class = 'w-[224px] lg:w-[327px]'
+              assign span_class = 'w-[245px] lg:w-[327px]'
               assign btn_class = 'btn-tertiary'
               assign btn_label = 'Read More'
               assign btn_wrap_class = '!mt-7'
@@ -61,8 +62,8 @@
             <div class="splide__slide {{ span_class }}">
               <article class="space-y-6 lg:space-y-8 max-sm:flex max-sm:flex-col max-sm:space-y-reverse">
                 {%- liquid
-                  assign widths = '224, 327, 448, 550, 654'
-                  assign sizes = '(max-width: 1023px) 224px, (min-width: 1024px) 327px'
+                  assign widths = '245, 327, 490, 550, 654'
+                  assign sizes = '(max-width: 1023px) 245px, (min-width: 1024px) 327px'
 
                   assign image_class = 'object-cover object-center w-full h-full inset-0 aspect-[1/1] opacity-0'
                 -%}
