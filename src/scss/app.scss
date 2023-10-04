@@ -276,6 +276,12 @@
     
 }
 
+// form elements
+
+.fancy-select {
+    @apply self-stretch border border-blue-1 text-left p-3 appearance-none w-[50px] lg:w-[60px] outline-none cursor-pointer;
+}
+
 // non tailwind
 
 .shopify-challenge__container {
