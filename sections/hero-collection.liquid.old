@@ -7,11 +7,11 @@
     assign full_width = '100vw'
     assign widths = '375, 550, 750, 1100, 1500, 1780, 2000'
     assign sizes = '(max-width: 767px) 100vw, (min-width: 768px) 50vw'
-    assign image_class = 'hero-image max-md:aspect-video max-md:h-auto object-cover object-center w-full h-full absolute inset-0'
+    assign image_class = 'object-cover object-center w-full h-full absolute inset-0'
   -%}
 
   <div
-    class="{% if section.blocks.count > 1 %}splide{% endif %} md:min-h-[calc(100vh-90px)] lg:min-h-[calc(100vh-107px)] flex flex-col"
+    class="{% if section.blocks.count > 1 %}splide{% endif %} min-h-[calc(100vh-90px)] lg:min-h-[calc(100vh-107px)] flex flex-col"
     data-splide='{"arrows": false, "pagination": false, "type": "loop"}'
   >
     <div class="splide__track flex flex-1">
@@ -21,9 +21,9 @@
             <li class="splide__slide flex w-full">
               <section
                 id="{{ block.id }}"
-                class="flex-1 md:grid md:gap-2 relative {% if block.settings.video != null %}md:grid-cols-2{% endif %} max-md:before:aspect-video max-md:before:block {% if block.settings.video != blank and block.settings.mobile_media == 'video'%}[&_.hero-image]:max-md:hidden [&_.hero-video]:max-md:!block{% endif %}"
+                class="flex-1 grid gap-2 {% if block.settings.video != null %} max-md:grid-rows-[minmax(auto,50%)_auto] max-md:min-h-[calc(100vh-90px)] md:grid-cols-2{% endif %}"
               >
-                <div class="md:relative flex items-end max-md:order-2 [&_.loading-overlay__spinner]:top-0">
+                <div class="relative flex items-end max-md:order-2 [&_.loading-overlay__spinner]:top-0">
                   {%- if block.settings.image != blank -%}
                     {%- assign image_height = block.settings.image.width
                       | divided_by: block.settings.image.aspect_ratio
@@ -58,7 +58,7 @@
                   {%- endif -%}
 
                   <div class="relative space-y-10 lg:space-y-12 py-10 lg:py-28  container max-w-none">
-                    <header class=" space-y-3 lg:space-y-4 md:text-white md:max-w-[500px]">
+                    <header class=" space-y-3 lg:space-y-4 text-white md:max-w-[500px]">
                       {%- if block.settings.subtitle != blank %}
                         <h2 class="m-h5 lg:d-h5">{{ block.settings.subtitle }}</h2>
                       {%- endif -%}
@@ -71,10 +71,7 @@
                     {% assign collection = collections[collection_handle] %}
                     {% if collection.url != blank and block.settings.button_text != blank %}
                       <div>
-                        <a
-                          class="btn-large max-md:btn-primary md:btn-alt hover:md:bg-blue-1 hover:md:text-white"
-                          href="{{ collection.url }}"
-                        >
+                        <a class="btn-large btn-alt hover:bg-blue-1 hover:text-white" href="{{ collection.url }}">
                           {{- block.settings.button_text -}}
                         </a>
                       </div>
@@ -83,7 +80,7 @@
                 </div>
 
                 {%- if block.settings.video != blank -%}
-                  <div class="">
+                  <div class="max-md:relative">
                     {{
                       block.settings.video
                       | video_tag:
@@ -91,7 +88,7 @@
                         autoplay: true,
                         loop: true,
                         playsinline: true,
-                        class: 'hero-video max-md:hidden w-full h-full object-cover max-md:absolute inset-0 max-md:aspect-video max-md:h-auto',
+                        class: 'w-full h-full object-cover max-md:absolute inset-0',
                         preload: 'none'
                     }}
                   </div>
@@ -141,23 +138,6 @@
           "type": "video",
           "id": "video",
           "label": "Choose a video for this item"
-        },
-        {
-          "type": "select",
-          "id": "mobile_media",
-          "label": "Mobile Media",
-          "default": "image",
-          "info": "Choose which media to display on mobile.",
-          "options": [
-            {
-              "value": "image",
-              "label": "Image"
-            },
-            {
-              "value": "video",
-              "label": "Video"
-            }
-          ]
         },
         {
           "type": "text",
