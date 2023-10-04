@@ -8,7 +8,7 @@
       <h2 class="s-m-h2 lg:s-d-h2">{{ section.settings.title }}</h2>
     {% endif %}
     <div
-      class="splide group/splide"
+      class="splide group/splide space-y-5 lg:space-y-8"
       data-splide='
         {"arrows": true, "pagination": false, "type": "slide", "gap": "40px", "autoWidth": true, "breakpoints": {
           "768": {
@@ -82,9 +82,9 @@
         </div>
       </div>
 
-      <div class="splide__arrows splide__arrows--ltr hidden group-[.is-initialized]/splide:!block">
+      <div class="splide__arrows splide__arrows--ltr hidden group-[.is-initialized]/splide:!flex justify-end">
         <button
-          class="splide__arrow splide__arrow--prev !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-white"
+          class="splide__arrow splide__arrow--prev !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-transparent !static !transform-none"
           type="button"
           aria-label="Previous slide"
           aria-controls="splide01-track"
@@ -94,7 +94,7 @@
           </svg>
         </button>
         <button
-          class="splide__arrow splide__arrow--next !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-white"
+          class="splide__arrow splide__arrow--next !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-transparent !static !transform-none"
           type="button"
           aria-label="Next slide"
           aria-controls="splide01-track"
