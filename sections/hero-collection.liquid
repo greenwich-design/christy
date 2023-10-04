@@ -11,7 +11,7 @@
   -%}
 
   <div
-    class="splide min-h-[calc(100vh-90px)] lg:min-h-[calc(100vh-107px)] flex flex-col"
+    class=" min-h-[calc(100vh-90px)] lg:min-h-[calc(100vh-107px)] flex flex-col"
     data-splide='{"arrows": false, "pagination": false, "type": "loop"}'
   >
     <div class="splide__track flex flex-1">
@@ -100,15 +100,17 @@
       </ul>
     </div>
 
-    <nav class="py-4">
-      <div class="splide-pag container max-w-none text-blue-1 font-light text-[12px] leading-[20px] lg:leading-[24px] lg:text-[14px] flex space-x-6">
-        {%- for block in section.blocks -%}
-          <a class="{%- if forloop.index0 == 0 -%}font-semibold underline{%- endif %}" href="{{ block.id }}">
-            {{- block.settings.subtitle -}}
-          </a>
-        {%- endfor -%}
-      </div>
-    </nav>
+    {% if section.blocks.count > 1 %}
+      <nav class="py-4">
+        <div class="splide-pag container max-w-none text-blue-1 font-light text-[12px] leading-[20px] lg:leading-[24px] lg:text-[14px] flex space-x-6">
+          {%- for block in section.blocks -%}
+            <a class="{%- if forloop.index0 == 0 -%}font-semibold underline{%- endif %}" href="{{ block.id }}">
+              {{- block.settings.subtitle -}}
+            </a>
+          {%- endfor -%}
+        </div>
+      </nav>
+    {% endif %}
   </div>
 </div>
 
