@@ -514,7 +514,10 @@
               {% assign savings = cumulative_rrp | minus: cart.total_price %}
 
               {% if savings > 0 %}
-                <div class="totals flex justify-center space-x-6 p-2 bg-blue-1 text-white" role="status">
+                <div
+                  class="totals flex justify-center space-x-6 p-2 bg-blue-1/10 text-blue-1 border border-blue-1"
+                  role="status"
+                >
                   <p class="totals__subtotal-value">You saved {{ savings | money }}!</p>
                 </div>
               {% endif %}
