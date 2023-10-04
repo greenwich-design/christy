@@ -121,7 +121,7 @@
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2"
       ],
       "settings": {
-        "title": "Shop Bedding by Feeling"
+        "title": ""
       }
     },
     "heading2": {
@@ -336,15 +336,36 @@
           "settings": {
             "article": "lifestyle\/how-to-dress-a-bed-the-complete-guide"
           }
+        },
+        "ff7370ae-76a1-4019-917d-cdee7a81adaa": {
+          "type": "article",
+          "settings": {
+            "article": "lifestyle\/how-to-arrange-pillows-on-a-bed-easy-tips-and-tricks"
+          }
+        },
+        "f9e5c32d-7ea0-4ccc-9318-219230c3479d": {
+          "type": "article",
+          "settings": {
+            "article": "bathology\/beach-towels"
+          }
+        },
+        "1dbac564-bf20-46b4-9b34-bcbe25f41c65": {
+          "type": "article",
+          "settings": {
+            "article": "lifestyle\/ultimate-duvet-tog-guide-for-the-best-night-s-sleep"
+          }
         }
       },
       "block_order": [
         "30dec819-818b-4bc2-b9c3-ff19c89ebaf4",
         "458e4f16-65af-45ea-bf76-156d0bfc8da1",
-        "dc2e0744-3035-4a8f-b0c9-4abd1e420569"
+        "dc2e0744-3035-4a8f-b0c9-4abd1e420569",
+        "ff7370ae-76a1-4019-917d-cdee7a81adaa",
+        "f9e5c32d-7ea0-4ccc-9318-219230c3479d",
+        "1dbac564-bf20-46b4-9b34-bcbe25f41c65"
       ],
       "settings": {
-        "blog": "news,guides,products,lifestyle"
+        "title": ""
       }
     },
     "d1799047-2d3f-4748-9804-8038692b0c63": {
