@@ -59,7 +59,7 @@
               assign btn_label = 'Read More'
               assign btn_wrap_class = '!mt-7'
             %}
-            <div class="splide__slide {{ span_class }}">
+            <div class="splide__slide {{ span_class }}" {{ block.shopify_attributes }}>
               <article class="space-y-6 lg:space-y-8 max-sm:flex max-sm:flex-col">
                 {%- liquid
                   assign widths = '245, 327, 490, 550, 654'

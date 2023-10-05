@@ -54,7 +54,7 @@
               assign btn_label = 'Read More'
               assign btn_wrap_class = '!mt-7'
             %}
-            <div class="splide__slide {{ span_class }}">
+            <div class="splide__slide {{ span_class }}" {{ block.shopify_attributes }}>
               <article class="space-y-6 lg:space-y-8 max-sm:flex max-sm:flex-col">
                 {%- liquid
                   assign widths = '245, 327, 490, 550, 654'
@@ -62,8 +62,13 @@
 
                   assign image_class = 'object-cover object-center w-full h-full inset-0 aspect-[1/1] opacity-0'
                 -%}
-                {%- if collection.image != blank -%}
-                  {%- assign image_height = collection.image.width -%}
+                {% if block.settings.image != blank %}
+                  {% assign theimage = block.settings.image %}
+                {% elsif collection.image != blank %}
+                  {% assign theimage = collection.image %}
+                {% endif %}
+
+                {%- if theimage != blank -%}
                   <figure class="">
                     {% if block.settings.usp_title != blank %}
                       <div class="absolute left-0 top-0 w-full flex justify-center bg-blue-1/50 text-white p-2">
@@ -73,9 +78,9 @@
                     <a href="{{ collection.url }}">
                       {% render 'spinner' %}
                       {%- render 'lazyimg',
-                        img: collection.image,
-                        width: 553,
-                        height: 553,
+                        img: theimage,
+                        width: 327,
+                        height: 327,
                         widths: widths,
                         class: image_class,
                         sizes: sizes
@@ -185,6 +190,12 @@
           "id": "usp_title",
           "label": "USP Title",
           "info": "Optional. E.G: 'Upto 50% Off'"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Alternative Image",
+          "info": "Optional. If left blank, the collection image will be used."
         },
         {
           "type": "richtext",
