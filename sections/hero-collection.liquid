@@ -7,7 +7,7 @@
     assign full_width = '100vw'
     assign widths = '375, 550, 750, 1100, 1500, 1780, 2000'
     assign sizes = '(max-width: 767px) 100vw, (min-width: 768px) 50vw'
-    assign image_class = 'hero-image max-md:aspect-video max-md:h-auto object-cover object-center w-full h-full absolute inset-0'
+    assign image_class = 'hero-image max-md:aspect-[16/11] max-md:h-auto object-cover object-center w-full h-full absolute inset-0'
   -%}
 
   <div
@@ -21,7 +21,7 @@
             <li class="splide__slide flex w-full">
               <div
                 id="{{ block.id }}"
-                class="flex-1 md:grid md:gap-2 relative {% if block.settings.video != null %}md:grid-cols-2{% endif %} max-md:before:aspect-video max-md:before:block {% if block.settings.video != blank and block.settings.mobile_media == 'video'%}[&_.hero-image]:max-md:hidden [&_.hero-video]:max-md:!block{% endif %}"
+                class="flex-1 md:grid md:gap-2 relative {% if block.settings.video != null %}md:grid-cols-2{% endif %} max-md:before:aspect-[16/11] max-md:before:block {% if block.settings.video != blank and block.settings.mobile_media == 'video'%}[&_.hero-image]:max-md:hidden [&_.hero-video]:max-md:!block{% endif %}"
               >
                 <div class="md:relative flex items-end max-md:order-2 [&_.loading-overlay__spinner]:top-0">
                   {%- if block.settings.image != blank -%}
@@ -58,14 +58,30 @@
                   {%- endif -%}
 
                   <div class="relative space-y-10 lg:space-y-12 py-10 lg:py-28  container max-w-none {% if section.blocks.size == 1 %}max-md:pb-0{% endif %}">
-                    <header class=" space-y-3 lg:space-y-4 md:text-white md:max-w-[500px]">
-                      {%- if block.settings.subtitle != blank %}
-                        <h2 class="m-h5 lg:d-h5">{{ block.settings.subtitle }}</h2>
-                      {%- endif -%}
-                      {%- if block.settings.title != blank %}
-                        <h3 class="s-m-h3 lg:s-d-h2">{{ block.settings.title }}</h3>
-                      {%- endif -%}
-                    </header>
+                    <div class="space-y-5 lg:space-y-6">
+                      <header class=" space-y-3 lg:space-y-4 md:text-white md:max-w-[500px] max-md:text-center">
+                        {%- if block.settings.subtitle != blank %}
+                          <h2 class="m-h5 lg:d-h5 {% if block.settings.mobile_subtitle == 'hide' %}max-md:hidden{% endif %}">
+                            {{ block.settings.subtitle }}
+                          </h2>
+                        {%- endif -%}
+                        {%- if block.settings.title != blank %}
+                          <h3 class="s-m-h3 lg:s-d-h2 {% if block.settings.mob_title != blank%}max-md:hidden{% endif %}">
+                            {{ block.settings.title }}
+                          </h3>
+                        {%- endif -%}
+
+                        {%- if block.settings.mob_title != blank %}
+                          <h4 class="s-m-h3 lg:s-d-h2 md:hidden">{{ block.settings.mob_title }}</h4>
+                        {%- endif -%}
+                      </header>
+
+                      {% if block.settings.copy %}
+                        <div class="wysiwyg md:text-white max-md:text-center {% if block.settings.copy_visibility == 'mobile'%}md:hidden{% endif %}">
+                          {{ block.settings.copy }}
+                        </div>
+                      {% endif %}
+                    </div>
 
                     {% assign collection_handle = block.settings.collection %}
                     {% assign collection = collections[collection_handle] %}
@@ -91,7 +107,7 @@
                         autoplay: true,
                         loop: true,
                         playsinline: true,
-                        class: 'hero-video max-md:hidden w-full h-full object-cover max-md:absolute inset-0 max-md:aspect-video max-md:h-auto',
+                        class: 'hero-video max-md:hidden w-full h-full object-cover max-md:absolute inset-0 max-md:aspect-[16/11] max-md:h-auto',
                         preload: 'none'
                     }}
                   </div>
@@ -166,10 +182,56 @@
           "default": "Bed"
         },
         {
+          "type": "select",
+          "id": "mobile_subtitle",
+          "label": "Sub Title Mobile",
+          "default": "show",
+          "info": "Choose whether to display Sub Title on mobile.",
+          "options": [
+            {
+              "value": "show",
+              "label": "Show"
+            },
+            {
+              "value": "hide",
+              "label": "Hide"
+            }
+          ]
+        },
+        {
           "type": "text",
           "id": "title",
           "label": "Item Title",
           "default": "Sink into a restful night's sleep in cosy bedding."
+        },
+        {
+          "type": "text",
+          "id": "mob_title",
+          "label": "Item Title Mobile",
+          "info": "if set, this title will be used on mobile instead of the title above."
+        },
+        {
+          "type": "richtext",
+          "id": "copy",
+          "label": "Copy",
+          "info": "Add optional copy"
+        },
+        {
+          "type": "select",
+          "id": "copy_visibility",
+          "label": "Copy Screen Visibility",
+          "default": "all",
+          "info": "Choose which media to display Copy",
+          "options": [
+            {
+              "value": "all",
+              "label": "Desktop/Mobile"
+            },
+            {
+              "value": "mobile",
+              "label": "Mobile"
+            }
+          ]
         },
         {
           "type": "collection",
