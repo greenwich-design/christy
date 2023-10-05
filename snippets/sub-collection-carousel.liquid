@@ -48,7 +48,7 @@
                 assign btn_label = 'Shop Now'
                 assign btn_wrap_class = '!mt-7'
               %}
-              <div class="splide__slide {{ span_class }}" {{ block.shopify_attributes }}>
+              <div class="splide__slide flex {{ span_class }}" {{ block.shopify_attributes }}>
                 <article class="space-y-6 lg:space-y-8 max-sm:flex max-sm:flex-col bg-blue-1/10 p-5">
                   {%- liquid
                     assign widths = '103, 133, 206, 266'
@@ -83,7 +83,7 @@
 
                   <div class="space-y-6 max-sm:order-1">
                     <div class="">
-                      <h3 class="s-m-h4 lg:s-d-h5">{{ block.settings.title }}</h3>
+                      <h3 class="m-h2 lg:d-h2">{{ block.settings.title }}</h3>
                       {% if block.settings.sub_title %}
                         <h3 class="font-semibold">{{ block.settings.sub_title }}</h3>
                       {% endif %}
