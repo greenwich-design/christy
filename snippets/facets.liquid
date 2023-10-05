@@ -226,7 +226,7 @@
           class="flex lg:gap-6 justify-between items-center group/shopby shop_by {{ currentType }} [&.default_.input-collection]:!block [&.collection_.input-collection]:!block [&.tag_.input-tag]:!block lg:pb-7 lg:-mb-7"
         >
           <div class="{% unless has_sub_collections %}flex{% endunless %} lg:items-center py-5 lg:py-7 lg:-mb-7 gap-4 md:gap-6 max-lg:flex-wrap max-lg:flex-col w-full lg:overflow-hidden">
-            <div class="flex items-center space-x-4 md:space-x-6 whitespace-nowrap">
+            <div class="flex items-center space-x-4 md:space-x-6 whitespace-nowrap {% if has_sub_collections %}max-lg:mb-5{% endif %}">
               {% unless has_sub_collections %}
                 {{ shop_by_btns }}
               {% endunless %}
