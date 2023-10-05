@@ -2,8 +2,19 @@ const { colors } = require("laravel-mix/src/Log");
 
 document.addEventListener('DOMContentLoaded', function () {
 
+    // scroll to reviews on click
     document.querySelector('#trustpilot-wrap').addEventListener('click', function () {
-        document.querySelector('#reviews').classList.add('open')
+        let reviews = document.querySelector('#reviews');
+        if (reviews) {
+            let reviewsTop = (document.querySelector('.product').getBoundingClientRect().top + window.scrollY + document.querySelector('.product').offsetHeight) - document.querySelector('.header-bar').offsetHeight - document.querySelector('#reviews').offsetHeight;
+            window.scrollTo({
+                top: reviewsTop,
+                left: 0,
+                behavior: "smooth",
+            });
+
+            document.querySelector('#reviews').classList.add('open');
+        }
     });
 
     const el = document.querySelector('#product-page');
