@@ -11,7 +11,11 @@
             "video": "shopify:\/\/files\/videos\/Untitled (1) (1).mp4",
             "mobile_media": "image",
             "subtitle": "Snuggle Season Sale",
+            "mobile_subtitle": "show",
             "title": "25% off bedding, robes, duvets, pillows and accessories - Ends tonight!",
+            "mob_title": "",
+            "copy": "",
+            "copy_visibility": "all",
             "collection": "snuggle-season-sale",
             "button_text": "Shop Now"
           }
@@ -23,7 +27,11 @@
             "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
             "mobile_media": "image",
             "subtitle": "Bath",
+            "mobile_subtitle": "hide",
             "title": "Gentle on the skin, balancing softness with absorbence.",
+            "mob_title": "Christy new mobile hero",
+            "copy": "<p>curabitur gravida arcu ac tortor dignissim convallis aenean et tortor<\/p>",
+            "copy_visibility": "mobile",
             "collection": "all-bath",
             "button_text": "Shop Bath"
           }
@@ -36,7 +44,11 @@
             "video": "shopify:\/\/files\/videos\/8ecb9c0bb18343eeaebb289b5770b60f.mp4",
             "mobile_media": "image",
             "subtitle": "Wimbledon",
+            "mobile_subtitle": "show",
             "title": "The ultimate serve in comfort: our collaboration with Wimbledon.",
+            "mob_title": "",
+            "copy": "",
+            "copy_visibility": "all",
             "collection": "wimbledon",
             "button_text": "Discover Wimbledon"
           }
