@@ -57,7 +57,8 @@
           "type": "collection",
           "settings": {
             "collection": "all-bath",
-            "usp_title": "",
+            "usp_title": "Upto 50% Off'",
+            "image": "shopify:\/\/shop_images\/Cirrus_Apple-White.jpg",
             "excerpt": ""
           }
         },
@@ -65,7 +66,8 @@
           "type": "collection",
           "settings": {
             "collection": "all-bedding",
-            "usp_title": "",
+            "usp_title": "Upto 50% Off'",
+            "image": "shopify:\/\/shop_images\/Cirrus_Apple-Pudding.jpg",
             "excerpt": ""
           }
         },
@@ -74,7 +76,8 @@
           "settings": {
             "collection": "all-loungewear",
             "usp_title": "",
-            "excerpt": ""
+            "image": "shopify:\/\/shop_images\/Cirrus_Apple-Ocean.jpg",
+            "excerpt": "<p>Add excerpt here in section<\/p>"
           }
         },
         "bab99513-8b1a-4809-a0dd-00b300dfe0ff": {
@@ -82,7 +85,8 @@
           "settings": {
             "collection": "bath-mats-and-rugs",
             "usp_title": "",
-            "excerpt": ""
+            "image": "shopify:\/\/shop_images\/Cirrus_Apple-Green.jpg",
+            "excerpt": "<p>Add excerpt here in section<\/p>"
           }
         },
         "d7933374-db8b-45eb-abe0-7a92fd83d6db": {
@@ -98,7 +102,7 @@
           "settings": {
             "collection": "bathroom-bath-mats-rugs",
             "usp_title": "",
-            "excerpt": ""
+            "excerpt": "<p>Add excerpt here in section<\/p>"
           }
         }
       },
