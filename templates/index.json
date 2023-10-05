@@ -9,6 +9,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hp_banner_bed2.jpg",
             "video": "shopify:\/\/files\/videos\/Untitled (1) (1).mp4",
+            "mobile_media": "image",
             "subtitle": "Snuggle Season Sale",
             "title": "25% off bedding, robes, duvets, pillows and accessories - Ends tonight!",
             "collection": "snuggle-season-sale",
@@ -20,6 +21,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hero-2.jpg",
             "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
+            "mobile_media": "image",
             "subtitle": "Bath",
             "title": "Gentle on the skin, balancing softness with absorbence.",
             "collection": "all-bath",
@@ -32,6 +34,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hero-3.jpg",
             "video": "shopify:\/\/files\/videos\/8ecb9c0bb18343eeaebb289b5770b60f.mp4",
+            "mobile_media": "image",
             "subtitle": "Wimbledon",
             "title": "The ultimate serve in comfort: our collaboration with Wimbledon.",
             "collection": "wimbledon",
@@ -45,6 +48,71 @@
         "2af0950f-0322-4b80-b489-ee1f6aafc079"
       ],
       "settings": {
+      }
+    },
+    "e57b7e3d-117a-4951-9746-829db8845f28": {
+      "type": "collections-carousel",
+      "blocks": {
+        "c7c54b85-fc86-4670-92f8-d619f533eeb5": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-bath",
+            "usp_title": "",
+            "excerpt": ""
+          }
+        },
+        "34aac4c9-2832-4986-b895-ed407859deac": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-bedding",
+            "usp_title": "",
+            "excerpt": ""
+          }
+        },
+        "1617a214-ba08-4bfc-a58e-7bb19d23df62": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-loungewear",
+            "usp_title": "",
+            "excerpt": ""
+          }
+        },
+        "bab99513-8b1a-4809-a0dd-00b300dfe0ff": {
+          "type": "collection",
+          "settings": {
+            "collection": "bath-mats-and-rugs",
+            "usp_title": "",
+            "excerpt": ""
+          }
+        },
+        "d7933374-db8b-45eb-abe0-7a92fd83d6db": {
+          "type": "collection",
+          "settings": {
+            "collection": "bathroom",
+            "usp_title": "",
+            "excerpt": ""
+          }
+        },
+        "428c33e2-fae4-4ebf-8f65-b8263288e22b": {
+          "type": "collection",
+          "settings": {
+            "collection": "bathroom-bath-mats-rugs",
+            "usp_title": "",
+            "excerpt": ""
+          }
+        }
+      },
+      "block_order": [
+        "c7c54b85-fc86-4670-92f8-d619f533eeb5",
+        "34aac4c9-2832-4986-b895-ed407859deac",
+        "1617a214-ba08-4bfc-a58e-7bb19d23df62",
+        "bab99513-8b1a-4809-a0dd-00b300dfe0ff",
+        "d7933374-db8b-45eb-abe0-7a92fd83d6db",
+        "428c33e2-fae4-4ebf-8f65-b8263288e22b"
+      ],
+      "settings": {
+        "title": "Shop by category",
+        "screen_visibility": "both"
       }
     },
     "heading": {
@@ -62,6 +130,7 @@
     "billboard2": {
       "type": "billboard",
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/bed-home.jpg",
         "subtitle": "Explore",
         "title": "<p>Bed<\/p>",
@@ -139,6 +208,7 @@
     "billboard": {
       "type": "billboard",
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/bath-home.jpg",
         "subtitle": "Explore",
         "title": "<p>Bath<\/p>",
@@ -204,6 +274,7 @@
     "billboard3": {
       "type": "billboard",
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/innovators-home.jpg",
         "subtitle": "Technology",
         "title": "<p>Innovators <br\/>since 1850<\/p>",
@@ -303,6 +374,7 @@
     "billboard4": {
       "type": "billboard",
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/perfect-towel.jpg",
         "subtitle": "Feature",
         "title": "<p>Only the best: picking your perfect towel<\/p>",
@@ -383,6 +455,7 @@
   },
   "order": [
     "hero-collection",
+    "e57b7e3d-117a-4951-9746-829db8845f28",
     "heading",
     "billboard2",
     "c-info-columns2",
