@@ -1,6 +1,11 @@
 const { colors } = require("laravel-mix/src/Log");
 
 document.addEventListener('DOMContentLoaded', function () {
+
+    document.querySelector('#trustpilot-wrap').addEventListener('click', function () {
+        document.querySelector('#reviews').classList.add('open')
+    });
+
     const el = document.querySelector('#product-page');
     const mobOptions = document.querySelector('[data-moboptions]');
     let mobOptionsHeight = 0;
