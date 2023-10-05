@@ -40,12 +40,45 @@
             "styled": false,
             "position": 7
           }
+        },
+        "0077233b-642c-48e4-84b6-0584a04916f3": {
+          "type": "sub_collections",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cool-crisp_098cc89b-107f-4e54-9c37-773b420f4790.jpg",
+            "title": "Cool & Crisp",
+            "sub_title": "",
+            "copy": "<p>Keep comfortably cool in fresh cotton bedding.<\/p>",
+            "button_url": "https:\/\/www.christy.co.uk\/collections\/all-bedding\/cool-crisp"
+          }
+        },
+        "c48ba347-ad25-4e54-8fa5-5ea85ebefcc4": {
+          "type": "sub_collections",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hp_banner_bed_a2769d86-0563-4b77-b615-21691ce19ae9.jpg",
+            "title": "Soft & Relaxed",
+            "sub_title": "",
+            "copy": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.<\/p>",
+            "button_url": "https:\/\/www.christy.co.uk\/collections\/all-bedding\/soft-relaxed"
+          }
+        },
+        "272b6939-3d21-4499-8004-517805768798": {
+          "type": "sub_collections",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smooth_sily_hp_124f20c6-eea3-4af3-b350-67b89719bbc5.jpg",
+            "title": "Smooth & Silky",
+            "sub_title": "",
+            "copy": "<p>Add a touch of luxury to your bedtime routine with silky-smooth materials.<\/p>",
+            "button_url": "https:\/\/www.christy.co.uk\/collections\/all-bedding\/smooth-silky"
+          }
         }
       },
       "block_order": [
         "77b7bcba-adf8-4b59-84fa-2aed599efb4a",
         "8704fef6-e4b5-4c39-bba2-de943e89068e",
-        "5a878969-3318-42e0-87f9-e02a64758016"
+        "5a878969-3318-42e0-87f9-e02a64758016",
+        "0077233b-642c-48e4-84b6-0584a04916f3",
+        "c48ba347-ad25-4e54-8fa5-5ea85ebefcc4",
+        "272b6939-3d21-4499-8004-517805768798"
       ],
       "settings": {
         "products_per": 10
@@ -60,7 +93,7 @@
     "32651ade-df62-44f5-8355-bb4039f60426": {
       "type": "billboard",
       "settings": {
-        "image": "shopify:\/\/shop_images\/StornowayChambray_Lifestyle_Silver_1_5c367179-aa76-4367-89e8-8c4f71341a66.jpg",
+        "screen_visibility": "both",
         "subtitle": "Christy Life",
         "title": "<p>How to Dress a Bed - The Complete Guide<\/p>",
         "copy": "<p>Our bedding experts have numerous years of experience. In this guide, we’ll be showing you what you need to make your bedroom your favourite room in the house.<\/p>",
