@@ -47,6 +47,7 @@
         <div class="splide__list text-blue-1">
           {% for block in section.blocks -%}
             {% assign collection = block.settings.collection %}
+            {% assign theimage = blank %}
 
             {% liquid
               assign span_class = 'w-[245px] lg:w-[327px]'
