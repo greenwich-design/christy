@@ -70,9 +70,9 @@
                 {% endif %}
 
                 {%- if theimage != blank -%}
-                  <figure class="">
+                  <figure class="relative">
                     {% if block.settings.usp_title != blank %}
-                      <div class="absolute left-0 top-0 w-full flex justify-center bg-blue-1/50 text-white p-2">
+                      <div class="absolute left-0 top-0 w-full flex justify-center bg-blue-1/50 text-white p-2 pointer-events-none z-10">
                         <p class="font-semibold">{{ block.settings.usp_title }}</p>
                       </div>
                     {% endif %}
