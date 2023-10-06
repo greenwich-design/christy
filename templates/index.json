@@ -18,12 +18,12 @@
         "8c3ac597-805a-4b98-a59f-708e3545945d": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hero-2.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled_design_1.png",
             "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
-            "subtitle": "Bath",
-            "title": "Gentle on the skin, balancing softness with absorbence.",
-            "collection": "all-bath",
-            "button_text": "Shop Bath"
+            "subtitle": "",
+            "title": "",
+            "collection": "offers-shop-all-sale",
+            "button_text": "Shop Now"
           }
         },
         "2af0950f-0322-4b80-b489-ee1f6aafc079": {
@@ -37,12 +37,24 @@
             "collection": "wimbledon",
             "button_text": "Discover Wimbledon"
           }
+        },
+        "17de0beb-b78c-40ab-a727-1f3659ef3cdc": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design.png",
+            "subtitle": "",
+            "title": "",
+            "collection": "offers-shop-all-sale",
+            "button_text": "Shop Now"
+          }
         }
       },
       "block_order": [
         "c4c43d90-6461-4c99-aee1-543890d018df",
         "8c3ac597-805a-4b98-a59f-708e3545945d",
-        "2af0950f-0322-4b80-b489-ee1f6aafc079"
+        "2af0950f-0322-4b80-b489-ee1f6aafc079",
+        "17de0beb-b78c-40ab-a727-1f3659ef3cdc"
       ],
       "settings": {
       }
