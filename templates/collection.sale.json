@@ -67,7 +67,7 @@
         "9dd9db74-0cb2-4848-9653-157d62c90364"
       ],
       "settings": {
-        "products_per": 10
+        "products_per": 24
       }
     },
     "recent-products": {
@@ -91,11 +91,53 @@
         "alignment_vertical": "center",
         "mobile_content_position": "overlay"
       }
+    },
+    "1668fefd-51e6-4979-a05c-eeeceabb9e78": {
+      "type": "product-showcase",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "ad4b03ab-98bc-4656-a9aa-42b221953e67": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21202653151520__ad4b03ab-98bc-4656-a9aa-42b221953e67-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sub Title",
+            "sub_title_size": "h2"
+          }
+        },
+        "template--21202653151520__ad4b03ab-98bc-4656-a9aa-42b221953e67-main_heading-1": {
+          "type": "main_heading",
+          "settings": {
+            "heading": "Main Title"
+          }
+        },
+        "template--21202653151520__ad4b03ab-98bc-4656-a9aa-42b221953e67-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21202653151520__ad4b03ab-98bc-4656-a9aa-42b221953e67-heading-1",
+        "template--21202653151520__ad4b03ab-98bc-4656-a9aa-42b221953e67-main_heading-1",
+        "template--21202653151520__ad4b03ab-98bc-4656-a9aa-42b221953e67-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "anchor_id": ""
+      }
     }
   },
   "order": [
     "product-grid",
     "recent-products",
-    "32651ade-df62-44f5-8355-bb4039f60426"
+    "32651ade-df62-44f5-8355-bb4039f60426",
+    "1668fefd-51e6-4979-a05c-eeeceabb9e78",
+    "ad4b03ab-98bc-4656-a9aa-42b221953e67"
   ]
 }
