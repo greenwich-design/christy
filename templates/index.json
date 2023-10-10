@@ -9,13 +9,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hp_banner_bed2.jpg",
             "video": "shopify:\/\/files\/videos\/Untitled (1) (1).mp4",
-            "mobile_media": "image",
             "subtitle": "Snuggle Season Sale",
-            "mobile_subtitle": "show",
-            "title": "25% off bedding, robes, duvets, pillows and accessories - Ends tonight!",
-            "mob_title": "",
-            "copy": "",
-            "copy_visibility": "all",
+            "title": "25% off bedding, robes, duvets, pillows and accessories - Ends tonight!",
             "collection": "snuggle-season-sale",
             "button_text": "Shop Now"
           }
@@ -23,17 +18,12 @@
         "8c3ac597-805a-4b98-a59f-708e3545945d": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hero-2.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled_design_1.png",
             "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
-            "mobile_media": "image",
-            "subtitle": "Bath",
-            "mobile_subtitle": "hide",
-            "title": "Gentle on the skin, balancing softness with absorbence.",
-            "mob_title": "Christy new mobile hero",
-            "copy": "<p>curabitur gravida arcu ac tortor dignissim convallis aenean et tortor<\/p>",
-            "copy_visibility": "mobile",
-            "collection": "all-bath",
-            "button_text": "Shop Bath"
+            "subtitle": "",
+            "title": "",
+            "collection": "offers-shop-all-sale",
+            "button_text": "Shop Now"
           }
         },
         "2af0950f-0322-4b80-b489-ee1f6aafc079": {
@@ -42,93 +32,34 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hero-3.jpg",
             "video": "shopify:\/\/files\/videos\/8ecb9c0bb18343eeaebb289b5770b60f.mp4",
-            "mobile_media": "image",
             "subtitle": "Wimbledon",
-            "mobile_subtitle": "show",
             "title": "The ultimate serve in comfort: our collaboration with Wimbledon.",
-            "mob_title": "",
-            "copy": "",
-            "copy_visibility": "all",
             "collection": "wimbledon",
             "button_text": "Discover Wimbledon"
+          }
+        },
+        "17de0beb-b78c-40ab-a727-1f3659ef3cdc": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design.png",
+            "subtitle": "",
+            "title": "",
+            "collection": "offers-shop-all-sale",
+            "button_text": "Shop Now"
           }
         }
       },
       "block_order": [
         "c4c43d90-6461-4c99-aee1-543890d018df",
         "8c3ac597-805a-4b98-a59f-708e3545945d",
-        "2af0950f-0322-4b80-b489-ee1f6aafc079"
+        "2af0950f-0322-4b80-b489-ee1f6aafc079",
+        "17de0beb-b78c-40ab-a727-1f3659ef3cdc"
+      ],
+      "custom_css": [
+        ".relative.space-y-10 > div {display: flex; justify-content: center;}"
       ],
       "settings": {
-      }
-    },
-    "e57b7e3d-117a-4951-9746-829db8845f28": {
-      "type": "collections-carousel",
-      "blocks": {
-        "c7c54b85-fc86-4670-92f8-d619f533eeb5": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-bath",
-            "usp_title": "Upto 50% Off'",
-            "image": "shopify:\/\/shop_images\/Cirrus_Apple-White.jpg",
-            "excerpt": ""
-          }
-        },
-        "34aac4c9-2832-4986-b895-ed407859deac": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-bedding",
-            "usp_title": "Upto 50% Off'",
-            "image": "shopify:\/\/shop_images\/Cirrus_Apple-Pudding.jpg",
-            "excerpt": ""
-          }
-        },
-        "1617a214-ba08-4bfc-a58e-7bb19d23df62": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-loungewear",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Cirrus_Apple-Ocean.jpg",
-            "excerpt": "<p>Add excerpt here in section<\/p>"
-          }
-        },
-        "bab99513-8b1a-4809-a0dd-00b300dfe0ff": {
-          "type": "collection",
-          "settings": {
-            "collection": "bath-mats-and-rugs",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Cirrus_Apple-Green.jpg",
-            "excerpt": "<p>Add excerpt here in section<\/p>"
-          }
-        },
-        "d7933374-db8b-45eb-abe0-7a92fd83d6db": {
-          "type": "collection",
-          "settings": {
-            "collection": "bathroom",
-            "usp_title": "",
-            "excerpt": ""
-          }
-        },
-        "428c33e2-fae4-4ebf-8f65-b8263288e22b": {
-          "type": "collection",
-          "settings": {
-            "collection": "bathroom-bath-mats-rugs",
-            "usp_title": "",
-            "excerpt": "<p>Add excerpt here in section<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "c7c54b85-fc86-4670-92f8-d619f533eeb5",
-        "34aac4c9-2832-4986-b895-ed407859deac",
-        "1617a214-ba08-4bfc-a58e-7bb19d23df62",
-        "bab99513-8b1a-4809-a0dd-00b300dfe0ff",
-        "d7933374-db8b-45eb-abe0-7a92fd83d6db",
-        "428c33e2-fae4-4ebf-8f65-b8263288e22b"
-      ],
-      "settings": {
-        "title": "Shop by category",
-        "screen_visibility": "both"
       }
     },
     "heading": {
@@ -146,7 +77,6 @@
     "billboard2": {
       "type": "billboard",
       "settings": {
-        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/bed-home.jpg",
         "subtitle": "Explore",
         "title": "<p>Bed<\/p>",
@@ -206,7 +136,6 @@
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2"
       ],
       "settings": {
-        "title": "Example Title"
       }
     },
     "heading2": {
@@ -224,7 +153,6 @@
     "billboard": {
       "type": "billboard",
       "settings": {
-        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/bath-home.jpg",
         "subtitle": "Explore",
         "title": "<p>Bath<\/p>",
@@ -284,13 +212,11 @@
         "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2"
       ],
       "settings": {
-        "title": ""
       }
     },
     "billboard3": {
       "type": "billboard",
       "settings": {
-        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/innovators-home.jpg",
         "subtitle": "Technology",
         "title": "<p>Innovators <br\/>since 1850<\/p>",
@@ -340,8 +266,8 @@
           "settings": {
             "position_left": 70,
             "position_top": 55,
-            "position_left_mob": 10,
-            "position_top_mob": 30,
+            "position_left_mob": 50,
+            "position_top_mob": 50,
             "product": "lerwick-stripe"
           }
         },
@@ -390,7 +316,6 @@
     "billboard4": {
       "type": "billboard",
       "settings": {
-        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/perfect-towel.jpg",
         "subtitle": "Feature",
         "title": "<p>Only the best: picking your perfect towel<\/p>",
@@ -424,36 +349,15 @@
           "settings": {
             "article": "lifestyle\/how-to-dress-a-bed-the-complete-guide"
           }
-        },
-        "ff7370ae-76a1-4019-917d-cdee7a81adaa": {
-          "type": "article",
-          "settings": {
-            "article": "lifestyle\/how-to-arrange-pillows-on-a-bed-easy-tips-and-tricks"
-          }
-        },
-        "f9e5c32d-7ea0-4ccc-9318-219230c3479d": {
-          "type": "article",
-          "settings": {
-            "article": "bathology\/beach-towels"
-          }
-        },
-        "1dbac564-bf20-46b4-9b34-bcbe25f41c65": {
-          "type": "article",
-          "settings": {
-            "article": "lifestyle\/ultimate-duvet-tog-guide-for-the-best-night-s-sleep"
-          }
         }
       },
       "block_order": [
         "30dec819-818b-4bc2-b9c3-ff19c89ebaf4",
         "458e4f16-65af-45ea-bf76-156d0bfc8da1",
-        "dc2e0744-3035-4a8f-b0c9-4abd1e420569",
-        "ff7370ae-76a1-4019-917d-cdee7a81adaa",
-        "f9e5c32d-7ea0-4ccc-9318-219230c3479d",
-        "1dbac564-bf20-46b4-9b34-bcbe25f41c65"
+        "dc2e0744-3035-4a8f-b0c9-4abd1e420569"
       ],
       "settings": {
-        "title": "Stories"
+        "blog": "news,guides,products,lifestyle"
       }
     },
     "d1799047-2d3f-4748-9804-8038692b0c63": {
@@ -467,11 +371,18 @@
         "horiz_padding": false,
         "margin_top": false
       }
+    },
+    "2970b3ab-743a-4054-95d1-048d41881e08": {
+      "type": "quiz-popup",
+      "settings": {
+        "title": "What's your perfect towel?",
+        "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
+        "button_link": "#quiz-gWHPoe"
+      }
     }
   },
   "order": [
     "hero-collection",
-    "e57b7e3d-117a-4951-9746-829db8845f28",
     "heading",
     "billboard2",
     "c-info-columns2",
@@ -485,6 +396,7 @@
     "heading4",
     "billboard4",
     "featured-blogs",
-    "d1799047-2d3f-4748-9804-8038692b0c63"
+    "d1799047-2d3f-4748-9804-8038692b0c63",
+    "2970b3ab-743a-4054-95d1-048d41881e08"
   ]
 }
