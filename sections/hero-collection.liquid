@@ -59,22 +59,27 @@
 
                   <div class="relative space-y-10 lg:space-y-12 py-10 lg:py-28  container max-w-none {% if section.blocks.size == 1 %}max-md:pb-0{% endif %}">
                     <div class="space-y-5 lg:space-y-6">
-                      <header class=" space-y-3 lg:space-y-4 md:text-white md:max-w-[500px] max-md:text-center">
-                        {%- if block.settings.subtitle != blank %}
-                          <h2 class="m-h5 lg:d-h5 {% if block.settings.mobile_subtitle == 'hide' %}max-md:hidden{% endif %}">
-                            {{ block.settings.subtitle }}
-                          </h2>
-                        {%- endif -%}
-                        {%- if block.settings.title != blank %}
-                          <h3 class="s-m-h3 lg:s-d-h2 {% if block.settings.mob_title != blank%}max-md:hidden{% endif %}">
-                            {{ block.settings.title }}
-                          </h3>
-                        {%- endif -%}
+                      {% if block.settings.subtitle != blank
+                        or block.settings.title != blank
+                        or block.settings.mob_title != blank
+                      %}
+                        <header class=" space-y-3 lg:space-y-4 md:text-white md:max-w-[500px] max-md:text-center">
+                          {%- if block.settings.subtitle != blank %}
+                            <h2 class="m-h5 lg:d-h5 {% if block.settings.mobile_subtitle == 'hide' %}max-md:hidden{% endif %}">
+                              {{ block.settings.subtitle }}
+                            </h2>
+                          {%- endif -%}
+                          {%- if block.settings.title != blank %}
+                            <h3 class="s-m-h3 lg:s-d-h2 {% if block.settings.mob_title != blank%}max-md:hidden{% endif %}">
+                              {{ block.settings.title }}
+                            </h3>
+                          {%- endif -%}
 
-                        {%- if block.settings.mob_title != blank %}
-                          <h4 class="s-m-h3 lg:s-d-h2 md:hidden">{{ block.settings.mob_title }}</h4>
-                        {%- endif -%}
-                      </header>
+                          {%- if block.settings.mob_title != blank %}
+                            <h4 class="s-m-h3 lg:s-d-h2 md:hidden">{{ block.settings.mob_title }}</h4>
+                          {%- endif -%}
+                        </header>
+                      {% endif %}
 
                       {% if block.settings.copy %}
                         <div class="wysiwyg md:text-white max-md:text-center {% if block.settings.copy_visibility == 'mobile'%}md:hidden{% endif %}">
