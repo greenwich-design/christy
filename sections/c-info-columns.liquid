@@ -1,3 +1,4 @@
+{{ 'splide.min.css' | asset_url | stylesheet_tag }}
 <div
   id="Infocolumns-{{ section.id }}"
   class="overflow-hidden"
@@ -6,10 +7,10 @@
     <div
       class="splide group/splide max-md:space-y-5"
       data-splide='
-        {"arrows": true, "pagination": false, "type": "slide", "destroy": "false", "gap": "40px", "autoWidth": true, "focus": 0, "omitEnd": true, "breakpoints": {
+        {"arrows": true, "pagination": false, "type": "slide", "destroy": true, "gap": "40px", "autoWidth": true, "focus": 0, "omitEnd": true, "breakpoints": {
           "768": {
             "gap": "20px",
-            "destroy": "false"
+            "destroy": false
           }
         }}
       '
@@ -44,7 +45,7 @@
       </header>
 
       <div class="splide__track !overflow-visible">
-        <div class="splide__list md:!grid md:grid-cols-3 text-blue-1 md:gap-3">
+        <div class="splide__list flex md:!grid md:grid-cols-3 text-blue-1 md:gap-3">
           {%- for block in section.blocks -%}
             <div class="splide__slide max-md:w-[245px]" {{ block.shopify_attributes }}>
               <div
