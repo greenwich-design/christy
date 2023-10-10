@@ -9,8 +9,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hp_banner_bed2.jpg",
             "video": "shopify:\/\/files\/videos\/Untitled (1) (1).mp4",
+            "mobile_media": "image",
             "subtitle": "Snuggle Season Sale",
+            "mobile_subtitle": "show",
             "title": "25% off bedding, robes, duvets, pillows and accessories - Ends tonight!",
+            "mob_title": "",
+            "copy": "",
+            "copy_visibility": "all",
             "collection": "snuggle-season-sale",
             "button_text": "Shop Now"
           }
@@ -20,8 +25,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design_1.png",
             "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
+            "mobile_media": "image",
             "subtitle": "",
+            "mobile_subtitle": "show",
             "title": "",
+            "mob_title": "",
+            "copy": "",
+            "copy_visibility": "all",
             "collection": "offers-shop-all-sale",
             "button_text": "Shop Now"
           }
@@ -32,8 +42,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/hero-3.jpg",
             "video": "shopify:\/\/files\/videos\/8ecb9c0bb18343eeaebb289b5770b60f.mp4",
+            "mobile_media": "image",
             "subtitle": "Wimbledon",
+            "mobile_subtitle": "show",
             "title": "The ultimate serve in comfort: our collaboration with Wimbledon.",
+            "mob_title": "",
+            "copy": "",
+            "copy_visibility": "all",
             "collection": "wimbledon",
             "button_text": "Discover Wimbledon"
           }
@@ -43,8 +58,13 @@
           "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Untitled_design.png",
+            "mobile_media": "image",
             "subtitle": "",
+            "mobile_subtitle": "show",
             "title": "",
+            "mob_title": "",
+            "copy": "",
+            "copy_visibility": "all",
             "collection": "offers-shop-all-sale",
             "button_text": "Shop Now"
           }
@@ -77,6 +97,7 @@
     "billboard2": {
       "type": "billboard",
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/bed-home.jpg",
         "subtitle": "Explore",
         "title": "<p>Bed<\/p>",
@@ -136,6 +157,7 @@
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2"
       ],
       "settings": {
+        "title": ""
       }
     },
     "heading2": {
@@ -153,6 +175,7 @@
     "billboard": {
       "type": "billboard",
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/bath-home.jpg",
         "subtitle": "Explore",
         "title": "<p>Bath<\/p>",
@@ -212,11 +235,13 @@
         "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2"
       ],
       "settings": {
+        "title": ""
       }
     },
     "billboard3": {
       "type": "billboard",
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/innovators-home.jpg",
         "subtitle": "Technology",
         "title": "<p>Innovators <br\/>since 1850<\/p>",
@@ -316,6 +341,7 @@
     "billboard4": {
       "type": "billboard",
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/perfect-towel.jpg",
         "subtitle": "Feature",
         "title": "<p>Only the best: picking your perfect towel<\/p>",
@@ -357,7 +383,7 @@
         "dc2e0744-3035-4a8f-b0c9-4abd1e420569"
       ],
       "settings": {
-        "blog": "news,guides,products,lifestyle"
+        "title": "Our Stories"
       }
     },
     "d1799047-2d3f-4748-9804-8038692b0c63": {

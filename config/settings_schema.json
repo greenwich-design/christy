@@ -93,7 +93,7 @@
         "id": "create_account_copy",
         "label": "Create account copy",
         "info": "This appears above 'Create Account' button, on Account Login page.",
-        "default": "<p><strong>New here? Or shopped with us, but didn’t sign up?</strong></p><p>Welcome! Sign up to activate your account.</p>"
+        "default": "<p><strong>New here? Or shopped with us, but didn’t sign up?<\/strong><\/p><p>Welcome! Sign up to activate your account.<\/p>"
       }
     ]
   },

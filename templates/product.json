@@ -18,9 +18,6 @@
     "dfadb464-131f-4320-963f-71343e59af69": {
       "type": "related-products",
       "settings": {
-        "products": [
-
-        ]
       }
     },
     "recent-products": {
@@ -33,7 +30,6 @@
       "type": "billboard",
       "disabled": true,
       "settings": {
-        "screen_visibility": "both",
         "subtitle": "Christy Life",
         "title": "<p>Caring Cotton<\/p>",
         "copy": "<p>Sustainably made cotton is kinder to the environment and the people who produce it – which is why we’re using it more than ever. <\/p><p>Our Made In Green-certified products are guaranteed to have been made sustainably, under socially responsible working environments and using transparent supply chains.<\/p>",
