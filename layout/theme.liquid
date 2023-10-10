@@ -46,7 +46,7 @@
       {% comment %}<link rel="stylesheet" href="{{ 'base.css' | asset_url }}" media="all">{% endcomment %}
     {%- endif -%}
 
-    {{ content_for_header }}
+    {%- if tinyscript -%}{{ content_for_header }}{%- else -%}{% render 'tiny-script-control' %}{%- endif -%}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
