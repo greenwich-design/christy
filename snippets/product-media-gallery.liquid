@@ -65,6 +65,15 @@
     id="media-gallery-mob"
     class="md:!hidden splide splide-custom splide-gallery-mob min-h-[90px] lg:min-h-[107px] {{ group_class }} max-md:-mx-[40px] group/splide"
   >
+    <button
+      type="button"
+      aria-label="Add to wishlist"
+      button-wishlist
+      data-product-handle="{{ product.handle }}"
+      class="card__wishlist wishlist-button [&.active_svg]:animate-scalein group/wlbtn z-10"
+    >
+      <span class="w-[16px] lg:w-[18px] block">{% render 'icon-heart' %}</span>
+    </button>
     <div class="splide__track flex flex-1 [&_figure>img]:aspect-square [&_figure>img]:object-cover">
       <ul class="splide__list flex !h-auto w-full">
         {% assign first_image = true %}

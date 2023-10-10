@@ -71,17 +71,18 @@
           -%}
 
           <div class="flex gap-2 items-end">
-            <div class="flex-[2]">
+            <p class="font-semibold lg:d-h5 hidden sm:max-md:!block self-start max-w-[40%]">{{ product.title }}</p>
+            <div class="flex-[2] overflow-hidden">
               <button
                 id="ProductSubmitButton-{{ section_id }}"
                 type="submit"
                 name="add"
-                class="product-form__submit button button--full-width btn-large btn-primary relative"
+                class="product-form__submit button button--full-width btn-large btn-primary relative overflow-hidden"
                 {% if current_variant.available == false or quantity_rule_soldout %}
                   disabled
                 {% endif %}
               >
-                <span>
+                <span class="truncate">
                   {%- if current_variant.available == false or quantity_rule_soldout -%}
                     {{ 'products.product.sold_out' | t }}
                   {%- else -%}
@@ -114,7 +115,19 @@
               </button>
             </div>
 
-            <div class="xl:flex-1">
+            <div class="relative flex h-[50px] lg:h-[60px] shrink-0">
+              <select name="quantity" id="quantity" class="quantity-selector fancy-select flex-1">
+                {% for i in (1..5) %}
+                  <option value="{{ i }}">{{ i }}</option>
+                {% endfor %}
+              </select>
+
+              <div class="absolute w-[6px] rotate-90 right-3 top-1/2 -translate-y-1/2 pointer-events-none">
+                {% render 'caret-down' %}
+              </div>
+            </div>
+
+            <div class="lg:min-w-[60px] max-md:hidden shrink-0">
               <button
                 type="button"
                 aria-label="Add to wishlist"
@@ -122,8 +135,8 @@
                 data-product-handle="{{ product.handle }}"
                 class="btn-large btn-secondary [&_path]:!stroke-current [&.active_path]:!stroke-orange-1 max-lg:min-w-[50px] lg:max-xl:min-w-[60px]"
               >
-                <span class="max-xl:hidden">Add to Wishlist</span>
-                <span class="w-[16px] lg:w-[18px] block xl:ml-2">{% render 'icon-heart' %}</span>
+                <span class="max-2xl:hidden">Add to Wishlist</span>
+                <span class="w-[16px] lg:w-[18px] block 2xl:ml-2">{% render 'icon-heart' %}</span>
               </button>
             </div>
           </div>

@@ -1,4 +1,4 @@
-<div class="customer register section-{{ section.id }}-padding container py-[90px] lg:py-[107px]">
+<div class="customer register section-{{ section.id }}-padding container py-[45px] md:py-[90px] lg:py-[107px]">
   <div class="max-w-[432px] mx-auto space-y-4 lg:space-y-6">
     <svg style="display: none">
       <symbol id="icon-error" viewBox="0 0 13 13">
@@ -12,7 +12,7 @@
       {{ 'customer.register.title' | t }}
     </h1>
     <div class="[&_form]:space-y-4 [&_form]:lg:space-y-6 [&_form]:flex [&_form]:flex-col">
-      {%- form 'create_customer', novalidate: 'novalidate' -%}
+      {%- form 'create_customer' -%}
         {%- if form.errors -%}
           <h2 class="form__message" tabindex="-1">
             <svg aria-hidden="true" focusable="false">
@@ -44,6 +44,12 @@
               value="{{ form.first_name }}"
             {% endif %}
             autocomplete="given-name"
+            aria-required="true"
+            required
+            {% if form.errors contains 'first_name' %}
+              aria-invalid="true"
+              aria-describedby="RegisterForm-FirstName-error"
+            {% endif %}
             placeholder="{{ 'customer.register.first_name' | t }}"
           >
           <label for="RegisterForm-FirstName">
@@ -59,6 +65,12 @@
               value="{{ form.last_name }}"
             {% endif %}
             autocomplete="family-name"
+            aria-required="true"
+            required
+            {% if form.errors contains 'last_name' %}
+              aria-invalid="true"
+              aria-describedby="RegisterForm-LastName-error"
+            {% endif %}
             placeholder="{{ 'customer.register.last_name' | t }}"
           >
           <label for="RegisterForm-LastName">
@@ -77,6 +89,7 @@
             autocapitalize="off"
             autocomplete="email"
             aria-required="true"
+            required
             {% if form.errors contains 'email' %}
               aria-invalid="true"
               aria-describedby="RegisterForm-email-error"
@@ -102,6 +115,7 @@
             name="customer[password]"
             id="RegisterForm-password"
             aria-required="true"
+            required
             {% if form.errors contains 'password' %}
               aria-invalid="true"
               aria-describedby="RegisterForm-password-error"

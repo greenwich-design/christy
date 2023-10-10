@@ -85,21 +85,6 @@
       </div>
     </header>
 
-    {% assign has_sub_collections = false %}
-    {% for block in section.blocks -%}
-      {% case block.type %}
-        {% when 'sub_collections' %}
-          {% if has_sub_collections == false %}
-            {% assign has_sub_collections = true %}
-            {% break %}
-          {% endif %}
-      {% endcase %}
-    {% endfor %}
-
-    {% if has_sub_collections %}
-      {% render 'sub-collection-carousel', blocks: section.blocks %}
-    {% endif %}
-
     {%- if collection.products.size > 0 -%}
       <aside
         aria-labelledby="verticalTitle"
@@ -114,8 +99,7 @@
           enable_sorting: section.settings.enable_sorting,
           filter_type: section.settings.filter_type,
           paginate: paginate,
-          collection_list: collection.metafields.custom.children_collections,
-          has_sub_collections: has_sub_collections
+          collection_list: collection.metafields.custom.children_collections
         %}
       </aside>
       <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
@@ -446,38 +430,6 @@
   ],
 
   "blocks": [
-    {
-      "type": "sub_collections",
-      "name": "Sub Col. Carousel Item",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "text",
-          "id": "title",
-          "label": "Title"
-        },
-        {
-          "type": "text",
-          "id": "sub_title",
-          "label": "Sub Title"
-        },
-        {
-          "type": "richtext",
-          "id": "copy",
-          "label": "Copy"
-        },
-
-        {
-          "type": "url",
-          "id": "button_url",
-          "label": "Button URL"
-        }
-      ]
-    },
     {
       "type": "infocard",
       "name": "GRID - Product Info Card",
