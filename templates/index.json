@@ -266,8 +266,8 @@
           "settings": {
             "position_left": 70,
             "position_top": 55,
-            "position_left_mob": 10,
-            "position_top_mob": 30,
+            "position_left_mob": 50,
+            "position_top_mob": 50,
             "product": "lerwick-stripe"
           }
         },
