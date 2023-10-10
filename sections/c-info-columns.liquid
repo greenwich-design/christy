@@ -17,10 +17,10 @@
     >
       <header class="flex justify-between space-x-5 items-center {% if section.settings.title != blank %}md:mb-5 lg:mb-8{% endif %}">
         {% if section.settings.title != blank %}
-          <h2 class="s-m-h2 lg:s-d-h2">{{ section.settings.title }}</h2>
+          <h2 class="m-h1 lg:d-h1 text-blue-1">{{ section.settings.title }}</h2>
         {% endif %}
 
-        <div class="splide__arrows splide__arrows--ltr hidden group-[.is-initialized]/splide:max-md:!flex justify-end ml-auto -mr-[15px]">
+        <div class="splide__arrows splide__arrows--ltr hidden group-[.is-initialized]/splide:max-md:!flex justify-end ml-auto !-mr-[15px]">
           <button
             class="splide__arrow splide__arrow--prev !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-transparent !static !transform-none outline-none"
             type="button"
