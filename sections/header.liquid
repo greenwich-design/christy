@@ -12,7 +12,7 @@
   <div class="header-bar bg-white/90 h-[70px] lg:h-[107px] !h-[var(--header-height)] lg:!h-[var(--header-height-lg)] flex flex-col justify-center items-center text-blue-1 will-change-transform pointer-events-auto">
     {% if section.settings.announcement != blank %}
       <aside id="announcement-bar" class="relative text-white text-center bg-blue-1 top-0 left-0 font-bold w-full">
-        <div class="py-3 container truncate flex justify-center [&>*]:truncate h-[44px] lg:h-[48px]">
+        <div class="py-3 container truncate flex justify-center [&>*]:truncate h-[44px] lg:h-[48px] [&_a]:underline">
           {{ section.settings.announcement }}
         </div>
       </aside>
