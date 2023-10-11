@@ -979,6 +979,10 @@ class VariantSelects extends HTMLElement {
             // refresh slider
             const splidegalrefresh = new Event('splidegalrefresh');
             window.dispatchEvent(splidegalrefresh);
+
+            // refresh zooms
+            const initzoomer = new Event('initzoomer');
+            window.dispatchEvent(initzoomer);
           }
 
         }

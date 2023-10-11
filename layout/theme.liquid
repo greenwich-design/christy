@@ -296,17 +296,15 @@
       ></script>
     {% endif %}
 
-    {% if page.handle == 'contact' %}
-      <script
-        type="text/javascript"
-        id="kap-snippet"
-        data-supportkey="382672a9444a45907f123f900f57d383d3ba25a15388818198"
-        chat-for="TICKET"
-        src="https://selfserveapp.kapturecrm.com/js/init_chat.js"
-        server-host="ms-noauth"
-        chat-type="NR"
-      ></script>
-    {% endif %}
+    <script
+      type="text/javascript"
+      id="kap-snippet"
+      data-supportkey="382672a9444a45907f123f900f57d383d3ba25a15388818198"
+      chat-for="TICKET"
+      src="https://selfserveapp.kapturecrm.com/js/init_chat.js"
+      server-host="ms-noauth"
+      chat-type="NR"
+    ></script>
 
     {%- render 'ecom_footer' -%}
     {% include 'revy-bundle-script' %}
