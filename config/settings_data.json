@@ -162,6 +162,31 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "15014643352720781508": {
+        "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
+        "disabled": true,
+        "settings": {
+          "cart_widget_enabled": false,
+          "item_widget_enabled": false,
+          "product_widget_enabled": false,
+          "message_enabled": false,
+          "sender_recipient": "none",
+          "message_max_length": 250,
+          "show_pricing": true,
+          "money_filter": "money_with_currency",
+          "variant_selector_type": "images",
+          "disabled_checkbox": false,
+          "font_scale": 100,
+          "font_color": "#000000",
+          "checkbox_radio_color": "rgba(0,0,0,0)",
+          "background_color": "#ffffff",
+          "border_color": "#000000",
+          "border_radius": 6,
+          "cart_widget_text_alignment": "--wrapped-checkbox--label-right",
+          "item_widget_text_alignment": "--wrapped-checkbox--label-left",
+          "product_widget_text_alignment": "--wrapped-checkbox--label-left"
+        }
       }
     },
     "color_schemes": {
