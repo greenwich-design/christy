@@ -9,8 +9,15 @@
 -%}
 
 <header id="header" class="sticky top-0 left-0 z-40">
-  <div class="header-bar bg-white/90 h-[90px] lg:h-[107px] flex items-center text-blue-1 will-change-transform pointer-events-auto">
-    <div class="container flex items-center justify-between lg:grid lg:max-xl:grid-cols-[minmax(auto,200px)_1fr_1fr_1fr] xl:grid-cols-4">
+  <div class="header-bar bg-white/90 h-[70px] lg:h-[107px] !h-[var(--header-height)] lg:!h-[var(--header-height-lg)] flex flex-col justify-center items-center text-blue-1 will-change-transform pointer-events-auto">
+    {% if section.settings.announcement != blank %}
+      <aside id="announcement-bar" class="relative text-white text-center bg-blue-1 top-0 left-0 font-bold w-full">
+        <div class="py-3 container truncate flex justify-center [&>*]:truncate h-[44px] lg:h-[48px]">
+          {{ section.settings.announcement }}
+        </div>
+      </aside>
+    {% endif %}
+    <div class="container flex-1 flex items-center justify-between lg:grid lg:max-xl:grid-cols-[minmax(auto,200px)_1fr_1fr_1fr] xl:grid-cols-4">
       {% if request.page_type == 'collection' %}
       {% endif %}
 
@@ -112,6 +119,15 @@
   {%- render 'header-mega-menu-mob', blocks: section.blocks %}
 </header>
 
+{% stylesheet %}
+  {% if section.settings.announcement != blank %}
+  :root {
+    --header-height: calc(70px + 44px);
+    --header-height-lg: calc(107px + 48px);
+  }
+  {% endif %}
+{% endstylesheet %}
+
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
@@ -160,7 +176,14 @@
   "enabled_on": {
     "groups": ["header"]
   },
-  "settings": [],
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "announcement",
+      "label": "Announcement bar",
+      "info": "If copy is entered, announcement will show"
+    }
+  ],
   "blocks": [
     {
       "type": "link",

@@ -140,7 +140,7 @@
       </div>
     {% endif %}
 
-    <div class="product__info-wrapper md:w-6/12 lg:w-5/12 self-start md:sticky md:top-[90px] lg:top-[107px] relative max-md:pt-7 z-10">
+    <div class="product__info-wrapper md:w-6/12 lg:w-5/12 self-start md:sticky md:top-[var(--header-height)] lg:top-[var(--header-height-lg)] relative max-md:pt-7 z-10">
       <product-info
         id="ProductInfo-{{ section.id }}"
         data-section="{{ section.id }}"
@@ -766,7 +766,7 @@
     {% if product.metafields.custom.size_guide != blank or product.metafields.custom.product_specification != blank %}
       <aside
         data-modal="sizeguide"
-        class="modal fixed inset-0 bg-white pt-[90px] lg:pt-[107px] !m-0 z-50 opacity-0 invisible transition-[opacity,visibility] duration-500 [&.active]:opacity-100 [&.active]:visible"
+        class="modal fixed inset-0 bg-white pt-[var(--header-height)] lg:pt-[var(--header-height-lg)] !m-0 z-50 opacity-0 invisible transition-[opacity,visibility] duration-500 [&.active]:opacity-100 [&.active]:visible"
       >
         <div
           class="container relative space-y-10 h-full flex flex-col after:w-[40px] after:h-full after:bg-gradient-to-l after:to-transparent after:from-white after:absolute after:right-0 after:top-0"
@@ -789,7 +789,7 @@
           </div>
         </div>
 
-        <div class="absolute top-0 right-0 container flex justify-end !m-0 min-h-[90px] lg:min-h-[107px] items-center">
+        <div class="absolute top-0 right-0 container flex justify-end !m-0 min-h-[var(--header-height)] lg:min-h-[var(--header-height-lg)] items-center">
           <button data-modalclose="sizeguide" class="p-5 -mr-5">{% render 'icon-close' %}</button>
         </div>
       </aside>

@@ -4,6 +4,11 @@
 
 :root {
     --product-panel: 240.08px;
+
+    --header-height: 70px; 
+    --header-height-lg: 107px;
+    
+
 }
 
 @layer components {
@@ -285,7 +290,7 @@
 // non tailwind
 
 .shopify-challenge__container {
-    @apply py-[45px] md:py-[90px] lg:py-[107px] flex flex-col items-center;
+    @apply py-[45px] md:py-[var(--header-height)] lg:py-[var(--header-height-lg)] flex flex-col items-center;
 
     .shopify-challenge__message {
         @apply font-semibold;

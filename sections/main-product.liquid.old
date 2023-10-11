@@ -89,7 +89,7 @@
       </div>
     {% endif %}
 
-    <div class='product__info-wrapper md:w-5/12 self-start md:sticky md:top-[90px] lg:top-[107px]'>
+    <div class='product__info-wrapper md:w-5/12 self-start md:sticky md:top-[var(--header-height)] lg:top-[var(--header-height-lg)]'>
       <product-info
         id='ProductInfo-{{ section.id }}'
         data-section='{{ section.id }}'

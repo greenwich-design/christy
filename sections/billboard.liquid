@@ -1,6 +1,6 @@
 <div
   id="Billboard-{{ section.id }}"
-  class="animation an-fadeup relative min-h-[calc(100vh-90px)] lg:min-h-[calc(100vh-107px)] py-20 lg:py-28 {% if section.settings.mobile_content_position == 'overlay' %}flex max-md:items-end{% else %}md:flex max-md:items-end max-md:space-y-12{% endif %}"
+  class="animation an-fadeup relative min-h-[calc(100vh_-_var(--header-height))] lg:min-h-[calc(100vh_-_var(--header-height-lg))] py-20 lg:py-28 {% if section.settings.mobile_content_position == 'overlay' %}flex max-md:items-end{% else %}md:flex max-md:items-end max-md:space-y-12{% endif %}"
 >
   {%- liquid
     assign full_width = '100vw'

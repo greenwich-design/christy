@@ -141,13 +141,13 @@
       {% if request.page_type == 'product' %}
         id="product-wrap"
       {% endif %}
-      class="{% if request.page_type == 'product' %}group/prodwrap [&.no-drawer]:max-md:!overflow-auto max-md:!h-full max-md:pt-[90px] max-md:w-full max-md:!overflow-hidden {% endif %}"
+      class="{% if request.page_type == 'product' %}group/prodwrap [&.no-drawer]:max-md:!overflow-auto max-md:!h-full max-md:pt-[70px] max-md:w-full max-md:!overflow-hidden {% endif %}"
     >
       {% if request.page_type == 'product' and product.images.size > 0 %}
         {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
         <div
           id="product-mobile-gallery"
-          class="group-[.no-drawer]/prodwrap:max-md:!h-auto h-full relative md:!hidden overflow-x-hidden max-md:overscroll-none max-md:h-[calc(100%_+_90px)] max-md:mt-[-90px]"
+          class="group-[.no-drawer]/prodwrap:max-md:!h-auto h-full relative md:!hidden overflow-x-hidden max-md:overscroll-none max-md:h-[calc(100%_+_70px)] max-md:mt-[-70px]"
         >
           <div class="group-[.no-drawer]/prodwrap:max-md:!relative absolute inset-0 bottom-[var(--product-panel)]">
             {% render 'product-media-gallery', variant_images: variant_images, group_class: '' %}
