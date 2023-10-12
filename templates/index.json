@@ -398,7 +398,7 @@
         "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-1": {
           "type": "block",
           "settings": {
-            "product": "",
+            "product": "cabana-beach-towels-450-gsm-cotton",
             "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
             "name": "John Smith"
           }
@@ -406,7 +406,7 @@
         "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-2": {
           "type": "block",
           "settings": {
-            "product": "",
+            "product": "brixton-shower-mat",
             "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
             "name": "John Smith"
           }
@@ -414,7 +414,7 @@
         "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-3": {
           "type": "block",
           "settings": {
-            "product": "",
+            "product": "coniston-bed-linen",
             "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
             "name": "John Smith"
           }
@@ -426,6 +426,7 @@
         "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-3"
       ],
       "settings": {
+        "title": "100,000+ Rave Reviews",
         "margin": "yes"
       }
     },
