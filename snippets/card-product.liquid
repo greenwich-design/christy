@@ -180,7 +180,10 @@
                     {%- endif -%}
                   {%- endfor -%}
 
+                  
                   {%- if option_swatch_image != blank %}
+                    
+                    {% if coloursCount < 7 %}
                     <a
                       href="{{ card_product.url }}/c:{{ value | handleize }}"
                       class="h-auto w-full rounded-full [&.active]:border [&.active]:border-[#999999]/20 [&.active_.swatch]:scale-75 flex items-center justify-center"
@@ -192,6 +195,7 @@
                         ></div>
                       </div>
                     </a>
+                    {% endif %}
 
                     {%- assign coloursCount = coloursCount | plus: 1 -%}
                   {%- endif %}
@@ -199,7 +203,10 @@
               {% endif %}
             {%- endfor %}
           {%- endcapture -%}
-        <div class="card__colours grid grid-cols-[repeat(6,24px)_1fr] gap-3" data-count="{{ coloursCount }}">
+        <div
+          class="card__colours grid grid-cols-[repeat(6,minmax(auto,24px))_1fr] gap-3 items-center"
+          data-count="{{ coloursCount }}"
+        >
           {{ optionColours }}
         </div>
       {%- endunless -%}
