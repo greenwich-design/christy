@@ -1363,6 +1363,10 @@ function cardColourSelector() {
 
                   parent.querySelectorAll('.card__colours > a').forEach((a) => a.classList.remove('active'));
                   el.classList.add('active');
+
+                  // lazy load images
+                  const lazyimg = new Event('lazyimg');
+                  window.dispatchEvent(lazyimg);
                 }
               }
 

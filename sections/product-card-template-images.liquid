@@ -61,7 +61,7 @@
     {% assign has_product_image = false %}
     {% assign count = 0 %}
     {%- for media in product.media -%}
-      {% assign class = 'h-full w-full object-contain' %}
+      {% assign class = 'h-full w-full object-contain opacity-0' %}
 
       {%- assign alt_array = media.alt | split: '-' -%}
       {%- assign alt_striped = alt_array[0] | strip -%}
@@ -72,7 +72,7 @@
           {% assign has_product_image = true %}
         {% endif %}
 
-        {%- assign loading = 'eager' %}
+        {%- assign loading = 'lazy' %}
 
         {%- assign aspect_ratio = media.height | times: 100 | divided_by: media.width | times: 100 -%}
 
