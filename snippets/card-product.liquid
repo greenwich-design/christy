@@ -207,29 +207,32 @@
               {% endif %}
             {%- endfor %}
           {%- endcapture -%}
-        <div
-          class="card__colours grid grid-cols-[repeat(3,minmax(auto,16px))_1fr] md:grid-cols-[repeat(6,minmax(auto,24px))_1fr] gap-2 md:gap-3 items-center"
-          data-count="{{ coloursCount }}"
-        >
-          {{ optionColours }}
 
-          {% liquid
-            assign colourCountActual = coloursCount
-            assign mobColourCount = colourCountActual | minus: 3
-            assign tabColourCount = colourCountActual | minus: 6
-          %}
+        {% if coloursCount > 1 %}
+          <div
+            class="card__colours grid grid-cols-[repeat(3,minmax(auto,16px))_1fr] md:grid-cols-[repeat(6,minmax(auto,24px))_1fr] gap-2 md:gap-3 items-center"
+            data-count="{{ coloursCount }}"
+          >
+            {{ optionColours }}
 
-          {% if mobColourCount > 0 or tabColourCount > 0 %}
-            <div class="leading-tight max-md:text-[10px]">
-              {% if mobColourCount > 0 %}
-                <span class="md:hidden">{{ mobColourCount }}+ more</span>
-              {% endif %}
-              {% if tabColourCount > 0 %}
-                <span class="max-md:hidden">{{ tabColourCount }}+ more</span>
-              {% endif %}
-            </div>
-          {% endif %}
-        </div>
+            {% liquid
+              assign colourCountActual = coloursCount
+              assign mobColourCount = colourCountActual | minus: 3
+              assign tabColourCount = colourCountActual | minus: 6
+            %}
+
+            {% if mobColourCount > 0 or tabColourCount > 0 %}
+              <div class="leading-tight max-md:text-[10px]">
+                {% if mobColourCount > 0 %}
+                  <a href="{{ card_product.url }}" class="md:hidden hover:underline">{{ mobColourCount }}+ more</a>
+                {% endif %}
+                {% if tabColourCount > 0 %}
+                  <a href="{{ card_product.url }}" class="max-md:hidden hover:underline">{{ tabColourCount }}+ more</a>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
       {%- endunless -%}
     </div>
   </div>
