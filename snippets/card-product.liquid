@@ -28,7 +28,7 @@
       <div
         class="card__inner relative"
       >
-        <a class="relative aspect-[2/3] block bg-grey-2" href="{{ card_product.url }}">
+        <a class="product-images relative aspect-[2/3] block bg-grey-2" href="{{ card_product.url }}">
           {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
 
           {%- if card_product.featured_media -%}
@@ -164,6 +164,41 @@
           </h3>
         </div>
       </div>
+
+      {%- unless card_product.has_only_default_variant -%}
+        {%- assign coloursCount = 0 %}
+        {%- capture optionColours %}
+            {%- for option in card_product.options_with_values -%}
+              {% if option.name == 'Colour' or option.name == 'Color' %}
+                {%- for value in option.values -%}
+                  {%- for image in card_product.images -%}
+                    {%- assign alt_array = image.alt | split: '-' -%}
+                    {%- assign alt_striped = alt_array[0] | strip -%}
+                    {%- assign colour_striped = value | strip -%}
+                    {%- if colour_striped == alt_striped and alt_array[1] == 'product_swatch' -%}
+                      {%- assign option_swatch_image = image -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+
+                  {%- if option_swatch_image != blank %}
+                    <a
+                      href="{{ card_product.url }}/c:{{ value | handleize }}"
+                      class="w-[16px] h-[16px] lg:w-[24px] lg:h-[24px] [&.active]:border-1 [&.active]:border-[#999999]/20 [&.active>div]:w-[9px] [&.active>div]:h-[9px] [&.active>div]:lg:w-[14px] [&.active>div]:lg:h-[14px] flex items-center justify-center"
+                    >
+                      <div
+                        class="w-full h-full transition-[width,height] rounded-full"
+                        style="background-image: url({{ option_swatch_image | img_url: '24x24' }});"
+                      ></div>
+                    </a>
+
+                    {%- assign coloursCount = coloursCount | plus: 1 -%}
+                  {%- endif %}
+                {% endfor %}
+              {% endif %}
+            {%- endfor %}
+          {%- endcapture -%}
+        <div class="card__colours grid grid-cols-7" data-count="{{ coloursCount }}">{{ optionColours }}</div>
+      {%- endunless -%}
     </div>
   </div>
 {%- else -%}
