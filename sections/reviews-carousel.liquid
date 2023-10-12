@@ -1,57 +1,118 @@
+{{ 'splide.min.css' | asset_url | stylesheet_tag }}
+
 {% liquid
-  assign widths = '300, 375, 550, 660, 750, 1024, 1336'
-  assign sizes = '(max-width: 1023px) 50vw, (min-width: 1024px) 330px, 100vw'
+  assign widths = '300, 375, 550, 640, 768 1280, 1536, 1920'
+  assign sizes = '(max-width: 767px) 100vw, (min-width: 768px) 50vw'
 
   assign class1 = 'h-full w-full object-contain opacity-0'
   assign class2 = 'h-full w-full object-cover !opacity-0 group-hover/card:!opacity-100 absolute inset-0 notouchhover '
 %}
 {%- render 'spinner' -%}
 
-{% assign height_cropped = 330 | divided_by: 2 | plus: 330 %}
+{% assign img_width = 640 %}
 
-{% assign img_width = '330' %}
+{% assign height_cropped = 640 | divided_by: 1.77778 %}
+
 <div class="">
-  <div class="container space-y-8 lg:space-y-16">
-    <div class="animation an-fadeup">
-      {%- for block in section.blocks -%}
-        <div
-          {{ block.shopify_attributes }}
-          class="grid md:grid-cols-2 gap-8 md:gap-16"
-        >
-          {% if block.settings.product %}
-            <div>
-              {% assign rel_product = block.settings.product %}
+  <div class="container">
+    <div
+      class="splide group/splide  space-y-8 lg:space-y-16"
+      data-splide='
+        {"arrows": true, "pagination": false, "type": "fade", "gap": "0", "autoWidth": false, "focus": 0, "omitEnd": true, "breakpoints": {
+          "768": {
+            "gap": "0"
+          }
+        }}
+      '
+    >
+      <header class="flex gap-12 max-md:flex-col items-start md:items-center">
+        {% if section.settings.title %}
+          <h2 class="s-m-h2 lg:s-d-h1">{{ section.settings.title }}</h2>
+        {% endif %}
 
-              {% if rel_product.featured_media.media_type == 'image' %}
-                <a href="{{ rel_product.url }}">
-                  {%- render 'lazyimg',
-                    img: rel_product.featured_media,
-                    width: img_width,
-                    height: height_cropped,
-                    widths: widths,
-                    class: class1,
-                    sizes: sizes,
-                    crop: 'center'
-                  -%}
-                </a>
-              {% endif %}
+        {% if section.settings.button_title and section.settings.button_link %}
+          <a class="btn-secondary btn-medium" href="{{ section.settings.button_link }}">
+            {{- section.settings.button_title -}}
+          </a>
+        {% endif %}
 
-              <a class="btn-tertiary" href="{{ rel_product.url }}">Shop {{ rel_product.title }}</a>
-            </div>
-          {% endif %}
+        <div class="splide__arrows splide__arrows--ltr hidden group-[.is-initialized]/splide:!flex justify-end  !-mr-[15px] !ml-auto">
+          <button
+            class="splide__arrow splide__arrow--prev !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-transparent !static !transform-none outline-none"
+            type="button"
+            aria-label="Previous slide"
+            aria-controls="splide01-track"
+          >
+            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path class="fill-blue-1" d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/>
+            </svg>
+          </button>
+          <button
+            class="splide__arrow splide__arrow--next !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-transparent !static !transform-none outline-none"
+            type="button"
+            aria-label="Next slide"
+            aria-controls="splide01-track"
+          >
+            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path class="fill-blue-1" d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/>
+            </svg>
+          </button>
+        </div>
+      </header>
+      <div class="animation an-fadeup">
+        <div class="splide__track !overflow-visible">
+          <div class="splide__list text-blue-1 flex">
+            {%- for block in section.blocks -%}
+              <div class="splide__slide">
+                <div
+                  {{ block.shopify_attributes }}
+                  class="grid md:grid-cols-2 gap-8 md:gap-16"
+                >
+                  {% if block.settings.product %}
+                    <div>
+                      {% assign rel_product = block.settings.product %}
 
-          <div class="space-y-3 lg:space-y-5 flex-1 flex-col flex items-start justify-center py-3 md:py-7 px-7">
-            <p>Customer Reviews</p>
-            <div class="wysiwyg">{{ block.settings.testimonial }}</div>
+                      {% if rel_product.featured_media.media_type == 'image' %}
+                        <a href="{{ rel_product.url }}">
+                          {%- render 'lazyimg',
+                            img: rel_product.featured_media,
+                            width: img_width,
+                            height: height_cropped,
+                            widths: widths,
+                            class: class1,
+                            sizes: sizes,
+                            crop: 'center'
+                          -%}
+                        </a>
+                      {% endif %}
 
-            <img loading="lazy" src="{{ "star.svg" | asset_img_url }}" alt="Start" width="24" height="22">
+                      <a class="btn-tertiary" href="{{ rel_product.url }}">Shop {{ rel_product.title }}</a>
+                    </div>
+                  {% endif %}
 
-            {% if block.settings.name %}
-              <p class="">{{ block.settings.name }}</p>
-            {% endif %}
+                  <div class="space-y-3 lg:space-y-5 flex-1 flex-col flex items-start justify-center py-3 md:py-7 px-7">
+                    <p class="m-h3 lg:d-h3">Customer Reviews</p>
+
+                    <div class="gap-3 flex text-[#E3AD7C] !mb-5 lg:mb-8">
+                      {%- render 'icon-star' %}
+                      {%- render 'icon-star' %}
+                      {%- render 'icon-star' %}
+                      {%- render 'icon-star' %}
+                      {%- render 'icon-star' %}
+                    </div>
+
+                    <div class="wysiwyg s-m-h3 lg:s-d-h3">{{ block.settings.testimonial }}</div>
+
+                    {% if block.settings.name %}
+                      <p class="m-h4 lg:d-h4">{{ block.settings.name }}</p>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            {%- endfor -%}
           </div>
         </div>
-      {%- endfor -%}
+      </div>
     </div>
   </div>
 </div>
@@ -74,6 +135,12 @@
     "templates": ["article"]
   },
   "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "100,000+ Rave Reviews"
+    },
     {
       "type": "radio",
       "id": "margin",
