@@ -183,12 +183,14 @@
                   {%- if option_swatch_image != blank %}
                     <a
                       href="{{ card_product.url }}/c:{{ value | handleize }}"
-                      class="w-[16px] h-[16px] lg:w-[24px] lg:h-[24px] [&.active]:border-1 [&.active]:border-[#999999]/20 [&.active>div]:w-[9px] [&.active>div]:h-[9px] [&.active>div]:lg:w-[14px] [&.active>div]:lg:h-[14px] flex items-center justify-center"
+                      class="h-auto w-full rounded-full [&.active]:border [&.active]:border-[#999999]/20 [&.active_.swatch]:scale-75 flex items-center justify-center"
                     >
-                      <div
-                        class="w-full h-full transition-[width,height] rounded-full"
-                        style="background-image: url({{ option_swatch_image | img_url: '24x24' }});"
-                      ></div>
+                      <div class="pt-[100%] flex-1 relative">
+                        <div
+                          class="swatch w-full h-full transition-[width,height] rounded-full absolute inset-0 transition-transform"
+                          style="background-image: url({{ option_swatch_image | img_url: '24x24' }});"
+                        ></div>
+                      </div>
                     </a>
 
                     {%- assign coloursCount = coloursCount | plus: 1 -%}
@@ -197,7 +199,9 @@
               {% endif %}
             {%- endfor %}
           {%- endcapture -%}
-        <div class="card__colours grid grid-cols-7" data-count="{{ coloursCount }}">{{ optionColours }}</div>
+        <div class="card__colours grid grid-cols-[repeat(6,24px)_1fr] gap-3" data-count="{{ coloursCount }}">
+          {{ optionColours }}
+        </div>
       {%- endunless -%}
     </div>
   </div>
