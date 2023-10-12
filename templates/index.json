@@ -355,6 +355,43 @@
         "mobile_content_position": "overlay"
       }
     },
+    "7c7a96a7-b488-4887-a42e-24e5dceb8dbb": {
+      "type": "why-christy",
+      "blocks": {
+        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-1": {
+          "type": "block",
+          "settings": {
+            "title": "Premium Materials",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.<\/p>"
+          }
+        },
+        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-2": {
+          "type": "block",
+          "settings": {
+            "title": "Premium Materials",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.<\/p>"
+          }
+        },
+        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-3": {
+          "type": "block",
+          "settings": {
+            "title": "Premium Materials",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-1",
+        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-2",
+        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-3"
+      ],
+      "settings": {
+        "title": "Why Christy?",
+        "button_title": "Shop best Sellers",
+        "button_link": "shopify:\/\/collections\/all",
+        "margin": "no"
+      }
+    },
     "featured-blogs": {
       "type": "featured-blogs",
       "blocks": {
@@ -421,6 +458,7 @@
     "product-showcase",
     "heading4",
     "billboard4",
+    "7c7a96a7-b488-4887-a42e-24e5dceb8dbb",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
     "2970b3ab-743a-4054-95d1-048d41881e08"
