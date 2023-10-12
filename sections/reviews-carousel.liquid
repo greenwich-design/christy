@@ -25,55 +25,57 @@
         }}
       '
     >
-      <header class="flex gap-12 max-md:flex-col items-start md:items-center">
+      <header class="flex gap-12 max-md:flex-col md:items-center">
         {% if section.settings.title %}
           <h2 class="s-m-h2 lg:s-d-h1">{{ section.settings.title }}</h2>
         {% endif %}
 
-        {% if section.settings.button_title and section.settings.button_link %}
-          <a class="btn-secondary btn-medium" href="{{ section.settings.button_link }}">
-            {{- section.settings.button_title -}}
-          </a>
-        {% endif %}
+        <div class="flex flex-1 justify-between">
+          {% if section.settings.button_title and section.settings.button_link %}
+            <a class="btn-secondary btn-medium" href="{{ section.settings.button_link }}">
+              {{- section.settings.button_title -}}
+            </a>
+          {% endif %}
 
-        <div class="splide__arrows splide__arrows--ltr hidden group-[.is-initialized]/splide:!flex justify-end  !-mr-[15px] !ml-auto">
-          <button
-            class="splide__arrow splide__arrow--prev !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-transparent !static !transform-none outline-none"
-            type="button"
-            aria-label="Previous slide"
-            aria-controls="splide01-track"
-          >
-            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path class="fill-blue-1" d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/>
-            </svg>
-          </button>
-          <button
-            class="splide__arrow splide__arrow--next !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-transparent !static !transform-none outline-none"
-            type="button"
-            aria-label="Next slide"
-            aria-controls="splide01-track"
-          >
-            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path class="fill-blue-1" d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/>
-            </svg>
-          </button>
+          <div class="splide__arrows splide__arrows--ltr hidden group-[.is-initialized]/splide:!flex justify-end  !-mr-[15px] !ml-auto">
+            <button
+              class="splide__arrow splide__arrow--prev !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-transparent !static !transform-none outline-none"
+              type="button"
+              aria-label="Previous slide"
+              aria-controls="splide01-track"
+            >
+              <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path class="fill-blue-1" d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/>
+              </svg>
+            </button>
+            <button
+              class="splide__arrow splide__arrow--next !w-10 !h-10 disabled:!opacity-0 transition-opacity !bg-transparent !static !transform-none outline-none"
+              type="button"
+              aria-label="Next slide"
+              aria-controls="splide01-track"
+            >
+              <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path class="fill-blue-1" d="M7.33 24l-2.83-2.829 9.339-9.175-9.339-9.167 2.83-2.829 12.17 11.996z"/>
+              </svg>
+            </button>
+          </div>
         </div>
       </header>
       <div class="animation an-fadeup">
         <div class="splide__track !overflow-visible">
-          <div class="splide__list text-blue-1 flex">
+          <div class="splide__list text-blue-1 flex group-[.is-initialized]/splide:!block">
             {%- for block in section.blocks -%}
-              <div class="splide__slide">
+              <div class="splide__slide !translate-x-0">
                 <div
                   {{ block.shopify_attributes }}
                   class="grid md:grid-cols-2 gap-8 md:gap-16"
                 >
                   {% if block.settings.product %}
-                    <div>
+                    <div class="max-md:order-2">
                       {% assign rel_product = block.settings.product %}
 
                       {% if rel_product.featured_media.media_type == 'image' %}
-                        <a href="{{ rel_product.url }}">
+                        <a class="block" href="{{ rel_product.url }}">
                           {%- render 'lazyimg',
                             img: rel_product.featured_media,
                             width: img_width,
@@ -86,11 +88,11 @@
                         </a>
                       {% endif %}
 
-                      <a class="btn-tertiary" href="{{ rel_product.url }}">Shop {{ rel_product.title }}</a>
+                      <a class="btn-tertiary mt-5" href="{{ rel_product.url }}">Shop {{ rel_product.title }}</a>
                     </div>
                   {% endif %}
 
-                  <div class="space-y-3 lg:space-y-5 flex-1 flex-col flex items-start justify-center py-3 md:py-7 px-7">
+                  <div class="space-y-3 lg:space-y-5 flex-1 flex-col flex items-start justify-center">
                     <p class="m-h3 lg:d-h3">Customer Reviews</p>
 
                     <div class="gap-3 flex text-[#E3AD7C] !mb-5 lg:mb-8">
@@ -139,7 +141,19 @@
       "type": "text",
       "id": "title",
       "label": "Title",
-      "default": "100,000+ Rave Reviews"
+      "default": "100,000+ Happy Customers"
+    },
+    {
+      "type": "text",
+      "id": "button_title",
+      "label": "Button Title",
+      "default": "Read Our Reviews"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link",
+      "default": "/collections/all"
     },
     {
       "type": "radio",
