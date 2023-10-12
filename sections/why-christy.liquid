@@ -12,8 +12,7 @@
       {% endif %}
     </header>
 
-    <div class="max-md:py-3 grid md:gap-6 md:grid-cols-3 animation an-fadeup bg-blue-1 text-white {{ col_class }}">
-      {% assign widths = '105, 210' %}
+    <div class="max-md:py-3 grid md:gap-6 md:grid-cols-3 animation an-fadeup bg-blue-1 text-white">
       {%- for block in section.blocks -%}
         <div
           {{ block.shopify_attributes }}
