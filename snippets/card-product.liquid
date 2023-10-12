@@ -167,6 +167,7 @@
 
       {%- unless card_product.has_only_default_variant -%}
         {%- assign coloursCount = 0 %}
+        {%- assign coloursVisible = 0 %}
         {%- capture optionColours %}
             {%- for option in card_product.options_with_values -%}
               {% if option.name == 'Colour' or option.name == 'Color' %}
@@ -183,10 +184,12 @@
                   
                   {%- if option_swatch_image != blank %}
                     
-                    {% if coloursCount < 7 %}
+                    {% if coloursCount < 6 %}
+                    
+                    {%- assign coloursVisible = coloursVisible | plus: 1 -%}
                     <a
                       href="{{ card_product.url }}/c:{{ value | handleize }}"
-                      class="h-auto w-full rounded-full [&.active]:border [&.active]:border-[#999999]/20 [&.active_.swatch]:scale-75 flex items-center justify-center"
+                      class="h-auto w-full rounded-full [&.active]:border [&.active]:border-[#999999]/20 [&.active_.swatch]:scale-75 flex items-center justify-center {% if coloursCount > 2 %}max-md:hidden{% endif %}"
                     >
                       <div class="pt-[100%] flex-1 relative">
                         <div
@@ -195,6 +198,7 @@
                         ></div>
                       </div>
                     </a>
+
                     {% endif %}
 
                     {%- assign coloursCount = coloursCount | plus: 1 -%}
@@ -208,6 +212,13 @@
           data-count="{{ coloursCount }}"
         >
           {{ optionColours }}
+
+          {% if coloursVisible > 3 %}
+            <div>
+              <span class="md:hidden">{{ coloursCount | minus: coloursVisible | plus: 1 }}+</span>
+              <span class="max-md:hidden">{{ coloursCount | minus: coloursVisible | plus: 1 }}+</span>
+            </div>
+          {% endif %}
         </div>
       {%- endunless -%}
     </div>

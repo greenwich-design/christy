@@ -1374,6 +1374,8 @@ function cardColourSelector() {
       });
     });
   }
+
+
 }
 cardColourSelector();
 
