@@ -392,6 +392,43 @@
         "margin": "no"
       }
     },
+    "28fb39b7-082f-4655-919b-baa39dbf7bd2": {
+      "type": "reviews-carousel",
+      "blocks": {
+        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-1": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
+            "name": "John Smith"
+          }
+        },
+        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-2": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
+            "name": "John Smith"
+          }
+        },
+        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-3": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
+            "name": "John Smith"
+          }
+        }
+      },
+      "block_order": [
+        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-1",
+        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-2",
+        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-3"
+      ],
+      "settings": {
+        "margin": "yes"
+      }
+    },
     "featured-blogs": {
       "type": "featured-blogs",
       "blocks": {
@@ -459,6 +496,7 @@
     "heading4",
     "billboard4",
     "7c7a96a7-b488-4887-a42e-24e5dceb8dbb",
+    "28fb39b7-082f-4655-919b-baa39dbf7bd2",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
     "2970b3ab-743a-4054-95d1-048d41881e08"
