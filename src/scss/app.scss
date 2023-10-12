@@ -167,6 +167,15 @@
         }
     }
 
+
+    .btn-medium {
+        @apply px-3 text-[14px] lg:text-[16px] truncate w-auto text-center inline-flex items-center justify-center h-[40px] lg:h-[60px] transition-colors duration-500 md:max-w-[432px] font-light;
+
+        &[disabled] {
+            @apply opacity-50 cursor-not-allowed;
+        }
+    }
+
     .btn-large {
         @apply px-3 text-[14px] lg:text-[16px] truncate w-full text-center inline-flex items-center justify-center h-[50px] lg:h-[60px] transition-colors duration-500 md:max-w-[432px] font-light;
 
