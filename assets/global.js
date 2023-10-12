@@ -1364,6 +1364,14 @@ function cardColourSelector() {
                   parent.querySelectorAll('.card__colours > a').forEach((a) => a.classList.remove('active'));
                   el.classList.add('active');
 
+                  if (parent.querySelector('.card__inner a')) {
+                    parent.querySelector('.card__inner a').setAttribute('href', el.getAttribute('href'));
+                  }
+
+                  if (parent.querySelector('.card__content h3 a')) {
+                    parent.querySelector('.card__content h3 a').setAttribute('href', el.getAttribute('href'));
+                  }
+
                   // lazy load images
                   const lazyimg = new Event('lazyimg');
                   window.dispatchEvent(lazyimg);
