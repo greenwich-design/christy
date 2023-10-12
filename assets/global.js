@@ -1374,10 +1374,10 @@ function cardColourSelector() {
       });
     });
   }
-
-
 }
 cardColourSelector();
+
+window.addEventListener('initcolourselector', cardColourSelector);
 
 
 

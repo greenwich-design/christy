@@ -411,8 +411,13 @@
         if (productHtml && productHtml.querySelectorAll('.grid__item').length > 0) {
           productListing.insertAdjacentHTML('beforeend', productHtml.innerHTML);
 
+          // lazy load
           const lazyimg = new Event('lazyimg');
           window.dispatchEvent(lazyimg);
+
+          // reinit colour selectors
+          const initcolourselector = new Event('initcolourselector');
+          window.dispatchEvent(initcolourselector);
 
           el.classList.remove('loading');
         }
