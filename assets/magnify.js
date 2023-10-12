@@ -26,15 +26,28 @@ function prepareOverlay(container, image) {
 
 function toggleLoadingSpinner(image) {
   const loadingSpinner = image.parentElement.parentElement.querySelector(`.loading-overlay__spinner`);
-  loadingSpinner.classList.toggle('hidden');
+  if (loadingSpinner) {
+    loadingSpinner.classList.toggle('hidden');
+  }
 }
 
 function moveWithHover(image, event, zoomRatio) {
   // calculate mouse position
   const ratio = image.height / image.width;
   const container = event.target.getBoundingClientRect();
-  const xPosition = event.clientX - container.left;
-  const yPosition = event.clientY - container.top;
+
+  let xPosition;
+  let yPosition;
+  if (event.clientX) {
+    xPosition = event.clientX - container.left;
+    yPosition = event.clientY - container.top;
+
+  } else {
+    xPosition = event.changedTouches[0].clientX;
+    yPosition = event.changedTouches[0].clientY;
+  }
+
+
   const xPercent = `${xPosition / (image.clientWidth / 100)}%`;
   const yPercent = `${yPosition / ((image.clientWidth * ratio) / 100)}%`;
 
@@ -46,6 +59,7 @@ function moveWithHover(image, event, zoomRatio) {
 function magnify(image, zoomRatio) {
   const overlay = createOverlay(image);
   overlay.onclick = () => overlay.remove();
+  overlay.ontouchmove = (event) => moveWithHover(image, event, zoomRatio);
   overlay.onmousemove = (event) => moveWithHover(image, event, zoomRatio);
   overlay.onmouseleave = () => overlay.remove();
 }
@@ -57,40 +71,14 @@ function enableZoomOnHover(zoomRatio) {
       magnify(image, zoomRatio);
       moveWithHover(image, event, zoomRatio);
     };
+
+
   });
 }
 
 enableZoomOnHover(2);
 
 
-
-function zoomMove(image, event) {
-  let img = document.querySelector('.zoomer__img');
-  let imgImg = document.querySelector('.zoomer__img img');
-  console.log(imgImg.offsetWidth);
-  window.addEventListener('dragstart', function (e) {
-    console.log(e)
-    let posLeft;
-    let posTop;
-    let leftOffset = window.innerWidth / 2;
-    let topOffset = window.innerHeight / 2;
-
-    let offset2 = (1875 - window.innerWidth) / 2;
-    posLeft = (e.clientX - leftOffset);
-    posTop = (e.clientY - topOffset);
-
-    if (e.clientX > leftOffset) {
-      //posLeft = (posLeft + (offset2)) * -1;
-    } else {
-      //posLeft = (posLeft + (offset2)) * -1;
-    }
-
-
-    posLeft = posLeft * -1;
-    posTop = posTop * -1;
-    img.querySelector(':scope > div').style.transform = 'translate(' + posLeft + 'px, ' + posTop + 'px)';
-  });
-}
 
 function initZoomer() {
   let zoomer = document.querySelector('.product__gallery #zoomer');
@@ -109,6 +97,7 @@ function initZoomer() {
       img.addEventListener('click', function () {
         let imgClone = img.cloneNode();
         imgClone.classList.remove('cursor-zoom-in');
+        imgClone.setAttribute('draggable', false);
         zoomerImg.innerHTML = '';
         let div = document.createElement('div');
         div.classList.add('w-full', 'h-full');
@@ -116,6 +105,14 @@ function initZoomer() {
         zoomerImg.appendChild(div);
         zoomer.classList.add('active');
         document.querySelector('html').classList.add('overflow-hidden');
+
+
+        imgClone.onclick = (event) => {
+          magnify(imgClone, 2);
+          moveWithHover(imgClone, event, 2);
+        };
+
+
 
         //zoomerImg.onmousemove = (event) => zoomMove(imgClone, event);
       });
