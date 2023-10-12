@@ -1,9 +1,10 @@
 {
-  "name": "Product Images",
   "layout": false,
   "sections": {
     "main": {
-      "type": "product-card-template-images"
+      "type": "product-card-template-images",
+      "settings": {
+      }
     }
   },
   "order": [
