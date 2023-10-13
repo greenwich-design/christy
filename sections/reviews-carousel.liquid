@@ -20,8 +20,7 @@
       data-splide='
         {"arrows": true, "pagination": false, "type": "fade", "gap": "0", "autoWidth": false, "breakpoints": {
           "768": {
-            "gap": "0",
-            "type": "loop"
+            "gap": "0"
           }
         }}
       '
@@ -64,9 +63,9 @@
       </header>
       <div class="animation an-fadeup">
         <div class="splide__track !overflow-visible">
-          <div class="splide__list text-blue-1 flex group-[.is-initialized]/splide:md:!block w-full">
+          <div class="splide__list text-blue-1 flex group-[.is-initialized]/splide:!block">
             {%- for block in section.blocks -%}
-              <div class="splide__slide md:!translate-x-0 w-full">
+              <div class="splide__slide !translate-x-0">
                 <div
                   {{ block.shopify_attributes }}
                   class="grid md:grid-cols-2 gap-8 md:gap-16"
