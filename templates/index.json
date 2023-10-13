@@ -490,6 +490,24 @@
         "margin": "yes"
       }
     },
+    "822c7f11-b134-498e-8056-4e9f82d98571": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Our Best Sellers",
+        "button_title": "See more",
+        "button_link": "shopify:\/\/collections\/all",
+        "products": [
+          "cabana-beach-towels-450-gsm-cotton",
+          "brixton-towels",
+          "brixton-shower-mat",
+          "brixton-robe",
+          "appleby-bed-linen",
+          "anti-allergy-mattress-and-pillow-protectors",
+          "cirrus-towels-450-gsm-cotton"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "026a7488-53c5-4e35-90af-92367972c1ea": {
       "type": "banner",
       "settings": {
@@ -573,6 +591,7 @@
     "7c7a96a7-b488-4887-a42e-24e5dceb8dbb",
     "28fb39b7-082f-4655-919b-baa39dbf7bd2",
     "5039fda6-807b-4f3a-b1ad-90f6f5c0be65",
+    "822c7f11-b134-498e-8056-4e9f82d98571",
     "026a7488-53c5-4e35-90af-92367972c1ea",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
