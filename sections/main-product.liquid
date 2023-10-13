@@ -196,89 +196,13 @@
               <header class="space-y-2 md:space-y-4">
                 <h1 class="m-h1 lg:s-d-h4">{{ product.title | escape }}</h1>
 
-                <div class="flex justify-between space-x-5">
-                  <div>
-                    {% if product.metafields.christy23.tagline_pdp %}
+                {% if product.metafields.christy23.tagline_pdp %}
+                  <div class="flex justify-between space-x-5">
+                    <div>
                       <p class="font-semibold lg:d-h5">{{ product.metafields.christy23.tagline_pdp.value }}</p>
-                    {% endif %}
+                    </div>
                   </div>
-
-                  {%- unless product.has_only_default_variant -%}
-                    {%- for option in product.options_with_values -%}
-                      {% assign selectedValue = option.selected_value | handleize %}
-                      {%- if option.name == 'Colour' or option.name == 'Color' %}
-                        {% assign colours_with_swatches = '' %}
-                        {% for value in option.values %}
-                          {% assign is_colour = false %}
-                          {% if option.name == 'Colour' or option.name == 'Color' %}
-                            {% assign is_colour = true %}
-                            {% for variant in product.variants %}
-                              {% comment %}
-                                if colour matches get metafield
-                              {% endcomment %}
-                              {% if variant.option1 == value or variant.option2 == value or variant.option3 == value %}
-                                {%- for image in product.images -%}
-                                  {%- assign alt_array = image.alt | split: '-' -%}
-                                  {%- assign alt_striped = alt_array[0] | strip -%}
-                                  {%- assign colour_striped = value | strip -%}
-                                  {%- if colour_striped == alt_striped and alt_array[1] == 'product_swatch' -%}
-                                    {% unless colours_with_swatches contains value %}
-                                      {%- assign colours_with_swatches = colours_with_swatches
-                                        | append: value
-                                        | append: ','
-                                      -%}
-                                    {% endunless %}
-                                  {%- endif -%}
-                                {%- endfor -%}
-                              {% endif %}
-                            {% endfor %}
-                          {% endif %}
-                        {% endfor %}
-
-                        {% if colours_with_swatches != 'blank ' %}
-                          {% assign colours_with_swatches_array = colours_with_swatches | split: ',' %}
-                        {% endif %}
-
-                        {% if colours_with_swatches_array.size > 0 %}
-                          <div
-                            id="colour-picker-mobile-trigger"
-                            role="button"
-                            class="flex items-center shrink-0 space-x-3 md:hidden"
-                            aria-hidden="true"
-                            data-togglecolours
-                          >
-                            <div class="pointer-events-none relative w-[16px] h-[16px] [&_div]:!m-0 [&_button]:absolute [&_button]:left-0 [&_button]:invisible [&_input:checked~button]:visible [&_input:checked~button]:relative">
-                              <div class="">
-                                <div class="flex items-center justify-end">
-                                  {% render 'product-variant-options',
-                                    product: product,
-                                    option: option,
-                                    block: block,
-                                    button_type: true,
-                                    name_custom: 'mob2',
-                                    selected_colour: selected_colour,
-                                    selected_size: selected_size,
-                                    selectedValue: selectedValue,
-                                    current_variant: current_variant
-                                  %}
-                                </div>
-                              </div>
-                            </div>
-
-                            <p class="btn-tertiary ml-3">
-                              {% if colours_with_swatches_array.size > 5 %}
-                                {{ colours_with_swatches_array.size }}+ Colours
-                              {% else %}
-                                {{ colours_with_swatches_array.size }} Colours
-                              {% endif %}
-                            </p>
-                          </div>
-                        {% endif %}
-                        {% break %}
-                      {%- endif -%}
-                    {%- endfor -%}
-                  {%- endunless -%}
-                </div>
+                {% endif %}
               </header>
 
               <div class="flex gap-3 justify-between md:items-center max-md:flex-col">
@@ -321,7 +245,7 @@
               {%- unless product.has_only_default_variant -%}
                 <div
                   data-moboptions="true"
-                  class=" md:!h-auto overflow-hidden !mt-0 md:!mt-6"
+                  class=" md:!h-auto overflow-hidden !mt-0 md:!mt-6 max-md:border-t max-md:border-blue-1/10"
                 >
                   <div class="max-md:pt-7">
                     {% render 'product-variant-picker',

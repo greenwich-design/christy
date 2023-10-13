@@ -537,7 +537,7 @@
 
 
 .variant-label-colour {
-    @apply cursor-pointer relative block w-[16px] lg:w-[24px] h-[16px] lg:h-[24px]  rounded-full flex items-center justify-center [&_div]:peer-checked:w-[9px] [&_div]:peer-checked:h-[9px] [&_div]:peer-checked:lg:w-[14px] [&_div]:peer-checked:lg:h-[14px] border-2 border-transparent peer-checked:border peer-checked:border-[#999999]/20
+    @apply cursor-pointer relative block w-[24px] lg:w-[24px] h-[24px] lg:h-[24px]  rounded-full flex items-center justify-center [&_div]:peer-checked:w-[14px] [&_div]:peer-checked:h-[14px] [&_div]:peer-checked:lg:w-[14px] [&_div]:peer-checked:lg:h-[14px] border-2 border-transparent peer-checked:border peer-checked:border-[#999999]/20
     [&_div]:bg-cover [&_div]:absolute [&_div]:left-1/2 [&_div]:top-1/2 [&_div]:-translate-x-1/2 [&_div]:-translate-y-1/2;
 }
 
