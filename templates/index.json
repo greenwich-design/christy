@@ -435,57 +435,6 @@
         "margin": "yes"
       }
     },
-    "featured-blogs": {
-      "type": "featured-blogs",
-      "blocks": {
-        "30dec819-818b-4bc2-b9c3-ff19c89ebaf4": {
-          "type": "article",
-          "settings": {
-            "article": "lifestyle\/how-to-take-care-of-your-towels"
-          }
-        },
-        "458e4f16-65af-45ea-bf76-156d0bfc8da1": {
-          "type": "article",
-          "settings": {
-            "article": "homekeeping\/how-to-make-your-bed-easy-tips-and-tricks"
-          }
-        },
-        "dc2e0744-3035-4a8f-b0c9-4abd1e420569": {
-          "type": "article",
-          "settings": {
-            "article": "lifestyle\/how-to-dress-a-bed-the-complete-guide"
-          }
-        }
-      },
-      "block_order": [
-        "30dec819-818b-4bc2-b9c3-ff19c89ebaf4",
-        "458e4f16-65af-45ea-bf76-156d0bfc8da1",
-        "dc2e0744-3035-4a8f-b0c9-4abd1e420569"
-      ],
-      "settings": {
-        "title": "Our Stories"
-      }
-    },
-    "d1799047-2d3f-4748-9804-8038692b0c63": {
-      "type": "heading",
-      "settings": {
-        "heading": "<p>                                 Creating  little luxuries since 1850.                                   <\/p>",
-        "heading_width": "4",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "center",
-        "horiz_padding": false,
-        "margin_top": false
-      }
-    },
-    "2970b3ab-743a-4054-95d1-048d41881e08": {
-      "type": "quiz-popup",
-      "settings": {
-        "title": "What's your perfect towel?",
-        "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
-        "button_link": "#quiz-gWHPoe"
-      }
-    },
     "5039fda6-807b-4f3a-b1ad-90f6f5c0be65": {
       "type": "benefits-icons",
       "blocks": {
@@ -540,6 +489,71 @@
         "title": "Our Services",
         "margin": "yes"
       }
+    },
+    "026a7488-53c5-4e35-90af-92367972c1ea": {
+      "type": "banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Renaissance_Denim_Lifestyle_3-839843.jpg",
+        "banner_height_mobile": 0.5,
+        "banner_height_desktop": 0.5,
+        "theme": "white",
+        "sub_title": "Sub Title",
+        "title": "How do Christy sheets get softer with every wash?",
+        "button_link": "\/",
+        "button_title": "Find Out More",
+        "margin": "yes"
+      }
+    },
+    "featured-blogs": {
+      "type": "featured-blogs",
+      "blocks": {
+        "30dec819-818b-4bc2-b9c3-ff19c89ebaf4": {
+          "type": "article",
+          "settings": {
+            "article": "lifestyle\/how-to-take-care-of-your-towels"
+          }
+        },
+        "458e4f16-65af-45ea-bf76-156d0bfc8da1": {
+          "type": "article",
+          "settings": {
+            "article": "homekeeping\/how-to-make-your-bed-easy-tips-and-tricks"
+          }
+        },
+        "dc2e0744-3035-4a8f-b0c9-4abd1e420569": {
+          "type": "article",
+          "settings": {
+            "article": "lifestyle\/how-to-dress-a-bed-the-complete-guide"
+          }
+        }
+      },
+      "block_order": [
+        "30dec819-818b-4bc2-b9c3-ff19c89ebaf4",
+        "458e4f16-65af-45ea-bf76-156d0bfc8da1",
+        "dc2e0744-3035-4a8f-b0c9-4abd1e420569"
+      ],
+      "settings": {
+        "title": "Our Stories"
+      }
+    },
+    "d1799047-2d3f-4748-9804-8038692b0c63": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>                                 Creating  little luxuries since 1850.                                   <\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "horiz_padding": false,
+        "margin_top": false
+      }
+    },
+    "2970b3ab-743a-4054-95d1-048d41881e08": {
+      "type": "quiz-popup",
+      "settings": {
+        "title": "What's your perfect towel?",
+        "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
+        "button_link": "#quiz-gWHPoe"
+      }
     }
   },
   "order": [
@@ -558,9 +572,10 @@
     "billboard4",
     "7c7a96a7-b488-4887-a42e-24e5dceb8dbb",
     "28fb39b7-082f-4655-919b-baa39dbf7bd2",
+    "5039fda6-807b-4f3a-b1ad-90f6f5c0be65",
+    "026a7488-53c5-4e35-90af-92367972c1ea",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
-    "2970b3ab-743a-4054-95d1-048d41881e08",
-    "5039fda6-807b-4f3a-b1ad-90f6f5c0be65"
+    "2970b3ab-743a-4054-95d1-048d41881e08"
   ]
 }
