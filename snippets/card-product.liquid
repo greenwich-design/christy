@@ -91,6 +91,14 @@
           {%- endif -%}
         </a>
 
+        {% if card_product.metafields.christy23.plp_top_tag != blank %}
+          <div class="absolute left-2 top-2 right-2 pointer-events-none">
+            <div class="inline-block py-0.5 px-2 rounded-[20px] rounded-md bg-white max-md:text-[11px] uppercase font-bold truncate max-w-full">
+              {{ card_product.metafields.christy23.plp_top_tag }}
+            </div>
+          </div>
+        {% endif %}
+
         <div class="card__badge ">
           {%- if card_product.available == false -%}
             <span
@@ -126,7 +134,7 @@
           aria-label="Add to wishlist"
           button-wishlist
           data-product-handle="{{ card_product.handle }}"
-          class="card__wishlist wishlist-button [&.active_svg]:animate-scalein group/wlbtn"
+          class="card__wishlist wishlist-button [&.active_svg]:animate-scalein group/wlbtn max-md:hidden"
         >
           <span class="w-[16px] lg:w-[18px] block">{% render 'icon-heart' %}</span>
         </button>
@@ -210,7 +218,7 @@
 
         {% if coloursCount > 1 %}
           <div
-            class="card__colours grid grid-cols-[repeat(3,minmax(auto,18px))_1fr] md:grid-cols-[repeat(6,minmax(auto,24px))_1fr] gap-2 md:gap-3 items-center"
+            class="card__colours grid grid-cols-[repeat(3,minmax(auto,16px))_1fr] md:grid-cols-[repeat(6,minmax(auto,24px))_1fr] gap-2 md:gap-3 items-center"
             data-count="{{ coloursCount }}"
           >
             {{ optionColours }}
@@ -222,7 +230,7 @@
             %}
 
             {% if mobColourCount > 0 or tabColourCount > 0 %}
-              <div class="leading-tight max-md:text-[10px]">
+              <div class="leading-tight max-md:text-[10px] font-bold">
                 {% if mobColourCount > 0 %}
                   <a href="{{ card_product.url }}" class="md:hidden hover:underline">{{ mobColourCount }}+ more</a>
                 {% endif %}
