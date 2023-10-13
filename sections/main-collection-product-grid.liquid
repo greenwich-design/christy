@@ -424,7 +424,7 @@
     var requestUrl =
       window.location.pathname + window.location.search + '?limit={{ productsPerPage }}&page=' + el.dataset.page;
 
-    history.pushState(requestUrl, '', requestUrl);
+    //history.pushState(requestUrl, '', requestUrl);
     fetch(requestUrl)
       .then((response) => response.text())
       .then(function (responseText) {

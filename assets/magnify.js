@@ -96,7 +96,7 @@ function initZoomer() {
       img.classList.add('cursor-zoom-in')
       img.addEventListener('click', function () {
         let imgClone = img.cloneNode();
-        imgClone.classList.remove('cursor-zoom-in');
+        //imgClone.classList.remove('cursor-zoom-in');
         imgClone.setAttribute('draggable', false);
         zoomerImg.innerHTML = '';
         let div = document.createElement('div');
