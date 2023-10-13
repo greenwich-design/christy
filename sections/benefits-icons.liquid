@@ -1,7 +1,7 @@
 {% liquid
-  assign widths = '100, 200'
-  assign sizes = '100px'
-  assign class = 'w-[100px] h-[100px] object-contain opacity-0'
+  assign widths = '50, 100, 200'
+  assign sizes = '(max-width: 767px) 50px, 100px'
+  assign class = 'w-[50px] h-[50px] md:w-[100px] md:h-[100px] object-contain opacity-0 mx-auto'
 %}
 
 {% assign img_width = 640 %}
@@ -17,7 +17,7 @@
         {% endif %}
       </header>
 
-      <div class="animation an-fadeup grid grid-cols-2 gap-6 lg:gap-10">
+      <div class="animation an-fadeup grid grid-cols-2 gap-6 lg:gap-10 text-center">
         {%- for block in section.blocks -%}
           <div class="space-y-3 lg:space-y-5">
             {% if block.settings.image != blank %}
