@@ -140,7 +140,12 @@
         </button>
       </div>
       <div class="card__content text-blue-1">
-        <div class="card__information space-y-2">
+        <a
+          href="{{ card_product.url }}"
+          id="CardLink-{{ section_id }}-{{ card_product.id }}"
+          aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
+          class="card__information space-y-2"
+        >
           <div class="flex justify-between max-md:text-[10px] flex-wrap">
             <div class="whitespace-nowrap">
               {% if card_product.price_min != card_product.price_max %}
@@ -161,16 +166,12 @@
             class="font-semibold m-body-copy lg:d-h3"
             id="title-{{ section_id }}-{{ card_product.id }}"
           >
-            <a
-              href="{{ card_product.url }}"
-              id="CardLink-{{ section_id }}-{{ card_product.id }}"
-              class="full-unstyled-link"
-              aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
-            >
-              {{ card_product.title | escape }}
-            </a>
+            {{ card_product.title | escape }}
           </h3>
-        </div>
+          {% if card_product.metafields.christy23.tagline_pdp %}
+            <p>{{ card_product.metafields.christy23.tagline_pdp }}</p>
+          {% endif %}
+        </a>
       </div>
 
       {%- unless card_product.has_only_default_variant -%}
