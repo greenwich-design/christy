@@ -303,6 +303,21 @@
           </tr>
         </tfoot>
       </table>
+
+      {% liquid
+        assign email = customer.email
+        assign sapid2 = order.metafields.custom.SAPID2
+      %}
+      {% if email != blank and sapid2 != blank %}
+        <div class="flex justify-end">
+          <a
+            class="btn-smaller btn-primary !max-w-full"
+            target="_blank"
+            href="https://rmls2.intelligentshipper.net/returns/xpo-logistics-christy/findorder?num={{ sapid2 }}&email={{ email }}"
+            >Return</a
+          >
+        </div>
+      {% endif %}
     </div>
     <div class="space-y-4 lg:space-y-6">
       <div>
