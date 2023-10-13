@@ -138,6 +138,16 @@
       {
         "type": "header",
         "content": "Cart Drawer Buttons"
+      },
+      {
+        "type": "url",
+        "id": "cart_quiz_1",
+        "label": "Button link"
+      },
+      {
+        "type": "url",
+        "id": "cart_quiz_2",
+        "label": "Button link"
       }
     ]
   },
