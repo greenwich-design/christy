@@ -393,6 +393,28 @@
     sectionProductGridInit();
   });
 
+  let showMoreBtn = document.querySelector('#show-more');
+  let showMoreBtnTop;
+
+  function getShowBtnTop() {
+    if (showMoreBtn) {
+      showMoreBtnTop = showMoreBtn.getBoundingClientRect().top + window.scrollY;
+    }
+  }
+  getShowBtnTop();
+
+  window.addEventListener('scroll', function () {
+    if (showMoreBtn) {
+      if (
+        window.scrollY > showMoreBtnTop - window.innerHeight &&
+        !showMoreBtn.classList.contains('loading') &&
+        document.querySelector('#show-more')
+      ) {
+        loadMoreProducts(showMoreBtn);
+      }
+    }
+  });
+
   function loadMoreProducts(el) {
     var collectionProducts = document.getElementById('collection-products');
     var productListing = document.getElementById('product-grid');
@@ -427,6 +449,8 @@
         } else {
           el.remove();
         }
+
+        getShowBtnTop();
       })
       .catch(function (error) {
         console.error('Error loading products:', error);
