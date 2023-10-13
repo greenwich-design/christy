@@ -10,6 +10,53 @@
       "settings": {
       }
     },
+    "c9f3a6fc-dbbc-437f-ad83-9771b79b0660": {
+      "type": "product-special-features",
+      "blocks": {
+        "template--21330877055264__c9f3a6fc-dbbc-437f-ad83-9771b79b0660-block-1": {
+          "type": "block",
+          "settings": {
+            "title": "Our best seller;a soft, smooth weave",
+            "copy": "<p>Our softest and smoothest cotton sateen sheets, woven with a luxurious finish.<\/p>"
+          }
+        },
+        "template--21330877055264__c9f3a6fc-dbbc-437f-ad83-9771b79b0660-block-2": {
+          "type": "block",
+          "settings": {
+            "title": "We want you to be comfortable",
+            "copy": "<p>Our softest and smoothest cotton sateen sheets, woven with a luxurious finish.<\/p>"
+          }
+        },
+        "template--21330877055264__c9f3a6fc-dbbc-437f-ad83-9771b79b0660-block-3": {
+          "type": "block",
+          "settings": {
+            "title": "100% Long-Staple Cotton",
+            "copy": "<p>Our softest and smoothest cotton sateen sheets, woven with a luxurious finish.<\/p>"
+          }
+        },
+        "template--21330877055264__c9f3a6fc-dbbc-437f-ad83-9771b79b0660-block-4": {
+          "type": "block",
+          "settings": {
+            "title": "STANDARD 100 by OEKO-TEX® Certified",
+            "copy": "<p>Our softest and smoothest cotton sateen sheets, woven with a luxurious finish.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21330877055264__c9f3a6fc-dbbc-437f-ad83-9771b79b0660-block-1",
+        "template--21330877055264__c9f3a6fc-dbbc-437f-ad83-9771b79b0660-block-2",
+        "template--21330877055264__c9f3a6fc-dbbc-437f-ad83-9771b79b0660-block-3",
+        "template--21330877055264__c9f3a6fc-dbbc-437f-ad83-9771b79b0660-block-4"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
+        "note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "title": "Why this product?",
+        "button_link": "\/",
+        "button_title": "Shop product",
+        "margin": "yes"
+      }
+    },
     "1693485436843bc3ff": {
       "type": "apps",
       "settings": {
@@ -18,6 +65,9 @@
     "dfadb464-131f-4320-963f-71343e59af69": {
       "type": "related-products",
       "settings": {
+        "products": [
+
+        ]
       }
     },
     "recent-products": {
@@ -30,6 +80,7 @@
       "type": "billboard",
       "disabled": true,
       "settings": {
+        "screen_visibility": "both",
         "subtitle": "Christy Life",
         "title": "<p>Caring Cotton<\/p>",
         "copy": "<p>Sustainably made cotton is kinder to the environment and the people who produce it – which is why we’re using it more than ever. <\/p><p>Our Made In Green-certified products are guaranteed to have been made sustainably, under socially responsible working environments and using transparent supply chains.<\/p>",
@@ -46,6 +97,7 @@
   "order": [
     "main",
     "169090501824a740ea",
+    "c9f3a6fc-dbbc-437f-ad83-9771b79b0660",
     "1693485436843bc3ff",
     "dfadb464-131f-4320-963f-71343e59af69",
     "recent-products",
