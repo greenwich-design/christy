@@ -44,6 +44,34 @@
                   {{ 'general.continue_shopping' | t }}
                 </button>
 
+                {% if settings.cart_quiz_1_link != blank
+                  or settings.cart_quiz_2_link != blank
+                  or settings.cart_quiz_1_title != blank
+                  or settings.cart_quiz_2_title != blank
+                %}
+                  <div class="space-y-3 lg:space-y-4">
+                    <h2 class="cart__empty-text  m-h2 lg:d-h2">{{ settings.quiz_btns_title }}</h2>
+                    <div class="flex gap-2">
+                      {% if settings.cart_quiz_1_title != blank and settings.cart_quiz_1_link != blank %}
+                        <a
+                          href="{{ settings.cart_quiz_1_link }}"
+                          class="btn-large btn-primary overflow-visible"
+                        >
+                          {{ settings.cart_quiz_1_title }}
+                        </a>
+                      {% endif %}
+                      {% if settings.cart_quiz_2_title != blank and settings.cart_quiz_2_link != blank %}
+                        <a
+                          href="{{ settings.cart_quiz_2_link }}"
+                          class="btn-large btn-primary overflow-visible"
+                        >
+                          {{ settings.cart_quiz_2_title }}
+                        </a>
+                      {% endif %}
+                    </div>
+                  </div>
+                {% endif %}
+
                 {%- if shop.customer_accounts_enabled and customer == null -%}
                   <p class="cart__login-title h3">{{ 'sections.cart.login.title' | t }}</p>
                   <p class="cart__login-paragraph">

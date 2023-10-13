@@ -140,14 +140,34 @@
         "content": "Cart Drawer Buttons"
       },
       {
-        "type": "url",
-        "id": "cart_quiz_1",
-        "label": "Button link"
+        "type": "paragraph",
+        "content": "These buttons appear on the Cart Drawer. Leave blank to hide."
+      },
+      {
+        "type": "text",
+        "id": "quiz_btns_title",
+        "label": "Cart Quiz Buttons Title",
+        "default": "Not sure what to buy?"
       },
       {
         "type": "url",
-        "id": "cart_quiz_2",
-        "label": "Button link"
+        "id": "cart_quiz_1_link",
+        "label": "Quick Btn Link 1"
+      },
+      {
+        "type": "text",
+        "id": "cart_quiz_1_title",
+        "label": "Quick Btn Title 1"
+      },
+      {
+        "type": "url",
+        "id": "cart_quiz_2_link",
+        "label": "Quick Btn Link 2"
+      },
+      {
+        "type": "text",
+        "id": "cart_quiz_2_title",
+        "label": "Quick Btn Title 2"
       }
     ]
   },
