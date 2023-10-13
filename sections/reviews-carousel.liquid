@@ -93,7 +93,7 @@
                   {% endif %}
 
                   <div class="space-y-3 lg:space-y-5 flex-1 flex-col flex items-start justify-center">
-                    <p class="m-h3 lg:d-h3">Customer Reviews</p>
+                    <p class="m-h3 lg:d-h3">{{ block.settings.title }}</p>
 
                     <div class="gap-3 flex text-[#E3AD7C] !mb-5 lg:mb-8">
                       {%- render 'icon-star' %}
@@ -189,6 +189,12 @@
         {
           "type": "header",
           "content": "Testimonial Settings"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Customer Reviews",
+          "label": "Testimonial Title"
         },
         {
           "type": "richtext",
