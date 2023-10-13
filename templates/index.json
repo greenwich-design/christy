@@ -399,6 +399,7 @@
           "type": "block",
           "settings": {
             "product": "brixton-shower-mat",
+            "title": "Customer Reviews",
             "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
             "name": "John Smith"
           }
@@ -407,6 +408,7 @@
           "type": "block",
           "settings": {
             "product": "cabana-beach-towels-450-gsm-cotton",
+            "title": "Customer Reviews",
             "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
             "name": "John Smith"
           }
@@ -415,6 +417,7 @@
           "type": "block",
           "settings": {
             "product": "coniston-bed-linen",
+            "title": "Customer Reviews",
             "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
             "name": "John Smith"
           }
@@ -482,6 +485,61 @@
         "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
         "button_link": "#quiz-gWHPoe"
       }
+    },
+    "5039fda6-807b-4f3a-b1ad-90f6f5c0be65": {
+      "type": "benefits-icons",
+      "blocks": {
+        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-1": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/premium-delivery.svg",
+            "title": "Free Shipping & Returns",
+            "copy": "<p>Plus our 30-Night Worry-Free Guarantee.<\/p>",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-2": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/premium-delivery.svg",
+            "title": "Free Shipping & Returns",
+            "copy": "<p>Plus our 30-Night Worry-Free Guarantee.<\/p>",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-3": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/premium-delivery.svg",
+            "title": "Free Shipping & Returns",
+            "copy": "<p>Plus our 30-Night Worry-Free Guarantee.<\/p>",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-4": {
+          "type": "block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/premium-delivery.svg",
+            "title": "Free Shipping & Returns",
+            "copy": "<p>Plus our 30-Night Worry-Free Guarantee.<\/p>",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_title": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-1",
+        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-2",
+        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-3",
+        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-4"
+      ],
+      "settings": {
+        "title": "Our Services",
+        "margin": "yes"
+      }
     }
   },
   "order": [
@@ -502,6 +560,7 @@
     "28fb39b7-082f-4655-919b-baa39dbf7bd2",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
-    "2970b3ab-743a-4054-95d1-048d41881e08"
+    "2970b3ab-743a-4054-95d1-048d41881e08",
+    "5039fda6-807b-4f3a-b1ad-90f6f5c0be65"
   ]
 }
