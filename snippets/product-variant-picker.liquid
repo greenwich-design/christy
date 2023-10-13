@@ -12,7 +12,7 @@
 {%- unless product.has_only_default_variant -%}
   <variant-radios
     id="variant-radios-{{ section.id }}"
-    class="no-js-hidden max-md:space-y-5"
+    class="no-js-hidden max-md:space-y-7"
     data-section="{{ section.id }}"
     data-url="{{ product.url }}"
     {% if update_url == false %}
@@ -32,7 +32,7 @@
       >
         <div
           data-acc
-          class="float-left form__label d-h5 space-x-6 flex w-full items-center md:cursor-pointer max-md:m-body-copy"
+          class="float-left form__label d-h5 space-x-6 flex w-full items-center md:cursor-pointer max-md:text-[14px]"
           id="fake-legend-{{ option.name | handle }}"
         >
           <div class="mr-auto">
@@ -74,9 +74,9 @@
 
           {% if option.name == 'Size' or option.name == 'Duvet Size' %}
             {% if product.metafields.custom.product_specification != blank %}
-              <div id="sideguidemodal" class="text-right !ml-auto pl-5">
+              <div id="sideguidemodal" class="text-right !ml-auto pl-5 md:hidden self-start whitespace-nowrap">
                 <button aria-label="Go to sizeguide" class="btn-tertiary" data-modaltrigger="sizeguide">
-                  View Size Guide
+                  Size Guide
                 </button>
               </div>
             {% endif %}
@@ -85,7 +85,7 @@
 
         {% liquid
           if option.name == 'Colour' or option.name == 'Color'
-            assign options_wrap_class = 'gap-3 md:gap-6 flex-wrap pt-3 md:pt-7 clear-left flex md:hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 md:opacity-0 transition-opacity delay-[0.5s]'
+            assign options_wrap_class = 'gap-2 md:gap-6 flex-wrap pt-3 md:pt-7 clear-left flex md:hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 md:opacity-0 transition-opacity delay-[0.5s]'
           else
             assign options_wrap_class = 'max-md:grid max-md:grid-cols-2 max-md:gap-x-4 gap-3 flex-wrap pt-3 md:pt-7 clear-left md:hidden group-[.open]/acc:!grid group-[.open]/acc:md:!flex group-[.open]/acc:opacity-100 md:opacity-0 transition-opacity delay-[0.5s]'
           endif
