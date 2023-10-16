@@ -776,6 +776,77 @@
   </script>
 </section>
 
+{% assign metaObj_special = product.metafields.custom.what_makes_us_special_section.value %}
+
+{{ metaObj_special.benefits.value.count }}
+
+{% if metaObj_special.t_itle %}
+  <section class="section-banner">
+    {% liquid
+      assign widths = '375, 550, 750, 1000'
+      assign sizes = '100vw'
+      assign class = 'object-contain inset-0 opacity-0 max-w-full'
+    %}
+
+    {% assign img_width = 500 %}
+    {% assign img_height = 550 %}
+
+    <div class="">
+      <div class="container space-y-7 lg:space-y-14">
+        <header class="flex gap-12 max-md:flex-col items-start md:items-center">
+          {% if metaObj_special.t_itle %}
+            <h2 class="s-m-h2 lg:s-d-h1">{{ metaObj_special.t_itle }}</h2>
+          {% endif %}
+
+          {% if metaObj_special.collection_button_title.value and metaObj_special.collection_button_url.value.url %}
+            <a class="btn-secondary btn-medium" href="{{ metaObj_special.collection_button_url.value.url }}">
+              {{- metaObj_special.collection_button_title.value -}}
+            </a>
+          {% endif %}
+        </header>
+
+        <div class="grid gap-8 lg:gap-16 md:grid-cols-[minmax(auto,500px),auto]">
+          <div class="space-y-5 lg:space-y-10">
+            {% if metaObj_special.section_image.value != blank %}
+              {%- render 'lazyimg',
+                img: metaObj_special.section_image.value,
+                width: img_width,
+                height: img_height,
+                widths: widths,
+                class: class,
+                sizes: sizes,
+                crop: 'center'
+              -%}
+            {% endif %}
+
+            {% if metaObj_special.note.value %}
+              <p>
+                {{ metaObj_special.note.value }}
+              </p>
+            {% endif %}
+          </div>
+          <div class="flex items-center">
+            <div class="animation an-fadeup grid lg:grid-cols-2 gap-8 lg:gap-16 lg:p-8 lg:p-16">
+              {% for val in metaObj_special.benefits.value %}
+                <div class="space-y-3 lg:space-y-5">
+                  <div class="space-y-1">
+                    {% if val.title %}
+                      <h4 class="s-m-h3 lg:s-d-h3 !font-bold">{{ val.title }}</h4>
+                    {% endif %}
+                    {% if val.copy %}
+                      <div class="wysiwyg">{{ val.copy | metafield_tag }}</div>
+                    {% endif %}
+                  </div>
+                </div>
+              {%- endfor -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}
+
 {% schema %}
 {
   "name": "t:sections.main-product.name",
