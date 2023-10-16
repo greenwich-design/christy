@@ -26,9 +26,9 @@
             "image": "shopify:\/\/shop_images\/blog_bath_da15fde6-8e3a-49aa-abb4-2578bd0960c7.jpg",
             "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
             "mobile_media": "image",
-            "subtitle": "Turn your routine into a calming ritual. ",
+            "subtitle": "Turn your routine into a calming ritual. ",
             "mobile_subtitle": "show",
-            "title": "Wrap yourself up in the cottony softness of our Towels.",
+            "title": "Wrap yourself up in the softness of our Towels.",
             "mob_title": "",
             "copy": "",
             "copy_visibility": "all",
@@ -355,173 +355,6 @@
         "mobile_content_position": "overlay"
       }
     },
-    "7c7a96a7-b488-4887-a42e-24e5dceb8dbb": {
-      "type": "why-christy",
-      "blocks": {
-        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-1": {
-          "type": "block",
-          "settings": {
-            "title": "Premium Materials",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.<\/p>"
-          }
-        },
-        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-2": {
-          "type": "block",
-          "settings": {
-            "title": "Premium Materials",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.<\/p>"
-          }
-        },
-        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-3": {
-          "type": "block",
-          "settings": {
-            "title": "Premium Materials",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-1",
-        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-2",
-        "template--21155687694624__7c7a96a7-b488-4887-a42e-24e5dceb8dbb-block-3"
-      ],
-      "settings": {
-        "title": "Why Christy?",
-        "button_title": "Shop best Sellers",
-        "button_link": "shopify:\/\/collections\/all",
-        "margin": "no"
-      }
-    },
-    "28fb39b7-082f-4655-919b-baa39dbf7bd2": {
-      "type": "reviews-carousel",
-      "blocks": {
-        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-2": {
-          "type": "block",
-          "settings": {
-            "product": "brixton-shower-mat",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
-          }
-        },
-        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-1": {
-          "type": "block",
-          "settings": {
-            "product": "cabana-beach-towels-450-gsm-cotton",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
-          }
-        },
-        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-3": {
-          "type": "block",
-          "settings": {
-            "product": "coniston-bed-linen",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
-          }
-        }
-      },
-      "block_order": [
-        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-2",
-        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-1",
-        "template--21155687694624__28fb39b7-082f-4655-919b-baa39dbf7bd2-block-3"
-      ],
-      "settings": {
-        "title": "100,000+ Rave Reviews",
-        "button_title": "Read Our Reviews",
-        "button_link": "shopify:\/\/collections\/all",
-        "margin": "yes"
-      }
-    },
-    "5039fda6-807b-4f3a-b1ad-90f6f5c0be65": {
-      "type": "benefits-icons",
-      "blocks": {
-        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-1": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/premium-delivery.svg",
-            "title": "Free Shipping & Returns",
-            "copy": "<p>Plus our 30-Night Worry-Free Guarantee.<\/p>",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_title": "Learn More"
-          }
-        },
-        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-2": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/premium-delivery.svg",
-            "title": "Free Shipping & Returns",
-            "copy": "<p>Plus our 30-Night Worry-Free Guarantee.<\/p>",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_title": "Learn More"
-          }
-        },
-        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-3": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/premium-delivery.svg",
-            "title": "Free Shipping & Returns",
-            "copy": "<p>Plus our 30-Night Worry-Free Guarantee.<\/p>",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_title": "Learn More"
-          }
-        },
-        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-4": {
-          "type": "block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/premium-delivery.svg",
-            "title": "Free Shipping & Returns",
-            "copy": "<p>Plus our 30-Night Worry-Free Guarantee.<\/p>",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_title": "Learn More"
-          }
-        }
-      },
-      "block_order": [
-        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-1",
-        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-2",
-        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-3",
-        "template--21155687694624__5039fda6-807b-4f3a-b1ad-90f6f5c0be65-block-4"
-      ],
-      "settings": {
-        "title": "Our Services",
-        "margin": "yes"
-      }
-    },
-    "822c7f11-b134-498e-8056-4e9f82d98571": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Our Best Sellers",
-        "button_title": "See more",
-        "button_link": "shopify:\/\/collections\/all",
-        "products": [
-          "cabana-beach-towels-450-gsm-cotton",
-          "brixton-towels",
-          "brixton-shower-mat",
-          "brixton-robe",
-          "appleby-bed-linen",
-          "anti-allergy-mattress-and-pillow-protectors",
-          "cirrus-towels-450-gsm-cotton"
-        ],
-        "screen_visibility": "both"
-      }
-    },
-    "026a7488-53c5-4e35-90af-92367972c1ea": {
-      "type": "banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Renaissance_Denim_Lifestyle_3-839843.jpg",
-        "banner_height_mobile": 0.5,
-        "banner_height_desktop": 0.5,
-        "theme": "white",
-        "sub_title": "Sub Title",
-        "title": "How do Christy sheets get softer with every wash?",
-        "button_link": "\/",
-        "button_title": "Find Out More",
-        "margin": "yes"
-      }
-    },
     "featured-blogs": {
       "type": "featured-blogs",
       "blocks": {
@@ -588,11 +421,6 @@
     "product-showcase",
     "heading4",
     "billboard4",
-    "7c7a96a7-b488-4887-a42e-24e5dceb8dbb",
-    "28fb39b7-082f-4655-919b-baa39dbf7bd2",
-    "5039fda6-807b-4f3a-b1ad-90f6f5c0be65",
-    "822c7f11-b134-498e-8056-4e9f82d98571",
-    "026a7488-53c5-4e35-90af-92367972c1ea",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
     "2970b3ab-743a-4054-95d1-048d41881e08"
