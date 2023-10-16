@@ -60,6 +60,7 @@
     "32651ade-df62-44f5-8355-bb4039f60426": {
       "type": "billboard",
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/StornowayChambray_Lifestyle_Silver_1_87edeb75-48c4-42be-bfdd-68fa8e6a637c.jpg",
         "subtitle": "Christy Life",
         "title": "<p>How to Dress a Bed - The Complete Guide<\/p>",
@@ -198,12 +199,55 @@
         "title": "Discover Bedding",
         "copy": "<p>You deserve the best of rest. Our bedding gently envelops you in a soft embrace to settle you into the sweetest dreams. Discover hand-painted designs, sumptuous fabrics, and durable materials at Christy. Your bed will be a haven for rest, relaxation, and deep sleep. From crisp, clean sheets to soft, snuggly throws, we've got the perfect combination for you.<\/p><p>Forget about your stresses and responsibilities and slip into a deep, peaceful sleep safely swaddled in the splendour of Christy’s bedding.<\/p>"
       }
+    },
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
+      "type": "collections-carousel",
+      "blocks": {
+        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "usp_title": "Soft & Relaxed",
+            "image": "shopify:\/\/shop_images\/hp_banner_bed_a2769d86-0563-4b77-b615-21691ce19ae9.jpg",
+            "excerpt": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.<\/p>"
+          }
+        },
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "usp_title": "Cool & Crisp",
+            "image": "shopify:\/\/shop_images\/cool-crisp_098cc89b-107f-4e54-9c37-773b420f4790.jpg",
+            "excerpt": "<p>Keep comfortably cool in fresh cotton bedding.<\/p>"
+          }
+        },
+        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "usp_title": "Smooth & Silky",
+            "image": "shopify:\/\/shop_images\/smooth_sily_hp_124f20c6-eea3-4af3-b350-67b89719bbc5.jpg",
+            "excerpt": "<p>Add a touch of luxury to your bedtime routine with silky-smooth materials.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b",
+        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "screen_visibility": "mobile"
+      }
     }
   },
   "order": [
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426",
-    "toggled-body-content"
+    "toggled-body-content",
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2"
   ]
 }
