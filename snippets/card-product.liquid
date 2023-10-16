@@ -180,15 +180,24 @@
         {%- capture optionColours %}
             {%- for option in card_product.options_with_values -%}
               {% if option.name == 'Colour' or option.name == 'Color' %}
+                
                 {%- for value in option.values -%}
-                  {%- for image in card_product.images -%}
-                    {%- assign alt_array = image.alt | split: '-' -%}
-                    {%- assign alt_striped = alt_array[0] | strip -%}
-                    {%- assign colour_striped = value | strip -%}
-                    {%- if colour_striped == alt_striped and alt_array[1] == 'product_swatch' -%}
-                      {%- assign option_swatch_image = image -%}
-                    {%- endif -%}
-                  {%- endfor -%}
+
+                  
+                  {% assign option_swatch_image = '' %}
+                  
+                  
+                    {%- for image in card_product.images -%}
+                      {%- assign alt_array = image.alt | split: '-' -%}
+                      {%- assign alt_striped = alt_array[0] | strip -%}
+                      {%- assign colour_striped = value | strip -%}
+                      {%- if colour_striped == alt_striped and alt_array[1] == 'product_swatch' -%}
+                        {%- assign option_swatch_image = image -%}
+                        {% break %}
+                      {%- endif -%}
+                    {%- endfor -%}
+                    
+
 
                   
                   {%- if option_swatch_image != blank %}
