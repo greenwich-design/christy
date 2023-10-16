@@ -19,7 +19,7 @@
 
       <div class="animation an-fadeup grid grid-cols-2 gap-6 lg:gap-10 text-center">
         {%- for block in section.blocks -%}
-          <div class="space-y-3 lg:space-y-5">
+          <div class="space-y-3 lg:space-y-5" {{ block.shopify_attributes }}>
             {% if block.settings.image != blank %}
               {%- render 'lazyimg',
                 img: block.settings.image,
