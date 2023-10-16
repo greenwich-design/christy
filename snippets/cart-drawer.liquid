@@ -44,6 +44,34 @@
                   {{ 'general.continue_shopping' | t }}
                 </button>
 
+                {% if settings.cart_quiz_1_link != blank
+                  or settings.cart_quiz_2_link != blank
+                  or settings.cart_quiz_1_title != blank
+                  or settings.cart_quiz_2_title != blank
+                %}
+                  <div class="space-y-3 lg:space-y-4">
+                    <h2 class="cart__empty-text  m-h2 lg:d-h2">{{ settings.quiz_btns_title }}</h2>
+                    <div class="flex gap-2">
+                      {% if settings.cart_quiz_1_title != blank and settings.cart_quiz_1_link != blank %}
+                        <a
+                          href="{{ settings.cart_quiz_1_link }}"
+                          class="btn-large btn-primary overflow-visible"
+                        >
+                          {{ settings.cart_quiz_1_title }}
+                        </a>
+                      {% endif %}
+                      {% if settings.cart_quiz_2_title != blank and settings.cart_quiz_2_link != blank %}
+                        <a
+                          href="{{ settings.cart_quiz_2_link }}"
+                          class="btn-large btn-primary overflow-visible"
+                        >
+                          {{ settings.cart_quiz_2_title }}
+                        </a>
+                      {% endif %}
+                    </div>
+                  </div>
+                {% endif %}
+
                 {%- if shop.customer_accounts_enabled and customer == null -%}
                   <p class="cart__login-title h3">{{ 'sections.cart.login.title' | t }}</p>
                   <p class="cart__login-paragraph">
@@ -205,7 +233,7 @@
                             {% if item.image %}
                               <a
                                 href="{{ item.url }}"
-                                class="cart-item__link block  relative w-[100px] lg:w-[180px] pt-[100%]"
+                                class="cart-item__link block  relative w-[50px] md:w-[100px] lg:w-[180px] pt-[100%]"
                                 tabindex="-1"
                                 aria-hidden="true"
                               >
@@ -222,7 +250,7 @@
                           </td>
 
                           <td
-                            class="cart-item__details px-8 pr-5 lg:px-12 space-y-8 lg:space-y-10 py-8 pb-5 lg:py-12 lg:pb-8 border-t border-blue-1/10"
+                            class="cart-item__details px-5 pr-5 lg:px-12 space-y-8 lg:space-y-10 py-5 md:py-8 pb-5 lg:py-12 lg:pb-8 border-t border-blue-1/10"
                             role="cell"
                             headers="CartDrawer-ColumnProduct"
                           >
@@ -365,13 +393,43 @@
                           </td>
 
                           <td
-                            class="cart-item__totals py-8 pb-5 lg:py-11 lg:pb-8 border-t border-blue-1/10 w-[0%] text-right"
+                            class="cart-item__totals py-5 md:py-8 pb-5 lg:py-12 lg:pb-8 border-t border-blue-1/10 w-[0%] text-right"
                             role="cell"
                             headers="CartDrawer-ColumnTotal"
                           >
-                            <div class="cart-item__price-wrapper text-[12px] lg:text-[20px] font-semibold">
+                            <div class="cart-item__price-wrapper">
                               <span class="price price--end">
-                                {{ giftship_line_price | money }}
+                                {% if item.variant.compare_at_price > item.variant.price %}
+                                  <span class="flex gap-x-2 text-[12px] lg:text-[20px] font-semibold justify-end max-sm:flex-wrap">
+                                    <span class="line-through opacity-60">
+                                      {{- item.variant.compare_at_price | money -}}
+                                    </span>
+                                    <span>{{ item.variant.price | money }}</span>
+                                  </span>
+
+                                  {% assign percentoff = item.variant.compare_at_price
+                                    | minus: item.variant.price
+                                    | times: 100.0
+                                    | divided_by: item.variant.compare_at_price
+                                    | money_without_currency
+                                    | times: 100
+                                    | replace: '.0', ''
+                                  %}
+
+                                  {% if percentoff %}
+                                    <span class="flex flex-row-reverse items-center gap-2 whitespace-nowrap">
+                                      <span class="rounded-full p-[3px] md:p-1 flex items-center justify-center w-[12px] h-[12px] md:w-[14px] md:h-[14px] bg-blue-1 text-white shrink-0">
+                                        {% render 'icon-check' %}
+                                      </span>
+                                      {{ percentoff }}% Off
+                                    </span>
+                                  {% endif %}
+
+                                {% else %}
+                                  <span class="text-[12px] lg:text-[20px] font-semibold">
+                                    {{ giftship_line_price | money }}
+                                  </span>
+                                {% endif %}
                               </span>
 
                               {%- if item.variant.available and item.unit_price_measurement -%}

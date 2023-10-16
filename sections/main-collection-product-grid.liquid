@@ -103,7 +103,7 @@
     {%- if collection.products.size > 0 -%}
       <aside
         aria-labelledby="verticalTitle"
-        class="relative md:sticky md:top-0 z-10 bg-white/95 max-md:overflow-hidden"
+        class="relative md:sticky md:top-0 z-10 bg-white/95 max-md:overflow-hidden md:overflow-x-clip"
         id="main-collection-filters"
         data-id="{{ section.id }}"
       >
@@ -393,6 +393,28 @@
     sectionProductGridInit();
   });
 
+  let showMoreBtn = document.querySelector('#show-more');
+  let showMoreBtnTop;
+
+  function getShowBtnTop() {
+    if (showMoreBtn) {
+      showMoreBtnTop = showMoreBtn.getBoundingClientRect().top + window.scrollY;
+    }
+  }
+  getShowBtnTop();
+
+  window.addEventListener('scroll', function () {
+    if (showMoreBtn) {
+      if (
+        window.scrollY > showMoreBtnTop - window.innerHeight &&
+        !showMoreBtn.classList.contains('loading') &&
+        document.querySelector('#show-more')
+      ) {
+        loadMoreProducts(showMoreBtn);
+      }
+    }
+  });
+
   function loadMoreProducts(el) {
     var collectionProducts = document.getElementById('collection-products');
     var productListing = document.getElementById('product-grid');
@@ -402,7 +424,7 @@
     var requestUrl =
       window.location.pathname + window.location.search + '?limit={{ productsPerPage }}&page=' + el.dataset.page;
 
-    history.pushState(requestUrl, '', requestUrl);
+    //history.pushState(requestUrl, '', requestUrl);
     fetch(requestUrl)
       .then((response) => response.text())
       .then(function (responseText) {
@@ -411,8 +433,13 @@
         if (productHtml && productHtml.querySelectorAll('.grid__item').length > 0) {
           productListing.insertAdjacentHTML('beforeend', productHtml.innerHTML);
 
+          // lazy load
           const lazyimg = new Event('lazyimg');
           window.dispatchEvent(lazyimg);
+
+          // reinit colour selectors
+          const initcolourselector = new Event('initcolourselector');
+          window.dispatchEvent(initcolourselector);
 
           el.classList.remove('loading');
         }
@@ -422,6 +449,8 @@
         } else {
           el.remove();
         }
+
+        getShowBtnTop();
       })
       .catch(function (error) {
         console.error('Error loading products:', error);

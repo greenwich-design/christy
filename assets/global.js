@@ -979,6 +979,10 @@ class VariantSelects extends HTMLElement {
             // refresh slider
             const splidegalrefresh = new Event('splidegalrefresh');
             window.dispatchEvent(splidegalrefresh);
+
+            // refresh zooms
+            const initzoomer = new Event('initzoomer');
+            window.dispatchEvent(initzoomer);
           }
 
         }
@@ -1331,6 +1335,61 @@ class ProductRecommendations extends HTMLElement {
 }
 
 customElements.define('product-recommendations', ProductRecommendations);
+
+
+// product card colour selector
+function cardColourSelector() {
+  let productCardColourSelector = document.querySelectorAll('.card__colours > a:not(.ready)');
+  if (productCardColourSelector.length) {
+    productCardColourSelector.forEach(function (el) {
+      el.classList.add('ready');
+
+      el.addEventListener('click', function (e) {
+        e.preventDefault();
+        let url = el.getAttribute('href') + '?view=card-images';
+        fetch(url)
+          .then((response) => response.text())
+          .then((text) => {
+            const html = document.createElement('div');
+            html.innerHTML = text;
+
+            let parent = el.closest('.product-card');
+            if (parent) {
+              let cardImages = parent.querySelector('.product-images');
+              if (cardImages) {
+                let productImages = html.querySelector('.product-images');
+                if (productImages.querySelectorAll('img').length) {
+                  cardImages.innerHTML = productImages.innerHTML;
+
+                  parent.querySelectorAll('.card__colours > a').forEach((a) => a.classList.remove('active'));
+                  el.classList.add('active');
+
+                  if (parent.querySelector('.card__inner a')) {
+                    parent.querySelector('.card__inner a').setAttribute('href', el.getAttribute('href'));
+                  }
+
+                  if (parent.querySelector('.card__content h3 a')) {
+                    parent.querySelector('.card__content h3 a').setAttribute('href', el.getAttribute('href'));
+                  }
+
+                  // lazy load images
+                  const lazyimg = new Event('lazyimg');
+                  window.dispatchEvent(lazyimg);
+                }
+              }
+
+            }
+          })
+          .catch((e) => {
+            console.error(e);
+          });
+      });
+    });
+  }
+}
+cardColourSelector();
+
+window.addEventListener('initcolourselector', cardColourSelector);
 
 
 

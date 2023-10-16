@@ -79,7 +79,7 @@
         {% assign first_image = true %}
         {% assign has_product_image = false %}
         {% for media in product.media %}
-          {%- assign image_class = 'object-contain object-center w-full h-full inset-0  image-magnify-hover cursor-zoom-in opacity-0' -%}
+          {%- assign image_class = 'object-contain object-center w-full h-full inset-0  click-zoom cursor-zoom-in opacity-0' -%}
           {%- assign alt_array = media.alt | split: '-' -%}
           {%- assign alt_striped = alt_array[0] | strip -%}
           {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
@@ -138,7 +138,7 @@
 
         {% if has_product_image == false %}
           {% for media in product.images %}
-            {%- assign image_class = 'object-contain object-center w-full h-full inset-0  image-magnify-hover cursor-zoom-in opacity-0' -%}
+            {%- assign image_class = 'object-contain object-center w-full h-full inset-0  click-zoom cursor-zoom-in opacity-0' -%}
             {%- assign loading = 'lazy' %}
 
             {%- assign width = 664 -%}
@@ -280,7 +280,7 @@
 
         {% if has_product_image == false %}
           {% for media in product.images %}
-            {%- assign image_class = 'object-contain object-center w-full h-full inset-0  image-magnify-hover cursor-zoom-in opacity-0' -%}
+            {%- assign image_class = 'object-contain object-center w-full h-full inset-0  click-zoom cursor-zoom-in opacity-0' -%}
             {%- assign loading = 'lazy' %}
 
             {%- assign width = 61 -%}
@@ -330,12 +330,12 @@
   <div
     id="media-gallery"
     data-currentop1="{{current_variant.option1}}"
-    class="max-md:!hidden min-h-[var(--header-height)] lg:min-h-[var(--header-height-lg)] {{ group_class }} max-md:-mx-[40px] flex flex-wrap gap-2 [&_>div]:w-full [&_>div]:md:w-[calc(50%_-_.25rem)] [&_>div:first-child]:md:w-full  [&_>.img--variant]:hidden [&_>.img--variant:first-child]:!block"
+    class="md:sticky md:top-[100px] max-md:!hidden min-h-[var(--header-height)] lg:min-h-[var(--header-height-lg)] {{ group_class }} max-md:-mx-[40px] flex flex-wrap gap-2 [&_>div]:w-full [&_>div]:md:w-[calc(50%_-_.25rem)] [&_>div:first-child]:md:w-full  [&_>.img--variant]:hidden [&_>.img--variant:first-child]:!block"
   >
     {% assign first_image = true %}
     {% assign has_product_image = false %}
     {% for media in product.media %}
-      {%- assign image_class = 'object-contain object-center w-full h-full inset-0  image-magnify-hover cursor-zoom-in opacity-0' -%}
+      {%- assign image_class = 'object-contain object-center w-full h-full inset-0  click-zoom cursor-zoom-in opacity-0' -%}
       {%- assign alt_array = media.alt | split: '-' -%}
       {%- assign alt_striped = alt_array[0] | strip -%}
       {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
@@ -387,7 +387,7 @@
 
     {% if has_product_image == false %}
       {% for media in product.images %}
-        {%- assign image_class = 'object-contain object-center w-full h-full inset-0  image-magnify-hover cursor-zoom-in opacity-0' -%}
+        {%- assign image_class = 'object-contain object-center w-full h-full inset-0  click-zoom cursor-zoom-in opacity-0' -%}
         {%- assign loading = 'lazy' %}
 
         {%- assign width = 664 -%}
@@ -434,3 +434,17 @@
     {% endif %}
   </div>
 {% endif %}
+
+<div
+  id="zoomer"
+  class="flex items-center justify-center fixed left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-[999999] transition-all bg-white w-screen h-screen scale-50 [&.active]:scale-100 opacity-0 [&.active]:opacity-100 invisible [&.active]:visible"
+>
+  <div class="zoomer__img w-full h-full"></div>
+
+  <button
+    class="close absolute cursor-pointer top-10 lg:top-14 right-10 lg:right-14 z-[60] w-[32px] h-[32px] lg:w-[36px] lg:h-[36px] [&_svg]:w-full [&_svg]:h-auto p-[10px] bg-white/50"
+    aria-label="close"
+  >
+    {% render 'icon-close' %}
+  </button>
+</div>

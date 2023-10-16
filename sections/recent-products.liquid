@@ -97,6 +97,10 @@
 
         const splideRefresh = new Event('spliderefresh');
         window.dispatchEvent(splideRefresh);
+
+        // reinit colour selectors
+        const initcolourselector = new Event('initcolourselector');
+        window.dispatchEvent(initcolourselector);
       }
     };
 

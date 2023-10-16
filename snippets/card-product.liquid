@@ -28,7 +28,7 @@
       <div
         class="card__inner relative"
       >
-        <a class="relative aspect-[2/3] block bg-grey-2" href="{{ card_product.url }}">
+        <a class="product-images relative aspect-[2/3] block bg-grey-2" href="{{ card_product.url }}">
           {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
 
           {%- if card_product.featured_media -%}
@@ -91,6 +91,14 @@
           {%- endif -%}
         </a>
 
+        {% if card_product.metafields.christy23.plp_top_tag != blank %}
+          <div class="absolute left-2 top-2 right-2 pointer-events-none">
+            <div class="inline-block py-0.5 px-2 rounded-[20px] bg-white max-md:text-[11px] uppercase font-bold truncate max-w-full ">
+              {{ card_product.metafields.christy23.plp_top_tag }}
+            </div>
+          </div>
+        {% endif %}
+
         <div class="card__badge ">
           {%- if card_product.available == false -%}
             <span
@@ -126,13 +134,18 @@
           aria-label="Add to wishlist"
           button-wishlist
           data-product-handle="{{ card_product.handle }}"
-          class="card__wishlist wishlist-button [&.active_svg]:animate-scalein group/wlbtn"
+          class="card__wishlist wishlist-button [&.active_svg]:animate-scalein group/wlbtn max-md:hidden"
         >
           <span class="w-[16px] lg:w-[18px] block">{% render 'icon-heart' %}</span>
         </button>
       </div>
       <div class="card__content text-blue-1">
-        <div class="card__information space-y-2">
+        <a
+          href="{{ card_product.url }}"
+          id="CardLink-{{ section_id }}-{{ card_product.id }}"
+          aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
+          class="card__information space-y-2"
+        >
           <div class="flex justify-between max-md:text-[10px] flex-wrap">
             <div class="whitespace-nowrap">
               {% if card_product.price_min != card_product.price_max %}
@@ -153,17 +166,83 @@
             class="font-semibold m-body-copy lg:d-h3"
             id="title-{{ section_id }}-{{ card_product.id }}"
           >
-            <a
-              href="{{ card_product.url }}"
-              id="CardLink-{{ section_id }}-{{ card_product.id }}"
-              class="full-unstyled-link"
-              aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
-            >
-              {{ card_product.title | escape }}
-            </a>
+            {{ card_product.title | escape }}
           </h3>
-        </div>
+          {% if card_product.metafields.christy23.tagline_pdp %}
+            <p>{{ card_product.metafields.christy23.tagline_pdp }}</p>
+          {% endif %}
+        </a>
       </div>
+
+      {%- unless card_product.has_only_default_variant -%}
+        {%- assign coloursCount = 0 %}
+        {%- assign coloursVisible = 0 %}
+        {%- capture optionColours %}
+            {%- for option in card_product.options_with_values -%}
+              {% if option.name == 'Colour' or option.name == 'Color' %}
+                {%- for value in option.values -%}
+                  {%- for image in card_product.images -%}
+                    {%- assign alt_array = image.alt | split: '-' -%}
+                    {%- assign alt_striped = alt_array[0] | strip -%}
+                    {%- assign colour_striped = value | strip -%}
+                    {%- if colour_striped == alt_striped and alt_array[1] == 'product_swatch' -%}
+                      {%- assign option_swatch_image = image -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+
+                  
+                  {%- if option_swatch_image != blank %}
+                    
+                    {% if coloursCount < 6 %}
+                    
+                    {%- assign coloursVisible = coloursVisible | plus: 1 -%}
+                    <a
+                      href="{{ card_product.url }}/c:{{ value | handleize }}"
+                      class="h-auto w-full rounded-full [&.active]:border [&.active]:border-[#999999]/20 [&.active_.swatch]:scale-75 flex items-center justify-center {% if coloursCount > 2 %}max-md:hidden{% endif %}"
+                    >
+                      <div class="pt-[100%] flex-1 relative">
+                        <div
+                          class="swatch w-full h-full transition-[width,height] rounded-full absolute inset-0 transition-transform"
+                          style="background-image: url({{ option_swatch_image | img_url: '24x24' }});"
+                        ></div>
+                      </div>
+                    </a>
+
+                    {% endif %}
+
+                    {%- assign coloursCount = coloursCount | plus: 1 -%}
+                  {%- endif %}
+                {% endfor %}
+              {% endif %}
+            {%- endfor %}
+          {%- endcapture -%}
+
+        {% if coloursCount > 1 %}
+          <div
+            class="card__colours grid grid-cols-[repeat(3,minmax(auto,16px))_1fr] md:grid-cols-[repeat(6,minmax(auto,24px))_1fr] gap-2 md:gap-3 items-center"
+            data-count="{{ coloursCount }}"
+          >
+            {{ optionColours }}
+
+            {% liquid
+              assign colourCountActual = coloursCount
+              assign mobColourCount = colourCountActual | minus: 3
+              assign tabColourCount = colourCountActual | minus: 6
+            %}
+
+            {% if mobColourCount > 0 or tabColourCount > 0 %}
+              <div class="leading-tight max-md:text-[10px] font-bold">
+                {% if mobColourCount > 0 %}
+                  <a href="{{ card_product.url }}" class="md:hidden hover:underline">{{ mobColourCount }}+ more</a>
+                {% endif %}
+                {% if tabColourCount > 0 %}
+                  <a href="{{ card_product.url }}" class="max-md:hidden hover:underline">{{ tabColourCount }}+ more</a>
+                {% endif %}
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+      {%- endunless -%}
     </div>
   </div>
 {%- else -%}

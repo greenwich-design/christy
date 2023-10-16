@@ -37,6 +37,7 @@
                   {{ 'customer.orders.fulfillment_status' | t }}
                 </th>
                 <th id="ColumnTotal" scope="col" role="columnheader">{{ 'customer.orders.total' | t }}</th>
+                <th id="ColumnReturn" scope="col" role="columnheader">Return</th>
               </tr>
             </thead>
             <tbody role="rowgroup">
@@ -75,6 +76,20 @@
                   </td>
                   <td headers="RowOrder ColumnTotal" role="cell" data-label="{{ 'customer.orders.total' | t }}">
                     {{ order.total_net_amount | money_with_currency }}
+                  </td>
+                  <td headers="RowOrder ColumnReturn" role="cell" data-label="Return">
+                    {% liquid
+                      assign email = customer.email
+                      assign sapid2 = order.metafields.custom.SAPID2
+                    %}
+                    {% if email != blank and sapid2 != blank %}
+                      <a
+                        class="btn-smaller btn-primary !max-w-full"
+                        target="_blank"
+                        href="https://rmls2.intelligentshipper.net/returns/xpo-logistics-christy/findorder?num={{ sapid2 }}&email={{ email }}"
+                        >Return</a
+                      >
+                    {% endif %}
                   </td>
                 </tr>
               {%- endfor -%}

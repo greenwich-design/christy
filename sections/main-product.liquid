@@ -196,89 +196,13 @@
               <header class="space-y-2 md:space-y-4">
                 <h1 class="m-h1 lg:s-d-h4">{{ product.title | escape }}</h1>
 
-                <div class="flex justify-between space-x-5">
-                  <div>
-                    {% if product.metafields.christy23.tagline_pdp %}
+                {% if product.metafields.christy23.tagline_pdp %}
+                  <div class="flex justify-between space-x-5">
+                    <div>
                       <p class="font-semibold lg:d-h5">{{ product.metafields.christy23.tagline_pdp.value }}</p>
-                    {% endif %}
+                    </div>
                   </div>
-
-                  {%- unless product.has_only_default_variant -%}
-                    {%- for option in product.options_with_values -%}
-                      {% assign selectedValue = option.selected_value | handleize %}
-                      {%- if option.name == 'Colour' or option.name == 'Color' %}
-                        {% assign colours_with_swatches = '' %}
-                        {% for value in option.values %}
-                          {% assign is_colour = false %}
-                          {% if option.name == 'Colour' or option.name == 'Color' %}
-                            {% assign is_colour = true %}
-                            {% for variant in product.variants %}
-                              {% comment %}
-                                if colour matches get metafield
-                              {% endcomment %}
-                              {% if variant.option1 == value or variant.option2 == value or variant.option3 == value %}
-                                {%- for image in product.images -%}
-                                  {%- assign alt_array = image.alt | split: '-' -%}
-                                  {%- assign alt_striped = alt_array[0] | strip -%}
-                                  {%- assign colour_striped = value | strip -%}
-                                  {%- if colour_striped == alt_striped and alt_array[1] == 'product_swatch' -%}
-                                    {% unless colours_with_swatches contains value %}
-                                      {%- assign colours_with_swatches = colours_with_swatches
-                                        | append: value
-                                        | append: ','
-                                      -%}
-                                    {% endunless %}
-                                  {%- endif -%}
-                                {%- endfor -%}
-                              {% endif %}
-                            {% endfor %}
-                          {% endif %}
-                        {% endfor %}
-
-                        {% if colours_with_swatches != 'blank ' %}
-                          {% assign colours_with_swatches_array = colours_with_swatches | split: ',' %}
-                        {% endif %}
-
-                        {% if colours_with_swatches_array.size > 0 %}
-                          <div
-                            id="colour-picker-mobile-trigger"
-                            role="button"
-                            class="flex items-center shrink-0 space-x-3 md:hidden"
-                            aria-hidden="true"
-                            data-togglecolours
-                          >
-                            <div class="pointer-events-none relative w-[16px] h-[16px] [&_div]:!m-0 [&_button]:absolute [&_button]:left-0 [&_button]:invisible [&_input:checked~button]:visible [&_input:checked~button]:relative">
-                              <div class="">
-                                <div class="flex items-center justify-end">
-                                  {% render 'product-variant-options',
-                                    product: product,
-                                    option: option,
-                                    block: block,
-                                    button_type: true,
-                                    name_custom: 'mob2',
-                                    selected_colour: selected_colour,
-                                    selected_size: selected_size,
-                                    selectedValue: selectedValue,
-                                    current_variant: current_variant
-                                  %}
-                                </div>
-                              </div>
-                            </div>
-
-                            <p class="btn-tertiary ml-3">
-                              {% if colours_with_swatches_array.size > 5 %}
-                                {{ colours_with_swatches_array.size }}+ Colours
-                              {% else %}
-                                {{ colours_with_swatches_array.size }} Colours
-                              {% endif %}
-                            </p>
-                          </div>
-                        {% endif %}
-                        {% break %}
-                      {%- endif -%}
-                    {%- endfor -%}
-                  {%- endunless -%}
-                </div>
+                {% endif %}
               </header>
 
               <div class="flex gap-3 justify-between md:items-center max-md:flex-col">
@@ -314,16 +238,16 @@
                 <!-- End TrustBox widget -->
               </div>
 
-              <div class="wysiwyg !mt-7 max-md:order-10 max-md:border-t max-md:border-blue-1/10 max-md:pt-5">
+              <div class="wysiwyg !mt-5 md:!mt-7 max-md:order-10 max-md:border-t max-md:border-blue-1/10 max-md:pt-5">
                 {{ product.description }}
               </div>
 
               {%- unless product.has_only_default_variant -%}
                 <div
                   data-moboptions="true"
-                  class=" md:!h-auto overflow-hidden !mt-0 md:!mt-6"
+                  class=" md:!h-auto overflow-hidden !mt-0 md:!mt-6 max-md:pt-7"
                 >
-                  <div class="max-md:pt-7">
+                  <div class=" max-md:pt-5 max-md:border-t max-md:border-blue-1/10">
                     {% render 'product-variant-picker',
                       product: product,
                       product_form_id: product_form_id,
@@ -343,7 +267,7 @@
                 </div>
               {% endif %}
 
-              <div class="max-md:!mt-0 max-md:py-5 max-md:px-10 max-md:border max-md:border-blue-1 max-md:bg-white max-md:fixed max-md:left-0 max-md:bottom-0 z-10 max-md:w-full">
+              <div class="max-md:!mt-0 max-md:py-5 max-md:px-10 max-md:border-y max-md:border-blue-1 max-md:bg-white max-md:fixed max-md:left-0 max-md:bottom-0 z-10 max-md:w-full">
                 {%- render 'buy-buttons',
                   block: block,
                   product: product,
@@ -851,6 +775,77 @@
     }
   </script>
 </section>
+
+{% assign metaObj_special = product.metafields.custom.what_makes_us_special_section.value %}
+
+{{ metaObj_special.benefits.value.count }}
+
+{% if metaObj_special.t_itle %}
+  <section class="section-banner">
+    {% liquid
+      assign widths = '375, 550, 750, 1000'
+      assign sizes = '100vw'
+      assign class = 'object-contain inset-0 opacity-0 max-w-full'
+    %}
+
+    {% assign img_width = 500 %}
+    {% assign img_height = 550 %}
+
+    <div class="">
+      <div class="container space-y-7 lg:space-y-14">
+        <header class="flex gap-12 max-md:flex-col items-start md:items-center">
+          {% if metaObj_special.t_itle %}
+            <h2 class="s-m-h2 lg:s-d-h1">{{ metaObj_special.t_itle }}</h2>
+          {% endif %}
+
+          {% if metaObj_special.collection_button_title.value and metaObj_special.collection_button_url.value.url %}
+            <a class="btn-secondary btn-medium" href="{{ metaObj_special.collection_button_url.value.url }}">
+              {{- metaObj_special.collection_button_title.value -}}
+            </a>
+          {% endif %}
+        </header>
+
+        <div class="grid gap-8 lg:gap-16 md:grid-cols-[minmax(auto,500px),auto]">
+          <div class="space-y-5 lg:space-y-10">
+            {% if metaObj_special.section_image.value != blank %}
+              {%- render 'lazyimg',
+                img: metaObj_special.section_image.value,
+                width: img_width,
+                height: img_height,
+                widths: widths,
+                class: class,
+                sizes: sizes,
+                crop: 'center'
+              -%}
+            {% endif %}
+
+            {% if metaObj_special.note.value %}
+              <p>
+                {{ metaObj_special.note.value }}
+              </p>
+            {% endif %}
+          </div>
+          <div class="flex items-center">
+            <div class="animation an-fadeup grid lg:grid-cols-2 gap-8 lg:gap-16 md:p-8 lg:p-16 flex-1">
+              {% for val in metaObj_special.benefits.value %}
+                <div class="space-y-3 lg:space-y-5">
+                  <div class="space-y-1">
+                    {% if val.title %}
+                      <h4 class="s-m-h3 lg:s-d-h3 !font-bold">{{ val.title }}</h4>
+                    {% endif %}
+                    {% if val.copy %}
+                      <div class="wysiwyg">{{ val.copy | metafield_tag }}</div>
+                    {% endif %}
+                  </div>
+                </div>
+              {%- endfor -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}
 
 {% schema %}
 {
