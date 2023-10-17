@@ -405,49 +405,6 @@
         "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
         "button_link": "#quiz-gWHPoe"
       }
-    },
-    "26f8994b-ddf0-4458-ac35-a8b39bd4b28f": {
-      "type": "reviews-carousel",
-      "blocks": {
-        "template--21202652987680__26f8994b-ddf0-4458-ac35-a8b39bd4b28f-block-1": {
-          "type": "block",
-          "settings": {
-            "product": "renaissance",
-            "title": "Renaissance Towels",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
-          }
-        },
-        "template--21202652987680__26f8994b-ddf0-4458-ac35-a8b39bd4b28f-block-2": {
-          "type": "block",
-          "settings": {
-            "product": "",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
-          }
-        },
-        "template--21202652987680__26f8994b-ddf0-4458-ac35-a8b39bd4b28f-block-3": {
-          "type": "block",
-          "settings": {
-            "product": "",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
-          }
-        }
-      },
-      "block_order": [
-        "template--21202652987680__26f8994b-ddf0-4458-ac35-a8b39bd4b28f-block-1",
-        "template--21202652987680__26f8994b-ddf0-4458-ac35-a8b39bd4b28f-block-2",
-        "template--21202652987680__26f8994b-ddf0-4458-ac35-a8b39bd4b28f-block-3"
-      ],
-      "settings": {
-        "title": "100,000+ Happy Customers",
-        "button_title": "Read Our Reviews",
-        "button_link": "shopify:\/\/collections\/all",
-        "margin": "yes"
-      }
     }
   },
   "order": [
@@ -466,7 +423,6 @@
     "billboard4",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
-    "2970b3ab-743a-4054-95d1-048d41881e08",
-    "26f8994b-ddf0-4458-ac35-a8b39bd4b28f"
+    "2970b3ab-743a-4054-95d1-048d41881e08"
   ]
 }
