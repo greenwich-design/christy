@@ -92,7 +92,13 @@
 
                 <div class="space-y-6 max-sm:order-1">
                   <div class="space-y-3 lg:space-y-6">
-                    <h3 class="s-m-h1 lg:s-m-h2">{{ collection.title }}</h3>
+                    <h3 class="s-m-h1 lg:s-m-h2">
+                      {% if block.settings.alt_title != blank %}
+                        {{ block.settings.alt_title }}
+                      {% else %}
+                        {{ collection.title }}
+                      {% endif %}
+                    </h3>
                   </div>
 
                   {% if block.settings.excerpt != blank %}
@@ -197,6 +203,12 @@
           "id": "image",
           "label": "Alternative Image",
           "info": "Optional. If left blank, the collection image will be used."
+        },
+        {
+          "type": "text",
+          "id": "alt_title",
+          "label": "Alternative Title",
+          "info": "Optional. E.G: 'Bath'"
         },
         {
           "type": "richtext",
