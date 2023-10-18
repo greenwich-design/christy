@@ -167,7 +167,7 @@
         "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
         "disabled": false,
         "settings": {
-          "cart_widget_enabled": true,
+          "cart_widget_enabled": false,
           "item_widget_enabled": false,
           "product_widget_enabled": false,
           "message_enabled": false,
