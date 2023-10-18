@@ -301,8 +301,8 @@
           "settings": {
             "position_left": 80,
             "position_top": 10,
-            "position_left_mob": 40,
-            "position_top_mob": 30,
+            "position_left_mob": 75,
+            "position_top_mob": 10,
             "product": "stornoway-chambray"
           }
         },
