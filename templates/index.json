@@ -299,8 +299,8 @@
         "e490f271-e9b9-4412-8982-d5926491cf34": {
           "type": "hotspot",
           "settings": {
-            "position_left": 40,
-            "position_top": 30,
+            "position_left": 80,
+            "position_top": 10,
             "position_left_mob": 40,
             "position_top_mob": 30,
             "product": "stornoway-chambray"
