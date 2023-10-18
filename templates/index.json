@@ -90,7 +90,7 @@
         "copy": "",
         "copy_style": "default",
         "alignment": "right",
-        "alignment_mob": "center",
+        "alignment_mob": "right",
         "horiz_padding": true,
         "margin_top": false
       }
