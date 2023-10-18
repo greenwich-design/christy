@@ -41,12 +41,34 @@
             "pos_l_3": 50,
             "pos_t_3": 50
           }
+        },
+        "bacccb12-059e-4a9d-a17d-3d0a7d831a15": {
+          "type": "sub_collections",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BrixtonRobe_Midnight_Detail-477657.jpg",
+            "title": "Invigorating & Durable",
+            "sub_title": "",
+            "copy": "<p>Start (or end) your day the refreshing way, with our revitalising robes.<\/p>",
+            "button_url": "shopify:\/\/products\/brixton-robe"
+          }
+        },
+        "cc0fd40b-7dc9-4c7f-9cde-5aa10f96f6f8": {
+          "type": "sub_collections",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CosyRobe_Forest_Detail-273355.jpg",
+            "title": "Thick & Indulgent",
+            "sub_title": "",
+            "copy": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick bathrobes.<\/p>",
+            "button_url": "shopify:\/\/collections\/robes"
+          }
         }
       },
       "block_order": [
         "77b7bcba-adf8-4b59-84fa-2aed599efb4a",
         "5a878969-3318-42e0-87f9-e02a64758016",
-        "8704fef6-e4b5-4c39-bba2-de943e89068e"
+        "8704fef6-e4b5-4c39-bba2-de943e89068e",
+        "bacccb12-059e-4a9d-a17d-3d0a7d831a15",
+        "cc0fd40b-7dc9-4c7f-9cde-5aa10f96f6f8"
       ],
       "settings": {
         "products_per": 10
@@ -62,6 +84,7 @@
       "type": "billboard",
       "disabled": true,
       "settings": {
+        "screen_visibility": "both",
         "subtitle": "Christy Life",
         "title": "<p>7 simple everyday self-care rituals<\/p>",
         "copy": "<p>Add a bit of TLC to your daily routine with these ideas to help you pause and enjoy the little moments.<\/p>",
