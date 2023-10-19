@@ -2,6 +2,22 @@
   "sections": {
     "product-grid": {
       "type": "main-collection-product-grid",
+      "blocks": {
+        "8ebe274f-c92a-4c5b-bcde-a8c506ba1d82": {
+          "type": "infocard",
+          "settings": {
+            "text": "Did You Know?",
+            "copy": "<p>Our Feather & Down Duvets & Pillows are Responsible<br\/>Down Standard and is made<br\/>with feather and down from fully certified farms ensuring the fill derives from ducks raised in compliance with the principles and criteria of animal<br\/>welfare.<\/p>",
+            "button_text": "",
+            "button_url": "",
+            "styled": false,
+            "position": 0
+          }
+        }
+      },
+      "block_order": [
+        "8ebe274f-c92a-4c5b-bcde-a8c506ba1d82"
+      ],
       "settings": {
         "products_per": 12
       }
@@ -123,6 +139,7 @@
         "5cd53bb9-0042-45f8-bccc-44aadf259f78",
         "9c788114-0e17-4e4a-90ac-0edf460cd23f"
       ],
+      "disabled": true,
       "settings": {
         "title": "Discover Bath",
         "copy": "<p>Synonymous with British style and heritage, our luxury bath collection helps you to reimagine your bathroom into the home spa you’ve always dreamed of. <\/p><p>Our bathroom products are carefully created to provide the ultimate combination of comfort, aesthetics and utility; drawing upon nearly two centuries of experience our range of bath mats, bathrobes and towels create a fresh new look for any bathroom.<\/p>"
