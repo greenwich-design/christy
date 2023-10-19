@@ -369,6 +369,7 @@
     },
     "images-copy-cta2": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/forest-stewardship-1.jpg",
         "image2": "shopify:\/\/shop_images\/forest-stewardship-2.jpg",
