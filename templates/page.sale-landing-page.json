@@ -1,5 +1,24 @@
 {
   "sections": {
+    "images": {
+      "type": "images",
+      "blocks": {
+        "f7349441-914d-4efc-8916-20c989feb67a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200X628_1.png",
+            "width": "full",
+            "aspect": "16\/9"
+          }
+        }
+      },
+      "block_order": [
+        "f7349441-914d-4efc-8916-20c989feb67a"
+      ],
+      "settings": {
+        "fullscreen": true
+      }
+    },
     "hero-static": {
       "type": "hero-static",
       "settings": {
@@ -8,6 +27,62 @@
         "title": "Timeless products, consciously made",
         "copy": "<p>We're working to build a better future, and are improving our processes for the good of our consumers, our communities and the wider environment<\/p>",
         "image2": "shopify:\/\/shop_images\/responsibility-2.jpg"
+      }
+    },
+    "99b35547-252f-4a43-8e71-7986509c237d": {
+      "type": "collections-carousel",
+      "blocks": {
+        "011aec37-bf4d-4aaf-8938-fc5d7f858e06": {
+          "type": "collection",
+          "settings": {
+            "collection": "bedroom-bedroom-sale",
+            "usp_title": "Bedding Sale - up to 30% off",
+            "alt_title": "",
+            "excerpt": ""
+          }
+        }
+      },
+      "block_order": [
+        "011aec37-bf4d-4aaf-8938-fc5d7f858e06"
+      ],
+      "settings": {
+        "title": "",
+        "screen_visibility": "mobile"
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "blocks": {
+        "4a655c37-2240-43bd-aa0c-b3e113217a08": {
+          "type": "product",
+          "settings": {
+            "product": "400-thread-count-sateen-plain-dye",
+            "text": "<p>Wrap yourself up in pure luxury with our ultra soft and absorbant Supreme Hygro® towel collection<\/p>"
+          }
+        },
+        "e14b8b02-c53c-4069-85cc-43e31732c3cb": {
+          "type": "product",
+          "settings": {
+            "product": "anti-allergy-mattress-and-pillow-protectors",
+            "text": "<p>Wrap yourself up in pure luxury with our ultra soft and absorbant Supreme Hygro® towel collection<\/p>"
+          }
+        },
+        "d21bf329-3944-47a0-832b-9162c451db72": {
+          "type": "product",
+          "settings": {
+            "product": "appleby-bed-linen",
+            "text": "<p>Wrap yourself up in pure luxury with our ultra soft and absorbant Supreme Hygro® towel collection<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4a655c37-2240-43bd-aa0c-b3e113217a08",
+        "e14b8b02-c53c-4069-85cc-43e31732c3cb",
+        "d21bf329-3944-47a0-832b-9162c451db72"
+      ],
+      "settings": {
+        "title": "Shop the Halloween Sale now",
+        "collection": "offers-shop-all-sale"
       }
     },
     "8f9e3ef3-0d55-43c1-b496-14c674ab688e": {
@@ -48,17 +123,33 @@
         "template--19974381371680__8f9e3ef3-0d55-43c1-b496-14c674ab688e-anchor_link-3",
         "a96b90be-0de5-4063-a37a-ced6f72b034b"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "heading": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>We are proud members of Better Cotton <\/p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
         "alignment": "right",
+        "alignment_mob": "right",
+        "horiz_padding": true,
+        "margin_top": false
+      }
+    },
+    "heading2": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Up to 50% OFF<\/p>",
+        "heading_width": "6",
+        "copy": "<p>On towels, bedding, accessories, robes and more<\/p>",
+        "copy_style": "heading3",
+        "alignment": "right",
+        "alignment_mob": "right",
         "horiz_padding": true,
         "margin_top": false
       }
@@ -84,6 +175,7 @@
         "1398f43f-f918-4187-b50f-70492610063a",
         "a7dab157-b607-401b-b61d-2976f78d0bbe"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "anchor_id": ""
@@ -91,7 +183,9 @@
     },
     "billboard": {
       "type": "billboard",
+      "disabled": true,
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/just-getting-started.jpg",
         "subtitle": "Our Mission",
         "title": "<p>We’re just getting started<\/p>",
@@ -139,6 +233,7 @@
         "87ccc695-1c4d-4ea9-afe9-32ff4781f1f6",
         "c5b1210b-7ac1-4264-8168-37f59a5afd19"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/better-cotton-1.jpg",
         "image2": "shopify:\/\/shop_images\/better-cotton-2.jpg",
@@ -153,42 +248,12 @@
         "anchor_id": "better-cotton"
       }
     },
-    "heading2": {
-      "type": "heading",
-      "settings": {
-        "heading": "<p>Make a difference<\/p>",
-        "heading_width": "6",
-        "copy": "<p>Gentle on the skin and gentler on the planet<\/p>",
-        "copy_style": "heading3",
-        "alignment": "right",
-        "horiz_padding": true,
-        "margin_top": false
-      }
-    },
-    "images": {
-      "type": "images",
-      "blocks": {
-        "5b646956-a5dd-4637-a66e-a4ca816853e0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/responsibility-3.jpg",
-            "width": "full",
-            "aspect": "16\/9"
-          }
-        }
-      },
-      "block_order": [
-        "5b646956-a5dd-4637-a66e-a4ca816853e0"
-      ],
-      "settings": {
-        "fullscreen": true
-      }
-    },
     "rich-text2": {
       "type": "rich-text",
       "blocks": {
         "baf52df9-650b-459f-886f-675e4538ba12": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Our Certifications",
             "sub_title_size": "h5"
@@ -212,6 +277,7 @@
         "8f7002da-26e4-414a-bd23-f81f38b7e43a",
         "a7be0c86-54d2-47e3-8d0d-9ca75a9a0e79"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "anchor_id": "made-in-green"
@@ -224,36 +290,36 @@
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/Christy_Newletter_Icon_exploration_Sustainability.svg",
-            "title": "Tested for harmful substances",
+            "title": "Free standard delivery on orders over £50",
             "content_title": "",
-            "text": "<p>Tested for harmful substances like toxic dyes, heavy metals, and pesticides.<\/p>"
+            "text": ""
           }
         },
         "cf002eb8-5721-44b8-a686-690fd99e78b1": {
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/environmentally-friendly-production.svg",
-            "title": "Environmentally friendly production",
+            "title": "No fuss, free returns with Evri",
             "content_title": "",
-            "text": "<p>This means facilities that proactively manage the chemicals used to dye, print, and process textiles, and that manage their wastewater, textile waste, and emissions responsibly.<\/p>"
+            "text": ""
           }
         },
         "a5263566-0655-4775-ab38-e1de94d70e23": {
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/social-working0conditions.svg",
-            "title": "Social working conditions",
+            "title": "TBC",
             "content_title": "",
-            "text": "<p>Manufactured in socially responsible environments where employees have fair working conditions (like reasonable hours and living wages) and there are bans on forced and child labour. It also specifies that occupational health and safety is in place) there is adequate fire protection, building safety, and protective equipment, and that dust, noise, and heat do not threaten workers' health.<\/p>"
+            "text": ""
           }
         },
         "8998fe16-bb53-4a46-a0f6-8a84c6d54da7": {
           "type": "card",
           "settings": {
             "image": "shopify:\/\/shop_images\/trasparent-supply-chains.svg",
-            "title": "Transparent Supply Chains",
+            "title": "TBC",
             "content_title": "",
-            "text": "<p>Created in a transparent supply chain so that we can trace the end product back to its source, ensuring things have been properly handled every step of the way.<\/p>"
+            "text": ""
           }
         }
       },
@@ -264,7 +330,7 @@
         "8998fe16-bb53-4a46-a0f6-8a84c6d54da7"
       ],
       "settings": {
-        "title": "To be Made in Green, a product has to be:"
+        "title": "Why Christy"
       }
     },
     "rich-text3": {
@@ -295,44 +361,10 @@
         "99671758-4269-4bf7-8409-8740c3782cf4",
         "e411df9c-a1eb-4df0-abce-00a6f86321c2"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "anchor_id": "gots"
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "blocks": {
-        "4a655c37-2240-43bd-aa0c-b3e113217a08": {
-          "type": "product",
-          "settings": {
-            "product": "400-thread-count-sateen-plain-dye",
-            "text": "<p>Wrap yourself up in pure luxury with our ultra soft and absorbant Supreme Hygro® towel collection<\/p>"
-          }
-        },
-        "e14b8b02-c53c-4069-85cc-43e31732c3cb": {
-          "type": "product",
-          "settings": {
-            "product": "anti-allergy-mattress-and-pillow-protectors",
-            "text": "<p>Wrap yourself up in pure luxury with our ultra soft and absorbant Supreme Hygro® towel collection<\/p>"
-          }
-        },
-        "d21bf329-3944-47a0-832b-9162c451db72": {
-          "type": "product",
-          "settings": {
-            "product": "appleby-bed-linen",
-            "text": "<p>Wrap yourself up in pure luxury with our ultra soft and absorbant Supreme Hygro® towel collection<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "4a655c37-2240-43bd-aa0c-b3e113217a08",
-        "e14b8b02-c53c-4069-85cc-43e31732c3cb",
-        "d21bf329-3944-47a0-832b-9162c451db72"
-      ],
-      "settings": {
-        "title": "Shop the Collection",
-        "collection": "all-bedding"
       }
     },
     "images-copy-cta2": {
@@ -353,7 +385,9 @@
     },
     "billboard2": {
       "type": "billboard",
+      "disabled": true,
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/perfect-towel_7b6f2a34-1d35-4624-bc88-9e7432cbb3a9.jpg",
         "subtitle": "Feature",
         "title": "<p>Only the best: picking your perfect towel<\/p>",
@@ -369,18 +403,19 @@
     }
   },
   "order": [
+    "images",
     "hero-static",
+    "99b35547-252f-4a43-8e71-7986509c237d",
+    "featured-collection",
     "8f9e3ef3-0d55-43c1-b496-14c674ab688e",
     "heading",
+    "heading2",
     "rich-text",
     "billboard",
     "images-copy-cta",
-    "heading2",
-    "images",
     "rich-text2",
     "info-cards",
     "rich-text3",
-    "featured-collection",
     "images-copy-cta2",
     "billboard2"
   ]
