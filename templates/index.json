@@ -90,7 +90,7 @@
         "copy": "",
         "copy_style": "default",
         "alignment": "right",
-        "alignment_mob": "right",
+        "alignment_mob": "center",
         "horiz_padding": true,
         "margin_top": false
       }
@@ -169,7 +169,7 @@
         "copy": "",
         "copy_style": "default",
         "alignment": "left",
-        "alignment_mob": "right",
+        "alignment_mob": "center",
         "horiz_padding": false,
         "margin_top": false
       }
@@ -281,7 +281,7 @@
         "copy": "<p>Elevate your sleep sanctuary with our selection of sustainably made pieces.<\/p>",
         "copy_style": "heading3",
         "alignment": "right",
-        "alignment_mob": "right",
+        "alignment_mob": "center",
         "horiz_padding": true,
         "margin_top": true
       }
@@ -337,7 +337,7 @@
         "copy": "<p>Welcome to our blog: from interiors inspiration to expert how-tos, walkthroughs and all our latest news, it's designed to guide and inspire your bath and bedding journey.<\/p>",
         "copy_style": "default",
         "alignment": "right",
-        "alignment_mob": "right",
+        "alignment_mob": "center",
         "horiz_padding": true,
         "margin_top": true
       }

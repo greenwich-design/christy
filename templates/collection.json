@@ -2,22 +2,6 @@
   "sections": {
     "product-grid": {
       "type": "main-collection-product-grid",
-      "blocks": {
-        "8ebe274f-c92a-4c5b-bcde-a8c506ba1d82": {
-          "type": "infocard",
-          "settings": {
-            "text": "Did You Know?",
-            "copy": "<p>Our Feather & Down Duvets & Pillows are Responsible<br\/>Down Standard and is made<br\/>with feather and down from fully certified farms ensuring the fill derives from ducks raised in compliance with the principles and criteria of animal<br\/>welfare.<\/p>",
-            "button_text": "",
-            "button_url": "",
-            "styled": false,
-            "position": -5
-          }
-        }
-      },
-      "block_order": [
-        "8ebe274f-c92a-4c5b-bcde-a8c506ba1d82"
-      ],
       "settings": {
         "products_per": 12
       }
