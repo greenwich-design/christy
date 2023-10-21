@@ -452,6 +452,7 @@
     },
     "393634d4-53d9-4c8e-be41-45c5d425188a": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Discover the magic in <br\/>everyday moments.<\/p>",
         "heading_width": "4",
