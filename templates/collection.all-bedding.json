@@ -43,6 +43,7 @@
         },
         "9b178935-07f5-49c1-b91b-796defd6ca93": {
           "type": "listsc",
+          "disabled": true,
           "settings": {
             "product_1": "",
             "pos_l_1": 50,
