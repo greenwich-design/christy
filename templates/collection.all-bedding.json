@@ -160,6 +160,102 @@
         "screen_visibility": "both"
       }
     },
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "From Classic Stripes to Hand Painted Designs",
+        "button_title": "Explore the Collection",
+        "button_link": "shopify:\/\/collections\/printed-and-hand-painted-bedding",
+        "products": [
+          "katsura-bed-linen",
+          "lerwick-stripe",
+          "matsu-bed-linen",
+          "coniston-bed-linen",
+          "meeko-bed-linen",
+          "appleby-bed-linen"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "6851d866-adb6-4f4b-8e77-da4ae8ec22ef": {
+      "type": "images-copy-cta",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/SuperiorSoftTouchDuvet_Lifestyle_3.jpg",
+        "image2": "shopify:\/\/shop_images\/Duvet-1024x1024_c434d424-997b-4160-b314-2c0a36d3680a.jpg",
+        "subtitle": "New Arrival",
+        "title": "<p>Feather & Down Duvets & Pillows<\/p>",
+        "copy": "<p>Want a duvet that is incredibly soft and warm? Made with the softest duck feather and down and a clever box construction, the naturally breathable filling remains even sleep after sleep to keep you cosy when it's colder.<\/p>",
+        "button_label": "Discover the Collection",
+        "button_link": "shopify:\/\/collections\/feather-down",
+        "content_position": "left",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
+      }
+    },
+    "07a57dc8-34ac-41ee-96df-37021aef7941": {
+      "type": "reviews-carousel",
+      "blocks": {
+        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-1": {
+          "type": "block",
+          "settings": {
+            "product": "smooth-and-silky-cotton-sateen-fitted-sheet",
+            "title": "Smooth & Silky Cotton Sateen Deep Fitted Sheet - 400 TC",
+            "testimonial": "<p>\"I have bought Christy bedding before and have always been impressed by the quality - This purchase as no different, excellent items and enhances my sleep quality\"<\/p>",
+            "name": "Charles Shelley"
+          }
+        },
+        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2": {
+          "type": "block",
+          "settings": {
+            "product": "luxury-microfibre-13-5-tog-duvet",
+            "title": "Luxury Microfibre 13.5 Tog Duvet",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
+            "name": "John Smith"
+          }
+        },
+        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-3": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "title": "Customer Reviews",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
+            "name": "John Smith"
+          }
+        }
+      },
+      "block_order": [
+        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-1",
+        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2",
+        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Unveiling the Christy Experience: Happy Customer Reviews",
+        "button_title": "Shop Bedding on Sale",
+        "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
+        "margin": "yes"
+      }
+    },
+    "32651ade-df62-44f5-8355-bb4039f60426": {
+      "type": "billboard",
+      "disabled": true,
+      "settings": {
+        "screen_visibility": "both",
+        "image": "shopify:\/\/shop_images\/LerwickStripe_Lifestyle_Silver_3-964332.jpg",
+        "subtitle": "Christy Life",
+        "title": "<p>How to Dress a Bed - The Complete Guide<\/p>",
+        "copy": "<p>Our bedding experts have numerous years of experience. In this guide, we’ll be showing you what you need to make your bedroom your favourite room in the house.<\/p>",
+        "button_label": "Read more",
+        "button_link": "https:\/\/www.christy.co.uk\/blogs\/lifestyle\/how-to-dress-a-bed-the-complete-guide",
+        "button_type": "tertiary",
+        "colour_theme": "white",
+        "alignment": "left",
+        "alignment_vertical": "center",
+        "mobile_content_position": "overlay"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -224,30 +320,13 @@
         "9b178935-07f5-49c1-b91b-796defd6ca93"
       ],
       "settings": {
-        "products_per": 24
+        "products_per": 12
       }
     },
     "recent-products": {
       "type": "recent-products",
       "settings": {
         "heading": "Previously explored"
-      }
-    },
-    "32651ade-df62-44f5-8355-bb4039f60426": {
-      "type": "billboard",
-      "settings": {
-        "screen_visibility": "both",
-        "image": "shopify:\/\/shop_images\/StornowayChambray_Lifestyle_Silver_1_87edeb75-48c4-42be-bfdd-68fa8e6a637c.jpg",
-        "subtitle": "Christy Life",
-        "title": "<p>How to Dress a Bed - The Complete Guide<\/p>",
-        "copy": "<p>Our bedding experts have numerous years of experience. In this guide, we’ll be showing you what you need to make your bedroom your favourite room in the house.<\/p>",
-        "button_label": "Read more",
-        "button_link": "https:\/\/www.christy.co.uk\/blogs\/lifestyle\/how-to-dress-a-bed-the-complete-guide",
-        "button_type": "tertiary",
-        "colour_theme": "white",
-        "alignment": "left",
-        "alignment_vertical": "center",
-        "mobile_content_position": "overlay"
       }
     },
     "toggled-body-content": {
@@ -421,35 +500,6 @@
         "screen_visibility": "both"
       }
     },
-    "84d90baa-37bc-4aa4-b028-a93437bc1a05": {
-      "type": "images-copy-cta",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/duvet_lifestyle_8eb52d3e-d7ff-4d04-95b0-6360c3fee9cb.jpg",
-        "image2": "shopify:\/\/shop_images\/Feather-_-Down_10.5jpg.jpg",
-        "subtitle": "Responsibility",
-        "title": "<p>Timeless products, consciously made<\/p>",
-        "copy": "<p>We’re devoted to building a sustainable future, always moving forwards to improve our processes for the good of our consumers, our communities and the wider environment.<\/p>",
-        "button_label": "Discover our Initiatives",
-        "button_link": "shopify:\/\/collections\/all",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
-      }
-    },
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Our Best Sellers",
-        "button_title": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "products": [
-
-        ],
-        "screen_visibility": "both"
-      }
-    },
     "393634d4-53d9-4c8e-be41-45c5d425188a": {
       "type": "heading",
       "disabled": true,
@@ -469,13 +519,14 @@
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
+    "6851d866-adb6-4f4b-8e77-da4ae8ec22ef",
+    "07a57dc8-34ac-41ee-96df-37021aef7941",
+    "32651ade-df62-44f5-8355-bb4039f60426",
     "product-grid",
     "recent-products",
-    "32651ade-df62-44f5-8355-bb4039f60426",
     "toggled-body-content",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
-    "84d90baa-37bc-4aa4-b028-a93437bc1a05",
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "393634d4-53d9-4c8e-be41-45c5d425188a"
   ]
 }
