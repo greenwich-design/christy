@@ -1,5 +1,165 @@
 {
   "sections": {
+    "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
+      "type": "hero-collection",
+      "blocks": {
+        "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OrganicRetreat_SoftGrey_Lifestyle_3_ea8f7b26-9bbf-44c8-8eee-153bbbf6d8e6-608261.jpg",
+            "mobile_media": "image",
+            "subtitle": "",
+            "mobile_subtitle": "show",
+            "title": "Bedding",
+            "mob_title": "Bedding",
+            "copy": "<p>Sink into a restful night's sleep in our cosy bedding, expertly crafted of sumptuous fabrics<\/p>",
+            "copy_visibility": "all",
+            "collection": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
+      "type": "c-info-columns",
+      "blocks": {
+        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
+            "image_aspect": "1:1",
+            "title": "Duvet Sets",
+            "text": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "duvet-sets",
+            "collection_tag": ""
+          }
+        },
+        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
+            "image_aspect": "1:1",
+            "title": "Fitted Sheets",
+            "text": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "sheets",
+            "collection_tag": ""
+          }
+        },
+        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
+            "image_aspect": "1:1",
+            "title": "Flat Sheets",
+            "text": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "3072f136-c23c-4563-876f-15a69fb5729d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LerwickStripe_Lifestyle_Blue_4.jpg",
+            "image_aspect": "1:1",
+            "title": "Pillowcases",
+            "text": "<p>Where impeccable craftsmanship and a variety of colors and patterns allow you to express your unique style.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "pillowcases",
+            "collection_tag": ""
+          }
+        },
+        "159406bd-019d-4005-a068-5ff04e88e3c7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SuperiorSoftTouchDuvet_Lifestyle_3_a0db5de3-d2ea-4f7b-bb5f-296ccc6ddf7e.jpg",
+            "image_aspect": "1:1",
+            "title": "Duvets & Pillows",
+            "text": "<p>Discover a world of personalized comfort, available in a range of togs and firmness levels to suit your unique sleep preferences.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "duvet-pillows",
+            "collection_tag": ""
+          }
+        },
+        "0e44cbf6-5127-44b8-ae2a-026a5627deda": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Christy_MattressTopper_Lifestyle_4.jpg",
+            "image_aspect": "1:1",
+            "title": "Protectors & Toppers",
+            "text": "<p>Offer a sanctuary of softness and hygiene, providing a cocoon of comfort while safeguarding your mattress from wear and tear.<\/p>",
+            "button_label": "Shop Now",
+            "button_link": "protectors-and-toppers",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-1",
+        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2",
+        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3",
+        "3072f136-c23c-4563-876f-15a69fb5729d",
+        "159406bd-019d-4005-a068-5ff04e88e3c7",
+        "0e44cbf6-5127-44b8-ae2a-026a5627deda"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shop our Collection"
+      }
+    },
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
+      "type": "collections-carousel",
+      "blocks": {
+        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
+          "type": "collection",
+          "settings": {
+            "collection": "smooth-silky",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/smooth_sily_hp_124f20c6-eea3-4af3-b350-67b89719bbc5.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Add a touch of luxury to your bedtime routine with silky-smooth materials.<\/p>"
+          }
+        },
+        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
+          "type": "collection",
+          "settings": {
+            "collection": "soft-relaxed",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/hp_banner_bed_a2769d86-0563-4b77-b615-21691ce19ae9.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.<\/p>"
+          }
+        },
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
+          "type": "collection",
+          "settings": {
+            "collection": "cool-crisp",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/cool-crisp_098cc89b-107f-4e54-9c37-773b420f4790.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Keep comfortably cool in fresh cotton bedding.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
+        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "What is your perfect bedding?",
+        "screen_visibility": "both"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -216,77 +376,6 @@
         "copy": "<p>You deserve the best of rest. Our bedding gently envelops you in a soft embrace to settle you into the sweetest dreams. Discover hand-painted designs, sumptuous fabrics, and durable materials at Christy. Your bed will be a haven for rest, relaxation, and deep sleep. From crisp, clean sheets to soft, snuggly throws, we've got the perfect combination for you.<\/p><p>Forget about your stresses and responsibilities and slip into a deep, peaceful sleep safely swaddled in the splendour of Christy’s bedding.<\/p>"
       }
     },
-    "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
-      "type": "hero-collection",
-      "blocks": {
-        "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/OrganicRetreat_SoftGrey_Lifestyle_3_ea8f7b26-9bbf-44c8-8eee-153bbbf6d8e6-608261.jpg",
-            "mobile_media": "image",
-            "subtitle": "",
-            "mobile_subtitle": "show",
-            "title": "Bedding",
-            "mob_title": "Bedding",
-            "copy": "<p>Sink into a restful night's sleep in our cosy bedding, expertly crafted of sumptuous fabrics<\/p>",
-            "copy_visibility": "all",
-            "collection": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1"
-      ],
-      "disabled": true,
-      "settings": {
-      }
-    },
-    "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
-      "type": "collections-carousel",
-      "blocks": {
-        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
-          "type": "collection",
-          "settings": {
-            "collection": "smooth-silky",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/smooth_sily_hp_124f20c6-eea3-4af3-b350-67b89719bbc5.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Add a touch of luxury to your bedtime routine with silky-smooth materials.<\/p>"
-          }
-        },
-        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
-          "type": "collection",
-          "settings": {
-            "collection": "soft-relaxed",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/hp_banner_bed_a2769d86-0563-4b77-b615-21691ce19ae9.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.<\/p>"
-          }
-        },
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
-          "type": "collection",
-          "settings": {
-            "collection": "cool-crisp",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/cool-crisp_098cc89b-107f-4e54-9c37-773b420f4790.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Keep comfortably cool in fresh cotton bedding.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
-        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "What is your perfect bedding?",
-        "screen_visibility": "both"
-      }
-    },
     "d38727e6-070e-4d88-af8b-6b75b41f7719": {
       "type": "collections-carousel",
       "blocks": {
@@ -349,105 +438,43 @@
         "anchor_id": ""
       }
     },
-    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
-      "type": "c-info-columns",
-      "blocks": {
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
-            "image_aspect": "1:1",
-            "title": "Duvet Sets",
-            "text": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "duvet-sets",
-            "collection_tag": ""
-          }
-        },
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
-            "image_aspect": "1:1",
-            "title": "Fitted Sheets",
-            "text": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "sheets",
-            "collection_tag": ""
-          }
-        },
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
-            "image_aspect": "1:1",
-            "title": "Flat Sheets",
-            "text": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "3072f136-c23c-4563-876f-15a69fb5729d": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/LerwickStripe_Lifestyle_Blue_4.jpg",
-            "image_aspect": "1:1",
-            "title": "Pillowcases",
-            "text": "<p>Where impeccable craftsmanship and a variety of colors and patterns allow you to express your unique style.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "pillowcases",
-            "collection_tag": ""
-          }
-        },
-        "159406bd-019d-4005-a068-5ff04e88e3c7": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SuperiorSoftTouchDuvet_Lifestyle_3_a0db5de3-d2ea-4f7b-bb5f-296ccc6ddf7e.jpg",
-            "image_aspect": "1:1",
-            "title": "Duvets & Pillows",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "0e44cbf6-5127-44b8-ae2a-026a5627deda": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Christy_MattressTopper_Lifestyle_4.jpg",
-            "image_aspect": "1:1",
-            "title": "Protectors & Toppers",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-1",
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2",
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3",
-        "3072f136-c23c-4563-876f-15a69fb5729d",
-        "159406bd-019d-4005-a068-5ff04e88e3c7",
-        "0e44cbf6-5127-44b8-ae2a-026a5627deda"
-      ],
-      "disabled": true,
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
+      "type": "products-carousel",
       "settings": {
-        "title": "Shop our Collection"
+        "title": "Our Best Sellers",
+        "button_title": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "products": [
+
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "393634d4-53d9-4c8e-be41-45c5d425188a": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Discover the magic in <br\/>everyday moments.<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
       }
     }
   },
   "order": [
+    "e81c268d-881b-4c6d-a674-f0f49b2c9321",
+    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426",
     "toggled-body-content",
-    "e81c268d-881b-4c6d-a674-f0f49b2c9321",
-    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
     "84d90baa-37bc-4aa4-b028-a93437bc1a05",
-    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c"
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
+    "393634d4-53d9-4c8e-be41-45c5d425188a"
   ]
 }
