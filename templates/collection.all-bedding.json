@@ -126,6 +126,19 @@
         "title": "Shop our Collection"
       }
     },
+    "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Ranging from the sumptuously smooth options to the earthy, tactile textures<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
+      }
+    },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
       "type": "collections-carousel",
       "blocks": {
@@ -558,6 +571,7 @@
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "ebef501a-f623-4f2d-8abd-cabd82ca6cbc",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
+    "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
