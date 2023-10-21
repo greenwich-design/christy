@@ -12,7 +12,7 @@
             "mobile_subtitle": "show",
             "title": "Bedding",
             "mob_title": "Bedding",
-            "copy": "<p>Sink into a restful night's sleep in our cosy bedding, expertly crafted of sumptuous fabrics<\/p>",
+            "copy": "<p>Sink into a restful night's sleep in our cosy bedding.<\/p>",
             "copy_visibility": "all",
             "collection": "",
             "button_text": ""
@@ -23,19 +23,6 @@
         "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1"
       ],
       "settings": {
-      }
-    },
-    "ebef501a-f623-4f2d-8abd-cabd82ca6cbc": {
-      "type": "heading",
-      "settings": {
-        "heading": "<p>Elevate your bedroom to a sanctuary of serenity.<\/p>",
-        "heading_width": "4",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "center",
-        "alignment_mob": "center",
-        "horiz_padding": true,
-        "margin_top": false
       }
     },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
@@ -129,7 +116,7 @@
     "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
       "type": "heading",
       "settings": {
-        "heading": "<p>Ranging from the sumptuously smooth options to the earthy, tactile textures<\/p>",
+        "heading": "<p>Ranging from smooth options to earthy, tactile textures<\/p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
@@ -250,21 +237,11 @@
             "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
             "name": "John Smith"
           }
-        },
-        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-3": {
-          "type": "block",
-          "settings": {
-            "product": "",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
-          }
         }
       },
       "block_order": [
         "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-1",
-        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2",
-        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-3"
+        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2"
       ],
       "settings": {
         "title": "Unveiling the Christy Experience: Happy Customer Reviews",
@@ -569,7 +546,6 @@
   },
   "order": [
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
-    "ebef501a-f623-4f2d-8abd-cabd82ca6cbc",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
