@@ -22,8 +22,20 @@
       "block_order": [
         "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1"
       ],
-      "disabled": true,
       "settings": {
+      }
+    },
+    "ebef501a-f623-4f2d-8abd-cabd82ca6cbc": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Elevate your bedroom to a sanctuary of serenity.<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
       }
     },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
@@ -110,7 +122,6 @@
         "159406bd-019d-4005-a068-5ff04e88e3c7",
         "0e44cbf6-5127-44b8-ae2a-026a5627deda"
       ],
-      "disabled": true,
       "settings": {
         "title": "Shop our Collection"
       }
@@ -154,10 +165,22 @@
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
-      "disabled": true,
       "settings": {
         "title": "What is your perfect bedding?",
         "screen_visibility": "both"
+      }
+    },
+    "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Each thread embodies our commitment to your perfect comfort and style.<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
       }
     },
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
@@ -230,7 +253,6 @@
         "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2",
         "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-3"
       ],
-      "disabled": true,
       "settings": {
         "title": "Unveiling the Christy Experience: Happy Customer Reviews",
         "button_title": "Shop Bedding on Sale",
@@ -238,9 +260,38 @@
         "margin": "yes"
       }
     },
+    "393634d4-53d9-4c8e-be41-45c5d425188a": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Pair with our exquisite Throws & Cushions<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
+      }
+    },
+    "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "",
+        "button_title": "Explore the Range",
+        "button_link": "shopify:\/\/collections\/all-accessories",
+        "products": [
+          "jaipur-throw",
+          "cosy-throw",
+          "oslo",
+          "metropolitan-throw",
+          "jaipur-cushion",
+          "metropolitan-cushion"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "32651ade-df62-44f5-8355-bb4039f60426": {
       "type": "billboard",
-      "disabled": true,
       "settings": {
         "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/LerwickStripe_Lifestyle_Silver_3-964332.jpg",
@@ -319,12 +370,14 @@
         "5a878969-3318-42e0-87f9-e02a64758016",
         "9b178935-07f5-49c1-b91b-796defd6ca93"
       ],
+      "disabled": true,
       "settings": {
         "products_per": 12
       }
     },
     "recent-products": {
       "type": "recent-products",
+      "disabled": true,
       "settings": {
         "heading": "Previously explored"
       }
@@ -499,34 +552,23 @@
         "title": "Shop Our Collection",
         "screen_visibility": "both"
       }
-    },
-    "393634d4-53d9-4c8e-be41-45c5d425188a": {
-      "type": "heading",
-      "disabled": true,
-      "settings": {
-        "heading": "<p>Discover the magic in <br\/>everyday moments.<\/p>",
-        "heading_width": "4",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "center",
-        "alignment_mob": "center",
-        "horiz_padding": true,
-        "margin_top": false
-      }
     }
   },
   "order": [
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
+    "ebef501a-f623-4f2d-8abd-cabd82ca6cbc",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
+    "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "6851d866-adb6-4f4b-8e77-da4ae8ec22ef",
     "07a57dc8-34ac-41ee-96df-37021aef7941",
+    "393634d4-53d9-4c8e-be41-45c5d425188a",
+    "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
     "32651ade-df62-44f5-8355-bb4039f60426",
     "product-grid",
     "recent-products",
     "toggled-body-content",
-    "d38727e6-070e-4d88-af8b-6b75b41f7719",
-    "393634d4-53d9-4c8e-be41-45c5d425188a"
+    "d38727e6-070e-4d88-af8b-6b75b41f7719"
   ]
 }
