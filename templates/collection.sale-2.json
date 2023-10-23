@@ -116,6 +116,7 @@
     },
     "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Ranging from smooth options to earthy, tactile textures<\/p>",
         "heading_width": "4",
@@ -133,28 +134,28 @@
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
           "type": "collection",
           "settings": {
-            "collection": "smooth-silky",
-            "usp_title": "Up to 40% Off + 20% Off on orders above GBP 100",
+            "collection": "towels",
+            "usp_title": "Up to 40% Off + Extra 20% above GBP 100",
             "image": "shopify:\/\/shop_images\/towel-1024x1024_db19a600-c944-4bd9-99ca-16ddffefaeae.jpg",
-            "alt_title": "",
+            "alt_title": "Luxury Towels",
             "excerpt": "<p>Add a touch of luxury to your bedtime routine with silky-smooth materials.<\/p>"
           }
         },
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
           "type": "collection",
           "settings": {
-            "collection": "soft-relaxed",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/hp_banner_bed_a2769d86-0563-4b77-b615-21691ce19ae9.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.<\/p>"
+            "collection": "all-loungewear",
+            "usp_title": "Up to 40% Off + Extra 20% above GBP 100",
+            "image": "shopify:\/\/shop_images\/7_3_1-954698_f80f94a7-0cef-44ca-b300-4efa2a36f373.jpg",
+            "alt_title": "Plush Bath Robes",
+            "excerpt": "<h1>Embrace the feeling of a gentle hug all day with our bath robes.<\/h1>"
           }
         },
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
           "type": "collection",
           "settings": {
             "collection": "cool-crisp",
-            "usp_title": "",
+            "usp_title": "Up to 40% Off + Extra 20% above GBP 100",
             "image": "shopify:\/\/shop_images\/cool-crisp_098cc89b-107f-4e54-9c37-773b420f4790.jpg",
             "alt_title": "",
             "excerpt": "<p>Keep comfortably cool in fresh cotton bedding.<\/p>"
