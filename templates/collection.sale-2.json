@@ -185,6 +185,51 @@
         "margin_top": false
       }
     },
+    "d38727e6-070e-4d88-af8b-6b75b41f7719": {
+      "type": "collections-carousel",
+      "blocks": {
+        "3f15cc9c-c32d-43a2-b8a0-175614a8ae86": {
+          "type": "collection",
+          "settings": {
+            "collection": "duvet-sets",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>"
+          }
+        },
+        "76a7aa40-fad4-4756-b863-71f413788066": {
+          "type": "collection",
+          "settings": {
+            "collection": "sheets",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
+            "alt_title": "",
+            "excerpt": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>"
+          }
+        },
+        "2c4374cb-ef41-43b7-96f5-f6b61b083b01": {
+          "type": "collection",
+          "settings": {
+            "collection": "flat-sheets",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "3f15cc9c-c32d-43a2-b8a0-175614a8ae86",
+        "76a7aa40-fad4-4756-b863-71f413788066",
+        "2c4374cb-ef41-43b7-96f5-f6b61b083b01"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shop Our Collection",
+        "screen_visibility": "both"
+      }
+    },
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
       "settings": {
@@ -204,7 +249,6 @@
     },
     "6851d866-adb6-4f4b-8e77-da4ae8ec22ef": {
       "type": "images-copy-cta",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/SuperiorSoftTouchDuvet_Lifestyle_3.jpg",
         "image2": "shopify:\/\/shop_images\/Duvet-1024x1024_c434d424-997b-4160-b314-2c0a36d3680a.jpg",
@@ -217,39 +261,6 @@
         "header_position": false,
         "images_half_width": false,
         "anchor_id": ""
-      }
-    },
-    "07a57dc8-34ac-41ee-96df-37021aef7941": {
-      "type": "reviews-carousel",
-      "blocks": {
-        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-1": {
-          "type": "block",
-          "settings": {
-            "product": "smooth-and-silky-cotton-sateen-fitted-sheet",
-            "title": "Smooth & Silky Cotton Sateen Deep Fitted Sheet - 400 TC",
-            "testimonial": "<p>\"I have bought Christy bedding before and have always been impressed by the quality - This purchase as no different, excellent items and enhances my sleep quality\"<\/p>",
-            "name": "Charles Shelley"
-          }
-        },
-        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2": {
-          "type": "block",
-          "settings": {
-            "product": "luxury-microfibre-13-5-tog-duvet",
-            "title": "Luxury Microfibre 13.5 Tog Duvet",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
-          }
-        }
-      },
-      "block_order": [
-        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-1",
-        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2"
-      ],
-      "settings": {
-        "title": "Unveiling the Christy Experience: Happy Customer Reviews",
-        "button_title": "Shop Bedding on Sale",
-        "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
-        "margin": "yes"
       }
     },
     "393634d4-53d9-4c8e-be41-45c5d425188a": {
@@ -282,21 +293,55 @@
         "screen_visibility": "both"
       }
     },
+    "07a57dc8-34ac-41ee-96df-37021aef7941": {
+      "type": "reviews-carousel",
+      "blocks": {
+        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-1": {
+          "type": "block",
+          "settings": {
+            "product": "smooth-and-silky-cotton-sateen-fitted-sheet",
+            "title": "Smooth & Silky Cotton Sateen Deep Fitted Sheet - 400 TC",
+            "testimonial": "<p>\"I have bought Christy bedding before and have always been impressed by the quality - This purchase as no different, excellent items and enhances my sleep quality\"<\/p>",
+            "name": "Charles Shelley"
+          }
+        },
+        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2": {
+          "type": "block",
+          "settings": {
+            "product": "luxury-microfibre-13-5-tog-duvet",
+            "title": "Luxury Microfibre 13.5 Tog Duvet",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
+            "name": "John Smith"
+          }
+        }
+      },
+      "block_order": [
+        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-1",
+        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Unveiling the Christy Experience: Happy Customer Reviews",
+        "button_title": "Shop Bedding on Sale",
+        "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
+        "margin": "yes"
+      }
+    },
     "32651ade-df62-44f5-8355-bb4039f60426": {
       "type": "billboard",
       "settings": {
         "screen_visibility": "both",
-        "image": "shopify:\/\/shop_images\/LerwickStripe_Lifestyle_Silver_3-964332.jpg",
-        "subtitle": "Christy Life",
-        "title": "<p>How to Dress a Bed - The Complete Guide<\/p>",
-        "copy": "<p>Our bedding experts have numerous years of experience. In this guide, we’ll be showing you what you need to make your bedroom your favourite room in the house.<\/p>",
-        "button_label": "Read more",
-        "button_link": "https:\/\/www.christy.co.uk\/blogs\/lifestyle\/how-to-dress-a-bed-the-complete-guide",
-        "button_type": "tertiary",
+        "image": "shopify:\/\/shop_images\/WimbledonChampionship2023Detail-273571.jpg",
+        "subtitle": "",
+        "title": "<p>Wimbledon Championship Towel<\/p><p><\/p><p>Flat 25% Off<\/p>",
+        "copy": "",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/products\/wimbledon-2023-championship-towel",
+        "button_type": "default",
         "colour_theme": "white",
         "alignment": "left",
-        "alignment_vertical": "center",
-        "mobile_content_position": "overlay"
+        "alignment_vertical": "top",
+        "mobile_content_position": "below"
       }
     },
     "product-grid": {
@@ -495,54 +540,10 @@
         "5cd53bb9-0042-45f8-bccc-44aadf259f78",
         "9c788114-0e17-4e4a-90ac-0edf460cd23f"
       ],
+      "disabled": true,
       "settings": {
         "title": "Discover Bedding",
         "copy": "<p>You deserve the best of rest. Our bedding gently envelops you in a soft embrace to settle you into the sweetest dreams. Discover hand-painted designs, sumptuous fabrics, and durable materials at Christy. Your bed will be a haven for rest, relaxation, and deep sleep. From crisp, clean sheets to soft, snuggly throws, we've got the perfect combination for you.<\/p><p>Forget about your stresses and responsibilities and slip into a deep, peaceful sleep safely swaddled in the splendour of Christy’s bedding.<\/p>"
-      }
-    },
-    "d38727e6-070e-4d88-af8b-6b75b41f7719": {
-      "type": "collections-carousel",
-      "blocks": {
-        "3f15cc9c-c32d-43a2-b8a0-175614a8ae86": {
-          "type": "collection",
-          "settings": {
-            "collection": "duvet-sets",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>"
-          }
-        },
-        "76a7aa40-fad4-4756-b863-71f413788066": {
-          "type": "collection",
-          "settings": {
-            "collection": "sheets",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
-            "alt_title": "",
-            "excerpt": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>"
-          }
-        },
-        "2c4374cb-ef41-43b7-96f5-f6b61b083b01": {
-          "type": "collection",
-          "settings": {
-            "collection": "flat-sheets",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "3f15cc9c-c32d-43a2-b8a0-175614a8ae86",
-        "76a7aa40-fad4-4756-b863-71f413788066",
-        "2c4374cb-ef41-43b7-96f5-f6b61b083b01"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Shop Our Collection",
-        "screen_visibility": "both"
       }
     }
   },
@@ -552,15 +553,15 @@
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
+    "d38727e6-070e-4d88-af8b-6b75b41f7719",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "6851d866-adb6-4f4b-8e77-da4ae8ec22ef",
-    "07a57dc8-34ac-41ee-96df-37021aef7941",
     "393634d4-53d9-4c8e-be41-45c5d425188a",
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
+    "07a57dc8-34ac-41ee-96df-37021aef7941",
     "32651ade-df62-44f5-8355-bb4039f60426",
     "product-grid",
     "recent-products",
-    "toggled-body-content",
-    "d38727e6-070e-4d88-af8b-6b75b41f7719"
+    "toggled-body-content"
   ]
 }
