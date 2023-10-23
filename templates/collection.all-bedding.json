@@ -6,14 +6,14 @@
         "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/OrganicRetreat_SoftGrey_Lifestyle_3_ea8f7b26-9bbf-44c8-8eee-153bbbf6d8e6-608261.jpg",
+            "image": "shopify:\/\/shop_images\/1200X628_1.png",
             "mobile_media": "image",
             "subtitle": "",
             "mobile_subtitle": "show",
-            "title": "Bedding",
-            "mob_title": "Bedding",
-            "copy": "<p>Sink into a restful night's sleep in our cosy bedding.<\/p>",
-            "copy_visibility": "all",
+            "title": "",
+            "mob_title": "Unearth Frighteningly Good Deals!",
+            "copy": "",
+            "copy_visibility": "mobile",
             "collection": "",
             "button_text": ""
           }
