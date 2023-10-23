@@ -109,6 +109,7 @@
         "159406bd-019d-4005-a068-5ff04e88e3c7",
         "0e44cbf6-5127-44b8-ae2a-026a5627deda"
       ],
+      "disabled": true,
       "settings": {
         "title": "Shop our Collection"
       }
@@ -133,8 +134,8 @@
           "type": "collection",
           "settings": {
             "collection": "smooth-silky",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/smooth_sily_hp_124f20c6-eea3-4af3-b350-67b89719bbc5.jpg",
+            "usp_title": "Up to 40% Off + 20% Off on orders above GBP 100",
+            "image": "shopify:\/\/shop_images\/towel-1024x1024_db19a600-c944-4bd9-99ca-16ddffefaeae.jpg",
             "alt_title": "",
             "excerpt": "<p>Add a touch of luxury to your bedtime routine with silky-smooth materials.<\/p>"
           }
@@ -166,7 +167,7 @@
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
       "settings": {
-        "title": "What is your perfect bedding?",
+        "title": "Get ready for a spooktacular soak",
         "screen_visibility": "both"
       }
     },
