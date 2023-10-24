@@ -134,8 +134,8 @@
           "type": "collection",
           "settings": {
             "collection": "towels",
-            "usp_title": "Up to 40% Off + 20% above GBP 100",
-            "image": "shopify:\/\/shop_images\/towel-1024x1024_db19a600-c944-4bd9-99ca-16ddffefaeae.jpg",
+            "usp_title": "Up to 40% Off + 20% above £ 100",
+            "image": "shopify:\/\/shop_images\/Organic_Natural_Lifestyle-905959.jpg",
             "alt_title": "Luxury Towels",
             "excerpt": "<h1>Step into a spa-like sanctuary with our luxurious selection of bath towels.<\/h1>"
           }
@@ -144,7 +144,7 @@
           "type": "collection",
           "settings": {
             "collection": "all-loungewear",
-            "usp_title": "Up to 20% Off + 20% above GBP 100",
+            "usp_title": "Up to 20% Off + 20% above £ 100",
             "image": "shopify:\/\/shop_images\/7_3_1-954698_f80f94a7-0cef-44ca-b300-4efa2a36f373.jpg",
             "alt_title": "Plush Bath Robes",
             "excerpt": "<h1>Embrace the feeling of a gentle hug all day with our bath robes.<\/h1>"
@@ -154,7 +154,7 @@
           "type": "collection",
           "settings": {
             "collection": "bath-mats-and-rugs",
-            "usp_title": "Up to 40% Off + 20% above GBP 100",
+            "usp_title": "Up to 40% Off + 20% above £ 100",
             "image": "shopify:\/\/shop_images\/christy_bath_mat_kingfisher-507987.jpg",
             "alt_title": "",
             "excerpt": "<p>Crafted with the perfect blend of plushness & durability, adding a touch of elegance.<\/p>"
@@ -209,7 +209,7 @@
           "type": "collection",
           "settings": {
             "collection": "duvet-sets",
-            "usp_title": "Up to 40% Off + 20% above GBP 100",
+            "usp_title": "Up to 40% Off + 20% above £ 100",
             "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
             "alt_title": "",
             "excerpt": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>"
@@ -219,7 +219,7 @@
           "type": "collection",
           "settings": {
             "collection": "sheets",
-            "usp_title": "Up to 20% Off + 20% above GBP 100",
+            "usp_title": "Up to 20% Off + 20% above £ 100",
             "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
             "alt_title": "",
             "excerpt": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>"
@@ -229,7 +229,7 @@
           "type": "collection",
           "settings": {
             "collection": "flat-sheets",
-            "usp_title": "Up to 40% Off + 20% above GBP 100",
+            "usp_title": "Up to 40% Off + 20% above £ 100",
             "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
             "alt_title": "",
             "excerpt": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>"
@@ -239,7 +239,7 @@
           "type": "collection",
           "settings": {
             "collection": "duvet-pillows",
-            "usp_title": "Up to 30% Off + 20% above GBP 100",
+            "usp_title": "Up to 30% Off + 20% above £ 100",
             "image": "shopify:\/\/shop_images\/subcategory_duvetandpillowoffers_desktop.jpg",
             "alt_title": "",
             "excerpt": "<p>Discover a world of personalized comfort, available in a range of togs and firmness levels to suit your unique sleep preferences.<\/p>"
