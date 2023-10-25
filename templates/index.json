@@ -222,98 +222,6 @@
         "screen_visibility": "both"
       }
     },
-    "billboard2": {
-      "type": "billboard",
-      "settings": {
-        "screen_visibility": "both",
-        "image": "shopify:\/\/shop_images\/bed-home.jpg",
-        "subtitle": "Explore",
-        "title": "<p>Bed<\/p>",
-        "copy": "<p>Slip between a fresh pair of sheets, from crisp cotton options to sumptuously silky ones.<\/p>",
-        "button_label": "Shop All",
-        "button_link": "shopify:\/\/collections\/all-bedding",
-        "button_type": "default",
-        "colour_theme": "white",
-        "alignment": "right",
-        "alignment_vertical": "top",
-        "mobile_content_position": "overlay"
-      }
-    },
-    "heading2": {
-      "type": "heading",
-      "settings": {
-        "heading": "<p>Your style, your choice: keep it personal with perfect-fit products.<\/p>",
-        "heading_width": "4",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "center",
-        "alignment_mob": "center",
-        "horiz_padding": false,
-        "margin_top": false
-      }
-    },
-    "c-info-columns2": {
-      "type": "c-info-columns",
-      "blocks": {
-        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp_banner_bed.jpg",
-            "image_aspect": "2:3",
-            "title": "Soft & Relaxed",
-            "text": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "all-bedding",
-            "collection_tag": "Soft & Relaxed"
-          }
-        },
-        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cool-crisp.jpg",
-            "image_aspect": "1:1",
-            "title": "Cool & Crisp",
-            "text": "<p>Keep comfortably cool in fresh cotton bedding.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "all-bedding",
-            "collection_tag": "Cool & Crisp"
-          }
-        },
-        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/smooth_sily_hp.jpg",
-            "image_aspect": "1:1",
-            "title": "Smooth & Silky",
-            "text": "<p>Add a touch of luxury to your bedtime routine with silky-smooth materials.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "all-bedding",
-            "collection_tag": "Smooth & Silky"
-          }
-        },
-        "f251865b-ab2f-44aa-ab1f-0a92b8034d6e": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/christy_katsura_vintage_main-338117.jpg",
-            "image_aspect": "1:1",
-            "title": "Printed & Stripes",
-            "text": "<p>From Classic Stripes to Hand Painted Designs, elevate your bedroom with our wide collection. <\/p>",
-            "button_label": "Explore the Collection",
-            "button_link": "printed-and-hand-painted-bedding",
-            "collection_tag": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-0",
-        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-1",
-        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2",
-        "f251865b-ab2f-44aa-ab1f-0a92b8034d6e"
-      ],
-      "settings": {
-        "title": "What is your perfect Bedding?"
-      }
-    },
     "billboard": {
       "type": "billboard",
       "settings": {
@@ -378,6 +286,98 @@
       ],
       "settings": {
         "title": ""
+      }
+    },
+    "heading2": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Your style, your choice: keep it personal with perfect-fit products.<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": false,
+        "margin_top": false
+      }
+    },
+    "billboard2": {
+      "type": "billboard",
+      "settings": {
+        "screen_visibility": "both",
+        "image": "shopify:\/\/shop_images\/bed-home.jpg",
+        "subtitle": "Explore",
+        "title": "<p>Bed<\/p>",
+        "copy": "<p>Slip between a fresh pair of sheets, from crisp cotton options to sumptuously silky ones.<\/p>",
+        "button_label": "Shop All",
+        "button_link": "shopify:\/\/collections\/all-bedding",
+        "button_type": "default",
+        "colour_theme": "white",
+        "alignment": "right",
+        "alignment_vertical": "top",
+        "mobile_content_position": "overlay"
+      }
+    },
+    "c-info-columns2": {
+      "type": "c-info-columns",
+      "blocks": {
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hp_banner_bed.jpg",
+            "image_aspect": "2:3",
+            "title": "Soft & Relaxed",
+            "text": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bedding",
+            "collection_tag": "Soft & Relaxed"
+          }
+        },
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cool-crisp.jpg",
+            "image_aspect": "1:1",
+            "title": "Cool & Crisp",
+            "text": "<p>Keep comfortably cool in fresh cotton bedding.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bedding",
+            "collection_tag": "Cool & Crisp"
+          }
+        },
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smooth_sily_hp.jpg",
+            "image_aspect": "1:1",
+            "title": "Smooth & Silky",
+            "text": "<p>Add a touch of luxury to your bedtime routine with silky-smooth materials.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bedding",
+            "collection_tag": "Smooth & Silky"
+          }
+        },
+        "f251865b-ab2f-44aa-ab1f-0a92b8034d6e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/christy_katsura_vintage_main-338117.jpg",
+            "image_aspect": "1:1",
+            "title": "Printed & Stripes",
+            "text": "<p>From Classic Stripes to Hand Painted Designs, elevate your bedroom with our wide collection. <\/p>",
+            "button_label": "Explore the Collection",
+            "button_link": "printed-and-hand-painted-bedding",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-0",
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-1",
+        "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2",
+        "f251865b-ab2f-44aa-ab1f-0a92b8034d6e"
+      ],
+      "settings": {
+        "title": "What is your perfect Bedding?"
       }
     },
     "billboard3": {
@@ -550,6 +550,50 @@
         "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
         "button_link": "#quiz-gWHPoe"
       }
+    },
+    "0e8d554c-badf-4239-a36e-276ffacfb5fc": {
+      "type": "reviews-carousel",
+      "blocks": {
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-1": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "title": "Customer Reviews",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
+            "name": "John Smith"
+          }
+        },
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-2": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "title": "Customer Reviews",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
+            "name": "John Smith"
+          }
+        },
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-3": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "title": "Customer Reviews",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
+            "name": "John Smith"
+          }
+        }
+      },
+      "block_order": [
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-1",
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-2",
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "100,000+ Happy Customers",
+        "button_title": "Read Our Reviews",
+        "button_link": "shopify:\/\/collections\/all",
+        "margin": "yes"
+      }
     }
   },
   "order": [
@@ -558,11 +602,11 @@
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad",
     "37b580cc-c4d2-4e4e-83ee-b35a93d386e3",
     "de1b0a2d-4cb0-4dbd-a641-18437895549a",
-    "billboard2",
-    "heading2",
-    "c-info-columns2",
     "billboard",
     "c-info-columns",
+    "heading2",
+    "billboard2",
+    "c-info-columns2",
     "billboard3",
     "images-copy-cta",
     "heading3",
@@ -571,6 +615,7 @@
     "billboard4",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
-    "2970b3ab-743a-4054-95d1-048d41881e08"
+    "2970b3ab-743a-4054-95d1-048d41881e08",
+    "0e8d554c-badf-4239-a36e-276ffacfb5fc"
   ]
 }
