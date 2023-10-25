@@ -89,10 +89,66 @@
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
-        "alignment": "right",
+        "alignment": "center",
         "alignment_mob": "center",
         "horiz_padding": true,
         "margin_top": false
+      }
+    },
+    "de1b0a2d-4cb0-4dbd-a641-18437895549a": {
+      "type": "collections-carousel",
+      "blocks": {
+        "2f3cb25a-b518-49ee-afab-a5c33fb259f7": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-bedding",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Chambray_Blue_Lifestyle_2.jpg",
+            "alt_title": "Bed",
+            "excerpt": "<p>Slip between a fresh pair of sheets, from crisp cotton options to sumptuously silky ones.<\/p>"
+          }
+        },
+        "683c86e1-1e16-4aa5-b1fc-ed306a9535cc": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-bath",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/blog_bath_da15fde6-8e3a-49aa-abb4-2578bd0960c7.jpg",
+            "alt_title": "Bath",
+            "excerpt": ""
+          }
+        },
+        "ade5aede-0029-4b09-aee8-6e48f8cfe8be": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-loungewear",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Super_soft_Cosy_Robe_mobile_banner.jpg",
+            "alt_title": "Bath Robes",
+            "excerpt": "<p>Embrace the feeling of a gentle hug all day with our plush bath robes.<\/p>"
+          }
+        },
+        "554b3657-1406-482e-9b26-71d2a737a878": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-accessories",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Jaipur_Peacock_Lifestyle-504945.jpg",
+            "alt_title": "Throws & Cushions",
+            "excerpt": "<p>Transform your space into a cosy haven with our throws and cushions.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "2f3cb25a-b518-49ee-afab-a5c33fb259f7",
+        "683c86e1-1e16-4aa5-b1fc-ed306a9535cc",
+        "ade5aede-0029-4b09-aee8-6e48f8cfe8be",
+        "554b3657-1406-482e-9b26-71d2a737a878"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shop our Categories",
+        "screen_visibility": "both"
       }
     },
     "billboard2": {
@@ -403,39 +459,6 @@
         "margin_top": false
       }
     },
-    "de1b0a2d-4cb0-4dbd-a641-18437895549a": {
-      "type": "collections-carousel",
-      "blocks": {
-        "2f3cb25a-b518-49ee-afab-a5c33fb259f7": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-bedding",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Chambray_Blue_Lifestyle_2.jpg",
-            "alt_title": "Bed",
-            "excerpt": ""
-          }
-        },
-        "683c86e1-1e16-4aa5-b1fc-ed306a9535cc": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-bath",
-            "usp_title": "",
-            "alt_title": "Bath",
-            "excerpt": ""
-          }
-        }
-      },
-      "block_order": [
-        "2f3cb25a-b518-49ee-afab-a5c33fb259f7",
-        "683c86e1-1e16-4aa5-b1fc-ed306a9535cc"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Shop our Categories",
-        "screen_visibility": "both"
-      }
-    },
     "2970b3ab-743a-4054-95d1-048d41881e08": {
       "type": "quiz-popup",
       "settings": {
@@ -448,6 +471,7 @@
   "order": [
     "hero-collection",
     "heading",
+    "de1b0a2d-4cb0-4dbd-a641-18437895549a",
     "billboard2",
     "c-info-columns2",
     "heading2",
@@ -461,7 +485,6 @@
     "billboard4",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
-    "de1b0a2d-4cb0-4dbd-a641-18437895549a",
     "2970b3ab-743a-4054-95d1-048d41881e08"
   ]
 }
