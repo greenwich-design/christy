@@ -187,6 +187,12 @@
           "item_widget_text_alignment": "--wrapped-checkbox--label-left",
           "product_widget_text_alignment": "--wrapped-checkbox--label-left"
         }
+      },
+      "246135896087123374": {
+        "type": "shopify:\/\/apps\/1clickpopup\/blocks\/main\/233742b9-16cb-4f75-9de7-3fe92c29fdff",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
