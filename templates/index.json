@@ -22,6 +22,7 @@
         },
         "8c3ac597-805a-4b98-a59f-708e3545945d": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/blog_bath_da15fde6-8e3a-49aa-abb4-2578bd0960c7.jpg",
             "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
@@ -55,9 +56,8 @@
         },
         "17de0beb-b78c-40ab-a727-1f3659ef3cdc": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Halloween_1200X628_1.jpg",
+            "image": "shopify:\/\/shop_images\/Halloween_1200X628_1_1.jpg",
             "mobile_media": "image",
             "subtitle": "",
             "mobile_subtitle": "show",
