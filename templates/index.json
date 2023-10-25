@@ -95,6 +95,77 @@
         "margin_top": false
       }
     },
+    "5f8fd688-f484-4f34-9ee0-6dd133c393ad": {
+      "type": "products-carousel",
+      "disabled": true,
+      "settings": {
+        "title": "Our Best Sellers",
+        "button_title": "See more",
+        "button_link": "shopify:\/\/collections\/all",
+        "products": [
+          "smooth-and-silky-cotton-sateen-fitted-sheet",
+          "renaissance",
+          "jaipur-throw",
+          "super-soft-cosy-robe",
+          "supreme-hygro",
+          "feather-and-down-13-5-tog-duvet",
+          "wimbledon-2023-championship-towel"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "37b580cc-c4d2-4e4e-83ee-b35a93d386e3": {
+      "type": "benefits-icons",
+      "blocks": {
+        "template--21202652987680__37b580cc-c4d2-4e4e-83ee-b35a93d386e3-block-1": {
+          "type": "block",
+          "settings": {
+            "title": "Legacy of Innovation",
+            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.<\/p>",
+            "button_link": "shopify:\/\/pages\/our-heritage",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21202652987680__37b580cc-c4d2-4e4e-83ee-b35a93d386e3-block-2": {
+          "type": "block",
+          "settings": {
+            "title": "Sustainability",
+            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.<\/p>",
+            "button_link": "shopify:\/\/pages\/responsibility",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21202652987680__37b580cc-c4d2-4e4e-83ee-b35a93d386e3-block-3": {
+          "type": "block",
+          "settings": {
+            "title": "Loved by our Customers",
+            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_title": "Shop the Range"
+          }
+        },
+        "template--21202652987680__37b580cc-c4d2-4e4e-83ee-b35a93d386e3-block-4": {
+          "type": "block",
+          "settings": {
+            "title": "Free Shipping & Returns",
+            "copy": "<p>Free Shipping above GBP 50 plus our Worry-Free Return Guarantee.<\/p>",
+            "button_link": "shopify:\/\/policies\/shipping-policy",
+            "button_title": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "template--21202652987680__37b580cc-c4d2-4e4e-83ee-b35a93d386e3-block-1",
+        "template--21202652987680__37b580cc-c4d2-4e4e-83ee-b35a93d386e3-block-2",
+        "template--21202652987680__37b580cc-c4d2-4e4e-83ee-b35a93d386e3-block-3",
+        "template--21202652987680__37b580cc-c4d2-4e4e-83ee-b35a93d386e3-block-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Why Christy?",
+        "margin": "yes"
+      }
+    },
     "de1b0a2d-4cb0-4dbd-a641-18437895549a": {
       "type": "collections-carousel",
       "blocks": {
@@ -471,6 +542,8 @@
   "order": [
     "hero-collection",
     "heading",
+    "5f8fd688-f484-4f34-9ee0-6dd133c393ad",
+    "37b580cc-c4d2-4e4e-83ee-b35a93d386e3",
     "de1b0a2d-4cb0-4dbd-a641-18437895549a",
     "billboard2",
     "c-info-columns2",
