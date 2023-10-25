@@ -1,5 +1,13 @@
 {
   "sections": {
+    "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1920X1080_1.jpg",
+        "link": "",
+        "full_width": true
+      }
+    },
     "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
       "type": "hero-collection",
       "blocks": {
@@ -22,6 +30,7 @@
       "block_order": [
         "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -666,6 +675,7 @@
     }
   },
   "order": [
+    "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
