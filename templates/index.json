@@ -57,7 +57,7 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Untitled_design.png",
+            "image": "shopify:\/\/shop_images\/Halloween_1200X628_1.jpg",
             "mobile_media": "image",
             "subtitle": "",
             "mobile_subtitle": "show",
@@ -65,7 +65,7 @@
             "mob_title": "",
             "copy": "",
             "copy_visibility": "all",
-            "collection": "offers-shop-all-sale",
+            "collection": "halloween-sale",
             "button_text": "Shop Now"
           }
         }
@@ -403,6 +403,39 @@
         "margin_top": false
       }
     },
+    "de1b0a2d-4cb0-4dbd-a641-18437895549a": {
+      "type": "collections-carousel",
+      "blocks": {
+        "2f3cb25a-b518-49ee-afab-a5c33fb259f7": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-bedding",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Chambray_Blue_Lifestyle_2.jpg",
+            "alt_title": "Bed",
+            "excerpt": ""
+          }
+        },
+        "683c86e1-1e16-4aa5-b1fc-ed306a9535cc": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-bath",
+            "usp_title": "",
+            "alt_title": "Bath",
+            "excerpt": ""
+          }
+        }
+      },
+      "block_order": [
+        "2f3cb25a-b518-49ee-afab-a5c33fb259f7",
+        "683c86e1-1e16-4aa5-b1fc-ed306a9535cc"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shop our Categories",
+        "screen_visibility": "both"
+      }
+    },
     "2970b3ab-743a-4054-95d1-048d41881e08": {
       "type": "quiz-popup",
       "settings": {
@@ -428,6 +461,7 @@
     "billboard4",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
+    "de1b0a2d-4cb0-4dbd-a641-18437895549a",
     "2970b3ab-743a-4054-95d1-048d41881e08"
   ]
 }
