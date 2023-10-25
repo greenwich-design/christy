@@ -84,7 +84,6 @@
     },
     "heading": {
       "type": "heading",
-      "disabled": true,
       "settings": {
         "heading": "<p>Discover the magic in <br\/>everyday moments.<\/p>",
         "heading_width": "4",
