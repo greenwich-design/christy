@@ -913,7 +913,9 @@ class VariantSelects extends HTMLElement {
     this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
   }
 
+
   updateMasterId() {
+
     this.currentVariant = this.getVariantData().find((variant) => {
       return !variant.options
         .map((option, index) => {
@@ -921,6 +923,8 @@ class VariantSelects extends HTMLElement {
         })
         .includes(false);
     });
+
+
 
   }
 
@@ -1190,6 +1194,32 @@ class VariantSelects extends HTMLElement {
           window.variantStrings.soldOut
         );
 
+        // update bundles list
+
+        // remove current bundle section
+        if (document.querySelector('#bundle-selector-wrap')) {
+          document.querySelector('#bundle-selector-wrap').remove();
+        }
+
+        if (html.querySelector('#bundle-selector-wrap')) {
+
+          // add new bundle section
+          document.querySelector('#product-panel-child').insertBefore(html.querySelector('#bundle-selector-wrap'), document.querySelector('#buy-buttons-wrap'));
+
+          // lazy load images
+          const lazyimg = new Event('lazyimg');
+          window.dispatchEvent(lazyimg);
+
+          checkBundleItems();
+
+        }
+
+        // dynamic price change
+        if (document.querySelector('[data-dynprice]') && html.querySelector('[data-dynprice]')) {
+          document.querySelector('[data-dynprice]').innerHTML = html.querySelector('[data-dynprice]').innerHTML;
+        }
+
+
         publish(PUB_SUB_EVENTS.variantChange, {
           data: {
             sectionId,
@@ -1199,6 +1229,8 @@ class VariantSelects extends HTMLElement {
         });
       });
   }
+
+
 
   toggleAddButton(disable = true, text, modifyClass = true) {
     const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}`);
@@ -1390,6 +1422,36 @@ function cardColourSelector() {
 cardColourSelector();
 
 window.addEventListener('initcolourselector', cardColourSelector);
+
+
+function checkBundleItems() {
+  // check if any bundled products are disabled
+  let disabledProducts = document.querySelectorAll('#bundle-selector-wrap [data-available="false"]');
+  if (disabledProducts.length > 0) {
+
+    // diable buy button
+    document.querySelector('#buy-buttons-wrap [name="add"]').setAttribute('disabled', 'disabled');
+    document.querySelector('#buy-buttons-wrap [name="add"] > span:first-child').textContent = window.variantStrings.soldOut;
+  }
+
+  // add dynamic form properties
+  let bundleProducts = document.querySelectorAll('#bundle-selector-wrap [data-title]');
+  let dynPropsWrap = document.querySelector('#buy-buttons-wrap #add-dynamic-props');
+  if (bundleProducts.length > 0 && dynPropsWrap) {
+    bundleProducts.forEach(function (bp) {
+      let bp_title = bp.dataset.title;
+      let bp_seloptions = bp.dataset.options;
+
+      let input = document.createElement('input');
+      input.setAttribute('type', 'hidden');
+      input.setAttribute('name', 'properties[' + bp_title + ']');
+      input.setAttribute('value', bp_seloptions);
+      dynPropsWrap.appendChild(input);
+    });
+  }
+}
+
+checkBundleItems();
 
 
 

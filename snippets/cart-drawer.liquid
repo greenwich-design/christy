@@ -399,6 +399,12 @@
                           >
                             <div class="cart-item__price-wrapper">
                               <span class="price price--end">
+                                {% assign percentoff = '' %}
+                                {% assign is_product_bundle = false %}
+                                {% if item.variant.metafields.christy23.bundled_product_variants != blank %}
+                                  {% assign is_product_bundle = true %}
+                                {% endif %}
+
                                 {% if item.variant.compare_at_price > item.variant.price %}
                                   <span class="flex gap-x-2 text-[12px] lg:text-[20px] font-semibold justify-end max-sm:flex-wrap">
                                     <span class="line-through opacity-60">
@@ -416,18 +422,27 @@
                                     | replace: '.0', ''
                                   %}
 
-                                  {% if percentoff %}
-                                    <span class="flex flex-row-reverse items-center gap-2 whitespace-nowrap">
-                                      <span class="rounded-full p-[3px] md:p-1 flex items-center justify-center w-[12px] h-[12px] md:w-[14px] md:h-[14px] bg-blue-1 text-white shrink-0">
-                                        {% render 'icon-check' %}
-                                      </span>
-                                      {{ percentoff }}% Off
-                                    </span>
-                                  {% endif %}
-
                                 {% else %}
                                   <span class="text-[12px] lg:text-[20px] font-semibold">
                                     {{ giftship_line_price | money }}
+                                  </span>
+                                {% endif %}
+
+                                {% if is_product_bundle %}
+                                  <span class="flex flex-row-reverse items-center gap-2 whitespace-nowrap">
+                                    <span class="rounded-full p-[3px] md:p-1 flex items-center justify-center w-[12px] h-[12px] md:w-[14px] md:h-[14px] bg-blue-1 text-white shrink-0">
+                                      {% render 'icon-check' %}
+                                    </span>
+                                    Bundle Savings
+                                  </span>
+                                {% endif %}
+
+                                {% if percentoff %}
+                                  <span class="flex flex-row-reverse items-center gap-2 whitespace-nowrap">
+                                    <span class="rounded-full p-[3px] md:p-1 flex items-center justify-center w-[12px] h-[12px] md:w-[14px] md:h-[14px] bg-blue-1 text-white shrink-0">
+                                      {% render 'icon-check' %}
+                                    </span>
+                                    {{ percentoff }}% Off
                                   </span>
                                 {% endif %}
                               </span>

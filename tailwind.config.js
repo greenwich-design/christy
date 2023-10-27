@@ -59,7 +59,15 @@ module.exports = {
           '0%': { transform: 'scale(0)' },
           '50%': { transform: 'scale(1.25)' },
           '100%': { transform: 'scale(1)' }
-        }
+        },
+
+        shimmer: {
+          '0%': { opacity: 0, transform: 'translateX(-75%)' },
+          '50%': { opacity: 1, transform: 'translateX(0%)' },
+          '100%': { opacity: 0, transform: 'translateX(75%)' },
+        },
+
+
       },
       animation: {
         fadein: 'fadein 0.6s ease-in-out 1 both',

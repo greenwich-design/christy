@@ -15,12 +15,12 @@
   data-section="{{ section.id }}"
 >
   {%- capture variant_skus -%}
-{%- for variant in product.variants -%}
-    {%- if variant.sku != blank -%}
-    {{- variant.sku -}}{%- if forloop.last == false -%},{%- endif -%}
-    {%- endif -%}
-{%- endfor -%}
-{%- endcapture -%}
+    {%- for variant in product.variants -%}
+        {%- if variant.sku != blank -%}
+        {{- variant.sku -}}{%- if forloop.last == false -%},{%- endif -%}
+        {%- endif -%}
+    {%- endfor -%}
+  {%- endcapture -%}
 
   {% liquid
     comment
@@ -72,6 +72,15 @@
       endfor
     endif
   %}
+
+  {%- liquid
+    assign is_product_bundle = false
+    assign bundle_products = ''
+    if current_variant.metafields.christy23.bundled_product_variants != blank
+      assign is_product_bundle = true
+      assign bundle_products = current_variant.metafields.christy23.bundled_product_variants.value
+    endif
+  -%}
 
   {% comment %}
     {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
@@ -192,7 +201,7 @@
             id="product-panel"
             class="max-md:bg-white/90 transition-colors "
           >
-            <div class="space-y-3 md:space-y-5 max-md:flex max-md:flex-col max-md:items-stretch">
+            <div id="product-panel-child" class="space-y-7 max-md:flex max-md:flex-col max-md:items-stretch">
               <header class="space-y-2 md:space-y-4">
                 <h1 class="m-h1 lg:s-d-h4">{{ product.title | escape }}</h1>
 
@@ -205,18 +214,28 @@
                 {% endif %}
               </header>
 
-              <div class="flex gap-3 justify-between md:items-center max-md:flex-col">
-                {% if product.price_min != product.price_max %}
-                  <p>
-                    <strong class="inline-block">
-                      {{- product.price_min | money }} - {{ product.price_max | money -}}
-                    </strong>
-                  </p>
-                {% else %}
-                  <p>
-                    <strong class="inline-block">{{ product.price | money }}</strong>
-                  </p>
-                {% endif %}
+              <div class="flex gap-3 justify-between md:items-center max-md:flex-col !mt-5">
+                <div data-dynprice>
+                  {% if is_product_bundle %}
+                    {% liquid
+                      assign bp_compare_at_price = current_variant.compare_at_price
+                      assign bp_price = current_variant.price
+                    %}
+                    {% render 'bundle-price-discount', bp_compare_at_price: bp_compare_at_price, bp_price: bp_price %}
+                  {% else %}
+                    {% if product.price_min != product.price_max %}
+                      <p>
+                        <strong class="inline-block">
+                          {{- product.price_min | money }} - {{ product.price_max | money -}}
+                        </strong>
+                      </p>
+                    {% else %}
+                      <p>
+                        <strong class="inline-block">{{ product.price | money }}</strong>
+                      </p>
+                    {% endif %}
+                  {% endif %}
+                </div>
 
                 <!-- TrustBox widget - Product Mini -->
                 <div id="trustpilot-wrap" class="flex md:justify-end [&>*]:pointer-events-none cursor-pointer">
@@ -238,7 +257,7 @@
                 <!-- End TrustBox widget -->
               </div>
 
-              <div class="wysiwyg !mt-5 md:!mt-7 max-md:order-10 max-md:border-t max-md:border-blue-1/10 max-md:pt-5">
+              <div class="wysiwyg max-md:order-10 max-md:border-t max-md:border-blue-1/10 max-md:pt-5">
                 {{ product.description }}
               </div>
 
@@ -267,7 +286,20 @@
                 </div>
               {% endif %}
 
-              <div class="max-md:!mt-0 max-md:py-5 max-md:px-10 max-md:border-y max-md:border-blue-1 max-md:bg-white max-md:fixed max-md:left-0 max-md:bottom-0 z-10 max-md:w-full">
+              {% if is_product_bundle %}
+                <div id="bundle-selector-wrap">
+                  {%- render 'product-bundle-selector',
+                    bundle_products: bundle_products,
+                    product: product,
+                    current_variant: current_variant
+                  -%}
+                </div>
+              {% endif %}
+
+              <div
+                id="buy-buttons-wrap"
+                class="max-md:!mt-0 max-md:py-5 max-md:px-10 max-md:border-y max-md:border-blue-1 max-md:bg-white max-md:fixed max-md:left-0 max-md:bottom-0 z-10 max-md:w-full"
+              >
                 {%- render 'buy-buttons',
                   block: block,
                   product: product,

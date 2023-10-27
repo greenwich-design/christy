@@ -59,6 +59,8 @@
           {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
         {%- endif -%}
 
+        <div id="add-dynamic-props"></div>
+
         <div class="product-form__buttons flex flex-col gap-2">
           {%- liquid
             assign check_against_inventory = true
@@ -127,7 +129,7 @@
               </div>
             </div>
 
-            <div class="lg:min-w-[60px] max-md:hidden shrink-0">
+            <div class="lg:min-w-[60px] max-lg:hidden shrink-0">
               <button
                 type="button"
                 aria-label="Add to wishlist"

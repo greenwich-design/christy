@@ -84,7 +84,7 @@
           {%- assign alt_striped = alt_array[0] | strip -%}
           {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
 
-          {% if alt_array[1] == 'product_image' and media.media_type == 'image' %}
+          {% if alt_array[1] == 'product_image' and media.media_type == 'image' and product.variants.size > 1 %}
             {% if has_product_image == false %}
               {% assign has_product_image = true %}
             {% endif %}
@@ -233,7 +233,7 @@
           {%- assign alt_striped = alt_array[0] | strip -%}
           {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
 
-          {% if alt_array[1] == 'product_image' and media.media_type == 'image' %}
+          {% if alt_array[1] == 'product_image' and media.media_type == 'image' and product.variants.size > 1 %}
             {% if has_product_image == false %}
               {% assign has_product_image = true %}
             {% endif %}
@@ -340,7 +340,7 @@
       {%- assign alt_striped = alt_array[0] | strip -%}
       {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
 
-      {% if alt_array[1] == 'product_image' and media.media_type == 'image' %}
+      {% if alt_array[1] == 'product_image' and media.media_type == 'image' and product.variants.size > 1 %}
         {% if has_product_image == false %}
           {% assign has_product_image = true %}
         {% endif %}
@@ -413,7 +413,6 @@
           <div
             id="media-{{ media.id }}"
             class="flex  {% if first_image == true %}!w-full {% assign first_image = false %} {% endif %}"
-            data-option1="{{ alt_striped }}"
           >
             <figure class="w-full relative z-0">
               {%- render 'spinner' -%}
