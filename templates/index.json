@@ -1,5 +1,13 @@
 {
   "sections": {
+    "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1920X1080_1_cf783d2f-0726-403c-969d-acf3ccc630bd.jpg",
+        "link": "shopify:\/\/collections\/halloween-sale",
+        "full_width": true
+      }
+    },
     "hero-collection": {
       "type": "hero-collection",
       "blocks": {
@@ -76,6 +84,7 @@
         "2af0950f-0322-4b80-b489-ee1f6aafc079",
         "17de0beb-b78c-40ab-a727-1f3659ef3cdc"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -597,6 +606,7 @@
     }
   },
   "order": [
+    "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d",
     "hero-collection",
     "heading",
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad",
