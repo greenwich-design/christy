@@ -1438,6 +1438,9 @@ function checkBundleItems() {
   let bundleProducts = document.querySelectorAll('#bundle-selector-wrap [data-title]');
   let dynPropsWrap = document.querySelector('#buy-buttons-wrap #add-dynamic-props');
   if (bundleProducts.length > 0 && dynPropsWrap) {
+
+    dynPropsWrap.innerHTML = '';
+
     bundleProducts.forEach(function (bp) {
       let bp_title = bp.dataset.title;
       let bp_seloptions = bp.dataset.options;
