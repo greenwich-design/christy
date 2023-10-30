@@ -1033,7 +1033,7 @@ class VariantSelects extends HTMLElement {
       varUrl += 's:' + handleize(selector.value);
     });
 
-    if (varUrl) {
+    if (varUrl && !document.querySelector('html').classList.contains('is-preview')) {
       window.history.replaceState({}, '', `${this.dataset.url}/${varUrl}`);
     } else {
       window.history.replaceState({}, '', `${this.dataset.url}?variant=${this.currentVariant.id}`);
