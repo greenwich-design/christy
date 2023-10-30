@@ -1,6 +1,6 @@
 <!doctype html>
 <html
-  class="no-js {% if request.page_type == 'product' %}[&_.section-header]:max-md:fixed max-md:fixed max-md:overflow-hidden max-md:h-full w-full{% endif %} overscroll-none"
+  class="no-js {% if request.page_type == 'product' %}[&_.section-header]:max-md:fixed max-md:fixed max-md:overflow-hidden max-md:h-full w-full{% endif %} overscroll-none f {% if content_for_header contains "previewBarInjector.init();" %}is-preview{% endif %}"
   lang="{{ request.locale.iso_code }}"
 >
   <head>

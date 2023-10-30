@@ -1,6 +1,6 @@
 <!doctype html>
 <html
-  class="no-js overflow-x-clip"
+  class="no-js overflow-x-clip {% if content_for_header contains "previewBarInjector.init();" %}is-preview{% endif %}"
   lang="{{ request.locale.iso_code }}"
 >
   <head>
