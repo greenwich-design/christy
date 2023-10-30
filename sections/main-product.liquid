@@ -142,6 +142,9 @@
     </nav>
   {% endif %}
 
+  {% assign current_url = canonical_url %}
+  {% assign current_url = current_url | replace: shop.secure_url, '' %}
+
   <div class="product md:flex md:space-x-6 md:justify-between container">
     {% if product.media.size > 0 %}
       <div class="product__gallery md:w-6/12 ">
@@ -154,6 +157,7 @@
         id="ProductInfo-{{ section.id }}"
         data-section="{{ section.id }}"
         data-url="{{ product.url }}"
+        data-url-actual="{{ current_url }}"
         class="text-blue-1 space-y-6"
       >
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
