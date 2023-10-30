@@ -1035,6 +1035,10 @@ class VariantSelects extends HTMLElement {
 
     if (varUrl && !document.querySelector('html').classList.contains('is-preview')) {
       window.history.replaceState({}, '', `${this.dataset.url}/${varUrl}`);
+    } else if (document.querySelector('html').classList.contains('is-preview')) {
+      var prevUrl = new URL(window.location.href);
+      prevUrl.searchParams.set('variant', this.currentVariant.id);
+      window.history.replaceState({}, '', `${prevUrl}`);
     } else {
       window.history.replaceState({}, '', `${this.dataset.url}?variant=${this.currentVariant.id}`);
     }
