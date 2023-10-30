@@ -30,10 +30,23 @@
 
         <div class="space-y-2">
           <h3 class="font-semibold m-body-copy lg:d-h3">{{ bundle_variant.product.title }}</h3>
+          {% liquid
+            assign op1 = bundle_variant.option1
+            assign op2 = bundle_variant.option2
+            assign op3 = bundle_variant.option3
+          %}
+
           {% if bundle_variant.product.options_with_values.size > 0 %}
             <ul>
               {% for var_option in bundle_variant.product.options_with_values %}
-                <li>{{ var_option.name }}: {{ var_option.selected_value }}</li>
+                <li>
+                  {{ var_option.name }}:
+                  {% for vals in var_option.values %}
+                    {% if vals == op1 or vals == op2 or vals == op3 %}
+                      {{ vals }}
+                    {% endif %}
+                  {% endfor %}
+                </li>
               {% endfor %}
             </ul>
           {% endif %}
