@@ -176,7 +176,7 @@
           "cart_widget_enabled": true,
           "item_widget_enabled": true,
           "product_widget_enabled": false,
-          "message_enabled": false,
+          "message_enabled": true,
           "sender_recipient": "both",
           "message_max_length": 100,
           "message_position_override": true,
