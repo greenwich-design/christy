@@ -14,6 +14,7 @@
     "0ad58283-c2d8-447c-8af9-def5168e727f": {
       "type": "hero-image",
       "settings": {
+        "image": "shopify:\/\/shop_images\/Gifting_1200x628_16fa3cf1-fda3-438d-ba6d-5170445132f9.png",
         "link": "",
         "full_width": true
       }
@@ -36,10 +37,10 @@
       "type": "images-copy-cta",
       "settings": {
         "image": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_8.00.20_PM.png",
-        "image2": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_8.00.42_PM.png",
+        "image2": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_8.00.42_PM_cleanup.png",
         "subtitle": "",
         "title": "<p>Create your own Gift Box<\/p>",
-        "copy": "<p>We’re devoted to building a sustainable future, always moving forwards to improve our processes for the good of our consumers, our communities and the wider environment.<\/p>",
+        "copy": "<p>Elevate your gift-giving experience to the next level with our luxurious signature gift box. <\/p><p>When you choose to have your order beautifully boxed, you're not just providing a present; you're creating a memorable and cherished moment. <\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised gift message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
         "button_label": "",
         "button_link": "shopify:\/\/collections\/all",
         "content_position": "right",
@@ -91,7 +92,7 @@
         "template--21202654101792__3cc62f4c-8e02-4d7c-963d-87349ff400a2-column-3"
       ],
       "settings": {
-        "title": "Create your own Gift Box in 3 Simple Steps"
+        "title": "It takes 3 Simple Steps"
       }
     },
     "e660d413-61a7-4b04-9427-45b7ec1301f9": {
