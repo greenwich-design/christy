@@ -35,8 +35,10 @@
     "a9d98147-a8ba-4d77-ac71-8eb3097f3e2b": {
       "type": "images-copy-cta",
       "settings": {
-        "subtitle": "Responsibility",
-        "title": "<p>Timeless products, consciously made<\/p>",
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_8.00.20_PM.png",
+        "image2": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_8.00.42_PM.png",
+        "subtitle": "",
+        "title": "<p>Create your own Gift Box<\/p>",
         "copy": "<p>We’re devoted to building a sustainable future, always moving forwards to improve our processes for the good of our consumers, our communities and the wider environment.<\/p>",
         "button_label": "",
         "button_link": "shopify:\/\/collections\/all",
@@ -233,6 +235,7 @@
     },
     "ac0df73f-6df0-4292-a763-1ccbaa8f6b31": {
       "type": "billboard",
+      "disabled": true,
       "settings": {
         "screen_visibility": "both",
         "subtitle": "Explore",
