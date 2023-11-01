@@ -108,11 +108,14 @@
     "be8c1844-ff08-49a2-a258-af9002bf1a72": {
       "type": "products-carousel",
       "settings": {
-        "title": "Our Gift Collections",
+        "title": "The Ultimate Relaxation Gift: Bathrobes",
         "button_title": "Shop the Range",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify:\/\/collections\/all-loungewear",
         "products": [
-
+          "super-soft-cosy-robe",
+          "supreme-velour-robe",
+          "luxury-egyptian-robes",
+          "brixton-robe"
         ],
         "screen_visibility": "both"
       }
@@ -124,26 +127,28 @@
           "type": "collection",
           "settings": {
             "collection": "gifts-for-living",
-            "usp_title": "Gifts for Living",
+            "usp_title": "Throws & Cushions",
             "image": "shopify:\/\/shop_images\/Jaipur_Hazelnut_Lifestyle_2.jpg",
-            "alt_title": "Throws",
-            "excerpt": "<p>Explore home furnishings that exude cosy comfort.<\/p>"
+            "alt_title": "Gifts for Living",
+            "excerpt": ""
           }
         },
         "7e2b7beb-9391-4023-ac4b-5173156434f4": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "usp_title": "",
-            "alt_title": "",
+            "collection": "gifts-for-rest",
+            "usp_title": "Bedding",
+            "image": "shopify:\/\/shop_images\/gifts-for-living.jpg",
+            "alt_title": "Gifts for Rest",
             "excerpt": ""
           }
         },
         "959d3109-4a09-42e0-a50e-ac701272a47d": {
           "type": "collection",
           "settings": {
-            "collection": "",
-            "usp_title": "",
+            "collection": "gifts-for-bathing",
+            "usp_title": "Towels",
+            "image": "shopify:\/\/shop_images\/gifts-for-bathing.jpg",
             "alt_title": "",
             "excerpt": ""
           }
@@ -155,8 +160,8 @@
         "959d3109-4a09-42e0-a50e-ac701272a47d"
       ],
       "settings": {
-        "title": "",
-        "screen_visibility": "mobile"
+        "title": "Our Gift Collections",
+        "screen_visibility": "both"
       }
     },
     "3daf9a22-676a-48e1-b44f-8a8516e19976": {
