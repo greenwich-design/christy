@@ -2,6 +2,7 @@
   "sections": {
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1920X1080_1_cf783d2f-0726-403c-969d-acf3ccc630bd.jpg",
         "link": "shopify:\/\/collections\/halloween-sale",
@@ -30,7 +31,6 @@
         },
         "8c3ac597-805a-4b98-a59f-708e3545945d": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/blog_bath_da15fde6-8e3a-49aa-abb4-2578bd0960c7.jpg",
             "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
@@ -64,6 +64,7 @@
         },
         "17de0beb-b78c-40ab-a727-1f3659ef3cdc": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Halloween_1200X628_1_1.jpg",
             "mobile_media": "image",
@@ -84,7 +85,6 @@
         "2af0950f-0322-4b80-b489-ee1f6aafc079",
         "17de0beb-b78c-40ab-a727-1f3659ef3cdc"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
