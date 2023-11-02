@@ -3,7 +3,7 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/cat_banner.jpg",
+        "image": "shopify:\/\/shop_images\/Gifting_1200_800.jpg",
         "link": "",
         "full_width": true
       }
@@ -34,8 +34,25 @@
       "settings": {
       }
     },
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_8.00.42_PM.jpg",
+        "image2": "shopify:\/\/shop_images\/MicrosoftTeams-image_1.jpg",
+        "subtitle": "",
+        "title": "<p>Create your own Gift Box<\/p>",
+        "copy": "<p>Elevate your gift-giving experience with our luxurious signature gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
+        "button_label": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
+      }
+    },
     "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Get ready for a 'spooktacular' soak!<\/p>",
         "heading_width": "4",
@@ -50,90 +67,47 @@
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
       "type": "c-info-columns",
       "blocks": {
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-1": {
+        "ffe46c4a-76e3-4116-904c-69ac29f094fb": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
             "image_aspect": "1:1",
-            "title": "Duvet Sets",
-            "text": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "duvet-sets",
-            "collection_tag": ""
-          }
-        },
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
-            "image_aspect": "1:1",
-            "title": "Fitted Sheets",
-            "text": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "sheets",
-            "collection_tag": ""
-          }
-        },
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
-            "image_aspect": "1:1",
-            "title": "Flat Sheets",
-            "text": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>",
-            "button_label": "Shop Now",
+            "title": "Step 1",
+            "text": "<p>Choose your gift items from across our collections and add to cart.<\/p>",
+            "button_label": "",
             "button_link": "",
             "collection_tag": ""
           }
         },
-        "3072f136-c23c-4563-876f-15a69fb5729d": {
+        "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/200TC_Fig_Oxford_Pillowcase_fca745b4-12d8-4db9-816e-9e3ddc93a271-594675.jpg",
             "image_aspect": "1:1",
-            "title": "Pillowcases",
-            "text": "<p>Where impeccable craftsmanship and a variety of colors and patterns allow you to express your unique style.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "pillowcases",
+            "title": "Step 2",
+            "text": "<p>Check the \"Make it extra special with a gift box\" option at the bottom of the cart (£4.99 per gift box).<\/p>",
+            "button_label": "",
+            "button_link": "",
             "collection_tag": ""
           }
         },
-        "159406bd-019d-4005-a068-5ff04e88e3c7": {
+        "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/blog_duvet.jpg",
             "image_aspect": "1:1",
-            "title": "Duvets & Pillows",
-            "text": "<p>Discover a world of personalized comfort, available in a range of togs and firmness levels to suit your unique sleep preferences.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "duvet-pillows",
-            "collection_tag": ""
-          }
-        },
-        "0e44cbf6-5127-44b8-ae2a-026a5627deda": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Christy_MattressTopper_Lifestyle_4.jpg",
-            "image_aspect": "1:1",
-            "title": "Protectors & Toppers",
-            "text": "<p>Offer a sanctuary of softness and hygiene, providing a cocoon of comfort while safeguarding your mattress from wear and tear.<\/p>",
-            "button_label": "Shop Now",
-            "button_link": "protectors-and-toppers",
+            "title": "Step 3",
+            "text": "<p>Add a free personal message to your loved one and proceed to checkout. All done!<\/p>",
+            "button_label": "",
+            "button_link": "",
             "collection_tag": ""
           }
         }
       },
       "block_order": [
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-1",
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2",
-        "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3",
-        "3072f136-c23c-4563-876f-15a69fb5729d",
-        "159406bd-019d-4005-a068-5ff04e88e3c7",
-        "0e44cbf6-5127-44b8-ae2a-026a5627deda"
+        "ffe46c4a-76e3-4116-904c-69ac29f094fb",
+        "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea",
+        "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5"
       ],
-      "disabled": true,
       "settings": {
-        "title": "Shop our Collection"
+        "title": "It takes 3 Simple Steps"
       }
     },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
@@ -142,31 +116,31 @@
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
           "type": "collection",
           "settings": {
-            "collection": "towels",
-            "usp_title": "Up to 40% Off + 20% above £ 100",
-            "image": "shopify:\/\/shop_images\/Organic_Natural_Lifestyle-905959.jpg",
-            "alt_title": "Luxury Towels",
-            "excerpt": "<h1>Step into a spa-like sanctuary with our luxurious selection of bath towels.<\/h1>"
+            "collection": "all-loungewear",
+            "usp_title": "Bath Robes",
+            "image": "shopify:\/\/shop_images\/10_2_1-895185_62a6c52b-96ba-4474-a279-2d3e3ef90ffe.jpg",
+            "alt_title": "Gifts for Living",
+            "excerpt": "<h1>Explore plush and super soft robes that exude cosy comfort.<\/h1>"
           }
         },
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
           "type": "collection",
           "settings": {
-            "collection": "all-loungewear",
-            "usp_title": "Up to 20% Off + 20% above £ 100",
-            "image": "shopify:\/\/shop_images\/7_3_1-954698_f80f94a7-0cef-44ca-b300-4efa2a36f373.jpg",
-            "alt_title": "Plush Bath Robes",
-            "excerpt": "<h1>Embrace the feeling of a gentle hug all day with our bath robes.<\/h1>"
+            "collection": "gifts-for-rest",
+            "usp_title": "Bedding",
+            "image": "shopify:\/\/shop_images\/hp_banner_bed_a2769d86-0563-4b77-b615-21691ce19ae9.jpg",
+            "alt_title": "",
+            "excerpt": "<h1>Treat your loved ones to relaxing moments with our comfortable bedding.<\/h1>"
           }
         },
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
           "type": "collection",
           "settings": {
-            "collection": "bath-mats-and-rugs",
-            "usp_title": "Up to 40% Off + 20% above £ 100",
-            "image": "shopify:\/\/shop_images\/christy_bath_mat_kingfisher-507987.jpg",
+            "collection": "gifts-for-bathing",
+            "usp_title": "Luxury Towels",
+            "image": "shopify:\/\/shop_images\/gifts-for-bathing.jpg",
             "alt_title": "",
-            "excerpt": "<p>Crafted with the perfect blend of plushness & durability, adding a touch of elegance.<\/p>"
+            "excerpt": "<p>Upgrade their bathing rituals with spa-worthy pieces.<\/p>"
           }
         }
       },
@@ -176,24 +150,21 @@
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
       "settings": {
-        "title": "Bath",
+        "title": "Box our Gift Collections Today",
         "screen_visibility": "both"
       }
     },
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
       "type": "products-carousel",
       "settings": {
-        "title": "Eerie-sistible Towel Offers",
-        "button_title": "Shop Now",
-        "button_link": "shopify:\/\/collections\/offers-towels",
+        "title": "The Ultimate Relaxation Gift: Bathrobes",
+        "button_title": "Shop the Range",
+        "button_link": "shopify:\/\/collections\/all-loungewear",
         "products": [
-          "renaissance",
-          "luxe-towels",
-          "supreme-hygro",
-          "signum-675-gsm-combed-cotton",
-          "brixton-towels",
-          "tribeca-towels",
-          "serene-550-gsm-combed-cotton"
+          "super-soft-cosy-robe",
+          "supreme-velour-robe",
+          "luxury-egyptian-robes",
+          "brixton-robe"
         ],
         "screen_visibility": "both"
       }
@@ -283,6 +254,7 @@
         "b67ebaca-9de3-43d0-9ee0-554bcc673479",
         "1c561ecc-6e7c-4c2d-ae57-409320a93e2f"
       ],
+      "disabled": true,
       "settings": {
         "title": "Bedding",
         "screen_visibility": "both"
@@ -290,6 +262,7 @@
     },
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "Creep into Cosy Bedding",
         "button_title": "Shop Now",
@@ -359,6 +332,7 @@
     },
     "6851d866-adb6-4f4b-8e77-da4ae8ec22ef": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/SuperiorSoftTouchDuvet_Lifestyle_3.jpg",
         "image2": "shopify:\/\/shop_images\/Duvet-1024x1024_c434d424-997b-4160-b314-2c0a36d3680a.jpg",
@@ -677,6 +651,7 @@
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
