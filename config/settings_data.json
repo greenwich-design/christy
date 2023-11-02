@@ -178,7 +178,7 @@
           "product_widget_enabled": false,
           "message_enabled": true,
           "sender_recipient": "both",
-          "message_max_length": 250,
+          "message_max_length": 120,
           "message_position_override": true,
           "show_pricing": true,
           "money_filter": "money_with_currency",
