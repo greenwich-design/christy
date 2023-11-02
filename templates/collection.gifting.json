@@ -157,14 +157,16 @@
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
       "type": "products-carousel",
       "settings": {
-        "title": "The Ultimate Relaxation Gift: Bathrobes",
+        "title": "The Ultimate Holiday Gift: Throws & Cushions",
         "button_title": "Shop the Range",
-        "button_link": "shopify:\/\/collections\/all-loungewear",
+        "button_link": "shopify:\/\/collections\/all-accessories",
         "products": [
-          "super-soft-cosy-robe",
-          "supreme-velour-robe",
-          "luxury-egyptian-robes",
-          "brixton-robe"
+          "jaipur-throw",
+          "oslo",
+          "cosy-throw",
+          "jaipur-cushion",
+          "metropolitan-throw",
+          "metropolitan-cushion"
         ],
         "screen_visibility": "both"
       }
