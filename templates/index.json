@@ -2,16 +2,31 @@
   "sections": {
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/1920X1080_1_cf783d2f-0726-403c-969d-acf3ccc630bd.jpg",
-        "link": "shopify:\/\/collections\/halloween-sale",
+        "image": "shopify:\/\/shop_images\/Gifting_1200x628_65.png",
+        "link": "shopify:\/\/collections\/gifts",
         "full_width": true
       }
     },
     "hero-collection": {
       "type": "hero-collection",
       "blocks": {
+        "8c3ac597-805a-4b98-a59f-708e3545945d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/blog_bath_da15fde6-8e3a-49aa-abb4-2578bd0960c7.jpg",
+            "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
+            "mobile_media": "image",
+            "subtitle": "Turn your routine into a calming ritual.",
+            "mobile_subtitle": "show",
+            "title": "Wrap yourself up in the softness of our Towels.",
+            "mob_title": "",
+            "copy": "",
+            "copy_visibility": "all",
+            "collection": "towels",
+            "button_text": "Shop Now"
+          }
+        },
         "c4c43d90-6461-4c99-aee1-543890d018df": {
           "type": "slide",
           "disabled": true,
@@ -26,22 +41,6 @@
             "copy": "",
             "copy_visibility": "all",
             "collection": "halloween-sale",
-            "button_text": "Shop Now"
-          }
-        },
-        "8c3ac597-805a-4b98-a59f-708e3545945d": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/blog_bath_da15fde6-8e3a-49aa-abb4-2578bd0960c7.jpg",
-            "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
-            "mobile_media": "image",
-            "subtitle": "Turn your routine into a calming ritual.",
-            "mobile_subtitle": "show",
-            "title": "Wrap yourself up in the softness of our Towels.",
-            "mob_title": "",
-            "copy": "",
-            "copy_visibility": "all",
-            "collection": "towels",
             "button_text": "Shop Now"
           }
         },
@@ -77,14 +76,32 @@
             "collection": "halloween-sale",
             "button_text": "Shop Now"
           }
+        },
+        "1579b4d5-aece-4950-8c76-63c7dde11b59": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_8.00.42_PM.jpg",
+            "mobile_media": "image",
+            "subtitle": "Gifting",
+            "mobile_subtitle": "show",
+            "title": "Create your own Gift Box",
+            "mob_title": "",
+            "copy": "<p>Delight your loved ones with exquisite gift boxes, complete with complimentary gift messages.<\/p>",
+            "copy_visibility": "all",
+            "collection": "gifts",
+            "button_text": "Find out More"
+          }
         }
       },
       "block_order": [
-        "c4c43d90-6461-4c99-aee1-543890d018df",
         "8c3ac597-805a-4b98-a59f-708e3545945d",
+        "c4c43d90-6461-4c99-aee1-543890d018df",
         "2af0950f-0322-4b80-b489-ee1f6aafc079",
-        "17de0beb-b78c-40ab-a727-1f3659ef3cdc"
+        "17de0beb-b78c-40ab-a727-1f3659ef3cdc",
+        "1579b4d5-aece-4950-8c76-63c7dde11b59"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
