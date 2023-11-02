@@ -347,25 +347,27 @@
     },
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
-      "disabled": true,
       "settings": {
-        "title": "Creep into Cosy Bedding",
-        "button_title": "Shop Now",
-        "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
+        "title": "Our Recommendations",
+        "button_title": "Shop All",
+        "button_link": "shopify:\/\/collections\/shop-everything",
         "products": [
-          "smooth-and-silky-cotton-sateen-fitted-sheet",
-          "katsura-bed-linen",
-          "luxury-microfibre-13-5-tog-duvet",
-          "coniston-bed-linen",
+          "super-soft-cosy-robe",
+          "400-thread-count-sateen-plain-dye",
+          "renaissance",
           "organic-retreat",
-          "matsu-bed-linen",
-          "meeko-bed-linen"
+          "luxe-towels",
+          "luxury-egyptian-robes",
+          "supreme-hygro",
+          "supreme-velour-robe",
+          "katsura-bed-linen"
         ],
         "screen_visibility": "both"
       }
     },
     "393634d4-53d9-4c8e-be41-45c5d425188a": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Pair with our exquisite Throws & Cushions<\/p>",
         "heading_width": "4",
@@ -379,6 +381,7 @@
     },
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "",
         "button_title": "Explore the Range",
