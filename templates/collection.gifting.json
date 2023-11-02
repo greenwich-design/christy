@@ -221,6 +221,42 @@
         "margin": "yes"
       }
     },
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Our Recommendations",
+        "button_title": "Shop All",
+        "button_link": "shopify:\/\/collections\/shop-everything",
+        "products": [
+          "super-soft-cosy-robe",
+          "400-thread-count-sateen-plain-dye",
+          "renaissance",
+          "organic-retreat",
+          "luxe-towels",
+          "luxury-egyptian-robes",
+          "supreme-hygro",
+          "supreme-velour-robe",
+          "katsura-bed-linen"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "d0ddfec2-66c8-4bc0-8970-151deec6b0e9": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/signature_towel_1.jpg",
+        "image2": "shopify:\/\/shop_images\/bath-home.jpg",
+        "subtitle": "Limited Edition",
+        "title": "<p>Henry Christy Towel<\/p>",
+        "copy": "<p>Gift your loved ones our limited edition Signature towel, a testament to elegance and exclusivity.  <\/p><p>A future heir-loom piece, this limited edition towel is sumptuous and soft with a delicate fringed hem, reminiscent of the original towel created over 173 years ago. The towel features an embroidered Christy loop which signifies a warm hug… just what your loved ones need when stepping out of the bath or shower. <\/p>",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/products\/signature-towel",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
+      }
+    },
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
       "type": "heading",
       "settings": {
@@ -342,26 +378,6 @@
       "disabled": true,
       "settings": {
         "title": "Bedding",
-        "screen_visibility": "both"
-      }
-    },
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Our Recommendations",
-        "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/shop-everything",
-        "products": [
-          "super-soft-cosy-robe",
-          "400-thread-count-sateen-plain-dye",
-          "renaissance",
-          "organic-retreat",
-          "luxe-towels",
-          "luxury-egyptian-robes",
-          "supreme-hygro",
-          "supreme-velour-robe",
-          "katsura-bed-linen"
-        ],
         "screen_visibility": "both"
       }
     },
@@ -661,11 +677,12 @@
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
+    "d0ddfec2-66c8-4bc0-8970-151deec6b0e9",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "6851d866-adb6-4f4b-8e77-da4ae8ec22ef",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "393634d4-53d9-4c8e-be41-45c5d425188a",
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
     "07a57dc8-34ac-41ee-96df-37021aef7941",
