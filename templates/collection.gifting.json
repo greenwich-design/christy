@@ -170,6 +170,70 @@
         "anchor_id": ""
       }
     },
+    "955ae530-8662-43db-b9cc-df67f9e5bda7": {
+      "type": "benefits-icons",
+      "blocks": {
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1": {
+          "type": "block",
+          "settings": {
+            "title": "Legacy of Innovation",
+            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.<\/p>",
+            "button_link": "shopify:\/\/pages\/our-heritage",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2": {
+          "type": "block",
+          "settings": {
+            "title": "Sustainability",
+            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.<\/p>",
+            "button_link": "shopify:\/\/pages\/responsibility",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3": {
+          "type": "block",
+          "settings": {
+            "title": "Loved by our Customers",
+            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_title": "Shop the Range"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4": {
+          "type": "block",
+          "settings": {
+            "title": "Free Shipping & Returns",
+            "copy": "<p>Free Shipping above GBP 50 plus our Worry-Free Return Guarantee.<\/p>",
+            "button_link": "shopify:\/\/policies\/shipping-policy",
+            "button_title": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4"
+      ],
+      "settings": {
+        "title": "Why Christy?",
+        "margin": "yes"
+      }
+    },
+    "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>DIY Wrap our indulgent Throws & Duvets<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
+      }
+    },
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
       "type": "products-carousel",
       "settings": {
@@ -187,17 +251,20 @@
         "screen_visibility": "both"
       }
     },
-    "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
-      "type": "heading",
+    "6851d866-adb6-4f4b-8e77-da4ae8ec22ef": {
+      "type": "images-copy-cta",
       "settings": {
-        "heading": "<p>No tricks, just treats!<\/p>",
-        "heading_width": "4",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "center",
-        "alignment_mob": "center",
-        "horiz_padding": true,
-        "margin_top": false
+        "image": "shopify:\/\/shop_images\/SuperiorSoftTouchDuvet_Lifestyle_3.jpg",
+        "image2": "shopify:\/\/shop_images\/Duvet-1024x1024_c434d424-997b-4160-b314-2c0a36d3680a.jpg",
+        "subtitle": "New Arrival",
+        "title": "<p>Feather & Down Duvets & Pillows<\/p>",
+        "copy": "<p>Want a duvet that is incredibly soft and warm? Made with the softest duck feather and down and a clever box construction, the naturally breathable filling remains even sleep after sleep to keep you cosy when it's colder.<\/p>",
+        "button_label": "Discover the Collection",
+        "button_link": "shopify:\/\/collections\/feather-down",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
       }
     },
     "d38727e6-070e-4d88-af8b-6b75b41f7719": {
@@ -295,74 +362,6 @@
           "meeko-bed-linen"
         ],
         "screen_visibility": "both"
-      }
-    },
-    "955ae530-8662-43db-b9cc-df67f9e5bda7": {
-      "type": "benefits-icons",
-      "blocks": {
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1": {
-          "type": "block",
-          "settings": {
-            "title": "Legacy of Innovation",
-            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.<\/p>",
-            "button_link": "shopify:\/\/pages\/our-heritage",
-            "button_title": "Learn More"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2": {
-          "type": "block",
-          "settings": {
-            "title": "Sustainability",
-            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.<\/p>",
-            "button_link": "shopify:\/\/pages\/responsibility",
-            "button_title": "Learn More"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3": {
-          "type": "block",
-          "settings": {
-            "title": "Loved by our Customers",
-            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_title": "Shop the Range"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4": {
-          "type": "block",
-          "settings": {
-            "title": "Free Shipping & Returns",
-            "copy": "<p>Free Shipping above GBP 50 plus our Worry-Free Return Guarantee.<\/p>",
-            "button_link": "shopify:\/\/policies\/shipping-policy",
-            "button_title": "Learn More"
-          }
-        }
-      },
-      "block_order": [
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4"
-      ],
-      "settings": {
-        "title": "Why Christy?",
-        "margin": "yes"
-      }
-    },
-    "6851d866-adb6-4f4b-8e77-da4ae8ec22ef": {
-      "type": "images-copy-cta",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/SuperiorSoftTouchDuvet_Lifestyle_3.jpg",
-        "image2": "shopify:\/\/shop_images\/Duvet-1024x1024_c434d424-997b-4160-b314-2c0a36d3680a.jpg",
-        "subtitle": "New Arrival",
-        "title": "<p>Feather & Down Duvets & Pillows<\/p>",
-        "copy": "<p>Want a duvet that is incredibly soft and warm? Made with the softest duck feather and down and a clever box construction, the naturally breathable filling remains even sleep after sleep to keep you cosy when it's colder.<\/p>",
-        "button_label": "Discover the Collection",
-        "button_link": "shopify:\/\/collections\/feather-down",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
       }
     },
     "393634d4-53d9-4c8e-be41-45c5d425188a": {
@@ -658,12 +657,12 @@
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
-    "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
+    "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
+    "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
+    "6851d866-adb6-4f4b-8e77-da4ae8ec22ef",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
-    "955ae530-8662-43db-b9cc-df67f9e5bda7",
-    "6851d866-adb6-4f4b-8e77-da4ae8ec22ef",
     "393634d4-53d9-4c8e-be41-45c5d425188a",
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
     "07a57dc8-34ac-41ee-96df-37021aef7941",
