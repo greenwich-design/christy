@@ -2,6 +2,7 @@
   "sections": {
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Gifting_1200x628_65_1.png",
         "link": "shopify:\/\/collections\/gifts",
@@ -64,6 +65,7 @@
         },
         "17de0beb-b78c-40ab-a727-1f3659ef3cdc": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Halloween_1200X628_1_1.jpg",
             "mobile_media": "image",
@@ -79,18 +81,17 @@
         },
         "1579b4d5-aece-4950-8c76-63c7dde11b59": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_8.00.42_PM.jpg",
+            "image": "shopify:\/\/shop_images\/Jaipur_Hazelnut_lifestyle_ad50bbb4-7cb5-425d-bd28-a934d555ed8f.jpg",
             "mobile_media": "image",
-            "subtitle": "Gifting",
+            "subtitle": "The New Must Have Colour",
             "mobile_subtitle": "show",
-            "title": "Create your own Gift Box",
+            "title": "Jaipur Terracotta",
             "mob_title": "",
-            "copy": "<p>Delight your loved ones with exquisite gift boxes, complete with complimentary gift messages.<\/p>",
+            "copy": "<h4>A rich hue that will envelop you in velvety, luxurious comfort. <\/h4>",
             "copy_visibility": "all",
-            "collection": "gifts",
-            "button_text": "Find out More"
+            "collection": "jaipur-accessories",
+            "button_text": "Shop Now"
           }
         }
       },
@@ -101,7 +102,6 @@
         "17de0beb-b78c-40ab-a727-1f3659ef3cdc",
         "1579b4d5-aece-4950-8c76-63c7dde11b59"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
