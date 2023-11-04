@@ -34,6 +34,70 @@
       "settings": {
       }
     },
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
+      "type": "collections-carousel",
+      "blocks": {
+        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-loungewear",
+            "usp_title": "Bath Robes",
+            "image": "shopify:\/\/shop_images\/10_2_1-895185_62a6c52b-96ba-4474-a279-2d3e3ef90ffe.jpg",
+            "alt_title": "Gifts for Living",
+            "excerpt": "<h1>Explore plush and super soft robes that exude cosy comfort.<\/h1>"
+          }
+        },
+        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-for-rest",
+            "usp_title": "Bedding",
+            "image": "shopify:\/\/shop_images\/hp_banner_bed_a2769d86-0563-4b77-b615-21691ce19ae9.jpg",
+            "alt_title": "",
+            "excerpt": "<h1>Treat your loved ones to relaxing moments with our comfortable bedding.<\/h1>"
+          }
+        },
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-for-bathing",
+            "usp_title": "Luxury Towels",
+            "image": "shopify:\/\/shop_images\/gifts-for-bathing.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Upgrade their bathing rituals with spa-worthy pieces.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
+        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
+      ],
+      "settings": {
+        "title": "Our Curated Collections",
+        "screen_visibility": "both"
+      }
+    },
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Our Recommendations",
+        "button_title": "Shop All",
+        "button_link": "shopify:\/\/collections\/shop-everything",
+        "products": [
+          "super-soft-cosy-robe",
+          "400-thread-count-sateen-plain-dye",
+          "renaissance",
+          "organic-retreat",
+          "luxe-towels",
+          "luxury-egyptian-robes",
+          "supreme-hygro",
+          "supreme-velour-robe",
+          "katsura-bed-linen"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
       "type": "images-copy-cta",
       "settings": {
@@ -110,50 +174,6 @@
         "title": "It takes 3 Simple Steps"
       }
     },
-    "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
-      "type": "collections-carousel",
-      "blocks": {
-        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-loungewear",
-            "usp_title": "Bath Robes",
-            "image": "shopify:\/\/shop_images\/10_2_1-895185_62a6c52b-96ba-4474-a279-2d3e3ef90ffe.jpg",
-            "alt_title": "Gifts for Living",
-            "excerpt": "<h1>Explore plush and super soft robes that exude cosy comfort.<\/h1>"
-          }
-        },
-        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
-          "type": "collection",
-          "settings": {
-            "collection": "gifts-for-rest",
-            "usp_title": "Bedding",
-            "image": "shopify:\/\/shop_images\/hp_banner_bed_a2769d86-0563-4b77-b615-21691ce19ae9.jpg",
-            "alt_title": "",
-            "excerpt": "<h1>Treat your loved ones to relaxing moments with our comfortable bedding.<\/h1>"
-          }
-        },
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
-          "type": "collection",
-          "settings": {
-            "collection": "gifts-for-bathing",
-            "usp_title": "Luxury Towels",
-            "image": "shopify:\/\/shop_images\/gifts-for-bathing.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Upgrade their bathing rituals with spa-worthy pieces.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
-        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
-      ],
-      "settings": {
-        "title": "Box our Gift Collections Today",
-        "screen_visibility": "both"
-      }
-    },
     "b9932fb5-c80a-402d-977c-e883e9dff131": {
       "type": "images-copy-cta",
       "settings": {
@@ -221,28 +241,9 @@
         "margin": "yes"
       }
     },
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Our Recommendations",
-        "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/shop-everything",
-        "products": [
-          "super-soft-cosy-robe",
-          "400-thread-count-sateen-plain-dye",
-          "renaissance",
-          "organic-retreat",
-          "luxe-towels",
-          "luxury-egyptian-robes",
-          "supreme-hygro",
-          "supreme-velour-robe",
-          "katsura-bed-linen"
-        ],
-        "screen_visibility": "both"
-      }
-    },
     "d0ddfec2-66c8-4bc0-8970-151deec6b0e9": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/signature_towel_1.jpg",
         "image2": "shopify:\/\/shop_images\/bath-home.jpg",
@@ -259,6 +260,7 @@
     },
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>DIY Wrap our indulgent Throws & Duvets<\/p>",
         "heading_width": "4",
@@ -272,6 +274,7 @@
     },
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "Throws & Cushions",
         "button_title": "Shop the Range",
@@ -289,6 +292,7 @@
     },
     "6851d866-adb6-4f4b-8e77-da4ae8ec22ef": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/SuperiorSoftTouchDuvet_Lifestyle_3.jpg",
         "image2": "shopify:\/\/shop_images\/Duvet-1024x1024_c434d424-997b-4160-b314-2c0a36d3680a.jpg",
@@ -468,8 +472,21 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
+        "a3d143c1-d950-489a-b150-df0870a4d9d0": {
+          "type": "infocard",
+          "disabled": true,
+          "settings": {
+            "text": "The Jaipur Throw",
+            "copy": "<p>Our <\/p>",
+            "button_text": "",
+            "button_url": "",
+            "styled": false,
+            "position": 8
+          }
+        },
         "77b7bcba-adf8-4b59-84fa-2aed599efb4a": {
           "type": "infocard",
+          "disabled": true,
           "settings": {
             "text": "Cotton Sateen Sheets",
             "copy": "<p>Resist the temptation to take just a few more minutes nestled up in the indulgent comfort our smooth cotton sheets.  <br\/>The sateen fabric has a gentle sheen and feels oh-so-nice against the skin. Once you've snuggled up in bed, you may never want to get out again.<\/p>",
@@ -477,33 +494,6 @@
             "button_url": "shopify:\/\/products\/400-thread-count-sateen-plain-dye",
             "styled": true,
             "position": 8
-          }
-        },
-        "8704fef6-e4b5-4c39-bba2-de943e89068e": {
-          "type": "listsc",
-          "disabled": true,
-          "settings": {
-            "product_1": "egyptian-cotton-plain-dye",
-            "pos_l_1": 25,
-            "pos_t_1": 15,
-            "product_2": "egyptian-cotton-plain-dye-1",
-            "pos_l_2": 90,
-            "pos_t_2": 30,
-            "product_3": "",
-            "pos_l_3": 50,
-            "pos_t_3": 50
-          }
-        },
-        "5a878969-3318-42e0-87f9-e02a64758016": {
-          "type": "infocard",
-          "disabled": true,
-          "settings": {
-            "text": "Build your Bundle",
-            "copy": "<p>Discover your perfect match for a restful night’s slumber.<\/p>",
-            "button_text": "Build your Dream Duvet Set",
-            "button_url": "shopify:\/\/collections\/duvet-sets",
-            "styled": false,
-            "position": 7
           }
         },
         "9b178935-07f5-49c1-b91b-796defd6ca93": {
@@ -523,12 +513,10 @@
         }
       },
       "block_order": [
+        "a3d143c1-d950-489a-b150-df0870a4d9d0",
         "77b7bcba-adf8-4b59-84fa-2aed599efb4a",
-        "8704fef6-e4b5-4c39-bba2-de943e89068e",
-        "5a878969-3318-42e0-87f9-e02a64758016",
         "9b178935-07f5-49c1-b91b-796defd6ca93"
       ],
-      "disabled": true,
       "settings": {
         "products_per": 12
       }
@@ -671,13 +659,13 @@
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
-    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "d0ddfec2-66c8-4bc0-8970-151deec6b0e9",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
