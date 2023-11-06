@@ -4,7 +4,7 @@
       "type": "hero-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/1920X1080_1_cf783d2f-0726-403c-969d-acf3ccc630bd.jpg",
-        "link": "shopify:\/\/collections\/halloween-sale",
+        "link": "shopify:\/\/collections\/singles-sale",
         "full_width": true
       }
     },
@@ -24,7 +24,7 @@
             "mob_title": "",
             "copy": "",
             "copy_visibility": "all",
-            "collection": "halloween-sale",
+            "collection": "singles-sale",
             "button_text": "Shop Now"
           }
         },
@@ -73,7 +73,7 @@
             "mob_title": "",
             "copy": "",
             "copy_visibility": "all",
-            "collection": "halloween-sale",
+            "collection": "singles-sale",
             "button_text": "Shop Now"
           }
         }
