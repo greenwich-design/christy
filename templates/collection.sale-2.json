@@ -3,7 +3,7 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/cat_banner.jpg",
+        "image": "shopify:\/\/shop_images\/1200-x-628-PPC.jpg",
         "link": "",
         "full_width": true
       }
@@ -201,7 +201,7 @@
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
       "type": "heading",
       "settings": {
-        "heading": "<p>No tricks, just treats!<\/p>",
+        "heading": "<p>Because Self-Love Deserves a Celebration!<\/p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
