@@ -648,7 +648,7 @@ input[type="search"]::-webkit-search-results-decoration {
         color: #2C3B96 !important;
     }
 
-    #cookies-dismiss span {
+    #cookies-dismiss span, #cookies-prefrences span {
         @apply btn-secondary btn-large;
         border-radius: 0 !important;
         border: 1px solid #2C3B96 !important;
