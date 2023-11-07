@@ -37,7 +37,7 @@
     "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
       "type": "heading",
       "settings": {
-        "heading": "<p>Get ready for a 'spooktacular' soak!<\/p>",
+        "heading": "<p>Discover the magic in<br\/>everyday moments.<\/p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
@@ -296,12 +296,11 @@
         "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "products": [
           "smooth-and-silky-cotton-sateen-fitted-sheet",
-          "katsura-bed-linen",
           "luxury-microfibre-13-5-tog-duvet",
           "coniston-bed-linen",
           "organic-retreat",
-          "matsu-bed-linen",
-          "meeko-bed-linen"
+          "200-thread-count-egyptian-percale",
+          "luxury-king-size-pillow"
         ],
         "screen_visibility": "both"
       }
