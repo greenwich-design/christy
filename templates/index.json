@@ -383,6 +383,7 @@
         },
         "f251865b-ab2f-44aa-ab1f-0a92b8034d6e": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/christy_katsura_vintage_main-338117.jpg",
             "image_aspect": "1:1",
