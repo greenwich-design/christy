@@ -2,9 +2,8 @@
   "sections": {
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Gifting_1200x628_65_1.png",
+        "image": "shopify:\/\/shop_images\/1920-x-1080-HP-Banner_edac31d5-9e31-4a33-9a7f-f562ca6abf85.jpg",
         "link": "shopify:\/\/collections\/gifts",
         "full_width": true
       }
@@ -102,6 +101,7 @@
         "17de0beb-b78c-40ab-a727-1f3659ef3cdc",
         "1579b4d5-aece-4950-8c76-63c7dde11b59"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
