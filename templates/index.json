@@ -2,6 +2,7 @@
   "sections": {
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_9.png",
         "link": "shopify:\/\/collections\/singles-sale",
@@ -96,7 +97,6 @@
         },
         "300051d6-e970-41cd-85eb-dbf2d26a8012": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/10_2_1-895185_62a6c52b-96ba-4474-a279-2d3e3ef90ffe.jpg",
             "mobile_media": "image",
@@ -119,7 +119,6 @@
         "1579b4d5-aece-4950-8c76-63c7dde11b59",
         "300051d6-e970-41cd-85eb-dbf2d26a8012"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
