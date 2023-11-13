@@ -80,6 +80,7 @@
         },
         "1579b4d5-aece-4950-8c76-63c7dde11b59": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Jaipur_Hazelnut_lifestyle_ad50bbb4-7cb5-425d-bd28-a934d555ed8f.jpg",
             "mobile_media": "image",
@@ -92,6 +93,22 @@
             "collection": "jaipur-accessories",
             "button_text": "Shop Now"
           }
+        },
+        "300051d6-e970-41cd-85eb-dbf2d26a8012": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_2_1-895185_62a6c52b-96ba-4474-a279-2d3e3ef90ffe.jpg",
+            "mobile_media": "image",
+            "subtitle": "",
+            "mobile_subtitle": "show",
+            "title": "Luxe Deal of the Day : Upto 40% on our plush Robes",
+            "mob_title": "",
+            "copy": "<p>Embrace the feeling of a gentle hug all day with our plush robes<\/p>",
+            "copy_visibility": "all",
+            "collection": "all-loungewear",
+            "button_text": "Shop Now"
+          }
         }
       },
       "block_order": [
@@ -99,7 +116,8 @@
         "c4c43d90-6461-4c99-aee1-543890d018df",
         "2af0950f-0322-4b80-b489-ee1f6aafc079",
         "17de0beb-b78c-40ab-a727-1f3659ef3cdc",
-        "1579b4d5-aece-4950-8c76-63c7dde11b59"
+        "1579b4d5-aece-4950-8c76-63c7dde11b59",
+        "300051d6-e970-41cd-85eb-dbf2d26a8012"
       ],
       "disabled": true,
       "custom_css": [
