@@ -109,7 +109,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Luxe_Lifestyle_Pearl_1-430909.jpg",
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_14.jpg",
             "image_aspect": "1:1",
             "title": "Luxury Towels & Bath Mats",
             "text": "",
@@ -121,7 +121,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/OrganicRetreat_SoftGrey_Lifestyle_3-225129.jpg",
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_15.jpg",
             "image_aspect": "1:1",
             "title": "Bedding & Duvets",
             "text": "",
@@ -133,7 +133,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CosyRobe_Tarmac_Detail-462160.jpg",
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_7.jpg",
             "image_aspect": "1:1",
             "title": "Bath Robes",
             "text": "",
@@ -145,7 +145,7 @@
         "3072f136-c23c-4563-876f-15a69fb5729d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jaipur_Hazelnut_lifestyle_ad50bbb4-7cb5-425d-bd28-a934d555ed8f.jpg",
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_5.jpg",
             "image_aspect": "1:1",
             "title": "Throws and Cushions",
             "text": "",
@@ -157,7 +157,7 @@
         "159406bd-019d-4005-a068-5ff04e88e3c7": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/wimbledon_23.jpg",
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_9.jpg",
             "image_aspect": "1:1",
             "title": "Wimbledon",
             "text": "",
@@ -169,7 +169,7 @@
         "0e44cbf6-5127-44b8-ae2a-026a5627deda": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Katsura_vintage.jpg",
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_8.jpg",
             "image_aspect": "1:1",
             "title": "Clearance",
             "text": "",
@@ -726,6 +726,68 @@
         "title": "Discover Bedding",
         "copy": "<p>You deserve the best of rest. Our bedding gently envelops you in a soft embrace to settle you into the sweetest dreams. Discover hand-painted designs, sumptuous fabrics, and durable materials at Christy. Your bed will be a haven for rest, relaxation, and deep sleep. From crisp, clean sheets to soft, snuggly throws, we've got the perfect combination for you.<\/p><p>Forget about your stresses and responsibilities and slip into a deep, peaceful sleep safely swaddled in the splendour of Christy’s bedding.<\/p>"
       }
+    },
+    "2842eb42-811e-4056-970a-2f1bcc377e84": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_8.00.42_PM_6b9ed8dc-40de-4fdc-bb2c-9b9d1fc4d3c9.jpg",
+        "image2": "shopify:\/\/shop_images\/Card.png",
+        "subtitle": "",
+        "title": "<p>Create your own Gift Box<\/p>",
+        "copy": "<p>Elevate your gift-giving experience with our luxurious signature gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
+        "button_label": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
+      }
+    },
+    "ed3fec5f-2dcd-4456-9169-b2f17089966f": {
+      "type": "c-info-columns",
+      "blocks": {
+        "template--21521866129696__ed3fec5f-2dcd-4456-9169-b2f17089966f-column-1": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Step 1",
+            "text": "<p>Choose your gift items from across our collections and add to cart.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "template--21521866129696__ed3fec5f-2dcd-4456-9169-b2f17089966f-column-2": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Step 2",
+            "text": "<p>Check the \"Make it extra special with a gift box\" option at the bottom of the cart (£5 per gift box).<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "template--21521866129696__ed3fec5f-2dcd-4456-9169-b2f17089966f-column-3": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Step 3",
+            "text": "<p>Add a free personal message to your loved one and proceed to checkout. All done!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21521866129696__ed3fec5f-2dcd-4456-9169-b2f17089966f-column-1",
+        "template--21521866129696__ed3fec5f-2dcd-4456-9169-b2f17089966f-column-2",
+        "template--21521866129696__ed3fec5f-2dcd-4456-9169-b2f17089966f-column-3"
+      ],
+      "settings": {
+        "title": "It takes 3 Simple Steps"
+      }
     }
   },
   "order": [
@@ -750,6 +812,8 @@
     "32651ade-df62-44f5-8355-bb4039f60426",
     "product-grid",
     "recent-products",
-    "toggled-body-content"
+    "toggled-body-content",
+    "2842eb42-811e-4056-970a-2f1bcc377e84",
+    "ed3fec5f-2dcd-4456-9169-b2f17089966f"
   ]
 }
