@@ -1,5 +1,14 @@
 {
   "sections": {
+    "ba0d3827-fd01-493f-9124-1c248f0c5004": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Collection_Banner.jpg",
+        "link": "",
+        "full_width": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -77,6 +86,7 @@
     "32651ade-df62-44f5-8355-bb4039f60426": {
       "type": "billboard",
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/blog_duvet.jpg",
         "subtitle": "Christy Life",
         "title": "<p>Ultimate Duvet Tog Guide for the Best Night’s Sleep<\/p>",
@@ -92,6 +102,7 @@
     }
   },
   "order": [
+    "ba0d3827-fd01-493f-9124-1c248f0c5004",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426"
