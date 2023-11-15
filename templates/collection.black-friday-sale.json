@@ -191,6 +191,57 @@
         "title": ""
       }
     },
+    "955ae530-8662-43db-b9cc-df67f9e5bda7": {
+      "type": "benefits-icons",
+      "blocks": {
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1": {
+          "type": "block",
+          "settings": {
+            "title": "Legacy of Innovation",
+            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.<\/p>",
+            "button_link": "shopify:\/\/pages\/our-heritage",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2": {
+          "type": "block",
+          "settings": {
+            "title": "Sustainability",
+            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.<\/p>",
+            "button_link": "shopify:\/\/pages\/responsibility",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3": {
+          "type": "block",
+          "settings": {
+            "title": "Loved by our Customers",
+            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_title": "Shop the Range"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4": {
+          "type": "block",
+          "settings": {
+            "title": "Free Shipping & Returns",
+            "copy": "<p>Free Shipping above GBP 50 plus our Worry-Free Extended Return Guarantee.<\/p>",
+            "button_link": "shopify:\/\/policies\/shipping-policy",
+            "button_title": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4"
+      ],
+      "settings": {
+        "title": "Why Christy?",
+        "margin": "yes"
+      }
+    },
     "1faadb62-9346-46cf-8500-cc18fc75bda3": {
       "type": "heading",
       "settings": {
@@ -310,7 +361,7 @@
             "usp_title": "Up to 30% Off",
             "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
             "alt_title": "",
-            "excerpt": ""
+            "excerpt": "<p> <\/p>"
           }
         },
         "6748815e-680b-4a82-9435-2cf556cc867c": {
@@ -330,7 +381,7 @@
             "usp_title": "Up to 30% Off",
             "image": "shopify:\/\/shop_images\/200TC_Storm_Oxford_Pillow_Detail_f5f2f257-5325-4427-8858-f5ead033a124-129748.jpg",
             "alt_title": "Pillowcases",
-            "excerpt": ""
+            "excerpt": "<p> <\/p>"
           }
         },
         "1c561ecc-6e7c-4c2d-ae57-409320a93e2f": {
@@ -340,7 +391,7 @@
             "usp_title": "Up to 50% Off",
             "image": "shopify:\/\/shop_images\/Christy_MattressTopper_Lifestyle_1-562387.jpg",
             "alt_title": "",
-            "excerpt": ""
+            "excerpt": "<p> <\/p>"
           }
         }
       },
@@ -375,59 +426,9 @@
         "screen_visibility": "both"
       }
     },
-    "955ae530-8662-43db-b9cc-df67f9e5bda7": {
-      "type": "benefits-icons",
-      "blocks": {
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1": {
-          "type": "block",
-          "settings": {
-            "title": "Legacy of Innovation",
-            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.<\/p>",
-            "button_link": "shopify:\/\/pages\/our-heritage",
-            "button_title": "Learn More"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2": {
-          "type": "block",
-          "settings": {
-            "title": "Sustainability",
-            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.<\/p>",
-            "button_link": "shopify:\/\/pages\/responsibility",
-            "button_title": "Learn More"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3": {
-          "type": "block",
-          "settings": {
-            "title": "Loved by our Customers",
-            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_title": "Shop the Range"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4": {
-          "type": "block",
-          "settings": {
-            "title": "Free Shipping & Returns",
-            "copy": "<p>Free Shipping above GBP 50 plus our Worry-Free Return Guarantee.<\/p>",
-            "button_link": "shopify:\/\/policies\/shipping-policy",
-            "button_title": "Learn More"
-          }
-        }
-      },
-      "block_order": [
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4"
-      ],
-      "settings": {
-        "title": "Why Christy?",
-        "margin": "yes"
-      }
-    },
     "6851d866-adb6-4f4b-8e77-da4ae8ec22ef": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/SuperiorSoftTouchDuvet_Lifestyle_3.jpg",
         "image2": "shopify:\/\/shop_images\/Duvet-1024x1024_c434d424-997b-4160-b314-2c0a36d3680a.jpg",
@@ -735,13 +736,13 @@
     "b9932fb5-c80a-402d-977c-e883e9dff131",
     "2a41d139-f089-4799-a878-1010cd70b8bc",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
+    "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "1faadb62-9346-46cf-8500-cc18fc75bda3",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "0ea7c509-a0e6-4f26-8f0f-2d0f5eb7a796",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
-    "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "6851d866-adb6-4f4b-8e77-da4ae8ec22ef",
     "393634d4-53d9-4c8e-be41-45c5d425188a",
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
