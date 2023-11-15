@@ -3,39 +3,47 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_9.png",
+        "image": "shopify:\/\/shop_images\/1.png",
         "link": "",
         "full_width": true
       }
     },
-    "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
-      "type": "hero-collection",
+    "c66f958a-b771-485c-bd16-7e2841ec3c60": {
+      "type": "article-additional",
       "blocks": {
-        "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1": {
-          "type": "slide",
+        "template--21521866129696__c66f958a-b771-485c-bd16-7e2841ec3c60-text-1": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Halloween_1200X628_1_1.jpg",
-            "mobile_media": "image",
-            "subtitle": "",
-            "mobile_subtitle": "show",
             "title": "",
-            "mob_title": "",
-            "copy": "",
-            "copy_visibility": "mobile",
-            "collection": "",
-            "button_text": ""
+            "text": "<p>Returns or exchanges for purchases made between 17th November and 24th December 2023 will be accepted till 24th January 2024<\/p>"
+          }
+        },
+        "template--21521866129696__c66f958a-b771-485c-bd16-7e2841ec3c60-image-1": {
+          "type": "image",
+          "settings": {
+          }
+        },
+        "template--21521866129696__c66f958a-b771-485c-bd16-7e2841ec3c60-products-1": {
+          "type": "products",
+          "settings": {
+            "products": [
+
+            ]
           }
         }
       },
       "block_order": [
-        "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1"
+        "template--21521866129696__c66f958a-b771-485c-bd16-7e2841ec3c60-text-1",
+        "template--21521866129696__c66f958a-b771-485c-bd16-7e2841ec3c60-image-1",
+        "template--21521866129696__c66f958a-b771-485c-bd16-7e2841ec3c60-products-1"
       ],
-      "disabled": true,
       "settings": {
+        "title": "Extended Hassle Free Returns"
       }
     },
     "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Discover the magic in everyday moments.<\/p>",
         "heading_width": "4",
@@ -133,7 +141,7 @@
       ],
       "disabled": true,
       "settings": {
-        "title": "Shop our Collection"
+        "title": ""
       }
     },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
@@ -671,11 +679,30 @@
         "title": "Discover Bedding",
         "copy": "<p>You deserve the best of rest. Our bedding gently envelops you in a soft embrace to settle you into the sweetest dreams. Discover hand-painted designs, sumptuous fabrics, and durable materials at Christy. Your bed will be a haven for rest, relaxation, and deep sleep. From crisp, clean sheets to soft, snuggly throws, we've got the perfect combination for you.<\/p><p>Forget about your stresses and responsibilities and slip into a deep, peaceful sleep safely swaddled in the splendour of Christy’s bedding.<\/p>"
       }
+    },
+    "0ea7c509-a0e6-4f26-8f0f-2d0f5eb7a796": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Fluff and Fold: Black Friday Towel Frenzy!",
+        "button_title": "Shop the Collection",
+        "button_link": "shopify:\/\/collections\/offers-towels",
+        "products": [
+          "renaissance",
+          "signum-675-gsm-combed-cotton",
+          "brixton-towels",
+          "luxe-towels",
+          "supreme-hygro",
+          "serene-550-gsm-combed-cotton",
+          "midori-towels",
+          "tribeca-towels"
+        ],
+        "screen_visibility": "both"
+      }
     }
   },
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
-    "e81c268d-881b-4c6d-a674-f0f49b2c9321",
+    "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
@@ -692,6 +719,7 @@
     "32651ade-df62-44f5-8355-bb4039f60426",
     "product-grid",
     "recent-products",
-    "toggled-body-content"
+    "toggled-body-content",
+    "0ea7c509-a0e6-4f26-8f0f-2d0f5eb7a796"
   ]
 }
