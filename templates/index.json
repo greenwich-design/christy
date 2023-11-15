@@ -14,18 +14,17 @@
       "blocks": {
         "8c3ac597-805a-4b98-a59f-708e3545945d": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/blog_bath_da15fde6-8e3a-49aa-abb4-2578bd0960c7.jpg",
             "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
             "mobile_media": "image",
             "subtitle": "Turn your routine into a calming ritual.",
             "mobile_subtitle": "show",
-            "title": "Wrap yourself up in the softness of our Towels.",
+            "title": "Luxury Towels Upto 40% Off",
             "mob_title": "",
             "copy": "",
             "copy_visibility": "all",
-            "collection": "towels",
+            "collection": "offers-towels",
             "button_text": "Shop Now"
           }
         },
@@ -97,6 +96,7 @@
         },
         "300051d6-e970-41cd-85eb-dbf2d26a8012": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/duvet_lifestyle_4ca5dac4-1a75-4c74-9d91-eefb7fc624c6.jpg",
             "mobile_media": "image",
