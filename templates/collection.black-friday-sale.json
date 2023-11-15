@@ -77,17 +77,30 @@
     "b9932fb5-c80a-402d-977c-e883e9dff131": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/WIMD150-809824.jpg",
-        "image2": "shopify:\/\/shop_images\/WimbledonChampionship2023Detail-273571.jpg",
-        "subtitle": "",
-        "title": "<p>Wimbledon Championship Towel<\/p>",
+        "image": "shopify:\/\/shop_images\/christy_matsu_rose_lifestyle_2-856753.jpg",
+        "image2": "shopify:\/\/shop_images\/christy_katsura_vintage_main-338117.jpg",
+        "subtitle": "Luxe Deal of the Day",
+        "title": "<p>Flat 50% Off on Printed Bedding<\/p>",
         "copy": "",
-        "button_label": "Flat 25% Off - Shop Now",
-        "button_link": "shopify:\/\/products\/wimbledon-2023-championship-towel",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/collections\/printed-and-hand-painted-bedding",
         "content_position": "right",
         "header_position": false,
         "images_half_width": false,
         "anchor_id": ""
+      }
+    },
+    "2a41d139-f089-4799-a878-1010cd70b8bc": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Cozy Comforts Galore: Unbeatable Deals on Towels, Bedding and More!<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
       }
     },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
@@ -108,7 +121,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
+            "image": "shopify:\/\/shop_images\/OrganicRetreat_SoftGrey_Lifestyle_3-225129.jpg",
             "image_aspect": "1:1",
             "title": "Bedding & Duvets",
             "text": "",
@@ -274,7 +287,7 @@
           "type": "collection",
           "settings": {
             "collection": "duvet-sets",
-            "usp_title": "Up to 40% Off + 22% above £ 100",
+            "usp_title": "Up to 50% Off",
             "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
             "alt_title": "",
             "excerpt": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>"
@@ -284,7 +297,7 @@
           "type": "collection",
           "settings": {
             "collection": "sheets",
-            "usp_title": "Up to 20% Off + 22% above £ 100",
+            "usp_title": "Up to 30% Off",
             "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
             "alt_title": "",
             "excerpt": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>"
@@ -294,7 +307,7 @@
           "type": "collection",
           "settings": {
             "collection": "flat-sheets",
-            "usp_title": "Up to 40% Off + 22% above £ 100",
+            "usp_title": "Up to 30% Off",
             "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
             "alt_title": "",
             "excerpt": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>"
@@ -304,7 +317,7 @@
           "type": "collection",
           "settings": {
             "collection": "duvet-pillows",
-            "usp_title": "Up to 30% Off + 22% above £ 100",
+            "usp_title": "Up to 30% Off",
             "image": "shopify:\/\/shop_images\/subcategory_duvetandpillowoffers_desktop.jpg",
             "alt_title": "",
             "excerpt": "<p>Discover a world of personalized comfort, available in a range of togs and firmness levels to suit your unique sleep preferences.<\/p>"
@@ -314,7 +327,7 @@
           "type": "collection",
           "settings": {
             "collection": "pillowcases",
-            "usp_title": "",
+            "usp_title": "Up to 30% Off",
             "image": "shopify:\/\/shop_images\/200TC_Storm_Oxford_Pillow_Detail_f5f2f257-5325-4427-8858-f5ead033a124-129748.jpg",
             "alt_title": "Pillowcases",
             "excerpt": "<p>Where impeccable craftsmanship and a variety of colors and patterns allow you to express your unique style.<\/p>"
@@ -324,7 +337,7 @@
           "type": "collection",
           "settings": {
             "collection": "protectors-and-toppers",
-            "usp_title": "",
+            "usp_title": "Up to 50% Off",
             "image": "shopify:\/\/shop_images\/Christy_MattressTopper_Lifestyle_1-562387.jpg",
             "alt_title": "",
             "excerpt": "<p>Offer a sanctuary of softness and hygiene, providing a cocoon of comfort while safeguarding your mattress from wear and tear.<\/p>"
@@ -719,6 +732,7 @@
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
+    "2a41d139-f089-4799-a878-1010cd70b8bc",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "1faadb62-9346-46cf-8500-cc18fc75bda3",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
