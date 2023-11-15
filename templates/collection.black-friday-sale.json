@@ -78,7 +78,7 @@
             "title": "Bedding & Duvets",
             "text": "",
             "button_label": "Shop Now",
-            "button_link": "all-bedding",
+            "button_link": "bedroom-bedroom-sale",
             "collection_tag": ""
           }
         },
@@ -120,14 +120,13 @@
         },
         "0e44cbf6-5127-44b8-ae2a-026a5627deda": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Christy_MattressTopper_Lifestyle_4.jpg",
+            "image": "shopify:\/\/shop_images\/Katsura_vintage.jpg",
             "image_aspect": "1:1",
-            "title": "Protectors & Toppers",
-            "text": "<p>Offer a sanctuary of softness and hygiene, providing a cocoon of comfort while safeguarding your mattress from wear and tear.<\/p>",
+            "title": "Clearance",
+            "text": "",
             "button_label": "Shop Now",
-            "button_link": "protectors-and-toppers",
+            "button_link": "clearance",
             "collection_tag": ""
           }
         }
@@ -144,6 +143,19 @@
         "title": ""
       }
     },
+    "1faadb62-9346-46cf-8500-cc18fc75bda3": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Threaded Bliss: Unwrap Luxury with Black Friday Bath Deals!<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
+      }
+    },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
       "type": "collections-carousel",
       "blocks": {
@@ -151,30 +163,30 @@
           "type": "collection",
           "settings": {
             "collection": "towels",
-            "usp_title": "Up to 40% Off + 22% above £ 100",
+            "usp_title": "Up to 50% Off",
             "image": "shopify:\/\/shop_images\/Organic_Natural_Lifestyle-905959.jpg",
             "alt_title": "Luxury Towels",
-            "excerpt": "<h1>Step into a spa-like sanctuary with our luxurious selection of bath towels.<\/h1>"
+            "excerpt": ""
           }
         },
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
           "type": "collection",
           "settings": {
             "collection": "all-loungewear",
-            "usp_title": "Up to 30% Off + 22% above £ 100",
+            "usp_title": "Up to 40% Off",
             "image": "shopify:\/\/shop_images\/7_3_1-954698_f80f94a7-0cef-44ca-b300-4efa2a36f373.jpg",
             "alt_title": "Plush Bath Robes",
-            "excerpt": "<h1>Embrace the feeling of a gentle hug all day with our bath robes.<\/h1>"
+            "excerpt": ""
           }
         },
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
           "type": "collection",
           "settings": {
             "collection": "bath-mats-and-rugs",
-            "usp_title": "Up to 40% Off + 22% above £ 100",
+            "usp_title": "Up to 50% Off",
             "image": "shopify:\/\/shop_images\/christy_bath_mat_kingfisher-507987.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Crafted with the perfect blend of plushness & durability, adding a touch of elegance.<\/p>"
+            "alt_title": "Mats & Rugs",
+            "excerpt": ""
           }
         }
       },
@@ -184,7 +196,7 @@
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
       "settings": {
-        "title": "Bath",
+        "title": "",
         "screen_visibility": "both"
       }
     },
@@ -680,6 +692,25 @@
         "title": "Discover Bedding",
         "copy": "<p>You deserve the best of rest. Our bedding gently envelops you in a soft embrace to settle you into the sweetest dreams. Discover hand-painted designs, sumptuous fabrics, and durable materials at Christy. Your bed will be a haven for rest, relaxation, and deep sleep. From crisp, clean sheets to soft, snuggly throws, we've got the perfect combination for you.<\/p><p>Forget about your stresses and responsibilities and slip into a deep, peaceful sleep safely swaddled in the splendour of Christy’s bedding.<\/p>"
       }
+    },
+    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Big Discounts on Best Sellers",
+        "button_title": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "products": [
+          "renaissance",
+          "400-thread-count-sateen-plain-dye",
+          "signum-675-gsm-combed-cotton",
+          "super-soft-cosy-robe",
+          "coniston-bed-linen",
+          "luxury-microfibre-13-5-tog-duvet",
+          "jaipur-throw",
+          "cosy-throw"
+        ],
+        "screen_visibility": "both"
+      }
     }
   },
   "order": [
@@ -687,6 +718,7 @@
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
+    "1faadb62-9346-46cf-8500-cc18fc75bda3",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "0ea7c509-a0e6-4f26-8f0f-2d0f5eb7a796",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
@@ -701,6 +733,7 @@
     "32651ade-df62-44f5-8355-bb4039f60426",
     "product-grid",
     "recent-products",
-    "toggled-body-content"
+    "toggled-body-content",
+    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225"
   ]
 }
