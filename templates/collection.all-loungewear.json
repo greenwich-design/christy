@@ -1,5 +1,14 @@
 {
   "sections": {
+    "363cfbe4-afa3-4f73-8d23-1e0c7f32b5b8": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Collection_Banner.jpg",
+        "link": "",
+        "full_width": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -225,6 +234,7 @@
     }
   },
   "order": [
+    "363cfbe4-afa3-4f73-8d23-1e0c7f32b5b8",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426",
