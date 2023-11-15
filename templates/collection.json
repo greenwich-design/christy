@@ -1,5 +1,14 @@
 {
   "sections": {
+    "1e4fcb9f-7716-4d21-b610-9cab633d219a": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1.png",
+        "link": "",
+        "full_width": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -131,6 +140,7 @@
     }
   },
   "order": [
+    "1e4fcb9f-7716-4d21-b610-9cab633d219a",
     "product-grid",
     "recent-products",
     "toggled-body-content"
