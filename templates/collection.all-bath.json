@@ -1,5 +1,14 @@
 {
   "sections": {
+    "898f7013-561e-48e7-986b-a539be6c7156": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Collection_Banner.jpg",
+        "link": "",
+        "full_width": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -60,6 +69,7 @@
     "32651ade-df62-44f5-8355-bb4039f60426": {
       "type": "billboard",
       "settings": {
+        "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/blog_bath2.jpg",
         "subtitle": "Christy Life",
         "title": "<p>How to Wash Towels: 15 Expert Tips for Prolonged Softness<\/p>",
@@ -201,6 +211,7 @@
     }
   },
   "order": [
+    "898f7013-561e-48e7-986b-a539be6c7156",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426",
