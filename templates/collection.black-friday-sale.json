@@ -252,7 +252,7 @@
       "type": "products-carousel",
       "settings": {
         "title": "Fluff and Fold: Black Friday Towel Frenzy!",
-        "button_title": "Shop the Collection",
+        "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/offers-towels",
         "products": [
           "renaissance",
@@ -367,9 +367,10 @@
           "smooth-and-silky-cotton-sateen-fitted-sheet",
           "luxury-microfibre-13-5-tog-duvet",
           "coniston-bed-linen",
-          "organic-retreat",
           "200-thread-count-egyptian-percale",
-          "luxury-king-size-pillow"
+          "anti-allergy-mattress-and-pillow-protectors",
+          "luxury-king-size-pillow",
+          "organic-retreat"
         ],
         "screen_visibility": "both"
       }
