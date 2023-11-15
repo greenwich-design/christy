@@ -15,7 +15,7 @@
           "type": "text",
           "settings": {
             "title": "",
-            "text": "<p>Returns or exchanges for purchases made between 17th November and 24th December 2023 will be accepted till 24th January 2024<\/p>"
+            "text": "<p>Return or exchange your purchases made between 17th November and 24th December 2023 till 24th January 2024<\/p>"
           }
         },
         "template--21521866129696__c66f958a-b771-485c-bd16-7e2841ec3c60-image-1": {
@@ -53,6 +53,41 @@
         "alignment_mob": "center",
         "horiz_padding": true,
         "margin_top": false
+      }
+    },
+    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Big Discounts on Best Sellers",
+        "button_title": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "products": [
+          "renaissance",
+          "400-thread-count-sateen-plain-dye",
+          "signum-675-gsm-combed-cotton",
+          "super-soft-cosy-robe",
+          "coniston-bed-linen",
+          "luxury-microfibre-13-5-tog-duvet",
+          "jaipur-throw",
+          "cosy-throw"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "b9932fb5-c80a-402d-977c-e883e9dff131": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WIMD150-809824.jpg",
+        "image2": "shopify:\/\/shop_images\/WimbledonChampionship2023Detail-273571.jpg",
+        "subtitle": "",
+        "title": "<p>Wimbledon Championship Towel<\/p>",
+        "copy": "",
+        "button_label": "Flat 25% Off - Shop Now",
+        "button_link": "shopify:\/\/products\/wimbledon-2023-championship-towel",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
       }
     },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
@@ -423,22 +458,6 @@
         "screen_visibility": "both"
       }
     },
-    "b9932fb5-c80a-402d-977c-e883e9dff131": {
-      "type": "images-copy-cta",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/WIMD150-809824.jpg",
-        "image2": "shopify:\/\/shop_images\/WimbledonChampionship2023Detail-273571.jpg",
-        "subtitle": "",
-        "title": "<p>Wimbledon Championship Towel<\/p>",
-        "copy": "",
-        "button_label": "Flat 25% Off - Shop Now",
-        "button_link": "shopify:\/\/products\/wimbledon-2023-championship-towel",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
-      }
-    },
     "07a57dc8-34ac-41ee-96df-37021aef7941": {
       "type": "reviews-carousel",
       "blocks": {
@@ -692,31 +711,14 @@
         "title": "Discover Bedding",
         "copy": "<p>You deserve the best of rest. Our bedding gently envelops you in a soft embrace to settle you into the sweetest dreams. Discover hand-painted designs, sumptuous fabrics, and durable materials at Christy. Your bed will be a haven for rest, relaxation, and deep sleep. From crisp, clean sheets to soft, snuggly throws, we've got the perfect combination for you.<\/p><p>Forget about your stresses and responsibilities and slip into a deep, peaceful sleep safely swaddled in the splendour of Christy’s bedding.<\/p>"
       }
-    },
-    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Big Discounts on Best Sellers",
-        "button_title": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "products": [
-          "renaissance",
-          "400-thread-count-sateen-plain-dye",
-          "signum-675-gsm-combed-cotton",
-          "super-soft-cosy-robe",
-          "coniston-bed-linen",
-          "luxury-microfibre-13-5-tog-duvet",
-          "jaipur-throw",
-          "cosy-throw"
-        ],
-        "screen_visibility": "both"
-      }
     }
   },
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
+    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
+    "b9932fb5-c80a-402d-977c-e883e9dff131",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "1faadb62-9346-46cf-8500-cc18fc75bda3",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
@@ -728,12 +730,10 @@
     "6851d866-adb6-4f4b-8e77-da4ae8ec22ef",
     "393634d4-53d9-4c8e-be41-45c5d425188a",
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
-    "b9932fb5-c80a-402d-977c-e883e9dff131",
     "07a57dc8-34ac-41ee-96df-37021aef7941",
     "32651ade-df62-44f5-8355-bb4039f60426",
     "product-grid",
     "recent-products",
-    "toggled-body-content",
-    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225"
+    "toggled-body-content"
   ]
 }
