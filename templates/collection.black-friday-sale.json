@@ -55,54 +55,6 @@
         "margin_top": false
       }
     },
-    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Big Discounts on Best Sellers",
-        "button_title": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "products": [
-          "renaissance",
-          "400-thread-count-sateen-plain-dye",
-          "signum-675-gsm-combed-cotton",
-          "super-soft-cosy-robe",
-          "coniston-bed-linen",
-          "luxury-microfibre-13-5-tog-duvet",
-          "jaipur-throw",
-          "cosy-throw"
-        ],
-        "screen_visibility": "both"
-      }
-    },
-    "b9932fb5-c80a-402d-977c-e883e9dff131": {
-      "type": "images-copy-cta",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/christy_matsu_rose_lifestyle_2-856753.jpg",
-        "image2": "shopify:\/\/shop_images\/christy_katsura_vintage_main-338117.jpg",
-        "subtitle": "Luxe Deal of the Day",
-        "title": "<p>Flat 50% Off on Printed Bedding<\/p>",
-        "copy": "",
-        "button_label": "Shop Now",
-        "button_link": "shopify:\/\/collections\/printed-and-hand-painted-bedding",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
-      }
-    },
-    "2a41d139-f089-4799-a878-1010cd70b8bc": {
-      "type": "heading",
-      "settings": {
-        "heading": "<p>Unbeatable Deals on Towels, Bedding and More!<\/p>",
-        "heading_width": "6",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "center",
-        "alignment_mob": "center",
-        "horiz_padding": true,
-        "margin_top": false
-      }
-    },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
       "type": "c-info-columns",
       "blocks": {
@@ -191,6 +143,25 @@
         "title": ""
       }
     },
+    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Big Discounts on Best Sellers",
+        "button_title": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "products": [
+          "renaissance",
+          "400-thread-count-sateen-plain-dye",
+          "signum-675-gsm-combed-cotton",
+          "super-soft-cosy-robe",
+          "coniston-bed-linen",
+          "luxury-microfibre-13-5-tog-duvet",
+          "jaipur-throw",
+          "cosy-throw"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "955ae530-8662-43db-b9cc-df67f9e5bda7": {
       "type": "benefits-icons",
       "blocks": {
@@ -242,11 +213,41 @@
         "margin": "yes"
       }
     },
+    "b9932fb5-c80a-402d-977c-e883e9dff131": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/christy_matsu_rose_lifestyle_2-856753.jpg",
+        "image2": "shopify:\/\/shop_images\/christy_katsura_vintage_main-338117.jpg",
+        "subtitle": "Luxe Deal of the Day",
+        "title": "<p>Flat 50% Off on Printed Bedding<\/p>",
+        "copy": "",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/collections\/printed-and-hand-painted-bedding",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
+      }
+    },
+    "2a41d139-f089-4799-a878-1010cd70b8bc": {
+      "type": "heading",
+      "disabled": true,
+      "settings": {
+        "heading": "<p>Unbeatable Deals on Towels, Bedding and More!<\/p>",
+        "heading_width": "6",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
+      }
+    },
     "1faadb62-9346-46cf-8500-cc18fc75bda3": {
       "type": "heading",
       "settings": {
         "heading": "<p>Threaded Bliss: Unwrap Luxury with Black Friday Bath Deals!<\/p>",
-        "heading_width": "6",
+        "heading_width": "4",
         "copy": "",
         "copy_style": "default",
         "alignment": "center",
@@ -322,7 +323,7 @@
       "type": "heading",
       "settings": {
         "heading": "<p>Dream in Style: Black Friday Luxury Bedding Bonanza!<\/p>",
-        "heading_width": "6",
+        "heading_width": "4",
         "copy": "",
         "copy_style": "default",
         "alignment": "center",
@@ -837,11 +838,11 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
+    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
+    "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
     "2a41d139-f089-4799-a878-1010cd70b8bc",
-    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
-    "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "1faadb62-9346-46cf-8500-cc18fc75bda3",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "0ea7c509-a0e6-4f26-8f0f-2d0f5eb7a796",
