@@ -313,7 +313,7 @@
           "settings": {
             "title": "Free Shipping & Returns",
             "copy": "<p>Free Shipping above GBP 50 plus our Worry-Free Return Guarantee.<\/p>",
-            "button_link": "shopify:\/\/policies\/shipping-policy",
+            "button_link": "shopify:\/\/pages\/shipping-policy",
             "button_title": "Learn More"
           }
         }
