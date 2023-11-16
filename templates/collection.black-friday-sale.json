@@ -157,8 +157,8 @@
       "type": "products-carousel",
       "settings": {
         "title": "Big Discounts on Best Sellers",
-        "button_title": "",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_title": "Shop All Black Friday",
+        "button_link": "shopify:\/\/collections\/offers-shop-all-sale",
         "products": [
           "renaissance",
           "400-thread-count-sateen-plain-dye",
