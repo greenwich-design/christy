@@ -576,6 +576,49 @@
         "heading": "Previously explored"
       }
     },
+    "d9350269-9c53-4976-897a-27cf368fb2c9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "sub_title_size": "h2"
+          }
+        },
+        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-main_heading-1": {
+          "type": "main_heading",
+          "settings": {
+            "heading": "Klarna"
+          }
+        },
+        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Split your Purchase into three interest free payments<\/p>"
+          }
+        },
+        "abe23243-0761-4a67-854b-6cdcae812b64": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https:\/\/www.christy.co.uk\/pages\/klarna-faqs?ose=false",
+            "button_label_2": "",
+            "button_link_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-heading-1",
+        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-main_heading-1",
+        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-text-1",
+        "abe23243-0761-4a67-854b-6cdcae812b64"
+      ],
+      "settings": {
+        "full_width": false,
+        "anchor_id": ""
+      }
+    },
     "2842eb42-811e-4056-970a-2f1bcc377e84": {
       "type": "images-copy-cta",
       "settings": {
@@ -584,8 +627,8 @@
         "subtitle": "",
         "title": "<p>Create your own Gift Box<\/p>",
         "copy": "<p>Elevate your gift-giving experience with our luxurious signature gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
-        "button_label": "",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_label": "Shop our Gifting Range",
+        "button_link": "shopify:\/\/collections\/gifts",
         "content_position": "right",
         "header_position": false,
         "images_half_width": false,
@@ -636,49 +679,6 @@
       ],
       "settings": {
         "title": "It takes 3 Simple Steps"
-      }
-    },
-    "d9350269-9c53-4976-897a-27cf368fb2c9": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "sub_title_size": "h2"
-          }
-        },
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-main_heading-1": {
-          "type": "main_heading",
-          "settings": {
-            "heading": "Klarna"
-          }
-        },
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Split your Purchase into three interest free payments<\/p>"
-          }
-        },
-        "abe23243-0761-4a67-854b-6cdcae812b64": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "https:\/\/www.christy.co.uk\/pages\/klarna-faqs?ose=false",
-            "button_label_2": "",
-            "button_link_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-heading-1",
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-main_heading-1",
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-text-1",
-        "abe23243-0761-4a67-854b-6cdcae812b64"
-      ],
-      "settings": {
-        "full_width": false,
-        "anchor_id": ""
       }
     },
     "toggled-body-content": {
@@ -829,9 +829,9 @@
     "07a57dc8-34ac-41ee-96df-37021aef7941",
     "product-grid",
     "recent-products",
+    "d9350269-9c53-4976-897a-27cf368fb2c9",
     "2842eb42-811e-4056-970a-2f1bcc377e84",
     "ed3fec5f-2dcd-4456-9169-b2f17089966f",
-    "d9350269-9c53-4976-897a-27cf368fb2c9",
     "toggled-body-content"
   ]
 }
