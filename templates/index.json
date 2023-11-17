@@ -214,7 +214,7 @@
           "settings": {
             "collection": "all-bedding",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Chambray_Blue_Lifestyle_2.jpg",
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_15.jpg",
             "alt_title": "Bed",
             "excerpt": "<p>Slip between a fresh pair of sheets, from crisp cotton options to sumptuously silky ones.<\/p>"
           }
@@ -224,7 +224,7 @@
           "settings": {
             "collection": "all-bath",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/blog_bath_da15fde6-8e3a-49aa-abb4-2578bd0960c7.jpg",
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_14.jpg",
             "alt_title": "Bath",
             "excerpt": ""
           }
@@ -234,7 +234,7 @@
           "settings": {
             "collection": "all-loungewear",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Super_soft_Cosy_Robe_mobile_banner.jpg",
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_7.jpg",
             "alt_title": "Bath Robes",
             "excerpt": "<p>Embrace the feeling of a gentle hug all day with our plush bath robes.<\/p>"
           }
@@ -244,8 +244,8 @@
           "settings": {
             "collection": "all-accessories",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Jaipur_Peacock_Lifestyle-504945.jpg",
-            "alt_title": "Throws & Cushions",
+            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_5.jpg",
+            "alt_title": "Throws, Cushions",
             "excerpt": "<p>Transform your space into a cosy haven with our throws and cushions.<\/p>"
           }
         }
@@ -256,7 +256,6 @@
         "ade5aede-0029-4b09-aee8-6e48f8cfe8be",
         "554b3657-1406-482e-9b26-71d2a737a878"
       ],
-      "disabled": true,
       "settings": {
         "title": "Shop our Categories",
         "screen_visibility": "both"
