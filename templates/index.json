@@ -652,28 +652,28 @@
         "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-1": {
           "type": "block",
           "settings": {
-            "product": "",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
+            "product": "renaissance",
+            "title": "Renaissance Towels",
+            "testimonial": "<p>\"Lovely quality towels which don’t leave fluff all over the bathroom and dry really well.\"<\/p>",
+            "name": "Averii Richards"
           }
         },
         "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-2": {
           "type": "block",
           "settings": {
-            "product": "",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
+            "product": "400-thread-count-sateen-plain-dye",
+            "title": "Smooth & Silky Cotton Sateen Duvet Set",
+            "testimonial": "<p>\"Gorgeous sheets! Beautiful colour as well. Cannot go wrong with Christy!\"<\/p>",
+            "name": "Ellie Foulkes"
           }
         },
         "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-3": {
           "type": "block",
           "settings": {
-            "product": "",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
+            "product": "super-soft-cosy-robe",
+            "title": "Super Soft Cosy Robe",
+            "testimonial": "<p>\"So pleased to find this gorgeous robe in something other than grey or navy; poolside was perfect. The colour, quality and supersoftness surpassed all expectations.\"<\/p>",
+            "name": "A Hall"
           }
         }
       },
@@ -682,11 +682,10 @@
         "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-2",
         "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-3"
       ],
-      "disabled": true,
       "settings": {
-        "title": "100,000+ Happy Customers",
-        "button_title": "Read Our Reviews",
-        "button_link": "shopify:\/\/collections\/all",
+        "title": "Thousands of Happy Customers",
+        "button_title": "Shop the Range",
+        "button_link": "shopify:\/\/collections\/shop-all",
         "margin": "yes"
       }
     },
