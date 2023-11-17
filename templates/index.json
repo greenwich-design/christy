@@ -330,6 +330,49 @@
         "mobile_content_position": "overlay"
       }
     },
+    "0e8d554c-badf-4239-a36e-276ffacfb5fc": {
+      "type": "reviews-carousel",
+      "blocks": {
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-1": {
+          "type": "block",
+          "settings": {
+            "product": "renaissance",
+            "title": "Renaissance Towels",
+            "testimonial": "<p>\"Lovely quality towels which don’t leave fluff all over the bathroom and dry really well.\"<\/p>",
+            "name": "Averii Richards"
+          }
+        },
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-2": {
+          "type": "block",
+          "settings": {
+            "product": "400-thread-count-sateen-plain-dye",
+            "title": "Smooth & Silky Cotton Sateen Duvet Set",
+            "testimonial": "<p>\"Gorgeous sheets! Beautiful colour as well. Cannot go wrong with Christy!\"<\/p>",
+            "name": "Ellie Foulkes"
+          }
+        },
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-3": {
+          "type": "block",
+          "settings": {
+            "product": "super-soft-cosy-robe",
+            "title": "Super Soft Cosy Robe",
+            "testimonial": "<p>\"So pleased to find this gorgeous robe in something other than grey or navy; poolside was perfect. The colour, quality and supersoftness surpassed all expectations.\"<\/p>",
+            "name": "A Hall"
+          }
+        }
+      },
+      "block_order": [
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-1",
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-2",
+        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-3"
+      ],
+      "settings": {
+        "title": "Thousands of Happy Customers",
+        "button_title": "Shop the Range",
+        "button_link": "shopify:\/\/collections\/shop-all",
+        "margin": "yes"
+      }
+    },
     "heading2": {
       "type": "heading",
       "settings": {
@@ -646,49 +689,6 @@
         "button_link": "#quiz-gWHPoe"
       }
     },
-    "0e8d554c-badf-4239-a36e-276ffacfb5fc": {
-      "type": "reviews-carousel",
-      "blocks": {
-        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-1": {
-          "type": "block",
-          "settings": {
-            "product": "renaissance",
-            "title": "Renaissance Towels",
-            "testimonial": "<p>\"Lovely quality towels which don’t leave fluff all over the bathroom and dry really well.\"<\/p>",
-            "name": "Averii Richards"
-          }
-        },
-        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-2": {
-          "type": "block",
-          "settings": {
-            "product": "400-thread-count-sateen-plain-dye",
-            "title": "Smooth & Silky Cotton Sateen Duvet Set",
-            "testimonial": "<p>\"Gorgeous sheets! Beautiful colour as well. Cannot go wrong with Christy!\"<\/p>",
-            "name": "Ellie Foulkes"
-          }
-        },
-        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-3": {
-          "type": "block",
-          "settings": {
-            "product": "super-soft-cosy-robe",
-            "title": "Super Soft Cosy Robe",
-            "testimonial": "<p>\"So pleased to find this gorgeous robe in something other than grey or navy; poolside was perfect. The colour, quality and supersoftness surpassed all expectations.\"<\/p>",
-            "name": "A Hall"
-          }
-        }
-      },
-      "block_order": [
-        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-1",
-        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-2",
-        "template--21202652987680__0e8d554c-badf-4239-a36e-276ffacfb5fc-block-3"
-      ],
-      "settings": {
-        "title": "Thousands of Happy Customers",
-        "button_title": "Shop the Range",
-        "button_link": "shopify:\/\/collections\/shop-all",
-        "margin": "yes"
-      }
-    },
     "bbf93ecd-97cb-4132-8a09-2c78d8f01317": {
       "type": "collections-carousel",
       "blocks": {
@@ -756,6 +756,7 @@
     "37b580cc-c4d2-4e4e-83ee-b35a93d386e3",
     "ab40295a-0b7a-4298-9100-6079c0215e8e",
     "billboard",
+    "0e8d554c-badf-4239-a36e-276ffacfb5fc",
     "heading2",
     "c-info-columns",
     "billboard2",
@@ -769,7 +770,6 @@
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
     "2970b3ab-743a-4054-95d1-048d41881e08",
-    "0e8d554c-badf-4239-a36e-276ffacfb5fc",
     "bbf93ecd-97cb-4132-8a09-2c78d8f01317"
   ]
 }
