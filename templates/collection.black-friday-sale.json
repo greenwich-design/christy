@@ -223,8 +223,31 @@
         "margin": "yes"
       }
     },
+    "20b0aa22-bb43-4d2e-a28b-0d6b9fa691c1": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "The Flat 50% Off Collection",
+        "button_title": "See more",
+        "button_link": "shopify:\/\/collections\/clearance",
+        "products": [
+          "signum-675-gsm-combed-cotton",
+          "signum-bath-mat",
+          "coniston-bed-linen",
+          "katsura-bed-linen",
+          "tribeca-towels",
+          "serene-550-gsm-combed-cotton",
+          "midori-towels",
+          "matsu-bed-linen",
+          "meeko-bed-linen",
+          "appleby-bed-linen",
+          "anti-allergy-mattress-and-pillow-protectors"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "b9932fb5-c80a-402d-977c-e883e9dff131": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/christy_matsu_rose_lifestyle_2-856753.jpg",
         "image2": "shopify:\/\/shop_images\/christy_katsura_vintage_main-338117.jpg",
@@ -816,6 +839,7 @@
     "e922dd6b-de11-4348-9389-5260d6fa205a",
     "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
+    "20b0aa22-bb43-4d2e-a28b-0d6b9fa691c1",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
     "2a41d139-f089-4799-a878-1010cd70b8bc",
     "1faadb62-9346-46cf-8500-cc18fc75bda3",
