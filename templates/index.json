@@ -2,7 +2,6 @@
   "sections": {
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1.png",
         "link": "shopify:\/\/collections\/black-friday-sale",
@@ -14,6 +13,7 @@
       "blocks": {
         "8c3ac597-805a-4b98-a59f-708e3545945d": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/blog_bath_da15fde6-8e3a-49aa-abb4-2578bd0960c7.jpg",
             "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
@@ -119,6 +119,7 @@
         "1579b4d5-aece-4950-8c76-63c7dde11b59",
         "300051d6-e970-41cd-85eb-dbf2d26a8012"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
