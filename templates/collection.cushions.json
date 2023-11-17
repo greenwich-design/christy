@@ -2,7 +2,6 @@
   "sections": {
     "f7729c9a-ee54-4479-8049-929822276cb7": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Collection_Banner.jpg",
         "link": "",
