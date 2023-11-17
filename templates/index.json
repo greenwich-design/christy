@@ -159,20 +159,6 @@
         "anchor_id": ""
       }
     },
-    "ab40295a-0b7a-4298-9100-6079c0215e8e": {
-      "type": "heading",
-      "disabled": true,
-      "settings": {
-        "heading": "<p>Discover the magic in <br\/>everyday moments.<\/p>",
-        "heading_width": "4",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "center",
-        "alignment_mob": "center",
-        "horiz_padding": true,
-        "margin_top": false
-      }
-    },
     "heading": {
       "type": "heading",
       "disabled": true,
@@ -261,72 +247,6 @@
         "screen_visibility": "both"
       }
     },
-    "billboard": {
-      "type": "billboard",
-      "settings": {
-        "screen_visibility": "both",
-        "image": "shopify:\/\/shop_images\/bath-home.jpg",
-        "subtitle": "Explore",
-        "title": "<p>Bath<\/p>",
-        "copy": "<p>Step into a spa-like sanctuary with our luxurious selection of bathroom products.<\/p>",
-        "button_label": "Shop All",
-        "button_link": "shopify:\/\/collections\/all-bath",
-        "button_type": "default",
-        "colour_theme": "white",
-        "alignment": "left",
-        "alignment_vertical": "top",
-        "mobile_content_position": "overlay"
-      }
-    },
-    "c-info-columns": {
-      "type": "c-info-columns",
-      "blocks": {
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/thick-fluffy.jpg",
-            "image_aspect": "1:1",
-            "title": "Thick & Indulgent",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "all-bath",
-            "collection_tag": "Thick & Indulgent"
-          }
-        },
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/light-easy.jpg",
-            "image_aspect": "1:1",
-            "title": "Fluffy & Light",
-            "text": "<p>Keep your home comforts close with take-them-anywhere lightweight options. <\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "all-bath",
-            "collection_tag": "Fluffy & Light"
-          }
-        },
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/invigorating.jpg",
-            "image_aspect": "2:3",
-            "title": "Invigorating & Durable",
-            "text": "<p>Start (or end) your day the refreshing way, with our selection of revitalising products.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "all-bath",
-            "collection_tag": "Invigorating & Durable"
-          }
-        }
-      },
-      "block_order": [
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-0",
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-1",
-        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2"
-      ],
-      "settings": {
-        "title": "How do you like your towels?"
-      }
-    },
     "37b580cc-c4d2-4e4e-83ee-b35a93d386e3": {
       "type": "benefits-icons",
       "blocks": {
@@ -378,6 +298,38 @@
         "margin": "yes"
       }
     },
+    "ab40295a-0b7a-4298-9100-6079c0215e8e": {
+      "type": "heading",
+      "disabled": true,
+      "settings": {
+        "heading": "<p>Discover the magic in <br\/>everyday moments.<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
+      }
+    },
+    "billboard": {
+      "type": "billboard",
+      "disabled": true,
+      "settings": {
+        "screen_visibility": "both",
+        "image": "shopify:\/\/shop_images\/bath-home.jpg",
+        "subtitle": "Explore",
+        "title": "<p>Bath<\/p>",
+        "copy": "<p>Step into a spa-like sanctuary with our luxurious selection of bathroom products.<\/p>",
+        "button_label": "Shop All",
+        "button_link": "shopify:\/\/collections\/all-bath",
+        "button_type": "default",
+        "colour_theme": "white",
+        "alignment": "left",
+        "alignment_vertical": "top",
+        "mobile_content_position": "overlay"
+      }
+    },
     "heading2": {
       "type": "heading",
       "settings": {
@@ -391,8 +343,58 @@
         "margin_top": false
       }
     },
+    "c-info-columns": {
+      "type": "c-info-columns",
+      "blocks": {
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/thick-fluffy.jpg",
+            "image_aspect": "1:1",
+            "title": "Thick & Indulgent",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bath",
+            "collection_tag": "Thick & Indulgent"
+          }
+        },
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/light-easy.jpg",
+            "image_aspect": "1:1",
+            "title": "Fluffy & Light",
+            "text": "<p>Keep your home comforts close with take-them-anywhere lightweight options. <\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bath",
+            "collection_tag": "Fluffy & Light"
+          }
+        },
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/invigorating.jpg",
+            "image_aspect": "2:3",
+            "title": "Invigorating & Durable",
+            "text": "<p>Start (or end) your day the refreshing way, with our selection of revitalising products.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-bath",
+            "collection_tag": "Invigorating & Durable"
+          }
+        }
+      },
+      "block_order": [
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-0",
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-1",
+        "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2"
+      ],
+      "settings": {
+        "title": "How do you like your towels?"
+      }
+    },
     "billboard2": {
       "type": "billboard",
+      "disabled": true,
       "settings": {
         "screen_visibility": "both",
         "image": "shopify:\/\/shop_images\/bed-home.jpg",
@@ -749,14 +751,14 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d",
     "hero-collection",
     "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0",
-    "ab40295a-0b7a-4298-9100-6079c0215e8e",
     "heading",
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad",
     "de1b0a2d-4cb0-4dbd-a641-18437895549a",
-    "billboard",
-    "c-info-columns",
     "37b580cc-c4d2-4e4e-83ee-b35a93d386e3",
+    "ab40295a-0b7a-4298-9100-6079c0215e8e",
+    "billboard",
     "heading2",
+    "c-info-columns",
     "billboard2",
     "c-info-columns2",
     "billboard3",
