@@ -194,6 +194,12 @@
           "item_widget_text_alignment": "--wrapped-checkbox--label-left",
           "product_widget_text_alignment": "--wrapped-checkbox--label-left"
         }
+      },
+      "8097129455477022803": {
+        "type": "shopify:\/\/apps\/animify-storefront-animation\/blocks\/animify-embed\/ac151f31-6933-4292-8fdf-785225fc0d8a",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
