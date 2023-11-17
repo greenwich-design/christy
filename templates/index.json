@@ -126,6 +126,39 @@
       "settings": {
       }
     },
+    "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "sub_title_size": "h2"
+          }
+        },
+        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-main_heading-1": {
+          "type": "main_heading",
+          "settings": {
+            "heading": "Extended Hassle Free Returns"
+          }
+        },
+        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wrap up your Christmas shopping early! We will now accept returns and exchanges till 31st January 2024.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-heading-1",
+        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-main_heading-1",
+        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-text-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "anchor_id": ""
+      }
+    },
     "ab40295a-0b7a-4298-9100-6079c0215e8e": {
       "type": "heading",
       "disabled": true,
@@ -142,6 +175,7 @@
     },
     "heading": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Discover the magic in <br\/>everyday moments.<\/p>",
         "heading_width": "4",
@@ -710,44 +744,12 @@
         "title": "Shop by Category",
         "screen_visibility": "both"
       }
-    },
-    "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "sub_title_size": "h2"
-          }
-        },
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-main_heading-1": {
-          "type": "main_heading",
-          "settings": {
-            "heading": "Extended Hassle Free Returns"
-          }
-        },
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wrap up your Christmas shopping early! We will now accept returns and exchanges till 31st January 2024.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-heading-1",
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-main_heading-1",
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-text-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "anchor_id": ""
-      }
     }
   },
   "order": [
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d",
     "hero-collection",
+    "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0",
     "ab40295a-0b7a-4298-9100-6079c0215e8e",
     "heading",
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad",
@@ -768,7 +770,6 @@
     "d1799047-2d3f-4748-9804-8038692b0c63",
     "2970b3ab-743a-4054-95d1-048d41881e08",
     "0e8d554c-badf-4239-a36e-276ffacfb5fc",
-    "bbf93ecd-97cb-4132-8a09-2c78d8f01317",
-    "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0"
+    "bbf93ecd-97cb-4132-8a09-2c78d8f01317"
   ]
 }
