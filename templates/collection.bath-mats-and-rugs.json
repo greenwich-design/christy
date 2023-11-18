@@ -2,8 +2,17 @@
   "sections": {
     "1141d3ad-2866-4abb-8256-033fc8707c39": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Collection_Banner.jpg",
+        "link": "",
+        "full_width": true
+      }
+    },
+    "75ff7348-8c55-4232-af26-43c33e5ae748": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Christy_Banner_2_9e46f4f8-066e-4848-8b30-fe38188d6a4c.png",
         "link": "",
         "full_width": true
       }
@@ -103,6 +112,7 @@
   },
   "order": [
     "1141d3ad-2866-4abb-8256-033fc8707c39",
+    "75ff7348-8c55-4232-af26-43c33e5ae748",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426"
