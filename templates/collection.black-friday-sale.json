@@ -2,8 +2,17 @@
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1.png",
+        "link": "",
+        "full_width": true
+      }
+    },
+    "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4.png",
         "link": "",
         "full_width": true
       }
@@ -492,40 +501,6 @@
         "screen_visibility": "both"
       }
     },
-    "07a57dc8-34ac-41ee-96df-37021aef7941": {
-      "type": "reviews-carousel",
-      "blocks": {
-        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-1": {
-          "type": "block",
-          "settings": {
-            "product": "smooth-and-silky-cotton-sateen-fitted-sheet",
-            "title": "Smooth & Silky Cotton Sateen Deep Fitted Sheet - 400 TC",
-            "testimonial": "<p>\"I have bought Christy bedding before and have always been impressed by the quality - This purchase as no different, excellent items and enhances my sleep quality\"<\/p>",
-            "name": "Charles Shelley"
-          }
-        },
-        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2": {
-          "type": "block",
-          "settings": {
-            "product": "luxury-microfibre-13-5-tog-duvet",
-            "title": "Luxury Microfibre 13.5 Tog Duvet",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
-          }
-        }
-      },
-      "block_order": [
-        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-1",
-        "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Unveiling the Christy Experience: Happy Customer Reviews",
-        "button_title": "Shop Bedding on Sale",
-        "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
-        "margin": "yes"
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -835,6 +810,7 @@
   },
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
+    "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
@@ -852,7 +828,6 @@
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "393634d4-53d9-4c8e-be41-45c5d425188a",
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
-    "07a57dc8-34ac-41ee-96df-37021aef7941",
     "product-grid",
     "recent-products",
     "d9350269-9c53-4976-897a-27cf368fb2c9",
