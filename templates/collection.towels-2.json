@@ -99,12 +99,20 @@
         "alignment_vertical": "center",
         "mobile_content_position": "overlay"
       }
+    },
+    "350a0dfc-aa6f-4324-a5e0-c8df8361e76f": {
+      "type": "hero-image",
+      "settings": {
+        "link": "",
+        "full_width": true
+      }
     }
   },
   "order": [
     "1d82b188-dbd0-4b5a-9133-e748104fe16d",
     "product-grid",
     "recent-products",
-    "32651ade-df62-44f5-8355-bb4039f60426"
+    "32651ade-df62-44f5-8355-bb4039f60426",
+    "350a0dfc-aa6f-4324-a5e0-c8df8361e76f"
   ]
 }
