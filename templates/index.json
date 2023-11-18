@@ -13,7 +13,7 @@
       "type": "hero-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/4.png",
-        "link": "",
+        "link": "shopify:\/\/collections\/black-friday-sale",
         "full_width": true
       }
     },
