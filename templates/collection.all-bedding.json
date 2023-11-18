@@ -8,6 +8,14 @@
         "full_width": true
       }
     },
+    "039e5ce4-f144-479c-bfe7-c6b54629b19c": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "full_width": true
+      }
+    },
     "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
       "type": "hero-collection",
       "blocks": {
@@ -555,6 +563,7 @@
   },
   "order": [
     "39b56b76-44e1-4c0a-9d31-c4d952d9caef",
+    "039e5ce4-f144-479c-bfe7-c6b54629b19c",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",

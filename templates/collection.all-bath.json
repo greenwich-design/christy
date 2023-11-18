@@ -8,6 +8,14 @@
         "full_width": true
       }
     },
+    "34bcb026-f7c3-41ed-b614-17526b336a4c": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "link": "",
+        "full_width": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -211,6 +219,7 @@
   },
   "order": [
     "898f7013-561e-48e7-986b-a539be6c7156",
+    "34bcb026-f7c3-41ed-b614-17526b336a4c",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426",
