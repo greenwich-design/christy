@@ -2,7 +2,6 @@
   "sections": {
     "1d82b188-dbd0-4b5a-9133-e748104fe16d": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Collection_Banner.jpg",
         "link": "",
@@ -11,6 +10,7 @@
     },
     "350a0dfc-aa6f-4324-a5e0-c8df8361e76f": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Christy_Banner_2_9e46f4f8-066e-4848-8b30-fe38188d6a4c.png",
         "link": "",
