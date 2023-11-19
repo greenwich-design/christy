@@ -2,7 +2,6 @@
   "sections": {
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1.png",
         "link": "shopify:\/\/collections\/black-friday-sale",
@@ -11,6 +10,7 @@
     },
     "689ece98-c46a-4fdf-962c-0f3513240756": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/4.png",
         "link": "shopify:\/\/collections\/black-friday-sale",
