@@ -145,628 +145,649 @@
   {% assign current_url = canonical_url %}
   {% assign current_url = current_url | replace: shop.secure_url, '' %}
 
-  <div class="product md:flex md:space-x-6 md:justify-between container">
-    {% if product.media.size > 0 %}
-      <div class="product__gallery md:w-6/12 ">
-        {% render 'product-media-gallery', variant_images: variant_images, current_variant: current_variant %}
-      </div>
-    {% endif %}
+  {% comment %}
+    start of bundle
+  {% endcomment %}
+  {% assign bundleData = product.metafields.christyapp.bundleData %}
+  {% if bundleData and product.selected_variant.id == null %}
+    {% render 'bundle-builder',
+      bundleData: bundleData,
+      product: product,
+      section: section,
+      current_variant: current_variant,
+      selected_colour: selected_colour
+    %}
+  {% else %}
+    {% comment %}
+      end of bundle
+    {% endcomment %}
 
-    <div class="product__info-wrapper md:w-6/12 lg:w-5/12 self-start md:sticky md:top-[100px] relative max-md:pt-7 z-10">
-      <product-info
-        id="ProductInfo-{{ section.id }}"
-        data-section="{{ section.id }}"
-        data-url="{{ product.url }}"
-        data-url-actual="{{ current_url }}"
-        class="text-blue-1 space-y-6"
-      >
-        {%- assign product_form_id = 'product-form-' | append: section.id -%}
+    <div class="product md:flex md:space-x-6 md:justify-between container">
+      {% if product.media.size > 0 %}
+        <div class="product__gallery md:w-6/12 ">
+          {% render 'product-media-gallery', variant_images: variant_images, current_variant: current_variant %}
+        </div>
+      {% endif %}
 
-        <div>
-          {%- unless product.has_only_default_variant -%}
-            {%- for option in product.options_with_values -%}
-              {% assign selectedValue = option.selected_value | handleize %}
+      <div class="product__info-wrapper md:w-6/12 lg:w-5/12 self-start md:sticky md:top-[100px] relative max-md:pt-7 z-10">
+        <product-info
+          id="ProductInfo-{{ section.id }}"
+          data-section="{{ section.id }}"
+          data-url="{{ product.url }}"
+          data-url-actual="{{ current_url }}"
+          data-productprice="{{ current_variant.price }}"
+          data-featimage="{% if current_variant.featured_media.src != blank %}{{ current_variant.featured_media.src | image_url: width: 200, height: 200 }}{% endif %}"
+          data-variantid="{{ current_variant.id }}"
+          class="text-blue-1 space-y-6"
+        >
+          {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
-              {%- if option.name == 'Colour' or option.name == 'Color' %}
-                <div
-                  id="colour-picker-mobile"
-                  role="button"
-                  class="w-auto max-md:-mx-[40px] absolute top-0 left-0 right-0 -translate-y-full bg-white container md:hidden invisible opacity-0 transition-[opacity,transform,visibility] duration-500"
-                  aria-hidden="true"
-                >
-                  <div class="flex justify-between py-5 border-b border-blue-1/10 space-x-5">
-                    <div class="flex items-center gap-y-1 gap-3 flex-wrap">
-                      {% render 'product-variant-options',
+          <div>
+            {%- unless product.has_only_default_variant -%}
+              {%- for option in product.options_with_values -%}
+                {% assign selectedValue = option.selected_value | handleize %}
+
+                {%- if option.name == 'Colour' or option.name == 'Color' %}
+                  <div
+                    id="colour-picker-mobile"
+                    role="button"
+                    class="w-auto max-md:-mx-[40px] absolute top-0 left-0 right-0 -translate-y-full bg-white container md:hidden invisible opacity-0 transition-[opacity,transform,visibility] duration-500"
+                    aria-hidden="true"
+                  >
+                    <div class="flex justify-between py-5 border-b border-blue-1/10 space-x-5">
+                      <div class="flex items-center gap-y-1 gap-3 flex-wrap">
+                        {% render 'product-variant-options',
+                          product: product,
+                          option: option,
+                          block: block,
+                          button_type: true,
+                          name_custom: 'mob',
+                          selected_colour: selected_colour,
+                          selected_size: selected_size,
+                          selectedValue: selectedValue,
+                          current_variant: current_variant
+                        %}
+                      </div>
+                      <span class="current-variation font-light whitespace-nowrap">
+                        {{ option.name }}:
+                        <strong data-varcurrent="{{ option.name }}">
+                          {{ current_variant.option1 }}
+                        </strong>
+                      </span>
+                    </div>
+                  </div>
+                  {% break %}
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endunless -%}
+
+            <div
+              id="product-panel"
+              class="max-md:bg-white/90 transition-colors "
+            >
+              <div id="product-panel-child" class="space-y-7 max-md:flex max-md:flex-col max-md:items-stretch">
+                <header class="space-y-2 md:space-y-4">
+                  <h1 class="m-h1 lg:s-d-h4">{{ product.title | escape }}</h1>
+
+                  {% if product.metafields.christy23.tagline_pdp %}
+                    <div class="flex justify-between space-x-5">
+                      <div>
+                        <p class="font-semibold lg:d-h5">{{ product.metafields.christy23.tagline_pdp.value }}</p>
+                      </div>
+                    </div>
+                  {% endif %}
+                </header>
+
+                <div class="flex gap-3 justify-between md:items-center max-md:flex-col !mt-5">
+                  <div data-dynprice>
+                    {% if is_product_bundle %}
+                      {% liquid
+                        assign bp_compare_at_price = current_variant.compare_at_price
+                        assign bp_price = current_variant.price
+                      %}
+                      {% render 'bundle-price-discount', bp_compare_at_price: bp_compare_at_price, bp_price: bp_price %}
+                    {% else %}
+                      {% if product.price_min != product.price_max %}
+                        <p>
+                          <strong class="inline-block">
+                            {{- product.price_min | money }} - {{ product.price_max | money -}}
+                          </strong>
+                        </p>
+                      {% else %}
+                        <p>
+                          <strong class="inline-block">{{ product.price | money }}</strong>
+                        </p>
+                      {% endif %}
+                    {% endif %}
+                  </div>
+
+                  <!-- TrustBox widget - Product Mini -->
+                  <div id="trustpilot-wrap" class="flex md:justify-end [&>*]:pointer-events-none cursor-pointer">
+                    <div
+                      class="trustpilot-widget"
+                      data-locale="en-US"
+                      data-template-id="54d39695764ea907c0f34825"
+                      data-businessunit-id="5c9e0477c7d1190001144cb3"
+                      data-style-height="15px"
+                      data-style-width="190px"
+                      data-theme="light"
+                      data-sku="{{ variant_skus }}"
+                      data-name="{{ product.title }}"
+                      data-scroll-to-list="true"
+                      data-style-alignment="left"
+                      style="height: 15px;width: 190px;"
+                    ></div>
+                  </div>
+                  <!-- End TrustBox widget -->
+                </div>
+
+                <div class="wysiwyg max-md:order-10 max-md:border-t max-md:border-blue-1/10 max-md:pt-5">
+                  {{ product.description }}
+                </div>
+
+                {%- unless product.has_only_default_variant -%}
+                  <div
+                    data-moboptions="true"
+                    class=" md:!h-auto overflow-hidden !mt-0 md:!mt-6 max-md:pt-7"
+                  >
+                    <div class=" max-md:pt-5 max-md:border-t max-md:border-blue-1/10">
+                      {% render 'product-variant-picker',
                         product: product,
-                        option: option,
-                        block: block,
-                        button_type: true,
-                        name_custom: 'mob',
+                        product_form_id: product_form_id,
                         selected_colour: selected_colour,
                         selected_size: selected_size,
-                        selectedValue: selectedValue,
                         current_variant: current_variant
                       %}
                     </div>
-                    <span class="current-variation font-light whitespace-nowrap">
-                      {{ option.name }}:
-                      <strong data-varcurrent="{{ option.name }}">
-                        {{ current_variant.option1 }}
-                      </strong>
-                    </span>
                   </div>
-                </div>
-                {% break %}
-              {%- endif -%}
-            {%- endfor -%}
-          {%- endunless -%}
+                {%- endunless -%}
 
-          <div
-            id="product-panel"
-            class="max-md:bg-white/90 transition-colors "
-          >
-            <div id="product-panel-child" class="space-y-7 max-md:flex max-md:flex-col max-md:items-stretch">
-              <header class="space-y-2 md:space-y-4">
-                <h1 class="m-h1 lg:s-d-h4">{{ product.title | escape }}</h1>
-
-                {% if product.metafields.christy23.tagline_pdp %}
-                  <div class="flex justify-between space-x-5">
-                    <div>
-                      <p class="font-semibold lg:d-h5">{{ product.metafields.christy23.tagline_pdp.value }}</p>
-                    </div>
+                {% if product.metafields.custom.product_specification != blank %}
+                  <div id="sideguidewrap" class="text-right max-md:hidden">
+                    <a href="#sizeguide" aria-label="Go to sizeguide" class="btn-tertiary" data-sizeguideto
+                      >View Size Guide</a
+                    >
                   </div>
                 {% endif %}
-              </header>
 
-              <div class="flex gap-3 justify-between md:items-center max-md:flex-col !mt-5">
-                <div data-dynprice>
-                  {% if is_product_bundle %}
-                    {% liquid
-                      assign bp_compare_at_price = current_variant.compare_at_price
-                      assign bp_price = current_variant.price
-                    %}
-                    {% render 'bundle-price-discount', bp_compare_at_price: bp_compare_at_price, bp_price: bp_price %}
-                  {% else %}
-                    {% if product.price_min != product.price_max %}
-                      <p>
-                        <strong class="inline-block">
-                          {{- product.price_min | money }} - {{ product.price_max | money -}}
-                        </strong>
-                      </p>
-                    {% else %}
-                      <p>
-                        <strong class="inline-block">{{ product.price | money }}</strong>
-                      </p>
-                    {% endif %}
-                  {% endif %}
+                {% if is_product_bundle %}
+                  <div id="bundle-selector-wrap">
+                    {%- render 'product-bundle-selector',
+                      bundle_products: bundle_products,
+                      product: product,
+                      current_variant: current_variant
+                    -%}
+                  </div>
+                {% endif %}
+
+                <div
+                  id="buy-buttons-wrap"
+                  class="max-md:!mt-0 max-md:py-5 max-md:px-10 max-md:border-y max-md:border-blue-1 max-md:bg-white max-md:fixed max-md:left-0 max-md:bottom-0 z-10 max-md:w-full"
+                >
+                  {%- render 'buy-buttons',
+                    block: block,
+                    product: product,
+                    current_variant: current_variant,
+                    product_form_id: product_form_id,
+                    section_id: section.id,
+                    show_pickup_availability: true
+                  -%}
                 </div>
+              </div>
+            </div>
+          </div>
 
-                <!-- TrustBox widget - Product Mini -->
-                <div id="trustpilot-wrap" class="flex md:justify-end [&>*]:pointer-events-none cursor-pointer">
+          <div class="space-y-6">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when '@app' -%}
+                  {% render block %}
+                {%- when 'text' -%}
+                  <p
+                    class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {{- block.settings.text -}}
+                  </p>
+
+                {%- when 'quantity_selector' -%}
+                  <div
+                    id="Quantity-Form-{{ section.id }}"
+                    class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
+                    {{ block.shopify_attributes }}
+                  >
+                    {% comment %} TODO: enable theme-check once `item_count_for_variant` is accepted as valid filter {% endcomment %}
+                    {% # theme-check-disable %}
+                    {%- assign cart_qty = cart
+                      | item_count_for_variant: product.selected_or_first_available_variant.id
+                    -%}
+                    {% # theme-check-enable %}
+                    <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
+                      {{ 'products.product.quantity.label' | t }}
+                      <span class="quantity__rules-cart no-js-hidden{% if cart_qty == 0 %} hidden{% endif %}">
+                        <span class="loading-overlay hidden">
+                          <span class="loading-overlay__spinner">
+                            <svg
+                              aria-hidden="true"
+                              focusable="false"
+                              class="spinner"
+                              viewBox="0 0 66 66"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                            </svg>
+                          </span>
+                        </span>
+                        <span
+                          >(
+                          {{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}}
+                          )</span
+                        >
+                      </span>
+                    </label>
+                    <quantity-input class="quantity">
+                      <button class="quantity__button no-js-hidden" name="minus" type="button">
+                        <span class="visually-hidden">
+                          {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
+                        </span>
+                        {% render 'icon-minus' %}
+                      </button>
+                      <input
+                        class="quantity__input"
+                        type="number"
+                        name="quantity"
+                        id="Quantity-{{ section.id }}"
+                        data-cart-quantity="{{ cart_qty }}"
+                        data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                        min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                        {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
+                          data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                          max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
+                        {% endif %}
+                        step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
+                        value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
+                        form="{{ product_form_id }}"
+                      >
+                      <button class="quantity__button no-js-hidden" name="plus" type="button">
+                        <span class="visually-hidden">
+                          {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
+                        </span>
+                        {% render 'icon-plus' %}
+                      </button>
+                    </quantity-input>
+                    <div class="quantity__rules caption no-js-hidden">
+                      {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
+                        <span class="divider">
+                          {{-
+                            'products.product.quantity.multiples_of'
+                            | t: quantity: product.selected_or_first_available_variant.quantity_rule.increment
+                          -}}
+                        </span>
+                      {%- endif -%}
+                      {%- if product.selected_or_first_available_variant.quantity_rule.min > 1 -%}
+                        <span class="divider">
+                          {{-
+                            'products.product.quantity.minimum_of'
+                            | t: quantity: product.selected_or_first_available_variant.quantity_rule.min
+                          -}}
+                        </span>
+                      {%- endif -%}
+                      {%- if product.selected_or_first_available_variant.quantity_rule.max != null -%}
+                        <span class="divider">
+                          {{-
+                            'products.product.quantity.maximum_of'
+                            | t: quantity: product.selected_or_first_available_variant.quantity_rule.max
+                          -}}
+                        </span>
+                      {%- endif -%}
+                    </div>
+                  </div>
+                {%- when 'popup' -%}
+                  <modal-opener
+                    class="product-popup-modal__opener no-js-hidden quick-add-hidden"
+                    data-modal="#PopupModal-{{ block.id }}"
+                    {{ block.shopify_attributes }}
+                  >
+                    <button
+                      id="ProductPopup-{{ block.id }}"
+                      class="product-popup-modal__button link"
+                      type="button"
+                      aria-haspopup="dialog"
+                    >
+                      {{ block.settings.text | default: block.settings.page.title }}
+                    </button>
+                  </modal-opener>
+                  <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">
+                    {{- block.settings.text -}}
+                  </a>
+                {%- when 'share' -%}
+                  {% assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin %}
+                  {% render 'share-button', block: block, share_link: share_url %}
+
+                {%- when 'rating' -%}
+                  {%- if product.metafields.reviews.rating.value != blank -%}
+                    {% liquid
+                      assign rating_decimal = 0
+                      assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
+                      if decimal >= 0.3 and decimal <= 0.7
+                        assign rating_decimal = 0.5
+                      elsif decimal > 0.7
+                        assign rating_decimal = 1
+                      endif
+                    %}
+                    <div
+                      class="rating"
+                      role="img"
+                      aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="rating-star"
+                        style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"
+                      ></span>
+                    </div>
+                    <p class="rating-text caption">
+                      <span aria-hidden="true">
+                        {{- product.metafields.reviews.rating.value }} /
+                        {{ product.metafields.reviews.rating.value.scale_max -}}
+                      </span>
+                    </p>
+                    <p class="rating-count caption">
+                      <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
+                      <span class="visually-hidden">
+                        {{- product.metafields.reviews.rating_count }}
+                        {{ 'accessibility.total_reviews' | t -}}
+                      </span>
+                    </p>
+                  {%- endif -%}
+
+                {%- when 'icon-with-text' -%}
+                  {% render 'icon-with-text', block: block %}
+                {%- when 'accordion' %}
+                  <div
+                    class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
+                    {{ block.shopify_attributes }}
+                  >
+                    <h4
+                      data-acc
+                      class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
+                    >
+                      <span class="mr-auto">{{ block.settings.title }}</span>
+                      <span
+                        class="acc-toggle"
+                      ></span>
+                    </h4>
+                    <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
+                      <div class="wysiwyg flex-1">
+                        {{ block.settings.content }}
+                        {{ block.settings.html }}
+
+                        {% if block.settings.button_link and block.settings.button_label %}
+                          <div>
+                            <a class="btn-tertiary" href="{{ block.settings.button_link }}">
+                              {{- block.settings.button_label -}}
+                            </a>
+                          </div>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </div>
+              {%- endcase -%}
+            {%- endfor -%}
+
+            {% comment %}
+              Responsibility
+            {% endcomment %}
+            {% if product.metafields.christy23.product_responsibility != blank %}
+              <div
+                class="!my-0 md:!mt-10 lg:!mt-20 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
+              >
+                <h4
+                  data-acc
+                  class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
+                >
+                  <span class="mr-auto">Responsibility</span>
+                  <span
+                    class="acc-toggle"
+                  ></span>
+                </h4>
+                <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
+                  <div class="wysiwyg flex-1">
+                    {{ product.metafields.christy23.product_responsibility | metafield_tag }}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+            {% comment %}
+              END Responsibility
+            {% endcomment %}
+
+            {% comment %}
+              Specification
+            {% endcomment %}
+            {% if product.metafields.christy23.product_specification != blank %}
+              <div
+                class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
+              >
+                <h4
+                  data-acc
+                  class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
+                >
+                  <span class="mr-auto">Specifications</span>
+                  <span
+                    class="acc-toggle"
+                  ></span>
+                </h4>
+                <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
+                  <div class="wysiwyg flex-1">
+                    {{ product.metafields.christy23.product_specification | metafield_tag }}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+            {% comment %}
+              END Specification
+            {% endcomment %}
+
+            {% comment %}
+              Size Guide
+            {% endcomment %}
+            {% if product.metafields.custom.size_guide != blank %}
+              <div
+                class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
+                data-sizeguide
+                id="sizeguide"
+              >
+                <h4
+                  data-acc
+                  class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
+                >
+                  <span class="mr-auto">Size Guide</span>
+                  <span
+                    class="acc-toggle"
+                  ></span>
+                </h4>
+                <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
+                  <div class=" flex-1 w-full max-lg:-mr-[40px]">
+                    <div class="wysiwyg max-lg:overflow-auto max-lg:pr-[40px] [&_table]:max-lg:text-[10px]">
+                      {{ product.metafields.custom.size_guide }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            {% elsif product.metafields.custom.product_specification != blank %}
+              <div
+                class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
+                data-sizeguide
+                id="sizeguide"
+              >
+                <h4
+                  data-acc
+                  class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
+                >
+                  <span class="mr-auto">Size Guide</span>
+                  <span
+                    class="acc-toggle"
+                  ></span>
+                </h4>
+                <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
+                  <div class=" flex-1 w-full max-lg:-mr-[40px]">
+                    <div class="wysiwyg max-lg:overflow-auto max-lg:pr-[40px] [&_table]:max-lg:text-[10px]">
+                      {{ product.metafields.custom.product_specification }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+            {% comment %}
+              END Specification
+            {% endcomment %}
+
+            {% comment %}
+              Care Guide
+            {% endcomment %}
+            {% if product.metafields.christy23.care_guide != blank %}
+              <div
+                class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
+              >
+                <h4
+                  data-acc
+                  class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
+                >
+                  <span class="mr-auto">Care Guide</span>
+                  <span
+                    class="acc-toggle"
+                  ></span>
+                </h4>
+                <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
+                  <div class="wysiwyg flex-1">
+                    {{ product.metafields.christy23.care_guide | metafield_tag }}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+            {% comment %}
+              END Care Guide
+            {% endcomment %}
+
+            {% comment %}
+              Delivery & Returns
+            {% endcomment %}
+            {% if settings.product_delivery_returns != blank %}
+              <div
+                class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
+              >
+                <h4
+                  data-acc
+                  class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
+                >
+                  <span class="mr-auto">Delivery & Returns</span>
+                  <span
+                    class="acc-toggle"
+                  ></span>
+                </h4>
+                <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
+                  <div class="wysiwyg flex-1">
+                    {{ settings.product_delivery_returns }}
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+            {% comment %}
+              END Delivery & Returns
+            {% endcomment %}
+
+            {% comment %}
+              Reviews
+            {% endcomment %}
+            <div
+              class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
+              id="reviews"
+            >
+              <h4
+                data-acc
+                class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
+              >
+                <span class="mr-auto">Reviews</span>
+                <span
+                  class="acc-toggle"
+                ></span>
+              </h4>
+              <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
+                <div class="wysiwyg flex-1">
                   <div
                     class="trustpilot-widget"
                     data-locale="en-US"
-                    data-template-id="54d39695764ea907c0f34825"
+                    data-template-id="5763bccae0a06d08e809ecbb"
                     data-businessunit-id="5c9e0477c7d1190001144cb3"
-                    data-style-height="15px"
-                    data-style-width="190px"
+                    data-style-width="100%"
+                    data-style-height="500px"
                     data-theme="light"
                     data-sku="{{ variant_skus }}"
                     data-name="{{ product.title }}"
-                    data-scroll-to-list="true"
-                    data-style-alignment="left"
-                    style="height: 15px;width: 190px;"
-                  ></div>
-                </div>
-                <!-- End TrustBox widget -->
-              </div>
-
-              <div class="wysiwyg max-md:order-10 max-md:border-t max-md:border-blue-1/10 max-md:pt-5">
-                {{ product.description }}
-              </div>
-
-              {%- unless product.has_only_default_variant -%}
-                <div
-                  data-moboptions="true"
-                  class=" md:!h-auto overflow-hidden !mt-0 md:!mt-6 max-md:pt-7"
-                >
-                  <div class=" max-md:pt-5 max-md:border-t max-md:border-blue-1/10">
-                    {% render 'product-variant-picker',
-                      product: product,
-                      product_form_id: product_form_id,
-                      selected_colour: selected_colour,
-                      selected_size: selected_size,
-                      current_variant: current_variant
-                    %}
-                  </div>
-                </div>
-              {%- endunless -%}
-
-              {% if product.metafields.custom.product_specification != blank %}
-                <div id="sideguidewrap" class="text-right max-md:hidden">
-                  <a href="#sizeguide" aria-label="Go to sizeguide" class="btn-tertiary" data-sizeguideto
-                    >View Size Guide</a
+                    data-review-languages="en"
+                    data-fullwidth="true"
                   >
-                </div>
-              {% endif %}
-
-              {% if is_product_bundle %}
-                <div id="bundle-selector-wrap">
-                  {%- render 'product-bundle-selector',
-                    bundle_products: bundle_products,
-                    product: product,
-                    current_variant: current_variant
-                  -%}
-                </div>
-              {% endif %}
-
-              <div
-                id="buy-buttons-wrap"
-                class="max-md:!mt-0 max-md:py-5 max-md:px-10 max-md:border-y max-md:border-blue-1 max-md:bg-white max-md:fixed max-md:left-0 max-md:bottom-0 z-10 max-md:w-full"
-              >
-                {%- render 'buy-buttons',
-                  block: block,
-                  product: product,
-                  current_variant: current_variant,
-                  product_form_id: product_form_id,
-                  section_id: section.id,
-                  show_pickup_availability: true
-                -%}
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="space-y-6">
-          {%- for block in section.blocks -%}
-            {%- case block.type -%}
-              {%- when '@app' -%}
-                {% render block %}
-              {%- when 'text' -%}
-                <p
-                  class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
-                  {{ block.shopify_attributes }}
-                >
-                  {{- block.settings.text -}}
-                </p>
-
-              {%- when 'quantity_selector' -%}
-                <div
-                  id="Quantity-Form-{{ section.id }}"
-                  class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}"
-                  {{ block.shopify_attributes }}
-                >
-                  {% comment %} TODO: enable theme-check once `item_count_for_variant` is accepted as valid filter {% endcomment %}
-                  {% # theme-check-disable %}
-                  {%- assign cart_qty = cart
-                    | item_count_for_variant: product.selected_or_first_available_variant.id
-                  -%}
-                  {% # theme-check-enable %}
-                  <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
-                    {{ 'products.product.quantity.label' | t }}
-                    <span class="quantity__rules-cart no-js-hidden{% if cart_qty == 0 %} hidden{% endif %}">
-                      <span class="loading-overlay hidden">
-                        <span class="loading-overlay__spinner">
-                          <svg
-                            aria-hidden="true"
-                            focusable="false"
-                            class="spinner"
-                            viewBox="0 0 66 66"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
-                          </svg>
-                        </span>
-                      </span>
-                      <span
-                        >(
-                        {{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}}
-                        )</span
-                      >
-                    </span>
-                  </label>
-                  <quantity-input class="quantity">
-                    <button class="quantity__button no-js-hidden" name="minus" type="button">
-                      <span class="visually-hidden">
-                        {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
-                      </span>
-                      {% render 'icon-minus' %}
-                    </button>
-                    <input
-                      class="quantity__input"
-                      type="number"
-                      name="quantity"
-                      id="Quantity-{{ section.id }}"
-                      data-cart-quantity="{{ cart_qty }}"
-                      data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
-                      min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
-                      {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
-                        data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                        max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                      {% endif %}
-                      step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
-                      value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
-                      form="{{ product_form_id }}"
+                    <a href="https://www.trustpilot.com/review/christy.co.uk" target="_blank" rel="noopener"
+                      >Trustpilot</a
                     >
-                    <button class="quantity__button no-js-hidden" name="plus" type="button">
-                      <span class="visually-hidden">
-                        {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
-                      </span>
-                      {% render 'icon-plus' %}
-                    </button>
-                  </quantity-input>
-                  <div class="quantity__rules caption no-js-hidden">
-                    {%- if product.selected_or_first_available_variant.quantity_rule.increment > 1 -%}
-                      <span class="divider">
-                        {{-
-                          'products.product.quantity.multiples_of'
-                          | t: quantity: product.selected_or_first_available_variant.quantity_rule.increment
-                        -}}
-                      </span>
-                    {%- endif -%}
-                    {%- if product.selected_or_first_available_variant.quantity_rule.min > 1 -%}
-                      <span class="divider">
-                        {{-
-                          'products.product.quantity.minimum_of'
-                          | t: quantity: product.selected_or_first_available_variant.quantity_rule.min
-                        -}}
-                      </span>
-                    {%- endif -%}
-                    {%- if product.selected_or_first_available_variant.quantity_rule.max != null -%}
-                      <span class="divider">
-                        {{-
-                          'products.product.quantity.maximum_of'
-                          | t: quantity: product.selected_or_first_available_variant.quantity_rule.max
-                        -}}
-                      </span>
-                    {%- endif -%}
-                  </div>
-                </div>
-              {%- when 'popup' -%}
-                <modal-opener
-                  class="product-popup-modal__opener no-js-hidden quick-add-hidden"
-                  data-modal="#PopupModal-{{ block.id }}"
-                  {{ block.shopify_attributes }}
-                >
-                  <button
-                    id="ProductPopup-{{ block.id }}"
-                    class="product-popup-modal__button link"
-                    type="button"
-                    aria-haspopup="dialog"
-                  >
-                    {{ block.settings.text | default: block.settings.page.title }}
-                  </button>
-                </modal-opener>
-                <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">
-                  {{- block.settings.text -}}
-                </a>
-              {%- when 'share' -%}
-                {% assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin %}
-                {% render 'share-button', block: block, share_link: share_url %}
-
-              {%- when 'rating' -%}
-                {%- if product.metafields.reviews.rating.value != blank -%}
-                  {% liquid
-                    assign rating_decimal = 0
-                    assign decimal = product.metafields.reviews.rating.value.rating | modulo: 1
-                    if decimal >= 0.3 and decimal <= 0.7
-                      assign rating_decimal = 0.5
-                    elsif decimal > 0.7
-                      assign rating_decimal = 1
-                    endif
-                  %}
-                  <div
-                    class="rating"
-                    role="img"
-                    aria-label="{{ 'accessibility.star_reviews_info' | t: rating_value: product.metafields.reviews.rating.value, rating_max: product.metafields.reviews.rating.value.scale_max }}"
-                  >
-                    <span
-                      aria-hidden="true"
-                      class="rating-star"
-                      style="--rating: {{ product.metafields.reviews.rating.value.rating | floor }}; --rating-max: {{ product.metafields.reviews.rating.value.scale_max }}; --rating-decimal: {{ rating_decimal }};"
-                    ></span>
-                  </div>
-                  <p class="rating-text caption">
-                    <span aria-hidden="true">
-                      {{- product.metafields.reviews.rating.value }} /
-                      {{ product.metafields.reviews.rating.value.scale_max -}}
-                    </span>
-                  </p>
-                  <p class="rating-count caption">
-                    <span aria-hidden="true">({{ product.metafields.reviews.rating_count }})</span>
-                    <span class="visually-hidden">
-                      {{- product.metafields.reviews.rating_count }}
-                      {{ 'accessibility.total_reviews' | t -}}
-                    </span>
-                  </p>
-                {%- endif -%}
-
-              {%- when 'icon-with-text' -%}
-                {% render 'icon-with-text', block: block %}
-              {%- when 'accordion' %}
-                <div
-                  class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
-                  {{ block.shopify_attributes }}
-                >
-                  <h4
-                    data-acc
-                    class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
-                  >
-                    <span class="mr-auto">{{ block.settings.title }}</span>
-                    <span
-                      class="acc-toggle"
-                    ></span>
-                  </h4>
-                  <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
-                    <div class="wysiwyg flex-1">
-                      {{ block.settings.content }}
-                      {{ block.settings.html }}
-
-                      {% if block.settings.button_link and block.settings.button_label %}
-                        <div>
-                          <a class="btn-tertiary" href="{{ block.settings.button_link }}">
-                            {{- block.settings.button_label -}}
-                          </a>
-                        </div>
-                      {% endif %}
-                    </div>
-                  </div>
-                </div>
-            {%- endcase -%}
-          {%- endfor -%}
-
-          {% comment %}
-            Responsibility
-          {% endcomment %}
-          {% if product.metafields.christy23.product_responsibility != blank %}
-            <div
-              class="!my-0 md:!mt-10 lg:!mt-20 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
-            >
-              <h4
-                data-acc
-                class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
-              >
-                <span class="mr-auto">Responsibility</span>
-                <span
-                  class="acc-toggle"
-                ></span>
-              </h4>
-              <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
-                <div class="wysiwyg flex-1">
-                  {{ product.metafields.christy23.product_responsibility | metafield_tag }}
-                </div>
-              </div>
-            </div>
-          {% endif %}
-          {% comment %}
-            END Responsibility
-          {% endcomment %}
-
-          {% comment %}
-            Specification
-          {% endcomment %}
-          {% if product.metafields.christy23.product_specification != blank %}
-            <div
-              class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
-            >
-              <h4
-                data-acc
-                class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
-              >
-                <span class="mr-auto">Specifications</span>
-                <span
-                  class="acc-toggle"
-                ></span>
-              </h4>
-              <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
-                <div class="wysiwyg flex-1">
-                  {{ product.metafields.christy23.product_specification | metafield_tag }}
-                </div>
-              </div>
-            </div>
-          {% endif %}
-          {% comment %}
-            END Specification
-          {% endcomment %}
-
-          {% comment %}
-            Size Guide
-          {% endcomment %}
-          {% if product.metafields.custom.size_guide != blank %}
-            <div
-              class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
-              data-sizeguide
-              id="sizeguide"
-            >
-              <h4
-                data-acc
-                class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
-              >
-                <span class="mr-auto">Size Guide</span>
-                <span
-                  class="acc-toggle"
-                ></span>
-              </h4>
-              <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
-                <div class=" flex-1 w-full max-lg:-mr-[40px]">
-                  <div class="wysiwyg max-lg:overflow-auto max-lg:pr-[40px] [&_table]:max-lg:text-[10px]">
-                    {{ product.metafields.custom.size_guide }}
                   </div>
                 </div>
               </div>
             </div>
+            {% comment %}
+              END Reviews
+            {% endcomment %}
+          </div>
+        </product-info>
+      </div>
 
-          {% elsif product.metafields.custom.product_specification != blank %}
-            <div
-              class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
-              data-sizeguide
-              id="sizeguide"
-            >
-              <h4
-                data-acc
-                class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
-              >
-                <span class="mr-auto">Size Guide</span>
-                <span
-                  class="acc-toggle"
-                ></span>
-              </h4>
-              <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
-                <div class=" flex-1 w-full max-lg:-mr-[40px]">
-                  <div class="wysiwyg max-lg:overflow-auto max-lg:pr-[40px] [&_table]:max-lg:text-[10px]">
-                    {{ product.metafields.custom.product_specification }}
-                  </div>
-                </div>
-              </div>
-            </div>
-          {% endif %}
-          {% comment %}
-            END Specification
-          {% endcomment %}
-
-          {% comment %}
-            Care Guide
-          {% endcomment %}
-          {% if product.metafields.christy23.care_guide != blank %}
-            <div
-              class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
-            >
-              <h4
-                data-acc
-                class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
-              >
-                <span class="mr-auto">Care Guide</span>
-                <span
-                  class="acc-toggle"
-                ></span>
-              </h4>
-              <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
-                <div class="wysiwyg flex-1">
-                  {{ product.metafields.christy23.care_guide | metafield_tag }}
-                </div>
-              </div>
-            </div>
-          {% endif %}
-          {% comment %}
-            END Care Guide
-          {% endcomment %}
-
-          {% comment %}
-            Delivery & Returns
-          {% endcomment %}
-          {% if settings.product_delivery_returns != blank %}
-            <div
-              class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
-            >
-              <h4
-                data-acc
-                class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
-              >
-                <span class="mr-auto">Delivery & Returns</span>
-                <span
-                  class="acc-toggle"
-                ></span>
-              </h4>
-              <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
-                <div class="wysiwyg flex-1">
-                  {{ settings.product_delivery_returns }}
-                </div>
-              </div>
-            </div>
-          {% endif %}
-          {% comment %}
-            END Delivery & Returns
-          {% endcomment %}
-
-          {% comment %}
-            Reviews
-          {% endcomment %}
+      {% if product.metafields.custom.size_guide != blank or product.metafields.custom.product_specification != blank %}
+        <aside
+          data-modal="sizeguide"
+          class="modal fixed inset-0 bg-white pt-[var(--header-height)] lg:pt-[var(--header-height-lg)] !m-0 z-50 opacity-0 invisible transition-[opacity,visibility] duration-500 [&.active]:opacity-100 [&.active]:visible"
+        >
           <div
-            class="!my-0 py-5 lg:py-7 border-b border-blue-1/10 group/acc"
-            id="reviews"
+            class="container relative space-y-10 h-full flex flex-col after:w-[40px] after:h-full after:bg-gradient-to-l after:to-transparent after:from-white after:absolute after:right-0 after:top-0"
+            data-sizeguide
+            id="sizeguide"
           >
             <h4
               data-acc
-              class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer"
+              class="m-h1 lg:s-d-h4"
             >
-              <span class="mr-auto">Reviews</span>
-              <span
-                class="acc-toggle"
-              ></span>
+              <span>Size Guide</span>
             </h4>
-            <div class="gap-3 flex-wrap pt-5 lg:pt-7 clear-left hidden group-[.open]/acc:!flex group-[.open]/acc:opacity-100 opacity-0 transition-opacity delay-[0.5s]">
-              <div class="wysiwyg flex-1">
-                <div
-                  class="trustpilot-widget"
-                  data-locale="en-US"
-                  data-template-id="5763bccae0a06d08e809ecbb"
-                  data-businessunit-id="5c9e0477c7d1190001144cb3"
-                  data-style-width="100%"
-                  data-style-height="500px"
-                  data-theme="light"
-                  data-sku="{{ variant_skus }}"
-                  data-name="{{ product.title }}"
-                  data-review-languages="en"
-                  data-fullwidth="true"
-                >
-                  <a href="https://www.trustpilot.com/review/christy.co.uk" target="_blank" rel="noopener"
-                    >Trustpilot</a
-                  >
-                </div>
-              </div>
+
+            <div class="max-lg:-mr-[40px] h-full overflow-auto pb-20 pr-[40px] whitespace-nowrap wysiwyg [&_table]:bg-white text-[14px]">
+              {% if product.metafields.custom.size_guide != blank %}
+                {{ product.metafields.custom.size_guide }}
+              {% elsif product.metafields.custom.product_specification != blank %}
+                {{ product.metafields.custom.product_specification }}
+              {% endif %}
             </div>
           </div>
-          {% comment %}
-            END Reviews
-          {% endcomment %}
-        </div>
-      </product-info>
-    </div>
 
-    {% if product.metafields.custom.size_guide != blank or product.metafields.custom.product_specification != blank %}
-      <aside
-        data-modal="sizeguide"
-        class="modal fixed inset-0 bg-white pt-[var(--header-height)] lg:pt-[var(--header-height-lg)] !m-0 z-50 opacity-0 invisible transition-[opacity,visibility] duration-500 [&.active]:opacity-100 [&.active]:visible"
-      >
-        <div
-          class="container relative space-y-10 h-full flex flex-col after:w-[40px] after:h-full after:bg-gradient-to-l after:to-transparent after:from-white after:absolute after:right-0 after:top-0"
-          data-sizeguide
-          id="sizeguide"
-        >
-          <h4
-            data-acc
-            class="m-h1 lg:s-d-h4"
-          >
-            <span>Size Guide</span>
-          </h4>
-
-          <div class="max-lg:-mr-[40px] h-full overflow-auto pb-20 pr-[40px] whitespace-nowrap wysiwyg [&_table]:bg-white text-[14px]">
-            {% if product.metafields.custom.size_guide != blank %}
-              {{ product.metafields.custom.size_guide }}
-            {% elsif product.metafields.custom.product_specification != blank %}
-              {{ product.metafields.custom.product_specification }}
-            {% endif %}
+          <div class="absolute top-0 right-0 container flex justify-end !m-0 min-h-[var(--header-height)] lg:min-h-[var(--header-height-lg)] items-center">
+            <button data-modalclose="sizeguide" class="p-5 -mr-5">{% render 'icon-close' %}</button>
           </div>
-        </div>
-
-        <div class="absolute top-0 right-0 container flex justify-end !m-0 min-h-[var(--header-height)] lg:min-h-[var(--header-height-lg)] items-center">
-          <button data-modalclose="sizeguide" class="p-5 -mr-5">{% render 'icon-close' %}</button>
-        </div>
-      </aside>
-    {% endif %}
-  </div>
+        </aside>
+      {% endif %}
+    </div>
+  {% endif %}
 
   <script src="{{ 'main-product.js' | asset_url }}" defer></script>
 
   {%- liquid
-    if product.selected_or_first_available_variant.featured_media
-      assign seo_media = product.selected_or_first_available_variant.featured_media
+    if current_variant.featured_media
+      assign seo_media = current_variant.featured_media
     else
       assign seo_media = product.featured_media
     endif
   -%}
 
-  <script type="application/ld+json">
+  <script type="application/ld+json" id="productJson">
     {
       "@context": "http://schema.org/",
       "@type": "Product",
@@ -778,13 +799,15 @@
         ],
       {%- endif %}
       "description": {{ product.description | strip_html | json }},
-      {% if product.selected_or_first_available_variant.sku != blank -%}
-        "sku": {{ product.selected_or_first_available_variant.sku | json }},
+      {% if current_variant.sku != blank -%}
+        "sku": {{ current_variant.sku | json }},
       {%- endif %}
       "brand": {
         "@type": "Brand",
         "name": {{ product.vendor | json }}
       },
+      "price": {{ current_variant.price | divided_by: 100.00 }},
+      "is_variant": {{ product.selected_variant.id | json }},
       "offers": [
         {%- for variant in product.variants -%}
           {
@@ -813,8 +836,6 @@
 </section>
 
 {% assign metaObj_special = product.metafields.custom.what_makes_us_special_section.value %}
-
-{{ metaObj_special.benefits.value.count }}
 
 {% if metaObj_special.t_itle %}
   <section class="section-banner">

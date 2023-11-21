@@ -1,5 +1,9 @@
 {{ 'splide.min.css' | asset_url | stylesheet_tag }}
 
+{% if image_handle == blank %}
+  {% assign image_handle = 'product_image' %}
+{% endif %}
+
 {% if product.media.size > 0 %}
   {% liquid
     if mob == true
@@ -84,7 +88,7 @@
           {%- assign alt_striped = alt_array[0] | strip -%}
           {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
 
-          {% if alt_array[1] == 'product_image' and media.media_type == 'image' and product.variants.size > 1 %}
+          {% if alt_array[1] == image_handle and media.media_type == 'image' and product.variants.size > 1 %}
             {% if has_product_image == false %}
               {% assign has_product_image = true %}
             {% endif %}
@@ -233,7 +237,7 @@
           {%- assign alt_striped = alt_array[0] | strip -%}
           {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
 
-          {% if alt_array[1] == 'product_image' and media.media_type == 'image' and product.variants.size > 1 %}
+          {% if alt_array[1] == image_handle and media.media_type == 'image' and product.variants.size > 1 %}
             {% if has_product_image == false %}
               {% assign has_product_image = true %}
             {% endif %}
@@ -340,7 +344,7 @@
       {%- assign alt_striped = alt_array[0] | strip -%}
       {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
 
-      {% if alt_array[1] == 'product_image' and media.media_type == 'image' and product.variants.size > 1 %}
+      {% if alt_array[1] == image_handle and media.media_type == 'image' and product.variants.size > 1 %}
         {% if has_product_image == false %}
           {% assign has_product_image = true %}
         {% endif %}

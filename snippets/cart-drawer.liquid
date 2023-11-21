@@ -184,10 +184,20 @@
                       {% assign giftship_subtotal = 0 %}
 
                       {%- for item in cart.items -%}
+                        {%- for item_component in item.item_components -%}
+                          <p>{{ item_component.quantity }}</p>
+                          <p>{{ item_component.variant.price }}</p>
+                        {%- endfor -%}
+
                         {% comment %}
                           GIFTSHIP VARS
                         {% endcomment %}
                         {% assign item = line_item | default: item %}
+
+                        {% comment %}
+                          Get BundleData
+                        {% endcomment %}
+                        {% assign bundleData = item.product.metafields.christyapp.bundleData.value %}
 
                         {%- assign giftship_price = item.price -%}
 
@@ -260,7 +270,11 @@
                               {%- endif -%}
 
                               <a href="{{ item.url }}" class="cart-item__name m-h3 lg:d-h3">
-                                {{- item.product.title | escape -}}
+                                {% if bundleData and bundleData.bundleTitle %}
+                                  {{- bundleData.bundleTitle | escape -}}
+                                {% else %}
+                                  {{- item.product.title | escape -}}
+                                {% endif %}
                               </a>
 
                               {%- if item.product.has_only_default_variant == false
@@ -401,6 +415,7 @@
                               <span class="price price--end">
                                 {% assign percentoff = '' %}
                                 {% assign is_product_bundle = false %}
+
                                 {% if item.variant.metafields.christy23.bundled_product_variants != blank %}
                                   {% assign is_product_bundle = true %}
                                 {% endif %}

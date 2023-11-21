@@ -924,8 +924,6 @@ class VariantSelects extends HTMLElement {
         .includes(false);
     });
 
-
-
   }
 
   updateMedia() {
@@ -998,7 +996,7 @@ class VariantSelects extends HTMLElement {
   }
 
   updateURL() {
-    if (!this.currentVariant || this.dataset.updateUrl === 'false') return;
+    if (!this.currentVariant || this.dataset.updateUrl === 'false' || document.querySelector('#product-bundle')) return;
     // get selected variations
     const selectedColour = this.querySelector('[name="Colour"]:checked');
     const selectedColor = this.querySelector('[name="Color"]:checked');
@@ -1032,6 +1030,7 @@ class VariantSelects extends HTMLElement {
       }
       varUrl += 's:' + handleize(selector.value);
     });
+
 
     if (varUrl && !document.querySelector('html').classList.contains('is-preview')) {
       window.history.replaceState({}, '', `${this.dataset.url}/${varUrl}`);
@@ -1108,10 +1107,6 @@ class VariantSelects extends HTMLElement {
 
     });
   }
-
-
-
-
 
   setInputAvailability(listOfOptions, listOfAvailableOptions) {
     listOfOptions.forEach((input) => {
@@ -1223,6 +1218,13 @@ class VariantSelects extends HTMLElement {
           document.querySelector('[data-dynprice]').innerHTML = html.querySelector('[data-dynprice]').innerHTML;
         }
 
+        if (document.querySelector('product-info[data-variantid]') && html.querySelector('product-info[data-variantid]')) {
+          document.querySelector('product-info[data-variantid]').dataset.variantid = html.querySelector('product-info[data-variantid]').dataset.variantid;
+        }
+
+        // variant updated
+        const variantchange = new Event('variantchange');
+        window.dispatchEvent(variantchange);
 
         publish(PUB_SUB_EVENTS.variantChange, {
           data: {
@@ -1237,11 +1239,11 @@ class VariantSelects extends HTMLElement {
 
 
   toggleAddButton(disable = true, text, modifyClass = true) {
-    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}`);
+    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #bundle-actions-${this.dataset.section}`);
     if (!productForms) return;
     productForms.forEach((productForm) => {
-      const addButtons = productForm.querySelectorAll('[name="add"]');
-      const addButtonTexts = productForm.querySelectorAll('[name="add"] > span:first-child');
+      const addButtons = productForm.querySelectorAll('[name="add"], [data-bundlebtn="next"]');
+      const addButtonTexts = productForm.querySelectorAll('[name="add"] > span:first-child, [data-bundlebtn="next"]');
       if (!addButtons) return;
 
       if (disable) {
@@ -1252,7 +1254,13 @@ class VariantSelects extends HTMLElement {
         }
       } else {
         addButtons.forEach((btn) => btn.removeAttribute('disabled'));
-        addButtonTexts.forEach((btn) => btn.textContent = window.variantStrings.addToCart);
+        addButtonTexts.forEach((btn) => {
+          if (btn.dataset.bundlebtn === 'next') {
+            btn.textContent = "Next";
+            return;
+          }
+          btn.textContent = window.variantStrings.addToCart
+        });
       }
     });
 
@@ -1260,14 +1268,14 @@ class VariantSelects extends HTMLElement {
   }
 
   setUnavailable() {
-    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}`);
+    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #bundle-actions-${this.dataset.section}`);
     if (!productForms) return;
 
     //let addButtons = [];
     //let addButtonTexts = [];
     productForms.forEach((productForm) => {
-      const addButtons = productForm.querySelectorAll('[name="add"]');
-      const addButtonTexts = productForm.querySelectorAll('[name="add"] > span:first-child');
+      const addButtons = productForm.querySelectorAll('[name="add"], [data-bundlebtn="next"]');
+      const addButtonTexts = productForm.querySelectorAll('[name="add"] > span:first-child, [data-bundlebtn="next"]');
       if (!addButtons) return;
       addButtonTexts.forEach((text) => text.textContent = window.variantStrings.unavailable);
       //addButtonText.textContent = window.variantStrings.unavailable;
