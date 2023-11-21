@@ -188,6 +188,16 @@ const bundleApp = {
             });
         }
 
+        async function goToStep(step) {
+            fadeBlockerIn();
+            currentStep = step;
+            await fetchStep(getProductUrl());
+            // remove last-step class
+            document.querySelector('#product-bundle').classList.remove('last-step');
+            setStep();
+            fadeBlockerOut();
+        }
+
         function updateStepsValues() {
             if (currentStep > 0) {
                 if (document.querySelector('[data-variantid]')) {
@@ -202,6 +212,8 @@ const bundleApp = {
                 );
             }
         }
+
+
 
         function buildBunleReview() {
             const bundleReview = document.querySelector('#bundle-review');
@@ -242,18 +254,30 @@ const bundleApp = {
                     <div class="">
                         <h3 class="font-semibold lg:d-h5 mb-3">${i + 1}. ${variantData.product_title}</h3>
                         <div>${optionsHtml}</div>
-                        <button class="underline mt-3" data-change>Change</button>
+                        <button class="underline mt-3" data-changestep="${i + 1}">Change</button>
                     </div>
                     ${imgHtml}
                     </li>
                     `;
+
                 });
 
                 updateBundlePrice(totalPrice, totalCompare);
 
                 bundleReviewList.innerHTML = bundleHtml;
+
+                if (bundleReviewList.querySelectorAll('[data-changestep]').length) {
+                    bundleReviewList.querySelectorAll('[data-changestep]').forEach(function (changestep) {
+                        changestep.addEventListener('click', function () {
+                            let step = changestep.dataset.changestep;
+                            goToStep(step);
+                        });
+                    });
+                }
             }
         }
+
+
 
         function updateBundlePrice(totalPrice, totalCompare) {
             const bundlePrice = document.querySelectorAll('#product-bundle [data-bundlepricehtml]');
@@ -363,6 +387,8 @@ const bundleApp = {
             currentStep = 0;
             await fetchStep(getProductUrl());
             document.querySelector('#product-bundle').classList.remove('last-step');
+            addCart.disabled = false;
+            addCart.textContent = 'Add to Basket';
             setStep();
             fadeBlockerOut();
         }
