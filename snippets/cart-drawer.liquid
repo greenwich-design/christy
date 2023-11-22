@@ -184,10 +184,12 @@
                       {% assign giftship_subtotal = 0 %}
 
                       {%- for item in cart.items -%}
-                        {%- for item_component in item.item_components -%}
-                          <p>{{ item_component.quantity }}</p>
-                          <p>{{ item_component.variant.price }}</p>
-                        {%- endfor -%}
+                        <div class="!hidden">
+                          {%- for item_component in item.item_components -%}
+                            <p>{{ item_component.quantity }}</p>
+                            <p>{{ item_component.variant.price }}</p>
+                          {%- endfor -%}
+                        </div>
 
                         {% comment %}
                           GIFTSHIP VARS
