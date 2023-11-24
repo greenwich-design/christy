@@ -493,10 +493,11 @@
         "button_link": "shopify:\/\/collections\/all-accessories",
         "products": [
           "jaipur-throw",
-          "cosy-throw",
+          "edmonton",
           "oslo",
-          "metropolitan-throw",
           "jaipur-cushion",
+          "cosy-throw",
+          "metropolitan-throw",
           "metropolitan-cushion"
         ],
         "screen_visibility": "both"
