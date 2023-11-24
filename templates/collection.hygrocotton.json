@@ -1,5 +1,13 @@
 {
   "sections": {
+    "49f28d0c-830f-4ef9-a91d-9c8116a30b8a": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
+        "link": "",
+        "full_width": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -171,6 +179,7 @@
     }
   },
   "order": [
+    "49f28d0c-830f-4ef9-a91d-9c8116a30b8a",
     "product-grid",
     "recent-products",
     "toggled-body-content"
