@@ -2,6 +2,7 @@
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1.png",
         "link": "",
@@ -10,7 +11,6 @@
     },
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/BANNER_1920X1080_1.gif",
         "link": "",
@@ -70,7 +70,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_18.jpg",
+            "image": "shopify:\/\/shop_images\/1_014214ce-a6ef-4f54-9c3f-4eb2b9ffca2e.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -82,7 +82,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_21.jpg",
+            "image": "shopify:\/\/shop_images\/2_4456b5af-9ff3-4d0a-8a84-39e999984834.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -94,7 +94,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_20.jpg",
+            "image": "shopify:\/\/shop_images\/3_33b8edd5-6132-437e-a3d3-ac42b0082f08.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -119,7 +119,7 @@
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_16.jpg",
+            "image": "shopify:\/\/shop_images\/4_1b4dfe35-af70-48d5-bbc9-7d91bf6cf4f2.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -131,7 +131,7 @@
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_19.jpg",
+            "image": "shopify:\/\/shop_images\/5_491ba8b5-1e89-4332-8151-6736e44e919a.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -143,7 +143,7 @@
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_17.jpg",
+            "image": "shopify:\/\/shop_images\/6_e5c38317-f3a5-4c08-a000-678106f2911f.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
