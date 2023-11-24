@@ -70,7 +70,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_014214ce-a6ef-4f54-9c3f-4eb2b9ffca2e.jpg",
+            "image": "shopify:\/\/shop_images\/1_13379b0e-8dc8-4772-b127-d258c3b38a34.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -82,7 +82,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_4456b5af-9ff3-4d0a-8a84-39e999984834.jpg",
+            "image": "shopify:\/\/shop_images\/2_ba041811-d514-40ba-b183-860fc63accec.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -94,7 +94,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_33b8edd5-6132-437e-a3d3-ac42b0082f08.jpg",
+            "image": "shopify:\/\/shop_images\/3_11e580dd-9aa3-4a87-b1a7-e55b7753f0c3.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -119,7 +119,7 @@
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_1b4dfe35-af70-48d5-bbc9-7d91bf6cf4f2.jpg",
+            "image": "shopify:\/\/shop_images\/4_4b4b41c1-fae9-4edd-afcb-d1654927af4b.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -131,7 +131,7 @@
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_491ba8b5-1e89-4332-8151-6736e44e919a.jpg",
+            "image": "shopify:\/\/shop_images\/5_d882b7ab-41f3-4df0-abe3-d743e97d3117.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -143,7 +143,7 @@
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_e5c38317-f3a5-4c08-a000-678106f2911f.jpg",
+            "image": "shopify:\/\/shop_images\/6_db2245ca-c507-40e4-8144-c5e297179539.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -307,8 +307,8 @@
           "type": "collection",
           "settings": {
             "collection": "towels",
-            "usp_title": "Up to 50% Off",
-            "image": "shopify:\/\/shop_images\/Organic_Natural_Lifestyle-905959.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/1_630e291f-efa4-490c-bd2b-dd60c2a2ff50.jpg",
             "alt_title": "Luxury Towels",
             "excerpt": ""
           }
@@ -317,8 +317,8 @@
           "type": "collection",
           "settings": {
             "collection": "all-loungewear",
-            "usp_title": "Up to 40% Off",
-            "image": "shopify:\/\/shop_images\/7_3_1-954698_f80f94a7-0cef-44ca-b300-4efa2a36f373.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/2_146500f6-df87-4811-830d-a9b6820f3dba.jpg",
             "alt_title": "Plush Bath Robes",
             "excerpt": ""
           }
@@ -327,8 +327,8 @@
           "type": "collection",
           "settings": {
             "collection": "bath-mats-and-rugs",
-            "usp_title": "Up to 50% Off",
-            "image": "shopify:\/\/shop_images\/christy_bath_mat_kingfisher-507987.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/3_298b1bc1-5cdb-41db-860d-1e0e48487526.jpg",
             "alt_title": "Mats & Rugs",
             "excerpt": ""
           }
@@ -383,8 +383,8 @@
           "type": "collection",
           "settings": {
             "collection": "duvet-sets",
-            "usp_title": "Up to 50% Off",
-            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/4_fbe2ed35-8fbc-4841-9cf5-b3ffce19dcbd.jpg",
             "alt_title": "",
             "excerpt": ""
           }
@@ -393,8 +393,8 @@
           "type": "collection",
           "settings": {
             "collection": "sheets",
-            "usp_title": "Up to 30% Off",
-            "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/5_d85f0765-7315-4f03-a41f-09d0f44c9024.jpg",
             "alt_title": "",
             "excerpt": ""
           }
@@ -403,8 +403,8 @@
           "type": "collection",
           "settings": {
             "collection": "flat-sheets",
-            "usp_title": "Up to 30% Off",
-            "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/6_b3a7d136-2657-4c92-93f0-11040d122c97.jpg",
             "alt_title": "",
             "excerpt": "<p> <\/p>"
           }
@@ -413,8 +413,8 @@
           "type": "collection",
           "settings": {
             "collection": "duvet-pillows",
-            "usp_title": "Up to 30% Off",
-            "image": "shopify:\/\/shop_images\/subcategory_duvetandpillowoffers_desktop.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/7_74ab005d-1535-4ab3-8120-1eca25839783.jpg",
             "alt_title": "",
             "excerpt": ""
           }
@@ -423,8 +423,8 @@
           "type": "collection",
           "settings": {
             "collection": "pillowcases",
-            "usp_title": "Up to 30% Off",
-            "image": "shopify:\/\/shop_images\/200TC_Storm_Oxford_Pillow_Detail_f5f2f257-5325-4427-8858-f5ead033a124-129748.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/8_96db91d3-0c2b-4eb0-8fa5-fca34b8378b6.jpg",
             "alt_title": "Pillowcases",
             "excerpt": "<p> <\/p>"
           }
