@@ -37,6 +37,48 @@
         display: none;
       }
     </style>
+    <style>
+      #black-friday-sale .bg-blue-1, #black-friday-sale .bg-blue-1\/10{
+        background:#000 !important;
+        color:#999 !important;
+      }
+      #black-friday-sale .border-blue-1\/10, #black-friday-sale .border-blue-1{
+        border-color:#000;
+      }
+      #black-friday-sale .text-blue-1, #black-friday-sale.text-blue-1{
+        color: #222 !important;
+      }
+      #black-friday-sale input::placeholder,textarea::placeholder{
+        color:#222 !important;
+        opacity:1
+      }
+      #black-friday-sale svg, #black-friday-sale svg path{
+        fill: #222 !important;
+        stroke: #222 !important;
+      }
+      #black-friday-sale .btn-primary {
+          --tw-border-opacity: 1;
+          --tw-bg-opacity: 1;
+          --tw-text-opacity: 1;
+          background-color: rgb(2 2 2/var(--tw-bg-opacity));
+          border-color: rgb(2 2 2/var(--tw-border-opacity));
+          color: rgb(255 255 255/var(--tw-text-opacity));
+      }
+      #black-friday-sale .btn-tertiary{
+        color:#222;
+      }
+      #black-friday-sale .btn-secondary{
+        color:#222;
+        border-color:#222;
+      }
+      #black-friday-sale .btn-secondary:hover{
+        background:#fff;
+        color:#222;
+      }
+      #black-friday-sale .section-reviews .btn-tertiary{
+        color:#888;
+      }
+    </style>
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
@@ -165,7 +207,7 @@
     {% endcomment %}
   </head>
 
-  <body class="h-full text-[12px] md:text-[14px] leading-[1.7] font-light text-blue-1">
+  <body id="{{ page_title | handle }}" class="h-full text-[12px] md:text-[14px] leading-[1.7] font-light text-blue-1">
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
