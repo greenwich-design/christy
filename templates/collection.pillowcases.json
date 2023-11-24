@@ -2,6 +2,7 @@
   "sections": {
     "6a35a7ca-f3c7-4fb2-8886-ef424ec1956e": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Collection_Banner.jpg",
         "link": "",
@@ -10,9 +11,8 @@
     },
     "8ac3dc64-39df-48ae-b3b9-414df00827be": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design.gif",
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
         "link": "",
         "full_width": true
       }
