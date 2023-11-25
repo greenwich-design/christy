@@ -50,18 +50,37 @@
         "title": "Extended Hassle Free Returns"
       }
     },
-    "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
-      "type": "heading",
+    "d9b008b3-a56b-404c-b4bb-41b09f268aee": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Flash Sale | Flat 50% off on Bath",
+        "button_title": "Shop all Bath Offers",
+        "button_link": "shopify:\/\/collections\/all-bath",
+        "products": [
+          "mode-towels",
+          "super-soft-cosy-robe",
+          "renaissance",
+          "tribeca-towels",
+          "deep-pile-rug",
+          "brixton-towels",
+          "signum-675-gsm-combed-cotton",
+          "reversible-bath-rug",
+          "serene-550-gsm-combed-cotton"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
+      "type": "products-carousel",
       "disabled": true,
       "settings": {
-        "heading": "<p>Discover the magic in everyday moments.<\/p>",
-        "heading_width": "4",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "center",
-        "alignment_mob": "center",
-        "horiz_padding": true,
-        "margin_top": false
+        "title": "Flash Sale | Flat 50% off on Bedding",
+        "button_title": "Shop all Bedding Offers",
+        "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
+        "products": [
+
+        ],
+        "screen_visibility": "both"
       }
     },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
@@ -254,37 +273,6 @@
           "anti-allergy-mattress-and-pillow-protectors"
         ],
         "screen_visibility": "both"
-      }
-    },
-    "b9932fb5-c80a-402d-977c-e883e9dff131": {
-      "type": "images-copy-cta",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/christy_matsu_rose_lifestyle_2-856753.jpg",
-        "image2": "shopify:\/\/shop_images\/christy_katsura_vintage_main-338117.jpg",
-        "subtitle": "Luxe Deal of the Day",
-        "title": "<p>Flat 50% Off on Printed Bedding<\/p>",
-        "copy": "",
-        "button_label": "Shop Now",
-        "button_link": "shopify:\/\/collections\/printed-and-hand-painted-bedding",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
-      }
-    },
-    "2a41d139-f089-4799-a878-1010cd70b8bc": {
-      "type": "heading",
-      "disabled": true,
-      "settings": {
-        "heading": "<p>Unbeatable Deals on Towels, Bedding and More!<\/p>",
-        "heading_width": "6",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "center",
-        "alignment_mob": "center",
-        "horiz_padding": true,
-        "margin_top": false
       }
     },
     "1faadb62-9346-46cf-8500-cc18fc75bda3": {
@@ -818,14 +806,13 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
-    "76c6e56b-583c-4e8e-82a1-c452644a34b6",
+    "d9b008b3-a56b-404c-b4bb-41b09f268aee",
+    "296b5fdf-eac7-4cd0-922e-5d27c605fc41",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "e922dd6b-de11-4348-9389-5260d6fa205a",
     "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "20b0aa22-bb43-4d2e-a28b-0d6b9fa691c1",
-    "b9932fb5-c80a-402d-977c-e883e9dff131",
-    "2a41d139-f089-4799-a878-1010cd70b8bc",
     "1faadb62-9346-46cf-8500-cc18fc75bda3",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "0ea7c509-a0e6-4f26-8f0f-2d0f5eb7a796",
