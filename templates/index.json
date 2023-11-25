@@ -4,7 +4,7 @@
       "type": "hero-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/1.png",
+        "image": "shopify:\/\/shop_images\/PPC_1200X628_1_8f633e17-fff4-42a3-9ed1-aaff23562a03.gif",
         "link": "shopify:\/\/collections\/black-friday-sale",
         "full_width": true
       }
@@ -698,59 +698,22 @@
         "button_link": "#quiz-gWHPoe"
       }
     },
-    "bbf93ecd-97cb-4132-8a09-2c78d8f01317": {
-      "type": "collections-carousel",
-      "blocks": {
-        "1432da61-0bb2-49f3-b334-92a647df757e": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-bath",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_14.jpg",
-            "alt_title": "Towels & Mats",
-            "excerpt": ""
-          }
-        },
-        "249011ce-ed78-4da1-87af-fe6230b1face": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-bedding",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_15.jpg",
-            "alt_title": "Bedding & Duvets",
-            "excerpt": ""
-          }
-        },
-        "97848d55-0581-4ed0-bda3-050824b553f9": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-loungewear",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_7.jpg",
-            "alt_title": "Bath Robes",
-            "excerpt": "<h1>Embrace the feeling of a gentle hug all day with our bath robes.<\/h1>"
-          }
-        },
-        "37586389-d56d-4d6b-b9c6-99c99baa94be": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-accessories",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_5.jpg",
-            "alt_title": "Throws & Cushion",
-            "excerpt": ""
-          }
-        }
-      },
-      "block_order": [
-        "1432da61-0bb2-49f3-b334-92a647df757e",
-        "249011ce-ed78-4da1-87af-fe6230b1face",
-        "97848d55-0581-4ed0-bda3-050824b553f9",
-        "37586389-d56d-4d6b-b9c6-99c99baa94be"
-      ],
+    "e4d641b4-38cf-4eed-a930-9003c49b766d": {
+      "type": "products-carousel",
       "disabled": true,
       "settings": {
-        "title": "Shop by Category",
+        "title": "Flash Sale | Flat 50% off on Bath",
+        "button_title": "See more",
+        "button_link": "shopify:\/\/collections\/black-friday-sale",
+        "products": [
+          "mode-towels",
+          "super-soft-cosy-robe",
+          "tribeca-towels",
+          "renaissance",
+          "midori-towels",
+          "deep-pile-rug",
+          "reversible-bath-rug"
+        ],
         "screen_visibility": "both"
       }
     }
@@ -780,6 +743,6 @@
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
     "2970b3ab-743a-4054-95d1-048d41881e08",
-    "bbf93ecd-97cb-4132-8a09-2c78d8f01317"
+    "e4d641b4-38cf-4eed-a930-9003c49b766d"
   ]
 }
