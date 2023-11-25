@@ -72,13 +72,25 @@
     },
     "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
       "type": "products-carousel",
-      "disabled": true,
       "settings": {
         "title": "Flash Sale | Flat 50% off on Bedding",
         "button_title": "Shop all Bedding Offers",
         "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "products": [
-
+          "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
+          "appleby-bed-linen",
+          "luxury-microfibre-13-5-tog-duvet",
+          "edmonton",
+          "200-thread-count-egyptian-percale",
+          "coniston-bed-linen",
+          "katsura-bed-linen",
+          "meeko-bed-linen",
+          "cosy-throw",
+          "luxury-king-size-pillow",
+          "superior-soft-touch-anti-allergy-13-5-tog-duvet-and-pillow",
+          "metropolitan-throw",
+          "metropolitan-cushion",
+          "anti-allergy-mattress-and-pillow-protectors"
         ],
         "screen_visibility": "both"
       }
@@ -257,6 +269,7 @@
     },
     "20b0aa22-bb43-4d2e-a28b-0d6b9fa691c1": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "The Flat 60% Off Collection",
         "button_title": "See more",
