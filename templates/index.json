@@ -182,6 +182,25 @@
         "margin_top": false
       }
     },
+    "e4d641b4-38cf-4eed-a930-9003c49b766d": {
+      "type": "products-carousel",
+      "disabled": true,
+      "settings": {
+        "title": "Flash Sale | Flat 50% off on Bath",
+        "button_title": "See more",
+        "button_link": "shopify:\/\/collections\/black-friday-sale",
+        "products": [
+          "mode-towels",
+          "super-soft-cosy-robe",
+          "tribeca-towels",
+          "renaissance",
+          "midori-towels",
+          "deep-pile-rug",
+          "reversible-bath-rug"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad": {
       "type": "products-carousel",
       "settings": {
@@ -572,50 +591,6 @@
         "margin_top": true
       }
     },
-    "product-showcase": {
-      "type": "product-showcase",
-      "blocks": {
-        "1b8b376d-7bf4-4d5e-bfec-6c2f6e9f5998": {
-          "type": "hotspot",
-          "settings": {
-            "position_left": 70,
-            "position_top": 55,
-            "position_left_mob": 50,
-            "position_top_mob": 50,
-            "product": "lerwick-stripe"
-          }
-        },
-        "e490f271-e9b9-4412-8982-d5926491cf34": {
-          "type": "hotspot",
-          "settings": {
-            "position_left": 80,
-            "position_top": 10,
-            "position_left_mob": 75,
-            "position_top_mob": 10,
-            "product": "stornoway-chambray"
-          }
-        },
-        "70806f5e-2a45-4753-a883-ae305fcec33f": {
-          "type": "hotspot",
-          "settings": {
-            "position_left": 55,
-            "position_top": 75,
-            "position_left_mob": 55,
-            "position_top_mob": 75,
-            "product": "oslo"
-          }
-        }
-      },
-      "block_order": [
-        "1b8b376d-7bf4-4d5e-bfec-6c2f6e9f5998",
-        "e490f271-e9b9-4412-8982-d5926491cf34",
-        "70806f5e-2a45-4753-a883-ae305fcec33f"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/product-showcase.jpg"
-      }
-    },
     "heading4": {
       "type": "heading",
       "settings": {
@@ -697,25 +672,6 @@
         "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
         "button_link": "#quiz-gWHPoe"
       }
-    },
-    "e4d641b4-38cf-4eed-a930-9003c49b766d": {
-      "type": "products-carousel",
-      "disabled": true,
-      "settings": {
-        "title": "Flash Sale | Flat 50% off on Bath",
-        "button_title": "See more",
-        "button_link": "shopify:\/\/collections\/black-friday-sale",
-        "products": [
-          "mode-towels",
-          "super-soft-cosy-robe",
-          "tribeca-towels",
-          "renaissance",
-          "midori-towels",
-          "deep-pile-rug",
-          "reversible-bath-rug"
-        ],
-        "screen_visibility": "both"
-      }
     }
   },
   "order": [
@@ -724,6 +680,7 @@
     "hero-collection",
     "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0",
     "heading",
+    "e4d641b4-38cf-4eed-a930-9003c49b766d",
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad",
     "de1b0a2d-4cb0-4dbd-a641-18437895549a",
     "37b580cc-c4d2-4e4e-83ee-b35a93d386e3",
@@ -737,12 +694,10 @@
     "billboard3",
     "images-copy-cta",
     "heading3",
-    "product-showcase",
     "heading4",
     "billboard4",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
-    "2970b3ab-743a-4054-95d1-048d41881e08",
-    "e4d641b4-38cf-4eed-a930-9003c49b766d"
+    "2970b3ab-743a-4054-95d1-048d41881e08"
   ]
 }
