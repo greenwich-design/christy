@@ -2,7 +2,6 @@
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PPC_1200X628_1_8f633e17-fff4-42a3-9ed1-aaff23562a03.gif",
         "link": "",
@@ -11,6 +10,7 @@
     },
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PPC_1200X628_d8600231-297d-47d7-9564-36f97158eea7.gif",
         "link": "",
