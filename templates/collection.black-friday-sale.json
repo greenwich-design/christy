@@ -2,6 +2,7 @@
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PPC_1200X628_1_8f633e17-fff4-42a3-9ed1-aaff23562a03.gif",
         "link": "",
@@ -10,7 +11,6 @@
     },
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PPC_1200X628_d8600231-297d-47d7-9564-36f97158eea7.gif",
         "link": "",
@@ -52,6 +52,7 @@
     },
     "d9b008b3-a56b-404c-b4bb-41b09f268aee": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "Flash Sale | Flat 50% off on Bath",
         "button_title": "Shop all Bath Offers",
@@ -70,27 +71,52 @@
         "screen_visibility": "both"
       }
     },
+    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Big Discounts on Best Sellers",
+        "button_title": "Shop All Black Friday",
+        "button_link": "shopify:\/\/collections\/shop-all",
+        "products": [
+          "renaissance",
+          "400-thread-count-sateen-plain-dye",
+          "supreme-hygro",
+          "jaipur-throw",
+          "supreme-velour-robe",
+          "wimbledon-2023-championship-towel",
+          "essence-towels-650-gsm-combed-cotton",
+          "luxury-microfibre-13-5-tog-duvet",
+          "luxe-towels",
+          "jaipur-cushion",
+          "deep-pile-rug"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
       "type": "products-carousel",
       "settings": {
-        "title": "Flash Sale | Flat 50% off on Bedding",
-        "button_title": "Shop all Bedding Offers",
-        "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
+        "title": "Flat 50% off",
+        "button_title": "Shop all",
+        "button_link": "shopify:\/\/collections\/clearance",
         "products": [
           "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
           "appleby-bed-linen",
-          "luxury-microfibre-13-5-tog-duvet",
-          "edmonton",
-          "200-thread-count-egyptian-percale",
           "coniston-bed-linen",
           "katsura-bed-linen",
           "meeko-bed-linen",
           "cosy-throw",
-          "luxury-king-size-pillow",
-          "superior-soft-touch-anti-allergy-13-5-tog-duvet-and-pillow",
           "metropolitan-throw",
           "metropolitan-cushion",
-          "anti-allergy-mattress-and-pillow-protectors"
+          "anti-allergy-mattress-and-pillow-protectors",
+          "super-soft-cosy-robe",
+          "midori-towels",
+          "serene-550-gsm-combed-cotton",
+          "serene-bath-mat",
+          "signum-675-gsm-combed-cotton",
+          "signum-bath-mat",
+          "tribeca-towels",
+          "robe-gift-box"
         ],
         "screen_visibility": "both"
       }
@@ -191,29 +217,6 @@
       ],
       "settings": {
         "title": ""
-      }
-    },
-    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Big Discounts on Best Sellers",
-        "button_title": "Shop All Black Friday",
-        "button_link": "shopify:\/\/collections\/shop-all",
-        "products": [
-          "renaissance",
-          "400-thread-count-sateen-plain-dye",
-          "signum-675-gsm-combed-cotton",
-          "supreme-hygro",
-          "super-soft-cosy-robe",
-          "jaipur-throw",
-          "coniston-bed-linen",
-          "wimbledon-2023-championship-towel",
-          "luxury-microfibre-13-5-tog-duvet",
-          "jaipur-cushion",
-          "luxe-towels",
-          "deep-pile-rug"
-        ],
-        "screen_visibility": "both"
       }
     },
     "955ae530-8662-43db-b9cc-df67f9e5bda7": {
@@ -820,10 +823,10 @@
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "d9b008b3-a56b-404c-b4bb-41b09f268aee",
+    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
     "296b5fdf-eac7-4cd0-922e-5d27c605fc41",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "e922dd6b-de11-4348-9389-5260d6fa205a",
-    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "20b0aa22-bb43-4d2e-a28b-0d6b9fa691c1",
     "1faadb62-9346-46cf-8500-cc18fc75bda3",
