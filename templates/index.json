@@ -2,6 +2,7 @@
   "sections": {
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PPC_1200X628_1_8f633e17-fff4-42a3-9ed1-aaff23562a03.gif",
         "link": "shopify:\/\/collections\/black-friday-sale",
@@ -10,7 +11,6 @@
     },
     "689ece98-c46a-4fdf-962c-0f3513240756": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PPC_1200X628_d8600231-297d-47d7-9564-36f97158eea7.gif",
         "link": "shopify:\/\/collections\/black-friday-sale",
