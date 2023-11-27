@@ -309,7 +309,7 @@
           "settings": {
             "collection": "towels",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/1_630e291f-efa4-490c-bd2b-dd60c2a2ff50.jpg",
+            "image": "shopify:\/\/shop_images\/1_722e187a-5e5d-45ba-9f6d-82e39929bf55.png",
             "alt_title": "Luxury Towels",
             "excerpt": ""
           }
@@ -319,7 +319,7 @@
           "settings": {
             "collection": "all-loungewear",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/2_146500f6-df87-4811-830d-a9b6820f3dba.jpg",
+            "image": "shopify:\/\/shop_images\/2_c0e7c58d-f03d-41c0-9826-60124bac15d1.png",
             "alt_title": "Plush Bath Robes",
             "excerpt": ""
           }
@@ -329,7 +329,7 @@
           "settings": {
             "collection": "bath-mats-and-rugs",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/3_298b1bc1-5cdb-41db-860d-1e0e48487526.jpg",
+            "image": "shopify:\/\/shop_images\/3_540c291d-9466-4b9b-800b-e2d2b5f41ee5.png",
             "alt_title": "Mats & Rugs",
             "excerpt": ""
           }
@@ -387,7 +387,7 @@
           "settings": {
             "collection": "duvet-sets",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/4_fbe2ed35-8fbc-4841-9cf5-b3ffce19dcbd.jpg",
+            "image": "shopify:\/\/shop_images\/4_54460f0b-4500-4417-b3a1-dc09b0ebce1c.png",
             "alt_title": "",
             "excerpt": ""
           }
@@ -397,7 +397,17 @@
           "settings": {
             "collection": "sheets",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/5_d85f0765-7315-4f03-a41f-09d0f44c9024.jpg",
+            "image": "shopify:\/\/shop_images\/5_083cc35a-3c29-48ea-83fe-11e654f50f7b.png",
+            "alt_title": "",
+            "excerpt": ""
+          }
+        },
+        "6748815e-680b-4a82-9435-2cf556cc867c": {
+          "type": "collection",
+          "settings": {
+            "collection": "duvet-pillows",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/7_0a857c49-8ecf-402a-9082-94897416b61c.png",
             "alt_title": "",
             "excerpt": ""
           }
@@ -407,19 +417,9 @@
           "settings": {
             "collection": "flat-sheets",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/6_b3a7d136-2657-4c92-93f0-11040d122c97.jpg",
+            "image": "shopify:\/\/shop_images\/6_27052f18-8db7-4181-89f6-80a06ad8ecbe.png",
             "alt_title": "",
             "excerpt": "<p> <\/p>"
-          }
-        },
-        "6748815e-680b-4a82-9435-2cf556cc867c": {
-          "type": "collection",
-          "settings": {
-            "collection": "duvet-pillows",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/7_74ab005d-1535-4ab3-8120-1eca25839783.jpg",
-            "alt_title": "",
-            "excerpt": ""
           }
         },
         "b67ebaca-9de3-43d0-9ee0-554bcc673479": {
@@ -427,7 +427,7 @@
           "settings": {
             "collection": "pillowcases",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/8_96db91d3-0c2b-4eb0-8fa5-fca34b8378b6.jpg",
+            "image": "shopify:\/\/shop_images\/9_26bd132c-b856-4b58-b1af-7bb3b06bc518.png",
             "alt_title": "Pillowcases",
             "excerpt": "<p> <\/p>"
           }
@@ -437,7 +437,7 @@
           "settings": {
             "collection": "protectors-and-toppers",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/BF_SALE_CREATIVES_326X326_3732fc02-e1ba-4ee4-a064-186122057e9d.jpg",
+            "image": "shopify:\/\/shop_images\/10.png",
             "alt_title": "",
             "excerpt": "<p> <\/p>"
           }
@@ -446,8 +446,8 @@
       "block_order": [
         "3f15cc9c-c32d-43a2-b8a0-175614a8ae86",
         "76a7aa40-fad4-4756-b863-71f413788066",
-        "2c4374cb-ef41-43b7-96f5-f6b61b083b01",
         "6748815e-680b-4a82-9435-2cf556cc867c",
+        "2c4374cb-ef41-43b7-96f5-f6b61b083b01",
         "b67ebaca-9de3-43d0-9ee0-554bcc673479",
         "1c561ecc-6e7c-4c2d-ae57-409320a93e2f"
       ],
