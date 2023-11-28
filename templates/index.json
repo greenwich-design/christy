@@ -12,7 +12,7 @@
     "689ece98-c46a-4fdf-962c-0f3513240756": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER_1920X1080_d6b5acb8-ccea-4cc7-bc01-a28723102e65.jpg",
+        "image": "shopify:\/\/shop_images\/PPC_1200X628_2d37efad-180f-4abf-be0f-d2bf6672c646.jpg",
         "link": "shopify:\/\/collections\/black-friday-sale",
         "full_width": true
       }
@@ -209,15 +209,15 @@
         "button_link": "shopify:\/\/collections\/shop-all",
         "products": [
           "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
-          "renaissance",
-          "jaipur-throw",
-          "supreme-hygro",
           "super-soft-cosy-robe",
+          "brixton-towels",
+          "jaipur-throw",
           "luxe-towels",
           "wimbledon-2023-championship-towel",
-          "brixton-towels",
           "coniston-bed-linen",
-          "smooth-and-silky-cotton-sateen-fitted-sheet"
+          "essence-towels-650-gsm-combed-cotton",
+          "signum-675-gsm-combed-cotton",
+          "renaissance"
         ],
         "screen_visibility": "both"
       }
