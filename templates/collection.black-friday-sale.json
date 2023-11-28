@@ -75,7 +75,7 @@
       "type": "products-carousel",
       "settings": {
         "title": "Minimum 50% off",
-        "button_title": "Shop all",
+        "button_title": "Shop All",
         "button_link": "shopify:\/\/collections\/clearance",
         "products": [
           "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
@@ -101,7 +101,7 @@
       "type": "products-carousel",
       "settings": {
         "title": "Big Discounts on Best Sellers",
-        "button_title": "Shop All Cyber Monday",
+        "button_title": "Shop All",
         "button_link": "shopify:\/\/collections\/shop-all",
         "products": [
           "renaissance",
@@ -292,7 +292,7 @@
     "1faadb62-9346-46cf-8500-cc18fc75bda3": {
       "type": "heading",
       "settings": {
-        "heading": "<p>Threaded Bliss: Unwrap Luxury with Cyber Monday Bath Deals!<\/p>",
+        "heading": "<p>Threaded Bliss: Unwrap Luxury with Black Friday Bath Deals!<\/p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
@@ -349,7 +349,7 @@
     "0ea7c509-a0e6-4f26-8f0f-2d0f5eb7a796": {
       "type": "products-carousel",
       "settings": {
-        "title": "Fluff and Fold: Cyber Monday Towel Frenzy!",
+        "title": "Fluff and Fold: Black Friday Towel Frenzy!",
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/offers-towels",
         "products": [
@@ -370,7 +370,7 @@
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
       "type": "heading",
       "settings": {
-        "heading": "<p>Dream in Style: Cyber Monday Luxury Bedding Bonanza!<\/p>",
+        "heading": "<p>Dream in Style: Black Friday Luxury Bedding Bonanza!<\/p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
@@ -811,8 +811,8 @@
         "9c788114-0e17-4e4a-90ac-0edf460cd23f"
       ],
       "settings": {
-        "title": "Discover Cyber Monday",
-        "copy": "<p>Unwrap Joy this Cyber Monday with Christy's Exclusive Deals! <\/p><p>Dive into a world of luxury and savings this Cyber Monday, featuring exclusive deals with up to 60% off on premium bedding, towels, bath robes and throws.<\/p><p>Transform your bedroom into a sanctuary of tranquillity with our sumptuous bedding collections. From silky-soft sheets to opulent duvet covers, indulge in the luxury you deserve.<\/p><p>Upgrade your bathroom with Christy's plush towels and bathrobes. Wrap yourself in pure comfort and experience the epitome of indulgence after every bath or shower.<\/p><p>These exclusive Cyber Monday deals won't last forever! Shop now to secure your favourites before they're gone. Don't miss out on the chance to elevate your home with Christy's timeless elegance. <\/p><p>Cyber Monday is your golden opportunity to experience luxury for less so get ready to elevate your home with Christy!<\/p>"
+        "title": "Discover Black Friday",
+        "copy": "<p>Unwrap Joy this Black Friday with Christy's Exclusive Deals! <\/p><p>Dive into a world of luxury and savings this Black Friday, featuring exclusive deals with up to 60% off on premium bedding, towels, bath robes and throws.<\/p><p>Transform your bedroom into a sanctuary of tranquillity with our sumptuous bedding collections. From silky-soft sheets to opulent duvet covers, indulge in the luxury you deserve.<\/p><p>Upgrade your bathroom with Christy's plush towels and bathrobes. Wrap yourself in pure comfort and experience the epitome of indulgence after every bath or shower.<\/p><p>These exclusive Black Friday deals won't last forever! Shop now to secure your favourites before they're gone. Don't miss out on the chance to elevate your home with Christy's timeless elegance. <\/p><p>Black Friday is your golden opportunity to experience luxury for less so get ready to elevate your home with Christy!<\/p>"
       }
     }
   },
