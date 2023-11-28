@@ -12,7 +12,7 @@
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER_1920X1080_d6b5acb8-ccea-4cc7-bc01-a28723102e65.jpg",
+        "image": "shopify:\/\/shop_images\/PPC_1200X628_2d37efad-180f-4abf-be0f-d2bf6672c646.jpg",
         "link": "",
         "full_width": true
       }
@@ -71,6 +71,32 @@
         "screen_visibility": "both"
       }
     },
+    "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Minimum 50% off",
+        "button_title": "Shop all",
+        "button_link": "shopify:\/\/collections\/clearance",
+        "products": [
+          "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
+          "brixton-towels",
+          "super-soft-cosy-robe",
+          "signum-675-gsm-combed-cotton",
+          "coniston-bed-linen",
+          "appleby-bed-linen",
+          "serene-550-gsm-combed-cotton",
+          "tribeca-towels",
+          "katsura-bed-linen",
+          "meeko-bed-linen",
+          "midori-towels",
+          "metropolitan-throw",
+          "metropolitan-cushion",
+          "cosy-throw",
+          "anti-allergy-mattress-and-pillow-protectors"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
       "type": "products-carousel",
       "settings": {
@@ -80,40 +106,15 @@
         "products": [
           "renaissance",
           "400-thread-count-sateen-plain-dye",
-          "supreme-hygro",
+          "essence-towels-650-gsm-combed-cotton",
           "jaipur-throw",
           "supreme-velour-robe",
           "wimbledon-2023-championship-towel",
-          "essence-towels-650-gsm-combed-cotton",
-          "luxury-microfibre-13-5-tog-duvet",
           "luxe-towels",
+          "luxury-microfibre-13-5-tog-duvet",
+          "supreme-hygro",
           "jaipur-cushion",
           "deep-pile-rug"
-        ],
-        "screen_visibility": "both"
-      }
-    },
-    "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Minimum 50% off",
-        "button_title": "Shop all",
-        "button_link": "shopify:\/\/collections\/clearance",
-        "products": [
-          "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
-          "signum-675-gsm-combed-cotton",
-          "super-soft-cosy-robe",
-          "serene-550-gsm-combed-cotton",
-          "coniston-bed-linen",
-          "appleby-bed-linen",
-          "tribeca-towels",
-          "katsura-bed-linen",
-          "meeko-bed-linen",
-          "midori-towels",
-          "metropolitan-throw",
-          "metropolitan-cushion",
-          "cosy-throw",
-          "anti-allergy-mattress-and-pillow-protectors"
         ],
         "screen_visibility": "both"
       }
@@ -820,8 +821,8 @@
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "d9b008b3-a56b-404c-b4bb-41b09f268aee",
-    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
     "296b5fdf-eac7-4cd0-922e-5d27c605fc41",
+    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "e922dd6b-de11-4348-9389-5260d6fa205a",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
