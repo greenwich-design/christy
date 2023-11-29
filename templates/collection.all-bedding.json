@@ -13,8 +13,8 @@
       "type": "hero-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
-        "link": "",
+        "image": "shopify:\/\/shop_images\/BANNER_1920X1080_3375a919-daa7-47f8-987d-134deac4d161.jpg",
+        "link": "shopify:\/\/collections\/autumn-winter-2023-collection",
         "full_width": true
       }
     },
@@ -40,6 +40,7 @@
       "block_order": [
         "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1"
       ],
+      "disabled": true,
       "settings": {
       }
     },
