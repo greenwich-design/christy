@@ -11,6 +11,7 @@
     },
     "34bcb026-f7c3-41ed-b614-17526b336a4c": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
         "link": "",
