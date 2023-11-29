@@ -2,6 +2,7 @@
   "sections": {
     "e901575f-25fe-4109-b309-d26b6e94f2f2": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
         "link": "",
