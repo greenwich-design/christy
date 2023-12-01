@@ -24,6 +24,39 @@ document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.parentElement.addEventListener('keyup', onKeyUpEscape);
 });
 
+document.querySelectorAll('img[data-hover]').forEach((im)=>{
+  im.addEventListener('mouseenter',(e)=>{
+    let hover_image = im.getAttribute('data-hover')
+    let original_image = im.getAttribute('src')
+    let hover_srcset = im.getAttribute('srcset-hover')
+    let original_srcset = im.getAttribute('srcset')
+    let hover_datasrcset = im.getAttribute('data-srcset-hover')
+    let original_datasrcset = im.getAttribute('data-srcset')
+    im.setAttribute('src',hover_image)
+    im.setAttribute('data-hover',original_image)
+    im.setAttribute('srcset-hover',original_srcset)
+    im.setAttribute('srcset',hover_srcset)
+    im.setAttribute('data-srcset-hover',original_datasrcset)
+    im.setAttribute('data-srcset',original_datasrcset)
+  })
+  im.addEventListener('mouseleave',(e)=>{
+    let hover_image = im.getAttribute('data-hover')
+    let original_image = im.getAttribute('src')
+    let hover_srcset = im.getAttribute('srcset-hover')
+    let original_srcset = im.getAttribute('srcset')
+    let hover_datasrcset = im.getAttribute('data-srcset-hover')
+    let original_datasrcset = im.getAttribute('data-srcset')
+    im.setAttribute('src',hover_image)
+    im.setAttribute('data-hover',original_image)
+    im.setAttribute('srcset-hover',original_srcset)
+    im.setAttribute('srcset',hover_srcset)
+    im.setAttribute('data-srcset-hover',original_datasrcset)
+    im.setAttribute('data-srcset',original_datasrcset)
+  })
+})
+
+
+
 const trapFocusHandlers = {};
 
 function trapFocus(container, elementToFocus = container) {
