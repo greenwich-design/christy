@@ -73,6 +73,7 @@
     },
     "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "Minimum 50% off",
         "button_title": "Shop All",
@@ -125,7 +126,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_b3375fab-b74b-4b04-90d8-d4c7159c8226.png",
+            "image": "shopify:\/\/shop_images\/23.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -137,7 +138,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_8c4dbbd4-6777-402a-b023-88a6f7695013.png",
+            "image": "shopify:\/\/shop_images\/22.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -149,7 +150,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_ed222c72-0769-4192-9056-0f4c9f1b71c4.png",
+            "image": "shopify:\/\/shop_images\/20.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -174,7 +175,7 @@
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_bbc94af4-7aaf-4f57-a975-025ba4f2a3dd.png",
+            "image": "shopify:\/\/shop_images\/21.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -186,7 +187,7 @@
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/5_d8164189-2302-4d56-b999-9381fbb82ffa.png",
+            "image": "shopify:\/\/shop_images\/24.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -198,7 +199,7 @@
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/6_70743487-e532-474e-86b4-9e4ec07314cd.png",
+            "image": "shopify:\/\/shop_images\/25.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
