@@ -23,6 +23,8 @@
         "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/10_3f870ce1-302c-41fc-ba7d-8ed87a8ebded.jpg",
+            "image_hover": "shopify:\/\/shop_images\/19.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -34,6 +36,7 @@
         "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/15.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -45,6 +48,7 @@
         "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/19.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -56,6 +60,7 @@
         "f0b47c29-22a8-42ca-babf-327c2ed751bc": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/18.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -67,6 +72,7 @@
         "cc198046-4d42-4636-aeb1-996585555d64": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/17.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -78,6 +84,7 @@
         "fd87e709-f335-4932-a162-96e774f5d6eb": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/16.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -89,6 +96,7 @@
         "beccd1a6-4ed7-4de3-a612-9900691c8e96": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/14.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -100,6 +108,7 @@
         "18434275-a03a-4c1b-8f34-f76e32e730da": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/8_28820aa5-0957-4f28-9fab-f851a66fc4a1.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -111,6 +120,7 @@
         "9661a012-83c4-4426-b8f0-c1e1f349f437": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/12.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -122,6 +132,7 @@
         "63620c13-6669-484d-bcba-8d0e725e0396": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/11.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -133,6 +144,7 @@
         "a0b2e736-60fa-467a-9538-66940cf70ed3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/13.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -144,6 +156,7 @@
         "64295c02-60b3-4813-8bc7-58b796e9129f": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/9_00436fd6-863c-4ce4-acbb-e55e80189323.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
