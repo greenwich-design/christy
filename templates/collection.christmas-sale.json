@@ -802,6 +802,53 @@
         "title": "Discover the 12 Days of Christmas Sale",
         "copy": "<p>Unwrap Joy this December with Christy's 12 Days of Christmas Sale! <\/p><p>Dive into a world of luxury and savings this holiday season, featuring exclusive deals with up to 50% off on premium bedding, towels, bath robes and throws.<\/p><p>Transform your bedroom into a sanctuary of tranquillity with our sumptuous bedding collections. From silky-soft sheets to opulent duvet covers, indulge in the luxury you deserve.<\/p><p>Upgrade your bathroom with Christy's plush towels and bathrobes. Wrap yourself in pure comfort and experience the epitome of indulgence after every bath or shower.<\/p><p>These exclusive Christmas deals won't last forever! Shop now to secure your favourites before they're gone. Don't miss out on the chance to elevate your home with Christy's timeless elegance. <\/p><p>The 12 Days of Chirstmas sale is your golden opportunity to experience luxury for less so get ready to elevate your home with Christy!<\/p>"
       }
+    },
+    "3d8d2eee-9d2e-4b20-80ec-026c5afff458": {
+      "type": "info-columns-hover",
+      "blocks": {
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14_61b5f261-59c7-4a44-86c4-a50f052579ae.jpg",
+            "image_hover": "shopify:\/\/shop_images\/14_61b5f261-59c7-4a44-86c4-a50f052579ae.jpg",
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "brixton-robe",
+            "collection_tag": ""
+          }
+        },
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-2": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-3": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-1",
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-2",
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-3"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -828,6 +875,7 @@
     "product-grid",
     "recent-products",
     "d9350269-9c53-4976-897a-27cf368fb2c9",
-    "toggled-body-content"
+    "toggled-body-content",
+    "3d8d2eee-9d2e-4b20-80ec-026c5afff458"
   ]
 }
