@@ -101,8 +101,8 @@
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_8.00.42_PM.jpg",
-        "image2": "shopify:\/\/shop_images\/MicrosoftTeams-image_1.jpg",
+        "image": "shopify:\/\/shop_images\/Gift_2.jpg",
+        "image2": "shopify:\/\/shop_images\/Gift_1.jpg",
         "subtitle": "",
         "title": "<p>Create your own Gift Box<\/p>",
         "copy": "<p>Elevate your gift-giving experience with our luxurious signature gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
@@ -182,7 +182,7 @@
         "subtitle": "Wimbledon Championship Towel 2023",
         "title": "<p>Ace Your Christmas Gift-Giving!<\/p>",
         "copy": "<p>Elevate your Christmas gifting game with the Wimbledon Championship Towel 2023. <\/p><p>It's a versatile, stylish, and ultra-absorbent gift that tennis lovers and anyone with an appreciation for quality will adore. <\/p>",
-        "button_label": "Shop the Collection",
+        "button_label": "Flat 30% Off - Shop Now",
         "button_link": "shopify:\/\/collections\/wimbledon-collection",
         "content_position": "right",
         "header_position": false,
