@@ -30,6 +30,171 @@
         "margin_top": false
       }
     },
+    "3d8d2eee-9d2e-4b20-80ec-026c5afff458": {
+      "type": "info-columns-hover",
+      "blocks": {
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/9_287f6e02-4139-4a70-b044-ee81e969fa50.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "luxe-towels",
+            "collection_tag": ""
+          }
+        },
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_e12bc05d-6bbb-4f21-8ecf-2df10b7a5644.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "super-soft-cosy-robe",
+            "collection_tag": ""
+          }
+        },
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/15_db45bc43-e5cb-4927-a46f-6f276c15e3b5.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "jaipur-throw",
+            "collection_tag": ""
+          }
+        },
+        "1f75b43a-b5ac-413a-be4c-01277e378e56": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11_9899e020-d57a-473d-b80f-40510cfe9fe4.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "brixton-towels",
+            "collection_tag": ""
+          }
+        },
+        "9503a2ac-3cd3-49d2-96bc-d592f086ae72": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13_406a2239-b1af-4479-91e7-69ea7c2b85af.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
+            "collection_tag": ""
+          }
+        },
+        "8dcb10b3-2df1-40e7-9430-ed282d34f39d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14_95b1675a-bec5-4723-acc7-82829d7da7c9.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "organic-retreat",
+            "collection_tag": ""
+          }
+        },
+        "e5760f3f-a829-4db2-8b37-09be90b498b8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12_5fced642-cdd3-4e25-98be-cd7c4e8e9cad.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "wimbledon-2023-championship-towel",
+            "collection_tag": ""
+          }
+        },
+        "31e2c2b1-3647-4bbd-960d-eeecafabad8d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_7164b1dc-084c-4802-8865-377c30725a8e.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "renaissance",
+            "collection_tag": ""
+          }
+        },
+        "e94b9b00-0b0f-42ff-858e-f4b243c232dc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/18_685289d0-f2a0-4cba-b97c-1e28f4524ffa.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "coniston-bed-linen",
+            "collection_tag": ""
+          }
+        },
+        "1844bf88-8266-4f7f-aa58-c9a9f226d54e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/19_c698bc63-30be-4742-ae92-3cc18c446fe4.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "supreme-velour-robe",
+            "collection_tag": ""
+          }
+        },
+        "48af45f6-f641-4b44-bfb0-7bc99ac74082": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/17_e832a1ab-f7f4-4c55-8999-1b77165e3fe1.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "essence-towels-650-gsm-combed-cotton",
+            "collection_tag": ""
+          }
+        },
+        "97f5a4ec-cccf-431c-8380-9dbb374b73cd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/16_8d6e24a9-5976-46cd-b406-e6b12410867c.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "feather-and-down-13-5-tog-duvet",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-1",
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-2",
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-3",
+        "1f75b43a-b5ac-413a-be4c-01277e378e56",
+        "9503a2ac-3cd3-49d2-96bc-d592f086ae72",
+        "8dcb10b3-2df1-40e7-9430-ed282d34f39d",
+        "e5760f3f-a829-4db2-8b37-09be90b498b8",
+        "31e2c2b1-3647-4bbd-960d-eeecafabad8d",
+        "e94b9b00-0b0f-42ff-858e-f4b243c232dc",
+        "1844bf88-8266-4f7f-aa58-c9a9f226d54e",
+        "48af45f6-f641-4b44-bfb0-7bc99ac74082",
+        "97f5a4ec-cccf-431c-8380-9dbb374b73cd"
+      ],
+      "settings": {
+      }
+    },
     "c66f958a-b771-485c-bd16-7e2841ec3c60": {
       "type": "article-additional",
       "blocks": {
@@ -182,25 +347,6 @@
         "title": ""
       }
     },
-    "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Flat 50% off",
-        "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/clearance",
-        "products": [
-          "katsura-bed-linen",
-          "coniston-bed-linen",
-          "signum-675-gsm-combed-cotton",
-          "appleby-bed-linen",
-          "serene-550-gsm-combed-cotton",
-          "meeko-bed-linen",
-          "tribeca-towels",
-          "midori-towels"
-        ],
-        "screen_visibility": "both"
-      }
-    },
     "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
       "type": "products-carousel",
       "disabled": true,
@@ -222,57 +368,6 @@
           "deep-pile-rug"
         ],
         "screen_visibility": "both"
-      }
-    },
-    "955ae530-8662-43db-b9cc-df67f9e5bda7": {
-      "type": "benefits-icons",
-      "blocks": {
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1": {
-          "type": "block",
-          "settings": {
-            "title": "Legacy of Innovation",
-            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.<\/p>",
-            "button_link": "shopify:\/\/pages\/our-heritage",
-            "button_title": "Learn More"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2": {
-          "type": "block",
-          "settings": {
-            "title": "Sustainability",
-            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.<\/p>",
-            "button_link": "shopify:\/\/pages\/responsibility",
-            "button_title": "Learn More"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3": {
-          "type": "block",
-          "settings": {
-            "title": "Loved by our Customers",
-            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
-            "button_link": "shopify:\/\/collections\/shop-all",
-            "button_title": "Shop the Range"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4": {
-          "type": "block",
-          "settings": {
-            "title": "Free Shipping & Returns",
-            "copy": "<p>Free Shipping above £50 plus our Worry-Free Extended Return Guarantee.<\/p>",
-            "button_link": "shopify:\/\/pages\/shipping-policy",
-            "button_title": "Learn More"
-          }
-        }
-      },
-      "block_order": [
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4"
-      ],
-      "settings": {
-        "title": "Why Christy?",
-        "margin": "yes"
       }
     },
     "2842eb42-811e-4056-970a-2f1bcc377e84": {
@@ -335,6 +430,76 @@
       ],
       "settings": {
         "title": "It takes 3 Simple Steps"
+      }
+    },
+    "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Flat 50% off",
+        "button_title": "Shop All",
+        "button_link": "shopify:\/\/collections\/clearance",
+        "products": [
+          "katsura-bed-linen",
+          "coniston-bed-linen",
+          "signum-675-gsm-combed-cotton",
+          "appleby-bed-linen",
+          "serene-550-gsm-combed-cotton",
+          "meeko-bed-linen",
+          "tribeca-towels",
+          "midori-towels"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "955ae530-8662-43db-b9cc-df67f9e5bda7": {
+      "type": "benefits-icons",
+      "blocks": {
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1": {
+          "type": "block",
+          "settings": {
+            "title": "Legacy of Innovation",
+            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.<\/p>",
+            "button_link": "shopify:\/\/pages\/our-heritage",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2": {
+          "type": "block",
+          "settings": {
+            "title": "Sustainability",
+            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.<\/p>",
+            "button_link": "shopify:\/\/pages\/responsibility",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3": {
+          "type": "block",
+          "settings": {
+            "title": "Loved by our Customers",
+            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
+            "button_link": "shopify:\/\/collections\/shop-all",
+            "button_title": "Shop the Range"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4": {
+          "type": "block",
+          "settings": {
+            "title": "Free Shipping & Returns",
+            "copy": "<p>Free Shipping above £50 plus our Worry-Free Extended Return Guarantee.<\/p>",
+            "button_link": "shopify:\/\/pages\/shipping-policy",
+            "button_title": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4"
+      ],
+      "settings": {
+        "title": "Why Christy?",
+        "margin": "yes"
       }
     },
     "1faadb62-9346-46cf-8500-cc18fc75bda3": {
@@ -802,179 +967,22 @@
         "title": "Discover the 12 Days of Christmas Sale",
         "copy": "<p>Unwrap Joy this December with Christy's 12 Days of Christmas Sale! <\/p><p>Dive into a world of luxury and savings this holiday season, featuring exclusive deals with up to 50% off on premium bedding, towels, bath robes and throws.<\/p><p>Transform your bedroom into a sanctuary of tranquillity with our sumptuous bedding collections. From silky-soft sheets to opulent duvet covers, indulge in the luxury you deserve.<\/p><p>Upgrade your bathroom with Christy's plush towels and bathrobes. Wrap yourself in pure comfort and experience the epitome of indulgence after every bath or shower.<\/p><p>These exclusive Christmas deals won't last forever! Shop now to secure your favourites before they're gone. Don't miss out on the chance to elevate your home with Christy's timeless elegance. <\/p><p>The 12 Days of Chirstmas sale is your golden opportunity to experience luxury for less so get ready to elevate your home with Christy!<\/p>"
       }
-    },
-    "3d8d2eee-9d2e-4b20-80ec-026c5afff458": {
-      "type": "info-columns-hover",
-      "blocks": {
-        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/9_287f6e02-4139-4a70-b044-ee81e969fa50.jpg",
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "luxe-towels",
-            "collection_tag": ""
-          }
-        },
-        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8_e12bc05d-6bbb-4f21-8ecf-2df10b7a5644.jpg",
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "super-soft-cosy-robe",
-            "collection_tag": ""
-          }
-        },
-        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/15_db45bc43-e5cb-4927-a46f-6f276c15e3b5.jpg",
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "jaipur-throw",
-            "collection_tag": ""
-          }
-        },
-        "9503a2ac-3cd3-49d2-96bc-d592f086ae72": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/13_406a2239-b1af-4479-91e7-69ea7c2b85af.jpg",
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
-            "collection_tag": ""
-          }
-        },
-        "31e2c2b1-3647-4bbd-960d-eeecafabad8d": {
-          "type": "column",
-          "settings": {
-            "image_hover": "shopify:\/\/shop_images\/10_7164b1dc-084c-4802-8865-377c30725a8e.jpg",
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "renaissance",
-            "collection_tag": ""
-          }
-        },
-        "8dcb10b3-2df1-40e7-9430-ed282d34f39d": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "e5760f3f-a829-4db2-8b37-09be90b498b8": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "1f75b43a-b5ac-413a-be4c-01277e378e56": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "48af45f6-f641-4b44-bfb0-7bc99ac74082": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "e94b9b00-0b0f-42ff-858e-f4b243c232dc": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "97f5a4ec-cccf-431c-8380-9dbb374b73cd": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "1844bf88-8266-4f7f-aa58-c9a9f226d54e": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-1",
-        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-2",
-        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-3",
-        "9503a2ac-3cd3-49d2-96bc-d592f086ae72",
-        "31e2c2b1-3647-4bbd-960d-eeecafabad8d",
-        "8dcb10b3-2df1-40e7-9430-ed282d34f39d",
-        "e5760f3f-a829-4db2-8b37-09be90b498b8",
-        "1f75b43a-b5ac-413a-be4c-01277e378e56",
-        "48af45f6-f641-4b44-bfb0-7bc99ac74082",
-        "e94b9b00-0b0f-42ff-858e-f4b243c232dc",
-        "97f5a4ec-cccf-431c-8380-9dbb374b73cd",
-        "1844bf88-8266-4f7f-aa58-c9a9f226d54e"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c",
     "8afe31d6-ee17-4a35-bf94-61ee2db3c726",
+    "3d8d2eee-9d2e-4b20-80ec-026c5afff458",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "d9b008b3-a56b-404c-b4bb-41b09f268aee",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "e922dd6b-de11-4348-9389-5260d6fa205a",
-    "296b5fdf-eac7-4cd0-922e-5d27c605fc41",
     "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
-    "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "2842eb42-811e-4056-970a-2f1bcc377e84",
     "ed3fec5f-2dcd-4456-9169-b2f17089966f",
+    "296b5fdf-eac7-4cd0-922e-5d27c605fc41",
+    "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "1faadb62-9346-46cf-8500-cc18fc75bda3",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "0ea7c509-a0e6-4f26-8f0f-2d0f5eb7a796",
@@ -986,7 +994,6 @@
     "product-grid",
     "recent-products",
     "d9350269-9c53-4976-897a-27cf368fb2c9",
-    "toggled-body-content",
-    "3d8d2eee-9d2e-4b20-80ec-026c5afff458"
+    "toggled-body-content"
   ]
 }
