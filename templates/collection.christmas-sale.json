@@ -17,14 +17,25 @@
         "full_width": true
       }
     },
-    "36c13d30-6908-49e4-be3d-c2c546bf1427": {
-      "type": "info-columns-hover",
+    "8afe31d6-ee17-4a35-bf94-61ee2db3c726": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>12 Days. 12 Amazing Deals on Towels, Robes, Bedding & More<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
+      }
+    },
+    "73bd2685-499d-4f58-8782-0ebab1a668fc": {
+      "type": "c-info-columns",
       "blocks": {
-        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-1": {
+        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/10_3f870ce1-302c-41fc-ba7d-8ed87a8ebded.jpg",
-            "image_hover": "shopify:\/\/shop_images\/19.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -33,10 +44,9 @@
             "collection_tag": ""
           }
         },
-        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-2": {
+        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/15.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -45,118 +55,9 @@
             "collection_tag": ""
           }
         },
-        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-3": {
+        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/19.jpg",
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "f0b47c29-22a8-42ca-babf-327c2ed751bc": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/18.jpg",
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "cc198046-4d42-4636-aeb1-996585555d64": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/17.jpg",
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "fd87e709-f335-4932-a162-96e774f5d6eb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/16.jpg",
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "beccd1a6-4ed7-4de3-a612-9900691c8e96": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/14.jpg",
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "18434275-a03a-4c1b-8f34-f76e32e730da": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8_28820aa5-0957-4f28-9fab-f851a66fc4a1.jpg",
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "9661a012-83c4-4426-b8f0-c1e1f349f437": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/12.jpg",
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "63620c13-6669-484d-bcba-8d0e725e0396": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/11.jpg",
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "a0b2e736-60fa-467a-9538-66940cf70ed3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/13.jpg",
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "64295c02-60b3-4813-8bc7-58b796e9129f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/9_00436fd6-863c-4ce4-acbb-e55e80189323.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Fluffy",
             "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
@@ -167,20 +68,12 @@
         }
       },
       "block_order": [
-        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-1",
-        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-2",
-        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-3",
-        "f0b47c29-22a8-42ca-babf-327c2ed751bc",
-        "cc198046-4d42-4636-aeb1-996585555d64",
-        "fd87e709-f335-4932-a162-96e774f5d6eb",
-        "beccd1a6-4ed7-4de3-a612-9900691c8e96",
-        "18434275-a03a-4c1b-8f34-f76e32e730da",
-        "9661a012-83c4-4426-b8f0-c1e1f349f437",
-        "63620c13-6669-484d-bcba-8d0e725e0396",
-        "a0b2e736-60fa-467a-9538-66940cf70ed3",
-        "64295c02-60b3-4813-8bc7-58b796e9129f"
+        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-1",
+        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-2",
+        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-3"
       ],
       "settings": {
+        "title": ""
       }
     },
     "c66f958a-b771-485c-bd16-7e2841ec3c60": {
@@ -490,27 +383,6 @@
         "title": "It takes 3 Simple Steps"
       }
     },
-    "20b0aa22-bb43-4d2e-a28b-0d6b9fa691c1": {
-      "type": "products-carousel",
-      "disabled": true,
-      "settings": {
-        "title": "The Flat 60% Off Collection",
-        "button_title": "See more",
-        "button_link": "shopify:\/\/collections\/clearance",
-        "products": [
-          "signum-675-gsm-combed-cotton",
-          "signum-bath-mat",
-          "katsura-bed-linen",
-          "tribeca-towels",
-          "serene-550-gsm-combed-cotton",
-          "midori-towels",
-          "meeko-bed-linen",
-          "appleby-bed-linen",
-          "anti-allergy-mattress-and-pillow-protectors"
-        ],
-        "screen_visibility": "both"
-      }
-    },
     "1faadb62-9346-46cf-8500-cc18fc75bda3": {
       "type": "heading",
       "settings": {
@@ -575,14 +447,14 @@
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/offers-towels",
         "products": [
+          "supreme-hygro",
+          "mode-towels",
+          "luxe-towels",
           "renaissance",
+          "serene-550-gsm-combed-cotton",
+          "carnaby-stripe",
           "signum-675-gsm-combed-cotton",
           "brixton-towels",
-          "luxe-towels",
-          "supreme-hygro",
-          "carnaby-stripe",
-          "mode-towels",
-          "serene-550-gsm-combed-cotton",
           "midori-towels",
           "tribeca-towels"
         ],
@@ -686,16 +558,18 @@
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "products": [
+          "lerwick-stripe",
+          "hartley-print-duvet-set",
+          "stornoway-chambray",
           "smooth-and-silky-cotton-sateen-fitted-sheet",
-          "luxury-microfibre-13-5-tog-duvet",
-          "coniston-bed-linen",
-          "katsura-bed-linen",
+          "tranquility-print-duvet-set",
+          "fennel-print-duvet-set",
           "200-thread-count-egyptian-percale",
-          "anti-allergy-mattress-and-pillow-protectors",
-          "luxury-king-size-pillow",
+          "luxury-microfibre-13-5-tog-duvet",
           "organic-retreat",
-          "appleby-bed-linen",
-          "meeko-bed-linen"
+          "riley-duvet-set",
+          "luxury-king-size-pillow",
+          "superior-soft-touch-anti-allergy-13-5-tog-duvet-and-pillow"
         ],
         "screen_visibility": "both"
       }
@@ -979,7 +853,8 @@
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c",
-    "36c13d30-6908-49e4-be3d-c2c546bf1427",
+    "8afe31d6-ee17-4a35-bf94-61ee2db3c726",
+    "73bd2685-499d-4f58-8782-0ebab1a668fc",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "d9b008b3-a56b-404c-b4bb-41b09f268aee",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
@@ -989,7 +864,6 @@
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "2842eb42-811e-4056-970a-2f1bcc377e84",
     "ed3fec5f-2dcd-4456-9169-b2f17089966f",
-    "20b0aa22-bb43-4d2e-a28b-0d6b9fa691c1",
     "1faadb62-9346-46cf-8500-cc18fc75bda3",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "0ea7c509-a0e6-4f26-8f0f-2d0f5eb7a796",
