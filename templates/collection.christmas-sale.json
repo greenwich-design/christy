@@ -30,52 +30,6 @@
         "margin_top": false
       }
     },
-    "73bd2685-499d-4f58-8782-0ebab1a668fc": {
-      "type": "c-info-columns",
-      "blocks": {
-        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-1": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-2": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-3": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-1",
-        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-2",
-        "template--21640914534688__73bd2685-499d-4f58-8782-0ebab1a668fc-column-3"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
     "c66f958a-b771-485c-bd16-7e2841ec3c60": {
       "type": "article-additional",
       "blocks": {
@@ -854,7 +808,6 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c",
     "8afe31d6-ee17-4a35-bf94-61ee2db3c726",
-    "73bd2685-499d-4f58-8782-0ebab1a668fc",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "d9b008b3-a56b-404c-b4bb-41b09f268aee",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
