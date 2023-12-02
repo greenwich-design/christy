@@ -5,6 +5,13 @@
     "header": {
       "type": "header",
       "blocks": {
+        "76f3926b-2051-4283-ab19-68716a2dc65a": {
+          "type": "link",
+          "settings": {
+            "link_name": "Christmas Sale",
+            "link": "shopify:\/\/collections\/christmas-sale"
+          }
+        },
         "86393deb-1c9c-4fc8-ae5a-9bdba0bfb2c8": {
           "type": "megamenu",
           "settings": {
@@ -59,6 +66,7 @@
         }
       },
       "block_order": [
+        "76f3926b-2051-4283-ab19-68716a2dc65a",
         "86393deb-1c9c-4fc8-ae5a-9bdba0bfb2c8",
         "75553cbe-f6a9-40d3-942c-b7b3050e72d0",
         "02703d64-9099-4977-bc01-f845b24a776e"
