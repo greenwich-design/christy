@@ -17,6 +17,159 @@
         "full_width": true
       }
     },
+    "36c13d30-6908-49e4-be3d-c2c546bf1427": {
+      "type": "info-columns-hover",
+      "blocks": {
+        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-1": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-2": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-3": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "f0b47c29-22a8-42ca-babf-327c2ed751bc": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "cc198046-4d42-4636-aeb1-996585555d64": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "fd87e709-f335-4932-a162-96e774f5d6eb": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "beccd1a6-4ed7-4de3-a612-9900691c8e96": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "18434275-a03a-4c1b-8f34-f76e32e730da": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "9661a012-83c4-4426-b8f0-c1e1f349f437": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "63620c13-6669-484d-bcba-8d0e725e0396": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "a0b2e736-60fa-467a-9538-66940cf70ed3": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "64295c02-60b3-4813-8bc7-58b796e9129f": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-1",
+        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-2",
+        "template--21640914534688__36c13d30-6908-49e4-be3d-c2c546bf1427-column-3",
+        "f0b47c29-22a8-42ca-babf-327c2ed751bc",
+        "cc198046-4d42-4636-aeb1-996585555d64",
+        "fd87e709-f335-4932-a162-96e774f5d6eb",
+        "beccd1a6-4ed7-4de3-a612-9900691c8e96",
+        "18434275-a03a-4c1b-8f34-f76e32e730da",
+        "9661a012-83c4-4426-b8f0-c1e1f349f437",
+        "63620c13-6669-484d-bcba-8d0e725e0396",
+        "a0b2e736-60fa-467a-9538-66940cf70ed3",
+        "64295c02-60b3-4813-8bc7-58b796e9129f"
+      ],
+      "settings": {
+      }
+    },
     "c66f958a-b771-485c-bd16-7e2841ec3c60": {
       "type": "article-additional",
       "blocks": {
@@ -67,55 +220,6 @@
           "signum-675-gsm-combed-cotton",
           "reversible-bath-rug",
           "serene-550-gsm-combed-cotton"
-        ],
-        "screen_visibility": "both"
-      }
-    },
-    "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
-      "type": "products-carousel",
-      "disabled": true,
-      "settings": {
-        "title": "Minimum 50% off",
-        "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/clearance",
-        "products": [
-          "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
-          "brixton-towels",
-          "super-soft-cosy-robe",
-          "signum-675-gsm-combed-cotton",
-          "coniston-bed-linen",
-          "appleby-bed-linen",
-          "serene-550-gsm-combed-cotton",
-          "tribeca-towels",
-          "katsura-bed-linen",
-          "meeko-bed-linen",
-          "midori-towels",
-          "metropolitan-throw",
-          "metropolitan-cushion",
-          "cosy-throw",
-          "anti-allergy-mattress-and-pillow-protectors"
-        ],
-        "screen_visibility": "both"
-      }
-    },
-    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Big Discounts on Best Sellers",
-        "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/shop-all",
-        "products": [
-          "renaissance",
-          "400-thread-count-sateen-plain-dye",
-          "essence-towels-650-gsm-combed-cotton",
-          "jaipur-throw",
-          "supreme-velour-robe",
-          "wimbledon-2023-championship-towel",
-          "luxe-towels",
-          "luxury-microfibre-13-5-tog-duvet",
-          "supreme-hygro",
-          "jaipur-cushion",
-          "deep-pile-rug"
         ],
         "screen_visibility": "both"
       }
@@ -216,6 +320,48 @@
       ],
       "settings": {
         "title": ""
+      }
+    },
+    "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Flat 50% off",
+        "button_title": "Shop All",
+        "button_link": "shopify:\/\/collections\/clearance",
+        "products": [
+          "katsura-bed-linen",
+          "coniston-bed-linen",
+          "signum-675-gsm-combed-cotton",
+          "appleby-bed-linen",
+          "serene-550-gsm-combed-cotton",
+          "meeko-bed-linen",
+          "tribeca-towels",
+          "midori-towels"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
+      "type": "products-carousel",
+      "disabled": true,
+      "settings": {
+        "title": "Big Discounts on Best Sellers",
+        "button_title": "Shop All",
+        "button_link": "shopify:\/\/collections\/shop-all",
+        "products": [
+          "renaissance",
+          "400-thread-count-sateen-plain-dye",
+          "essence-towels-650-gsm-combed-cotton",
+          "jaipur-throw",
+          "supreme-velour-robe",
+          "wimbledon-2023-championship-towel",
+          "luxe-towels",
+          "luxury-microfibre-13-5-tog-duvet",
+          "supreme-hygro",
+          "jaipur-cushion",
+          "deep-pile-rug"
+        ],
+        "screen_visibility": "both"
       }
     },
     "955ae530-8662-43db-b9cc-df67f9e5bda7": {
@@ -820,12 +966,13 @@
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c",
+    "36c13d30-6908-49e4-be3d-c2c546bf1427",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "d9b008b3-a56b-404c-b4bb-41b09f268aee",
-    "296b5fdf-eac7-4cd0-922e-5d27c605fc41",
-    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "e922dd6b-de11-4348-9389-5260d6fa205a",
+    "296b5fdf-eac7-4cd0-922e-5d27c605fc41",
+    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "2842eb42-811e-4056-970a-2f1bcc377e84",
     "ed3fec5f-2dcd-4456-9169-b2f17089966f",
