@@ -809,34 +809,136 @@
         "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/14_61b5f261-59c7-4a44-86c4-a50f052579ae.jpg",
-            "image_hover": "shopify:\/\/shop_images\/14_61b5f261-59c7-4a44-86c4-a50f052579ae.jpg",
+            "image": "shopify:\/\/shop_images\/9_287f6e02-4139-4a70-b044-ee81e969fa50.jpg",
             "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "brixton-robe",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "luxe-towels",
             "collection_tag": ""
           }
         },
         "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/8_e12bc05d-6bbb-4f21-8ecf-2df10b7a5644.jpg",
             "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "super-soft-cosy-robe",
             "collection_tag": ""
           }
         },
         "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/15_db45bc43-e5cb-4927-a46f-6f276c15e3b5.jpg",
             "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "jaipur-throw",
+            "collection_tag": ""
+          }
+        },
+        "9503a2ac-3cd3-49d2-96bc-d592f086ae72": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/13_406a2239-b1af-4479-91e7-69ea7c2b85af.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
+            "collection_tag": ""
+          }
+        },
+        "31e2c2b1-3647-4bbd-960d-eeecafabad8d": {
+          "type": "column",
+          "settings": {
+            "image_hover": "shopify:\/\/shop_images\/10_7164b1dc-084c-4802-8865-377c30725a8e.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "renaissance",
+            "collection_tag": ""
+          }
+        },
+        "8dcb10b3-2df1-40e7-9430-ed282d34f39d": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "e5760f3f-a829-4db2-8b37-09be90b498b8": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "1f75b43a-b5ac-413a-be4c-01277e378e56": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "48af45f6-f641-4b44-bfb0-7bc99ac74082": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "e94b9b00-0b0f-42ff-858e-f4b243c232dc": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "97f5a4ec-cccf-431c-8380-9dbb374b73cd": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "1844bf88-8266-4f7f-aa58-c9a9f226d54e": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
             "button_link": "",
             "collection_tag": ""
           }
@@ -845,7 +947,16 @@
       "block_order": [
         "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-1",
         "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-2",
-        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-3"
+        "template--21640914534688__3d8d2eee-9d2e-4b20-80ec-026c5afff458-column-3",
+        "9503a2ac-3cd3-49d2-96bc-d592f086ae72",
+        "31e2c2b1-3647-4bbd-960d-eeecafabad8d",
+        "8dcb10b3-2df1-40e7-9430-ed282d34f39d",
+        "e5760f3f-a829-4db2-8b37-09be90b498b8",
+        "1f75b43a-b5ac-413a-be4c-01277e378e56",
+        "48af45f6-f641-4b44-bfb0-7bc99ac74082",
+        "e94b9b00-0b0f-42ff-858e-f4b243c232dc",
+        "97f5a4ec-cccf-431c-8380-9dbb374b73cd",
+        "1844bf88-8266-4f7f-aa58-c9a9f226d54e"
       ],
       "settings": {
       }
