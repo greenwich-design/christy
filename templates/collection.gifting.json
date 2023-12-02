@@ -3,7 +3,7 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Gifting_1200x628_65.png",
+        "image": "shopify:\/\/shop_images\/PPC_1200X628_2.jpg",
         "link": "",
         "full_width": true
       }
@@ -34,6 +34,40 @@
       "settings": {
       }
     },
+    "2594a997-818a-4de5-b1c1-015972b655d2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "sub_title_size": "h2"
+          }
+        },
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1": {
+          "type": "main_heading",
+          "settings": {
+            "heading": "Elevate your Everyday Moments this Christmas with Christy"
+          }
+        },
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our signature gift box & personalised message options now available.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1",
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1",
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "anchor_id": ""
+      }
+    },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
       "type": "collections-carousel",
       "blocks": {
@@ -41,8 +75,8 @@
           "type": "collection",
           "settings": {
             "collection": "all-loungewear",
-            "usp_title": "Bath Robes",
-            "image": "shopify:\/\/shop_images\/10_2_1-895185_62a6c52b-96ba-4474-a279-2d3e3ef90ffe.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/20.jpg",
             "alt_title": "Gifts for Living",
             "excerpt": "<h1>Explore plush and super soft robes that exude cosy comfort.<\/h1>"
           }
@@ -51,8 +85,8 @@
           "type": "collection",
           "settings": {
             "collection": "gifts-for-rest",
-            "usp_title": "Bedding",
-            "image": "shopify:\/\/shop_images\/hp_banner_bed_a2769d86-0563-4b77-b615-21691ce19ae9.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/22.jpg",
             "alt_title": "",
             "excerpt": "<h1>Treat your loved ones to relaxing moments with our comfortable bedding.<\/h1>"
           }
@@ -61,8 +95,8 @@
           "type": "collection",
           "settings": {
             "collection": "gifts-for-bathing",
-            "usp_title": "Luxury Towels",
-            "image": "shopify:\/\/shop_images\/gifts-for-bathing.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/23.jpg",
             "alt_title": "",
             "excerpt": "<p>Upgrade their bathing rituals with spa-worthy pieces.<\/p>"
           }
@@ -659,6 +693,7 @@
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
+    "2594a997-818a-4de5-b1c1-015972b655d2",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
