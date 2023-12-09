@@ -221,6 +221,8 @@ class QuantityInput extends HTMLElement {
     const previousValue = this.input.value;
     event.target.name === 'plus' ? this.input.stepUp() : this.input.stepDown();
     if (previousValue !== this.input.value) this.input.dispatchEvent(this.changeEvent);
+    
+    
   }
 
   validateQtyRules() {
@@ -1142,7 +1144,7 @@ class VariantSelects extends HTMLElement {
     });
   }
 
-
+  
 
 
 
@@ -1191,10 +1193,29 @@ class VariantSelects extends HTMLElement {
 
         const html = new DOMParser().parseFromString(responseText, 'text/html');
         const destination = document.querySelectorAll(`[data-price="price-${this.dataset.section}"]`);
-
+        
+        
+        if(html.getElementById("personalization_init_button")){
+          document.querySelector(".personalization_init_button").innerHTML = html.getElementById("personalization_init_button").innerHTML
+          document.getElementById(`personal_image`).setAttribute('src',html.getElementById(`personal_image`).getAttribute('src'))
+          document.querySelector(`#personal_canvas .personalization_text`).setAttribute('style',html.querySelector(`#personal_canvas .personalization_text`).getAttribute('style'))
+          const personalizeDestination = document.querySelectorAll(`[data-personalize-price="price-${this.dataset.section}"]`);
+          const personalizeSource = html.getElementById(
+            `personalize-price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`
+          );
+          if (personalizeSource && personalizeDestination.length) {
+            personalizeDestination.forEach((element) => {
+              element.innerHTML = personalizeSource.innerHTML;
+            });
+          }
+        }else if(document.querySelector(".personalization_init_button")){
+          document.querySelector(".personalization_init_button").innerHTML = "Personalization Not Allowed for this Variant"
+        }
+       
         const source = html.getElementById(
           `price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`
         );
+        
         const skuSource = html.getElementById(
           `Sku-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`
         );
@@ -1209,6 +1230,7 @@ class VariantSelects extends HTMLElement {
             element.innerHTML = source.innerHTML;
           });
         }
+        
 
 
         if (inventorySource && inventoryDestination) inventoryDestination.innerHTML = inventorySource.innerHTML;

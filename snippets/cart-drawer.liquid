@@ -14,7 +14,7 @@
     visibility: hidden;
   }
 </style>
-
+{% assign perProd = all_products['product-personalization'] %}
 <cart-drawer class="group/drawer drawer{% if cart == empty %} is-empty{% endif %} z-40  [&.active]:visible fixed w-full h-full top-0 right-0">
   <div
     id="CartDrawer"
@@ -182,11 +182,27 @@
 
                     <tbody role="rowgroup">
                       {% assign giftship_subtotal = 0 %}
-
+                      {% assign personalised_product_index = 0 %}
+                      {% assign personalised_product_key = 0 %}
+                      {% assign personalised_product_quantity = 0 %}
+                      {%- for item in cart.items -%}
+                        {% if item.product.handle == 'product-personalization' %}
+                          {% assign personalised_product_index = item.index | plus: 1 %}
+                          {% assign personalised_product_quantity = item.quantity %}
+                          {% assign personalised_product_key = item.key %}
+                        {% endif %}
+                      {% endfor %}
                       {%- for item in cart.items -%}
                         {% comment %}
                           GIFTSHIP VARS
                         {% endcomment %}
+
+                        {% assign is_personalized = false %}
+                        {%- for property in item.properties -%}
+                          {% if property.first == 'Monogram' %}
+                            {% assign is_personalized = true %}
+                          {% endif %}
+                        {% endfor %}
                         {% assign item = line_item | default: item %}
 
                         {%- assign giftship_price = item.price -%}
@@ -262,7 +278,15 @@
                               <a href="{{ item.url }}" class="cart-item__name m-h3 lg:d-h3">
                                 {{- item.product.title | escape -}}
                               </a>
-
+                              {% if item.product.handle == 'product-personalization' %}
+                                <span class="text-xs">(for {{ item.quantity }})</span>
+                              {% endif %}
+                              {% if is_personalized == true %}
+                                <div class="product-option flex items-baseline flex-wrap">
+                                  <dt class="font-semibold">Quantity:&nbsp;</dt>
+                                  <dd>{{ item.quantity }}</dd>
+                                </div>
+                              {% endif %}
                               {%- if item.product.has_only_default_variant == false
                                 or item.properties.size != 0
                                 or item.selling_plan_allocation != null
@@ -292,6 +316,9 @@
 
                                   {%- for property in item.properties -%}
                                     {%- assign property_first_char = property.first | slice: 0 -%}
+                                    {% if property.first == 'Monogram' %}
+                                      {% assign is_personalized = true %}
+                                    {% endif %}
                                     {%- if property.last != blank and property_first_char != '_' -%}
                                       <div class="product-option flex items-baseline flex-wrap">
                                         <dt class="font-semibold">{{ property.first }}:&nbsp;</dt>
@@ -330,11 +357,20 @@
                                 {%- endfor -%}
                               </ul>
                             </div>
-
-                            <quantity-input class="quantity cart-quantity space-x-3 lg:space-x-4 flex items-center [&_>*]:w-[24px] [&_>*]:h-[24px] [&_>*]:lg:w-[28px] [&_>*]:lg:h-[28px]">
+                            {% assign hide_quantity = '' %}
+                            {% if item.product.handle == 'product-personalization' or is_personalized == true %}
+                              {% assign hide_quantity = 'hidden' %}
+                            {% endif %}
+                            <quantity-input class="quantity {{ hide_quantity }} cart-quantity space-x-3 lg:space-x-4 flex items-center [&_>*]:w-[24px] [&_>*]:h-[24px] [&_>*]:lg:w-[28px] [&_>*]:lg:h-[28px]">
                               <button
                                 class="quantity__button flex justify-center items-center no-js-hidden "
                                 name="minus"
+                                {% if is_personalized == true %}
+                                  data-personalized="true"
+                                {% endif %}
+                                {% if item.product.handle == 'product-personalization' %}
+                                  data-is-personalization-product-minus="true"
+                                {% endif %}
                                 type="button"
                               >
                                 <span class="visually-hidden">
@@ -342,9 +378,13 @@
                                 </span>
                                 {% render 'icon-minus' %}
                               </button>
+
                               <input
                                 class="quantity__input border border-blue-1/10 appearance-none outline-none text-center text-[12px]"
                                 type="number"
+                                {% if item.product.handle == 'product-personalization' %}
+                                  data-is-personalization-product-input="true"
+                                {% endif %}
                                 data-quantity-variant-id="{{ item.variant.id }}"
                                 name="updates[]"
                                 value="{{ item.quantity }}"
@@ -359,11 +399,21 @@
                                 aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
                                 id="Drawer-quantity-{{ item.index | plus: 1 }}"
                                 data-index="{{ item.index | plus: 1 }}"
+                                {% if is_personalized == true %}
+                                  disabled="true"
+                                {% endif %}
                               >
+
                               <button
                                 class="quantity__button flex justify-center items-center no-js-hidden"
                                 name="plus"
                                 type="button"
+                                {% if item.product.handle == 'product-personalization' %}
+                                  data-is-personalization-product-plus="true"
+                                {% endif %}
+                                {% if is_personalized == true %}
+                                  data-personalized="true"
+                                {% endif %}
                               >
                                 <span class="visually-hidden">
                                   {{- 'products.product.quantity.increase' | t: product: item.product.title | escape -}}
@@ -478,8 +528,15 @@
                             </div>
                           </td>
                         </tr>
+                        {% assign hide_remove_btn = '' %}
+                        {% if item.product.handle == 'product-personalization' %}
+                          {% assign hide_remove_btn = 'hidden' %}
+                        {% endif %}
                         <tr>
-                          <td colspan="3" class="text-right border-b border-blue-1/10 py-7 lg:py-6">
+                          <td
+                            colspan="3"
+                            class="text-right {{ hide_remove_btn }} border-b border-blue-1/10 py-7 lg:py-6"
+                          >
                             <button
                               onclick="wishRemove(this)"
                               type="button"
@@ -495,6 +552,14 @@
                             <cart-remove-button
                               id="CartDrawer-Remove-{{ item.index | plus: 1 }}"
                               data-index="{{ item.index | plus: 1 }}"
+                              {% if is_personalized == true %}
+                                data-currentquantity="{{ item.quantity }}"
+                                data-key="{{ item.key }}"
+                                data-personalized="true"
+                                data-personalizationindex="{{ personalised_product_index }}"
+                                data-personalizationquantity="{{ personalised_product_quantity }}"
+                                data-personalizationkey="{{ personalised_product_key }}"
+                              {% endif %}
                             >
                               <button
                                 type="button"
