@@ -397,6 +397,15 @@
         "title": ""
       }
     },
+    "a51fda79-909b-46c6-be2f-6bc0fd350806": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
+        "link": "https:\/\/www.christy.co.uk\/collections\/cyber-jammies-pyjama-sets",
+        "full_width": true
+      }
+    },
     "2842eb42-811e-4056-970a-2f1bcc377e84": {
       "type": "images-copy-cta",
       "settings": {
@@ -951,15 +960,6 @@
         "title": "Discover the 12 Days of Christmas Sale",
         "copy": "<p>Unwrap Joy this December with Christy's 12 Days of Christmas Sale! <\/p><p>Dive into a world of luxury and savings this holiday season, featuring exclusive deals with up to 50% off on premium bedding, towels, bath robes and throws.<\/p><p>Transform your bedroom into a sanctuary of tranquillity with our sumptuous bedding collections. From silky-soft sheets to opulent duvet covers, indulge in the luxury you deserve.<\/p><p>Upgrade your bathroom with Christy's plush towels and bathrobes. Wrap yourself in pure comfort and experience the epitome of indulgence after every bath or shower.<\/p><p>These exclusive Christmas deals won't last forever! Shop now to secure your favourites before they're gone. Don't miss out on the chance to elevate your home with Christy's timeless elegance. <\/p><p>The 12 Days of Chirstmas sale is your golden opportunity to experience luxury for less so get ready to elevate your home with Christy!<\/p>"
       }
-    },
-    "a51fda79-909b-46c6-be2f-6bc0fd350806": {
-      "type": "hero-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
-        "link": "https:\/\/www.christy.co.uk\/collections\/cyber-jammies-pyjama-sets",
-        "full_width": true
-      }
     }
   },
   "order": [
@@ -972,6 +972,7 @@
     "d9b008b3-a56b-404c-b4bb-41b09f268aee",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "e922dd6b-de11-4348-9389-5260d6fa205a",
+    "a51fda79-909b-46c6-be2f-6bc0fd350806",
     "2842eb42-811e-4056-970a-2f1bcc377e84",
     "ed3fec5f-2dcd-4456-9169-b2f17089966f",
     "296b5fdf-eac7-4cd0-922e-5d27c605fc41",
@@ -986,7 +987,6 @@
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
     "product-grid",
     "recent-products",
-    "toggled-body-content",
-    "a51fda79-909b-46c6-be2f-6bc0fd350806"
+    "toggled-body-content"
   ]
 }
