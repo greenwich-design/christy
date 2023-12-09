@@ -41,6 +41,56 @@
         "anchor_id": ""
       }
     },
+    "d2113c42-d705-4b50-99be-017b00de7fc9": {
+      "type": "c-info-columns",
+      "blocks": {
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EMAILER_600X700_4.jpg",
+            "image_aspect": "1:1",
+            "title": "Personalised Robes",
+            "text": "<h4>Wrap your loved ones in warmth & cherished memories with a personalised Christy robe, where comfort meets customisation.<\/h4>",
+            "button_label": "Explore the Feeling",
+            "button_link": "all-loungewear",
+            "collection_tag": ""
+          }
+        },
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gift_1.jpg",
+            "image_aspect": "1:1",
+            "title": "Create your own Gift Box",
+            "text": "<p>Elevate your gift-giving experience with our luxurious signature gift box with a personalised message.<\/p>",
+            "button_label": "Shop our Gifting Range",
+            "button_link": "gifts",
+            "collection_tag": ""
+          }
+        },
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WIMD150-809824_d5301063-ae43-4947-bca1-eae85afac9be.jpg",
+            "image_aspect": "1:1",
+            "title": "Complimentary Wimbledon Towel*",
+            "text": "<p>Get a complimentary Wimbledon Championship Towel worth £39 on orders above £50.<\/p>",
+            "button_label": "Shop the Range",
+            "button_link": "shop-all",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-1",
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-2",
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Christmas Treats"
+      }
+    },
     "heading": {
       "type": "heading",
       "disabled": true,
@@ -129,6 +179,14 @@
       "settings": {
         "title": "Shop our Categories",
         "screen_visibility": "both"
+      }
+    },
+    "2a0e8d45-d132-480e-b6ff-c37f7ad453d7": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
+        "link": "https:\/\/www.christy.co.uk\/collections\/cyber-jammies-pyjama-sets",
+        "full_width": true
       }
     },
     "37b580cc-c4d2-4e4e-83ee-b35a93d386e3": {
@@ -590,70 +648,16 @@
         "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
         "button_link": "#quiz-gWHPoe"
       }
-    },
-    "2a0e8d45-d132-480e-b6ff-c37f7ad453d7": {
-      "type": "hero-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
-        "link": "https:\/\/www.christy.co.uk\/collections\/cyber-jammies-pyjama-sets",
-        "full_width": true
-      }
-    },
-    "d2113c42-d705-4b50-99be-017b00de7fc9": {
-      "type": "c-info-columns",
-      "blocks": {
-        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-1": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-2": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-3": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-1",
-        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-2",
-        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Christmas Treats"
-      }
     }
   },
   "order": [
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d",
     "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0",
+    "d2113c42-d705-4b50-99be-017b00de7fc9",
     "heading",
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad",
     "de1b0a2d-4cb0-4dbd-a641-18437895549a",
+    "2a0e8d45-d132-480e-b6ff-c37f7ad453d7",
     "37b580cc-c4d2-4e4e-83ee-b35a93d386e3",
     "ab40295a-0b7a-4298-9100-6079c0215e8e",
     "billboard",
@@ -671,8 +675,6 @@
     "billboard4",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
-    "2970b3ab-743a-4054-95d1-048d41881e08",
-    "2a0e8d45-d132-480e-b6ff-c37f7ad453d7",
-    "d2113c42-d705-4b50-99be-017b00de7fc9"
+    "2970b3ab-743a-4054-95d1-048d41881e08"
   ]
 }
