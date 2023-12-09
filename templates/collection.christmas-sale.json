@@ -17,6 +17,56 @@
         "full_width": true
       }
     },
+    "2c7f8aae-2f64-4441-8b9f-0f82180e701f": {
+      "type": "c-info-columns",
+      "blocks": {
+        "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EMAILER_600X700_4.jpg",
+            "image_aspect": "1:1",
+            "title": "Personalised Robes",
+            "text": "<h4>Wrap your loved ones in warmth & cherished memories with a personalised Christy robe, where comfort meets customisation.<\/h4>",
+            "button_label": "Explore the Collection",
+            "button_link": "all-loungewear",
+            "collection_tag": ""
+          }
+        },
+        "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Gift_1.jpg",
+            "image_aspect": "1:1",
+            "title": "Create your own Gift Box",
+            "text": "<p>Elevate your gift-giving experience with our luxurious signature gift box with a personalised message.<\/p>",
+            "button_label": "Shop our Gifting Range",
+            "button_link": "gifts",
+            "collection_tag": ""
+          }
+        },
+        "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WIMD150-809824_d5301063-ae43-4947-bca1-eae85afac9be.jpg",
+            "image_aspect": "1:1",
+            "title": "Complimentary Wimbledon Towel*",
+            "text": "<p>Get a complimentary Wimbledon Championship Towel worth £39 on orders above £50.<\/p>",
+            "button_label": "Shop the Range",
+            "button_link": "shop-all",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-1",
+        "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-3",
+        "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Christmas Treats"
+      }
+    },
     "8afe31d6-ee17-4a35-bf94-61ee2db3c726": {
       "type": "heading",
       "settings": {
@@ -345,29 +395,6 @@
       ],
       "settings": {
         "title": ""
-      }
-    },
-    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
-      "type": "products-carousel",
-      "disabled": true,
-      "settings": {
-        "title": "Big Discounts on Best Sellers",
-        "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/shop-all",
-        "products": [
-          "renaissance",
-          "400-thread-count-sateen-plain-dye",
-          "essence-towels-650-gsm-combed-cotton",
-          "jaipur-throw",
-          "supreme-velour-robe",
-          "wimbledon-2023-championship-towel",
-          "luxe-towels",
-          "luxury-microfibre-13-5-tog-duvet",
-          "supreme-hygro",
-          "jaipur-cushion",
-          "deep-pile-rug"
-        ],
-        "screen_visibility": "both"
       }
     },
     "2842eb42-811e-4056-970a-2f1bcc377e84": {
@@ -799,49 +826,6 @@
         "heading": "Previously explored"
       }
     },
-    "d9350269-9c53-4976-897a-27cf368fb2c9": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "sub_title_size": "h2"
-          }
-        },
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-main_heading-1": {
-          "type": "main_heading",
-          "settings": {
-            "heading": "Klarna"
-          }
-        },
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Split your Purchase into three interest free payments<\/p>"
-          }
-        },
-        "abe23243-0761-4a67-854b-6cdcae812b64": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "https:\/\/www.christy.co.uk\/pages\/klarna-faqs?ose=false",
-            "button_label_2": "",
-            "button_link_2": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-heading-1",
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-main_heading-1",
-        "template--21521866129696__d9350269-9c53-4976-897a-27cf368fb2c9-text-1",
-        "abe23243-0761-4a67-854b-6cdcae812b64"
-      ],
-      "settings": {
-        "full_width": false,
-        "anchor_id": ""
-      }
-    },
     "toggled-body-content": {
       "type": "toggled-body-content",
       "blocks": {
@@ -967,18 +951,27 @@
         "title": "Discover the 12 Days of Christmas Sale",
         "copy": "<p>Unwrap Joy this December with Christy's 12 Days of Christmas Sale! <\/p><p>Dive into a world of luxury and savings this holiday season, featuring exclusive deals with up to 50% off on premium bedding, towels, bath robes and throws.<\/p><p>Transform your bedroom into a sanctuary of tranquillity with our sumptuous bedding collections. From silky-soft sheets to opulent duvet covers, indulge in the luxury you deserve.<\/p><p>Upgrade your bathroom with Christy's plush towels and bathrobes. Wrap yourself in pure comfort and experience the epitome of indulgence after every bath or shower.<\/p><p>These exclusive Christmas deals won't last forever! Shop now to secure your favourites before they're gone. Don't miss out on the chance to elevate your home with Christy's timeless elegance. <\/p><p>The 12 Days of Chirstmas sale is your golden opportunity to experience luxury for less so get ready to elevate your home with Christy!<\/p>"
       }
+    },
+    "a51fda79-909b-46c6-be2f-6bc0fd350806": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
+        "link": "https:\/\/www.christy.co.uk\/collections\/cyber-jammies-pyjama-sets",
+        "full_width": true
+      }
     }
   },
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c",
+    "2c7f8aae-2f64-4441-8b9f-0f82180e701f",
     "8afe31d6-ee17-4a35-bf94-61ee2db3c726",
     "3d8d2eee-9d2e-4b20-80ec-026c5afff458",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
     "d9b008b3-a56b-404c-b4bb-41b09f268aee",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "e922dd6b-de11-4348-9389-5260d6fa205a",
-    "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
     "2842eb42-811e-4056-970a-2f1bcc377e84",
     "ed3fec5f-2dcd-4456-9169-b2f17089966f",
     "296b5fdf-eac7-4cd0-922e-5d27c605fc41",
@@ -993,7 +986,7 @@
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
     "product-grid",
     "recent-products",
-    "d9350269-9c53-4976-897a-27cf368fb2c9",
-    "toggled-body-content"
+    "toggled-body-content",
+    "a51fda79-909b-46c6-be2f-6bc0fd350806"
   ]
 }
