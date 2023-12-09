@@ -17,6 +17,55 @@
         "full_width": true
       }
     },
+    "e3667dfe-ef66-4158-b7eb-36a441618dc2": {
+      "type": "c-info-columns",
+      "blocks": {
+        "template--21202652922144__e3667dfe-ef66-4158-b7eb-36a441618dc2-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-09_at_3.46.38_PM.png",
+            "image_aspect": "1:1",
+            "title": "Choose your robe",
+            "text": "<p>Choose the robe of your choice and select the personalisation box on the product page.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "template--21202652922144__e3667dfe-ef66-4158-b7eb-36a441618dc2-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-09_at_3.47.15_PM.png",
+            "image_aspect": "1:1",
+            "title": "Pick the style and thread colour of your choice",
+            "text": "<p>Pick from 4 styles and more than 10 colours<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "template--21202652922144__e3667dfe-ef66-4158-b7eb-36a441618dc2-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-12-09_at_3.47.30_PM.png",
+            "image_aspect": "1:1",
+            "title": "Review and checkout",
+            "text": "<p>Review your choice and proceed to checkout.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21202652922144__e3667dfe-ef66-4158-b7eb-36a441618dc2-column-1",
+        "template--21202652922144__e3667dfe-ef66-4158-b7eb-36a441618dc2-column-2",
+        "template--21202652922144__e3667dfe-ef66-4158-b7eb-36a441618dc2-column-3"
+      ],
+      "settings": {
+        "title": "Get your personalised robe in 3 simple steps"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -59,18 +108,9 @@
             "pos_t_3": 50
           }
         },
-        "bacccb12-059e-4a9d-a17d-3d0a7d831a15": {
-          "type": "sub_collections",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/BrixtonRobe_Midnight_Detail-477657.jpg",
-            "title": "Invigorating & Durable",
-            "sub_title": "",
-            "copy": "<p>Start (or end) your day the refreshing way, with our revitalising robes.<\/p>",
-            "button_url": "shopify:\/\/products\/brixton-robe"
-          }
-        },
         "cc0fd40b-7dc9-4c7f-9cde-5aa10f96f6f8": {
           "type": "sub_collections",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/CosyRobe_Forest_Detail-273355.jpg",
             "title": "Thick & Indulgent",
@@ -78,14 +118,25 @@
             "copy": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick bathrobe.<\/p>",
             "button_url": "shopify:\/\/collections\/thick-indulgent-robes"
           }
+        },
+        "bacccb12-059e-4a9d-a17d-3d0a7d831a15": {
+          "type": "sub_collections",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BrixtonRobe_Midnight_Detail-477657.jpg",
+            "title": "Invigorating & Durable",
+            "sub_title": "",
+            "copy": "<p>Start (or end) your day the refreshing way, with our revitalising robes.<\/p>",
+            "button_url": "shopify:\/\/products\/brixton-robe"
+          }
         }
       },
       "block_order": [
         "77b7bcba-adf8-4b59-84fa-2aed599efb4a",
         "5a878969-3318-42e0-87f9-e02a64758016",
         "8704fef6-e4b5-4c39-bba2-de943e89068e",
-        "bacccb12-059e-4a9d-a17d-3d0a7d831a15",
-        "cc0fd40b-7dc9-4c7f-9cde-5aa10f96f6f8"
+        "cc0fd40b-7dc9-4c7f-9cde-5aa10f96f6f8",
+        "bacccb12-059e-4a9d-a17d-3d0a7d831a15"
       ],
       "settings": {
         "products_per": 10
@@ -244,6 +295,7 @@
   "order": [
     "363cfbe4-afa3-4f73-8d23-1e0c7f32b5b8",
     "7aa8b16d-233b-447d-8e1f-3a00dbdce64d",
+    "e3667dfe-ef66-4158-b7eb-36a441618dc2",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426",
