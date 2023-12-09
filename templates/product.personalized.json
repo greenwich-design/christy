@@ -1,1 +1,54 @@
-{"sections":{"main":{"type":"main-product","blocks":{"c6631d0a-9c3f-4c9a-ac74-31344aaa2275":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","settings":{}}},"block_order":["c6631d0a-9c3f-4c9a-ac74-31344aaa2275"],"settings":{}},"1697171910d24fd797":{"type":"apps","blocks":{"e556a01d-3291-4740-823f-e0506ce2eadc":{"type":"shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8","disabled":true,"settings":{}}},"block_order":["e556a01d-3291-4740-823f-e0506ce2eadc"],"settings":{}},"169090501824a740ea":{"type":"apps","settings":{}},"1693485436843bc3ff":{"type":"apps","settings":{}},"recent-products":{"type":"recent-products","settings":{"heading":"Previously explored"}},"86a4f019-bc37-4060-9067-8a759a38958f":{"type":"billboard","disabled":true,"settings":{"subtitle":"Christy Life","title":"<p>Caring Cotton<\/p>","copy":"<p>Sustainably made cotton is kinder to the environment and the people who produce it – which is why we’re using it more than ever. <\/p><p>Our Made In Green-certified products are guaranteed to have been made sustainably, under socially responsible working environments and using transparent supply chains.<\/p>","button_label":"Read More","button_link":"https:\/\/christystaging.myshopify.com\/pages\/responsibility","button_type":"tertiary","colour_theme":"white","alignment":"left","alignment_vertical":"center","mobile_content_position":"overlay"}}},"order":["main","1697171910d24fd797","169090501824a740ea","1693485436843bc3ff","recent-products","86a4f019-bc37-4060-9067-8a759a38958f"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "settings": {
+      }
+    },
+    "1697171910d24fd797": {
+      "type": "apps",
+      "settings": {
+      }
+    },
+    "169090501824a740ea": {
+      "type": "apps",
+      "settings": {
+      }
+    },
+    "1693485436843bc3ff": {
+      "type": "apps",
+      "settings": {
+      }
+    },
+    "recent-products": {
+      "type": "recent-products",
+      "settings": {
+        "heading": "Previously explored"
+      }
+    },
+    "86a4f019-bc37-4060-9067-8a759a38958f": {
+      "type": "billboard",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Christy Life",
+        "title": "<p>Caring Cotton<\/p>",
+        "copy": "<p>Sustainably made cotton is kinder to the environment and the people who produce it – which is why we’re using it more than ever. <\/p><p>Our Made In Green-certified products are guaranteed to have been made sustainably, under socially responsible working environments and using transparent supply chains.<\/p>",
+        "button_label": "Read More",
+        "button_link": "https:\/\/christystaging.myshopify.com\/pages\/responsibility",
+        "button_type": "tertiary",
+        "colour_theme": "white",
+        "alignment": "left",
+        "alignment_vertical": "center",
+        "mobile_content_position": "overlay"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1697171910d24fd797",
+    "169090501824a740ea",
+    "1693485436843bc3ff",
+    "recent-products",
+    "86a4f019-bc37-4060-9067-8a759a38958f"
+  ]
+}
