@@ -8,15 +8,6 @@
         "full_width": true
       }
     },
-    "689ece98-c46a-4fdf-962c-0f3513240756": {
-      "type": "hero-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER_1920X1080_3375a919-daa7-47f8-987d-134deac4d161.jpg",
-        "link": "shopify:\/\/collections\/autumn-winter-2023-collection",
-        "full_width": true
-      }
-    },
     "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0": {
       "type": "rich-text",
       "blocks": {
@@ -608,11 +599,57 @@
         "link": "https:\/\/www.christy.co.uk\/collections\/cyber-jammies-pyjama-sets",
         "full_width": true
       }
+    },
+    "d2113c42-d705-4b50-99be-017b00de7fc9": {
+      "type": "c-info-columns",
+      "blocks": {
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-1": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-2": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-3": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-1",
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-2",
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Christmas Treats"
+      }
     }
   },
   "order": [
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d",
-    "689ece98-c46a-4fdf-962c-0f3513240756",
     "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0",
     "heading",
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad",
@@ -635,6 +672,7 @@
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
     "2970b3ab-743a-4054-95d1-048d41881e08",
-    "2a0e8d45-d132-480e-b6ff-c37f7ad453d7"
+    "2a0e8d45-d132-480e-b6ff-c37f7ad453d7",
+    "d2113c42-d705-4b50-99be-017b00de7fc9"
   ]
 }
