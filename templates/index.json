@@ -17,124 +17,6 @@
         "full_width": true
       }
     },
-    "hero-collection": {
-      "type": "hero-collection",
-      "blocks": {
-        "8c3ac597-805a-4b98-a59f-708e3545945d": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/blog_bath_da15fde6-8e3a-49aa-abb4-2578bd0960c7.jpg",
-            "video": "shopify:\/\/files\/videos\/fe2647cd2ae349dc84a6566c1b9a7796.mp4",
-            "mobile_media": "image",
-            "subtitle": "Turn your routine into a calming ritual.",
-            "mobile_subtitle": "show",
-            "title": "Luxury Towels Upto 40% Off",
-            "mob_title": "",
-            "copy": "",
-            "copy_visibility": "all",
-            "collection": "offers-towels",
-            "button_text": "Shop Now"
-          }
-        },
-        "c4c43d90-6461-4c99-aee1-543890d018df": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hp_banner_bed2.jpg",
-            "video": "shopify:\/\/files\/videos\/Untitled (1) (1).mp4",
-            "mobile_media": "image",
-            "subtitle": "Snuggle Season Sale",
-            "mobile_subtitle": "show",
-            "title": "25% off bedding, robes, duvets, pillows and accessories - Ends tonight!",
-            "mob_title": "",
-            "copy": "",
-            "copy_visibility": "all",
-            "collection": "singles-sale",
-            "button_text": "Shop Now"
-          }
-        },
-        "2af0950f-0322-4b80-b489-ee1f6aafc079": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hero-3.jpg",
-            "video": "shopify:\/\/files\/videos\/8ecb9c0bb18343eeaebb289b5770b60f.mp4",
-            "mobile_media": "image",
-            "subtitle": "Wimbledon",
-            "mobile_subtitle": "show",
-            "title": "The ultimate serve in comfort: our collaboration with Wimbledon.",
-            "mob_title": "",
-            "copy": "",
-            "copy_visibility": "all",
-            "collection": "wimbledon",
-            "button_text": "Discover Wimbledon"
-          }
-        },
-        "17de0beb-b78c-40ab-a727-1f3659ef3cdc": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Halloween_1200X628_1_1.jpg",
-            "mobile_media": "image",
-            "subtitle": "",
-            "mobile_subtitle": "show",
-            "title": "",
-            "mob_title": "",
-            "copy": "",
-            "copy_visibility": "all",
-            "collection": "singles-sale",
-            "button_text": "Explore Now"
-          }
-        },
-        "1579b4d5-aece-4950-8c76-63c7dde11b59": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Jaipur_Hazelnut_lifestyle_ad50bbb4-7cb5-425d-bd28-a934d555ed8f.jpg",
-            "mobile_media": "image",
-            "subtitle": "The New Must Have Colour",
-            "mobile_subtitle": "show",
-            "title": "Jaipur Terracotta",
-            "mob_title": "",
-            "copy": "<h4>A rich hue that will envelop you in velvety, luxurious comfort. <\/h4>",
-            "copy_visibility": "all",
-            "collection": "jaipur-accessories",
-            "button_text": "Shop Now"
-          }
-        },
-        "300051d6-e970-41cd-85eb-dbf2d26a8012": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/duvet_lifestyle_4ca5dac4-1a75-4c74-9d91-eefb7fc624c6.jpg",
-            "mobile_media": "image",
-            "subtitle": "",
-            "mobile_subtitle": "show",
-            "title": "Upto 30% off on our Duvets",
-            "mob_title": "",
-            "copy": "<p>Discover a world of personalized comfort, available in a range of togs and firmness levels to suit your unique sleep preferences.<\/p>",
-            "copy_visibility": "all",
-            "collection": "duvet-pillows",
-            "button_text": "Shop Now"
-          }
-        }
-      },
-      "block_order": [
-        "8c3ac597-805a-4b98-a59f-708e3545945d",
-        "c4c43d90-6461-4c99-aee1-543890d018df",
-        "2af0950f-0322-4b80-b489-ee1f6aafc079",
-        "17de0beb-b78c-40ab-a727-1f3659ef3cdc",
-        "1579b4d5-aece-4950-8c76-63c7dde11b59",
-        "300051d6-e970-41cd-85eb-dbf2d26a8012"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-      }
-    },
     "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0": {
       "type": "rich-text",
       "blocks": {
@@ -717,12 +599,20 @@
         "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
         "button_link": "#quiz-gWHPoe"
       }
+    },
+    "2a0e8d45-d132-480e-b6ff-c37f7ad453d7": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
+        "link": "https:\/\/www.christy.co.uk\/collections\/cyber-jammies-pyjama-sets",
+        "full_width": true
+      }
     }
   },
   "order": [
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d",
     "689ece98-c46a-4fdf-962c-0f3513240756",
-    "hero-collection",
     "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0",
     "heading",
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad",
@@ -744,6 +634,7 @@
     "billboard4",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
-    "2970b3ab-743a-4054-95d1-048d41881e08"
+    "2970b3ab-743a-4054-95d1-048d41881e08",
+    "2a0e8d45-d132-480e-b6ff-c37f7ad453d7"
   ]
 }
