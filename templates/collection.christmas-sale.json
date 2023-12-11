@@ -22,6 +22,7 @@
       "blocks": {
         "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/EMAILER_600X700_4.jpg",
             "image_aspect": "1:1",
