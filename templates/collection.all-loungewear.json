@@ -2,6 +2,7 @@
   "sections": {
     "363cfbe4-afa3-4f73-8d23-1e0c7f32b5b8": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design.jpg",
         "link": "",
@@ -62,6 +63,7 @@
         "template--21202652922144__e3667dfe-ef66-4158-b7eb-36a441618dc2-column-2",
         "template--21202652922144__e3667dfe-ef66-4158-b7eb-36a441618dc2-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Get your personalised robe in 3 simple steps"
       }
