@@ -46,6 +46,7 @@
       "blocks": {
         "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/EMAILER_600X700_4.jpg",
             "image_aspect": "1:1",
