@@ -82,6 +82,7 @@
     },
     "8afe31d6-ee17-4a35-bf94-61ee2db3c726": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>12 Days. 12 Amazing Deals on Towels, Robes, Bedding & More<\/p>",
         "heading_width": "4",
@@ -255,6 +256,7 @@
         "48af45f6-f641-4b44-bfb0-7bc99ac74082",
         "97f5a4ec-cccf-431c-8380-9dbb374b73cd"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -287,6 +289,7 @@
         "template--21521866129696__c66f958a-b771-485c-bd16-7e2841ec3c60-image-1",
         "template--21521866129696__c66f958a-b771-485c-bd16-7e2841ec3c60-products-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "Extended Hassle Free Returns"
       }
@@ -421,11 +424,11 @@
     "2842eb42-811e-4056-970a-2f1bcc377e84": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Gift_2.jpg",
+        "image": "shopify:\/\/shop_images\/EMAILER_600X700_3.jpg",
         "image2": "shopify:\/\/shop_images\/Gift_1.jpg",
         "subtitle": "",
         "title": "<p>Create your own Gift Box<\/p>",
-        "copy": "<p>Elevate your gift-giving experience with our luxurious signature gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
+        "copy": "<p>Elevate your gift-giving experience by creating your own gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
         "button_label": "Shop our Gifting Range",
         "button_link": "shopify:\/\/collections\/gifts",
         "content_position": "right",
