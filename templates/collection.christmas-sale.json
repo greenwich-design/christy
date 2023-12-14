@@ -80,6 +80,28 @@
         "title": "Christmas Treats"
       }
     },
+    "1699c766-734d-4353-a8c2-18ab578d4d41": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Our Best Sellers",
+        "button_title": "See more",
+        "button_link": "shopify:\/\/collections\/all",
+        "products": [
+          "renaissance",
+          "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
+          "super-soft-cosy-robe",
+          "brixton-towels",
+          "signum-675-gsm-combed-cotton",
+          "jaipur-throw",
+          "supreme-hygro",
+          "luxury-microfibre-13-5-tog-duvet",
+          "luxe-towels",
+          "jaipur-cushion",
+          "deep-pile-rug"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "8afe31d6-ee17-4a35-bf94-61ee2db3c726": {
       "type": "heading",
       "settings": {
@@ -961,34 +983,13 @@
         "title": "Discover the Christy Christmas Sale",
         "copy": "<p>Unwrap Joy this December with Christy's Christmas Sale! <\/p><p>Dive into a world of luxury and savings this holiday season, featuring exclusive deals with up to 50% off on premium bedding, towels, bath robes and throws.<\/p><p>Transform your bedroom into a sanctuary of tranquillity with our sumptuous bedding collections. From silky-soft sheets to opulent duvet covers, indulge in the luxury you deserve.<\/p><p>Upgrade your bathroom with Christy's plush towels and bathrobes. Wrap yourself in pure comfort and experience the epitome of indulgence after every bath or shower.<\/p><p>These exclusive Christmas deals won't last forever! Shop now to secure your favourites before they're gone. Don't miss out on the chance to elevate your home with Christy's timeless elegance. <\/p><p>The Christy Christmas sale is your golden opportunity to experience luxury for less so get ready to elevate your home with Christy!<\/p>"
       }
-    },
-    "1699c766-734d-4353-a8c2-18ab578d4d41": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Our Best Sellers",
-        "button_title": "See more",
-        "button_link": "shopify:\/\/collections\/all",
-        "products": [
-          "renaissance",
-          "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
-          "super-soft-cosy-robe",
-          "brixton-towels",
-          "signum-675-gsm-combed-cotton",
-          "jaipur-throw",
-          "supreme-hygro",
-          "luxury-microfibre-13-5-tog-duvet",
-          "luxe-towels",
-          "jaipur-cushion",
-          "deep-pile-rug"
-        ],
-        "screen_visibility": "both"
-      }
     }
   },
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c",
     "2c7f8aae-2f64-4441-8b9f-0f82180e701f",
+    "1699c766-734d-4353-a8c2-18ab578d4d41",
     "8afe31d6-ee17-4a35-bf94-61ee2db3c726",
     "3d8d2eee-9d2e-4b20-80ec-026c5afff458",
     "c66f958a-b771-485c-bd16-7e2841ec3c60",
@@ -1009,7 +1010,6 @@
     "0ea7c509-a0e6-4f26-8f0f-2d0f5eb7a796",
     "product-grid",
     "recent-products",
-    "toggled-body-content",
-    "1699c766-734d-4353-a8c2-18ab578d4d41"
+    "toggled-body-content"
   ]
 }
