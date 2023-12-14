@@ -629,6 +629,58 @@
         "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
         "button_link": "#quiz-gWHPoe"
       }
+    },
+    "cb614ea2-87cc-465c-bad5-a21bed061725": {
+      "type": "benefits-icons",
+      "blocks": {
+        "28951a9b-42ad-462a-988b-b9211d905575": {
+          "type": "block",
+          "settings": {
+            "title": "Legacy of Innovation",
+            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.<\/p>",
+            "button_link": "shopify:\/\/pages\/our-heritage",
+            "button_title": "Learn More"
+          }
+        },
+        "bf329850-2492-4eb0-ba16-7804fee54693": {
+          "type": "block",
+          "settings": {
+            "title": "Sustainability",
+            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.<\/p>",
+            "button_link": "shopify:\/\/pages\/responsibility",
+            "button_title": "Learn More"
+          }
+        },
+        "6caa8efc-a9e8-4f31-baab-5666678fd78d": {
+          "type": "block",
+          "settings": {
+            "title": "Loved by our Customers",
+            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
+            "button_link": "shopify:\/\/collections\/shop-all",
+            "button_title": "Shop the Range"
+          }
+        },
+        "0d7bdf16-2259-44ab-86de-2efaece6ba82": {
+          "type": "block",
+          "settings": {
+            "title": "Free Shipping & Extended Returns",
+            "copy": "<p>Free Shipping above £50 plus our Worry-Free Extended Return Guarantee.<\/p>",
+            "button_link": "shopify:\/\/pages\/shipping-policy",
+            "button_title": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "28951a9b-42ad-462a-988b-b9211d905575",
+        "bf329850-2492-4eb0-ba16-7804fee54693",
+        "6caa8efc-a9e8-4f31-baab-5666678fd78d",
+        "0d7bdf16-2259-44ab-86de-2efaece6ba82"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Christmas Delivery Dates",
+        "margin": "yes"
+      }
     }
   },
   "order": [
@@ -655,6 +707,7 @@
     "billboard4",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
-    "2970b3ab-743a-4054-95d1-048d41881e08"
+    "2970b3ab-743a-4054-95d1-048d41881e08",
+    "cb614ea2-87cc-465c-bad5-a21bed061725"
   ]
 }
