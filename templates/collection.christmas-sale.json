@@ -12,7 +12,7 @@
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/PPC_1200X628_e3101093-a704-47a3-909d-99842366cb4c.jpg",
+        "image": "shopify:\/\/shop_images\/PPC_1200X628_1_ef8f1a92-0a49-4265-90ff-6bd6dd8f9dc5.jpg",
         "link": "",
         "full_width": true
       }
@@ -56,12 +56,25 @@
             "button_link": "shop-all",
             "collection_tag": ""
           }
+        },
+        "c9a67a9a-381d-40cd-ab73-986e4e2d2b54": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EMAILER_600X700_89dbcf20-159c-494d-b98b-7230a2f7e3a0.jpg",
+            "image_aspect": "1:1",
+            "title": "Extended Hassle Free Returns",
+            "text": "<p>Wrap up your Christmas shopping without worrying about returns! We will now accept returns and exchanges till 31st January 2024.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
         }
       },
       "block_order": [
         "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-1",
         "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-3",
-        "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-2"
+        "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-2",
+        "c9a67a9a-381d-40cd-ab73-986e4e2d2b54"
       ],
       "settings": {
         "title": "Christmas Treats"
