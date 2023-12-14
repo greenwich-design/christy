@@ -656,6 +656,7 @@
         "28951a9b-42ad-462a-988b-b9211d905575",
         "0d7bdf16-2259-44ab-86de-2efaece6ba82"
       ],
+      "disabled": true,
       "settings": {
         "title": "Last order dates for Christmas",
         "margin": "yes"
