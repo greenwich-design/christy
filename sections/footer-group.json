@@ -2,6 +2,12 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "9e90f861-dcea-48bf-98a1-5a52bc9c0da7": {
+      "type": "revy-contents",
+      "disabled": true,
+      "settings": {
+      }
+    },
     "footer": {
       "type": "footer",
       "blocks": {
@@ -29,6 +35,7 @@
     }
   },
   "order": [
+    "9e90f861-dcea-48bf-98a1-5a52bc9c0da7",
     "footer",
     "footer-copyright"
   ]
