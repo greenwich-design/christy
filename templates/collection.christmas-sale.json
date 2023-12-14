@@ -769,16 +769,20 @@
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/offers-towels",
         "products": [
-          "supreme-hygro",
           "mode-towels",
-          "luxe-towels",
-          "renaissance",
+          "essence-towels-650-gsm-combed-cotton",
+          "cirrus-towels-450-gsm-cotton",
           "serene-550-gsm-combed-cotton",
           "carnaby-stripe",
+          "organic",
+          "luxe-towels",
+          "renaissance",
+          "supreme-hygro",
           "signum-675-gsm-combed-cotton",
           "brixton-towels",
           "midori-towels",
-          "tribeca-towels"
+          "tribeca-towels",
+          "prism-towels"
         ],
         "screen_visibility": "both"
       }
