@@ -169,6 +169,12 @@
         "settings": {
         }
       },
+      "12440966767595914869": {
+        "type": "shopify:\/\/apps\/sales-motivator-free-gifts\/blocks\/app-block\/790f143d-f67c-4036-9b09-2d69c24dd826",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "15014643352720781508": {
         "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
         "disabled": false,
@@ -176,9 +182,12 @@
           "cart_widget_enabled": true,
           "item_widget_enabled": false,
           "product_widget_enabled": false,
+          "gift_thumbnail_enabled": false,
+          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
+          "gift_thumbnail_size": 40,
           "message_enabled": true,
           "sender_recipient": "both",
-          "message_max_length": 250,
+          "message_max_length": 200,
           "message_position_override": true,
           "show_pricing": true,
           "money_filter": "money_with_currency",
@@ -193,12 +202,6 @@
           "cart_widget_text_alignment": "--wrapped-checkbox--label-right",
           "item_widget_text_alignment": "--wrapped-checkbox--label-left",
           "product_widget_text_alignment": "--wrapped-checkbox--label-left"
-        }
-      },
-      "12440966767595914869": {
-        "type": "shopify:\/\/apps\/sales-motivator-free-gifts\/blocks\/app-block\/790f143d-f67c-4036-9b09-2d69c24dd826",
-        "disabled": false,
-        "settings": {
         }
       }
     },
