@@ -7,6 +7,7 @@
       "blocks": {
         "76f3926b-2051-4283-ab19-68716a2dc65a": {
           "type": "link",
+          "disabled": true,
           "settings": {
             "link_name": "Christmas Sale",
             "link": "shopify:\/\/collections\/christmas-sale"
