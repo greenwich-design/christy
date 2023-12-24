@@ -3,8 +3,8 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/PPC_1200X628_17ac2b71-585a-4790-acb8-24ab4035b16d.jpg",
-        "link": "shopify:\/\/collections\/christmas-sale",
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
+        "link": "shopify:\/\/collections\/cyber-jammies-pyjama-sets",
         "full_width": true
       }
     },
@@ -67,6 +67,7 @@
         "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-3",
         "75fc2433-cb2f-4b69-b52a-98ccd9f953fe"
       ],
+      "disabled": true,
       "settings": {
         "title": "Christmas Treats"
       }
@@ -164,6 +165,7 @@
     },
     "2a0e8d45-d132-480e-b6ff-c37f7ad453d7": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
         "link": "https:\/\/www.christy.co.uk\/collections\/cyber-jammies-pyjama-sets",
@@ -256,7 +258,7 @@
     "0e427065-4c47-4b8e-8eab-12cb0c11fc4a": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/EMAILER_600X700_3.jpg",
+        "image": "shopify:\/\/shop_images\/Gift_2.jpg",
         "image2": "shopify:\/\/shop_images\/Gift_1.jpg",
         "subtitle": "",
         "title": "<p>Create your own Gift Box<\/p>",
