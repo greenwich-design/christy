@@ -2,6 +2,7 @@
   "sections": {
     "0c8f5654-f9bf-44d9-aef0-e8516e73109b": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_1.jpg",
         "link": "",
