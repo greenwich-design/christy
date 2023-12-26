@@ -508,16 +508,13 @@
     "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
       "type": "products-carousel",
       "settings": {
-        "title": "Flat 50% off",
+        "title": "Minimum 50% off",
         "button_title": "Shop All",
         "button_link": "shopify:\/\/collections\/clearance",
         "products": [
-          "katsura-bed-linen",
           "coniston-bed-linen",
           "signum-675-gsm-combed-cotton",
-          "appleby-bed-linen",
           "serene-550-gsm-combed-cotton",
-          "meeko-bed-linen",
           "tribeca-towels",
           "midori-towels"
         ],
