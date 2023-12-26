@@ -631,37 +631,6 @@
         "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
         "button_link": "#quiz-gWHPoe"
       }
-    },
-    "cb614ea2-87cc-465c-bad5-a21bed061725": {
-      "type": "benefits-icons",
-      "blocks": {
-        "28951a9b-42ad-462a-988b-b9211d905575": {
-          "type": "block",
-          "settings": {
-            "title": "Standard Delivery",
-            "copy": "<p><strong>Last order date: <\/strong>Tuesday 19th December<br\/><strong>Latest delivery: <\/strong>Saturday 23rd December<\/p>",
-            "button_link": "",
-            "button_title": ""
-          }
-        },
-        "0d7bdf16-2259-44ab-86de-2efaece6ba82": {
-          "type": "block",
-          "settings": {
-            "title": "Gift Box Service",
-            "copy": "<p><strong>Last order date: <\/strong>Tuesday 19th December<br\/><strong>Latest delivery: <\/strong>Saturday 23rd December<\/p>",
-            "button_link": "",
-            "button_title": ""
-          }
-        }
-      },
-      "block_order": [
-        "28951a9b-42ad-462a-988b-b9211d905575",
-        "0d7bdf16-2259-44ab-86de-2efaece6ba82"
-      ],
-      "settings": {
-        "title": "Last order dates for Christmas",
-        "margin": "yes"
-      }
     }
   },
   "order": [
@@ -688,7 +657,6 @@
     "billboard4",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
-    "2970b3ab-743a-4054-95d1-048d41881e08",
-    "cb614ea2-87cc-465c-bad5-a21bed061725"
+    "2970b3ab-743a-4054-95d1-048d41881e08"
   ]
 }
