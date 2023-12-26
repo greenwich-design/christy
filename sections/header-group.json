@@ -7,10 +7,9 @@
       "blocks": {
         "76f3926b-2051-4283-ab19-68716a2dc65a": {
           "type": "link",
-          "disabled": true,
           "settings": {
-            "link_name": "Christmas Sale",
-            "link": "shopify:\/\/collections\/christmas-sale"
+            "link_name": "Boxing Day Sale",
+            "link": "shopify:\/\/collections\/christy-winter-sale-up-to-50-off"
           }
         },
         "86393deb-1c9c-4fc8-ae5a-9bdba0bfb2c8": {
