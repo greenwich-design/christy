@@ -12,7 +12,7 @@
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/PPC_1200X628_3.jpg",
+        "image": "shopify:\/\/shop_images\/PPC_1200X628_5.jpg",
         "link": "",
         "full_width": true
       }
@@ -59,6 +59,7 @@
         },
         "c9a67a9a-381d-40cd-ab73-986e4e2d2b54": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/EMAILER_600X700_89dbcf20-159c-494d-b98b-7230a2f7e3a0.jpg",
             "image_aspect": "1:1",
@@ -77,7 +78,7 @@
         "c9a67a9a-381d-40cd-ab73-986e4e2d2b54"
       ],
       "settings": {
-        "title": "Boxing Day Treats"
+        "title": "Winter Sale Treats"
       }
     },
     "1699c766-734d-4353-a8c2-18ab578d4d41": {
@@ -988,8 +989,8 @@
         "9c788114-0e17-4e4a-90ac-0edf460cd23f"
       ],
       "settings": {
-        "title": "Discover the Christy Boxing Day Sale",
-        "copy": "<p>Unwrap Joy this December with Christy's Boxing Day Sale! <\/p><p>Dive into a world of luxury and savings this holiday season, featuring exclusive deals with up to 60% off on premium bedding, towels, bath robes and throws.<\/p><p>Transform your bedroom into a sanctuary of tranquillity with our sumptuous bedding collections. From silky-soft sheets to opulent duvet covers, indulge in the luxury you deserve.<\/p><p>Upgrade your bathroom with Christy's plush towels and bathrobes. Wrap yourself in pure comfort and experience the epitome of indulgence after every bath or shower.<\/p><p>These exclusive Boxing Day deals won't last forever! Shop now to secure your favourites before they're gone. Don't miss out on the chance to elevate your home with Christy's timeless elegance. <\/p><p>The Christy Boxing Day sale is your golden opportunity to experience luxury for less so get ready to elevate your home with Christy!<\/p>"
+        "title": "Discover the Christy Winter Sale",
+        "copy": "<p>Unwrap Joy this season with Christy's Winter Sale! <\/p><p>Dive into a world of luxury and savings this holiday season, featuring exclusive deals with up to 50% off on premium bedding, towels, bath robes and throws.<\/p><p>Transform your bedroom into a sanctuary of tranquillity with our sumptuous bedding collections. From silky-soft sheets to opulent duvet covers, indulge in the luxury you deserve.<\/p><p>Upgrade your bathroom with Christy's plush towels and bathrobes. Wrap yourself in pure comfort and experience the epitome of indulgence after every bath or shower.<\/p><p>These exclusive Winter Sale deals won't last forever! Shop now to secure your favourites before they're gone. Don't miss out on the chance to elevate your home with Christy's timeless elegance. <\/p><p>The Christy Winter Sale is your golden opportunity to experience luxury for less so get ready to elevate your home with Christy!<\/p>"
       }
     }
   },
