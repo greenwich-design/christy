@@ -198,41 +198,5 @@
 .personalize-color-selector.selected, .personalize-font-selector.selected{
     border-width: 3px !important;
 }
-.personalize-color-selector.Yellow{
-    background:#F7D000;
-}
-.personalize-color-selector.Pink{
-    background:#F6AABC;
-}
-.personalize-color-selector.Pebble{
-    background:#947C69;
-}
-.personalize-color-selector.Pale_Blue{
-    background:#253C74;
-}
-.personalize-color-selector.Natural{
-    background:#866137;
-}
-.personalize-color-selector.Liliac{
-    background:#602484;
-}
-.personalize-color-selector.Berry{
-    background:#AC2D53;
-}
-.personalize-color-selector.Aqua{
-    background:#18A09F;
-}
-.personalize-color-selector.Navy{
-    background:#000080;
-}
-.personalize-color-selector.white{
-    background:#FFF;
-}
-.personalize-color-selector.black{
-    background:#000;
-}
-.personalize-color-selector.Red{
-    background:#B43D3D;
-}
 
 

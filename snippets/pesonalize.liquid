@@ -31,6 +31,25 @@
     class="cart-drawer h-full w-full md:max-w-[820px] translate-x-full group-[.active]/drawer:translate-x-0 flex flex-col overflow-auto justify-start transition-all duration-500 bg-white absolute right-0 p-4"
     {{ block.shopify_attributes }}
   >
+    {% assign font = product.metafields.custom.personalisation_font.value %}
+    {% assign pers_colors_names = current_variant.metafields.custom.personalization_colours.value %}
+    {% assign selected_font = '' %}
+    {% assign selected_font_name = '' %}
+    {% assign selected_colour = '' %}
+    {% assign selected_colour_name = '' %}
+    {% if font == 'Towel' %}
+      {% assign selected_font = 'classic' %}
+      {% assign selected_font_name = 'Classic' %}
+    {% else %}
+      {% assign selected_font = 'laurel' %}
+      {% assign selected_font_name = 'Laurel' %}
+    {% endif %}
+    {% for cols in pers_colors_names %}
+      {% if forloop.first == true %}
+        {% assign selected_colour = cols.font_colour | replace: '["', '' | replace: '"]', '' %}
+        {% assign selected_colour_name = cols.colour_name %}
+      {% endif %}
+    {% endfor %}
     <div class="personalisation-images flex flex-col gap-8">
       {% assign media = current_variant.metafields.custom.personalization_image.value %}
       {% assign focal_point = media.presentation.focal_point %}
@@ -63,8 +82,8 @@
           id="personal_canvas"
         >
           <div
-            class="absolute -translate-x-1/2 -translate-y-1/2 personalization_text laurel black"
-            style="top:{{ focal_point_array.last }}; left:{{ focal_point_array.first }}"
+            class="absolute -translate-x-1/2 -translate-y-1/2 personalization_text {{ selected_font }}"
+            style="top:{{ focal_point_array.last }}; left:{{ focal_point_array.first }}; color:{{ selected_colour }}"
           >
             <span class="mono-text"></span>
           </div>
@@ -91,11 +110,16 @@
           >
           <span class="monogram-error"></span>
         </p>
+
         <p class="select-large">
-          <span class=""> Style<strong class="personalization-selected-style">: Laurel</strong> </span>
+          <span class="">
+            Style<strong class="personalization-selected-style">
+              {{ selected_font_name }}
+            </strong>
+          </span>
           <label for="monogram block"> Monogram Style</label>
           <div class="flex flex-wrap gap-4">
-            {% comment %}
+            {% if font == 'Towel' %}
               <span
                 data-value="classic"
                 data-label="Classic"
@@ -120,142 +144,93 @@
               >
                 <strong class="">Script</strong>
               </span>
-            {% endcomment %}
-            <span
-              data-value="laurel"
-              data-label="Laurel"
-              data-length="1"
-              class="variant-label personalize-font-selector px-4 personalize-style-selector selected"
-            >
-              <img
-                src="{{ 'Laurel_Bodoni.jpg' | asset_url }}"
-                width="70"
-                height="40"
-                alt="Personalization_colour"
-                loading="lazy"
+            {% endif %}
+            {% if font == 'Robe' %}
+              <span
+                data-value="laurel"
+                data-label="Laurel"
+                data-length="1"
+                class="variant-label personalize-font-selector px-4 personalize-style-selector selected"
               >
-            </span>
-            <span
-              data-value="mg-dots"
-              data-label="Monogram With Dots"
-              data-length="3"
-              class="variant-label personalize-font-selector px-4 personalize-style-selector"
-            >
-              <img
-                src="{{ 'mg-dots.jpg' | asset_url }}"
-                width="70"
-                height="40"
-                alt="Personalization_colour"
-                loading="lazy"
+                <img
+                  src="{{ 'Laurel_Bodoni.jpg' | asset_url }}"
+                  width="70"
+                  height="40"
+                  alt="Personalization_colour"
+                  loading="lazy"
+                >
+              </span>
+              <span
+                data-value="mg-dots"
+                data-label="Monogram With Dots"
+                data-length="3"
+                class="variant-label personalize-font-selector px-4 personalize-style-selector"
               >
-            </span>
-            <span
-              data-value="mg-pair"
-              data-label="Monogram Pair"
-              data-length="2"
-              class="variant-label personalize-font-selector px-4 personalize-style-selector"
-            >
-              <img
-                src="{{ 'mg-pair.jpg' | asset_url }}"
-                width="70"
-                height="40"
-                alt="Personalization_colour"
-                loading="lazy"
+                <img
+                  src="{{ 'mg-dots.jpg' | asset_url }}"
+                  width="70"
+                  height="40"
+                  alt="Personalization_colour"
+                  loading="lazy"
+                >
+              </span>
+              <span
+                data-value="mg-pair"
+                data-label="Monogram Pair"
+                data-length="2"
+                class="variant-label personalize-font-selector px-4 personalize-style-selector"
               >
-            </span>
-            <span
-              data-value="mg-trio"
-              data-label="Monogram Trio"
-              data-length="3"
-              class="variant-label personalize-font-selector px-4 personalize-style-selector"
-            >
-              <img
-                src="{{ 'mg-trio.jpg' | asset_url }}"
-                width="70"
-                height="40"
-                alt="Personalization_colour"
-                loading="lazy"
+                <img
+                  src="{{ 'mg-pair.jpg' | asset_url }}"
+                  width="70"
+                  height="40"
+                  alt="Personalization_colour"
+                  loading="lazy"
+                >
+              </span>
+              <span
+                data-value="mg-trio"
+                data-label="Monogram Trio"
+                data-length="3"
+                class="variant-label personalize-font-selector px-4 personalize-style-selector"
               >
-            </span>
+                <img
+                  src="{{ 'mg-trio.jpg' | asset_url }}"
+                  width="70"
+                  height="40"
+                  alt="Personalization_colour"
+                  loading="lazy"
+                >
+              </span>
+            {% endif %}
           </div>
         </p>
         <p class="select-large">
-          <span>Colour<strong class="personalization-selected-colour">: Black</strong></span>
-          <label for="monogram block"> Monogram Colour</label>
+          <span
+            >Colour<strong class="personalization-selected-colour"
+              >:
+
+              <span>
+                {{ selected_colour_name }}
+              </span>
+            </strong></span
+          >
+          <label for="monogram block"> </label>
 
           <div class="flex flex-wrap gap-4">
-            <span
-              data-label="Black"
-              data-value="black"
-              title="Black"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full black selected"
-            ></span>
-            <span
-              data-label="Yellow"
-              data-value="Yellow"
-              title="Yellow"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full Yellow"
-            ></span>
-            <span
-              data-label="Pink"
-              data-value="Pink"
-              title="Pink"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full Pink"
-            ></span>
-            <span
-              data-label="Pebble"
-              data-value="Pebble"
-              title="Pebble"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full Pebble"
-            ></span>
-            <span
-              data-label="Pale_Blue"
-              data-value="Pale_Blue"
-              title="Pale_Blue"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full Pale_Blue"
-            ></span>
-            <span
-              data-label="Natural"
-              data-value="Natural"
-              title="Natural"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full Natural"
-            ></span>
-            <span
-              data-label="Liliac"
-              data-value="Liliac"
-              title="Liliac"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full Liliac"
-            ></span>
-            <span
-              data-label="Berry"
-              data-value="Berry"
-              title="Berry"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full Berry"
-            ></span>
-            <span
-              data-label="Aqua"
-              data-value="Aqua"
-              title="Aqua"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full Aqua"
-            ></span>
-            <span
-              data-label="Navy"
-              data-value="Navy"
-              title="Navy"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full Navy"
-            ></span>
-            <span
-              data-label="White"
-              data-value="white"
-              title="White"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full white"
-            ></span>
-            <span
-              data-label="Red"
-              data-value="Red"
-              title="Red"
-              class="personalize-color-selector py-1 variant-label px-4 rounded-full Red"
-            ></span>
+            {% for cols in pers_colors_names %}
+              <span
+                style="background:{{ cols.font_colour | replace: '["' , '' | replace: '"]', '' }}"
+                data-label="{{ cols.colour_name }}"
+                data-value="{{ cols.font_colour | replace: '["' , '' | replace: '"]', '' }}"
+                title="{{ cols.colour_name }}"
+                {% if forloop.first == true %}
+                  class="personalize-color-selector py-1 variant-label px-4 rounded-full selected"
+                {% else %}
+                  class="personalize-color-selector py-1 variant-label px-4 rounded-full"
+                {% endif %}
+              ></span>
+            {% endfor %}
           </div>
         </p>
       </div>
@@ -304,8 +279,18 @@
             class="product-variant-id"
           >
           <input type="hidden" name="properties[Monogram]" id="personalization_text_input">
-          <input type="hidden" name="properties[Monogram Style]" id="personalization_style_input">
-          <input type="hidden" name="properties[Monogram Colour]" id="personalization_colour_input">
+          <input
+            type="hidden"
+            name="properties[Monogram Style]"
+            value="{{ selected_font_name }}"
+            id="personalization_style_input"
+          >
+          <input
+            type="hidden"
+            name="properties[Monogram Colour]"
+            value="{{ selected_colour_name }}"
+            id="personalization_colour_input"
+          >
           {%- if gift_card_recipient_feature_active -%}
             {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
           {%- endif -%}

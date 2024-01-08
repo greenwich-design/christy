@@ -61,8 +61,7 @@ document.querySelectorAll(".personalize-color-selector").forEach((ele)=>{
         obj.classList.add('selected')
         document.querySelector('.personalization-selected-colour').innerHTML =  ": "+label
         document.querySelector('#personalization_colour_input').value = label
-        document.querySelector(".personalization_image .personalization_text").classList.remove(...color_classList)
-        document.querySelector(".personalization_image .personalization_text").classList.add(value)
+        document.querySelector(".personalization_image .personalization_text").style.color = value
         updateCanvas()
 
     })

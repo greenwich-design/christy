@@ -361,67 +361,76 @@
                             {% if item.product.handle == 'product-personalization' or is_personalized == true %}
                               {% assign hide_quantity = 'hidden' %}
                             {% endif %}
-                            <quantity-input class="quantity {{ hide_quantity }} cart-quantity space-x-3 lg:space-x-4 flex items-center [&_>*]:w-[24px] [&_>*]:h-[24px] [&_>*]:lg:w-[28px] [&_>*]:lg:h-[28px]">
-                              <button
-                                class="quantity__button flex justify-center items-center no-js-hidden "
-                                name="minus"
-                                {% if is_personalized == true %}
-                                  data-personalized="true"
-                                {% endif %}
-                                {% if item.product.handle == 'product-personalization' %}
-                                  data-is-personalization-product-minus="true"
-                                {% endif %}
-                                type="button"
-                              >
-                                <span class="visually-hidden">
-                                  {{- 'products.product.quantity.decrease' | t: product: item.product.title | escape -}}
-                                </span>
-                                {% render 'icon-minus' %}
-                              </button>
+                            {% if hide_quantity != 'hidden' %}
+                              <quantity-input class="quantity {{ hide_quantity }} cart-quantity space-x-3 lg:space-x-4 flex items-center [&_>*]:w-[24px] [&_>*]:h-[24px] [&_>*]:lg:w-[28px] [&_>*]:lg:h-[28px]">
+                                <button
+                                  class="quantity__button flex justify-center items-center no-js-hidden "
+                                  name="minus"
+                                  {% if is_personalized == true %}
+                                    data-personalized="true"
+                                  {% endif %}
+                                  {% if item.product.handle == 'product-personalization' %}
+                                    data-is-personalization-product-minus="true"
+                                  {% endif %}
+                                  type="button"
+                                >
+                                  <span class="visually-hidden">
+                                    {{-
+                                      'products.product.quantity.decrease'
+                                      | t: product: item.product.title
+                                      | escape
+                                    -}}
+                                  </span>
+                                  {% render 'icon-minus' %}
+                                </button>
 
-                              <input
-                                class="quantity__input border border-blue-1/10 appearance-none outline-none text-center text-[12px]"
-                                type="number"
-                                {% if item.product.handle == 'product-personalization' %}
-                                  data-is-personalization-product-input="true"
-                                {% endif %}
-                                data-quantity-variant-id="{{ item.variant.id }}"
-                                name="updates[]"
-                                value="{{ item.quantity }}"
-                                {% # theme-check-disable %}
-                                data-cart-quantity="{{ cart | item_count_for_variant: item.variant.id }}"
-                                min="0"
-                                {% if item.variant.quantity_rule.max != null %}
-                                  max="{{ item.variant.quantity_rule.max }}"
-                                {% endif %}
-                                step="{{ item.variant.quantity_rule.increment }}"
-                                {% # theme-check-enable %}
-                                aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
-                                id="Drawer-quantity-{{ item.index | plus: 1 }}"
-                                data-index="{{ item.index | plus: 1 }}"
-                                {% if is_personalized == true %}
-                                  disabled="true"
-                                {% endif %}
-                              >
+                                <input
+                                  class="quantity__input border border-blue-1/10 appearance-none outline-none text-center text-[12px]"
+                                  type="number"
+                                  {% if item.product.handle == 'product-personalization' %}
+                                    data-is-personalization-product-input="true"
+                                  {% endif %}
+                                  data-quantity-variant-id="{{ item.variant.id }}"
+                                  name="updates[]"
+                                  value="{{ item.quantity }}"
+                                  {% # theme-check-disable %}
+                                  data-cart-quantity="{{ cart | item_count_for_variant: item.variant.id }}"
+                                  min="0"
+                                  {% if item.variant.quantity_rule.max != null %}
+                                    max="{{ item.variant.quantity_rule.max }}"
+                                  {% endif %}
+                                  step="{{ item.variant.quantity_rule.increment }}"
+                                  {% # theme-check-enable %}
+                                  aria-label="{{ 'products.product.quantity.input_label' | t: product: item.product.title | escape }}"
+                                  id="Drawer-quantity-{{ item.index | plus: 1 }}"
+                                  data-index="{{ item.index | plus: 1 }}"
+                                  {% if is_personalized == true %}
+                                    disabled="true"
+                                  {% endif %}
+                                >
 
-                              <button
-                                class="quantity__button flex justify-center items-center no-js-hidden"
-                                name="plus"
-                                type="button"
-                                {% if item.product.handle == 'product-personalization' %}
-                                  data-is-personalization-product-plus="true"
-                                {% endif %}
-                                {% if is_personalized == true %}
-                                  data-personalized="true"
-                                {% endif %}
-                              >
-                                <span class="visually-hidden">
-                                  {{- 'products.product.quantity.increase' | t: product: item.product.title | escape -}}
-                                </span>
-                                {% render 'icon-plus' %}
-                              </button>
-                            </quantity-input>
-
+                                <button
+                                  class="quantity__button flex justify-center items-center no-js-hidden"
+                                  name="plus"
+                                  type="button"
+                                  {% if item.product.handle == 'product-personalization' %}
+                                    data-is-personalization-product-plus="true"
+                                  {% endif %}
+                                  {% if is_personalized == true %}
+                                    data-personalized="true"
+                                  {% endif %}
+                                >
+                                  <span class="visually-hidden">
+                                    {{-
+                                      'products.product.quantity.increase'
+                                      | t: product: item.product.title
+                                      | escape
+                                    -}}
+                                  </span>
+                                  {% render 'icon-plus' %}
+                                </button>
+                              </quantity-input>
+                            {% endif %}
                             <div
                               id="CartDrawer-LineItemError-{{ item.index | plus: 1 }}"
                               class="cart-item__error flex flex-row-reverse justify-end"
@@ -532,46 +541,47 @@
                         {% if item.product.handle == 'product-personalization' %}
                           {% assign hide_remove_btn = 'hidden' %}
                         {% endif %}
-                        <tr>
-                          <td
-                            colspan="3"
-                            class="text-right {{ hide_remove_btn }} border-b border-blue-1/10 py-7 lg:py-6"
-                          >
-                            <button
-                              onclick="wishRemove(this)"
-                              type="button"
-                              aria-label="Add to wishlist"
-                              button-wishlist=""
-                              data-product-handle="{{ item.product.handle }}"
-                              class="mr-4 lg:mr-6 btn-tertiary transition-opacity opacity-0 [&.active]:hidden"
-                              data-rowindex="{{ item.index | plus: 1 }}"
-                            >
-                              Move to Wishlist
-                            </button>
-
-                            <cart-remove-button
-                              id="CartDrawer-Remove-{{ item.index | plus: 1 }}"
-                              data-index="{{ item.index | plus: 1 }}"
-                              {% if is_personalized == true %}
-                                data-currentquantity="{{ item.quantity }}"
-                                data-key="{{ item.key }}"
-                                data-personalized="true"
-                                data-personalizationindex="{{ personalised_product_index }}"
-                                data-personalizationquantity="{{ personalised_product_quantity }}"
-                                data-personalizationkey="{{ personalised_product_key }}"
-                              {% endif %}
+                        {% if hide_remove_btn == 'hidden' %}
+                          <tr>
+                            <td
+                              colspan="3"
+                              class="text-right {{ hide_remove_btn }} border-b border-blue-1/10 py-7 lg:py-6"
                             >
                               <button
+                                onclick="wishRemove(this)"
                                 type="button"
-                                class="btn-tertiary cart-remove-button"
-                                aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}"
+                                aria-label="Add to wishlist"
+                                button-wishlist=""
+                                data-product-handle="{{ item.product.handle }}"
+                                class="mr-4 lg:mr-6 btn-tertiary transition-opacity opacity-0 [&.active]:hidden"
+                                data-rowindex="{{ item.index | plus: 1 }}"
                               >
-                                Remove
+                                Move to Wishlist
                               </button>
-                            </cart-remove-button>
-                          </td>
-                        </tr>
 
+                              <cart-remove-button
+                                id="CartDrawer-Remove-{{ item.index | plus: 1 }}"
+                                data-index="{{ item.index | plus: 1 }}"
+                                {% if is_personalized == true %}
+                                  data-currentquantity="{{ item.quantity }}"
+                                  data-key="{{ item.key }}"
+                                  data-personalized="true"
+                                  data-personalizationindex="{{ personalised_product_index }}"
+                                  data-personalizationquantity="{{ personalised_product_quantity }}"
+                                  data-personalizationkey="{{ personalised_product_key }}"
+                                {% endif %}
+                              >
+                                <button
+                                  type="button"
+                                  class="btn-tertiary cart-remove-button"
+                                  aria-label="{{ 'sections.cart.remove_title' | t: title: item.title }}"
+                                >
+                                  Remove
+                                </button>
+                              </cart-remove-button>
+                            </td>
+                          </tr>
+                        {% endif %}
                         {% if item.product.metafields.custom.cart_upsells.value.count > 0 %}
                           {% for item_upsells in item.product.metafields.custom.cart_upsells.value %}
                             {% if item_upsells.related_product.value %}
