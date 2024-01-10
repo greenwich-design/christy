@@ -19,8 +19,9 @@
     },
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
-        "title": "Upto 50% off Festive Deals",
+        "title": "Shop our Best Sellers",
         "button_title": "Explore the Collection",
         "button_link": "shopify:\/\/collections\/printed-and-hand-painted-bedding",
         "products": [

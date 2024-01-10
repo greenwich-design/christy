@@ -4,7 +4,7 @@
     "cart_drawer_intro_loggedin": "<p>Earn up to <strong>{points} loyalty points<\/strong> for this order when you check out.<\/p>",
     "cart_drawer_intro_loggedout": "<p>Join the Christy Community and earn up to <strong>{points} loyalty points<\/strong> for this order when you check out.<\/p>",
     "cart_drawer_intro": "<p>Welcome to your basket<\/p>",
-    "product_delivery_returns": "<p><strong>Delivery <\/strong><\/p><p><strong>UK Standard Delivery 5 to 7 working days.<\/strong><\/p><p>- Free for UK orders over £50<\/p><p>- £4.95 for orders under £50<\/p><p>- Orders will be delivered Monday–Saturday (excluding bank and public holidays)<\/p><p><strong>UK Next Day Delivery Options will be unavailable from 17th Nov 2023 till 5th Jan 2024.<\/strong><\/p><p><strong>Returns<\/strong><\/p><p><strong>We have extended our returns policy for Christmas. Returns or exchanges for purchases made between 17th Nov and 31st Dec 2023 will be accepted until 31st January 2024<\/strong><\/p><p>We hope your love your Christy products. But if you don't—for whatever reason our free returns process is simple and easy. You have 30 days to return the product from the date that you receive the item. For more details, find our returns page <a href=\"\/pages\/returns-policy\" title=\"Returns Policy\">here<\/a>.<\/p><p><\/p>",
+    "product_delivery_returns": "<p><strong>Delivery <\/strong><\/p><h5><strong>Last order dates for Christmas:-<\/strong><\/h5><h6><strong>Last order date:<\/strong> Tuesday 19th December<br\/><strong>Latest delivery:<\/strong> Saturday 23rd December<\/h6><h6><\/h6><p><strong>UK Standard Delivery 3 to 4 working days.<\/strong><\/p><p>- Free for UK orders over £50<\/p><p>- £4.95 for orders under £50<\/p><p>- Orders will be delivered Monday–Saturday (excluding bank and public holidays)<\/p><p><strong>UK Next Day Delivery Options will be unavailable from 17th Nov 2023 till 5th Jan 2024.<\/strong><\/p><p><strong>Returns<\/strong><\/p><p><strong>We have extended our returns policy for Christmas. Returns or exchanges for purchases made between 17th Nov and 31st Dec 2023 will be accepted until 31st January 2024<\/strong><\/p><p>We hope your love your Christy products. But if you don't—for whatever reason our free returns process is simple and easy. You have 30 days to return the product from the date that you receive the item. Personalised products are not eligible to be returned. For more details, find our returns page <a href=\"\/pages\/returns-policy\" title=\"Returns Policy\">here<\/a>.<\/p><p><\/p>",
     "email_modal_signup_image": "shopify:\/\/shop_images\/modal-email-signup.jpg",
     "social_facebook_link": "",
     "social_instagram_link": "",
@@ -169,6 +169,12 @@
         "settings": {
         }
       },
+      "12440966767595914869": {
+        "type": "shopify:\/\/apps\/sales-motivator-free-gifts\/blocks\/app-block\/790f143d-f67c-4036-9b09-2d69c24dd826",
+        "disabled": false,
+        "settings": {
+        }
+      },
       "15014643352720781508": {
         "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
         "disabled": false,
@@ -176,9 +182,12 @@
           "cart_widget_enabled": true,
           "item_widget_enabled": false,
           "product_widget_enabled": false,
+          "gift_thumbnail_enabled": false,
+          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
+          "gift_thumbnail_size": 40,
           "message_enabled": true,
           "sender_recipient": "both",
-          "message_max_length": 250,
+          "message_max_length": 200,
           "message_position_override": true,
           "show_pricing": true,
           "money_filter": "money_with_currency",
@@ -195,10 +204,16 @@
           "product_widget_text_alignment": "--wrapped-checkbox--label-left"
         }
       },
-      "12440966767595914869": {
-        "type": "shopify:\/\/apps\/sales-motivator-free-gifts\/blocks\/app-block\/790f143d-f67c-4036-9b09-2d69c24dd826",
-        "disabled": false,
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": true,
         "settings": {
+          "button_color": "#000000",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
       }
     },

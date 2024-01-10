@@ -541,7 +541,7 @@
                         {% if item.product.handle == 'product-personalization' %}
                           {% assign hide_remove_btn = 'hidden' %}
                         {% endif %}
-                        {% if hide_remove_btn == 'hidden' %}
+                        {% if hide_remove_btn != 'hidden' %}
                           <tr>
                             <td
                               colspan="3"

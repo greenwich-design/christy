@@ -3,42 +3,9 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/PPC_1200X628_e3101093-a704-47a3-909d-99842366cb4c.jpg",
-        "link": "shopify:\/\/collections\/christmas-sale",
+        "image": "shopify:\/\/shop_images\/PPC_1200X628_4.jpg",
+        "link": "shopify:\/\/collections\/winter-sale",
         "full_width": true
-      }
-    },
-    "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "sub_title_size": "h2"
-          }
-        },
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-main_heading-1": {
-          "type": "main_heading",
-          "settings": {
-            "heading": "Extended Hassle Free Returns"
-          }
-        },
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Wrap up your Christmas shopping early! We will now accept returns and exchanges till 31st January 2024.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-heading-1",
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-main_heading-1",
-        "template--21202652987680__fd507cfd-d5cd-4a17-aa56-7dfdc47007f0-text-1"
-      ],
-      "settings": {
-        "full_width": true,
-        "anchor_id": ""
       }
     },
     "d2113c42-d705-4b50-99be-017b00de7fc9": {
@@ -46,6 +13,7 @@
       "blocks": {
         "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-1": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/EMAILER_600X700_4.jpg",
             "image_aspect": "1:1",
@@ -62,7 +30,7 @@
             "image": "shopify:\/\/shop_images\/Gift_1.jpg",
             "image_aspect": "1:1",
             "title": "Create your own Gift Box",
-            "text": "<p>Elevate your gift-giving experience with our luxurious signature gift box with a personalised message.<\/p>",
+            "text": "<p>Elevate your gift giving experience and add that personal touch by including a heartfelt, personalised message.<\/p>",
             "button_label": "Shop our Gifting Range",
             "button_link": "gifts",
             "collection_tag": ""
@@ -71,7 +39,7 @@
         "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WIMD150-809824_d5301063-ae43-4947-bca1-eae85afac9be.jpg",
+            "image": "shopify:\/\/shop_images\/WIMD150-809824.jpg",
             "image_aspect": "1:1",
             "title": "Complimentary Wimbledon Towel*",
             "text": "<p>Get a complimentary Wimbledon Championship Towel worth £39 on orders above £50.<\/p>",
@@ -79,12 +47,25 @@
             "button_link": "shop-all",
             "collection_tag": ""
           }
+        },
+        "75fc2433-cb2f-4b69-b52a-98ccd9f953fe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EMAILER_600X700_89dbcf20-159c-494d-b98b-7230a2f7e3a0.jpg",
+            "image_aspect": "1:1",
+            "title": "Extended Hassle Free Returns",
+            "text": "<p>Wrap up your Christmas shopping without worrying about returns! We will now accept returns and exchanges till 31st January 2024.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
         }
       },
       "block_order": [
         "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-1",
         "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-2",
-        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-3"
+        "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-3",
+        "75fc2433-cb2f-4b69-b52a-98ccd9f953fe"
       ],
       "disabled": true,
       "settings": {
@@ -112,16 +93,17 @@
         "button_title": "See more",
         "button_link": "shopify:\/\/collections\/shop-all",
         "products": [
+          "renaissance",
           "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
           "super-soft-cosy-robe",
-          "brixton-towels",
           "jaipur-throw",
-          "luxe-towels",
-          "wimbledon-2023-championship-towel",
-          "signum-675-gsm-combed-cotton",
+          "brixton-towels",
           "coniston-bed-linen",
-          "essence-towels-650-gsm-combed-cotton",
-          "renaissance"
+          "luxe-towels",
+          "luxury-microfibre-13-5-tog-duvet",
+          "signum-675-gsm-combed-cotton",
+          "cirrus-towels-450-gsm-cotton",
+          "supreme-hygro"
         ],
         "screen_visibility": "both"
       }
@@ -183,6 +165,7 @@
     },
     "2a0e8d45-d132-480e-b6ff-c37f7ad453d7": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
         "link": "https:\/\/www.christy.co.uk\/collections\/cyber-jammies-pyjama-sets",
@@ -279,7 +262,7 @@
         "image2": "shopify:\/\/shop_images\/Gift_1.jpg",
         "subtitle": "",
         "title": "<p>Create your own Gift Box<\/p>",
-        "copy": "<p>Elevate your gift-giving experience with our luxurious signature gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
+        "copy": "<p>Elevate your gift-giving experience by creating your own gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
         "button_label": "Shop our Gifting Range",
         "button_link": "shopify:\/\/collections\/gifts",
         "content_position": "right",
@@ -652,7 +635,6 @@
   },
   "order": [
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d",
-    "fd507cfd-d5cd-4a17-aa56-7dfdc47007f0",
     "d2113c42-d705-4b50-99be-017b00de7fc9",
     "heading",
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad",

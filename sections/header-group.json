@@ -8,8 +8,8 @@
         "76f3926b-2051-4283-ab19-68716a2dc65a": {
           "type": "link",
           "settings": {
-            "link_name": "Christmas Sale",
-            "link": "shopify:\/\/collections\/christmas-sale"
+            "link_name": "Winter Sale",
+            "link": "shopify:\/\/collections\/winter-sale"
           }
         },
         "86393deb-1c9c-4fc8-ae5a-9bdba0bfb2c8": {
@@ -72,7 +72,7 @@
         "02703d64-9099-4977-bc01-f845b24a776e"
       ],
       "settings": {
-        "announcement": "<p>Complimentary Wimbledon Championship Towel on orders over £50<\/p>"
+        "announcement": "<p>Winter Sale: Up to 50% Off<\/p>"
       }
     }
   },
