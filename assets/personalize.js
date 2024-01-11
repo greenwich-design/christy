@@ -6,9 +6,13 @@ var color_classList=["Yellow","Pink","Pebble","Pale_Blue","Natural","Liliac","Be
 var font_classList=["classic","modern","laurel","mg-trio", "mg-dots","ballantines","mg-pair"]
 
 function updateCanvas() {
-    let text = document.querySelector('#monogram').value.toUpperCase();
-    document.querySelector('#monogram').value = text;
     let font_value = document.querySelector(".personalize-font-selector.selected").getAttribute('data-value');
+    let text = document.querySelector('#monogram').value;
+    if(["classic","modern","ballantines"].includes(font_value) === false){
+        text = text.toUpperCase();
+    }
+    document.querySelector('#monogram').value = text;
+    
     if(font_value === 'mg-dots'){
         text = text.replace(/.{1}/g, '$&.');
     }
@@ -24,6 +28,14 @@ function updateCanvas() {
         document.querySelector('.monogram-error').innerHTML = "Max Character allowed - "+max_length
     }
     document.querySelector(".personalization_image .personalization_text .mono-text").innerHTML = final_html
+}
+
+function clearSelection(){
+    document.querySelector('#monogram').value = "";
+    document.querySelector("#personalization_text_input").value = "";
+    document.querySelector(".personalization_image .personalization_text .mono-text").innerHTML = "";
+    document.querySelectorAll(".personalize-font-selector")[0].click()
+    document.querySelectorAll(".personalize-color-selector")[0].click()
 }
 
 document.querySelectorAll(".personalize-font-selector").forEach((ele)=>{

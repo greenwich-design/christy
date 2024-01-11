@@ -37,13 +37,10 @@
     {% assign selected_font_name = '' %}
     {% assign selected_colour = '' %}
     {% assign selected_colour_name = '' %}
-    {% if font == 'Towel' %}
-      {% assign selected_font = 'classic' %}
-      {% assign selected_font_name = 'Classic' %}
-    {% else %}
-      {% assign selected_font = 'laurel' %}
-      {% assign selected_font_name = 'Laurel' %}
-    {% endif %}
+
+    {% assign selected_font = 'classic' %}
+    {% assign selected_font_name = 'Classic' %}
+
     {% for cols in pers_colors_names %}
       {% if forloop.first == true %}
         {% assign selected_colour = cols.font_colour | replace: '["', '' | replace: '"]', '' %}
@@ -119,90 +116,87 @@
           </span>
           <label for="monogram block"> Monogram Style</label>
           <div class="flex flex-wrap gap-4">
-            {% if font == 'Towel' %}
-              <span
-                data-value="classic"
-                data-label="Classic"
-                data-length="8"
-                class="variant-label personalize-font-selector px-4 personalize-style-selector selected"
+            <span
+              data-value="classic"
+              data-label="Classic"
+              data-length="8"
+              class="variant-label personalize-font-selector px-4 personalize-style-selector selected"
+            >
+              <strong class="">Classic</strong>
+            </span>
+            <span
+              data-value="modern"
+              data-label="Modern"
+              data-length="8"
+              class="variant-label personalize-font-selector px-4 personalize-style-selector"
+            >
+              <strong class="">Modern</strong>
+            </span>
+            <span
+              data-value="ballantines"
+              data-label="Script"
+              data-length="8"
+              class="variant-label personalize-font-selector px-4 personalize-style-selector ballantines"
+            >
+              <strong class="">Script</strong>
+            </span>
+
+            <span
+              data-value="laurel"
+              data-label="Laurel"
+              data-length="1"
+              class="variant-label personalize-font-selector px-4 personalize-style-selector"
+            >
+              <img
+                src="{{ 'Laurel_Bodoni.jpg' | asset_url }}"
+                width="70"
+                height="40"
+                alt="Personalization_colour"
+                loading="lazy"
               >
-                <strong class="">Classic</strong>
-              </span>
-              <span
-                data-value="modern"
-                data-label="Modern"
-                data-length="8"
-                class="variant-label personalize-font-selector px-4 personalize-style-selector"
+            </span>
+            <span
+              data-value="mg-dots"
+              data-label="Monogram With Dots"
+              data-length="3"
+              class="variant-label personalize-font-selector px-4 personalize-style-selector"
+            >
+              <img
+                src="{{ 'mg-dots.jpg' | asset_url }}"
+                width="70"
+                height="40"
+                alt="Personalization_colour"
+                loading="lazy"
               >
-                <strong class="">Modern</strong>
-              </span>
-              <span
-                data-value="ballantines"
-                data-label="Script"
-                data-length="8"
-                class="variant-label personalize-font-selector px-4 personalize-style-selector ballantines"
+            </span>
+            <span
+              data-value="mg-pair"
+              data-label="Monogram Pair"
+              data-length="2"
+              class="variant-label personalize-font-selector px-4 personalize-style-selector"
+            >
+              <img
+                src="{{ 'mg-pair.jpg' | asset_url }}"
+                width="70"
+                height="40"
+                alt="Personalization_colour"
+                loading="lazy"
               >
-                <strong class="">Script</strong>
-              </span>
-            {% endif %}
-            {% if font == 'Robe' %}
-              <span
-                data-value="laurel"
-                data-label="Laurel"
-                data-length="1"
-                class="variant-label personalize-font-selector px-4 personalize-style-selector selected"
+            </span>
+            <span
+              data-value="mg-trio"
+              data-label="Monogram Trio"
+              data-length="3"
+              class="variant-label personalize-font-selector px-4 personalize-style-selector"
+            >
+              <img
+                src="{{ 'mg-trio.jpg' | asset_url }}"
+                width="70"
+                height="40"
+                alt="Personalization_colour"
+                loading="lazy"
               >
-                <img
-                  src="{{ 'Laurel_Bodoni.jpg' | asset_url }}"
-                  width="70"
-                  height="40"
-                  alt="Personalization_colour"
-                  loading="lazy"
-                >
-              </span>
-              <span
-                data-value="mg-dots"
-                data-label="Monogram With Dots"
-                data-length="3"
-                class="variant-label personalize-font-selector px-4 personalize-style-selector"
-              >
-                <img
-                  src="{{ 'mg-dots.jpg' | asset_url }}"
-                  width="70"
-                  height="40"
-                  alt="Personalization_colour"
-                  loading="lazy"
-                >
-              </span>
-              <span
-                data-value="mg-pair"
-                data-label="Monogram Pair"
-                data-length="2"
-                class="variant-label personalize-font-selector px-4 personalize-style-selector"
-              >
-                <img
-                  src="{{ 'mg-pair.jpg' | asset_url }}"
-                  width="70"
-                  height="40"
-                  alt="Personalization_colour"
-                  loading="lazy"
-                >
-              </span>
-              <span
-                data-value="mg-trio"
-                data-label="Monogram Trio"
-                data-length="3"
-                class="variant-label personalize-font-selector px-4 personalize-style-selector"
-              >
-                <img
-                  src="{{ 'mg-trio.jpg' | asset_url }}"
-                  width="70"
-                  height="40"
-                  alt="Personalization_colour"
-                  loading="lazy"
-                >
-              </span>
-            {% endif %}
+            </span>
           </div>
         </p>
         <p class="select-large">
@@ -312,6 +306,7 @@
               <p class="font-semibold lg:d-h5 hidden sm:max-md:!block self-start max-w-[40%]">{{ product.title }}</p>
               <div class="flex-[2] overflow-hidden">
                 <button
+                  onclick="clearSelection()"
                   id="ProductPersonalizeSubmitButton-{{ section_id }}"
                   type="submit"
                   name="add_personalise"
