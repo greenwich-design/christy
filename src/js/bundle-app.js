@@ -405,6 +405,6 @@ const bundleApp = {
     },
 };
 
-window.addEventListener('load', function () {
+document.addEventListener('DOMContentLoaded', function () {
     bundleApp.init();
 });
