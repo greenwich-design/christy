@@ -182,7 +182,8 @@
 
                     <tbody role="rowgroup">
                       {% assign giftship_subtotal = 0 %}
-
+                      {% assign total_item_price = 0 %}
+                      {% assign total_item_compare_price = 0 %}
                       {%- for item in cart.items -%}
                         {% comment %}
                           GIFTSHIP VARS
@@ -411,7 +412,11 @@
                                 {% endif %}
 
                                 {% assign item_compare_price = item.variant.compare_at_price %}
+                                {% assign item_compare_price_line = item.variant.compare_at_price
+                                  | times: item.quantity
+                                %}
                                 {% assign item_price = item.variant.price %}
+                                {% assign item_price_line = item.variant.price | times: item.quantity %}
 
                                 {% comment %}
                                   Get BundleData
@@ -454,6 +459,9 @@
                                     {% assign diff = item_price | times: bundleData.bundleDiscount | divided_by: 100 %}
                                     {% assign item_price = item_price | minus: diff %}
                                   {% endif %}
+
+                                  {% assign item_price_line = item_price %}
+                                  {% assign item_compare_price_line = item_compare_price %}
                                 {% endif %}
 
                                 {% if item_compare_price > item_price %}
@@ -498,6 +506,11 @@
                                     {{ percentoff }}% Off
                                   </span>
                                 {% endif %}
+
+                                {% assign total_item_price = total_item_price | plus: item_price_line %}
+                                {% assign total_item_compare_price = total_item_compare_price
+                                  | plus: item_compare_price_line
+                                %}
                               </span>
 
                               {%- if item.variant.available and item.unit_price_measurement -%}
@@ -612,32 +625,40 @@
 
           <div class="space-y-2 lg:space-y-3">
             {%- assign cumulative_rrp = 0 -%}
-            {%- for item in cart.items -%}
-              {% assign priceset = false %}
 
-              {% if item.variant.compare_at_price > item.variant.price %}
-                {% assign this_rrp = item.variant.compare_at_price | times: item.quantity %}
-                {%- assign cumulative_rrp = cumulative_rrp | plus: this_rrp -%}
-                {%- assign priceset = true %}
-              {% elsif item.product.compare_at_price > item.product.price %}
-                {% assign this_rrp = item.product.compare_at_price | times: item.quantity %}
-                {%- assign cumulative_rrp = cumulative_rrp | plus: this_rrp -%}
-                {%- assign priceset = true %}
-              {% endif %}
-
-              {% if priceset == false %}
-                {% if item.variant.price %}
-                  {% assign this_rrp = item.variant.price | times: item.quantity %}
+            {% comment %}
+              now use totals set of total_item_price and total_item_compare_price
+            {% endcomment %}
+            {% assign cumulative_rrp = total_item_compare_price %}
+            {% assign cart_price = total_item_price %}
+            {% comment %}
+                {%- for item in cart.items -%}
+                {% assign priceset = false %}
+                  {% assign cart_price = cart.total_price %}
+                {% if item.variant.compare_at_price > item.variant.price %}
+                  {% assign this_rrp = item.variant.compare_at_price | times: item.quantity %}
                   {%- assign cumulative_rrp = cumulative_rrp | plus: this_rrp -%}
-                {% elsif item.product.price %}
-                  {% assign this_rrp = item.product.price | times: item.quantity %}
+                  {%- assign priceset = true %}
+                {% elsif item.product.compare_at_price > item.product.price %}
+                  {% assign this_rrp = item.product.compare_at_price | times: item.quantity %}
                   {%- assign cumulative_rrp = cumulative_rrp | plus: this_rrp -%}
+                  {%- assign priceset = true %}
                 {% endif %}
-              {% endif %}
-            {%- endfor -%}
+
+                {% if priceset == false %}
+                  {% if item.variant.price %}
+                    {% assign this_rrp = item.variant.price | times: item.quantity %}
+                    {%- assign cumulative_rrp = cumulative_rrp | plus: this_rrp -%}
+                  {% elsif item.product.price %}
+                    {% assign this_rrp = item.product.price | times: item.quantity %}
+                    {%- assign cumulative_rrp = cumulative_rrp | plus: this_rrp -%}
+                  {% endif %}
+                {% endif %}
+              {%- endfor -%}
+            {% endcomment %}
 
             {% if cumulative_rrp %}
-              {% assign savings = cumulative_rrp | minus: cart.total_price %}
+              {% assign savings = cumulative_rrp | minus: cart_price %}
 
               {% if savings > 0 %}
                 <div
@@ -655,7 +676,7 @@
                 {% if savings > 0 %}
                   <strong class="line-through">{{ cumulative_rrp | money }}</strong>
                 {% endif %}
-                <strong>{{ giftship_subtotal | money }}</strong>
+                <strong>{{ total_item_price | money }}</strong>
               </p>
             </div>
 
