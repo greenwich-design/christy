@@ -422,13 +422,18 @@
                                   If item has bundledata meta and has item components
                                 {% endcomment %}
                                 {% if bundleData != blank and item.item_components.size > 0 %}
+                                  {% assign is_product_bundle = true %}
                                   {% assign item_compare_price = 0 %}
                                   {% assign item_price = 0 %}
                                   {%- for item_component in item.item_components -%}
-                                    {% assign item_price = item_price | plus: item_component.variant.price %}
-                                    {% assign item_compare_price = item_compare_price
-                                      | plus: item_component.variant.compare_at_price
+                                    {% assign this_price = item_component.variant.price
+                                      | times: item_component.quantity
                                     %}
+                                    {% assign item_price = item_price | plus: this_price %}
+                                    {% assign this_compare = item_component.variant.compare_at_price
+                                      | times: item_component.quantity
+                                    %}
+                                    {% assign item_compare_price = item_compare_price | plus: this_compare %}
                                   {%- endfor -%}
 
                                   {% if item_compare_price > item_price %}

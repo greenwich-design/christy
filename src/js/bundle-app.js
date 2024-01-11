@@ -228,13 +228,17 @@ const bundleApp = {
                 bundleData.steps.forEach(function (step, i) {
                     const varId = step.variantId;
                     const variantData = bundleData.variants.find((variant) => variant.id === varId);
+                    let quantity = 1;
+                    if (step.quantity) {
+                        quantity = step.quantity;
+                    }
 
                     // update price and compare price
                     if (variantData.price) {
-                        totalPrice += variantData.price;
+                        totalPrice += (variantData.price * quantity);
                     }
                     if (variantData.compare_at_price) {
-                        totalCompare += variantData.compare_at_price;
+                        totalCompare += (variantData.compare_at_price * quantity);
                     }
 
                     let optionsHtml = '';
