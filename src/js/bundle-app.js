@@ -262,6 +262,7 @@ const bundleApp = {
 
                 });
 
+
                 updateBundlePrice(totalPrice, totalCompare);
 
                 bundleReviewList.innerHTML = bundleHtml;
@@ -298,8 +299,9 @@ const bundleApp = {
 
             // apply bundle discount
             if (bundleData.bundleData.bundleDiscount > 0) {
-                let diff = (totalPrice * 10) / 100;
+                let diff = (totalPrice * bundleData.bundleData.bundleDiscount) / 100;
                 totalPrice = totalPrice - diff;
+                totalPrice = Math.round(totalPrice);
             }
 
             let totalPriceFormatted = Shopify.formatMoney(totalPrice, window.money_format);
@@ -399,7 +401,7 @@ const bundleApp = {
         });
 
         updateStepsValues();
-        buildBunleReview();
+        //buildBunleReview();
         fadeBlockerOut();
 
     },

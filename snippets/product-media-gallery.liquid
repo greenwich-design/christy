@@ -89,7 +89,7 @@
           {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
 
           {% if alt_array[1] == image_handle and media.media_type == 'image' and product.variants.size > 1 %}
-            {% if has_product_image == false %}
+            {% if has_product_image == false and current_variant.option1 == alt_striped %}
               {% assign has_product_image = true %}
             {% endif %}
 
@@ -238,7 +238,7 @@
           {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
 
           {% if alt_array[1] == image_handle and media.media_type == 'image' and product.variants.size > 1 %}
-            {% if has_product_image == false %}
+            {% if has_product_image == false and current_variant.option1 == alt_striped %}
               {% assign has_product_image = true %}
             {% endif %}
 
@@ -345,7 +345,7 @@
       {% comment %}{%- alt_striped == current_variant.option1 -%}{% endcomment %}
 
       {% if alt_array[1] == image_handle and media.media_type == 'image' and product.variants.size > 1 %}
-        {% if has_product_image == false %}
+        {% if has_product_image == false and current_variant.option1 == alt_striped %}
           {% assign has_product_image = true %}
         {% endif %}
 

@@ -184,22 +184,10 @@
                       {% assign giftship_subtotal = 0 %}
 
                       {%- for item in cart.items -%}
-                        <div class="!hidden">
-                          {%- for item_component in item.item_components -%}
-                            <p>{{ item_component.quantity }}</p>
-                            <p>{{ item_component.variant.price }}</p>
-                          {%- endfor -%}
-                        </div>
-
                         {% comment %}
                           GIFTSHIP VARS
                         {% endcomment %}
                         {% assign item = line_item | default: item %}
-
-                        {% comment %}
-                          Get BundleData
-                        {% endcomment %}
-                        {% assign bundleData = item.product.metafields.christyapp.bundleData.value %}
 
                         {%- assign giftship_price = item.price -%}
 
@@ -415,33 +403,76 @@
                           >
                             <div class="cart-item__price-wrapper">
                               <span class="price price--end">
-                                {% assign percentoff = '' %}
+                                {% assign percentoff = blank %}
                                 {% assign is_product_bundle = false %}
 
                                 {% if item.variant.metafields.christy23.bundled_product_variants != blank %}
                                   {% assign is_product_bundle = true %}
                                 {% endif %}
 
-                                {% if item.variant.compare_at_price > item.variant.price %}
+                                {% assign item_compare_price = item.variant.compare_at_price %}
+                                {% assign item_price = item.variant.price %}
+
+                                {% comment %}
+                                  Get BundleData
+                                {% endcomment %}
+                                {% assign bundleData = item.product.metafields.christyapp.bundleData.value %}
+
+                                {% comment %}
+                                  If item has bundledata meta and has item components
+                                {% endcomment %}
+                                {% if bundleData != blank and item.item_components.size > 0 %}
+                                  {% assign item_compare_price = 0 %}
+                                  {% assign item_price = 0 %}
+                                  {%- for item_component in item.item_components -%}
+                                    {% assign item_price = item_price | plus: item_component.variant.price %}
+                                    {% assign item_compare_price = item_compare_price
+                                      | plus: item_component.variant.compare_at_price
+                                    %}
+                                  {%- endfor -%}
+
+                                  {% if item_compare_price > item_price %}
+                                    {% assign percentoff = item_price
+                                      | times: 100.0
+                                      | divided_by: item_compare_price
+                                      | times: 100.0
+                                      | money_without_currency
+                                    %}
+
+                                    {% assign percentoff = 100 | minus: percentoff %}
+                                  {% endif %}
+
+                                  {% comment %}
+                                    apply bundle discount
+                                  {% endcomment %}
+                                  {% if bundleData.bundleDiscount > 0 %}
+                                    {% assign diff = item_price | times: bundleData.bundleDiscount | divided_by: 100 %}
+                                    {% assign item_price = item_price | minus: diff %}
+                                  {% endif %}
+                                {% endif %}
+
+                                {% if item_compare_price > item_price %}
                                   <span class="flex gap-x-2 text-[12px] lg:text-[20px] font-semibold justify-end max-sm:flex-wrap">
                                     <span class="line-through opacity-60">
-                                      {{- item.variant.compare_at_price | money -}}
+                                      {{- item_compare_price | money -}}
                                     </span>
-                                    <span>{{ item.variant.price | money }}</span>
+                                    <span>{{ item_price | money }}</span>
                                   </span>
 
-                                  {% assign percentoff = item.variant.compare_at_price
-                                    | minus: item.variant.price
-                                    | times: 100.0
-                                    | divided_by: item.variant.compare_at_price
-                                    | money_without_currency
-                                    | times: 100
-                                    | replace: '.0', ''
-                                  %}
+                                  {% if bundleData == blank %}
+                                    {% assign percentoff = item_compare_price
+                                      | minus: item_price
+                                      | times: 100.0
+                                      | divided_by: item_compare_price
+                                      | money_without_currency
+                                      | times: 100
+                                      | replace: '.0', ''
+                                    %}
+                                  {% endif %}
 
                                 {% else %}
                                   <span class="text-[12px] lg:text-[20px] font-semibold">
-                                    {{ giftship_line_price | money }}
+                                    {{ item_price | money }}
                                   </span>
                                 {% endif %}
 
