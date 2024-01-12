@@ -198,7 +198,7 @@
 
 <div
   id="product-bundle"
-  class="product product-bundle relative group/bundle md:flex md:space-x-6 md:justify-between container [&:not([data-step='0'])_.not-step-0]:!hidden [&[data-step='0']_.hide-step-0]:!hidden [&[data-step='0']_#product-actions]:md:my-10 [&[data-step='0']_#product-actions]:lg:my-20"
+  class="product product-bundle relative group/bundle md:flex md:space-x-6 md:justify-between container [&:not([data-step='0'])_.product\_\_info-wrapper]:max-md:border-b  [&:not([data-step='0'])_.not-step-0]:!hidden [&[data-step='0']_.hide-step-0]:!hidden [&[data-step='0']_#product-actions]:md:my-10 [&[data-step='0']_#product-actions]:lg:my-20"
   data-step="0"
 >
   {% if product.media.size > 0 %}
@@ -211,7 +211,7 @@
     </div>
   {% endif %}
 
-  <div class="product__info-wrapper md:w-6/12 lg:w-5/12 self-start md:sticky md:top-[100px] relative max-md:pt-7 z-10">
+  <div class="product__info-wrapper md:w-6/12 lg:w-5/12 self-start md:sticky md:top-[100px] relative max-md:pt-7 z-10 max-md:pb-7 max-md:border-blue-1/10">
     <product-info
       id="ProductInfo-{{ section.id }}"
       data-section="{{ section.id }}"
