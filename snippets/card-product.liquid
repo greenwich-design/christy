@@ -21,6 +21,7 @@
 {% endcomment %}
 
 {%- if card_product and card_product != empty -%}
+  {% assign bundleData = card_product.metafields.christyapp.bundleData %}
   <div class="product-card group/card">
     <div
       class="space-y-4"
@@ -107,6 +108,7 @@
             >
               {{- 'products.product.sold_out' | t -}}
             </span>
+          {%- elsif bundleData != blank %}
           {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
             <span
               id="Badge-{{ section_id }}-{{ card_product.id }}"
@@ -147,19 +149,73 @@
           class="card__information space-y-2"
         >
           <div class="flex justify-between max-md:text-[10px] flex-wrap">
-            <div class="whitespace-nowrap">
-              {% if card_product.price_min != card_product.price_max %}
-                <p>
-                  <strong class="block">
-                    {{- card_product.price_min | money }} - {{ card_product.price_max | money -}}
-                  </strong>
-                </p>
-              {% else %}
-                <p>
-                  <strong class="block">{{ card_product.price | money }}</strong>
-                </p>
+            {% if bundleData != blank %}
+              {% assign bundleDataValue = bundleData.value %}
+              {% assign totalPriceAct = 0 %}
+              {% assign totalCompareAct = 0 %}
+
+              {% liquid
+                assign thisPrice = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.price | times: bundleDataValue.mainStepQuantity
+                assign totalPriceAct = totalPriceAct | plus: thisPrice
+                assign thisPrice = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.compare_at_price | times: bundleDataValue.mainStepQuantity
+                assign totalCompareAct = totalCompareAct | plus: thisPrice
+              %}
+
+              {%- if bundleDataValue.items.size > 0 -%}
+                {%- for item in bundleDataValue.items -%}
+                  {% liquid
+                    assign thisPrice = all_products[item.handle].selected_or_first_available_variant.price | times: item.stepQuantity
+                    assign totalPriceAct = totalPriceAct | plus: thisPrice
+                    assign thisPrice = all_products[item.handle].selected_or_first_available_variant.compare_at_price | times: item.stepQuantity
+                    assign totalCompareAct = totalCompareAct | plus: thisPrice
+                  %}
+                {%- endfor %}
+              {%- endif -%}
+
+              {% assign totalPercentOff = 0 %}
+              {% assign totalCompare = totalCompareAct %}
+              {% assign totalPrice = totalPriceAct %}
+
+              {% if totalCompare > totalPrice %}
+                {% assign totalPercentOff = totalPrice
+                  | times: 100.0
+                  | divided_by: totalCompare
+                  | times: 100.0
+                  | money_without_currency
+                %}
+
+                {% assign totalPercentOff = 100 | minus: totalPercentOff %}
               {% endif %}
-            </div>
+
+              {% comment %}
+                apply bundle discount
+              {% endcomment %}
+              {% if bundleDataValue.bundleDiscount > 0 %}
+                {% assign diff = totalPrice | times: bundleDataValue.bundleDiscount | divided_by: 100 %}
+                {% assign totalPrice = totalPrice | minus: diff %}
+              {% endif %}
+
+              {% render 'bundle-builder-price',
+                totalCompare: totalCompare,
+                totalPrice: totalPrice,
+                totalPercentOff: totalPercentOff,
+                showPerc: false
+              %}
+            {% else %}
+              <div class="whitespace-nowrap">
+                {% if card_product.price_min != card_product.price_max %}
+                  <p>
+                    <strong class="block">
+                      {{- card_product.price_min | money }} - {{ card_product.price_max | money -}}
+                    </strong>
+                  </p>
+                {% else %}
+                  <p>
+                    <strong class="block">{{ card_product.price | money }}</strong>
+                  </p>
+                {% endif %}
+              </div>
+            {% endif %}
           </div>
 
           <h3

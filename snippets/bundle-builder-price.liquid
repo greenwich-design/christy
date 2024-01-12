@@ -15,8 +15,10 @@
 
   <span class="bundlesavings inline-flex flex-row-reverse items-center gap-2 whitespace-nowrap ui-pill ui-pill--bg-blue ui-shimmer before:animate-[shimmer_1s_linear_both]">
     Bundle Savings
-    {% if totalPercentOff > 0 %}
-      + {{ totalPercentOff }}% Off
+    {% if showPerc != false -%}
+      {%- if totalPercentOff > 0 %}
+        + {{ totalPercentOff }}% Off
+      {% endif %}
     {% endif %}
   </span>
 </div>

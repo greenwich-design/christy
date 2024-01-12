@@ -304,6 +304,10 @@
         &--bg-blue {
             @apply bg-blue-1/10;
         }
+
+        &--bg-blue-solid {
+            @apply bg-blue-1 text-white;
+        }
     }
 
     .ui-shimmer {
