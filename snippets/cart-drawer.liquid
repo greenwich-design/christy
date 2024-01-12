@@ -459,8 +459,9 @@
                                     {% assign percentoff = item_price
                                       | times: 100.0
                                       | divided_by: item_compare_price
-                                      | times: 100.0
                                       | money_without_currency
+                                      | times: 100.0
+                                      | replace: '.0', ''
                                     %}
 
                                     {% assign percentoff = 100 | minus: percentoff %}
