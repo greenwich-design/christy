@@ -349,6 +349,9 @@ const bundleApp = {
                     let item = {
                         id: step.variantId,
                         quantity: parseInt(step.quantity),
+                        properties: {
+                            'instance': 'bundle-' + Date.now()
+                        }
                     };
                     formData.items.push(item);
                 });
