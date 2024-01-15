@@ -190,6 +190,11 @@
                         {% endcomment %}
                         {% assign bundleData = item.product.metafields.christyapp.bundleData.value %}
 
+                        {% assign item_url = item.url %}
+                        {% if bundleData != blank %}
+                          {% assign item_url = item.product.url %}
+                        {% endif %}
+
                         {% comment %}
                           GIFTSHIP VARS
                         {% endcomment %}
@@ -238,7 +243,7 @@
                           >
                             {% if item.image %}
                               <a
-                                href="{{ item.url }}"
+                                href="{{ item_url }}"
                                 class="cart-item__link block  relative w-[50px] md:w-[100px] lg:w-[180px] pt-[100%]"
                                 tabindex="-1"
                                 aria-hidden="true"
@@ -265,7 +270,7 @@
                                 <p class="caption-with-letter-spacing light">{{ item.product.vendor }}</p>
                               {%- endif -%}
 
-                              <a href="{{ item.url }}" class="cart-item__name m-h3 lg:d-h3">
+                              <a href="{{ item_url }}" class="cart-item__name m-h3 lg:d-h3">
                                 {% if bundleData and bundleData.bundleTitle %}
                                   {{- bundleData.bundleTitle | escape -}}
                                 {% else %}
