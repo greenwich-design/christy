@@ -19,7 +19,7 @@ const bundleApp = {
 
         // bundle json
         const bundleData = JSON.parse(document.querySelector('#bundleJson').innerHTML);
-        console.log(bundleData);
+
         if (bundleData.steps.length > 0) {
             document.querySelector('[data-totalstep]').innerHTML = bundleData.steps.length;
         }
@@ -367,7 +367,6 @@ const bundleApp = {
                         return response.json();
                     })
                     .catch((error) => {
-                        console.error('Error:', error);
                     });
 
                 // update cart-drawer. fetch, then parse html
