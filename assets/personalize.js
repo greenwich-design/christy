@@ -30,13 +30,6 @@ function updateCanvas() {
     document.querySelector(".personalization_image .personalization_text .mono-text").innerHTML = final_html
 }
 
-function clearSelection(){
-    document.querySelector('#monogram').value = "";
-    document.querySelector("#personalization_text_input").value = "";
-    document.querySelector(".personalization_image .personalization_text .mono-text").innerHTML = "";
-    document.querySelectorAll(".personalize-font-selector")[0].click()
-    document.querySelectorAll(".personalize-color-selector")[0].click()
-}
 
 document.querySelectorAll(".personalize-font-selector").forEach((ele)=>{
     ele.addEventListener('click',(e)=>{

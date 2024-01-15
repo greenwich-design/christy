@@ -66,7 +66,15 @@ if (!customElements.get('product-form')) {
 
         }
 
-        
+        if(this.submitButton.getAttribute('data-personalized') === 'true'){
+          if(document.querySelector("#monogram").value === ""){
+            console.log("iN error");
+            this.hideErrors = false;
+            this.handleErrorMessage("Please Enter Monogram Text");
+            return;
+          }
+         
+        }
 
         if (this.submitButton.getAttribute('aria-disabled') === 'true') return;
 
@@ -159,6 +167,7 @@ if (!customElements.get('product-form')) {
                 } else {
                   this.cart.renderContents(response1);
                 }
+                this.clearSelection();
               })
               .catch((e) => {
                 console.error(e);
@@ -195,6 +204,14 @@ if (!customElements.get('product-form')) {
             this.querySelector('.loading-overlay__spinner').classList.add('hidden');
             App.overflowFloatedStyle();
           });
+      }
+
+      clearSelection(){
+        document.querySelector('#monogram').value = "";
+        document.querySelector("#personalization_text_input").value = "";
+        document.querySelector(".personalization_image .personalization_text .mono-text").innerHTML = "";
+        document.querySelectorAll(".personalize-font-selector")[0].click()
+        document.querySelectorAll(".personalize-color-selector")[0].click()
       }
 
       handleErrorMessage(errorMessage = false) {
