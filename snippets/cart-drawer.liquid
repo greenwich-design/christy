@@ -524,7 +524,11 @@
                                     <span class="rounded-full p-[3px] md:p-1 flex items-center justify-center w-[12px] h-[12px] md:w-[14px] md:h-[14px] bg-blue-1 text-white shrink-0">
                                       {% render 'icon-check' %}
                                     </span>
-                                    Bundle Savings
+                                    {% if bundleData != blank and bundleData.bundleDiscount > 0 -%}
+                                      {{- bundleData.bundleDiscount }}% off bundle
+                                    {%- else %}
+                                      Bundle Savings
+                                    {% endif %}
                                   </span>
                                 {% endif %}
 
@@ -533,7 +537,7 @@
                                     <span class="rounded-full p-[3px] md:p-1 flex items-center justify-center w-[12px] h-[12px] md:w-[14px] md:h-[14px] bg-blue-1 text-white shrink-0">
                                       {% render 'icon-check' %}
                                     </span>
-                                    {{ percentoff }}% Off
+                                    {{ percentoff }}% off
                                   </span>
                                 {% endif %}
 
