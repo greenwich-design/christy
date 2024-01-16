@@ -121,7 +121,7 @@
   </div>
 </div>
 
-<style>
+{% style %}
   {%- if section.settings.title_font_size_mob != blank -%}
   #shopify-section-{{ section.id }} .block-title {
     font-size: {{ section.settings.title_font_size_mob }}px;
@@ -172,7 +172,7 @@
       }
     {%- endif -%}
   }
-</style>
+{% endstyle %}
 
 {% schema %}
 {
