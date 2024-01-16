@@ -1,11 +1,11 @@
 {
   "store": {
-    "plan": "basic",
+    "plan": null,
     "theme": "christy\/master",
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1705331348,
+  "tsPublished": 1705415962,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
