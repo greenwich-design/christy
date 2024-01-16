@@ -22,6 +22,7 @@
 
 {%- if card_product and card_product != empty -%}
   {% assign bundleData = card_product.metafields.christyapp.bundleData %}
+
   <div class="product-card group/card">
     <div
       class="space-y-4"
@@ -222,7 +223,11 @@
             class="font-semibold m-body-copy lg:d-h3"
             id="title-{{ section_id }}-{{ card_product.id }}"
           >
-            {{ card_product.title | escape }}
+            {% if bundleData != blank and bundleData.value.bundleTitle %}
+              {{ bundleData.value.bundleTitle }}
+            {% else %}
+              {{ card_product.title | escape }}
+            {% endif %}
           </h3>
           {% if card_product.metafields.christy23.tagline_pdp %}
             <p>{{ card_product.metafields.christy23.tagline_pdp }}</p>
