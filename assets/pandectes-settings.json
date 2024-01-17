@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": true
   },
-  "tsPublished": 1705491182,
+  "tsPublished": 1705505687,
   "declaration": {
     "showPurpose": true,
     "showProvider": false,
@@ -365,7 +365,7 @@
     "showPoweredBy": false,
     "hybridStrict": false,
     "cookiesBlockedByDefault": "7",
-    "isActive": true,
+    "isActive": false,
     "implicitSavePreferences": true,
     "cookieIcon": false,
     "blockBots": false,
