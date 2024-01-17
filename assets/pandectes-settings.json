@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1705484801,
+  "tsPublished": 1705486459,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -26,13 +26,13 @@
         "en": "We respect your privacy"
       },
       "consentText": {
-        "en": "This website uses cookies to ensure you get the best experience."
+        "en": "By clicking “Accept all”, you agree to the storing of cookies on your device to enhance site navigation, analyse site usage, and assist in our marketing efforts."
       },
       "dismissButtonText": {
         "en": "Ok"
       },
       "linkText": {
-        "en": "Learn more"
+        "en": "View our privacy policy"
       },
       "imprintText": {
         "en": "Imprint"
@@ -41,10 +41,10 @@
         "en": "Preferences"
       },
       "allowButtonText": {
-        "en": "Accept"
+        "en": "Accept All"
       },
       "denyButtonText": {
-        "en": "Decline"
+        "en": "Decline All"
       },
       "leaveSiteButtonText": {
         "en": "Leave this site"
@@ -293,7 +293,7 @@
           "g": 255,
           "r": 255
         },
-        "text": "#000000"
+        "text": "#2C3B96"
       },
       "button": {
         "background": "transparent",
@@ -303,37 +303,37 @@
           "g": 255,
           "r": 255
         },
-        "text": "#000000",
+        "text": "#2C3B96",
         "textForCalculation": {
           "a": 1,
-          "b": 0,
-          "g": 0,
-          "r": 0
+          "b": 150,
+          "g": 59,
+          "r": 44
         },
-        "border": "#000000"
+        "border": "#2C3B96"
       }
     },
     "content": {
-      "href": "https:\/\/christyuk.myshopify.com\/policies\/privacy-policy",
+      "href": "https:\/\/www.christy.co.uk\/pages\/privacy-policy",
       "imprintHref": "\/",
       "close": "&#10005;",
-      "target": "",
+      "target": "_blank",
       "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/6075\/4464\/t\/7\/assets\/pandectes-logo.png?v=1705331346\" alt=\"Christy\" \/>"
     },
-    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-bottom-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
-      "opt-both": "<div class=\"cc-compliance cc-highlight\">{{deny}}{{allow}}<\/div>"
+      "custom": "<div class=\"cc-compliance cc-highlight\">{{preferences}}{{allow}}{{deny}}<\/div>"
     },
-    "type": "opt-both",
+    "type": "custom",
     "layouts": {
-      "basic": "{{logo}}{{messagelink}}{{compliance}}{{close}}"
+      "basic": "{{logo}}{{messagelink}}{{compliance}}"
     },
-    "position": "top",
+    "position": "bottom",
     "theme": "wired",
     "revokable": true,
     "animateRevokable": false,
     "revokableReset": false,
-    "revokableLogoUrl": "https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/6075\/4464\/t\/7\/assets\/pandectes-reopen-logo.png?v=1705331346",
+    "revokableLogoUrl": "",
     "revokablePlacement": "bottom-left",
     "revokableMarginHorizontal": 15,
     "revokableMarginVertical": 15,
@@ -360,16 +360,16 @@
   },
   "banner": {
     "resetTs": 1705331345,
-    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FFFFFF;color:#000000;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 1)}    .pd-cp-ui-close{color:#000000;}    .pd-cp-preferences-slider:before{background-color: #FFFFFF}    .pd-cp-title:before {border-color: #000000!important}    .pd-cp-preferences-slider{background-color:#000000}    .pd-cp-toggle{color:#000000!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #000000}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#000000!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{padding: 28px!important;z-index: 2147483647;font-size: 19px!important;font-family: inherit;}    .cc-header{font-size: 19px!important;font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FFFFFF;color:#2C3B96;}    button.pd-cp-btn, a.pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(44, 59, 150, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(44, 59, 150, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(44, 59, 150, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(44, 59, 150, 1)}    .pd-cp-ui-close{color:#2C3B96;}    .pd-cp-preferences-slider:before{background-color: #FFFFFF}    .pd-cp-title:before {border-color: #2C3B96!important}    .pd-cp-preferences-slider{background-color:#2C3B96}    .pd-cp-toggle{color:#2C3B96!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #2C3B96}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#2C3B96!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
     "customJavascript": null,
     "showPoweredBy": false,
     "hybridStrict": false,
     "cookiesBlockedByDefault": "7",
     "isActive": false,
-    "implicitSavePreferences": false,
+    "implicitSavePreferences": true,
     "cookieIcon": false,
     "blockBots": false,
-    "showCookiesDetails": false,
+    "showCookiesDetails": true,
     "hasTransition": true,
     "blockingPage": false,
     "showOnlyLandingPage": false,
