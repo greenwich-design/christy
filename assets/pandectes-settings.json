@@ -3,9 +3,9 @@
     "plan": "premium",
     "theme": "christy\/master",
     "primaryLocale": "en",
-    "adminMode": false
+    "adminMode": true
   },
-  "tsPublished": 1705487177,
+  "tsPublished": 1705487938,
   "declaration": {
     "showPurpose": true,
     "showProvider": false,
