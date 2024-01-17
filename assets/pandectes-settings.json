@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1705486982,
+  "tsPublished": 1705487000,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -1352,7 +1352,7 @@
         "name": "klaviyoOnsite",
         "domain": "https:\/\/www.christy.co.uk",
         "path": "\/",
-        "provider": "Unknown",
+        "provider": "Klaviyo",
         "firstParty": true,
         "retention": "Persistent",
         "expires": 1,
