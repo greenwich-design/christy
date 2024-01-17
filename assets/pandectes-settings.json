@@ -5,9 +5,9 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1705487000,
+  "tsPublished": 1705487177,
   "declaration": {
-    "showPurpose": false,
+    "showPurpose": true,
     "showProvider": false,
     "declIntroText": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies.",
     "showDateGenerated": true
