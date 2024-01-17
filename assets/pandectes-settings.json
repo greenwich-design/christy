@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1705486868,
+  "tsPublished": 1705486965,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -1495,7 +1495,7 @@
         "name": "_hjSessionStorageTest",
         "domain": "https:\/\/www.christy.co.uk",
         "path": "\/",
-        "provider": "Unknown",
+        "provider": "Hotjar",
         "firstParty": true,
         "retention": "Session",
         "expires": 1,
