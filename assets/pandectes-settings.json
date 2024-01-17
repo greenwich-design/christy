@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": true
   },
-  "tsPublished": 1705491119,
+  "tsPublished": 1705491182,
   "declaration": {
     "showPurpose": true,
     "showProvider": false,
@@ -330,7 +330,7 @@
     },
     "position": "bottom",
     "theme": "block",
-    "revokable": true,
+    "revokable": false,
     "animateRevokable": false,
     "revokableReset": false,
     "revokableLogoUrl": "",
