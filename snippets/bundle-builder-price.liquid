@@ -17,6 +17,7 @@
     Bundle Savings
     {% if showPerc != false -%}
       {%- if totalPercentOff > 0 %}
+        {% assign totalPercentOff = totalPercentOff | replace: '.0', '' %}
         + {{ totalPercentOff }}% Off
       {% endif %}
     {% endif %}
