@@ -86,6 +86,20 @@ const bundleApp = {
             }
         }
 
+        function makeVisible() {
+            let prodWrapTop = document.querySelector('.product__info-wrapper').getBoundingClientRect().top + window.scrollY;
+            let headerHeight = document.querySelector('.header-bar').offsetHeight;
+            let headerBar = headerHeight + window.scrollY;
+
+            if (headerBar > prodWrapTop) {
+                window.scrollTo({
+                    top: (prodWrapTop - headerHeight) - 50,
+                    behavior: "smooth",
+                });
+            }
+
+        }
+
         function prevStep() {
             currentStep--;
         }
@@ -107,6 +121,7 @@ const bundleApp = {
 
             document.querySelector('#product-bundle').dataset.step = currentStep;
 
+            makeVisible();
             updateStepsValues();
             buildBunleReview();
         }
@@ -146,6 +161,7 @@ const bundleApp = {
                     updateGaleries();
                 }
 
+                makeVisible();
                 fadeBlockerOut();
             }, 500);
         }
