@@ -532,7 +532,7 @@
                                   </span>
                                 {% endif %}
 
-                                {% if percentoff != blank %}
+                                {% if percentoff != blank and bundleData == blank %}
                                   <span class="flex flex-row-reverse items-center gap-2 whitespace-nowrap">
                                     <span class="rounded-full p-[3px] md:p-1 flex items-center justify-center w-[12px] h-[12px] md:w-[14px] md:h-[14px] bg-blue-1 text-white shrink-0">
                                       {% render 'icon-check' %}
