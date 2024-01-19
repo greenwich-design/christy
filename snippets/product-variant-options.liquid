@@ -81,118 +81,138 @@
     {% endfor %}
   {% endif %}
 
-  <div class="block {% if is_colour and option_swatch_image == blank %}hidden{% endif %}{% if name_custom == 'mob' %} relative{% endif %}">
-    {%- if button_type == true -%}
-      <input
-        type="radio"
-        name="{{ option.name }}-{{name_custom}}"
-        data-clone="{{ option.name }}"
-        data-clonename="{{name_custom}}"
-        value="{{ value | escape }}"
-        {% if selectedValue == valueHandle %}
-          checked
-        {% endif %}
-        class="{% if option_disabled %}disabled{% endif %} absolute invisible peer variant-option"
-      >
-    {%- else -%}
-      <input
-        type="radio"
-        id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-        name="{{ option.name }}"
-        value="{{ value | escape }}"
-        form="{{ product_form_id }}"
-        {% if selectedValue == valueHandle %}
-          checked
-        {% endif %}
-        class="{% if option_disabled %}disabled{% endif %} absolute invisible peer variant-option"
-      >
-    {%- endif -%}
+  {% assign option_included = true %}
 
-    {% if option_swatch_image != blank %}
+  {% unless specific_variants == blank %}
+    {% assign option_included = false %}
+    {% for variant in product.variants %}
+      {% for specific_variant in specific_variants %}
+        {% assign spec = specific_variant | plus: 0 %}
+        {% if spec == variant.id %}
+          {% if variant.options contains value %}
+            {% assign option_included = true %}
+          {% endif %}
+          {% if option_included %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endunless %}
+
+  {% if option_included == true %}
+    <div class="block {% if is_colour and option_swatch_image == blank %}hidden{% endif %}{% if name_custom == 'mob' %} relative{% endif %}">
       {%- if button_type == true -%}
-        <button
-          class="
-            variant-button
-            variant-label-colour
-            {% if name_custom == 'mob'%}!w-[20px] !h-[20px]{% endif%}
-            {% if name_custom == 'mob2'%}!absolute{% endif%}
-          "
-          style=""
-          data-for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+        <input
+          type="radio"
+          name="{{ option.name }}-{{name_custom}}"
+          data-clone="{{ option.name }}"
+          data-clonename="{{name_custom}}"
+          value="{{ value | escape }}"
+          {% if selectedValue == valueHandle %}
+            checked
+          {% endif %}
+          class="{% if option_disabled %}disabled{% endif %} absolute invisible peer variant-option"
         >
-
       {%- else -%}
-        <label
-          class="variant-label-colour"
-          style=""
-          for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+        <input
+          type="radio"
+          id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+          name="{{ option.name }}"
+          value="{{ value | escape }}"
+          form="{{ product_form_id }}"
+          {% if selectedValue == valueHandle %}
+            checked
+          {% endif %}
+          class="{% if option_disabled %}disabled{% endif %} absolute invisible peer variant-option"
         >
       {%- endif -%}
 
-      {% if optionName == 'Colour' or optionName == 'Color' %}
-        <a class="pointer-events-none" href="{{ product.url }}/c:{{ value | handleize }},s:{{ selected_size }}">
-      {% endif %}
+      {% if option_swatch_image != blank %}
+        {%- if button_type == true -%}
+          <button
+            class="
+              variant-button
+              variant-label-colour
+              {% if name_custom == 'mob'%}!w-[20px] !h-[20px]{% endif%}
+              {% if name_custom == 'mob2'%}!absolute{% endif%}
+            "
+            style=""
+            data-for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+          >
+        {%- else -%}
+          <label
+            class="variant-label-colour"
+            style=""
+            for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+          >
+        {%- endif -%}
 
-      {% if optionName == 'Size' %}
-        <a class="pointer-events-none" href="{{ product.url }}/c:{{ selected_colour }},s:{{ value | handleize }}">
-      {% endif %}
+        {% if optionName == 'Colour' or optionName == 'Color' %}
+          <a class="pointer-events-none" href="{{ product.url }}/c:{{ value | handleize }},s:{{ selected_size }}">
+        {% endif %}
 
-      {%- if button_type == true %}
-        <span class="-inset-2 absolute"></span>
-      {%- endif -%}
+        {% if optionName == 'Size' %}
+          <a class="pointer-events-none" href="{{ product.url }}/c:{{ selected_colour }},s:{{ value | handleize }}">
+        {% endif %}
 
-      <div
-        class="w-full h-full transition-[width,height] rounded-full"
-      ></div>
+        {%- if button_type == true %}
+          <span class="-inset-2 absolute"></span>
+        {%- endif -%}
 
-      {%- if option_swatch_image != blank %}
         <div
           class="w-full h-full transition-[width,height] rounded-full"
-          style="background-image: url({{ option_swatch_image | img_url: '24x24' }});"
         ></div>
-      {%- endif %}
 
-      <span class="visually-hidden">{{ value -}}</span>
-      <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
-      {% if optionName == 'Colour' or optionName == 'Color' or optionName == 'Size' %}
-        </a>
+        {%- if option_swatch_image != blank %}
+          <div
+            class="w-full h-full transition-[width,height] rounded-full"
+            style="background-image: url({{ option_swatch_image | img_url: '24x24' }});"
+          ></div>
+        {%- endif %}
+
+        <span class="visually-hidden">{{ value -}}</span>
+        <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+        {% if optionName == 'Colour' or optionName == 'Color' or optionName == 'Size' %}
+          </a>
+        {% endif %}
+        {%- if button_type == true -%}
+          </button>
+        {%- else -%}
+          </label>
+        {%- endif -%}
+      {% else %}
+        {%- if button_type == true -%}
+          <button
+            class="variant-button variant-label"
+            data-for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+          >
+        {%- else %}
+          <label
+            class="variant-label"
+            for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+          >
+        {%- endif -%}
+
+        {% if optionName == 'Colour' or optionName == 'Color' %}
+          <a class="pointer-events-none" href="{{ product.url }}/c:{{ value | handleize }},s:{{ selected_size }}">
+        {% endif %}
+
+        {% if optionName == 'Size' %}
+          <a class="pointer-events-none" href="{{ product.url }}/c:{{ selected_colour }},s:{{ value | handleize }}">
+        {% endif %}
+
+        <span class="w-[12px] h-[12px] bg-[#CCD0DE] md:hidden mr-3 mt-1 shrink-0"></span>
+
+        {{- value -}}
+        <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+        {% if optionName == 'Colour' or optionName == 'Color' or optionName == 'Size' %}
+          </a>
+        {% endif %}
+        {%- if button_type == true -%}
+          </label>
+        {%- endif -%}
       {% endif %}
-      {%- if button_type == true -%}
-        </button>
-      {%- else -%}
-        </label>
-      {%- endif -%}
-    {% else %}
-      {%- if button_type == true -%}
-        <button
-          class="variant-button variant-label"
-          data-for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-        >
-      {%- else %}
-        <label
-          class="variant-label"
-          for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-        >
-      {%- endif -%}
-
-      {% if optionName == 'Colour' or optionName == 'Color' %}
-        <a class="pointer-events-none" href="{{ product.url }}/c:{{ value | handleize }},s:{{ selected_size }}">
-      {% endif %}
-
-      {% if optionName == 'Size' %}
-        <a class="pointer-events-none" href="{{ product.url }}/c:{{ selected_colour }},s:{{ value | handleize }}">
-      {% endif %}
-
-      <span class="w-[12px] h-[12px] bg-[#CCD0DE] md:hidden mr-3 mt-1 shrink-0"></span>
-
-      {{- value -}}
-      <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
-      {% if optionName == 'Colour' or optionName == 'Color' or optionName == 'Size' %}
-        </a>
-      {% endif %}
-      {%- if button_type == true -%}
-        </label>
-      {%- endif -%}
-    {% endif %}
-  </div>
+    </div>
+  {% endif %}
 {%- endfor -%}

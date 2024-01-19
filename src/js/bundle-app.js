@@ -20,6 +20,7 @@ const bundleApp = {
         // bundle json
         const bundleData = JSON.parse(document.querySelector('#bundleJson').innerHTML);
 
+        console.log(bundleData);
         if (bundleData.steps.length > 0) {
             document.querySelector('[data-totalstep]').innerHTML = bundleData.steps.length;
         }
@@ -170,8 +171,18 @@ const bundleApp = {
             if (currentStep == 0) {
                 return `/products/${bundleData.bundleData.mainHandle}?section_id=${sectionId}`;
             }
-            const { handle, variantId } = bundleData.steps[currentStep - 1];
-            return `/products/${handle}?variant=${variantId}&section_id=${sectionId}`;
+            const { handle, variantId, variants } = bundleData.steps[currentStep - 1];
+            if (variants && variants.length > 0) {
+                let varIds = variants.map(variant => {
+                    return variant.id.replace('gid://shopify/ProductVariant/', '');
+                });
+
+                let varIdsString = varIds.join(':');
+
+                return `/products/${handle}/v:${varIdsString}&section_id=${sectionId}`;
+            } else {
+                return `/products/${handle}?variant=${variantId}&section_id=${sectionId}`;
+            }
         }
 
         if (btnPrev.length) {
