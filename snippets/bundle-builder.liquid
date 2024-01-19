@@ -1,6 +1,7 @@
 {% assign bundleDataValue = bundleData.value %}
 {% assign totalPriceAct = 0 %}
 {% assign totalCompareAct = 0 %}
+
 <script type="application/json" id="bundleJson">
   {
     "bundleData": {{ bundleDataValue | json }},
@@ -18,6 +19,7 @@
                     {%- for variant in all_products[bundleDataValue.mainHandle].variants -%}
                         {%- assign colour_slug = variant.option1 | handleize -%}
                         {%- if colour_slug == selected_colour -%}
+
                             {%- assign hasMainVariantId = true -%}
                 "variantId": {{ variant.id | json -}},
                 "image": "{% if variant.featured_image.src != blank %}{{ variant.featured_image.src | image_url: width: 200, height: 200 }}{% endif %}",
@@ -59,7 +61,7 @@
                 {%- assign hasItemVariantId = false -%}
                 {%- if all_products[item.handle].variants -%}
                     {%- for variant in all_products[item.handle].variants -%}
-                        {%- if selected_variants contains variant.id -%}
+                        {%- if selected_variants contains variant.id and variant.available -%}
                         {%- assign colour_slug = variant.option1 | handleize -%}
                         {%- if colour_slug == selected_colour -%}
                             {%- assign hasItemVariantId = true -%}
@@ -72,7 +74,7 @@
                       assign totalPriceAct = totalPriceAct | plus: thisPrice %},
                     "compare_at_price": {{ variant.compare_at_price | json -}}{% liquid
                       assign thisPrice = variant.compare_at_price | times: item.stepQuantity
-                      assign totalCompareAct = totalCompareAct | plus: thisPrice %}
+                      assign totalCompareAct = totalCompareAct | plus: thisPrice %},
                             {%- break -%}
                         {%- endif -%}
                         {% endif %}

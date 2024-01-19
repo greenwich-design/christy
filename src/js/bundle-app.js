@@ -179,7 +179,7 @@ const bundleApp = {
 
                 let varIdsString = varIds.join(':');
 
-                return `/products/${handle}/v:${varIdsString}&section_id=${sectionId}`;
+                return `/products/${handle}/v:${varIdsString},sv:${variantId}&section_id=${sectionId}`;
             } else {
                 return `/products/${handle}?variant=${variantId}&section_id=${sectionId}`;
             }

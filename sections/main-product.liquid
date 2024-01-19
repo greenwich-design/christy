@@ -75,10 +75,27 @@
 
   {% assign specific_variants = blank %}
   {% if variant_option_array_length > 0 %}
+    {% comment %}
+      if the first variant option is 'v:' then we need to get the specific variants seperated by ':'
+    {% endcomment %}
     {%- if variant_option_array[0] contains 'v:' %}
       {% assign specific_variants = variant_option_array[0] | replace: 'v:', '' | split: ':' %}
       {% assign specific_variants_id = specific_variants[0] | plus: 0 %}
       {% assign current_variant = product.variants | where: 'id', specific_variants_id | first %}
+
+      {%- if variant_option_array[1] contains 'sv:' %}
+        {% assign selected_specific_variant_id = variant_option_array[1] | replace: 'sv:', '' | plus: 0 %}
+        {% if selected_specific_variant_id != blank %}
+          {% assign current_variant = product.variants | where: 'id', selected_specific_variant_id | first %}
+
+          {% liquid
+            assign selected_colour = current_variant.option1 | handleize
+            assign colour_slug = current_variant.option1 | handleize
+            assign size_slug = current_variant.option2 | handleize
+            assign option3_slug = current_variant.option2 | handleize
+          %}
+        {% endif %}
+      {%- endif -%}
     {% endif %}
   {% endif %}
 
