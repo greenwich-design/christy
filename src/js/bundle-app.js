@@ -406,6 +406,11 @@ const bundleApp = {
                         document.querySelector('cart-drawer').open();
                         App.overflowFloatedStyle();
 
+                        if (document.querySelector('.cart__contents .splide:not(.splide-custom):not(.is-initialized)')) {
+                            SplideConfig.initSplides('.cart__contents .splide:not(.splide-custom):not(.is-initialized)');
+                        }
+
+
                         resetBundle();
                     });
             }

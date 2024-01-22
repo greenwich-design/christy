@@ -1211,6 +1211,7 @@ class VariantSelects extends HTMLElement {
 
           checkBundleItems();
 
+
         }
 
         // dynamic price change

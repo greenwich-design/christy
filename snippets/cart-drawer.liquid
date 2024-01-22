@@ -241,22 +241,58 @@
                             role="cell"
                             headers="CartDrawer-ColumnProductImage"
                           >
-                            {% if item.image %}
-                              <a
-                                href="{{ item_url }}"
-                                class="cart-item__link block  relative w-[50px] md:w-[100px] lg:w-[180px] pt-[100%]"
-                                tabindex="-1"
-                                aria-hidden="true"
+                            {% if bundleData != blank and item.item_components.size > 0 %}
+                              <div
+                                class="splide group/splide -mb-5 lg:-mb-7 w-[50px] md:w-[100px] lg:w-[180px] splide--dotted-pag space-y-5"
+                                data-splide='
+                                  {"arrows": false, "pagination": true, "type": "slide", "gap": "0px", "autoWidth": false, "focus": 0, "omitEnd": true, "breakpoints": {
+                                    "768": {
+                                      "gap": "0px"
+                                    }
+                                  }}
+                                '
                               >
-                                <img
-                                  class="cart-item__image absolute w-full h-full object-cover inset-0"
-                                  src="{{ item.image | image_url: width: 360 }}"
-                                  alt="{{ item.image.alt | escape }}"
-                                  loading="lazy"
-                                  width="180"
-                                  height="180"
+                                <div class="splide__track">
+                                  <div class="splide__list text-blue-1 flex">
+                                    {% for component in item.item_components %}
+                                      <div class="splide__slide">
+                                        <div class=" pt-[100%] relative">
+                                          <img
+                                            class="cart-item__image absolute w-full h-full object-cover inset-0"
+                                            src="{{ component.image | image_url: width: 360 }}"
+                                            alt="{{ component.image.alt | escape }}"
+                                            loading="lazy"
+                                            width="180"
+                                            height="180"
+                                          >
+                                        </div>
+                                      </div>
+                                    {% endfor %}
+                                  </div>
+                                </div>
+
+                                <ul
+                                  class="splide__pagination !static [&_.splide__pagination__page]:!w-[8px] {% if item.item_components.size > 1 %} !flex {% else %} !hidden {% endif %}"
+                                ></ul>
+                              </div>
+                            {% else %}
+                              {% if item.image %}
+                                <a
+                                  href="{{ item_url }}"
+                                  class="cart-item__link block  relative w-[50px] md:w-[100px] lg:w-[180px] pt-[100%]"
+                                  tabindex="-1"
+                                  aria-hidden="true"
                                 >
-                              </a>
+                                  <img
+                                    class="cart-item__image absolute w-full h-full object-cover inset-0"
+                                    src="{{ item.image | image_url: width: 360 }}"
+                                    alt="{{ item.image.alt | escape }}"
+                                    loading="lazy"
+                                    width="180"
+                                    height="180"
+                                  >
+                                </a>
+                              {% endif %}
                             {% endif %}
                           </td>
 

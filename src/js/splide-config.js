@@ -1,17 +1,25 @@
 
 SplideConfig = {
-    initSplides: function () {
-        const splides = document.querySelectorAll('.splide:not(.splide-custom)');
+    initSplides: function (selector = '.splide:not(.splide-custom)') {
+        const splides = document.querySelectorAll(selector);
 
         if (splides.length) {
 
             splides.forEach(function (splide) {
 
+                let splidePageClass = 'splide__pagination__page !bg-transparent !h-auto !w-auto !py-2 after:!h-[2px] after:!w-[40px] !m-0 !mx-[6px] !rounded-none after:!bg-blue-1 after:block !opacity-50 [&.is-active]:!opacity-100';
+
+                if (splide.classList.contains('splide--dotted-pag')) {
+
+                    splidePageClass = 'splide__pagination__page [&.is-active]:!scale-110 [&.is-active]:!bg-blue-1';
+                }
+
                 var splideItem = new Splide(splide, {
+
                     classes: {
                         // Add classes for pagination.
                         pagination: 'splide__pagination text-[0px] !static !mt-10 flex-wrap gap-y-2', // container
-                        page: 'splide__pagination__page !bg-transparent !h-auto !w-auto !py-2 after:!h-[2px] after:!w-[40px] !m-0 !mx-[6px] !rounded-none after:!bg-blue-1 after:block !opacity-50 [&.is-active]:!opacity-100', // each button
+                        page: splidePageClass, // each button
                         arrow: 'splide__arrow',
                     }
                 });

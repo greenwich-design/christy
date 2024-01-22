@@ -49,6 +49,7 @@ class CartItems extends HTMLElement {
 
   onChange(event) {
     this.updateQuantity(event.target.dataset.index, event.target.value, document.activeElement.getAttribute('name'));
+
   }
 
   onCartUpdate() {
@@ -62,6 +63,7 @@ class CartItems extends HTMLElement {
 
         const updateWishBtns = new Event('shopify-wishlist:setup-buttons');
         document.dispatchEvent(updateWishBtns);
+
 
       })
       .catch((e) => {
@@ -110,7 +112,6 @@ class CartItems extends HTMLElement {
         return response.text();
       })
       .then((state) => {
-
 
         const parsedState = JSON.parse(state);
         const quantityElement =
@@ -162,7 +163,10 @@ class CartItems extends HTMLElement {
         }
         publish(PUB_SUB_EVENTS.cartUpdate, { source: 'cart-items' });
 
-
+        // re-init splides on update
+        if (document.querySelector('.cart__contents .splide:not(.splide-custom):not(.is-initialized)')) {
+          SplideConfig.initSplides('.cart__contents .splide:not(.splide-custom):not(.is-initialized)');
+        }
 
       })
       .catch(() => {
@@ -190,6 +194,7 @@ class CartItems extends HTMLElement {
       cartStatus.setAttribute('aria-hidden', true);
     }, 1000);
     App.overflowFloatedStyle();
+
   }
 
   getSectionInnerHTML(html, selector) {
