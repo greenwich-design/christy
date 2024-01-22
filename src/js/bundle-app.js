@@ -361,8 +361,8 @@ const bundleApp = {
                 bundlePriceHtml = `<span class="font-semibold">${totalPriceFormatted}</span>`;
             }
 
-            if (totalPercentOff > 0) {
-                bundleSavingsHtml = `Bundle Savings + ${totalPercentOff}% Off`;
+            if (bundleData.bundleData.bundleDiscount > 0) {
+                bundleSavingsHtml = `Bundle Savings ${totalPercentOff}% Off`;
             } else {
                 bundleSavingsHtml = `Bundle Savings`;
             }
