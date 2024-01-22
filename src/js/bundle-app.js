@@ -362,7 +362,7 @@ const bundleApp = {
             }
 
             if (bundleData.bundleData.bundleDiscount > 0) {
-                bundleSavingsHtml = `Bundle Savings ${totalPercentOff}% Off`;
+                bundleSavingsHtml = `Bundle Savings ${bundleData.bundleData.bundleDiscount}% Off`;
             } else {
                 bundleSavingsHtml = `Bundle Savings`;
             }
