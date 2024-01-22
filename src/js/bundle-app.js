@@ -39,11 +39,18 @@ const bundleApp = {
                 .then((responseText) => {
                     const html = new DOMParser().parseFromString(responseText, 'text/html');
 
-                    const mobOptions = html.querySelector('[data-moboptions]').innerHTML;
-                    const productGallery = html.querySelector('#media-gallery').innerHTML;
+                    document.querySelector('[data-moboptions]').innerHTML = '';
+                    if (html.querySelector('[data-moboptions]')) {
+                        const mobOptions = html.querySelector('[data-moboptions]').innerHTML;
+                        document.querySelector('[data-moboptions]').innerHTML = mobOptions;
+                    }
 
-                    document.querySelector('[data-moboptions]').innerHTML = mobOptions;
-                    document.querySelector('#media-gallery').innerHTML = productGallery;
+                    document.querySelector('#media-gallery').innerHTML = '';
+                    if (html.querySelector('#media-gallery')) {
+                        const productGallery = html.querySelector('#media-gallery').innerHTML;
+                        document.querySelector('#media-gallery').innerHTML = productGallery;
+                    }
+
 
                     if (
                         document.querySelector('product-info[data-variantid]') &&
