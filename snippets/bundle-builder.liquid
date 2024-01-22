@@ -135,7 +135,7 @@
             "id": {{ item.id }},
             "product_title": "{{ item.product.title }}",
             "price": {{ item.price }},
-            "compare_at_price": {{ item.compare_at_price }},
+            "compare_at_price": {% if item.compare_at_price %}{{ item.compare_at_price }}{% else %}{{ item.price }}{% endif %},
             "featured_image": "{% if item.featured_image.src %}{{ item.featured_image.src | image_url }}{% endif %}",
             "options": [{% for var in item.product.options_with_values -%}
               "{{ var.name }}: {% for varval in var.values -%}
