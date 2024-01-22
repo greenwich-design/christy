@@ -165,10 +165,18 @@
               {%- if bundleDataValue.items.size > 0 -%}
                 {%- for item in bundleDataValue.items -%}
                   {% liquid
-                    assign thisPrice = all_products[item.handle].selected_or_first_available_variant.price | times: item.stepQuantity
-                    assign totalPriceAct = totalPriceAct | plus: thisPrice
-                    assign thisPrice = all_products[item.handle].selected_or_first_available_variant.compare_at_price | times: item.stepQuantity
-                    assign totalCompareAct = totalCompareAct | plus: thisPrice
+                    assign selected_variants = item.variants | map: 'id' | replace: 'gid://shopify/ProductVariant/', ''
+                    if all_products[item.handle].variants
+                      for var in all_products[item.handle].variants
+                        if selected_variants contains var.id
+                          assign thisPrice = var.price | times: item.stepQuantity
+                          assign totalPriceAct = totalPriceAct | plus: thisPrice
+                          assign thisPrice = var.compare_at_price | times: item.stepQuantity
+                          assign totalCompareAct = totalCompareAct | plus: thisPrice
+                          break
+                        endif
+                      endfor
+                    endif
                   %}
                 {%- endfor %}
               {%- endif -%}

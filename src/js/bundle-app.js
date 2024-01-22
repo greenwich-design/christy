@@ -53,6 +53,18 @@ const bundleApp = {
                             html.querySelector('product-info[data-variantid]').dataset.variantid;
                     }
 
+                    // check if in stock
+                    const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
+                    if (addButtonUpdated) {
+                        if (addButtonUpdated.hasAttribute('disabled')) {
+                            document.querySelector('#product-bundle [data-bundlebtn="next"]').disabled = true;
+                            document.querySelector('#product-bundle [data-bundlebtn="next"]').textContent = window.variantStrings.soldOut;
+                        } else {
+                            document.querySelector('#product-bundle [data-bundlebtn="next"]').disabled = false;
+                            document.querySelector('#product-bundle [data-bundlebtn="next"]').textContent = 'Next';
+                        }
+                    }
+
                     updateGaleries();
 
                 });

@@ -61,7 +61,7 @@
                 {%- assign hasItemVariantId = false -%}
                 {%- if all_products[item.handle].variants -%}
                     {%- for variant in all_products[item.handle].variants -%}
-                        {%- if selected_variants contains variant.id and variant.available -%}
+                        {%- if selected_variants contains variant.id  -%}
                         {%- assign colour_slug = variant.option1 | handleize -%}
                         {%- if colour_slug == selected_colour -%}
                             {%- assign hasItemVariantId = true -%}
@@ -83,7 +83,7 @@
                 {% if hasItemVariantId == false -%}
                     {%- if all_products[item.handle].variants -%}
                       {%- for variant in all_products[item.handle].variants -%}
-                        {%- if selected_variants contains variant.id and variant.available -%}
+                        {%- if selected_variants contains variant.id  -%}
 
                     "variantId": {{ variant.id | json -}},
                     "image": "{%- if variant.featured_image.src != blank -%}
