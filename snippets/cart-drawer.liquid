@@ -486,13 +486,18 @@
                                   {% assign item_compare_price = 0 %}
                                   {% assign item_price = 0 %}
                                   {%- for item_component in item.item_components -%}
+                                    {% assign this_compare = 0 %}
+                                    {% if item_component.variant.compare_at_price > item_component.variant.price %}
+                                      {% assign this_compare = item_component.variant.compare_at_price %}
+                                    {% else %}
+                                      {% assign this_compare = item_component.variant.price %}
+                                    {% endif %}
+
                                     {% assign this_price = item_component.variant.price
                                       | times: item_component.quantity
                                     %}
                                     {% assign item_price = item_price | plus: this_price %}
-                                    {% assign this_compare = item_component.variant.compare_at_price
-                                      | times: item_component.quantity
-                                    %}
+                                    {% assign this_compare = this_compare | times: item_component.quantity %}
                                     {% assign item_compare_price = item_compare_price | plus: this_compare %}
                                   {%- endfor -%}
 
@@ -511,6 +516,7 @@
                                   {% comment %}
                                     apply bundle discount
                                   {% endcomment %}
+
                                   {% if bundleData.bundleDiscount > 0 %}
                                     {% assign diff = item_price | times: bundleData.bundleDiscount | divided_by: 100 %}
                                     {% assign item_price = item_price | minus: diff %}
