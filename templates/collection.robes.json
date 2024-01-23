@@ -4,7 +4,16 @@
       "type": "hero-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Collection_Banner.jpg",
+        "image": "shopify:\/\/shop_images\/PPC_1200X628_1_f2733dd3-a30e-4272-b621-1dcc5b372ade.jpg",
+        "link": "",
+        "full_width": true
+      }
+    },
+    "50d7a216-1c28-420d-beca-49af2468eec4": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Up_to_50_Off_Extra_20_off_orders_100_1.jpg",
         "link": "",
         "full_width": true
       }
@@ -105,6 +114,7 @@
   },
   "order": [
     "e39cdf2b-1074-4715-82da-99ebc894e2c5",
+    "50d7a216-1c28-420d-beca-49af2468eec4",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426"

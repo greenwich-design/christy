@@ -24,6 +24,39 @@ document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.parentElement.addEventListener('keyup', onKeyUpEscape);
 });
 
+document.querySelectorAll('img[data-hover]').forEach((im) => {
+  im.addEventListener('mouseenter', (e) => {
+    let hover_image = im.getAttribute('data-hover')
+    let original_image = im.getAttribute('src')
+    let hover_srcset = im.getAttribute('srcset-hover')
+    let original_srcset = im.getAttribute('srcset')
+    let hover_datasrcset = im.getAttribute('data-srcset-hover')
+    let original_datasrcset = im.getAttribute('data-srcset')
+    im.setAttribute('src', hover_image)
+    im.setAttribute('data-hover', original_image)
+    im.setAttribute('srcset-hover', original_srcset)
+    im.setAttribute('srcset', hover_srcset)
+    im.setAttribute('data-srcset-hover', original_datasrcset)
+    im.setAttribute('data-srcset', original_datasrcset)
+  })
+  im.addEventListener('mouseleave', (e) => {
+    let hover_image = im.getAttribute('data-hover')
+    let original_image = im.getAttribute('src')
+    let hover_srcset = im.getAttribute('srcset-hover')
+    let original_srcset = im.getAttribute('srcset')
+    let hover_datasrcset = im.getAttribute('data-srcset-hover')
+    let original_datasrcset = im.getAttribute('data-srcset')
+    im.setAttribute('src', hover_image)
+    im.setAttribute('data-hover', original_image)
+    im.setAttribute('srcset-hover', original_srcset)
+    im.setAttribute('srcset', hover_srcset)
+    im.setAttribute('data-srcset-hover', original_datasrcset)
+    im.setAttribute('data-srcset', original_datasrcset)
+  })
+})
+
+
+
 const trapFocusHandlers = {};
 
 function trapFocus(container, elementToFocus = container) {
@@ -188,6 +221,8 @@ class QuantityInput extends HTMLElement {
     const previousValue = this.input.value;
     event.target.name === 'plus' ? this.input.stepUp() : this.input.stepDown();
     if (previousValue !== this.input.value) this.input.dispatchEvent(this.changeEvent);
+
+
   }
 
   validateQtyRules() {
@@ -195,7 +230,7 @@ class QuantityInput extends HTMLElement {
     if (this.input.min) {
       const min = parseInt(this.input.min);
       const buttonMinus = this.querySelector(".quantity__button[name='minus']");
-      buttonMinus.classList.toggle('disabled', value <= min);
+      //buttonMinus.classList.toggle('disabled', value <= min);
     }
     if (this.input.max) {
       const max = parseInt(this.input.max);
@@ -1108,6 +1143,10 @@ class VariantSelects extends HTMLElement {
     });
   }
 
+
+
+
+
   setInputAvailability(listOfOptions, listOfAvailableOptions) {
     listOfOptions.forEach((input) => {
       if (listOfAvailableOptions.includes(input.getAttribute('value'))) {
@@ -1154,9 +1193,28 @@ class VariantSelects extends HTMLElement {
         const html = new DOMParser().parseFromString(responseText, 'text/html');
         const destination = document.querySelectorAll(`[data-price="price-${this.dataset.section}"]`);
 
+
+        if (html.getElementById("personalization_init_button")) {
+          document.querySelector(".personalization_init_button").innerHTML = html.getElementById("personalization_init_button").innerHTML
+          document.getElementById(`personal_image`).setAttribute('src', html.getElementById(`personal_image`).getAttribute('src'))
+          document.querySelector(`#personal_canvas .personalization_text`).setAttribute('style', html.querySelector(`#personal_canvas .personalization_text`).getAttribute('style'))
+          const personalizeDestination = document.querySelectorAll(`[data-personalize-price="price-${this.dataset.section}"]`);
+          const personalizeSource = html.getElementById(
+            `personalize-price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`
+          );
+          if (personalizeSource && personalizeDestination.length) {
+            personalizeDestination.forEach((element) => {
+              element.innerHTML = personalizeSource.innerHTML;
+            });
+          }
+        } else if (document.querySelector(".personalization_init_button")) {
+          document.querySelector(".personalization_init_button").innerHTML = "Personalization Not Allowed for this Variant"
+        }
+
         const source = html.getElementById(
           `price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`
         );
+
         const skuSource = html.getElementById(
           `Sku-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`
         );
@@ -1171,6 +1229,8 @@ class VariantSelects extends HTMLElement {
             element.innerHTML = source.innerHTML;
           });
         }
+
+
 
 
         if (inventorySource && inventoryDestination) inventoryDestination.innerHTML = inventorySource.innerHTML;

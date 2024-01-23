@@ -4,6 +4,7 @@
   lang="{{ request.locale.iso_code }}"
 >
   <head>
+	{% render 'pandectes-rules' %}
     {%- render 'ecom_header' -%}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -37,6 +38,67 @@
         display: none;
       }
     </style>
+    <!-- <style>
+      .bf-logo{display:none;}
+      #black-friday-sale .bg-blue-1, #black-friday-sale .bg-blue-1\/10{
+        background:#000 !important;
+        
+      }
+      #black-friday-sale .border-blue-1\/10, #black-friday-sale .border-blue-1{
+        border-color:#000;
+      }
+      #black-friday-sale .text-blue-1, #black-friday-sale.text-blue-1{
+        color: #000 !important;
+      }
+      #black-friday-sale input::placeholder,textarea::placeholder{
+        color:#222 !important;
+        opacity:1
+      }
+      #black-friday-sale svg, #black-friday-sale svg path, #black-friday-sale rect{
+        fill: #222 !important;
+        stroke: #222 !important;
+      }
+      #black-friday-sale .btn-primary {
+          --tw-border-opacity: 1;
+          --tw-bg-opacity: 1;
+          --tw-text-opacity: 1;
+          background-color: rgb(2 2 2/var(--tw-bg-opacity));
+          border-color: rgb(2 2 2/var(--tw-border-opacity));
+          color: rgb(255 255 255/var(--tw-text-opacity));
+      }
+      #black-friday-sale .btn-tertiary{
+        color:#222;
+      }
+      #black-friday-sale .btn-secondary{
+        color:#222;
+        border-color:#222;
+      }
+      #black-friday-sale .btn-secondary:hover{
+        background:#fff;
+        color:#222;
+      }
+      #black-friday-sale .section-reviews .btn-tertiary, #black-friday-sale .section-reviews .bg-blue-1\/10{
+        color:#fff !important;
+      }
+      #black-friday-sale .bg-blue-1\/50{
+        background: rgba(0,0,0,0.6)
+      }
+      #black-friday-sale #announcement-bar {
+        color:#fff !important;
+      }
+      @media (min-width: 768px){
+        .md\:border-blue-1 {
+            --tw-border-opacity: 1;
+            border-color: rgb(2 2 2/var(--tw-border-opacity));
+        }
+      }
+      #black-friday-sale .main-logo{
+        display:none;
+      }
+      #black-friday-sale .bf-logo{
+        display:block;
+      }
+    </style> -->
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
@@ -134,7 +196,10 @@
       })(window, document, 'script', 'dataLayer', 'GTM-TKQNXXK');
     </script>
     <!-- End Google Tag Manager -->
-
+    <!-- Google tag (gtag.js) --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-961149424"></script> 
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-961149424'); </script>
+    
     {% if content_for_header contains 'fastbundle.co' %}
       {% render 'fast_bundle_service' %}
     {% endif %}
@@ -165,7 +230,7 @@
     {% endcomment %}
   {% include 'sm-red' %}</head>
 
-  <body class="h-full text-[12px] md:text-[14px] leading-[1.7] font-light text-blue-1">
+  <body id="{{ page_title | handle }}" class="h-full text-[12px] md:text-[14px] leading-[1.7] font-light text-blue-1">
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe

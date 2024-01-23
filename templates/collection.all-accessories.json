@@ -4,7 +4,16 @@
       "type": "hero-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Collection_Banner.jpg",
+        "image": "shopify:\/\/shop_images\/Up_to_50_Off_Extra_20_off_orders_100_1.jpg",
+        "link": "",
+        "full_width": true
+      }
+    },
+    "09629106-0dde-4a16-b5f6-c5a399d548ad": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
         "link": "",
         "full_width": true
       }
@@ -71,6 +80,7 @@
       "type": "billboard",
       "settings": {
         "screen_visibility": "both",
+        "image": "shopify:\/\/shop_images\/satdetailnavy.jpg",
         "subtitle": "Christy Life",
         "title": "<p>How To Arrange Pillows on a Bed: Easy Tips and Tricks<\/p>",
         "copy": "<p>Our guide to how to arrange pillows on a bed has everything you need to help you style your bed to perfection with sumptuously soft decorative and functional pillows.<\/p>",
@@ -212,6 +222,7 @@
   },
   "order": [
     "76d74bb2-bded-47dc-b84b-8c7c02dc464e",
+    "09629106-0dde-4a16-b5f6-c5a399d548ad",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426",

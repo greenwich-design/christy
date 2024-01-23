@@ -3,7 +3,7 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Gifting_1200x628_65.png",
+        "image": "shopify:\/\/shop_images\/PPC_1200X628_1_cb09f6e0-e556-48c1-b84e-8ea50b24ea81.jpg",
         "link": "",
         "full_width": true
       }
@@ -34,6 +34,40 @@
       "settings": {
       }
     },
+    "2594a997-818a-4de5-b1c1-015972b655d2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "sub_title_size": "h2"
+          }
+        },
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1": {
+          "type": "main_heading",
+          "settings": {
+            "heading": "Elevate your Everyday Moments this Christmas with Christy"
+          }
+        },
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our signature gift box & personalised message options now available.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1",
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1",
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "anchor_id": ""
+      }
+    },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
       "type": "collections-carousel",
       "blocks": {
@@ -41,8 +75,8 @@
           "type": "collection",
           "settings": {
             "collection": "all-loungewear",
-            "usp_title": "Bath Robes",
-            "image": "shopify:\/\/shop_images\/10_2_1-895185_62a6c52b-96ba-4474-a279-2d3e3ef90ffe.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/20_ccb68c6d-ca0e-4ceb-9251-18a8f2e73d7a.jpg",
             "alt_title": "Gifts for Living",
             "excerpt": "<h1>Explore plush and super soft robes that exude cosy comfort.<\/h1>"
           }
@@ -51,8 +85,8 @@
           "type": "collection",
           "settings": {
             "collection": "gifts-for-rest",
-            "usp_title": "Bedding",
-            "image": "shopify:\/\/shop_images\/hp_banner_bed_a2769d86-0563-4b77-b615-21691ce19ae9.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/15_ebfe4e22-95a4-4438-8f0d-9ece746e1184.jpg",
             "alt_title": "",
             "excerpt": "<h1>Treat your loved ones to relaxing moments with our comfortable bedding.<\/h1>"
           }
@@ -61,8 +95,8 @@
           "type": "collection",
           "settings": {
             "collection": "gifts-for-bathing",
-            "usp_title": "Luxury Towels",
-            "image": "shopify:\/\/shop_images\/gifts-for-bathing.jpg",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/CHRISTMAS_CREATIVES_600X600_16609328-ea10-45f5-ad3e-56ed75b8b896.jpg",
             "alt_title": "",
             "excerpt": "<p>Upgrade their bathing rituals with spa-worthy pieces.<\/p>"
           }
@@ -101,8 +135,8 @@
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-11-01_at_8.00.42_PM.jpg",
-        "image2": "shopify:\/\/shop_images\/MicrosoftTeams-image_1.jpg",
+        "image": "shopify:\/\/shop_images\/Gift_2.jpg",
+        "image2": "shopify:\/\/shop_images\/Gift_1.jpg",
         "subtitle": "",
         "title": "<p>Create your own Gift Box<\/p>",
         "copy": "<p>Elevate your gift-giving experience with our luxurious signature gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
@@ -176,18 +210,27 @@
     },
     "b9932fb5-c80a-402d-977c-e883e9dff131": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/WIMD150-809824.jpg",
         "image2": "shopify:\/\/shop_images\/WimbledonChampionship2023Detail-273571.jpg",
         "subtitle": "Wimbledon Championship Towel 2023",
         "title": "<p>Ace Your Christmas Gift-Giving!<\/p>",
         "copy": "<p>Elevate your Christmas gifting game with the Wimbledon Championship Towel 2023. <\/p><p>It's a versatile, stylish, and ultra-absorbent gift that tennis lovers and anyone with an appreciation for quality will adore. <\/p>",
-        "button_label": "Shop the Collection",
+        "button_label": "Flat 30% Off - Shop Now",
         "button_link": "shopify:\/\/collections\/wimbledon-collection",
         "content_position": "right",
         "header_position": false,
         "images_half_width": false,
         "anchor_id": ""
+      }
+    },
+    "a6afff26-2b13-4416-a136-947cb17aad4f": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
+        "link": "",
+        "full_width": true
       }
     },
     "955ae530-8662-43db-b9cc-df67f9e5bda7": {
@@ -659,12 +702,14 @@
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
+    "2594a997-818a-4de5-b1c1-015972b655d2",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
+    "a6afff26-2b13-4416-a136-947cb17aad4f",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "d0ddfec2-66c8-4bc0-8970-151deec6b0e9",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",

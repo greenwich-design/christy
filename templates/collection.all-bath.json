@@ -4,7 +4,16 @@
       "type": "hero-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Collection_Banner.jpg",
+        "image": "shopify:\/\/shop_images\/Up_to_50_Off_Extra_20_off_orders_100.jpg",
+        "link": "",
+        "full_width": true
+      }
+    },
+    "34bcb026-f7c3-41ed-b614-17526b336a4c": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
         "link": "",
         "full_width": true
       }
@@ -212,6 +221,7 @@
   },
   "order": [
     "898f7013-561e-48e7-986b-a539be6c7156",
+    "34bcb026-f7c3-41ed-b614-17526b336a4c",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426",

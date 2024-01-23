@@ -9,6 +9,15 @@
         "full_width": true
       }
     },
+    "367f8b4b-8c61-4abe-bc3a-9965bd918163": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
+        "link": "",
+        "full_width": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -104,6 +113,7 @@
   },
   "order": [
     "b2593455-2374-41e0-b3ee-6fdb69f24b3c",
+    "367f8b4b-8c61-4abe-bc3a-9965bd918163",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426"

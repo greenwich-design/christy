@@ -1,5 +1,13 @@
 {
   "sections": {
+    "6707d50c-5555-48d5-ade4-86ed7f2b1da0": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
+        "link": "",
+        "full_width": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -80,6 +88,7 @@
       "type": "billboard",
       "disabled": true,
       "settings": {
+        "screen_visibility": "both",
         "subtitle": "Christy Life",
         "title": "<p>7 simple everyday self-care rituals<\/p>",
         "copy": "<p>Add a bit of TLC to your daily routine with these ideas to help you pause and enjoy the little moments.<\/p>",
@@ -134,6 +143,7 @@
     }
   },
   "order": [
+    "6707d50c-5555-48d5-ade4-86ed7f2b1da0",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426",

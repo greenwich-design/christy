@@ -347,7 +347,39 @@
                     -%}
                   </div>
                 {% endif %}
+                {% if template contains 'personalized'
+                  and current_variant.metafields.custom.personalization_image != blank
+                %}
+                  {% assign perProd = all_products['product-personalization'] %}
+                  {% assign perProdPrice = perProd.price %}
 
+                  <div
+                    id="personalization_init_button"
+                    class="personalization_init_button d-h5 flex w-full items-center md:cursor-pointer max-md:text-[14px] variant-label my-4"
+                  >
+                    <div
+                      class="clicker mr-auto flex justify-start w-full py-4 gap-4 items-center"
+                      onclick="showHideDrawer()"
+                    >
+                      <input type="checkbox">
+                      <span>Personalization</span>
+                      <span class="acc-toggle max-md:hidden"></span>
+                      <span
+                        class="grow text-right font-light"
+                        style="flex-grow:1"
+                      >
+                        ( +{{ perProdPrice | money }})
+                      </span>
+                    </div>
+                  </div>
+                {% elsif template contains 'personalized' %}
+                  <div
+                    id="personalization_init_button"
+                    class="personalization_init_button d-h5 flex w-full items-center md:cursor-pointer max-md:text-[14px] variant-label my-4"
+                  >
+                    Personalization Not Allowed for this Variant
+                  </div>
+                {% endif %}
                 <div
                   id="buy-buttons-wrap"
                   class="max-md:!mt-0 max-md:py-5 max-md:px-10 max-md:border-y max-md:border-blue-1 max-md:bg-white max-md:fixed max-md:left-0 max-md:bottom-0 z-10 max-md:w-full"
@@ -1007,3 +1039,14 @@
 {% endschema %}
 
 {% render 'cross-sell' %}
+{% if template contains 'personalized' %}
+  <link rel="stylesheet" href="{{ 'personalization.css' | asset_url }}" media="all">
+  {% render 'pesonalize',
+    block: block,
+    product: product,
+    current_variant: current_variant,
+    product_form_id: product_form_id,
+    section_id: section.id,
+    show_pickup_availability: true
+  %}
+{% endif %}
