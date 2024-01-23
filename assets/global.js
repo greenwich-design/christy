@@ -1194,7 +1194,7 @@ class VariantSelects extends HTMLElement {
         const destination = document.querySelectorAll(`[data-price="price-${this.dataset.section}"]`);
 
 
-        if (html.getElementById("personalization_init_button")) {
+        if (html.getElementById("personalization_init_button") && document.querySelector(".personalization_init_button")) {
           document.querySelector(".personalization_init_button").innerHTML = html.getElementById("personalization_init_button").innerHTML
           document.getElementById(`personal_image`).setAttribute('src', html.getElementById(`personal_image`).getAttribute('src'))
           document.querySelector(`#personal_canvas .personalization_text`).setAttribute('style', html.querySelector(`#personal_canvas .personalization_text`).getAttribute('style'))
