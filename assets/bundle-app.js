@@ -336,6 +336,7 @@ var bundleApp = {
           if (step.quantity) {
             quantity = step.quantity;
           }
+          console.log(step);
           console.log(varId);
 
           // update price and compare price
