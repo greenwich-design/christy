@@ -1,6 +1,7 @@
 {% assign bundleDataValue = bundleData.value %}
 {% assign totalPriceAct = 0 %}
 {% assign totalCompareAct = 0 %}
+
 <script type="application/json" id="bundleJson">
   {
     "bundleData": {{ bundleDataValue | json }},
@@ -16,16 +17,22 @@
                 {% assign hasMainVariantId = false -%}
                 {%- if all_products[bundleDataValue.mainHandle].variants -%}
                     {%- for variant in all_products[bundleDataValue.mainHandle].variants -%}
+                        {% if variant.compare_at_price %}
+                          {% assign thisComp = variant.compare_at_price %}
+                        {% else %}
+                          {% assign thisComp = variant.price %}
+                        {% endif -%}
                         {%- assign colour_slug = variant.option1 | handleize -%}
                         {%- if colour_slug == selected_colour -%}
+
                             {%- assign hasMainVariantId = true -%}
                 "variantId": {{ variant.id | json -}},
                 "image": "{% if variant.featured_image.src != blank %}{{ variant.featured_image.src | image_url: width: 200, height: 200 }}{% endif %}",
                 "price": {{ variant.price | json -}}{% liquid
                   assign thisPrice = variant.price | times: bundleDataValue.mainStepQuantity
                   assign totalPriceAct = totalPriceAct | plus: thisPrice %},
-                "compare_at_price": {{ variant.compare_at_price | json -}}{% liquid
-                  assign thisPrice = variant.compare_at_price | times: bundleDataValue.mainStepQuantity
+                "compare_at_price": {{thisComp-}}{% liquid
+                  assign thisPrice = thisComp | times: bundleDataValue.mainStepQuantity
                   assign totalCompareAct = totalCompareAct | plus: thisPrice %}
                             {%- break -%}
                             {%- break -%}
@@ -39,9 +46,15 @@
                 {%- endif -%}",
                 "price": {{ all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.price | json -}}{% liquid
                   assign thisPrice = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.price | times: bundleDataValue.mainStepQuantity
-                  assign totalPriceAct = totalPriceAct | plus: thisPrice %},
-                "compare_at_price": {{ all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.compare_at_price | json -}}{% liquid
-                  assign thisPrice = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.compare_at_price | times: bundleDataValue.mainStepQuantity
+                  assign totalPriceAct = totalPriceAct | plus: thisPrice
+                  if all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.compare_at_price
+                    assign thisComp = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.compare_at_price
+                  else
+                    assign thisComp = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.price
+                  endif
+                %},
+                "compare_at_price": {{ thisComp }}{% liquid
+                  assign thisPrice = thisComp | times: bundleDataValue.mainStepQuantity
                   assign totalCompareAct = totalCompareAct | plus: thisPrice %}
                 {%- endif %}
             }
@@ -55,9 +68,16 @@
                 {%- comment %}
                     check if colour matches, if not, get first variant
                 {%- endcomment -%}
+                {%- assign selected_variants = item.variants | map: 'id' | replace: 'gid://shopify/ProductVariant/', '' %}
                 {%- assign hasItemVariantId = false -%}
                 {%- if all_products[item.handle].variants -%}
                     {%- for variant in all_products[item.handle].variants -%}
+                        {% if variant.compare_at_price %}
+                          {% assign thisComp = variant.compare_at_price %}
+                        {% else %}
+                          {% assign thisComp = variant.price %}
+                        {% endif -%}
+                        {%- if selected_variants contains variant.id  -%}
                         {%- assign colour_slug = variant.option1 | handleize -%}
                         {%- if colour_slug == selected_colour -%}
                             {%- assign hasItemVariantId = true -%}
@@ -68,26 +88,41 @@
                     "price": {{ variant.price | json -}}{% liquid
                       assign thisPrice = variant.price | times: item.stepQuantity
                       assign totalPriceAct = totalPriceAct | plus: thisPrice %},
-                    "compare_at_price": {{ variant.compare_at_price | json -}}{% liquid
-                      assign thisPrice = variant.compare_at_price | times: item.stepQuantity
-                      assign totalCompareAct = totalCompareAct | plus: thisPrice %}
+                    "compare_at_price": {{ thisComp }}{% liquid
+                      assign thisPrice = thisComp | times: item.stepQuantity
+                      assign totalCompareAct = totalCompareAct | plus: thisPrice %},
                             {%- break -%}
                         {%- endif -%}
+                        {% endif %}
                     {%- endfor -%}
                 {%- endif %}
                 {% if hasItemVariantId == false -%}
-                    "variantId": {{ all_products[item.handle].selected_or_first_available_variant.id | json -}},
-                    "image": "{%- if all_products[item.handle].selected_or_first_available_variant.featured_image.src != blank -%}
-                    {{- all_products[item.handle].selected_or_first_available_variant.featured_image.src | image_url: width: 200, height: 200 -}}
+                    {%- if all_products[item.handle].variants -%}
+                      {%- for variant in all_products[item.handle].variants -%}
+                        {% if variant.compare_at_price %}
+                          {% assign thisComp = variant.compare_at_price %}
+                        {% else %}
+                          {% assign thisComp = variant.price %}
+                        {% endif -%}
+                        {%- if selected_variants contains variant.id  -%}
+
+                    "variantId": {{ variant.id | json -}},
+                    "image": "{%- if variant.featured_image.src != blank -%}
+                    {{- variant.featured_image.src | image_url: width: 200, height: 200 -}}
                     {% endif -%}
                     ",
-                    "price": {{ all_products[item.handle].selected_or_first_available_variant.price | json -}}{% liquid
-                      assign thisPrice = all_products[item.handle].selected_or_first_available_variant.price | times: item.stepQuantity
+                    "price": {{ variant.price | json -}}{% liquid
+                      assign thisPrice = variant.price | times: item.stepQuantity
                       assign totalPriceAct = totalPriceAct | plus: thisPrice %},
-                    "compare_at_price": {{ all_products[item.handle].selected_or_first_available_variant.compare_at_price | json -}}{% liquid
-                      assign thisPrice = all_products[item.handle].selected_or_first_available_variant.compare_at_price | times: item.stepQuantity
-                      assign totalCompareAct = totalCompareAct | plus: thisPrice %}
+                    "compare_at_price": {{ thisComp }}{% liquid
+                      assign thisPrice = thisComp | times: item.stepQuantity
+                      assign totalCompareAct = totalCompareAct | plus: thisPrice %},
+                            {%- break -%}
+                        {% endif %}
+                      {%- endfor -%}
+                    {%- endif %}
                 {%- endif %}
+                "variants": {{ item.variants | json }}
             }
             {%- endfor -%}
             {%- endif %}
@@ -99,7 +134,7 @@
             "id": {{ item.id }},
             "product_title": "{{ item.product.title }}",
             "price": {{ item.price }},
-            "compare_at_price": {{ item.compare_at_price }},
+            "compare_at_price": {% if item.compare_at_price %}{{ item.compare_at_price }}{% else %}{{ item.price }}{% endif %},
             "featured_image": "{% if item.featured_image.src %}{{ item.featured_image.src | image_url }}{% endif %}",
             "options": [{% for var in item.product.options_with_values -%}
                 "{{ var.name }}: {% for varval in var.values -%}
@@ -115,13 +150,13 @@
       {%- endif -%}
       {%- for bundleItem in bundleDataValue.items -%}
       {% assign firstLast = forloop.last %}
-      {% if all_products[bundleItem.handle].variants  %}
+      {% if all_products[bundleItem.handle].variants %}
         {% for item in  all_products[bundleItem.handle].variants %}
           {
             "id": {{ item.id }},
             "product_title": "{{ item.product.title }}",
             "price": {{ item.price }},
-            "compare_at_price": {{ item.compare_at_price }},
+            "compare_at_price": {% if item.compare_at_price %}{{ item.compare_at_price }}{% else %}{{ item.price }}{% endif %},
             "featured_image": "{% if item.featured_image.src %}{{ item.featured_image.src | image_url }}{% endif %}",
             "options": [{% for var in item.product.options_with_values -%}
               "{{ var.name }}: {% for varval in var.values -%}
@@ -132,7 +167,7 @@
               {%- endfor -%}"
             {%- unless forloop.last %},{% endunless -%}
           {%- endfor %}]
-          }{% unless forloop.last and firstLast %},{% endunless%}
+          }{% unless forloop.last and firstLast %},{% endunless %}
         {% endfor  %}
       {% endif %}
       {%- endfor -%}
@@ -252,12 +287,13 @@
                 {% render 'bundle-builder-price',
                   totalCompare: totalCompare,
                   totalPrice: totalPrice,
-                  totalPercentOff: totalPercentOff
+                  totalPercentOff: totalPercentOff,
+                  bundleDiscount: bundleDataValue.bundleDiscount
                 %}
               </div>
             </div>
 
-            <div class="hidden wysiwyg max-md:order-10 max-md:border-t max-md:border-blue-1/10 max-md:pt-5">
+            <div class="wysiwyg max-md:order-10 max-md:border-t max-md:border-blue-1/10 max-md:pt-5 not-step-0">
               {{ product.description }}
             </div>
 
@@ -281,7 +317,8 @@
                 {% render 'bundle-builder-price',
                   totalCompare: totalCompare,
                   totalPrice: totalPrice,
-                  totalPercentOff: totalPercentOff
+                  totalPercentOff: totalPercentOff,
+                  bundleDiscount: bundleDataValue.bundleDiscount
                 %}
                 <button class="btn-primary btn-large" data-addcart>Add to Basket</button>
               </div>
