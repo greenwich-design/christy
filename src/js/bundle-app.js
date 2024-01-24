@@ -328,6 +328,8 @@ const bundleApp = {
                         quantity = step.quantity;
                     }
 
+                    console.log(varId)
+
                     // update price and compare price
                     if (variantData.price != 'undefined') {
                         totalPrice += (variantData.price * quantity);
