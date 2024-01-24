@@ -15,8 +15,8 @@
                     check if colour matches, if not, get first variant
                 {%- endcomment %}
                 {% assign hasMainVariantId = false -%}
-                {%- if product.variants -%}
-                    {%- for variant in product.variants -%}
+                {%- if all_products[bundleDataValue.mainHandle].variants -%}
+                    {%- for variant in all_products[bundleDataValue.mainHandle].variants -%}
                         {% if variant.compare_at_price %}
                           {% assign thisComp = variant.compare_at_price %}
                         {% else %}
@@ -40,17 +40,17 @@
                     {%- endfor -%}
                 {%- endif -%}
                 {%- if hasMainVariantId == false -%}
-                "variantId": {{ product.selected_or_first_available_variant.id | json -}},
-                "image": "{%- if product.selected_or_first_available_variant.featured_image.src != blank -%}
-                  {{- product.selected_or_first_available_variant.featured_image.src | image_url: width: 200, height: 200 -}}
+                "variantId": {{ all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.id | json -}},
+                "image": "{%- if all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.featured_image.src != blank -%}
+                  {{- all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.featured_image.src | image_url: width: 200, height: 200 -}}
                 {%- endif -%}",
-                "price": {{ product.selected_or_first_available_variant.price | json -}}{% liquid
-                  assign thisPrice = product.selected_or_first_available_variant.price | times: bundleDataValue.mainStepQuantity
+                "price": {{ all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.price | json -}}{% liquid
+                  assign thisPrice = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.price | times: bundleDataValue.mainStepQuantity
                   assign totalPriceAct = totalPriceAct | plus: thisPrice
-                  if product.selected_or_first_available_variant.compare_at_price
-                    assign thisComp = product.selected_or_first_available_variant.compare_at_price
+                  if all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.compare_at_price
+                    assign thisComp = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.compare_at_price
                   else
-                    assign thisComp = product.selected_or_first_available_variant.price
+                    assign thisComp = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.price
                   endif
                 %},
                 "compare_at_price": {{ thisComp }}{% liquid
@@ -128,8 +128,8 @@
             {%- endif %}
         ],
     "variants": [
-      {%- if product.variants  -%}
-        {%- for item in  product.variants %}
+      {%- if all_products[bundleDataValue.mainHandle].variants  -%}
+        {%- for item in  all_products[bundleDataValue.mainHandle].variants %}
           {
             "id": {{ item.id }},
             "product_title": "{{ item.product.title }}",
@@ -185,7 +185,7 @@
   {% assign totalCompare = 0 %}
   {% assign totalPrice = 0 %}
 
-  {% if product.selected_or_first_available_variant.compare_at_price_varies == false %}
+  {% if all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.compare_at_price_varies == false %}
     {% assign mainCap = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.price %}
   {% else %}
     {% assign mainCap = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.compare_at_price %}
