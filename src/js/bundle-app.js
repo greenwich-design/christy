@@ -443,12 +443,15 @@ const bundleApp = {
             addCart.textContent = 'Adding...';
 
             if (bundleData.steps.length > 0) {
+
+                let bundleUID = Date.now();
+
                 bundleData.steps.forEach(function (step) {
                     let item = {
                         id: step.variantId,
                         quantity: parseInt(step.quantity),
                         properties: {
-                            'bundle': Date.now()
+                            'bundle': bundleUID
                         }
                     };
                     formData.items.push(item);
