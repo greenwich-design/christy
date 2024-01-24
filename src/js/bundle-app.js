@@ -329,7 +329,7 @@ const bundleApp = {
                     }
 
                     // update price and compare price
-                    if (variantData.price) {
+                    if (variantData.price != 'undefined') {
                         totalPrice += (variantData.price * quantity);
                     }
                     if (variantData.compare_at_price) {
