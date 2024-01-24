@@ -321,17 +321,15 @@ const bundleApp = {
 
             if (bundleData.steps.length > 0) {
                 bundleData.steps.forEach(function (step, i) {
-                    const varId = parseInt(step.variantId);
+                    const varId = step.variantId;
                     const variantData = bundleData.variants.find((variant) => variant.id === varId);
                     let quantity = 1;
                     if (step.quantity) {
                         quantity = step.quantity;
                     }
-                    console.log(step)
-                    console.log(varId)
 
                     // update price and compare price
-                    if (variantData.price != 'undefined') {
+                    if (variantData.price) {
                         totalPrice += (variantData.price * quantity);
                     }
                     if (variantData.compare_at_price) {
