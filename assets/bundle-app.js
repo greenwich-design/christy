@@ -328,7 +328,7 @@ var bundleApp = {
       var bundleHtml = '';
       if (bundleData.steps.length > 0) {
         bundleData.steps.forEach(function (step, i) {
-          var varId = step.variantId;
+          var varId = parseInt(step.variantId);
           var variantData = bundleData.variants.find(function (variant) {
             return variant.id === varId;
           });

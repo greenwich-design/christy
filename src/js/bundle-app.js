@@ -321,7 +321,7 @@ const bundleApp = {
 
             if (bundleData.steps.length > 0) {
                 bundleData.steps.forEach(function (step, i) {
-                    const varId = step.variantId;
+                    const varId = parseInt(step.variantId);
                     const variantData = bundleData.variants.find((variant) => variant.id === varId);
                     let quantity = 1;
                     if (step.quantity) {
