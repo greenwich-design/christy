@@ -3,8 +3,8 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BAU_bedding.jpg",
-        "link": "shopify:\/\/collections\/all-bedding",
+        "image": "shopify:\/\/shop_images\/BANNER_1920X1080_2.jpg",
+        "link": "shopify:\/\/collections\/all-bundles",
         "full_width": true
       }
     },
@@ -69,7 +69,15 @@
       ],
       "disabled": true,
       "settings": {
-        "title": "Christmas Treats"
+        "title": "Christmas Treats",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "heading": {
@@ -90,6 +98,10 @@
       "type": "products-carousel",
       "settings": {
         "title": "Our Best Sellers",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "See more",
         "button_link": "shopify:\/\/collections\/shop-all",
         "products": [
@@ -314,7 +326,15 @@
         "template--21202652987680__bd6f3e07-9735-4568-9dd2-71c3bbca1c6d-column-3"
       ],
       "settings": {
-        "title": "It takes 3 Simple Steps"
+        "title": "It takes 3 Simple Steps",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "0e8d554c-badf-4239-a36e-276ffacfb5fc": {
@@ -355,8 +375,6 @@
       ],
       "settings": {
         "title": "Thousands of Happy Customers",
-        "button_title": "Shop the Range",
-        "button_link": "shopify:\/\/collections\/shop-all",
         "margin": "yes"
       }
     },
@@ -419,7 +437,15 @@
         "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2"
       ],
       "settings": {
-        "title": "How do you like your towels?"
+        "title": "How do you like your towels?",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "billboard2": {
@@ -500,7 +526,15 @@
         "f251865b-ab2f-44aa-ab1f-0a92b8034d6e"
       ],
       "settings": {
-        "title": "What is your perfect Bedding?"
+        "title": "What is your perfect Bedding?",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "billboard3": {
