@@ -156,9 +156,9 @@
               {% assign totalCompareAct = 0 %}
 
               {% liquid
-                assign thisPrice = card_product.selected_or_first_available_variant.price | times: bundleDataValue.mainStepQuantity
+                assign thisPrice = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.price | times: bundleDataValue.mainStepQuantity
                 assign totalPriceAct = totalPriceAct | plus: thisPrice
-                assign thisPrice = card_product.selected_or_first_available_variant.compare_at_price | times: bundleDataValue.mainStepQuantity
+                assign thisPrice = all_products[bundleDataValue.mainHandle].selected_or_first_available_variant.compare_at_price | times: bundleDataValue.mainStepQuantity
                 assign totalCompareAct = totalCompareAct | plus: thisPrice
               %}
 
