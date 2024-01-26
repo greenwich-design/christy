@@ -151,8 +151,8 @@
         "image": "shopify:\/\/shop_images\/VD_giftbox_2.jpg",
         "image2": "shopify:\/\/shop_images\/VD_giftbox_3.jpg",
         "subtitle": "",
-        "title": "<p>Create your own Gift Box<\/p>",
-        "copy": "<p>Elevate your gift-giving experience with our luxurious signature gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
+        "title": "<p>Create your Valentine's Gift Box<\/p>",
+        "copy": "<p>Elevate your gift-giving experience with our luxurious Valentine's gift box featuring a limited edition sleeve that expresses your love.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
         "button_label": "",
         "button_link": "shopify:\/\/collections\/all",
         "content_position": "right",
@@ -164,7 +164,7 @@
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
       "settings": {
-        "title": "Our Recommendations",
+        "title": "Our Gift Inspiration",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -173,14 +173,9 @@
         "button_link": "shopify:\/\/collections\/shop-everything",
         "products": [
           "super-soft-cosy-robe",
-          "400-thread-count-sateen-plain-dye",
-          "renaissance",
-          "organic-retreat",
-          "luxe-towels",
           "luxury-egyptian-robes",
-          "supreme-hygro",
           "supreme-velour-robe",
-          "katsura-bed-linen"
+          "brixton-robe"
         ],
         "screen_visibility": "both"
       }
