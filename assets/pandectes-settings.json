@@ -3,9 +3,9 @@
     "plan": "premium",
     "theme": "christy\/master",
     "primaryLocale": "en",
-    "adminMode": true
+    "adminMode": false
   },
-  "tsPublished": 1705505687,
+  "tsPublished": 1706630007,
   "declaration": {
     "showPurpose": true,
     "showProvider": false,
@@ -365,7 +365,7 @@
     "showPoweredBy": false,
     "hybridStrict": false,
     "cookiesBlockedByDefault": "7",
-    "isActive": false,
+    "isActive": true,
     "implicitSavePreferences": true,
     "cookieIcon": false,
     "blockBots": false,
