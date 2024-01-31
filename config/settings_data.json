@@ -157,24 +157,6 @@
           "show_list": true
         }
       },
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "246135896087123374": {
-        "type": "shopify:\/\/apps\/1clickpopup\/blocks\/main\/233742b9-16cb-4f75-9de7-3fe92c29fdff",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "12440966767595914869": {
-        "type": "shopify:\/\/apps\/sales-motivator-free-gifts\/blocks\/app-block\/790f143d-f67c-4036-9b09-2d69c24dd826",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "15014643352720781508": {
         "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
         "disabled": false,
@@ -204,16 +186,10 @@
           "product_widget_text_alignment": "--wrapped-checkbox--label-left"
         }
       },
-      "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": true,
+      "13324117676663250413": {
+        "type": "shopify:\/\/apps\/delivery-estimator\/blocks\/app-embed-block\/2be8f45f-2937-4f60-b6b3-7488e231d668",
+        "disabled": false,
         "settings": {
-          "button_color": "#000000",
-          "button_icon": "chat_bubble",
-          "button_text": "chat_with_us",
-          "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
       }
     },
