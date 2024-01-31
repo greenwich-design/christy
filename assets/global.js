@@ -1247,10 +1247,10 @@ class VariantSelects extends HTMLElement {
           inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
 
         const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
-
+        console.log("New Button text", addButtonUpdated.querySelector("span:first-child").innerHTML);
         this.toggleAddButton(
           addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true,
-          window.variantStrings.soldOut
+          addButtonUpdated.querySelector("span:first-child").innerHTML
         );
 
         // update bundles list
@@ -1307,7 +1307,7 @@ class VariantSelects extends HTMLElement {
         }
       } else {
         addButtons.forEach((btn) => btn.removeAttribute('disabled'));
-        addButtonTexts.forEach((btn) => btn.textContent = window.variantStrings.addToCart);
+        addButtonTexts.forEach((btn) => btn.textContent = text);
       }
     });
 
