@@ -97,25 +97,25 @@
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad": {
       "type": "products-carousel",
       "settings": {
-        "title": "Our Best Sellers",
+        "title": "Valentines Sale - Save upto 50%",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
         "title_font_family": "sans-serif",
-        "button_title": "See more",
-        "button_link": "shopify:\/\/collections\/shop-all",
+        "button_title": "Shop now",
+        "button_link": "shopify:\/\/collections\/valentines-day",
         "products": [
-          "renaissance",
-          "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
-          "super-soft-cosy-robe",
-          "jaipur-throw",
           "brixton-towels",
+          "super-soft-cosy-robe",
+          "essence-towels-650-gsm-combed-cotton",
           "coniston-bed-linen",
+          "signum-675-gsm-combed-cotton",
+          "supreme-hygro",
+          "renaissance",
+          "jaipur-throw",
           "luxe-towels",
           "luxury-microfibre-13-5-tog-duvet",
-          "signum-675-gsm-combed-cotton",
-          "cirrus-towels-450-gsm-cotton",
-          "supreme-hygro"
+          "cirrus-towels-450-gsm-cotton"
         ],
         "screen_visibility": "both"
       }
