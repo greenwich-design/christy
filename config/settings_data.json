@@ -188,7 +188,7 @@
       },
       "13324117676663250413": {
         "type": "shopify:\/\/apps\/delivery-estimator\/blocks\/app-embed-block\/2be8f45f-2937-4f60-b6b3-7488e231d668",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
