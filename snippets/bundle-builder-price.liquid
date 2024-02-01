@@ -1,0 +1,25 @@
+<div class="flex flex-wrap gap-2 items-center select-none" data-bundlepricehtml>
+  <div class="bundleprice">
+    {% if totalCompare > totalPrice %}
+      <span class="flex gap-x-2 font-semibold ">
+        <span class="line-through opacity-60">
+          {{- totalCompare | money -}}
+        </span>
+        <span>{{ totalPrice | money }}</span>
+      </span>
+
+    {% else %}
+      <span class="font-semibold">{{ totalPrice | money }}</span>
+    {% endif %}
+  </div>
+
+  <span class="bundlesavings inline-flex flex-row-reverse items-center gap-2 whitespace-nowrap ui-pill ui-pill--bg-blue ui-shimmer before:animate-[shimmer_1s_linear_both]">
+    Bundle Savings
+    {% if showPerc != false -%}
+      {%- if bundleDiscount > 0 %}
+        {% assign bundleDiscount = bundleDiscount | replace: '.0', '' %}
+        {{ bundleDiscount }}% Off
+      {% endif %}
+    {% endif %}
+  </span>
+</div>

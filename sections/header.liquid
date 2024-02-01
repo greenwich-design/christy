@@ -41,10 +41,10 @@
         </h1>
       {%- endif -%}
 
-      <div class="lg:col-span-3 lg:flex lg:justify-between lg:items-center lg:pl-8">
+      <div class="lg:col-span-3 lg:flex lg:justify-between lg:items-center lg:pl-8 lg:gap-3">
         {%- render 'header-mega-menu', blocks: section.blocks %}
 
-        <div class="max-lg:hidden">
+        <div class="max-lg:hidden lg:max-w-[317px] flex-1">
           {% render 'header-search', input_id: 'search_desktop' %}
         </div>
 

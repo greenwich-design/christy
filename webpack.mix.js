@@ -9,6 +9,7 @@ mix.js('src/js/app.js', 'assets')
     .js('src/js/lazy-load.js', 'assets')
     .js('src/js/template-heritage.js', 'assets')
     .js('src/js/main-product.js', 'assets')
+    .js('src/js/bundle-app.js', 'assets')
     .sass('src/scss/app.scss', 'assets')
     .options({
         processCssUrls: false,

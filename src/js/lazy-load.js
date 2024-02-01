@@ -183,7 +183,6 @@ document.addEventListener('shopify:section:load', function (event) {
 
 window.addEventListener('lazyimg', () => {
     lazyLoadImages();
-
 });
 
 window.addEventListener('load', () => {

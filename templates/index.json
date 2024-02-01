@@ -3,8 +3,8 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BAU_bedding.jpg",
-        "link": "shopify:\/\/collections\/all",
+        "image": "shopify:\/\/shop_images\/BANNER_1920X1080_6.jpg",
+        "link": "https:\/\/www.christy.co.uk\/collections\/valentines-sale",
         "full_width": true
       }
     },
@@ -69,7 +69,15 @@
       ],
       "disabled": true,
       "settings": {
-        "title": "Christmas Treats"
+        "title": "Christmas Treats",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "heading": {
@@ -89,21 +97,25 @@
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad": {
       "type": "products-carousel",
       "settings": {
-        "title": "Our Best Sellers",
-        "button_title": "See more",
-        "button_link": "shopify:\/\/collections\/shop-all",
+        "title": "Valentine's Day Sale - Save up to 50%",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "Shop now",
+        "button_link": "shopify:\/\/collections\/valentines-day",
         "products": [
-          "renaissance",
-          "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
-          "super-soft-cosy-robe",
-          "jaipur-throw",
           "brixton-towels",
+          "super-soft-cosy-robe",
+          "essence-towels-650-gsm-combed-cotton",
           "coniston-bed-linen",
+          "signum-675-gsm-combed-cotton",
+          "supreme-hygro",
+          "renaissance",
+          "jaipur-throw",
           "luxe-towels",
           "luxury-microfibre-13-5-tog-duvet",
-          "signum-675-gsm-combed-cotton",
-          "cirrus-towels-450-gsm-cotton",
-          "supreme-hygro"
+          "cirrus-towels-450-gsm-cotton"
         ],
         "screen_visibility": "both"
       }
@@ -258,13 +270,13 @@
     "0e427065-4c47-4b8e-8eab-12cb0c11fc4a": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Gift_2.jpg",
-        "image2": "shopify:\/\/shop_images\/Gift_1.jpg",
+        "image": "shopify:\/\/shop_images\/Cir_2B_2H.jpg",
+        "image2": "shopify:\/\/shop_images\/Lux_robe_1.jpg",
         "subtitle": "",
-        "title": "<p>Create your own Gift Box<\/p>",
-        "copy": "<p>Elevate your gift-giving experience by creating your own gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
-        "button_label": "Shop our Gifting Range",
-        "button_link": "shopify:\/\/collections\/gifts",
+        "title": "<p>Create your bespoke bundle<\/p>",
+        "copy": "<p>Introducing our bundle collection, designed to redefine your home experience.<\/p><p>Crafted with care, these bundles not only bring a touch of sophistication to your home but also offer incredible value, making every moment at home an indulgent retreat.<\/p><p>Bundles also make for excellent gifts. Whether for a housewarming, wedding, or other occasion, a thoughtfully curated bundle provides a practical and stylish present.<\/p>",
+        "button_label": "Shop our Bundle Range",
+        "button_link": "shopify:\/\/collections\/all-bundles",
         "content_position": "right",
         "header_position": false,
         "images_half_width": false,
@@ -279,7 +291,7 @@
           "settings": {
             "image_aspect": "1:1",
             "title": "Step 1",
-            "text": "<p>Choose your gift items from across our collections and add to cart.<\/p>",
+            "text": "<p>Choose your perfect bundle collection and then click 'Build Your Bundle'.<\/p>",
             "button_label": "",
             "button_link": "",
             "collection_tag": ""
@@ -290,7 +302,7 @@
           "settings": {
             "image_aspect": "1:1",
             "title": "Step 2",
-            "text": "<p>Check the \"Make it extra special with a gift box\" option at the bottom of the cart (£5 per gift box).<\/p>",
+            "text": "<p>Pick your bespoke options for size and\/or colour.<\/p>",
             "button_label": "",
             "button_link": "",
             "collection_tag": ""
@@ -301,7 +313,7 @@
           "settings": {
             "image_aspect": "1:1",
             "title": "Step 3",
-            "text": "<p>Add a free personal message to your loved one and proceed to checkout. All done!<\/p>",
+            "text": "<p>Add your bundle selection to the basket. All done!<\/p>",
             "button_label": "",
             "button_link": "",
             "collection_tag": ""
@@ -314,7 +326,15 @@
         "template--21202652987680__bd6f3e07-9735-4568-9dd2-71c3bbca1c6d-column-3"
       ],
       "settings": {
-        "title": "It takes 3 Simple Steps"
+        "title": "It takes 3 Simple Steps",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "0e8d554c-badf-4239-a36e-276ffacfb5fc": {
@@ -355,8 +375,6 @@
       ],
       "settings": {
         "title": "Thousands of Happy Customers",
-        "button_title": "Shop the Range",
-        "button_link": "shopify:\/\/collections\/shop-all",
         "margin": "yes"
       }
     },
@@ -419,7 +437,15 @@
         "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2"
       ],
       "settings": {
-        "title": "How do you like your towels?"
+        "title": "How do you like your towels?",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "billboard2": {
@@ -500,7 +526,15 @@
         "f251865b-ab2f-44aa-ab1f-0a92b8034d6e"
       ],
       "settings": {
-        "title": "What is your perfect Bedding?"
+        "title": "What is your perfect Bedding?",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "billboard3": {

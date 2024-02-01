@@ -71,7 +71,7 @@
             if current_variant.quantity_rule.min > current_variant.inventory_quantity and check_against_inventory
               assign quantity_rule_soldout = true
             endif
-            if current_variant.inventory_policy == 'continue' and current_variant.metafields.custom.pre_order_qunatity > 0
+            if current_variant.metafields.custom.pre_order_qunatity > 0
               assign quantity_rule_soldout = false
               assign allow_pre_order = true
             endif
@@ -80,7 +80,7 @@
             <input
               type="hidden"
               name="properties[Note]"
-              value="This Item is a pre order. Will be delivered as soon as stock is available. Normal delivery timelines do not apply."
+              value="{{ settings.cart_pre_order_text }}"
               id="note"
             >
           {% endif %}
@@ -178,10 +178,7 @@
     </div>
   {%- endif -%}
   {% if allow_pre_order == true %}
-    <span class=""
-      >This item is currently out of stock. You can still place an order. We will deliver your order as soon as the
-      stock is back.</span
-    >
+    <span id="preorder_text">{{ settings.product_pre_order_text }}</span>
   {% endif %}
   {%- if show_pickup_availability -%}
     {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}

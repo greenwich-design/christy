@@ -24,34 +24,34 @@ document.querySelectorAll('[id^="Details-"] summary').forEach((summary) => {
   summary.parentElement.addEventListener('keyup', onKeyUpEscape);
 });
 
-document.querySelectorAll('img[data-hover]').forEach((im)=>{
-  im.addEventListener('mouseenter',(e)=>{
+document.querySelectorAll('img[data-hover]').forEach((im) => {
+  im.addEventListener('mouseenter', (e) => {
     let hover_image = im.getAttribute('data-hover')
     let original_image = im.getAttribute('src')
     let hover_srcset = im.getAttribute('srcset-hover')
     let original_srcset = im.getAttribute('srcset')
     let hover_datasrcset = im.getAttribute('data-srcset-hover')
     let original_datasrcset = im.getAttribute('data-srcset')
-    im.setAttribute('src',hover_image)
-    im.setAttribute('data-hover',original_image)
-    im.setAttribute('srcset-hover',original_srcset)
-    im.setAttribute('srcset',hover_srcset)
-    im.setAttribute('data-srcset-hover',original_datasrcset)
-    im.setAttribute('data-srcset',original_datasrcset)
+    im.setAttribute('src', hover_image)
+    im.setAttribute('data-hover', original_image)
+    im.setAttribute('srcset-hover', original_srcset)
+    im.setAttribute('srcset', hover_srcset)
+    im.setAttribute('data-srcset-hover', original_datasrcset)
+    im.setAttribute('data-srcset', original_datasrcset)
   })
-  im.addEventListener('mouseleave',(e)=>{
+  im.addEventListener('mouseleave', (e) => {
     let hover_image = im.getAttribute('data-hover')
     let original_image = im.getAttribute('src')
     let hover_srcset = im.getAttribute('srcset-hover')
     let original_srcset = im.getAttribute('srcset')
     let hover_datasrcset = im.getAttribute('data-srcset-hover')
     let original_datasrcset = im.getAttribute('data-srcset')
-    im.setAttribute('src',hover_image)
-    im.setAttribute('data-hover',original_image)
-    im.setAttribute('srcset-hover',original_srcset)
-    im.setAttribute('srcset',hover_srcset)
-    im.setAttribute('data-srcset-hover',original_datasrcset)
-    im.setAttribute('data-srcset',original_datasrcset)
+    im.setAttribute('src', hover_image)
+    im.setAttribute('data-hover', original_image)
+    im.setAttribute('srcset-hover', original_srcset)
+    im.setAttribute('srcset', hover_srcset)
+    im.setAttribute('data-srcset-hover', original_datasrcset)
+    im.setAttribute('data-srcset', original_datasrcset)
   })
 })
 
@@ -221,8 +221,8 @@ class QuantityInput extends HTMLElement {
     const previousValue = this.input.value;
     event.target.name === 'plus' ? this.input.stepUp() : this.input.stepDown();
     if (previousValue !== this.input.value) this.input.dispatchEvent(this.changeEvent);
-    
-    
+
+
   }
 
   validateQtyRules() {
@@ -959,8 +959,6 @@ class VariantSelects extends HTMLElement {
         .includes(false);
     });
 
-
-
   }
 
   updateMedia() {
@@ -1033,7 +1031,7 @@ class VariantSelects extends HTMLElement {
   }
 
   updateURL() {
-    if (!this.currentVariant || this.dataset.updateUrl === 'false') return;
+    if (!this.currentVariant || this.dataset.updateUrl === 'false' || document.querySelector('#product-bundle')) return;
     // get selected variations
     const selectedColour = this.querySelector('[name="Colour"]:checked');
     const selectedColor = this.querySelector('[name="Color"]:checked');
@@ -1067,6 +1065,7 @@ class VariantSelects extends HTMLElement {
       }
       varUrl += 's:' + handleize(selector.value);
     });
+
 
     if (varUrl && !document.querySelector('html').classList.contains('is-preview')) {
       window.history.replaceState({}, '', `${this.dataset.url}/${varUrl}`);
@@ -1144,7 +1143,7 @@ class VariantSelects extends HTMLElement {
     });
   }
 
-  
+
 
 
 
@@ -1193,12 +1192,12 @@ class VariantSelects extends HTMLElement {
 
         const html = new DOMParser().parseFromString(responseText, 'text/html');
         const destination = document.querySelectorAll(`[data-price="price-${this.dataset.section}"]`);
-        
-        
-        if(html.getElementById("personalization_init_button")){
+
+
+        if (html.getElementById("personalization_init_button") && document.querySelector(".personalization_init_button")) {
           document.querySelector(".personalization_init_button").innerHTML = html.getElementById("personalization_init_button").innerHTML
-          document.getElementById(`personal_image`).setAttribute('src',html.getElementById(`personal_image`).getAttribute('src'))
-          document.querySelector(`#personal_canvas .personalization_text`).setAttribute('style',html.querySelector(`#personal_canvas .personalization_text`).getAttribute('style'))
+          document.getElementById(`personal_image`).setAttribute('src', html.getElementById(`personal_image`).getAttribute('src'))
+          document.querySelector(`#personal_canvas .personalization_text`).setAttribute('style', html.querySelector(`#personal_canvas .personalization_text`).getAttribute('style'))
           const personalizeDestination = document.querySelectorAll(`[data-personalize-price="price-${this.dataset.section}"]`);
           const personalizeSource = html.getElementById(
             `personalize-price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`
@@ -1208,14 +1207,14 @@ class VariantSelects extends HTMLElement {
               element.innerHTML = personalizeSource.innerHTML;
             });
           }
-        }else if(document.querySelector(".personalization_init_button")){
+        } else if (document.querySelector(".personalization_init_button")) {
           document.querySelector(".personalization_init_button").innerHTML = "Personalization Not Allowed for this Variant"
         }
-       
+
         const source = html.getElementById(
           `price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`
         );
-        
+
         const skuSource = html.getElementById(
           `Sku-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`
         );
@@ -1230,7 +1229,8 @@ class VariantSelects extends HTMLElement {
             element.innerHTML = source.innerHTML;
           });
         }
-        
+
+
 
 
         if (inventorySource && inventoryDestination) inventoryDestination.innerHTML = inventorySource.innerHTML;
@@ -1247,7 +1247,13 @@ class VariantSelects extends HTMLElement {
           inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
 
         const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
-        console.log("New Button text", addButtonUpdated.querySelector("span:first-child").innerHTML);
+        let fbt =  addButtonUpdated.querySelector("span:first-child").innerHTML;
+        console.log(fbt.length);
+        if(fbt.toString().trim() == "Pre Order"){
+          document.getElementById("preorder_text").style="display:block"
+        }else{
+          document.getElementById("preorder_text").style.display = 'none'
+        }
         this.toggleAddButton(
           addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true,
           addButtonUpdated.querySelector("span:first-child").innerHTML
@@ -1271,6 +1277,7 @@ class VariantSelects extends HTMLElement {
 
           checkBundleItems();
 
+
         }
 
         // dynamic price change
@@ -1278,6 +1285,13 @@ class VariantSelects extends HTMLElement {
           document.querySelector('[data-dynprice]').innerHTML = html.querySelector('[data-dynprice]').innerHTML;
         }
 
+        if (document.querySelector('product-info[data-variantid]') && html.querySelector('product-info[data-variantid]')) {
+          document.querySelector('product-info[data-variantid]').dataset.variantid = html.querySelector('product-info[data-variantid]').dataset.variantid;
+        }
+
+        // variant updated
+        const variantchange = new Event('variantchange');
+        window.dispatchEvent(variantchange);
 
         publish(PUB_SUB_EVENTS.variantChange, {
           data: {
@@ -1292,11 +1306,11 @@ class VariantSelects extends HTMLElement {
 
 
   toggleAddButton(disable = true, text, modifyClass = true) {
-    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}`);
+    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #bundle-actions-${this.dataset.section}`);
     if (!productForms) return;
     productForms.forEach((productForm) => {
-      const addButtons = productForm.querySelectorAll('[name="add"]');
-      const addButtonTexts = productForm.querySelectorAll('[name="add"] > span:first-child');
+      const addButtons = productForm.querySelectorAll('[name="add"], [data-bundlebtn="next"]');
+      const addButtonTexts = productForm.querySelectorAll('[name="add"] > span:first-child, [data-bundlebtn="next"]');
       if (!addButtons) return;
 
       if (disable) {
@@ -1307,7 +1321,13 @@ class VariantSelects extends HTMLElement {
         }
       } else {
         addButtons.forEach((btn) => btn.removeAttribute('disabled'));
-        addButtonTexts.forEach((btn) => btn.textContent = text);
+        addButtonTexts.forEach((btn) => {
+          if (btn.dataset.bundlebtn === 'next') {
+            btn.textContent = "Next";
+            return;
+          }
+          btn.textContent = text
+        });
       }
     });
 
@@ -1315,14 +1335,14 @@ class VariantSelects extends HTMLElement {
   }
 
   setUnavailable() {
-    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}`);
+    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #bundle-actions-${this.dataset.section}`);
     if (!productForms) return;
 
     //let addButtons = [];
     //let addButtonTexts = [];
     productForms.forEach((productForm) => {
-      const addButtons = productForm.querySelectorAll('[name="add"]');
-      const addButtonTexts = productForm.querySelectorAll('[name="add"] > span:first-child');
+      const addButtons = productForm.querySelectorAll('[name="add"], [data-bundlebtn="next"]');
+      const addButtonTexts = productForm.querySelectorAll('[name="add"] > span:first-child, [data-bundlebtn="next"]');
       if (!addButtons) return;
       addButtonTexts.forEach((text) => text.textContent = window.variantStrings.unavailable);
       //addButtonText.textContent = window.variantStrings.unavailable;
