@@ -48,7 +48,6 @@
         "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EMAILER600X700_10_e61e4d45-53bd-4c5c-b877-2828eab0c20e.jpg",
             "image_aspect": "1:1",
             "title": "Complimentary Wimbledon Towel*",
             "text": "<p>Get a complimentary Wimbledon Championship Towel worth £39 on orders above £50.<\/p>",
@@ -77,14 +76,27 @@
         "template--21640914534688__2c7f8aae-2f64-4441-8b9f-0f82180e701f-column-2",
         "c9a67a9a-381d-40cd-ab73-986e4e2d2b54"
       ],
+      "disabled": true,
       "settings": {
-        "title": "Winter Sale Treats"
+        "title": "Winter Sale Treats",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "1699c766-734d-4353-a8c2-18ab578d4d41": {
       "type": "products-carousel",
       "settings": {
         "title": "Our Best Sellers",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "See more",
         "button_link": "shopify:\/\/collections\/all",
         "products": [
@@ -322,6 +334,10 @@
       "disabled": true,
       "settings": {
         "title": "Flash Sale | Flat 50% off on Bath",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "Shop all Bath Offers",
         "button_link": "shopify:\/\/collections\/all-bath",
         "products": [
@@ -384,7 +400,15 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3"
       ],
       "settings": {
-        "title": ""
+        "title": "",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "e922dd6b-de11-4348-9389-5260d6fa205a": {
@@ -433,11 +457,20 @@
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-3"
       ],
       "settings": {
-        "title": ""
+        "title": "",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "a51fda79-909b-46c6-be2f-6bc0fd350806": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
         "link": "https:\/\/www.christy.co.uk\/collections\/cyber-jammies-pyjama-sets",
@@ -503,13 +536,25 @@
         "template--21521866129696__ed3fec5f-2dcd-4456-9169-b2f17089966f-column-3"
       ],
       "settings": {
-        "title": "It takes 3 Simple Steps"
+        "title": "It takes 3 Simple Steps",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
       "type": "products-carousel",
       "settings": {
         "title": "Minimum 50% off",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "Shop All",
         "button_link": "shopify:\/\/collections\/clearance",
         "products": [
@@ -582,7 +627,7 @@
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
       "type": "heading",
       "settings": {
-        "heading": "<p>Tis the Season to Sleep in Style: Bedding Stars<\/p>",
+        "heading": "<p>Dreamy Bedding Deals<\/p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
@@ -673,6 +718,10 @@
       "type": "products-carousel",
       "settings": {
         "title": "Deck the Beds with Luxe Bedding",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "products": [
@@ -709,6 +758,10 @@
       "type": "products-carousel",
       "settings": {
         "title": "",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "Explore the Range",
         "button_link": "shopify:\/\/collections\/all-accessories",
         "products": [
@@ -771,6 +824,10 @@
       "type": "products-carousel",
       "settings": {
         "title": "Luxury Unwrapped: Towel Delights",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/offers-towels",
         "products": [
@@ -988,6 +1045,7 @@
         "5cd53bb9-0042-45f8-bccc-44aadf259f78",
         "9c788114-0e17-4e4a-90ac-0edf460cd23f"
       ],
+      "disabled": true,
       "settings": {
         "title": "Discover the Christy Winter Sale",
         "copy": "<p>Unwrap Joy this season with Christy's Winter Sale! <\/p><p>Dive into a world of luxury and savings this holiday season, featuring exclusive deals with up to 50% off on premium bedding, towels, bath robes and throws.<\/p><p>Transform your bedroom into a sanctuary of tranquillity with our sumptuous bedding collections. From silky-soft sheets to opulent duvet covers, indulge in the luxury you deserve.<\/p><p>Upgrade your bathroom with Christy's plush towels and bathrobes. Wrap yourself in pure comfort and experience the epitome of indulgence after every bath or shower.<\/p><p>These exclusive Winter Sale deals won't last forever! Shop now to secure your favourites before they're gone. Don't miss out on the chance to elevate your home with Christy's timeless elegance. <\/p><p>The Christy Winter Sale is your golden opportunity to experience luxury for less so get ready to elevate your home with Christy!<\/p>"
