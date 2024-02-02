@@ -1250,7 +1250,7 @@ class VariantSelects extends HTMLElement {
         if(document.getElementById("preorder_text")){
           let fbt =  addButtonUpdated.querySelector("span:first-child").innerHTML;
           console.log(fbt.length);
-          if(fbt.toString().trim() == "Pre Order" && ){
+          if(fbt.toString().trim() == "Pre Order"){
             document.getElementById("preorder_text").style="display:block"
           }else{
             document.getElementById("preorder_text").style.display = 'none'
