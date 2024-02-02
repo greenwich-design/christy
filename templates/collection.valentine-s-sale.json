@@ -97,11 +97,12 @@
         "column_qDdMyR": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Towels_cat_block_a2515372-094d-43d5-b399-b9358729720b.jpg",
             "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "all-bath",
             "collection_tag": ""
           }
         }
