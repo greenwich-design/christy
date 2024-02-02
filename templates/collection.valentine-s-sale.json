@@ -121,11 +121,24 @@
         "column_QLNQEd": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Accessories_cat_block.jpg",
             "image_aspect": "1:1",
-            "title": "Thick & Fluffy",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
-            "button_label": "Explore the Feeling",
-            "button_link": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "all-accessories",
+            "collection_tag": ""
+          }
+        },
+        "column_TMVFXE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Duvets_cat_block.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "duvet-pillows",
             "collection_tag": ""
           }
         }
@@ -135,7 +148,8 @@
         "column_aTDwA8",
         "column_qDdMyR",
         "column_pbPTHC",
-        "column_QLNQEd"
+        "column_QLNQEd",
+        "column_TMVFXE"
       ],
       "disabled": true,
       "settings": {
