@@ -1247,12 +1247,14 @@ class VariantSelects extends HTMLElement {
           inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
 
         const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
-        let fbt =  addButtonUpdated.querySelector("span:first-child").innerHTML;
-        console.log(fbt.length);
-        if(fbt.toString().trim() == "Pre Order"){
-          document.getElementById("preorder_text").style="display:block"
-        }else{
-          document.getElementById("preorder_text").style.display = 'none'
+        if(document.getElementById("preorder_text")){
+          let fbt =  addButtonUpdated.querySelector("span:first-child").innerHTML;
+          console.log(fbt.length);
+          if(fbt.toString().trim() == "Pre Order" && ){
+            document.getElementById("preorder_text").style="display:block"
+          }else{
+            document.getElementById("preorder_text").style.display = 'none'
+          }
         }
         this.toggleAddButton(
           addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true,
