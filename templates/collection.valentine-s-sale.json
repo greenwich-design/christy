@@ -67,6 +67,63 @@
         "anchor_id": ""
       }
     },
+    "c_info_columns_gmFa3p": {
+      "type": "c-info-columns",
+      "blocks": {
+        "column_t9wx3Q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Robe_cat_block.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "all-loungewear",
+            "collection_tag": ""
+          }
+        },
+        "column_aTDwA8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Towels_cat_block.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "all-bundles",
+            "collection_tag": ""
+          }
+        },
+        "column_qDdMyR": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_t9wx3Q",
+        "column_aTDwA8",
+        "column_qDdMyR"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Share the love with up to 50% off",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
+      }
+    },
     "2594a997-818a-4de5-b1c1-015972b655d2": {
       "type": "rich-text",
       "blocks": {
@@ -760,6 +817,7 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "rich_text_yiEkhT",
+    "c_info_columns_gmFa3p",
     "2594a997-818a-4de5-b1c1-015972b655d2",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
