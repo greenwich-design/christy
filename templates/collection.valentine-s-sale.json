@@ -85,7 +85,7 @@
         "column_aTDwA8": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Towels_cat_block.jpg",
+            "image": "shopify:\/\/shop_images\/Bundle_cat_block.jpg",
             "image_aspect": "1:1",
             "title": "",
             "text": "",
@@ -105,12 +105,37 @@
             "button_link": "all-bath",
             "collection_tag": ""
           }
+        },
+        "column_pbPTHC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bedding_cat_block.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "duvet-sets",
+            "collection_tag": ""
+          }
+        },
+        "column_QLNQEd": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
         }
       },
       "block_order": [
         "column_t9wx3Q",
         "column_aTDwA8",
-        "column_qDdMyR"
+        "column_qDdMyR",
+        "column_pbPTHC",
+        "column_QLNQEd"
       ],
       "disabled": true,
       "settings": {
