@@ -152,6 +152,35 @@
         "screen_visibility": "both"
       }
     },
+    "hero_image_xJdRky": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BANNER_1920X1080_8.jpg",
+        "link": "shopify:\/\/collections\/all-bundles",
+        "full_width": true
+      }
+    },
+    "products_carousel_bQqamG": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Bedding | Minimum 25% Off",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "Explore more",
+        "button_link": "shopify:\/\/collections\/autumn-winter-2023-collection",
+        "products": [
+          "coniston-bed-linen",
+          "copy-of-smooth-and-silky-cotton-sateen-deep-fitted-sheet-400-thread-count",
+          "fennel-print-duvet-set",
+          "hartley-print-duvet-set",
+          "tranquility-print-duvet-set",
+          "suffolk-garden-print-duvet-set"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "2594a997-818a-4de5-b1c1-015972b655d2": {
       "type": "rich-text",
       "blocks": {
@@ -271,7 +300,7 @@
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
       "settings": {
-        "title": "Our Curated Collections",
+        "title": "Our Curated Valentine Collections",
         "screen_visibility": "both"
       }
     },
@@ -812,6 +841,8 @@
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "c_info_columns_gmFa3p",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
+    "hero_image_xJdRky",
+    "products_carousel_bQqamG",
     "2594a997-818a-4de5-b1c1-015972b655d2",
     "rich_text_yiEkhT",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
