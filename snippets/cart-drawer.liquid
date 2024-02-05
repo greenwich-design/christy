@@ -343,16 +343,28 @@
                                 or item.properties.size != 0
                                 or item.selling_plan_allocation != null
                               -%}
-                                <dl class="space-y-1 lg:space-y-2">
+                                <dl class="text-[12px] grid grid-cols-[minmax(0,max-content)_auto] gap-2 gap-y-1 lg:gap-y-2">
                                   {% if bundleData != blank and item.item_components.size -%}
                                     {% for item in item.item_components %}
-                                      <div class="text-[12px]">
-                                        <dt class="font-semibold">{{ item.product.title }}</dt>
-                                        <dd class="">
-                                          {%- if item.variant.title != 'Default Title' -%}
-                                            {{ item.variant.title }}
-                                          {%- endif -%}
-                                        </dd>
+                                      <span class="font-bold whitespace-nowrap ">{{ item.quantity }} x</span>
+                                      <div class="flex space-x-2">
+                                        <div>
+                                          <dt class="font-semibold">
+                                            {% if item.product.handle == bundleData.mainHandle
+                                              and bundleData.mainStepBaskTitle != blank
+                                              and bundleData.mainStepBaskTitle != ''
+                                            %}
+                                              {{ bundleData.mainStepBaskTitle }}
+                                            {% else %}
+                                              {{ item.product.title }}
+                                            {% endif %}
+                                          </dt>
+                                          <dd class="">
+                                            {%- if item.variant.title != 'Default Title' -%}
+                                              {{ item.variant.title }}
+                                            {%- endif -%}
+                                          </dd>
+                                        </div>
                                       </div>
                                     {% endfor %}
 
