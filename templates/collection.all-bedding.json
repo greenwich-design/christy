@@ -11,6 +11,7 @@
     },
     "039e5ce4-f144-479c-bfe7-c6b54629b19c": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/BANNER_1920X1080_3375a919-daa7-47f8-987d-134deac4d161.jpg",
         "link": "shopify:\/\/collections\/autumn-winter-2023-collection",
@@ -22,6 +23,10 @@
       "disabled": true,
       "settings": {
         "title": "Shop our Best Sellers",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "Explore the Collection",
         "button_link": "shopify:\/\/collections\/printed-and-hand-painted-bedding",
         "products": [
@@ -146,7 +151,15 @@
         "0e44cbf6-5127-44b8-ae2a-026a5627deda"
       ],
       "settings": {
-        "title": "Shop our Collection"
+        "title": "Shop our Collection",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
@@ -264,8 +277,6 @@
       ],
       "settings": {
         "title": "Unveiling the Christy Experience: Happy Customer Reviews",
-        "button_title": "Shop Bedding on Sale",
-        "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "margin": "yes"
       }
     },
@@ -286,6 +297,10 @@
       "type": "products-carousel",
       "settings": {
         "title": "",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "Explore the Range",
         "button_link": "shopify:\/\/collections\/all-accessories",
         "products": [

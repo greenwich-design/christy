@@ -199,9 +199,7 @@
           "background_color": "#ffffff",
           "border_color": "#2c3b96",
           "border_radius": 6,
-          "cart_widget_text_alignment": "--wrapped-checkbox--label-right",
-          "item_widget_text_alignment": "--wrapped-checkbox--label-left",
-          "product_widget_text_alignment": "--wrapped-checkbox--label-left"
+          "cart_widget_text_alignment": "--wrapped-checkbox--label-right"
         }
       },
       "15683396631634586217": {
