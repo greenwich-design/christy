@@ -348,10 +348,15 @@ const bundleApp = {
                         imgHtml = `<div loading="lazy" class="w-[100px] h-[100px]"><img class="w-full h-full bg-cover" src="${variantData.featured_image}&width=200&height=200&crop=center" alt="${variantData.product_title}" /></div>`;
                     }
 
+                    let variantTitle = variantData.product_title;
+                    if (step.handle == bundleData.bundleData.mainHandle && bundleData.bundleData.mainStepBaskTitle) {
+                        variantTitle = bundleData.bundleData.mainStepBaskTitle;
+                    }
+
                     bundleHtml += `
                     <li class="flex justify-between gap-5">
                     <div class="">
-                        <h3 class="font-semibold lg:d-h5 mb-3">${i + 1}. ${variantData.product_title}</h3>
+                        <h3 class="font-semibold lg:d-h5 mb-3">${quantity} x ${variantTitle}</h3>
                         <div>${optionsHtml}</div>
                         <button class="underline mt-3" data-changestep="${i + 1}">Change</button>
                     </div>

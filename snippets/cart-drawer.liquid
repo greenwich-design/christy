@@ -345,7 +345,8 @@
                               -%}
                                 <dl class="text-[12px] grid sm:grid-cols-[minmax(0,max-content)_auto] gap-2 gap-y-1 lg:gap-y-2">
                                   {% if bundleData != blank and item.item_components.size -%}
-                                    {% for item in item.item_components %}
+                                    {% assign itemComponents = item.item_components | reverse %}
+                                    {% for item in itemComponents %}
                                       <span class="font-bold whitespace-nowrap ">{{ item.quantity }} x</span>
                                       <div class="flex space-x-2">
                                         <div>
