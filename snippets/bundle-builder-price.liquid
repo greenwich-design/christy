@@ -16,8 +16,12 @@
     {% endif %}
   </div>
 
-  <span class="bundlesavings inline-flex flex-row-reverse items-center gap-2 whitespace-nowrap ui-pill ui-pill--bg-blue ui-shimmer before:animate-[shimmer_1s_linear_both]">
-    Bundle Savings
+  <span class="bundlesavings inline-flex {% if hideSavingsMob != true %}flex-row-reverse{% endif %} items-center gap-1 whitespace-nowrap ui-pill ui-pill--bg-blue ui-shimmer before:animate-[shimmer_1s_linear_both]">
+    {% if hideSavingsMob == true %}
+      <span>Bundle <span class="max-sm:hidden">Savings</span></span>
+    {% else -%}
+      Bundle Savings
+    {%- endif %}
     {% if showPerc != false -%}
       {%- if bundleDiscount > 0 %}
         {% assign bundleDiscount = bundleDiscount | replace: '.0', '' %}
