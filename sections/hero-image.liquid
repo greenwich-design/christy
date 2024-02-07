@@ -29,8 +29,8 @@
       {%- elsif section.settings.image != blank -%}
         {{
           section.settings.image
-          | image_url: width: 1600
-          | image_tag: loading: 'eager', width: 1100, height: 1100, class: image_class, sizes: sizes, widths: widths
+          | image_url: width: 1920
+          | image_tag: loading: 'eager', width: 1920, height: 1920, class: image_class, sizes: sizes, widths: widths
         }}
 
       {%- else -%}
