@@ -5,7 +5,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1706630007,
+  "tsPublished": 1707301180,
   "declaration": {
     "showPurpose": true,
     "showProvider": false,
@@ -464,7 +464,7 @@
         "firstParty": false,
         "retention": "1 day(s)",
         "expires": 1,
-        "unit": "declSession",
+        "unit": "declDays",
         "purpose": {
           "en": "Used for managing customer privacy settings."
         }
@@ -559,7 +559,7 @@
         "firstParty": false,
         "retention": "1 day(s)",
         "expires": 1,
-        "unit": "declSession",
+        "unit": "declDays",
         "purpose": {
           "en": "Cookie is placed by Google Analytics to count and track pageviews."
         }
@@ -637,7 +637,7 @@
         "firstParty": false,
         "retention": "1 day(s)",
         "expires": 1,
-        "unit": "declSession",
+        "unit": "declDays",
         "purpose": {
           "en": "Used by Microsoft Clarity to store a unique user ID.\t"
         }
@@ -899,7 +899,7 @@
         "firstParty": false,
         "retention": "1 day(s)",
         "expires": 1,
-        "unit": "declSession",
+        "unit": "declDays",
         "purpose": {
           "en": "This cookie is used by Bing to determine what ads should be shown that may be relevant to the end user perusing the site."
         }
@@ -1070,7 +1070,7 @@
         "firstParty": true,
         "retention": "1 day(s)",
         "expires": 1,
-        "unit": "declSession",
+        "unit": "declDays",
         "purpose": {
           "en": ""
         }
@@ -1135,7 +1135,7 @@
         "firstParty": true,
         "retention": "1 day(s)",
         "expires": 1,
-        "unit": "declSession",
+        "unit": "declDays",
         "purpose": {
           "en": ""
         }
@@ -1628,7 +1628,7 @@
     "googleConsentMode": {
       "id": "",
       "analyticsId": "",
-      "isActive": false,
+      "isActive": true,
       "adStorageCategory": 4,
       "analyticsStorageCategory": 2,
       "personalizationStorageCategory": 1,
