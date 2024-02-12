@@ -2,6 +2,7 @@
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/PPC_1200X628_1_cb09f6e0-e556-48c1-b84e-8ea50b24ea81.jpg",
         "link": "",
@@ -116,6 +117,10 @@
       "type": "products-carousel",
       "settings": {
         "title": "Our Recommendations",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "Shop All",
         "button_link": "shopify:\/\/collections\/shop-everything",
         "products": [
@@ -205,7 +210,15 @@
         "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5"
       ],
       "settings": {
-        "title": "It takes 3 Simple Steps"
+        "title": "It takes 3 Simple Steps",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "b9932fb5-c80a-402d-977c-e883e9dff131": {
@@ -267,7 +280,7 @@
           "type": "block",
           "settings": {
             "title": "Free Shipping & Returns",
-            "copy": "<p>Free Shipping above GBP 50 plus our Worry-Free Return Guarantee.<\/p>",
+            "copy": "<p>Free Shipping above £50 plus our Worry-Free Return Guarantee.<\/p>",
             "button_link": "shopify:\/\/policies\/shipping-policy",
             "button_title": "Learn More"
           }
@@ -320,6 +333,10 @@
       "disabled": true,
       "settings": {
         "title": "Throws & Cushions",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "Shop the Range",
         "button_link": "shopify:\/\/collections\/all-accessories",
         "products": [
@@ -447,6 +464,10 @@
       "disabled": true,
       "settings": {
         "title": "",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
         "button_title": "Explore the Range",
         "button_link": "shopify:\/\/collections\/all-accessories",
         "products": [
@@ -489,8 +510,6 @@
       "disabled": true,
       "settings": {
         "title": "Unveiling the Christy Experience: Happy Customer Reviews",
-        "button_title": "Shop Bedding on Sale",
-        "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "margin": "yes"
       }
     },
