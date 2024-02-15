@@ -5,13 +5,36 @@
     assign full_width = '100vw'
     assign widths = '375, 550, 750, 1100, 1920'
     assign sizes = '100vw'
-    assign image_class = 'w-full h-auto block'
-  -%}
 
+    assign image_class = 'w-full h-auto one'
+    if section.settings.image_mobile != blank
+      assign image_class = 'w-full h-auto desk hidden md:block'
+    endif
+    if section.settings.image_tab != blank and section.settings.image_mobile != blank
+      assign image_class = 'w-full h-auto desk hidden lg:block'
+    endif
+    if section.settings.image_tab != blank and section.settings.image_mobile == blank
+      assign image_class = 'w-full h-auto desk md:hidden lg:block'
+    endif
+    assign image_class_mobile = 'w-full h-auto mob block md:hidden'
+    assign image_class_tab = 'w-full h-auto block tab hidden md:block lg:hidden'
+  -%}
+  <style>
+    @media (min-width: 1024px) {
+      .lg\:block {
+        display: block;
+      }
+    }
+    @media (min-width: 768px) {
+      .md\:block {
+        display: block;
+      }
+    }
+  </style>
   <div
     class=""
   >
-    <div class="relative {% if section.settings.full_width != true %}container{% endif %}">
+    <div class="relative_ {% if section.settings.full_width != true %}container{% endif %}">
       {% if section.settings.link != blank %}
         <a class="block w-full" href="{{section.settings.link}}">
       {% endif %}
@@ -32,24 +55,32 @@
           | image_url: width: 1920
           | image_tag: loading: 'eager', width: 1920, height: 1920, class: image_class, sizes: sizes, widths: widths
         }}
-        {% comment %}
+        {%- if section.settings.image_mobile != blank -%}
           {{
             section.settings.image_mobile
-            | image_url: width: 800
+            | image_url: width: 1920
             | image_tag:
               loading: 'eager',
-              width: 800,
-              height: 800,
+              width: 1920,
+              height: 1920,
               class: image_class_mobile,
               sizes: sizes,
               widths: widths
           }}
+        {% endif %}
+        {%- if section.settings.image_tab != blank -%}
           {{
             section.settings.image_tab
-            | image_url: width: 1400
-            | image_tag: loading: 'eager', width: 1400, height: 1400, class: image_class_tab, sizes: sizes, widths: widths
+            | image_url: width: 1920
+            | image_tag:
+              loading: 'eager',
+              width: 1920,
+              height: 1920,
+              class: image_class_tab,
+              sizes: sizes,
+              widths: widths
           }}
-        {% endcomment %}
+        {% endif %}
 
       {%- else -%}
         {{ 'hero-apparel-1' | placeholder_svg_tag: image_class }}
