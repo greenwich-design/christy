@@ -4,8 +4,6 @@
       "type": "hero-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled-1_2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/Untitled-1_2.jpg",
-        "image_tab": "shopify:\/\/shop_images\/Untitled-1_2.jpg",
         "link": "shopify:\/\/collections\/autumn-winter-2023-collection",
         "full_width": true
       }
