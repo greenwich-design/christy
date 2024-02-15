@@ -5,9 +5,7 @@
     assign full_width = '100vw'
     assign widths = '375, 550, 750, 1100, 1920'
     assign sizes = '100vw'
-    assign image_class = 'w-full h-auto block hidden lg:block'
-    {% comment %} assign image_class_mobile = 'w-full h-auto block md:hidden'
-    assign image_class_tab = 'w-full h-auto block hidden md:block lg:hidden' {% endcomment %}
+    assign image_class = 'w-full h-auto block'
   -%}
 
   <div
@@ -34,22 +32,24 @@
           | image_url: width: 1920
           | image_tag: loading: 'eager', width: 1920, height: 1920, class: image_class, sizes: sizes, widths: widths
         }}
-        {% comment %} {{
-          section.settings.image_mobile
-          | image_url: width: 800
-          | image_tag:
-            loading: 'eager',
-            width: 800,
-            height: 800,
-            class: image_class_mobile,
-            sizes: sizes,
-            widths: widths
-        }}
-        {{
-          section.settings.image_tab
-          | image_url: width: 1400
-          | image_tag: loading: 'eager', width: 1400, height: 1400, class: image_class_tab, sizes: sizes, widths: widths
-        }} {% endcomment %}
+        {% comment %}
+          {{
+            section.settings.image_mobile
+            | image_url: width: 800
+            | image_tag:
+              loading: 'eager',
+              width: 800,
+              height: 800,
+              class: image_class_mobile,
+              sizes: sizes,
+              widths: widths
+          }}
+          {{
+            section.settings.image_tab
+            | image_url: width: 1400
+            | image_tag: loading: 'eager', width: 1400, height: 1400, class: image_class_tab, sizes: sizes, widths: widths
+          }}
+        {% endcomment %}
 
       {%- else -%}
         {{ 'hero-apparel-1' | placeholder_svg_tag: image_class }}
