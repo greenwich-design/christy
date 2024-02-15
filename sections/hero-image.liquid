@@ -20,14 +20,17 @@
     assign image_class_tab = 'w-full h-auto block tab hidden md:block lg:hidden'
   -%}
   <style>
+    @media (min-width: 768px) {
+      .md\:block {
+        display: block;
+      }
+    }
     @media (min-width: 1024px) {
       .lg\:block {
         display: block;
       }
-    }
-    @media (min-width: 768px) {
-      .md\:block {
-        display: block;
+      .lg\:hidden {
+        display: none;
       }
     }
   </style>
