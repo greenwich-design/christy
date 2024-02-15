@@ -4,7 +4,6 @@
       "type": "hero-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/THIN_BANNER_1_1.png",
         "link": "",
         "full_width": true
       }
