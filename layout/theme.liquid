@@ -100,9 +100,9 @@
       }
     </style> -->
 
-    <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'constants.js' | asset_url }}" async defer="defer"></script>
+    <script src="{{ 'pubsub.js' | asset_url }}" async defer="defer"></script>
+    <script src="{{ 'global.js' | asset_url }}" async defer="defer"></script>
 
     {%- if request.page_type != 'index' and request.page_type != 'product' and request.page_type != 'collection' -%}
       {% comment %}<link rel="stylesheet" href="{{ 'base.css' | asset_url }}" media="all">{% endcomment %}
@@ -197,7 +197,7 @@
     </script>
     <!-- End Google Tag Manager -->
     <!-- Google tag (gtag.js) --> 
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-961149424"></script> 
+    <script async defer="defer" src="https://www.googletagmanager.com/gtag/js?id=AW-961149424"></script> 
     <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-961149424'); </script>
     
     {% if content_for_header contains 'fastbundle.co' %}
