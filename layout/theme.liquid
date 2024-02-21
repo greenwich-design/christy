@@ -30,8 +30,8 @@
 
     {% render 'meta-tags' %}
 
-    <link rel="stylesheet" href="{{ 'christy-fonts.css' | asset_url }}" media="all">
-    <link rel="stylesheet" href="{{ 'app.css' | asset_url }}" media="all">
+    <link rel="stylesheet" href="{{ 'christy-fonts.css' | asset_url }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ 'app.css' | asset_url }}" media="print" onload="this.media='all'">
     <style>
       .visually-hidden,
       .hidden {
