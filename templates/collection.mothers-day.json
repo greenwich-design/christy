@@ -179,7 +179,7 @@
     "hero_image_xJdRky": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNER_1920X1080_8.jpg",
+        "image": "shopify:\/\/shop_images\/throw_lifestyle.jpg",
         "link": "shopify:\/\/collections\/all-bundles",
         "full_width": true
       }
@@ -453,7 +453,7 @@
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/throw_lifestyle.jpg",
+        "image": "shopify:\/\/shop_images\/mum_robe_full_width.jpg",
         "link": "",
         "full_width": true
       }
