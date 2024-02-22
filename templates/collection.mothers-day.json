@@ -3,7 +3,9 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/THIN_BANNER_11.jpg",
+        "image": "shopify:\/\/shop_images\/THIN_BANNER_1500X500_2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/768X768_4.jpg",
+        "image_tab": "shopify:\/\/shop_images\/1024X1024_4.jpg",
         "link": "",
         "full_width": true
       }
@@ -307,11 +309,11 @@
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/VD_giftbox_2.jpg",
-        "image2": "shopify:\/\/shop_images\/VD_giftbox_3.jpg",
+        "image": "shopify:\/\/shop_images\/Gift_2.webp",
+        "image2": "shopify:\/\/shop_images\/robe_box.jpg",
         "subtitle": "",
-        "title": "<p>Create your Valentine's Gift Box<\/p>",
-        "copy": "<p>Elevate your gift-giving experience with our luxurious Valentine's gift box featuring a limited edition sleeve that expresses your love.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
+        "title": "<p>Create your Mother's Day Gift Box<\/p>",
+        "copy": "<p>Elevate your gift-giving experience with our luxurious gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
         "button_label": "",
         "button_link": "shopify:\/\/collections\/all",
         "content_position": "right",
@@ -428,7 +430,7 @@
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/VD_thin_banner.jpg",
+        "image": "shopify:\/\/shop_images\/throw_lifestyle.jpg",
         "link": "",
         "full_width": true
       }
@@ -458,7 +460,7 @@
           "type": "block",
           "settings": {
             "title": "Loved by our Customers",
-            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
+            "copy": "<p>5000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
             "button_link": "shopify:\/\/collections\/all",
             "button_title": "Shop the Range"
           }
