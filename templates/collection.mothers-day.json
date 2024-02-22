@@ -136,6 +136,27 @@
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
       "type": "products-carousel",
       "settings": {
+        "title": "Robes | Up to 40% Off",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "Explore More",
+        "button_link": "shopify:\/\/collections\/offers-towels",
+        "products": [
+          "brixton-robe",
+          "super-soft-cosy-robe",
+          "luxury-egyptian-robes",
+          "robe-gift-box",
+          "supreme-velour-robe"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "products_carousel_CMFJm6": {
+      "type": "products-carousel",
+      "disabled": true,
+      "settings": {
         "title": "Towels | Up to 50% Off",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
@@ -845,6 +866,7 @@
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "c_info_columns_gmFa3p",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
+    "products_carousel_CMFJm6",
     "hero_image_xJdRky",
     "products_carousel_bQqamG",
     "2594a997-818a-4de5-b1c1-015972b655d2",
