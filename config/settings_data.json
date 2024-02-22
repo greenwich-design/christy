@@ -213,6 +213,12 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
+      },
+      "15475920322851709167": {
+        "type": "shopify:\/\/apps\/securify-block-ip-country\/blocks\/app-embed\/e3ed2576-9111-486f-86eb-a36b6bee4e94",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
