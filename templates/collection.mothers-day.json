@@ -10,6 +10,22 @@
         "full_width": true
       }
     },
+    "b9932fb5-c80a-402d-977c-e883e9dff131": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/throw_portrait.jpg",
+        "image2": "shopify:\/\/shop_images\/throw_portrait2.jpg",
+        "subtitle": "Limited Edition",
+        "title": "<p>Throw & Cushion Gift Set<\/p>",
+        "copy": "<p>This Mother's Day, give the gift of warmth and luxury with our exclusive Limited-edition Gift Bundle.<\/p><p>Included in this thoughtful set is a lightweight textured throw and its matching cushion, both exquisitely crafted to bring comfort and style to any space.<\/p>",
+        "button_label": "Shop Now",
+        "button_link": "",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
+      }
+    },
     "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
       "type": "hero-collection",
       "blocks": {
@@ -433,23 +449,6 @@
         "copy_font_family": "sans-serif"
       }
     },
-    "b9932fb5-c80a-402d-977c-e883e9dff131": {
-      "type": "images-copy-cta",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/WIMD150-809824.jpg",
-        "image2": "shopify:\/\/shop_images\/WimbledonChampionship2023Detail-273571.jpg",
-        "subtitle": "Wimbledon Championship Towel 2023",
-        "title": "<p>Ace Your Christmas Gift-Giving!<\/p>",
-        "copy": "<p>Elevate your Christmas gifting game with the Wimbledon Championship Towel 2023. <\/p><p>It's a versatile, stylish, and ultra-absorbent gift that tennis lovers and anyone with an appreciation for quality will adore. <\/p>",
-        "button_label": "Flat 30% Off - Shop Now",
-        "button_link": "shopify:\/\/collections\/wimbledon-collection",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
-      }
-    },
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
       "type": "hero-image",
       "settings": {
@@ -863,6 +862,7 @@
   },
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
+    "b9932fb5-c80a-402d-977c-e883e9dff131",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "c_info_columns_gmFa3p",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
@@ -876,7 +876,6 @@
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
-    "b9932fb5-c80a-402d-977c-e883e9dff131",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
