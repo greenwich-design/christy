@@ -227,6 +227,15 @@
         "screen_visibility": "both"
       }
     },
+    "a6afff26-2b13-4416-a136-947cb17aad4f": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mum_robe_full_width.jpg",
+        "link": "https:\/\/www.christy.co.uk\/collections\/all-loungewear",
+        "full_width": true
+      }
+    },
     "products_carousel_CMFJm6": {
       "type": "products-carousel",
       "settings": {
@@ -446,15 +455,6 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/throw_lifestyle.jpg",
         "link": "https:\/\/www.christy.co.uk\/products\/rosa-throw-and-cushion-bundle",
-        "full_width": true
-      }
-    },
-    "a6afff26-2b13-4416-a136-947cb17aad4f": {
-      "type": "hero-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/mum_robe_full_width.jpg",
-        "link": "https:\/\/www.christy.co.uk\/collections\/all-loungewear",
         "full_width": true
       }
     },
@@ -868,6 +868,7 @@
     "c_info_columns_gmFa3p",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
+    "a6afff26-2b13-4416-a136-947cb17aad4f",
     "products_carousel_CMFJm6",
     "products_carousel_bQqamG",
     "2594a997-818a-4de5-b1c1-015972b655d2",
@@ -877,7 +878,6 @@
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "hero_image_xJdRky",
-    "a6afff26-2b13-4416-a136-947cb17aad4f",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
     "393634d4-53d9-4c8e-be41-45c5d425188a",
