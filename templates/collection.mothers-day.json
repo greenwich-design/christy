@@ -160,11 +160,11 @@
         "button_title": "Explore More",
         "button_link": "shopify:\/\/collections\/offers-towels",
         "products": [
-          "brixton-robe",
           "super-soft-cosy-robe",
+          "supreme-velour-robe",
           "luxury-egyptian-robes",
-          "robe-gift-box",
-          "supreme-velour-robe"
+          "brixton-robe",
+          "robe-gift-box"
         ],
         "screen_visibility": "both"
       }
