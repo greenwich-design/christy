@@ -16,9 +16,9 @@
         "image": "shopify:\/\/shop_images\/throw_portrait.jpg",
         "image2": "shopify:\/\/shop_images\/throw_portrait2.jpg",
         "subtitle": "Limited Edition",
-        "title": "<p>Throw & Cushion Gift Set<\/p>",
+        "title": "<p>Rosa Throw & Cushion<\/p>",
         "copy": "<p>This Mother's Day, give the gift of warmth and luxury with our exclusive Limited-edition Gift Bundle.<\/p><p>Included in this thoughtful set is a lightweight textured throw and its matching cushion, both exquisitely crafted to bring comfort and style to any space.<\/p>",
-        "button_label": "Shop Now",
+        "button_label": "Shop Now | £50",
         "button_link": "https:\/\/www.christy.co.uk\/products\/rosa-throw-and-cushion-bundle",
         "content_position": "right",
         "header_position": false,
@@ -147,6 +147,61 @@
         "copy_font_size_desktop": 14,
         "copy_font_weight": "300",
         "copy_font_family": "sans-serif"
+      }
+    },
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
+      "type": "collections-carousel",
+      "blocks": {
+        "collection_p6mrLC": {
+          "type": "collection",
+          "settings": {
+            "collection": "personalisation",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/mum_robe.jpg",
+            "alt_title": "Personalised Gifts",
+            "excerpt": "<p>Gifts with a personal touch make Mother's Day extra special, creating lasting memories.<\/p>"
+          }
+        },
+        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-loungewear",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Cosy-Robe-Very-Berry-3_92d8b474-eb48-476d-afd1-5309c132f8ed.jpg",
+            "alt_title": "Gifts for Living",
+            "excerpt": "<h1>Explore plush and super soft robes that exude cosy comfort.<\/h1>"
+          }
+        },
+        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-for-rest",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Suffolk_Garden_2.jpg",
+            "alt_title": "",
+            "excerpt": "<h1>Treat your Mum to relaxing moments with our comfortable bedding.<\/h1>"
+          }
+        },
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-for-bathing",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/CHRISTMAS_CREATIVES_600X600_16609328-ea10-45f5-ad3e-56ed75b8b896.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Upgrade their bathing rituals with spa-worthy pieces.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "collection_p6mrLC",
+        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
+        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
+      ],
+      "settings": {
+        "title": "Our Mother's Day Gift Collection",
+        "screen_visibility": "both"
       }
     },
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
@@ -288,61 +343,6 @@
       "settings": {
         "full_width": false,
         "anchor_id": ""
-      }
-    },
-    "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
-      "type": "collections-carousel",
-      "blocks": {
-        "collection_p6mrLC": {
-          "type": "collection",
-          "settings": {
-            "collection": "personalisation",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/mum_robe.jpg",
-            "alt_title": "Personalised Gifts",
-            "excerpt": "<p>Gifts with a personal touch make Mother's Day extra special, creating lasting memories.<\/p>"
-          }
-        },
-        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-loungewear",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Cosy-Robe-Very-Berry-3_92d8b474-eb48-476d-afd1-5309c132f8ed.jpg",
-            "alt_title": "Gifts for Living",
-            "excerpt": "<h1>Explore plush and super soft robes that exude cosy comfort.<\/h1>"
-          }
-        },
-        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
-          "type": "collection",
-          "settings": {
-            "collection": "gifts-for-rest",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Suffolk_Garden_2.jpg",
-            "alt_title": "",
-            "excerpt": "<h1>Treat your Mum to relaxing moments with our comfortable bedding.<\/h1>"
-          }
-        },
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
-          "type": "collection",
-          "settings": {
-            "collection": "gifts-for-bathing",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/CHRISTMAS_CREATIVES_600X600_16609328-ea10-45f5-ad3e-56ed75b8b896.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Upgrade their bathing rituals with spa-worthy pieces.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "collection_p6mrLC",
-        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
-        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
-      ],
-      "settings": {
-        "title": "Our Mother's Day Gift Collection",
-        "screen_visibility": "both"
       }
     },
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
@@ -865,13 +865,13 @@
     "b9932fb5-c80a-402d-977c-e883e9dff131",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "c_info_columns_gmFa3p",
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "products_carousel_CMFJm6",
     "hero_image_xJdRky",
     "products_carousel_bQqamG",
     "2594a997-818a-4de5-b1c1-015972b655d2",
     "rich_text_yiEkhT",
-    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
