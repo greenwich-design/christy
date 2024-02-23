@@ -168,7 +168,7 @@
             "collection": "all-loungewear",
             "usp_title": "",
             "image": "shopify:\/\/shop_images\/Cosy-Robe-Very-Berry-3_92d8b474-eb48-476d-afd1-5309c132f8ed.jpg",
-            "alt_title": "Gifts for Living",
+            "alt_title": "Indulgent Robes",
             "excerpt": "<h1>Explore plush and super soft robes that exude cosy comfort.<\/h1>"
           }
         },
@@ -178,7 +178,7 @@
             "collection": "gifts-for-rest",
             "usp_title": "",
             "image": "shopify:\/\/shop_images\/Suffolk_Garden_2.jpg",
-            "alt_title": "",
+            "alt_title": "Luxurious Bedding",
             "excerpt": "<h1>Treat your Mum to relaxing moments with our comfortable bedding.<\/h1>"
           }
         },
@@ -186,7 +186,7 @@
           "type": "collection",
           "settings": {
             "collection": "gifts-for-bathing",
-            "usp_title": "",
+            "usp_title": "Plush Towels",
             "image": "shopify:\/\/shop_images\/CHRISTMAS_CREATIVES_600X600_16609328-ea10-45f5-ad3e-56ed75b8b896.jpg",
             "alt_title": "",
             "excerpt": "<p>Upgrade their bathing rituals with spa-worthy pieces.<\/p>"
@@ -245,14 +245,6 @@
           "organic"
         ],
         "screen_visibility": "both"
-      }
-    },
-    "hero_image_xJdRky": {
-      "type": "hero-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/throw_lifestyle.jpg",
-        "link": "https:\/\/www.christy.co.uk\/products\/rosa-throw-and-cushion-bundle",
-        "full_width": true
       }
     },
     "products_carousel_bQqamG": {
@@ -345,27 +337,11 @@
         "anchor_id": ""
       }
     },
-    "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
-      "type": "images-copy-cta",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Gift_2.webp",
-        "image2": "shopify:\/\/shop_images\/robe_box.jpg",
-        "subtitle": "",
-        "title": "<p>Create your Mother's Day Gift Box<\/p>",
-        "copy": "<p>Elevate your gift-giving experience with our luxurious gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
-        "button_label": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
-      }
-    },
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
       "disabled": true,
       "settings": {
-        "title": "Our Gift Inspiration",
+        "title": "Gifts under £50",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -393,6 +369,22 @@
         "alignment_mob": "center",
         "horiz_padding": true,
         "margin_top": false
+      }
+    },
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Gift_2.webp",
+        "image2": "shopify:\/\/shop_images\/robe_box.jpg",
+        "subtitle": "",
+        "title": "<p>Create your Mother's Day Gift Box<\/p>",
+        "copy": "<p>Elevate your gift-giving experience with our luxurious gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
+        "button_label": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
       }
     },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
@@ -449,8 +441,17 @@
         "copy_font_family": "sans-serif"
       }
     },
+    "hero_image_xJdRky": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/throw_lifestyle.jpg",
+        "link": "https:\/\/www.christy.co.uk\/products\/rosa-throw-and-cushion-bundle",
+        "full_width": true
+      }
+    },
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/mum_robe_full_width.jpg",
         "link": "https:\/\/www.christy.co.uk\/collections\/all-loungewear",
@@ -602,9 +603,8 @@
     },
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e": {
       "type": "products-carousel",
-      "disabled": true,
       "settings": {
-        "title": "",
+        "title": "Throws | Up to 50% Off",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -612,12 +612,12 @@
         "button_title": "Explore the Range",
         "button_link": "shopify:\/\/collections\/all-accessories",
         "products": [
-          "jaipur-throw",
-          "cosy-throw",
           "oslo",
-          "metropolitan-throw",
-          "jaipur-cushion",
-          "metropolitan-cushion"
+          "copy-of-jaipur-throw",
+          "porto-throw",
+          "lisbon-throw",
+          "edmonton",
+          "metropolitan-throw"
         ],
         "screen_visibility": "both"
       }
@@ -868,14 +868,14 @@
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "products_carousel_CMFJm6",
-    "hero_image_xJdRky",
     "products_carousel_bQqamG",
     "2594a997-818a-4de5-b1c1-015972b655d2",
     "rich_text_yiEkhT",
-    "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
+    "hero_image_xJdRky",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
