@@ -196,7 +196,7 @@
       "type": "hero-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/throw_lifestyle.jpg",
-        "link": "shopify:\/\/collections\/all-bundles",
+        "link": "https:\/\/www.christy.co.uk\/products\/rosa-throw-and-cushion-bundle",
         "full_width": true
       }
     },
@@ -453,7 +453,7 @@
       "type": "hero-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/mum_robe_full_width.jpg",
-        "link": "",
+        "link": "https:\/\/www.christy.co.uk\/collections\/all-loungewear",
         "full_width": true
       }
     },
