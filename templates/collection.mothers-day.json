@@ -229,10 +229,9 @@
     },
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/mum_robe_full_width.jpg",
-        "link": "https:\/\/www.christy.co.uk\/collections\/all-loungewear",
+        "image": "shopify:\/\/shop_images\/1920X960_1_70722709-75cb-445e-b547-b8ed1d192146.jpg",
+        "link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "full_width": true
       }
     },
