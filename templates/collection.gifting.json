@@ -87,7 +87,7 @@
           "settings": {
             "collection": "gifts-for-rest",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/15_ebfe4e22-95a4-4438-8f0d-9ece746e1184.jpg",
+            "image": "shopify:\/\/shop_images\/D2--_26_57d0e4f1-45fd-4736-ad40-0af23fb2f39d.jpg",
             "alt_title": "",
             "excerpt": "<h1>Treat your loved ones to relaxing moments with our comfortable bedding.<\/h1>"
           }
@@ -240,6 +240,7 @@
     },
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
         "link": "",
@@ -271,7 +272,7 @@
           "type": "block",
           "settings": {
             "title": "Loved by our Customers",
-            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
+            "copy": "<p>5000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
             "button_link": "shopify:\/\/collections\/all",
             "button_title": "Shop the Range"
           }
