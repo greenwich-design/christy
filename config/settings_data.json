@@ -179,9 +179,6 @@
         "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
         "disabled": false,
         "settings": {
-          "cart_widget_enabled": true,
-          "item_widget_enabled": false,
-          "product_widget_enabled": false,
           "gift_thumbnail_enabled": false,
           "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
           "gift_thumbnail_size": 40,
