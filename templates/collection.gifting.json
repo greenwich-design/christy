@@ -124,6 +124,7 @@
         "button_title": "Shop All",
         "button_link": "shopify:\/\/collections\/shop-everything",
         "products": [
+          "rosa-throw-and-cushion-bundle",
           "super-soft-cosy-robe",
           "400-thread-count-sateen-plain-dye",
           "renaissance",
@@ -131,8 +132,7 @@
           "luxe-towels",
           "luxury-egyptian-robes",
           "supreme-hygro",
-          "supreme-velour-robe",
-          "katsura-bed-linen"
+          "supreme-velour-robe"
         ],
         "screen_visibility": "both"
       }
