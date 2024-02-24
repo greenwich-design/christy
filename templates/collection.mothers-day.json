@@ -215,14 +215,17 @@
         "button_title": "Explore More",
         "button_link": "https:\/\/www.christy.co.uk\/collections\/gifts",
         "products": [
-          "super-soft-cosy-robe",
-          "oslo",
           "supreme-velour-robe",
+          "mode-towels",
+          "oslo",
+          "coniston-bed-linen",
+          "brixton-robe",
           "lisbon-throw",
-          "copy-of-luxe-move-in-bundle",
+          "luxe-towels",
+          "suffolk-garden-print-duvet-set",
           "edmonton",
-          "copy-of-brixton-bath-towel-bundle",
-          "copy-of-cirrus-quick-dry-towels-cotton-450-gsm"
+          "super-soft-cosy-robe",
+          "organic-retreat"
         ],
         "screen_visibility": "both"
       }
@@ -230,7 +233,7 @@
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/25off_bedding.jpg",
+        "image": "shopify:\/\/shop_images\/1920X960_1_70722709-75cb-445e-b547-b8ed1d192146.jpg",
         "link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "full_width": true
       }
@@ -247,10 +250,12 @@
         "button_link": "",
         "products": [
           "super-soft-cosy-robe",
-          "wimbledon-2024-championship-towel",
           "jaipur-cushion",
+          "wimbledon-2024-championship-towel",
           "supreme-hygro",
-          "luxe-towels"
+          "luxe-towels",
+          "mode-towels",
+          "copy-of-cirrus-bath-towel-bundle"
         ],
         "screen_visibility": "both"
       }
