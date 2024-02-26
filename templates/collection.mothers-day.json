@@ -3,9 +3,9 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/THIN_BANNER_1500X500_2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/768X768_4.jpg",
-        "image_tab": "shopify:\/\/shop_images\/1024X1024_4.jpg",
+        "image": "shopify:\/\/shop_images\/THIN_BANNER_1500X500_1_2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/768X768_3_3.jpg",
+        "image_tab": "shopify:\/\/shop_images\/1024X1024_1_2.jpg",
         "link": "",
         "full_width": true
       }
