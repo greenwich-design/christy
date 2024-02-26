@@ -204,6 +204,26 @@
         "screen_visibility": "both"
       }
     },
+    "products_carousel_bQqamG": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Sale | Up to 50% Off",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "",
+        "button_link": "",
+        "products": [
+          "coniston-bed-linen",
+          "brixton-towels",
+          "fennel-print-duvet-set",
+          "copy-of-smooth-and-silky-cotton-sateen-deep-fitted-sheet-400-thread-count",
+          "suffolk-garden-print-duvet-set"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
       "type": "products-carousel",
       "settings": {
@@ -256,28 +276,6 @@
           "luxe-towels",
           "mode-towels",
           "cirrus-bath-sheet-bundle"
-        ],
-        "screen_visibility": "both"
-      }
-    },
-    "products_carousel_bQqamG": {
-      "type": "products-carousel",
-      "disabled": true,
-      "settings": {
-        "title": "Bedding | Minimum 25% Off",
-        "title_font_size_mob": 18,
-        "title_font_size_desktop": 30,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "button_title": "Explore more",
-        "button_link": "shopify:\/\/collections\/autumn-winter-2023-collection",
-        "products": [
-          "coniston-bed-linen",
-          "copy-of-smooth-and-silky-cotton-sateen-deep-fitted-sheet-400-thread-count",
-          "fennel-print-duvet-set",
-          "hartley-print-duvet-set",
-          "tranquility-print-duvet-set",
-          "suffolk-garden-print-duvet-set"
         ],
         "screen_visibility": "both"
       }
@@ -871,10 +869,10 @@
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "c_info_columns_gmFa3p",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
+    "products_carousel_bQqamG",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
     "products_carousel_CMFJm6",
-    "products_carousel_bQqamG",
     "2594a997-818a-4de5-b1c1-015972b655d2",
     "rich_text_yiEkhT",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
