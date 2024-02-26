@@ -3,9 +3,9 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1920X1080_2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/768X768_4_6e416a37-c4a5-4fa1-b09c-f99b1b5bc0c7.jpg",
-        "image_tab": "shopify:\/\/shop_images\/1024X1024_4_f58a5871-7871-481a-94da-d067286285e7.jpg",
+        "image": "shopify:\/\/shop_images\/1920X1080_1_2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/768X768_3_3.jpg",
+        "image_tab": "shopify:\/\/shop_images\/1024X1024_1_2.jpg",
         "link": "shopify:\/\/collections\/mothers-day-sale",
         "full_width": true
       }
