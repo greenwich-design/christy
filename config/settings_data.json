@@ -138,12 +138,6 @@
 
     ],
     "blocks": {
-      "6858403126979251294": {
-        "type": "shopify:\/\/apps\/omega-gdpr-ccpa-cookie-banner\/blocks\/omega-cookies-notification\/13cba824-a338-452e-9b8e-c83046a79f21",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "15796953133730294439": {
         "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.embed.socialshopwave-helper\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
         "disabled": false,
