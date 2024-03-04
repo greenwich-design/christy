@@ -4,6 +4,8 @@
   lang="{{ request.locale.iso_code }}"
 >
   <head>
+ {%- if content_for_header contains 'tapita-seo-script-tags' -%}{%- include 'tapita-seo-schema' -%}{%- endif -%} 
+
 	{% render 'pandectes-rules' %}
     {%- render 'ecom_header' -%}
     <meta charset="utf-8">
@@ -28,7 +30,7 @@
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
 
-    {% render 'meta-tags' %}
+    {% render 'meta-tags', page_description: page_description, page_title: page_title  %}
 
     <link rel="stylesheet" href="{{ 'christy-fonts.css' | asset_url }}" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="{{ 'app.css' | asset_url }}" media="print" onload="this.media='all'">

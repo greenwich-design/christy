@@ -1,9 +1,12 @@
 <!doctype html>
 <html
-  class="no-js {% if request.page_type == 'product' %}[&_.section-header]:max-md:fixed max-md:fixed max-md:overflow-hidden max-md:h-full w-full{% endif %} overscroll-none "
+  class="no-js overflow-x-clip {% if content_for_header contains "previewBarInjector.init();" %}is-preview{% endif %}"
   lang="{{ request.locale.iso_code }}"
 >
   <head>
+ {%- if content_for_header contains 'tapita-seo-script-tags' -%}{%- include 'tapita-seo-schema' -%}{%- endif -%} 
+
+	{% render 'pandectes-rules' %}
     {%- render 'ecom_header' -%}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,26 +30,87 @@
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
 
-    {% render 'meta-tags' %}
+    {% render 'meta-tags', page_description: page_description, page_title: page_title  %}
 
-    <link rel="stylesheet" href="{{ 'christy-fonts.css' | asset_url }}" media="all">
-    <link rel="stylesheet" href="{{ 'app.css' | asset_url }}" media="all">
+    <link rel="stylesheet" href="{{ 'christy-fonts.css' | asset_url }}" media="print" onload="this.media='all'">
+    <link rel="stylesheet" href="{{ 'app.css' | asset_url }}" media="print" onload="this.media='all'">
     <style>
       .visually-hidden,
       .hidden {
         display: none;
       }
     </style>
+    <!-- <style>
+      .bf-logo{display:none;}
+      #black-friday-sale .bg-blue-1, #black-friday-sale .bg-blue-1\/10{
+        background:#000 !important;
+        
+      }
+      #black-friday-sale .border-blue-1\/10, #black-friday-sale .border-blue-1{
+        border-color:#000;
+      }
+      #black-friday-sale .text-blue-1, #black-friday-sale.text-blue-1{
+        color: #000 !important;
+      }
+      #black-friday-sale input::placeholder,textarea::placeholder{
+        color:#222 !important;
+        opacity:1
+      }
+      #black-friday-sale svg, #black-friday-sale svg path, #black-friday-sale rect{
+        fill: #222 !important;
+        stroke: #222 !important;
+      }
+      #black-friday-sale .btn-primary {
+          --tw-border-opacity: 1;
+          --tw-bg-opacity: 1;
+          --tw-text-opacity: 1;
+          background-color: rgb(2 2 2/var(--tw-bg-opacity));
+          border-color: rgb(2 2 2/var(--tw-border-opacity));
+          color: rgb(255 255 255/var(--tw-text-opacity));
+      }
+      #black-friday-sale .btn-tertiary{
+        color:#222;
+      }
+      #black-friday-sale .btn-secondary{
+        color:#222;
+        border-color:#222;
+      }
+      #black-friday-sale .btn-secondary:hover{
+        background:#fff;
+        color:#222;
+      }
+      #black-friday-sale .section-reviews .btn-tertiary, #black-friday-sale .section-reviews .bg-blue-1\/10{
+        color:#fff !important;
+      }
+      #black-friday-sale .bg-blue-1\/50{
+        background: rgba(0,0,0,0.6)
+      }
+      #black-friday-sale #announcement-bar {
+        color:#fff !important;
+      }
+      @media (min-width: 768px){
+        .md\:border-blue-1 {
+            --tw-border-opacity: 1;
+            border-color: rgb(2 2 2/var(--tw-border-opacity));
+        }
+      }
+      #black-friday-sale .main-logo{
+        display:none;
+      }
+      #black-friday-sale .bf-logo{
+        display:block;
+      }
+    </style> -->
 
-    <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'constants.js' | asset_url }}" async defer="defer"></script>
+    <script src="{{ 'pubsub.js' | asset_url }}" async defer="defer"></script>
+    <script src="{{ 'global.js' | asset_url }}" async defer="defer"></script>
 
     {%- if request.page_type != 'index' and request.page_type != 'product' and request.page_type != 'collection' -%}
       {% comment %}<link rel="stylesheet" href="{{ 'base.css' | asset_url }}" media="all">{% endcomment %}
     {%- endif -%}
 
-    {{ content_for_header }}
+    {%- if tinyscript -%}{{ content_for_header }}{%- else -%}{% render 'tiny-script-control' %}{%- endif -%}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
@@ -134,7 +198,10 @@
       })(window, document, 'script', 'dataLayer', 'GTM-TKQNXXK');
     </script>
     <!-- End Google Tag Manager -->
-
+    <!-- Google tag (gtag.js) --> 
+    <script async defer="defer" src="https://www.googletagmanager.com/gtag/js?id=AW-961149424"></script> 
+    <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-961149424'); </script>
+    
     {% if content_for_header contains 'fastbundle.co' %}
       {% render 'fast_bundle_service' %}
     {% endif %}
@@ -163,9 +230,9 @@
     {% comment %}
       {% render 'giftship' %}
     {% endcomment %}
-  </head>
+  {% include 'sm-red' %}</head>
 
-  <body class="h-full text-[12px] md:text-[14px] leading-[1.7] font-light text-blue-1">
+  <body id="{{ page_title | handle }}" class="h-full text-[12px] md:text-[14px] leading-[1.7] font-light text-blue-1">
     <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
@@ -198,48 +265,23 @@
       {% if request.page_type == 'product' %}
         id="product-wrap"
       {% endif %}
-      class="{% if request.page_type == 'product' %}group/prodwrap [&.no-drawer]:max-md:!overflow-auto max-md:!h-full max-md:pt-[90px] max-md:w-full max-md:!overflow-hidden {% endif %}"
+      class=""
     >
-      {% if request.page_type == 'product' and product.images.size > 0 %}
-        {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
-        <div
-          id="product-mobile-gallery"
-          class="group-[.no-drawer]/prodwrap:max-md:!h-auto h-full relative md:!hidden overflow-x-hidden max-md:overscroll-none max-md:h-[calc(100%_+_90px)] max-md:mt-[-90px]"
-        >
-          <div class="group-[.no-drawer]/prodwrap:max-md:!relative absolute inset-0 bottom-[var(--product-panel)]">
-            {% render 'product-media-gallery', variant_images: variant_images, group_class: '', mob: true %}
-            <div class="h-[var(--product-panel)]"></div>
-          </div>
-        </div>
-      {% endif %}
-
       <div
         {% if request.page_type == 'product' %}
           id="product-page"
         {% endif %}
-        class="
-          {% if request.page_type == 'product' %}max-md:opacity-0 max-md:transition-opacity group-[.no-drawer]/prodwrap:max-md:!h-auto group-[.no-drawer]/prodwrap:max-md:!translate-y-0 select-none max-md:flex max-md:flex-col max-md:h-full max-md:bg-white/90 relative group/product-page will-change-transform [&.init]:max-md:translate-y-[calc(-0%_-_var(--product-panel))] md:!translate-x-0 data-[pos=top]:max-md:bg-white data-[pos=top]:max-md:shadow-megamenu max-md:!ease-in-out {% endif %}
-          {% if request.page_type == 'product' %}{%- unless product.media.size > 0 -%}max-md:!overflow-auto max-md:transform-none{%- endunless -%}{%endif%}
-        "
+        class=""
         data-pos=""
       >
         {% if request.page_type == 'product' %}
-          <div
-            id="product-info-handle"
-            class="product__info-handle flex md:hidden justify-center py-7 after:w-[40px] after:h-[2px] after:bg-blue-1/10 after:rounded-sm bg-white/90 translate-y-[calc(0%_-_var(--product-panel))] group-[.init]/product-page:translate-y-0 group-[.init]/product-page:bg-transparent group-[.no-drawer]/prodwrap:hidden"
-          ></div>
-          <div
-            id="product-info-wrap"
-            class="product__info-wrap max-md:overflow-hidden max-md:overscroll-none group-[.no-drawer]/prodwrap:max-md:pt-7"
-          >
-            <main id="MainContent" class="outline-none" role="main">
-              {{ content_for_layout }}
-            </main>
+          <main id="MainContent" class="outline-none" role="main">
+            {{ content_for_layout }}
+          </main>
 
-            <footer class="footer bg-grey-2">
-              {% sections 'footer-group' %}
-            </footer>
-          </div>
+          <footer class="footer bg-grey-2">
+            {% sections 'footer-group' %}
+          </footer>
         {% elsif request.page_type == 'article' %}
           <main id="MainContent" class="outline-none" role="main">
             <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
@@ -321,33 +363,24 @@
       ></script>
     {% endif %}
 
-    {% if page.handle == 'contact' %}
-      <iframe
-        title="Kapchat"
-        id="kapchat-iframe"
-        data-src="https://selfserveapp.kapturecrm.com/web-view/webview_chat.html?script_type=NR&data-supportkey=382672a9444a45907f123f900f57d383d3ba25a15388818198&chat-for=TICKET&origin=iframe"
-        frameborder="0"
-        style="visibility: visible;opacity: 1;transform:translateY(0);transition: 0.3s; position: fixed;right: 30px;bottom: 30px;z-index: 99999;font-family:'Poppins', sans-serif; width: 75px;height: 80px;border-radius: 15px;"
-      ></iframe>
-      <script type="text/javascript">
-        window.addEventListener('message', handleMessage);
-        function handleMessage(event) {
-          if (event.data.iframeStyle != undefined) {
-            document.getElementById('kapchat-iframe').style.height = event.data.iframeStyle.height;
-            document.getElementById('kapchat-iframe').style.width = event.data.iframeStyle.width;
-            document.getElementById('kapchat-iframe').style.right = event.data.iframeStyle.right;
-            document.getElementById('kapchat-iframe').style.bottom = event.data.iframeStyle.bottom;
-            document.getElementById('kapchat-iframe').style.borderRadius = event.data.iframeStyle.borderradius;
-          }
-        }
-      </script>
+    {% if request.page_type != 'product' %}
+      <script
+        type="text/javascript"
+        async
+        defer="defer"
+        id="kap-snippet"
+        data-supportkey="382672a9444a45907f123f900f57d383d3ba25a15388818198"
+        chat-for="TICKET"
+        src="https://selfserveapp.kapturecrm.com/js/init_chat.js"
+        server-host="ms-noauth"
+        chat-type="NR"
+      ></script>
     {% endif %}
 
-    {%- render 'ecom_footer' -%}
-    {% include 'revy-bundle-script' %}
+    
     <!-- PickyStory snippet "main_widget_script", do not modify. Safe to remove after the app is uninstalled -->
     {% if content_for_header contains 'pickystory' %}
-      <script defer src="https://cdn.pickystory.com/widget/dist/latest/pickystory-widget.min.js"></script>
+      <script defer async src="https://cdn.pickystory.com/widget/dist/latest/pickystory-widget.min.js"></script>
     {% endif %}
     <!-- PickyStory end snippet "main_widget_script" -->
   </body>
