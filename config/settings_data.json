@@ -169,30 +169,6 @@
         "settings": {
         }
       },
-      "15014643352720781508": {
-        "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
-        "disabled": false,
-        "settings": {
-          "gift_thumbnail_enabled": false,
-          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
-          "gift_thumbnail_size": 40,
-          "message_enabled": true,
-          "sender_recipient": "both",
-          "message_max_length": 200,
-          "message_position_override": true,
-          "show_pricing": true,
-          "money_filter": "money_with_currency",
-          "variant_selector_type": "images",
-          "disabled_checkbox": false,
-          "font_scale": 100,
-          "font_color": "#2c3b96",
-          "checkbox_radio_color": "rgba(0,0,0,0)",
-          "background_color": "#ffffff",
-          "border_color": "#2c3b96",
-          "border_radius": 6,
-          "cart_widget_text_alignment": "--wrapped-checkbox--label-right"
-        }
-      },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
@@ -209,6 +185,33 @@
         "type": "shopify:\/\/apps\/securify-block-ip-country\/blocks\/app-embed\/e3ed2576-9111-486f-86eb-a36b6bee4e94",
         "disabled": false,
         "settings": {
+        }
+      },
+      "15014643352720781508": {
+        "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
+        "disabled": false,
+        "settings": {
+          "gift_thumbnail_enabled": false,
+          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
+          "gift_thumbnail_size": 40,
+          "message_enabled": true,
+          "sender_recipient": "both",
+          "message_max_length": 250,
+          "message_position_override": true,
+          "show_pricing": true,
+          "money_filter": "money_with_currency",
+          "variant_selector_type": "images",
+          "disabled_checkbox": false,
+          "extension_border_color": "#000000",
+          "extension_background_primary_color": "#ffffff",
+          "extension_background_secondary_color": "#f3f3f3",
+          "font_scale": 100,
+          "font_color": "#2c3b96",
+          "checkbox_radio_color": "rgba(0,0,0,0)",
+          "background_color": "#ffffff",
+          "border_color": "#2c3b96",
+          "border_radius": 6,
+          "cart_widget_text_alignment": "--wrapped-checkbox--label-right"
         }
       }
     },
