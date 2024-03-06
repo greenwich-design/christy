@@ -663,6 +663,7 @@
     },
     "2970b3ab-743a-4054-95d1-048d41881e08": {
       "type": "quiz-popup",
+      "disabled": true,
       "settings": {
         "title": "What's your perfect towel?",
         "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
