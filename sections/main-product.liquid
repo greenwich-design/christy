@@ -147,7 +147,7 @@
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
   {% if product.collections.size > 0 %}
-    <nav class="breadcrumb container mt-10 mb-12 max-md:hidden" date-url="{{ request.path }}">
+    <nav class="breadcrumb container mt-10 mb-12 max-md:hidden" date-url="{{ request.origin }}">
       <ul class="flex flex-wrap text-blue-1 gap-1">
         {% assign collectionsCount = product.collections.size %}
         <li>
