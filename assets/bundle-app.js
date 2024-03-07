@@ -332,6 +332,7 @@ var bundleApp = {
           var variantData = bundleData.variants.find(function (variant) {
             return variant.id === varId;
           });
+          console.log("variantData",variantData);
           var quantity = 1;
           if (step.quantity) {
             quantity = step.quantity;
