@@ -175,7 +175,7 @@
     start of bundle
   {% endcomment %}
   {% assign bundleData = product.metafields.christyapp.bundleData %}
-  {% if bundleData and product.selected_variant.id == null %}
+  {% if bundleData %}
     {% render 'bundle-builder',
       bundleData: bundleData,
       product: product,
