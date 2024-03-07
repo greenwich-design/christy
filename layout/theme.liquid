@@ -364,23 +364,17 @@
     {% endif %}
 
     {% if request.page_type != 'product' %}
-      
       <script
         type="text/javascript"
-      >
-        window.addEventListener("load", (event) => {
-          var scriptElement=document.createElement('script');
-          scriptElement.type = 'text/javascript';
-          scriptElement.src = "https://selfserveapp.kapturecrm.com/js/init_chat.js";
-          scriptElement.setAttribute("data-supportkey","382672a9444a45907f123f900f57d383d3ba25a15388818198");
-          scriptElement.setAttribute("id","kap-snippet");
-          scriptElement.setAttribute("server-host","ms-noauth");
-          scriptElement.setAttribute("chat-type","NR");
-          scriptElement.setAttribute("chat-for","TICKET");
-          document.head.appendChild(scriptElement);
-        })
-        
-      </script>
+        async
+        defer="defer"
+        id="kap-snippet"
+        data-supportkey="382672a9444a45907f123f900f57d383d3ba25a15388818198"
+        chat-for="TICKET"
+        src="https://selfserveapp.kapturecrm.com/js/init_chat.js"
+        server-host="ms-noauth"
+        chat-type="NR"
+      ></script>
     {% endif %}
   </body>
 </html>
