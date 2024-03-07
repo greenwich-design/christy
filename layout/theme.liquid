@@ -232,23 +232,24 @@
     {% endif %}
 
     {% if request.page_type != 'product' %}
-      <script
-        type="text/javascript"
-      >
-        window.addEventListener("load", (event) => {
-          var tag = document.createElement("script");
-          tag.src = "https://selfserveapp.kapturecrm.com/js/init_chat.js";
-          tag.type="text/javascript"
-          tag.setAttribute("async","true")
-          tag.setAttribute("defer","defer")
-          tag.setAttribute("id","kap-snippet")
-          tag.setAttribute("data-supportkey","382672a9444a45907f123f900f57d383d3ba25a15388818198")
-          tag.setAttribute("chat-for","TICKET")
-          tag.setAttribute("server-host","ms-noauth")
-          tag.setAttribute("chat-type","NR")
-          document.getElementsByTagName("head")[0].appendChild(tag);
-        })
-        
+      <iframe
+        title="Kapchat"
+        id="kapchat-iframe"
+        data-src="https://selfserveapp.kapturecrm.com/web-view/webview_chat.html?script_type=NR&data-supportkey=382672a9444a45907f123f900f57d383d3ba25a15388818198&chat-for=TICKET&origin=iframe"
+        frameborder="0"
+        style="visibility: visible;opacity: 1;transform:translateY(0);transition: 0.3s; position: fixed;right: 30px;bottom: 30px;z-index: 99999;font-family:'Poppins', sans-serif; width: 75px;height: 80px;border-radius: 15px;"
+      ></iframe>
+      <script type="text/javascript">
+        window.addEventListener('message', handleMessage);
+        function handleMessage(event) {
+          if (event.data.iframeStyle != undefined) {
+            document.getElementById('kapchat-iframe').style.height = event.data.iframeStyle.height;
+            document.getElementById('kapchat-iframe').style.width = event.data.iframeStyle.width;
+            document.getElementById('kapchat-iframe').style.right = event.data.iframeStyle.right;
+            document.getElementById('kapchat-iframe').style.bottom = event.data.iframeStyle.bottom;
+            document.getElementById('kapchat-iframe').style.borderRadius = event.data.iframeStyle.borderradius;
+          }
+        }
       </script>
     {% endif %}
   </body>
