@@ -150,22 +150,6 @@
         "copy_font_family": "sans-serif"
       }
     },
-    "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
-      "type": "images-copy-cta",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Riley-Jacquard-Platinum_5d5a020a-9d20-45ff-96df-c234f9d781da.jpg",
-        "image2": "shopify:\/\/shop_images\/20064A_032.jpg",
-        "subtitle": "",
-        "title": "<p>Sleep Awareness Week<\/p>",
-        "copy": "<p>11th - 17th March<\/p><p>Sleep Awareness Week is an annual event to raise awareness about the importance of sleep and its impact on health, well-being, and overall quality of life.<\/p><p>The week-long event serves as an opportunity to highlight the significance of getting enough sleep and the role it plays in maintaining physical and mental health. It also encourages individuals to prioritise sleep and make necessary adjustments to their lifestyle habits to ensure they are getting adequate rest.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
-      }
-    },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
       "type": "collections-carousel",
       "blocks": {
@@ -228,6 +212,22 @@
           "stornoway-chambray"
         ],
         "screen_visibility": "both"
+      }
+    },
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Riley-Jacquard-Platinum_5d5a020a-9d20-45ff-96df-c234f9d781da.jpg",
+        "image2": "shopify:\/\/shop_images\/20064A_032.jpg",
+        "subtitle": "",
+        "title": "<p>Sleep Awareness Week<\/p>",
+        "copy": "<p>11th - 17th March<\/p><p>Sleep Awareness Week is an annual event to raise awareness about the importance of sleep and its impact on health, well-being, and overall quality of life.<\/p><p>The week-long event serves as an opportunity to highlight the significance of getting enough sleep and the role it plays in maintaining physical and mental health. It also encourages individuals to prioritise sleep and make necessary adjustments to their lifestyle habits to ensure they are getting adequate rest.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
       }
     },
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
@@ -434,6 +434,7 @@
     },
     "hero_image_xJdRky": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/throw_lifestyle.jpg",
         "link": "shopify:\/\/products\/rosa-throw-and-cushion-bundle",
@@ -847,9 +848,9 @@
     "b9932fb5-c80a-402d-977c-e883e9dff131",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "c_info_columns_gmFa3p",
-    "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "products_carousel_bQqamG",
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
     "products_carousel_CMFJm6",
