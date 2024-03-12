@@ -224,7 +224,9 @@
         "button_title": "",
         "button_link": "",
         "products": [
-          "edmonton"
+          "edmonton",
+          "metropolitan-cushion",
+          "metropolitan-throw"
         ],
         "screen_visibility": "both"
       }
