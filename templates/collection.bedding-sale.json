@@ -243,7 +243,7 @@
     "products_carousel_CMFJm6": {
       "type": "products-carousel",
       "settings": {
-        "title": "Gifts Under £50",
+        "title": "Sale | Up to 40% Off Duvets & Pillows",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -251,13 +251,9 @@
         "button_title": "",
         "button_link": "",
         "products": [
-          "super-soft-cosy-robe",
-          "jaipur-cushion",
-          "wimbledon-2024-championship-towel",
-          "supreme-hygro",
-          "luxe-towels",
-          "mode-towels",
-          "cirrus-bath-sheet-bundle"
+          "anti-allergy-mattress-and-pillow-protectors",
+          "superior-soft-touch-anti-allergy-4-5-tog-duvet-and-pillow",
+          "superior-soft-touch-anti-allergy-pillow-1"
         ],
         "screen_visibility": "both"
       }
