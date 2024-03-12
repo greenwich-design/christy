@@ -150,6 +150,22 @@
         "copy_font_family": "sans-serif"
       }
     },
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Riley-Jacquard-Platinum_5d5a020a-9d20-45ff-96df-c234f9d781da.jpg",
+        "image2": "shopify:\/\/shop_images\/20064A_032.jpg",
+        "subtitle": "",
+        "title": "<p>Sleep Awareness Week<\/p>",
+        "copy": "<p>11th - 17th March<\/p><p>Sleep Awareness Week is an annual event to raise awareness about the importance of sleep and its impact on health, well-being, and overall quality of life.<\/p><p>The week-long event serves as an opportunity to highlight the significance of getting enough sleep and the role it plays in maintaining physical and mental health. It also encourages individuals to prioritise sleep and make necessary adjustments to their lifestyle habits to ensure they are getting adequate rest.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
+      }
+    },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
       "type": "collections-carousel",
       "blocks": {
@@ -359,22 +375,6 @@
         "alignment_mob": "center",
         "horiz_padding": true,
         "margin_top": false
-      }
-    },
-    "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
-      "type": "images-copy-cta",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Riley-Jacquard-Platinum_5d5a020a-9d20-45ff-96df-c234f9d781da.jpg",
-        "image2": "shopify:\/\/shop_images\/20064A_032.jpg",
-        "subtitle": "",
-        "title": "<p>Sleep Awareness Week<\/p>",
-        "copy": "<p>11th - 17th March<\/p><p>Sleep Awareness Week is an annual event to raise awareness about the importance of sleep and its impact on health, well-being, and overall quality of life.<\/p><p>The week-long event serves as an opportunity to highlight the significance of getting enough sleep and the role it plays in maintaining physical and mental health. It also encourages individuals to prioritise sleep and make necessary adjustments to their lifestyle habits to ensure they are getting adequate rest.<\/p>",
-        "button_label": "",
-        "button_link": "",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
       }
     },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
@@ -847,6 +847,7 @@
     "b9932fb5-c80a-402d-977c-e883e9dff131",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "c_info_columns_gmFa3p",
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "products_carousel_bQqamG",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
@@ -856,7 +857,6 @@
     "rich_text_yiEkhT",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
-    "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "hero_image_xJdRky",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
