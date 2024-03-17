@@ -217,6 +217,7 @@ var bundleApp = {
       }, 500);
     }
     function getProductUrl() {
+      console.log("currentStep------",currentStep)
       if (currentStep == 0) {
         return "/products/".concat(bundleData.bundleData.mainHandle, "?section_id=").concat(sectionId);
       }
