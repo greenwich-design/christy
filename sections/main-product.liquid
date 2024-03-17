@@ -13,7 +13,7 @@
   id="MainProduct-{{ section.id }}"
   class="page-width section-{{ section.id }}-padding"
   data-section="{{ section.id }}"
-  path="{{ request.path }}"
+  path="{{ request.params }}"
 >
   {%- capture variant_skus -%}
     {%- for variant in product.variants -%}
