@@ -174,8 +174,17 @@
   {% comment %}
     start of bundle
   {% endcomment %}
+  {%- capture contentForQuerystring -%}{{ content_for_header }}{%- endcapture -%}
+  {%- assign pageUrl = contentForQuerystring
+    | split: '"pageurl":"'
+    | last
+    | split: '","'
+    | first
+    | split: 'isAjax=true'
+  -%}
+
   {% assign bundleData = product.metafields.christyapp.bundleData %}
-  {% if bundleData and product.selected_variant.id == null %}
+  {% if bundleData and pageUrl.size == 1 %}
     {% render 'bundle-builder',
       bundleData: bundleData,
       product: product,
@@ -183,6 +192,7 @@
       current_variant: current_variant,
       selected_colour: selected_colour
     %}
+
   {% else %}
     {% comment %}
       end of bundle

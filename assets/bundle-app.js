@@ -219,7 +219,7 @@ var bundleApp = {
     function getProductUrl() {
       console.log("currentStep------",currentStep)
       if (currentStep == 0) {
-        return "/products/".concat(bundleData.bundleData.mainHandle, "?section_id=").concat(sectionId);
+        return "/products/".concat(bundleData.bundleData.mainHandle, "?isAjax=true&section_id=").concat(sectionId);
       }
       var _bundleData$steps = bundleData.steps[currentStep - 1],
         handle = _bundleData$steps.handle,
@@ -230,9 +230,9 @@ var bundleApp = {
           return variant.id.replace('gid://shopify/ProductVariant/', '');
         });
         var varIdsString = varIds.join(':');
-        return "/products/".concat(handle, "/v:").concat(varIdsString, ",sv:").concat(variantId, "&section_id=").concat(sectionId);
+        return "/products/".concat(handle, "/v:").concat(varIdsString, ",sv:").concat(variantId, "?isAjax=true&section_id=").concat(sectionId);
       } else {
-        return "/products/".concat(handle, "?variant=").concat(variantId, "&section_id=").concat(sectionId);
+        return "/products/".concat(handle, "?isAjax=true&variant=").concat(variantId, "&section_id=").concat(sectionId);
       }
     }
     if (btnPrev.length) {
