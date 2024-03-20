@@ -3,10 +3,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1920X960_BATH_1.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/768X768_BATH_1.jpg",
-        "image_tab": "shopify:\/\/shop_images\/1024X1024_BATH_1.jpg",
-        "link": "shopify:\/\/collections\/all-bath",
+        "image": "shopify:\/\/shop_images\/1920x960_SPRING_BLOOM_1.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/768X768_SPRING_BLOOM_1.jpg",
+        "image_tab": "shopify:\/\/shop_images\/1024x1024_SPRING_BLOOM_1.jpg",
+        "link": "shopify:\/\/collections",
         "full_width": true
       }
     },
