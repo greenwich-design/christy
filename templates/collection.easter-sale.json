@@ -3,7 +3,7 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/THIN_BANNER_1500X500_1_2.jpg",
+        "image": "shopify:\/\/shop_images\/TWITTER_BANNER.jpg",
         "image_mobile": "shopify:\/\/shop_images\/768X768_3_3.jpg",
         "image_tab": "shopify:\/\/shop_images\/1024X1024_1_2.jpg",
         "link": "",
@@ -12,6 +12,7 @@
     },
     "b9932fb5-c80a-402d-977c-e883e9dff131": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/throw_portrait.jpg",
         "image2": "shopify:\/\/shop_images\/throw_portrait2.jpg",
@@ -149,6 +150,26 @@
         "copy_font_family": "sans-serif"
       }
     },
+    "products_carousel_bQqamG": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Easter Sale | Up to 50% Off",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "",
+        "button_link": "",
+        "products": [
+          "400-thread-count-sateen-plain-dye",
+          "brixton-towels",
+          "fennel-print-duvet-set",
+          "copy-of-smooth-and-silky-cotton-sateen-deep-fitted-sheet-400-thread-count",
+          "serene-550-gsm-combed-cotton"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
       "type": "collections-carousel",
       "blocks": {
@@ -158,8 +179,8 @@
             "collection": "all-loungewear",
             "usp_title": "",
             "image": "shopify:\/\/shop_images\/Cosy-Robe-Very-Berry-3_92d8b474-eb48-476d-afd1-5309c132f8ed.jpg",
-            "alt_title": "Indulgent Robes",
-            "excerpt": "<h1>Explore plush and super soft robes that exude cosy comfort.<\/h1>"
+            "alt_title": "",
+            "excerpt": ""
           }
         },
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
@@ -189,27 +210,7 @@
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
       "settings": {
-        "title": "Our Mother's Day Gift Collection",
-        "screen_visibility": "both"
-      }
-    },
-    "products_carousel_bQqamG": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Sale | Up to 50% Off",
-        "title_font_size_mob": 18,
-        "title_font_size_desktop": 30,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "button_title": "",
-        "button_link": "",
-        "products": [
-          "400-thread-count-sateen-plain-dye",
-          "brixton-towels",
-          "fennel-print-duvet-set",
-          "copy-of-smooth-and-silky-cotton-sateen-deep-fitted-sheet-400-thread-count",
-          "serene-550-gsm-combed-cotton"
-        ],
+        "title": "Shop By Category",
         "screen_visibility": "both"
       }
     },
@@ -385,68 +386,6 @@
         "header_position": false,
         "images_half_width": false,
         "anchor_id": ""
-      }
-    },
-    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
-      "type": "c-info-columns",
-      "blocks": {
-        "ffe46c4a-76e3-4116-904c-69ac29f094fb": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Step 1",
-            "text": "<p>Choose your gift items from across our collections and add to cart.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Step 2",
-            "text": "<p>Check the \"Make it extra special with a gift box\" option at the bottom of the cart (£5 per gift box).<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Step 3",
-            "text": "<p>Add a free personal message to your loved one and proceed to checkout. All done!<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        }
-      },
-      "block_order": [
-        "ffe46c4a-76e3-4116-904c-69ac29f094fb",
-        "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea",
-        "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5"
-      ],
-      "settings": {
-        "title": "It takes 3 Simple Steps",
-        "title_font_size_mob": 16,
-        "title_font_size_desktop": 20,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "copy_font_size_mob": 12,
-        "copy_font_size_desktop": 14,
-        "copy_font_weight": "300",
-        "copy_font_family": "sans-serif"
-      }
-    },
-    "hero_image_xJdRky": {
-      "type": "hero-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/throw_lifestyle.jpg",
-        "link": "https:\/\/www.christy.co.uk\/products\/rosa-throw-and-cushion-bundle",
-        "full_width": true
       }
     },
     "955ae530-8662-43db-b9cc-df67f9e5bda7": {
@@ -857,8 +796,8 @@
     "b9932fb5-c80a-402d-977c-e883e9dff131",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "c_info_columns_gmFa3p",
-    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "products_carousel_bQqamG",
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
     "products_carousel_CMFJm6",
@@ -867,8 +806,6 @@
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
-    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
-    "hero_image_xJdRky",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
     "393634d4-53d9-4c8e-be41-45c5d425188a",
