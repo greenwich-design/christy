@@ -27,32 +27,6 @@
         "anchor_id": ""
       }
     },
-    "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
-      "type": "hero-collection",
-      "blocks": {
-        "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Halloween_1200X628_1_1.jpg",
-            "mobile_media": "image",
-            "subtitle": "",
-            "mobile_subtitle": "show",
-            "title": "",
-            "mob_title": "",
-            "copy": "",
-            "copy_visibility": "mobile",
-            "collection": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1"
-      ],
-      "disabled": true,
-      "settings": {
-      }
-    },
     "c_info_columns_gmFa3p": {
       "type": "c-info-columns",
       "blocks": {
@@ -222,8 +196,8 @@
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
         "title_font_family": "sans-serif",
-        "button_title": "Explore More",
-        "button_link": "https:\/\/www.christy.co.uk\/collections\/gifts",
+        "button_title": "",
+        "button_link": "",
         "products": [
           "mode-towels",
           "luxe-towels",
@@ -236,6 +210,7 @@
     },
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1920X960_1_70722709-75cb-445e-b547-b8ed1d192146.jpg",
         "link": "shopify:\/\/collections\/bedroom-bedroom-sale",
@@ -245,7 +220,7 @@
     "products_carousel_CMFJm6": {
       "type": "products-carousel",
       "settings": {
-        "title": "Gifts Under £50",
+        "title": "Bestseller Sale",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -258,8 +233,7 @@
           "wimbledon-2024-championship-towel",
           "supreme-hygro",
           "luxe-towels",
-          "mode-towels",
-          "cirrus-bath-sheet-bundle"
+          "400-thread-count-sateen-plain-dye"
         ],
         "screen_visibility": "both"
       }
@@ -788,7 +762,6 @@
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
-    "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "c_info_columns_gmFa3p",
     "products_carousel_bQqamG",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
