@@ -259,6 +259,23 @@
         "screen_visibility": "both"
       }
     },
+    "products_carousel_Rg7kmH": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Bedding Sale | Up to 50% Off",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "",
+        "button_link": "",
+        "products": [
+          "jaipur-cushion",
+          "400-thread-count-sateen-plain-dye"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "2594a997-818a-4de5-b1c1-015972b655d2": {
       "type": "rich-text",
       "blocks": {
@@ -771,6 +788,7 @@
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
     "products_carousel_CMFJm6",
+    "products_carousel_Rg7kmH",
     "2594a997-818a-4de5-b1c1-015972b655d2",
     "rich_text_yiEkhT",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
