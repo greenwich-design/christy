@@ -232,10 +232,9 @@
     },
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/1920X960_1_70722709-75cb-445e-b547-b8ed1d192146.jpg",
-        "link": "shopify:\/\/collections\/bedroom-bedroom-sale",
+        "image": "shopify:\/\/shop_images\/BANNER_1920X1080_8.jpg",
+        "link": "shopify:\/\/collections\/all-bundles",
         "full_width": true
       }
     },
@@ -576,24 +575,6 @@
         "margin": "yes"
       }
     },
-    "32651ade-df62-44f5-8355-bb4039f60426": {
-      "type": "billboard",
-      "disabled": true,
-      "settings": {
-        "screen_visibility": "both",
-        "image": "shopify:\/\/shop_images\/Fennel_Lifestyle_4.jpg",
-        "subtitle": "",
-        "title": "<p>Bedding<\/p><p><\/p><p>Flat 25% Off<\/p>",
-        "copy": "",
-        "button_label": "Shop Now",
-        "button_link": "shopify:\/\/collections\/autumn-winter-2023-collection",
-        "button_type": "default",
-        "colour_theme": "white",
-        "alignment": "left",
-        "alignment_vertical": "top",
-        "mobile_content_position": "below"
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -800,7 +781,6 @@
     "393634d4-53d9-4c8e-be41-45c5d425188a",
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
     "07a57dc8-34ac-41ee-96df-37021aef7941",
-    "32651ade-df62-44f5-8355-bb4039f60426",
     "product-grid",
     "recent-products",
     "toggled-body-content"
