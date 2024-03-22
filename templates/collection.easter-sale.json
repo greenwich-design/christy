@@ -126,6 +126,7 @@
     },
     "products_carousel_bQqamG": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "Easter Sale | Up to 50% Off",
         "title_font_size_mob": 18,
@@ -270,13 +271,13 @@
         "button_title": "",
         "button_link": "",
         "products": [
+          "stornoway-chambray",
           "jaipur-cushion",
           "400-thread-count-sateen-plain-dye",
           "coniston-bed-linen",
           "suffolk-garden-print-duvet-set",
           "metropolitan-cushion",
-          "organic-retreat",
-          "stornoway-chambray"
+          "organic-retreat"
         ],
         "screen_visibility": "both"
       }
