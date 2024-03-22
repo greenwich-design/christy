@@ -150,10 +150,10 @@
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
           "type": "collection",
           "settings": {
-            "collection": "all-loungewear",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Cosy-Robe-Very-Berry-3_92d8b474-eb48-476d-afd1-5309c132f8ed.jpg",
-            "alt_title": "",
+            "collection": "towels",
+            "usp_title": "Up To 50% Off",
+            "image": "shopify:\/\/shop_images\/2_aa7403ce-e002-47fb-86aa-1b9cd132d77b.jpg",
+            "alt_title": "Towels & Bath Mats",
             "excerpt": ""
           }
         },
@@ -342,6 +342,7 @@
     },
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Gift_2.webp",
         "image2": "shopify:\/\/shop_images\/robe_box.jpg",
@@ -619,7 +620,6 @@
         "77b7bcba-adf8-4b59-84fa-2aed599efb4a",
         "9b178935-07f5-49c1-b91b-796defd6ca93"
       ],
-      "disabled": true,
       "settings": {
         "products_per": 12
       }
