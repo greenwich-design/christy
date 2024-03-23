@@ -4,8 +4,8 @@
       "type": "hero-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/TWITTER_BANNER.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/768X768_3_3.jpg",
-        "image_tab": "shopify:\/\/shop_images\/1024X1024_1_2.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/EASTER_BANNER_768X768_OPTION_2.jpg",
+        "image_tab": "shopify:\/\/shop_images\/EASTER_BANNER_1024x1024_OPTION_2.jpg",
         "link": "",
         "full_width": true
       }
