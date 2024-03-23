@@ -1181,7 +1181,7 @@ class VariantSelects extends HTMLElement {
     const requestedVariantId = this.currentVariant.id;
     const sectionId = this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section;
     let showAjax = false;
-    const isAjax = window.location.search.indexOf('isAjax') > -1
+    const isAjax = window.location.search.indexOf('bundle') > -1
       showAjax = true;
     fetch(
       `${this.dataset.url}?${isAjax?'isAjax=true':''}variant=${requestedVariantId}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section
