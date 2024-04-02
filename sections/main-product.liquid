@@ -784,12 +784,12 @@
                       //Possible layout options: bordered, large and reverse.
                       layout: '',
                       //How many reviews & questions to show per page?
-                      per_page: 15,
+                      per_page: 5,
                       store_review:{
-                        hide_if_no_results: false,
+                        hide_if_no_results: true,
                       },
                       third_party_review:{
-                        hide_if_no_results: false,
+                        hide_if_no_results: true,
                       },
                       product_review: {
                         sku: "{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}",
@@ -901,8 +901,8 @@
                           enable_write_review: true, //Show "Write Review" button
                           enable_ask_question: true, //Show "Ask Question" button
                           enable_sub_header: true, //Show subheader
-                          rating_decimal_places: 2,
-                          use_write_review_button:  false, //Show "be the first to leave a review" text as a button
+                          rating_decimal_places: 1,
+                          use_write_review_button:  true, //Show "be the first to leave a review" text as a button
                       },
                   
                       //Filtering settings:
@@ -967,23 +967,23 @@
                       '--common-button-border-radius':'0px',
                   
                       //Primary button styles:
-                      '--primary-button-bg-color': '#0E1311',
-                      '--primary-button-border-color': '#0E1311',
+                      '--primary-button-bg-color': '#2c3b96',
+                      '--primary-button-border-color': '#2c3b96',
                       '--primary-button-text-color': '#ffffff',
                   
                       //Secondary button styles:
                       '--secondary-button-bg-color': 'transparent',
-                      '--secondary-button-border-color': '#0E1311',
-                      '--secondary-button-text-color': '#0E1311',
+                      '--secondary-button-border-color': '#2c3b96',
+                      '--secondary-button-text-color': '#2c3b96',
                   
                       //Star styles:
-                      '--common-star-color': '#0E1311',
+                      '--common-star-color': '#2c3b96',
                       '--common-star-disabled-color': 'rgba(0,0,0,0.25)',
                       '--medium-star-size': '22px',
                       '--small-star-size': '19px',
                   
                       //Heading styles:
-                      '--heading-text-color': '#0E1311',
+                      '--heading-text-color': '#2c3b96',
                       '--heading-text-font-weight': '600',
                       '--heading-text-font-family': 'inherit',
                       '--heading-text-line-height': '1.4',
@@ -991,7 +991,7 @@
                       '--heading-text-transform': 'none',
                   
                       //Body text styles:
-                      '--body-text-color': '#0E1311',
+                      '--body-text-color': '#2c3b96',
                       '--body-text-font-weight': '400',
                       '--body-text-font-family': 'inherit',
                       '--body-text-line-height': '1.4',
@@ -1002,7 +1002,7 @@
                       '--inputfield-text-font-family': 'inherit',
                       '--input-text-font-size': '14px',
                       '--inputfield-text-font-weight': '400',
-                      '--inputfield-text-color': '#0E1311',
+                      '--inputfield-text-color': '#2c3b96',
                       '--inputfield-border-color': 'rgba(0,0,0,0.2)',
                       '--inputfield-background-color': 'transparent',
                       '--inputfield-border-width': '1px',
@@ -1021,13 +1021,13 @@
                   
                       //Slider indicator (for attributes) styles:
                       '--slider-indicator-bg-color': 'rgba(0,0,0,0.1)',
-                      '--slider-indicator-button-color': '#0E1311',
+                      '--slider-indicator-button-color': '#2c3b96',
                       '--slider-indicator-width': '190px',
                   
                       //Badge styles:
-                      '--badge-icon-color': '#0E1311',
+                      '--badge-icon-color': '#2c3b96',
                       '--badge-icon-font-size': 'inherit',
-                      '--badge-text-color': '#0E1311',
+                      '--badge-text-color': '#2c3b96',
                       '--badge-text-font-size': 'inherit',
                       '--badge-text-letter-spacing': 'inherit',
                       '--badge-text-transform': 'inherit',
@@ -1039,7 +1039,7 @@
                       //Author avatar styles:
                       '--avatar-thumbnail-size': '60px',
                       '--avatar-thumbnail-border-radius': '100px',
-                      '--avatar-thumbnail-text-color': '#0E1311',
+                      '--avatar-thumbnail-text-color': '#2c3b96',
                       '--avatar-thumbnail-bg-color': 'rgba(0,0,0,0.1)',
                   
                       //Product photo or review photo styles:
@@ -1054,16 +1054,16 @@
                       '--mediaslider-item-size': '110px',
                   
                       //Pagination & tabs styles (normal):
-                      '--pagination-tab-text-color': '#0E1311',
+                      '--pagination-tab-text-color': '#2c3b96',
                       '--pagination-tab-text-transform': 'none',
                       '--pagination-tab-text-letter-spacing': '0',
                       '--pagination-tab-text-font-size': '16px',
                       '--pagination-tab-text-font-weight': '600',
                   
                       //Pagination & tabs styles (active):
-                      '--pagination-tab-active-text-color': '#0E1311',
+                      '--pagination-tab-active-text-color': '#2c3b96',
                       '--pagination-tab-active-text-font-weight': '600',
-                      '--pagination-tab-active-border-color': '#0E1311',
+                      '--pagination-tab-active-border-color': '#2c3b96',
                       '--pagination-tab-border-width': '3px',
                   },
                   });
