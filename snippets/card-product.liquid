@@ -213,7 +213,7 @@
                 hideSavingsMob: true
               %}
             {% else %}
-              <div class="whitespace-nowrap flex justify-between">
+              <div class="whitespace-nowrap">
                 {% if card_product.price_min != card_product.price_max %}
                   <p>
                     <strong class="block">
@@ -225,9 +225,10 @@
                     <strong class="block">{{ card_product.price | money }}</strong>
                   </p>
                 {% endif %}
-                <div class="ruk_rating_snippet" data-sku="{{ product.handle }};{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}"></div>
+                
               </div>
             {% endif %}
+            <div class="ruk_rating_snippet" data-sku="{{ product.handle }};{{ product.variants | map: 'sku' | join: ';' }};{{ product.variants | map: 'id' | join: ';' }}"></div>
           </div>
 
           <h3
