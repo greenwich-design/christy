@@ -130,16 +130,16 @@
           "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-card-carousel\/92a082e5-b297-4e88-b428-ac96cbc505f9",
           "settings": {
             "star": "#000",
-            "review_type": "product",
+            "review_type": "company, product",
             "reviews_shown": 20,
-            "header_bg_colour": "#000",
+            "header_bg_colour": "#2c3b96",
             "header_colour": "#fff",
             "header_star_colour": "#fff",
-            "heading_text_colour": "#0E1311",
+            "heading_text_colour": "#2c3b96",
             "heading_font": "helvetica_n4",
-            "body_text_colour": "#0E1311",
-            "badge_icon_colour": "#0E1311",
-            "badge_text_colour": "#0E1311",
+            "body_text_colour": "#2c3b96",
+            "badge_icon_colour": "#2c3b96",
+            "badge_text_colour": "#2c3b96",
             "bg_start_colour": "#ffffff",
             "bg_end_colour": "#ffffff",
             "item_border_width": "0px",
@@ -147,8 +147,8 @@
             "item_border_radius": "0px",
             "item_shadow_size": "10px",
             "item_shadow_colour": "rgba(0,0,0,0.05)",
-            "enable_rich_snippets": false,
-            "disable_same_customer": false,
+            "enable_rich_snippets": true,
+            "disable_same_customer": true,
             "logo_colour": "var(--logo-inverted)"
           }
         }

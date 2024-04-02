@@ -207,6 +207,14 @@
           "border_radius": 6,
           "cart_widget_text_alignment": "--wrapped-checkbox--label-right"
         }
+      },
+      "10830403595879607806": {
+        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-core\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": false,
+        "settings": {
+          "url_key": "REVIEWS.io",
+          "lang": "auto"
+        }
       }
     },
     "color_schemes": {
