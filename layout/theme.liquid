@@ -223,7 +223,7 @@
     <script src="{{ 'splide-config.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'Wishlist.js' | asset_url }}" defer="defer"></script>
 
-    {% if request.page_type == 'product' %}
+    
       <script src="https://widget.reviews.io/rating-snippet/dist.js"></script>
       <link rel="stylesheet" href="https://widget.reviews.io/rating-snippet/dist.css"/>
       <script>
@@ -239,7 +239,7 @@
         showEmptyStars: false,
       });
       </script>
-    {% endif %}
+    
   
     {% if request.page_type != 'product' %}
       <iframe
