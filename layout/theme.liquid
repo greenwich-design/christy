@@ -223,13 +223,7 @@
     <script src="{{ 'splide-config.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'Wishlist.js' | asset_url }}" defer="defer"></script>
 
-    {% if request.page_type == 'product ' %}
-      <script
-        type="text/javascript"
-        src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"
-        defer
-      ></script>
-    {% endif %}
+    
 
     {% if request.page_type != 'product' %}
       <iframe
