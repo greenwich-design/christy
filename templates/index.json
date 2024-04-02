@@ -123,15 +123,6 @@
         "screen_visibility": "both"
       }
     },
-    "custom_liquid_Hj4mrQ": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script src=\"https:\/\/widget.reviews.io\/carousel-inline-iframeless\/dist.js?_t=2024040215\"><\/script>\n<link rel=\"stylesheet\" href=\"https:\/\/assets.reviews.io\/css\/widgets\/carousel-widget.css?_t=2024040215\">\n<link rel=\"stylesheet\" href=\"https:\/\/assets.reviews.io\/iconfont\/reviewsio-icons\/style.css?_t=2024040215\">\n<div id=\"reviewsio-carousel-widget\"><\/div>\n<script>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "de1b0a2d-4cb0-4dbd-a641-18437895549a": {
       "type": "collections-carousel",
       "blocks": {
@@ -685,7 +676,6 @@
     "d2113c42-d705-4b50-99be-017b00de7fc9",
     "heading",
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad",
-    "custom_liquid_Hj4mrQ",
     "de1b0a2d-4cb0-4dbd-a641-18437895549a",
     "2a0e8d45-d132-480e-b6ff-c37f7ad453d7",
     "37b580cc-c4d2-4e4e-83ee-b35a93d386e3",
