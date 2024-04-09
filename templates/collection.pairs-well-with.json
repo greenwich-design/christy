@@ -3,9 +3,9 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/TWITTER_BANNER.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/EASTER_BANNER_768X768_OPTION_2.jpg",
-        "image_tab": "shopify:\/\/shop_images\/EASTER_BANNER_1024x1024_OPTION_2.jpg",
+        "image": "shopify:\/\/shop_images\/THIN_BANNER_SIBLINGS_DAY.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/THIN_BANNER_SIBLINGS_DAY_eb20aac6-0cc8-4625-8fca-5b9f614b13ac.jpg",
+        "image_tab": "shopify:\/\/shop_images\/THIN_BANNER_SIBLINGS_DAY_eb20aac6-0cc8-4625-8fca-5b9f614b13ac.jpg",
         "link": "",
         "full_width": true
       }
@@ -152,62 +152,40 @@
           "type": "collection",
           "settings": {
             "collection": "towels",
-            "usp_title": "Up To 50% Off",
-            "image": "shopify:\/\/shop_images\/2_aa7403ce-e002-47fb-86aa-1b9cd132d77b.jpg",
-            "alt_title": "Towels & Bath Mats",
-            "excerpt": "<p>Wrap yourself in luxury.<\/p>"
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/chambray-and-lerwick.jpg",
+            "alt_title": "Lerwick Stripe & Chambray",
+            "excerpt": ""
           }
         },
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
           "type": "collection",
           "settings": {
             "collection": "duvet-sets",
-            "usp_title": "Up To 50% Off",
-            "image": "shopify:\/\/shop_images\/Suffolk_Garden_2.jpg",
-            "alt_title": "Luxurious Bedding",
-            "excerpt": "<h1>Silky smooth sheets to sink into.<\/h1>"
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/stornoway-and-oslo.jpg",
+            "alt_title": "Stornoway Chambray & Oslo",
+            "excerpt": ""
           }
         },
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
           "type": "collection",
           "settings": {
             "collection": "all-accessories",
-            "usp_title": "Up To 40% Off",
-            "image": "shopify:\/\/shop_images\/4_1ed0b6fc-c817-4f86-a763-38f3876e6566.jpg",
-            "alt_title": "Cushions & Throws",
-            "excerpt": "<p>Mix & match layers for the perfect touch.<\/p>"
-          }
-        },
-        "collection_fKTfPa": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-loungewear",
-            "usp_title": "Up To 50% Off",
-            "image": "shopify:\/\/shop_images\/1_4d36409e-6dc7-4f4c-88b2-bf54c631a486.jpg",
-            "alt_title": "Robes",
-            "excerpt": "<p>Perfect after a long hot soak.<\/p>"
-          }
-        },
-        "collection_RPPpXD": {
-          "type": "collection",
-          "settings": {
-            "collection": "duvet-pillows",
-            "usp_title": "Up To 40% Off",
-            "image": "shopify:\/\/shop_images\/5_a5794c08-2b27-4309-8bb4-f211fffe69e4.jpg",
-            "alt_title": "Duvets & Pillows",
-            "excerpt": "<p>Build your bed foundations.<\/p>"
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/coniston-and-metro.jpg",
+            "alt_title": "Coniston & Metropolitan",
+            "excerpt": ""
           }
         }
       },
       "block_order": [
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b",
-        "collection_fKTfPa",
-        "collection_RPPpXD"
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
       "settings": {
-        "title": "Shop By Category",
+        "title": "Shop Perfect Bedding Pairs",
         "screen_visibility": "both"
       }
     },
