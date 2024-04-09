@@ -192,7 +192,7 @@
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
       "type": "products-carousel",
       "settings": {
-        "title": "Towels | Up to 50% off",
+        "title": "Bath Bundles",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -200,11 +200,11 @@
         "button_title": "",
         "button_link": "",
         "products": [
-          "mode-towels",
-          "luxe-towels",
-          "renaissance",
-          "supreme-hygro",
-          "brixton-towels"
+          "renaissance-move-in-bundle",
+          "brixton-bath-towel-bundle",
+          "luxe-move-in-bundle",
+          "cirrus-bath-sheet-bundle",
+          "supreme-hygro-move-in-bundles"
         ],
         "screen_visibility": "both"
       }
@@ -220,7 +220,7 @@
     "products_carousel_CMFJm6": {
       "type": "products-carousel",
       "settings": {
-        "title": "Bestseller Sale",
+        "title": "Bed Bundles",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -228,12 +228,11 @@
         "button_title": "",
         "button_link": "",
         "products": [
-          "super-soft-cosy-robe",
-          "jaipur-cushion",
-          "supreme-hygro",
-          "luxe-towels",
-          "400-thread-count-sateen-plain-dye",
-          "renaissance"
+          "copy-of-smooth-and-silky-cotton-sateen-starter-sheet-bundle",
+          "copy-of-metropolitan-throw",
+          "copy-of-smooth-and-silky-cotton-sateen-deep-fitted-sheet-400-thread-count",
+          "jaipur-throw-bundle",
+          "rosa-throw-and-cushion-bundle"
         ],
         "screen_visibility": "both"
       }
@@ -241,7 +240,7 @@
     "products_carousel_Rg7kmH": {
       "type": "products-carousel",
       "settings": {
-        "title": "Bedding Sale | Up to 50% Off",
+        "title": "Robe Bundles",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -249,13 +248,10 @@
         "button_title": "",
         "button_link": "",
         "products": [
-          "stornoway-chambray",
-          "jaipur-cushion",
-          "400-thread-count-sateen-plain-dye",
-          "coniston-bed-linen",
-          "suffolk-garden-print-duvet-set",
-          "metropolitan-cushion",
-          "organic-retreat"
+          "brixton-robe-bundle",
+          "copy-of-cosy-robe",
+          "copy-of-luxury-egyptian-cotton-robe",
+          "supreme-robe-bundles"
         ],
         "screen_visibility": "both"
       }
