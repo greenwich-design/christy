@@ -151,7 +151,7 @@
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
           "type": "collection",
           "settings": {
-            "collection": "towels",
+            "collection": "lerwick-stripe-chambray",
             "usp_title": "",
             "image": "shopify:\/\/shop_images\/chambray-and-lerwick.jpg",
             "alt_title": "Lerwick Stripe & Chambray",
@@ -161,7 +161,7 @@
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
           "type": "collection",
           "settings": {
-            "collection": "duvet-sets",
+            "collection": "stornoway-chambray-oslo",
             "usp_title": "",
             "image": "shopify:\/\/shop_images\/stornoway-and-oslo.jpg",
             "alt_title": "Stornoway Chambray & Oslo",
@@ -171,10 +171,20 @@
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
           "type": "collection",
           "settings": {
-            "collection": "all-accessories",
+            "collection": "coniston-metropolitan",
             "usp_title": "",
             "image": "shopify:\/\/shop_images\/coniston-and-metro.jpg",
             "alt_title": "Coniston & Metropolitan",
+            "excerpt": ""
+          }
+        },
+        "collection_QzrLQg": {
+          "type": "collection",
+          "settings": {
+            "collection": "feather-down-duvet-pillow",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/duvet_lifestyle_5ec08646-19bb-4f81-96a7-6e316a879420.jpg",
+            "alt_title": "",
             "excerpt": ""
           }
         }
@@ -182,7 +192,8 @@
       "block_order": [
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b",
+        "collection_QzrLQg"
       ],
       "settings": {
         "title": "Shop Perfect Bedding Pairs",
