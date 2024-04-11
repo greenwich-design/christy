@@ -24,7 +24,7 @@
     {%- endif %}
     {% if showPerc != false -%}
       {%- if bundleDiscount > 0 %}
-        {% assign bundleDiscount = bundleDiscount | replace: '.0', '' %}
+        {% assign bundleDiscount = totalPrice | divided_by: totalCompare | times: 100 | replace: '.0', '' %}
         {{ bundleDiscount }}% Off
       {% endif %}
     {% endif %}
