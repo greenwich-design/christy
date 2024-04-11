@@ -126,9 +126,8 @@
     },
     "products_carousel_bQqamG": {
       "type": "products-carousel",
-      "disabled": true,
       "settings": {
-        "title": "Easter Sale | Up to 50% Off",
+        "title": "Siblings Day Bundles",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -136,11 +135,10 @@
         "button_title": "",
         "button_link": "",
         "products": [
-          "400-thread-count-sateen-plain-dye",
-          "brixton-towels",
-          "fennel-print-duvet-set",
-          "copy-of-smooth-and-silky-cotton-sateen-deep-fitted-sheet-400-thread-count",
-          "serene-550-gsm-combed-cotton"
+          "cool-and-crisp-lerwick-stripe-duvet-set-stornaway-chambray-sheets-bundle",
+          "cool-and-crisp-stornoway-chambray-duvet-set-oslo-throw",
+          "coniston-bed-linen-metropolitan-throw",
+          "feather-and-down-10-5-tog-duvet-pillow-bundle"
         ],
         "screen_visibility": "both"
       }
@@ -195,6 +193,7 @@
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b",
         "collection_QzrLQg"
       ],
+      "disabled": true,
       "settings": {
         "title": "Shop Perfect Bedding Pairs",
         "screen_visibility": "both"
