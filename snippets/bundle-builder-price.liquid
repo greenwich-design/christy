@@ -2,7 +2,7 @@
   class="flex flex-wrap gap-2 items-center select-none {% if noWrap == true %} !flex-nowrap flex-col !items-start {% endif  %}"
   data-bundlepricehtml
 >
-  <div class="bundleprice" {% if showOnlyDiscount == true  %} style="display:none" {% endif %}>
+  <div class="bundleprice">
     {% if totalCompare > totalPrice %}
       <span class="flex gap-x-2 font-semibold ">
         <span class="line-through opacity-60">
@@ -16,7 +16,7 @@
     {% endif %}
   </div>
 
-  <span class="bundlesavings inline-flex {% if hideSavingsMob != true %}flex-row-reverse{% endif %} items-center gap-1 whitespace-nowrap ui-pill ui-pill--bg-blue ui-shimmer before:animate-[shimmer_1s_linear_both]">
+  <span style="display:none" class="bundlesavings inline-flex {% if hideSavingsMob != true %}flex-row-reverse{% endif %} items-center gap-1 whitespace-nowrap ui-pill ui-pill--bg-blue ui-shimmer before:animate-[shimmer_1s_linear_both]">
     {% if hideSavingsMob == true %}
       <span>Bundle <span class="max-sm:hidden">Savings</span></span>
     {% else -%}
