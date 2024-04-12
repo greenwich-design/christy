@@ -204,7 +204,14 @@
                 {% assign totalPrice = totalPrice | minus: diff %}
               {% endif %}
 
-              
+              {% render 'bundle-builder-price',
+                totalCompare: totalCompare,
+                totalPrice: totalPrice,
+                totalPercentOff: totalPercentOff,
+                bundleDiscount: bundleDataValue.bundleDiscount,
+                noWrap: true,
+                hideSavingsMob: true
+              %}
             {% else %}
               <div class="whitespace-nowrap">
                 {% if card_product.price_min != card_product.price_max %}
