@@ -24,10 +24,8 @@
     {%- endif %}
     {% if showPerc != false -%}
       {%- if bundleDiscount > 0 %}
-        {% assign discount = totalCompare | minus: totalPrice %}
-        {% assign percentDiscount = discount | divided_by: totalCompare | times: 100 %}
-        {% assign discountDisplay = percentDiscount | round: 2 %}
-        {{ discountDisplay }}% Off
+       
+        {{ bundleDiscount }}% Off
       {% endif %}
     {% endif %}
   </span>
