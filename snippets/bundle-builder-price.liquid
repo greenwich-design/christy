@@ -1,9 +1,8 @@
 <div
-  {% if showOnlyDiscount == true  %} style="display:none" {% endif %}
   class="flex flex-wrap gap-2 items-center select-none {% if noWrap == true %} !flex-nowrap flex-col !items-start {% endif  %}"
   data-bundlepricehtml
 >
-  <div class="bundleprice">
+  <div class="bundleprice" {% if showOnlyDiscount == true  %} style="display:none" {% endif %}>
     {% if totalCompare > totalPrice %}
       <span class="flex gap-x-2 font-semibold ">
         <span class="line-through opacity-60">
