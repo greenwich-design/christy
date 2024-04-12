@@ -27,7 +27,7 @@
         {% assign discount = totalCompare | minus: totalPrice %}
         {% assign percentDiscount = discount | divided_by: totalCompare | times: 100 %}
         {% assign discountDisplay = percentDiscount | round: 2 %}
-        {{ discountDisplay }}% Off
+        {{ discount }}% Off
       {% endif %}
     {% endif %}
   </span>
