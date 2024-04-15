@@ -4,8 +4,8 @@
       "type": "hero-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/N-ROBES_BANNER_960X1920_5.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/N-ROBES_BANNER_1024X1024_6.jpg",
-        "image_tab": "shopify:\/\/shop_images\/N-ROBES_BANNER_768X768_2_6.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/N-ROBES_BANNER_768X768_2_6.jpg",
+        "image_tab": "shopify:\/\/shop_images\/N-ROBES_BANNER_1024X1024_6.jpg",
         "link": "shopify:\/\/collections\/all-loungewear",
         "full_width": true
       }
