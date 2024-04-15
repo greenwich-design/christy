@@ -3,10 +3,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DESKTOP_VERSION_SIBLINGS_DAY_1920X960_f0262d3a-a61e-4e8c-8b6c-5004dfae076e.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/MOBILE_VERSION_SIBLINGS_DAY_1024X1024_8b0afef6-f945-4772-801a-58618f5b95ce.jpg",
-        "image_tab": "shopify:\/\/shop_images\/TAB_VERSION_SIBLINGS_DAY_1024X1024_fe8028be-b51b-45a6-8c56-4d1af4c35bc6.jpg",
-        "link": "shopify:\/\/collections\/perfect-pairs",
+        "image": "shopify:\/\/shop_images\/ROBES_BANNER_960X1920_c79611eb-0675-4492-b7bf-0554b41c9391.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/ROBES_BANNER_1024X1024_4afcc325-800d-4ddf-8ae8-51ef30c8745b.jpg",
+        "image_tab": "shopify:\/\/shop_images\/ROBES_BANNER_768X768_2.jpg",
+        "link": "shopify:\/\/collections\/all-bath",
         "full_width": true
       }
     },
