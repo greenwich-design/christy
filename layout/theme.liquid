@@ -105,58 +105,7 @@
     {% if template == 'cart' %}{% include 'revy-bundle-script' %}{% endif %}
 
     
-  {% include 'sm-red' %}<script id='fm-source-script'>let FreshMarketerSourceMap={}; // This wil be single source of truth for all the operations from MAS TO SHOPIFY 
-      
-// For Loading the customer information     
-{%if customer %}
-  FreshMarketerSourceMap.currentCustomer = {
-    id: '{{ customer.id }}',
-    'name': '{{ customer.name }}',
-    'email': '{{ customer.email }}',
-    'mobile': '{{ customer.phone }}',
-    'first_name': '{{ customer.first_name }}',
-    'last_name': '{{ customer.last_name }}',
-    'total_orders': {{ customer.orders_count }},
-    'last_order': '{{ customer.last_order }}',
-    'total_spent': {{ customer.total_spent }},
-    'address_list': {{ customer.addresses | json }},
-    'accepts_marketing': {{ customer.accepts_marketing }}
-}
-{% endif %}
-
-// For Loading the Current Product  information          
-{%if product %}
-let FMproduct = {{ product | json }};
-FMproduct.url = "{{ shop.secure_url }}{{ product.url }}";
-FMproduct.price = {{ product.price }}/100;
-FreshMarketerSourceMap.currentProduct=FMproduct
-{% endif %}    
-
-// For Loading the Shopify CART Product  information          
-let shopifyCartEventData = {{ cart | json }};
-
-//For Getting Collection associated with Product
-
-{% for cartItem in cart.items  %}
-    {%- assign FMmyProduct = cartItem.product -%}
-    var FMmyProductRef={{FMmyProduct|json}}
-   {%- assign FMmyProductCollections = FMmyProduct.collections -%}
-   var FMmyProductCollectionsRef={{FMmyProductCollections|json}}
-
-    for(let i=0;i<shopifyCartEventData.items.length;i++){
-        if(shopifyCartEventData.items[i].product_id===FMmyProductRef.id){
-
-        let FMcollList=[]
-        for(let j=0;j<FMmyProductCollectionsRef.length;j++){
-          FMcollList.push(FMmyProductCollectionsRef[j].title)
-        }
-        shopifyCartEventData.items[i].collections=FMcollList
-        
-       }
-   }
-{% endfor %}
-FreshMarketerSourceMap.shopifyCartEventData=shopifyCartEventData; 
-FreshMarketerSourceMap.shopName = "{{ shop.name }}"</script>
+  {% include 'sm-red' %}
 </head>
 
   <body id="{{ page_title | handle }}" class="h-full text-[12px] md:text-[14px] leading-[1.7] font-light text-blue-1">
