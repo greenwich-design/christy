@@ -72,25 +72,6 @@
         "screen_visibility": "both"
       }
     },
-    "products_carousel_LqrLzB": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Discover Bedding",
-        "title_font_size_mob": 18,
-        "title_font_size_desktop": 30,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/duvet-sets",
-        "products": [
-          "organic-retreat",
-          "stornoway-chambray",
-          "lerwick-stripe",
-          "riley-duvet-set"
-        ],
-        "screen_visibility": "both"
-      }
-    },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
       "type": "c-info-columns",
       "blocks": {
@@ -143,6 +124,25 @@
         "copy_font_size_desktop": 14,
         "copy_font_weight": "300",
         "copy_font_family": "sans-serif"
+      }
+    },
+    "products_carousel_LqrLzB": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Discover Bedding",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "Shop All",
+        "button_link": "shopify:\/\/collections\/duvet-sets",
+        "products": [
+          "organic-retreat",
+          "stornoway-chambray",
+          "lerwick-stripe",
+          "riley-duvet-set"
+        ],
+        "screen_visibility": "both"
       }
     },
     "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
@@ -207,6 +207,7 @@
     },
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Supreme_spruce_location_2-947426_4bf18fd8-0880-400c-bbba-9d61a55d8c26.jpg",
         "image2": "shopify:\/\/shop_images\/image_5.jpg",
@@ -738,8 +739,8 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
-    "products_carousel_LqrLzB",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
+    "products_carousel_LqrLzB",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "2594a997-818a-4de5-b1c1-015972b655d2",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
