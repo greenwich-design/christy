@@ -145,6 +145,25 @@
         "screen_visibility": "both"
       }
     },
+    "products_carousel_FCxQn3": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "GOTS Certified Organic",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "",
+        "button_link": "",
+        "products": [
+          "organic-retreat",
+          "soft-and-relaxed-organic-cotton-fitted-sheet",
+          "organic",
+          "organic-shower-mat"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
       "type": "hero-collection",
       "blocks": {
@@ -741,6 +760,7 @@
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "products_carousel_LqrLzB",
+    "products_carousel_FCxQn3",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "2594a997-818a-4de5-b1c1-015972b655d2",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
