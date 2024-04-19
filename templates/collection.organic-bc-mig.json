@@ -52,6 +52,45 @@
         "screen_visibility": "both"
       }
     },
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Explore Towels",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "Shop All",
+        "button_link": "shopify:\/\/collections\/towels",
+        "products": [
+          "organic",
+          "renaissance",
+          "supreme-hygro",
+          "brixton-towels",
+          "luxe-towels"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "products_carousel_LqrLzB": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Discover Bedding",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "Shop All",
+        "button_link": "shopify:\/\/collections\/duvet-sets",
+        "products": [
+          "organic-retreat",
+          "stornoway-chambray",
+          "lerwick-stripe",
+          "riley-duvet-set"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
       "type": "c-info-columns",
       "blocks": {
@@ -164,26 +203,6 @@
       "settings": {
         "full_width": false,
         "anchor_id": ""
-      }
-    },
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Explore Towels",
-        "title_font_size_mob": 18,
-        "title_font_size_desktop": 30,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/towels",
-        "products": [
-          "organic",
-          "renaissance",
-          "supreme-hygro",
-          "brixton-towels",
-          "luxe-towels"
-        ],
-        "screen_visibility": "both"
       }
     },
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
@@ -718,10 +737,11 @@
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
+    "products_carousel_LqrLzB",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "2594a997-818a-4de5-b1c1-015972b655d2",
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
