@@ -3,7 +3,7 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Artboard_15_3.jpg",
+        "image": "shopify:\/\/shop_images\/Artboard_15_4.jpg",
         "link": "",
         "full_width": true
       }
@@ -168,8 +168,8 @@
           "type": "column",
           "settings": {
             "image_aspect": "1:1",
-            "title": "Step 1",
-            "text": "<p>Choose your perfect bundle collection and then click 'Build Your Bundle'.<\/p>",
+            "title": "Better Cotton (BC)",
+            "text": "<p>The Better Cotton (BC) is a global non-profit that aims to make the cotton industry better for the people that produce it, better for the environment that it grows in and better for the cotton industry's future.<\/p>",
             "button_label": "",
             "button_link": "",
             "collection_tag": ""
@@ -179,8 +179,8 @@
           "type": "column",
           "settings": {
             "image_aspect": "1:1",
-            "title": "Step 2",
-            "text": "<p>Pick your bespoke options for size and\/or colour.<\/p>",
+            "title": "Made in Green by OEKO-TEX®",
+            "text": "<p>OEKO-TEX's Made in Green certification is a fairly rigorous standard. Any products that have earned the Made in Green label have been held to a high ethical standard.<\/p>",
             "button_label": "",
             "button_link": "",
             "collection_tag": ""
@@ -204,7 +204,7 @@
         "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5"
       ],
       "settings": {
-        "title": "It takes 3 Simple Steps",
+        "title": "Our Certifications",
         "title_font_size_mob": 16,
         "title_font_size_desktop": 20,
         "title_font_weight": "600",
