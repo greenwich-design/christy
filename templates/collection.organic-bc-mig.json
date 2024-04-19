@@ -8,6 +8,104 @@
         "full_width": true
       }
     },
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
+      "type": "collections-carousel",
+      "blocks": {
+        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
+          "type": "collection",
+          "settings": {
+            "collection": "towels",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/thick_indulgent_HP.jpg",
+            "alt_title": "Towels",
+            "excerpt": "<p>Upgrade your bathroom with a perfect blend of softness and functionality all wrapped into one.<\/p>"
+          }
+        },
+        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
+          "type": "collection",
+          "settings": {
+            "collection": "duvet-sets",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Jaipur_Hazelnut_lifestyle2_1e7c05eb-e26d-4cba-965e-2e219fb0a944.jpg",
+            "alt_title": "Duvet Cover Sets",
+            "excerpt": "<p>Transform your bedroom into a haven of luxury with our duvet coverand pillowcase sets.<\/p>"
+          }
+        },
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
+          "type": "collection",
+          "settings": {
+            "collection": "robes",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/robe_bundle.jpg",
+            "alt_title": "Robes",
+            "excerpt": "<p>Wrap yourself in comfort with our robes, designed to elevate your relaxation experience.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
+        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
+      ],
+      "settings": {
+        "title": "Timeless collections, responsibly made",
+        "screen_visibility": "both"
+      }
+    },
+    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
+      "type": "c-info-columns",
+      "blocks": {
+        "ffe46c4a-76e3-4116-904c-69ac29f094fb": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Better Cotton",
+            "text": "<p>The Better Cotton (BC) is a global non-profit that aims to make the cotton industry better for the people that produce it, better for the environment that it grows in and better for the cotton industry's future.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Made in Green by OEKO-TEX®",
+            "text": "<p>OEKO-TEX's Made in Green certification is a fairly rigorous standard. Any products that have earned the Made in Green label have been held to a high ethical standard.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Global Organic Textile Standard",
+            "text": "<p>From harvesting to processing, weaving, and sewing, GOTS covers everything from the dyes that can be used, to wastewater treatment, to the final packaging that our soft cotton sheets can be folded into and sent to you. <\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "ffe46c4a-76e3-4116-904c-69ac29f094fb",
+        "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea",
+        "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5"
+      ],
+      "settings": {
+        "title": "Our Certifications",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
+      }
+    },
     "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
       "type": "hero-collection",
       "blocks": {
@@ -68,65 +166,22 @@
         "anchor_id": ""
       }
     },
-    "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
-      "type": "collections-carousel",
-      "blocks": {
-        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
-          "type": "collection",
-          "settings": {
-            "collection": "towels",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/thick_indulgent_HP.jpg",
-            "alt_title": "Towels",
-            "excerpt": "<p>Upgrade your bathroom with a perfect blend of softness and functionality all wrapped into one.<\/p>"
-          }
-        },
-        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
-          "type": "collection",
-          "settings": {
-            "collection": "duvet-sets",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Jaipur_Hazelnut_lifestyle2_1e7c05eb-e26d-4cba-965e-2e219fb0a944.jpg",
-            "alt_title": "Duvet Cover Sets",
-            "excerpt": "<p>Transform your bedroom into a haven of luxury with our duvet coverand pillowcase sets.<\/p>"
-          }
-        },
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
-          "type": "collection",
-          "settings": {
-            "collection": "robes",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/robe_bundle.jpg",
-            "alt_title": "Robes",
-            "excerpt": "<p>Wrap yourself in comfort with our robes, designed to elevate your relaxation experience.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
-        "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
-      ],
-      "settings": {
-        "title": "Discover Better Cotton Collections",
-        "screen_visibility": "both"
-      }
-    },
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
       "settings": {
-        "title": "Our Recommendations",
+        "title": "Shop Towels",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
         "title_font_family": "sans-serif",
         "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/all-bundles",
+        "button_link": "shopify:\/\/collections\/towels",
         "products": [
-          "renaissance-bed-bath-bundle",
-          "supreme-hygro-bath-towel-bundle",
-          "supreme-robe-bundles",
-          "jaipur-throw-bundle"
+          "organic",
+          "renaissance",
+          "supreme-hygro",
+          "brixton-towels",
+          "luxe-towels"
         ],
         "screen_visibility": "both"
       }
@@ -159,60 +214,6 @@
         "alignment_mob": "center",
         "horiz_padding": true,
         "margin_top": false
-      }
-    },
-    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
-      "type": "c-info-columns",
-      "blocks": {
-        "ffe46c4a-76e3-4116-904c-69ac29f094fb": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Better Cotton (BC)",
-            "text": "<p>The Better Cotton (BC) is a global non-profit that aims to make the cotton industry better for the people that produce it, better for the environment that it grows in and better for the cotton industry's future.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Made in Green by OEKO-TEX®",
-            "text": "<p>OEKO-TEX's Made in Green certification is a fairly rigorous standard. Any products that have earned the Made in Green label have been held to a high ethical standard.<\/p>",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        },
-        "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5": {
-          "type": "column",
-          "settings": {
-            "image_aspect": "1:1",
-            "title": "Global Organic Textile Standard",
-            "text": "<p>From harvesting to processing, weaving, and sewing, GOTS covers everything from the dyes that can be used, to wastewater treatment, to the final packaging that our soft cotton sheets can be folded into and sent to you. <\/p>",
-            "button_label": "",
-            "button_link": "",
-            "collection_tag": ""
-          }
-        }
-      },
-      "block_order": [
-        "ffe46c4a-76e3-4116-904c-69ac29f094fb",
-        "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea",
-        "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5"
-      ],
-      "settings": {
-        "title": "Our Certifications",
-        "title_font_size_mob": 16,
-        "title_font_size_desktop": 20,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "copy_font_size_mob": 12,
-        "copy_font_size_desktop": 14,
-        "copy_font_weight": "300",
-        "copy_font_family": "sans-serif"
       }
     },
     "b9932fb5-c80a-402d-977c-e883e9dff131": {
@@ -715,13 +716,13 @@
   },
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
+    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "2594a997-818a-4de5-b1c1-015972b655d2",
-    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
-    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
