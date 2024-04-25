@@ -6,11 +6,11 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1710262569,
+  "tsPublished": 1714049101,
   "declaration": {
     "showPurpose": true,
     "showProvider": false,
-    "declIntroText": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies.",
+    "declIntroText": "We use cookies to optimise website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies.",
     "showDateGenerated": true
   },
   "language": {
@@ -90,7 +90,7 @@
         "en": "You have the right to ask all your data to be erased. After that, you will no longer be able to access your account."
       },
       "declIntroText": {
-        "en": "We use cookies to optimize website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies."
+        "en": "We use cookies to optimise website functionality, analyze the performance, and provide personalized experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. In this window you can manage your preference of cookies."
       }
     },
     "categories": {
