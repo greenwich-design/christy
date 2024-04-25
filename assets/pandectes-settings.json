@@ -6,12 +6,12 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1714049682,
+  "tsPublished": 1714049867,
   "declaration": {
     "showPurpose": true,
     "showProvider": false,
     "declIntroText": "We use cookies to optimise website functionality, analyze the performance, and provide personalised experience to you. Some cookies are essential to make the website operate and function correctly. Those cookies cannot be disabled. \n\nCookies are alphanumeric identifiers with small amount of data that is commonly used as an anonymous unique identifier. These are sent to your browser from the website that you visit and are stored on your computer’s hard drive. Please note, a cookie in no way gives us access to your computer. Our website uses these “cookies” to collect information and to improve our Service. At any time, you also have the option to change\/control your cookies through your browser settings.",
-    "showDateGenerated": true
+    "showDateGenerated": false
   },
   "language": {
     "languageMode": "Single",
