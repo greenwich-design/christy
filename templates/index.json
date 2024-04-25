@@ -3,10 +3,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1920X960_1_2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/768X768_1_2.jpg",
-        "image_tab": "shopify:\/\/shop_images\/1024X1024_1_3.jpg",
-        "link": "shopify:\/\/collections\/earth-day",
+        "image": "shopify:\/\/shop_images\/Bundle_Up_960x1920_e9d9130a-d746-4e0a-ada3-53b9844b1536.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Bundle_Up_768x768_944053da-ed3f-4f50-aa07-a0f21f10e615.jpg",
+        "image_tab": "shopify:\/\/shop_images\/Bundle_Up_1024X1024_6a7e3722-3178-4a3e-bbbe-f4c9016531da.jpg",
+        "link": "shopify:\/\/collections\/all-bundles",
         "full_width": true
       }
     },
