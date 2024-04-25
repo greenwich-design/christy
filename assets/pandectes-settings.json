@@ -6,7 +6,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1714049904,
+  "tsPublished": 1714056955,
   "declaration": {
     "showPurpose": true,
     "showProvider": false,
@@ -1629,6 +1629,7 @@
     "googleConsentMode": {
       "id": "",
       "analyticsId": "",
+      "adwordsId": "",
       "isActive": true,
       "adStorageCategory": 4,
       "analyticsStorageCategory": 2,
@@ -1638,7 +1639,9 @@
       "securityStorageCategory": 0,
       "redactData": true,
       "urlPassthrough": false,
-      "dataLayerProperty": "dataLayer"
+      "dataLayerProperty": "dataLayer",
+      "waitForUpdate": 0,
+      "useNativeChannel": false
     },
     "facebookPixel": {
       "id": "",
@@ -1650,6 +1653,7 @@
       "cmp": false,
       "ccpa": false
     },
+    "klaviyoIsActive": true,
     "gpcIsActive": false,
     "defaultBlocked": 7,
     "patterns": {
