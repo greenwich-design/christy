@@ -2,6 +2,7 @@
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1920x500_2.jpg",
         "image_mobile": "shopify:\/\/shop_images\/768X768_7.jpg",
@@ -216,6 +217,7 @@
     },
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Riley-Jacquard-Platinum_5d5a020a-9d20-45ff-96df-c234f9d781da.jpg",
         "image2": "shopify:\/\/shop_images\/20064A_032.jpg",
