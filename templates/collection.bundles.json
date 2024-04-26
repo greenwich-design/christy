@@ -266,7 +266,7 @@
           "type": "block",
           "settings": {
             "title": "Loved by our Customers",
-            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
+            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5<\/p>",
             "button_link": "shopify:\/\/collections\/all",
             "button_title": "Shop the Range"
           }
@@ -275,7 +275,7 @@
           "type": "block",
           "settings": {
             "title": "Free Shipping & Returns",
-            "copy": "<p>Free Shipping above GBP 50 plus our Worry-Free Return Guarantee.<\/p>",
+            "copy": "<p>Free Shipping above £50 plus our Worry-Free Return Guarantee.<\/p>",
             "button_link": "shopify:\/\/policies\/shipping-policy",
             "button_title": "Learn More"
           }
