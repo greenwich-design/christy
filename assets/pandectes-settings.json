@@ -6,7 +6,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1714384363,
+  "tsPublished": 1714386509,
   "declaration": {
     "showPurpose": true,
     "showProvider": false,
@@ -561,6 +561,19 @@
         "unit": "declMonths",
         "purpose": {
           "en": "First party cookie to determine whether a user is new or returning "
+        }
+      },
+      {
+        "name": "mf_958e2e45-1510-4eec-93ef-72f8b4eacfee",
+        "domain": "christy.co.uk",
+        "path": "\/",
+        "provider": "Mouseflow",
+        "firstParty": false,
+        "retention": "1 month(s)",
+        "expires": 1,
+        "unit": "declMonths",
+        "purpose": {
+          "en": "This cookie identifies the current session on the website, it does not contain any information that can identify the visitor."
         }
       }
     ],
