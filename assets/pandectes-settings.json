@@ -6,7 +6,7 @@
     "primaryLocale": "en",
     "adminMode": false
   },
-  "tsPublished": 1714056955,
+  "tsPublished": 1714384363,
   "declaration": {
     "showPurpose": true,
     "showProvider": false,
@@ -548,6 +548,19 @@
         "unit": "declMinutes",
         "purpose": {
           "en": ""
+        }
+      },
+      {
+        "name": "mf_user",
+        "domain": "christy.co.uk",
+        "path": "\/",
+        "provider": "Mouseflow",
+        "firstParty": false,
+        "retention": "1 month(s)",
+        "expires": 1,
+        "unit": "declMonths",
+        "purpose": {
+          "en": "First party cookie to determine whether a user is new or returning "
         }
       }
     ],
