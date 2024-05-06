@@ -474,7 +474,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hp_banner_bed.jpg",
-            "image_aspect": "2:3",
+            "image_aspect": "1:1",
             "title": "Soft & Relaxed",
             "text": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.<\/p>",
             "button_label": "Explore the Feeling",
