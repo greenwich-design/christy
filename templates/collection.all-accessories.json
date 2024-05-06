@@ -23,7 +23,6 @@
       "blocks": {
         "5a878969-3318-42e0-87f9-e02a64758016": {
           "type": "infocard",
-          "disabled": true,
           "settings": {
             "text": "Build your Bundle",
             "copy": "<p>Discover your perfect match for a restful night’s slumber.<\/p>",
@@ -35,7 +34,6 @@
         },
         "77b7bcba-adf8-4b59-84fa-2aed599efb4a": {
           "type": "infocard",
-          "disabled": true,
           "settings": {
             "text": "Easycare Percale",
             "copy": "<p>This stylish collection is made from a high quality polycotton blend, which is both practical and easy to care for.<br\/><br\/>The range of gorgeous colours and simple tailoring make this collection a real winner.<\/p>",
@@ -47,7 +45,6 @@
         },
         "8704fef6-e4b5-4c39-bba2-de943e89068e": {
           "type": "listsc",
-          "disabled": true,
           "settings": {
             "product_1": "",
             "pos_l_1": 25,
