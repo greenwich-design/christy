@@ -50,13 +50,20 @@
             autoplay: true,
             loop: true,
             playsinline: true,
-            class: 'w-full h-full object-cover absolute inset-0'
+            class: 'w-full h-full min-h-screen object-cover absolute inset-0'
         }}
       {%- elsif section.settings.image != blank -%}
         {{
           section.settings.image
           | image_url: width: 1920
-          | image_tag: loading: 'eager', preload: true, width: 1920, height: 1920, class: image_class, sizes: sizes, widths: widths
+          | image_tag:
+            loading: 'eager',
+            preload: true,
+            width: 1920,
+            height: 1920,
+            class: image_class,
+            sizes: sizes,
+            widths: widths
         }}
         {%- if section.settings.image_mobile != blank -%}
           {{
