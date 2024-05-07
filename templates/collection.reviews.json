@@ -17,7 +17,7 @@
         "copy_style": "default",
         "alignment": "center",
         "alignment_mob": "center",
-        "horiz_padding": false,
+        "horiz_padding": true,
         "margin_top": false
       }
     },
