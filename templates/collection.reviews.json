@@ -11,13 +11,13 @@
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
       "type": "heading",
       "settings": {
-        "heading": "<p>DIY Wrap our indulgent Throws & Duvets<\/p>",
+        "heading": "<p>Loved Since 1850<\/p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
         "alignment": "center",
         "alignment_mob": "center",
-        "horiz_padding": true,
+        "horiz_padding": false,
         "margin_top": false
       }
     },
@@ -43,11 +43,11 @@
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
           "type": "collection",
           "settings": {
-            "collection": "duvet-sets",
+            "collection": "all-bedding",
             "usp_title": "",
             "image": "shopify:\/\/shop_images\/Jaipur_Hazelnut_lifestyle2_1e7c05eb-e26d-4cba-965e-2e219fb0a944.jpg",
-            "alt_title": "Duvet Cover Sets",
-            "excerpt": "<p>Transform your bedroom into a haven of luxury with our duvet coverand pillowcase sets.<\/p>"
+            "alt_title": "Bedding",
+            "excerpt": "<p>Transform your bedroom into a haven of luxury with our bedding collections.<\/p>"
           }
         },
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
@@ -59,15 +59,26 @@
             "alt_title": "Robes",
             "excerpt": "<p>Wrap yourself in comfort with our robes, designed to elevate your relaxation experience.<\/p>"
           }
+        },
+        "collection_HPHPyL": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-accessories",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/D3-18.jpg",
+            "alt_title": "Accessories",
+            "excerpt": "<p>Level up your look with layers of colour and texture. <\/p>"
+          }
         }
       },
       "block_order": [
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b",
+        "collection_HPHPyL"
       ],
       "settings": {
-        "title": "Timeless collections, responsibly made",
+        "title": "Discover Our Most-loved Collections ",
         "screen_visibility": "both"
       }
     },
