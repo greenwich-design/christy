@@ -18,7 +18,7 @@
         "alignment": "center",
         "alignment_mob": "center",
         "horiz_padding": true,
-        "margin_top": false
+        "margin_top": true
       }
     },
     "reviews_io_carousel_eUthLk": {
