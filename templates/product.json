@@ -14,16 +14,6 @@
       "settings": {
       }
     },
-    "169090501824a740ea": {
-      "type": "apps",
-      "settings": {
-      }
-    },
-    "1693485436843bc3ff": {
-      "type": "apps",
-      "settings": {
-      }
-    },
     "dfadb464-131f-4320-963f-71343e59af69": {
       "type": "related-products",
       "settings": {
@@ -59,8 +49,6 @@
   "order": [
     "0c8f5654-f9bf-44d9-aef0-e8516e73109b",
     "main",
-    "169090501824a740ea",
-    "1693485436843bc3ff",
     "dfadb464-131f-4320-963f-71343e59af69",
     "recent-products",
     "86a4f019-bc37-4060-9067-8a759a38958f"
