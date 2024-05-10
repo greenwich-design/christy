@@ -10,6 +10,7 @@
     },
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Loved Since 1850<\/p>",
         "heading_width": "4",
@@ -21,8 +22,50 @@
         "margin_top": true
       }
     },
+    "reviews_carousel_QcateL": {
+      "type": "reviews-carousel",
+      "blocks": {
+        "block_bfwqF9": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "title": "Customer Reviews",
+            "testimonial": "<p>“Beautiful towels always the best quality, lovely colour blue. match my bathroom well.”<\/p>",
+            "name": "Carol Smith"
+          }
+        },
+        "block_6tXxb7": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "title": "Customer Reviews",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
+            "name": "John Smith"
+          }
+        },
+        "block_UhkyB3": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "title": "Customer Reviews",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
+            "name": "John Smith"
+          }
+        }
+      },
+      "block_order": [
+        "block_bfwqF9",
+        "block_6tXxb7",
+        "block_UhkyB3"
+      ],
+      "settings": {
+        "title": "5,000 + Happy Customers",
+        "margin": "yes"
+      }
+    },
     "reviews_io_carousel_eUthLk": {
       "type": "reviews-io-carousel",
+      "disabled": true,
       "settings": {
         "title": "Reviews"
       }
@@ -554,6 +597,7 @@
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
+    "reviews_carousel_QcateL",
     "reviews_io_carousel_eUthLk",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
