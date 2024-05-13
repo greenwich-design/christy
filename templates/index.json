@@ -101,22 +101,22 @@
       "settings": {
         "title": "Discover our collection",
         "title_font_size_mob": 18,
-        "title_font_size_desktop": 30,
+        "title_font_size_desktop": 29,
         "title_font_weight": "600",
         "title_font_family": "sans-serif",
         "button_title": "Shop now",
         "button_link": "shopify:\/\/collections\/valentines-day",
         "products": [
           "supreme-hygro",
-          "renaissance",
+          "signum-675-gsm-combed-cotton",
           "essence-towels-650-gsm-combed-cotton",
           "luxe-towels",
-          "signum-675-gsm-combed-cotton",
           "cirrus-towels-450-gsm-cotton",
           "400-thread-count-sateen-plain-dye",
           "super-soft-cosy-robe",
           "feather-and-down-10-5-tog-duvet",
-          "jaipur-throw"
+          "jaipur-throw",
+          "renaissance"
         ],
         "screen_visibility": "both"
       }
