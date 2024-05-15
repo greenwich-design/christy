@@ -58,6 +58,7 @@
         "block_6tXxb7",
         "block_UhkyB3"
       ],
+      "disabled": true,
       "settings": {
         "title": "5,000 + Happy Customers",
         "margin": "yes"
@@ -65,7 +66,6 @@
     },
     "reviews_io_carousel_eUthLk": {
       "type": "reviews-io-carousel",
-      "disabled": true,
       "settings": {
         "title": "Reviews"
       }
