@@ -275,6 +275,20 @@
 </div>
 
 <script>
+  function initReviews(){
+    if(ratingSnippet !== undefined)
+    ratingSnippet("ruk_rating_snippet", {
+      store: "www.christy.co.uk",
+      mode: "default",
+      color: "#2c3b96",
+      linebreak: false,
+      text: "Reviews",
+      singularText: "Review",
+      lang: "en",
+      usePolaris: true,
+      showEmptyStars: false,
+    });
+  }
   function sectionProductGridInit() {
     // view toggle
 
@@ -451,6 +465,7 @@
         }
 
         getShowBtnTop();
+        initReviews()
       })
       .catch(function (error) {
         console.error('Error loading products:', error);

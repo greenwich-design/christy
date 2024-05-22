@@ -30,7 +30,7 @@
       <div
         class="card__inner relative"
       >
-        <a class="product-images relative aspect-[2/3] block bg-grey-2" href="{{ card_product.url }}">
+        <a class="product-images relative aspect-[1/1] block bg-grey-2" href="{{ card_product.url }}">
           {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
 
           {%- if card_product.featured_media -%}
@@ -66,7 +66,7 @@
               {%- render 'lazyimg',
                 img: card_product.featured_media,
                 width: img_width,
-                height: height_cropped,
+                height: 330,
                 widths: widths,
                 class: class1,
                 sizes: sizes,
@@ -81,7 +81,7 @@
                 {%- render 'lazyimg',
                   img: image,
                   width: img_width,
-                  height: height_cropped,
+                  height: 330,
                   widths: widths,
                   class: class2,
                   sizes: sizes,
@@ -210,6 +210,7 @@
                 totalPercentOff: totalPercentOff,
                 bundleDiscount: bundleDataValue.bundleDiscount,
                 noWrap: true,
+                showOnlyDiscount: true,
                 hideSavingsMob: true
               %}
             {% else %}
@@ -227,6 +228,10 @@
                 {% endif %}
               </div>
             {% endif %}
+            <div
+              class="ruk_rating_snippet"
+              data-sku="{{ card_product.handle }};{{ card_product.variants | map: 'sku' | join: ';' }};{{ card_product.variants | map: 'id' | join: ';' }}"
+            ></div>
           </div>
 
           <h3

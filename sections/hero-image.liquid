@@ -3,15 +3,47 @@
 >
   {%- liquid
     assign full_width = '100vw'
-    assign widths = '375, 550, 750, 1100'
+    assign widths = '375, 550, 750, 1100, 1920'
     assign sizes = '100vw'
-    assign image_class = 'w-full h-auto block'
-  -%}
 
+    assign image_class = 'w-full h-auto one'
+    if section.settings.image_mobile != blank
+      assign image_class = 'w-full h-auto desk hidden md:block'
+    endif
+    if section.settings.image_tab != blank and section.settings.image_mobile != blank
+      assign image_class = 'w-full h-auto desk hidden lg:block'
+    endif
+    if section.settings.image_tab != blank and section.settings.image_mobile == blank
+      assign image_class = 'w-full h-auto desk md:hidden lg:block'
+    endif
+    assign image_class_mobile = 'w-full h-auto mob block md:hidden'
+    assign image_class_tab = 'w-full h-auto block tab hidden md:block lg:hidden'
+  -%}
+  <style>
+    .h-\[50vh\] {
+      height: 50vh;
+    }
+    @media (min-width: 768px) {
+      .md\:block {
+        display: block;
+      }
+    }
+    @media (min-width: 1024px) {
+      .lg\:block {
+        display: block;
+      }
+      .lg\:hidden {
+        display: none;
+      }
+      .lg\:h-screen {
+        height: 100vh;
+      }
+    }
+  </style>
   <div
-    class=""
+    class="h-[50vh] lg:h-screen"
   >
-    <div class="relative {% if section.settings.full_width != true %}container{% endif %}">
+    <div class="relative_ {% if section.settings.full_width != true %}container{% endif %}">
       {% if section.settings.link != blank %}
         <a class="block w-full" href="{{section.settings.link}}">
       {% endif %}
@@ -29,9 +61,44 @@
       {%- elsif section.settings.image != blank -%}
         {{
           section.settings.image
-          | image_url: width: 1100
-          | image_tag: loading: 'eager', width: 1100, height: 1100, class: image_class, sizes: sizes, widths: widths
+          | image_url: width: 1920
+          | image_tag:
+            loading: 'eager',
+            preload: true,
+            width: 1920,
+            height: 1920,
+            class: image_class,
+            sizes: sizes,
+            widths: widths
         }}
+        {%- if section.settings.image_mobile != blank -%}
+          {{
+            section.settings.image_mobile
+            | image_url: width: 1920
+            | image_tag:
+              preload: true,
+              loading: 'eager',
+              width: 1920,
+              height: 1920,
+              class: image_class_mobile,
+              sizes: sizes,
+              widths: widths
+          }}
+        {% endif %}
+        {%- if section.settings.image_tab != blank -%}
+          {{
+            section.settings.image_tab
+            | image_url: width: 1920
+            | image_tag:
+              preload: true,
+              loading: 'eager',
+              width: 1920,
+              height: 1920,
+              class: image_class_tab,
+              sizes: sizes,
+              widths: widths
+          }}
+        {% endif %}
 
       {%- else -%}
         {{ 'hero-apparel-1' | placeholder_svg_tag: image_class }}
@@ -57,7 +124,17 @@
     {
       "type": "image_picker",
       "id": "image",
-      "label": "Choose a static image"
+      "label": "Choose a static image for Desktop"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Choose a static image for Mobile"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_tab",
+      "label": "Choose a static image for Tab"
     },
     {
       "type": "video",
