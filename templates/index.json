@@ -3,8 +3,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/PPC_1200X628_b380a9df-2b87-43b4-b8b9-ed291f65e56e.jpg",
-        "link": "https:\/\/www.christy.co.uk\/collections\/valentines-sale",
+        "image": "shopify:\/\/shop_images\/1920x960_ddd4fa64-69b6-4e68-8145-3c0408c262e9.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/768x768_df0bc9ee-8888-4bab-a758-9d3cc30cea2d.jpg",
+        "image_tab": "shopify:\/\/shop_images\/1024x1024_1bc48556-1955-47e3-9738-c4117ab52723.jpg",
+        "link": "shopify:\/\/collections\/bedroom-new-in",
         "full_width": true
       }
     },
@@ -97,27 +99,23 @@
     "5f8fd688-f484-4f34-9ee0-6dd133c393ad": {
       "type": "products-carousel",
       "settings": {
-        "title": "Valentine's Day Sale - Save up to 50%",
+        "title": "Our Bestsellers",
         "title_font_size_mob": 18,
-        "title_font_size_desktop": 30,
+        "title_font_size_desktop": 29,
         "title_font_weight": "600",
         "title_font_family": "sans-serif",
         "button_title": "Shop now",
         "button_link": "shopify:\/\/collections\/valentines-day",
         "products": [
-          "brixton-towels",
-          "fennel-print-duvet-set",
-          "signum-675-gsm-combed-cotton",
-          "cirrus-towels-450-gsm-cotton",
-          "hartley-print-duvet-set",
-          "coniston-bed-linen",
-          "essence-towels-650-gsm-combed-cotton",
           "supreme-hygro",
           "renaissance",
-          "jaipur-throw",
-          "super-soft-cosy-robe",
+          "cirrus-towels-450-gsm-cotton",
           "luxe-towels",
-          "luxury-microfibre-13-5-tog-duvet"
+          "brixton-towels",
+          "signum-675-gsm-combed-cotton",
+          "essence-towels-650-gsm-combed-cotton",
+          "400-thread-count-sateen-plain-dye",
+          "super-soft-cosy-robe"
         ],
         "screen_visibility": "both"
       }
@@ -140,7 +138,7 @@
           "settings": {
             "collection": "all-bath",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/2_58e55c38-54a1-4aaf-bc07-bd9e1e2078a9.jpg",
+            "image": "shopify:\/\/shop_images\/Renaissance_Denim_Lifestyle-868964_d2753d44-a2ae-404d-aed9-aa128a7ecea6.webp",
             "alt_title": "Bath",
             "excerpt": ""
           }
@@ -150,7 +148,7 @@
           "settings": {
             "collection": "all-loungewear",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/4_9dd44753-f290-4567-953f-1a6bc63c830c.jpg",
+            "image": "shopify:\/\/shop_images\/Cosy-Robe-Tarmac-3.jpg",
             "alt_title": "Bath Robes",
             "excerpt": "<p>Embrace the feeling of a gentle hug all day with our plush bath robes.<\/p>"
           }
@@ -160,7 +158,7 @@
           "settings": {
             "collection": "all-accessories",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/5_a3f878da-2b6a-4790-987d-a73074a384aa.jpg",
+            "image": "shopify:\/\/shop_images\/lisbon_lifestyle.webp",
             "alt_title": "Throws, Cushions",
             "excerpt": "<p>Transform your space into a cosy haven with our throws and cushions.<\/p>"
           }
@@ -211,7 +209,7 @@
           "type": "block",
           "settings": {
             "title": "Loved by our Customers",
-            "copy": "<p>4800+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
+            "copy": "<p>5000+ 5 star reviews with a score of 4.5 out of 5 <\/p>",
             "button_link": "shopify:\/\/collections\/shop-all",
             "button_title": "Shop the Range"
           }
@@ -219,7 +217,7 @@
         "template--21202652987680__37b580cc-c4d2-4e4e-83ee-b35a93d386e3-block-4": {
           "type": "block",
           "settings": {
-            "title": "Free Shipping & Extended Returns",
+            "title": "Free Shipping & Returns",
             "copy": "<p>Free Shipping above £50 plus our Worry-Free Return Guarantee.<\/p>",
             "button_link": "shopify:\/\/pages\/shipping-policy",
             "button_title": "Learn More"
@@ -272,8 +270,8 @@
     "0e427065-4c47-4b8e-8eab-12cb0c11fc4a": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Cir_2B_2H.jpg",
-        "image2": "shopify:\/\/shop_images\/Lux_robe_1.jpg",
+        "image": "shopify:\/\/shop_images\/robe_bundle.jpg",
+        "image2": "shopify:\/\/shop_images\/thick_indulgent_HP.jpg",
         "subtitle": "",
         "title": "<p>Create your bespoke bundle<\/p>",
         "copy": "<p>Introducing our bundle collection, designed to redefine your home experience.<\/p><p>Crafted with care, these bundles not only bring a touch of sophistication to your home but also offer incredible value, making every moment at home an indulgent retreat.<\/p><p>Bundles also make for excellent gifts. Whether for a housewarming, wedding, or other occasion, a thoughtfully curated bundle provides a practical and stylish present.<\/p>",
@@ -423,8 +421,8 @@
         "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/invigorating.jpg",
-            "image_aspect": "2:3",
+            "image": "shopify:\/\/shop_images\/2_41.png",
+            "image_aspect": "1:1",
             "title": "Invigorating & Durable",
             "text": "<p>Start (or end) your day the refreshing way, with our selection of revitalising products.<\/p>",
             "button_label": "Explore the Feeling",
@@ -475,7 +473,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/hp_banner_bed.jpg",
-            "image_aspect": "2:3",
+            "image_aspect": "1:1",
             "title": "Soft & Relaxed",
             "text": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.<\/p>",
             "button_label": "Explore the Feeling",
@@ -622,19 +620,19 @@
         "30dec819-818b-4bc2-b9c3-ff19c89ebaf4": {
           "type": "article",
           "settings": {
-            "article": "lifestyle\/how-to-take-care-of-your-towels"
+            "article": "lifestyle\/thread-count-meaning-explained"
           }
         },
         "458e4f16-65af-45ea-bf76-156d0bfc8da1": {
           "type": "article",
           "settings": {
-            "article": "homekeeping\/how-to-make-your-bed-easy-tips-and-tricks"
+            "article": "lifestyle\/the-best-bedroom-colour-schemes-for-2024"
           }
         },
         "dc2e0744-3035-4a8f-b0c9-4abd1e420569": {
           "type": "article",
           "settings": {
-            "article": "lifestyle\/how-to-dress-a-bed-the-complete-guide"
+            "article": "lifestyle\/how-to-fold-towels-for-a-luxurious-bathroom-experience"
           }
         }
       },
@@ -662,6 +660,7 @@
     },
     "2970b3ab-743a-4054-95d1-048d41881e08": {
       "type": "quiz-popup",
+      "disabled": true,
       "settings": {
         "title": "What's your perfect towel?",
         "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",

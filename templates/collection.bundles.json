@@ -2,9 +2,8 @@
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/PPC_1200X628_1_cb09f6e0-e556-48c1-b84e-8ea50b24ea81.jpg",
+        "image": "shopify:\/\/shop_images\/THIN_BANNER.jpg",
         "link": "",
         "full_width": true
       }
@@ -267,7 +266,7 @@
           "type": "block",
           "settings": {
             "title": "Loved by our Customers",
-            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5 on Trustpilot<\/p>",
+            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5<\/p>",
             "button_link": "shopify:\/\/collections\/all",
             "button_title": "Shop the Range"
           }
@@ -276,7 +275,7 @@
           "type": "block",
           "settings": {
             "title": "Free Shipping & Returns",
-            "copy": "<p>Free Shipping above GBP 50 plus our Worry-Free Return Guarantee.<\/p>",
+            "copy": "<p>Free Shipping above £50 plus our Worry-Free Return Guarantee.<\/p>",
             "button_link": "shopify:\/\/policies\/shipping-policy",
             "button_title": "Learn More"
           }

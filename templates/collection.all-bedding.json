@@ -18,28 +18,6 @@
         "full_width": true
       }
     },
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
-      "type": "products-carousel",
-      "disabled": true,
-      "settings": {
-        "title": "Shop our Best Sellers",
-        "title_font_size_mob": 18,
-        "title_font_size_desktop": 30,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "button_title": "Explore the Collection",
-        "button_link": "shopify:\/\/collections\/printed-and-hand-painted-bedding",
-        "products": [
-          "katsura-bed-linen",
-          "coniston-bed-linen",
-          "superior-soft-touch-anti-allergy-13-5-tog-duvet-and-pillow",
-          "meeko-bed-linen",
-          "appleby-bed-linen",
-          "lerwick-stripe"
-        ],
-        "screen_visibility": "both"
-      }
-    },
     "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
       "type": "hero-collection",
       "blocks": {
@@ -160,6 +138,27 @@
         "copy_font_size_desktop": 14,
         "copy_font_weight": "300",
         "copy_font_family": "sans-serif"
+      }
+    },
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Shop All Bedding",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "",
+        "button_link": "",
+        "products": [
+          "coniston-bed-linen",
+          "superior-soft-touch-anti-allergy-13-5-tog-duvet-and-pillow",
+          "lerwick-stripe",
+          "essential-pillow-pair",
+          "organic-retreat",
+          "superior-soft-touch-anti-allergy-10-5-tog-duvet-and-pillow"
+        ],
+        "screen_visibility": "both"
       }
     },
     "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
@@ -581,9 +580,9 @@
   "order": [
     "39b56b76-44e1-4c0a-9d31-c4d952d9caef",
     "039e5ce4-f144-479c-bfe7-c6b54629b19c",
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",

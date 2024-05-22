@@ -11,6 +11,7 @@
     },
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/BAU_bedding.jpg",
         "link": "shopify:\/\/collections\/all",
