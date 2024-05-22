@@ -173,7 +173,7 @@
         "type": "text",
         "id": "cart_pre_order_text",
         "label": "Pre Order Text - Cart",
-        "default":"This Item is a pre order. Will be delivered as soon as stock is available. Normal delivery timelines do not apply."
+        "default": "This Item is a pre order. Will be delivered as soon as stock is available. Normal delivery timelines do not apply."
       }
     ]
   },
@@ -210,7 +210,7 @@
         "type": "text",
         "id": "product_pre_order_text",
         "label": "Pre Order Text - Product",
-        "default":"This item is currently out of stock. You can still place an order. We will deliver your order as soon as the stock is back."
+        "default": "This item is currently out of stock. You can still place an order. We will deliver your order as soon as the stock is back."
       }
     ]
   },

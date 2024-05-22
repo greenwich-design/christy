@@ -138,12 +138,6 @@
 
     ],
     "blocks": {
-      "6858403126979251294": {
-        "type": "shopify:\/\/apps\/omega-gdpr-ccpa-cookie-banner\/blocks\/omega-cookies-notification\/13cba824-a338-452e-9b8e-c83046a79f21",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "15796953133730294439": {
         "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.embed.socialshopwave-helper\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
         "disabled": false,
@@ -175,33 +169,6 @@
         "settings": {
         }
       },
-      "15014643352720781508": {
-        "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
-        "disabled": false,
-        "settings": {
-          "cart_widget_enabled": true,
-          "item_widget_enabled": false,
-          "product_widget_enabled": false,
-          "gift_thumbnail_enabled": false,
-          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
-          "gift_thumbnail_size": 40,
-          "message_enabled": true,
-          "sender_recipient": "both",
-          "message_max_length": 200,
-          "message_position_override": true,
-          "show_pricing": true,
-          "money_filter": "money_with_currency",
-          "variant_selector_type": "images",
-          "disabled_checkbox": false,
-          "font_scale": 100,
-          "font_color": "#2c3b96",
-          "checkbox_radio_color": "rgba(0,0,0,0)",
-          "background_color": "#ffffff",
-          "border_color": "#2c3b96",
-          "border_radius": 6,
-          "cart_widget_text_alignment": "--wrapped-checkbox--label-right"
-        }
-      },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
@@ -212,6 +179,41 @@
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
+        }
+      },
+      "15475920322851709167": {
+        "type": "shopify:\/\/apps\/securify-block-ip-country\/blocks\/app-embed\/e3ed2576-9111-486f-86eb-a36b6bee4e94",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15014643352720781508": {
+        "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
+        "disabled": false,
+        "settings": {
+          "gift_thumbnail_enabled": false,
+          "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
+          "gift_thumbnail_size": 40,
+          "show_pricing": true,
+          "money_filter": "money_with_currency",
+          "extension_border_color": "#000000",
+          "extension_background_primary_color": "#ffffff",
+          "extension_background_secondary_color": "#f3f3f3",
+          "font_scale": 100,
+          "font_color": "#2c3b96",
+          "checkbox_radio_color": "rgba(0,0,0,0)",
+          "background_color": "#ffffff",
+          "border_color": "#2c3b96",
+          "border_radius": 6,
+          "cart_widget_text_alignment": "--wrapped-checkbox--label-right"
+        }
+      },
+      "10830403595879607806": {
+        "type": "shopify:\/\/apps\/reviews-io\/blocks\/reviewsio-core\/92a082e5-b297-4e88-b428-ac96cbc505f9",
+        "disabled": true,
+        "settings": {
+          "url_key": "REVIEWS.io",
+          "lang": "auto"
         }
       }
     },
