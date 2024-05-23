@@ -3,9 +3,9 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/TWITTER_BANNER.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/EASTER_BANNER_768X768_OPTION_2.jpg",
-        "image_tab": "shopify:\/\/shop_images\/EASTER_BANNER_1024x1024_OPTION_2.jpg",
+        "image": "shopify:\/\/shop_images\/THIN_BANNER_82aa7be3-0364-4418-b87f-0298da5f6975.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/THIN_BANNER_82aa7be3-0364-4418-b87f-0298da5f6975.jpg",
+        "image_tab": "shopify:\/\/shop_images\/THIN_BANNER_82aa7be3-0364-4418-b87f-0298da5f6975.jpg",
         "link": "",
         "full_width": true
       }
@@ -163,7 +163,7 @@
           "settings": {
             "collection": "duvet-sets",
             "usp_title": "Up To 50% Off",
-            "image": "shopify:\/\/shop_images\/Suffolk_Garden_2.jpg",
+            "image": "shopify:\/\/shop_images\/stornoway-and-oslo.jpg",
             "alt_title": "Luxurious Bedding",
             "excerpt": "<h1>Silky smooth sheets to sink into.<\/h1>"
           }
