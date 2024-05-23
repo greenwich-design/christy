@@ -30,11 +30,32 @@
             "alt_title": "Bedding",
             "excerpt": "<p>Get set for a blissful sleep in our snug bedding.<\/p>"
           }
+        },
+        "collection_cx7QX7": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "usp_title": "Up to 50% Off",
+            "image": "shopify:\/\/shop_images\/lisbon_lifestyle.webp",
+            "alt_title": "Cushions & Throws",
+            "excerpt": "<p>Adorn with rich colors and tantalising texture.<\/p>"
+          }
+        },
+        "collection_DdaArt": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-loungewear",
+            "usp_title": "",
+            "alt_title": "",
+            "excerpt": ""
+          }
         }
       },
       "block_order": [
         "collection_tjQNw9",
-        "collection_VbmqVP"
+        "collection_VbmqVP",
+        "collection_cx7QX7",
+        "collection_DdaArt"
       ],
       "settings": {
         "title": "Shop by category",
