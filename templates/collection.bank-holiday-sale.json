@@ -646,6 +646,7 @@
         "77b7bcba-adf8-4b59-84fa-2aed599efb4a",
         "9b178935-07f5-49c1-b91b-796defd6ca93"
       ],
+      "disabled": true,
       "settings": {
         "products_per": 12
       }
