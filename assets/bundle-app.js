@@ -401,7 +401,7 @@ var bundleApp = {
       var totalPriceFormatted = formatMoney(totalPrice);
       var totalCompareFormatted = formatMoney(totalCompare);
       let discount = (totalCompare - totalPrice)*100/totalCompare
-        // discount= Math.round(discount,2)
+      discount= Math.round(discount)
       if (totalCompare > totalPrice) {
         
         bundlePriceHtml = "<span class=\"flex gap-x-2 font-semibold \">\n            <span class=\"line-through opacity-60\">\n              ".concat(totalCompareFormatted, "\n            </span>\n            <span>").concat(totalPriceFormatted, "</span>\n            </span>");
