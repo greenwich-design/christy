@@ -3,9 +3,63 @@
     "6707d50c-5555-48d5-ade4-86ed7f2b1da0": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
+        "image": "shopify:\/\/shop_images\/THIN_BANNER_82aa7be3-0364-4418-b87f-0298da5f6975.jpg",
         "link": "",
         "full_width": true
+      }
+    },
+    "collections_carousel_rF3hjV": {
+      "type": "collections-carousel",
+      "blocks": {
+        "collection_tjQNw9": {
+          "type": "collection",
+          "settings": {
+            "collection": "towels",
+            "usp_title": "Up to 50% Off",
+            "image": "shopify:\/\/shop_images\/Organic_Cinder_Lifestyle_1.jpg",
+            "alt_title": "Towels & Bath Mats",
+            "excerpt": "<p>Wrap up in a cocoon of luxury after every shower.<\/p>"
+          }
+        },
+        "collection_VbmqVP": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-bedding",
+            "usp_title": "Up to 50% Off",
+            "image": "shopify:\/\/shop_images\/Daisy-Meadow_Main-_10.jpg",
+            "alt_title": "Bedding",
+            "excerpt": "<p>Get set for a blissful sleep in our snug bedding.<\/p>"
+          }
+        },
+        "collection_cx7QX7": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "usp_title": "Up to 50% Off",
+            "image": "shopify:\/\/shop_images\/lisbon_lifestyle.webp",
+            "alt_title": "Cushions & Throws",
+            "excerpt": "<p>Adorn with rich colors and tantalising texture.<\/p>"
+          }
+        },
+        "collection_DdaArt": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-loungewear",
+            "usp_title": "",
+            "alt_title": "",
+            "excerpt": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_tjQNw9",
+        "collection_VbmqVP",
+        "collection_cx7QX7",
+        "collection_DdaArt"
+      ],
+      "settings": {
+        "title": "Shop by category",
+        "screen_visibility": "both"
       }
     },
     "product-grid": {
@@ -80,6 +134,7 @@
     },
     "recent-products": {
       "type": "recent-products",
+      "disabled": true,
       "settings": {
         "heading": "Previously explored"
       }
@@ -144,6 +199,7 @@
   },
   "order": [
     "6707d50c-5555-48d5-ade4-86ed7f2b1da0",
+    "collections_carousel_rF3hjV",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426",

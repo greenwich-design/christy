@@ -9,7 +9,7 @@
 -%}
 
 <header id="header" class="sticky top-0 left-0 z-40">
-  <div class="header-bar bg-white/90 h-[70px] lg:h-[107px] !h-[var(--header-height)] lg:!h-[var(--header-height-lg)] flex flex-col justify-center items-center text-blue-1 will-change-transform pointer-events-auto">
+  <div class="header-bar bg-white/90 h-[107px] flex flex-col justify-center items-center text-blue-1 will-change-transform pointer-events-auto">
     {% if section.settings.announcement != blank %}
       <aside id="announcement-bar" class="relative text-white text-center bg-blue-1 top-0 left-0 font-bold w-full">
         <div class="py-3 container truncate flex justify-center [&>*]:truncate h-[44px] lg:h-[48px] [&_a]:underline">
@@ -18,9 +18,6 @@
       </aside>
     {% endif %}
     <div class="container flex-1 flex items-center justify-between lg:grid lg:max-xl:grid-cols-[minmax(auto,200px)_1fr_1fr_1fr] xl:grid-cols-4">
-      {% if request.page_type == 'collection' %}
-      {% endif %}
-
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
       {%- endif -%}
