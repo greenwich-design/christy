@@ -3,10 +3,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1920x960_ddd4fa64-69b6-4e68-8145-3c0408c262e9.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/768x768_df0bc9ee-8888-4bab-a758-9d3cc30cea2d.jpg",
-        "image_tab": "shopify:\/\/shop_images\/1024x1024_1bc48556-1955-47e3-9738-c4117ab52723.jpg",
-        "link": "shopify:\/\/collections\/bedroom-new-in",
+        "image": "shopify:\/\/shop_images\/BANNER_DESKTOP.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/BANNER_768X768_d1a57729-964c-400e-8ee4-3bff7a1a9162.jpg",
+        "image_tab": "shopify:\/\/shop_images\/BANNER_1024X1024_5428076a-d356-4342-9124-55931a5455ab.jpg",
+        "link": "shopify:\/\/collections\/bank-holiday-sale",
         "full_width": true
       }
     },
