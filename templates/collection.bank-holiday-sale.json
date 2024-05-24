@@ -222,11 +222,16 @@
         "button_title": "",
         "button_link": "",
         "products": [
-          "mode-towels",
           "luxe-towels",
           "renaissance",
           "supreme-hygro",
-          "brixton-towels"
+          "brixton-towels",
+          "cirrus-towel-bale",
+          "essence-towels-650-gsm-combed-cotton",
+          "organic",
+          "prism-towels",
+          "signum-675-gsm-combed-cotton",
+          "serene-550-gsm-combed-cotton"
         ],
         "screen_visibility": "both"
       }
