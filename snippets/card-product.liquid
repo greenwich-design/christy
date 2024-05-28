@@ -30,7 +30,7 @@
       <div
         class="card__inner relative"
       >
-        <a class="product-images relative aspect-[2/3] block bg-grey-2" href="{{ card_product.url }}">
+        <a class="product-images relative aspect-[1/1] block bg-grey-2" href="{{ card_product.url }}">
           {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
 
           {%- if card_product.featured_media -%}
@@ -66,7 +66,7 @@
               {%- render 'lazyimg',
                 img: card_product.featured_media,
                 width: img_width,
-                height: height_cropped,
+                height: 330,
                 widths: widths,
                 class: class1,
                 sizes: sizes,
@@ -81,7 +81,7 @@
                 {%- render 'lazyimg',
                   img: image,
                   width: img_width,
-                  height: height_cropped,
+                  height: 330,
                   widths: widths,
                   class: class2,
                   sizes: sizes,
@@ -110,6 +110,73 @@
               {{- 'products.product.sold_out' | t -}}
             </span>
           {%- elsif bundleData != blank %}
+            {% assign bundleDataValue = bundleData.value %}
+            {% assign totalPriceAct = 0 %}
+            {% assign totalCompareAct = 0 %}
+
+            {% liquid
+              assign thisPrice = card_product.selected_or_first_available_variant.price | times: bundleDataValue.mainStepQuantity
+              assign totalPriceAct = totalPriceAct | plus: thisPrice
+              assign thisPrice = card_product.selected_or_first_available_variant.compare_at_price | times: bundleDataValue.mainStepQuantity
+              assign totalCompareAct = totalCompareAct | plus: thisPrice
+            %}
+
+            {%- if bundleDataValue.items.size > 0 -%}
+              {%- for item in bundleDataValue.items -%}
+                {% liquid
+                  assign selected_variants = item.variants | map: 'id' | replace: 'gid://shopify/ProductVariant/', ''
+                  if all_products[item.handle].variants
+                    for var in all_products[item.handle].variants
+                      if selected_variants contains var.id
+                        assign thisPrice = var.price | times: item.stepQuantity
+                        assign totalPriceAct = totalPriceAct | plus: thisPrice
+                        assign thisPrice = var.compare_at_price | times: item.stepQuantity
+                        assign totalCompareAct = totalCompareAct | plus: thisPrice
+                        break
+                      endif
+                    endfor
+                  endif
+                %}
+              {%- endfor %}
+            {%- endif -%}
+
+            {% assign totalPercentOff = 0 %}
+            {% assign totalCompare = totalCompareAct %}
+            {% assign totalPrice = totalPriceAct %}
+
+            {% if totalCompare > totalPrice %}
+              {% assign totalPercentOff = totalPrice
+                | times: 100.0
+                | divided_by: totalCompare
+                | times: 100.0
+                | money_without_currency
+              %}
+
+              {% assign totalPercentOff = 100 | minus: totalPercentOff %}
+            {% endif %}
+
+            {% comment %}
+              apply bundle discount
+            {% endcomment %}
+            {% if bundleDataValue.bundleDiscount > 0 %}
+              {% assign diff = totalPrice | times: bundleDataValue.bundleDiscount | divided_by: 100 %}
+              {% assign totalPrice = totalPrice | minus: diff %}
+            {% endif %}
+            <span
+              id="Badge-{{ section_id }}-{{ card_product.id }}"
+              class="badge badge--bottom-left absolute p-2 py-1 left-1 bottom-1 rounded-md bg-blue-1 text-white"
+            >
+              <span class="leading-[1.1] block">
+                {% assign totalCompareMoney = totalCompare | money_without_currency %}
+                {% assign totalPriceMonry = totalPrice | money_without_currency %}
+
+                {% assign priceDiff = totalCompareMoney | minus: totalPriceMonry %}
+                {% assign myDis = priceDiff | divided_by: totalCompareMoney | times: 100 | round: 0 %}
+                {{ myDis }}
+                % <br>
+                OFF
+              </span>
+            </span>
           {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
             <span
               id="Badge-{{ section_id }}-{{ card_product.id }}"
@@ -226,10 +293,12 @@
                     <strong class="block">{{ card_product.price | money }}</strong>
                   </p>
                 {% endif %}
-                
               </div>
             {% endif %}
-            <div class="ruk_rating_snippet" data-sku="{{ card_product.handle }};{{ card_product.variants | map: 'sku' | join: ';' }};{{ card_product.variants | map: 'id' | join: ';' }}"></div>
+            <div
+              class="ruk_rating_snippet"
+              data-sku="{{ card_product.handle }};{{ card_product.variants | map: 'sku' | join: ';' }};{{ card_product.variants | map: 'id' | join: ';' }}"
+            ></div>
           </div>
 
           <h3

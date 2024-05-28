@@ -99,38 +99,38 @@ App = {
     }
   },
   headerNav: function headerNav() {
-    var details = document.querySelectorAll("header-menu details");
-    document.addEventListener('click', function () {
-      details.forEach(function (el) {
-        el.removeAttribute('open');
-      });
-    });
-    details.forEach(function (el) {
-      el.addEventListener('click', function (e) {
-        e.stopPropagation();
-      });
-      el.addEventListener('toggle', function (e) {
-        if (el.hasAttribute('open')) {
-          setTimeout(function () {
-            el.querySelector(':scope > div').classList.add('transition-[opacity,transform]', '!opacity-100', '!translate-y-0');
-          }, 100);
-        } else {
-          el.querySelector(':scope > div').classList.remove('transition-[opacity,transform]', '!opacity-100', '!translate-y-0');
-        }
-      });
-    });
+    // var details = document.querySelectorAll("header-menu details");
+    // document.addEventListener('click', function () {
+    //   details.forEach(function (el) {
+    //     el.removeAttribute('open');
+    //   });
+    // });
+    // details.forEach(function (el) {
+    //   el.addEventListener('click', function (e) {
+    //     e.stopPropagation();
+    //   });
+      // el.addEventListener('toggle', function (e) {
+      //   if (el.hasAttribute('open')) {
+      //     setTimeout(function () {
+      //       el.querySelector(':scope > div').classList.add('transition-[opacity,transform]', '!opacity-100', '!translate-y-0');
+      //     }, 100);
+      //   } else {
+      //     el.querySelector(':scope > div').classList.remove('transition-[opacity,transform]', '!opacity-100', '!translate-y-0');
+      //   }
+      // });
+    //});
 
     // Add the onclick listeners.
-    details.forEach(function (targetDetail) {
-      targetDetail.addEventListener("click", function () {
-        // Close all the details that are not targetDetail.
-        details.forEach(function (detail) {
-          if (detail !== targetDetail) {
-            detail.removeAttribute("open");
-          }
-        });
-      });
-    });
+    // details.forEach(function (targetDetail) {
+    //   targetDetail.addEventListener("click", function () {
+    //     // Close all the details that are not targetDetail.
+    //     details.forEach(function (detail) {
+    //       if (detail !== targetDetail) {
+    //         detail.removeAttribute("open");
+    //       }
+    //     });
+    //   });
+    // });
   },
   navMob: function navMob() {
     var btns = document.querySelectorAll('[data-scrollerbtn]');
@@ -193,9 +193,9 @@ App = {
     handleScroll = function handleScroll(e) {
       var type = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'default';
       // close open drawers in header
-      document.querySelectorAll('.header-bar [open]').forEach(function (el) {
-        el.removeAttribute('open');
-      });
+      // document.querySelectorAll('.header-bar [open]').forEach(function (el) {
+      //   el.removeAttribute('open');
+      // });
       clearTimeout(headerTransTimer);
       clearTimeout(headerTransTimer2);
       if (e.target.scrollTop) {

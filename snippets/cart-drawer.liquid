@@ -625,12 +625,17 @@
                                 {% endif %}
 
                                 {% if is_product_bundle %}
+                                  {% assign totalCompareMoney = item_compare_price | money_without_currency %}
+                                  {% assign totalPriceMonry = item_price | money_without_currency %}
+
+                                  {% assign priceDiff = totalCompareMoney | minus: totalPriceMonry %}
+                                  {% assign myDis = priceDiff | divided_by: totalCompareMoney | times: 100 | round: 2 %}
                                   <span class="flex flex-row-reverse items-center gap-2 whitespace-nowrap">
                                     <span class="rounded-full p-[3px] md:p-1 flex items-center justify-center w-[12px] h-[12px] md:w-[14px] md:h-[14px] bg-blue-1 text-white shrink-0">
                                       {% render 'icon-check' %}
                                     </span>
-                                    {% if bundleData != blank and bundleData.bundleDiscount > 0 -%}
-                                      {{- bundleData.bundleDiscount }}% off bundle
+                                    {% if bundleData != blank and myDis > 0 -%}
+                                      {{- myDis }}% off bundle
                                     {%- else %}
                                       Bundle Savings
                                     {% endif %}
