@@ -15,9 +15,9 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/throw_portrait.jpg",
         "image2": "shopify:\/\/shop_images\/throw_portrait2.jpg",
-        "subtitle": "Limited Edition",
-        "title": "<p>Rosa Throw & Cushion<\/p>",
-        "copy": "<p>This Mother's Day, give the gift of warmth and luxury with our exclusive Limited-edition Gift Bundle.<\/p><p>Included in this thoughtful set is a lightweight textured throw and its matching cushion, both exquisitely crafted to bring comfort and style to any space.<\/p>",
+        "subtitle": "Make it extra special",
+        "title": "<p>Personalisation<\/p>",
+        "copy": "<p>This Father's Day, give the gift of luxury with our embroidered personalisation on robes and towels.<\/p><p>TBC.<\/p>",
         "button_label": "Shop Now | £50",
         "button_link": "https:\/\/www.christy.co.uk\/products\/rosa-throw-and-cushion-bundle",
         "content_position": "right",
@@ -157,7 +157,7 @@
           "settings": {
             "collection": "all-loungewear",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Cosy-Robe-Very-Berry-3_92d8b474-eb48-476d-afd1-5309c132f8ed.jpg",
+            "image": "shopify:\/\/shop_images\/Cosy-Robe-Blue-Velvet-4.jpg",
             "alt_title": "Indulgent Robes",
             "excerpt": "<h1>Explore plush and super soft robes that exude cosy comfort.<\/h1>"
           }
@@ -189,7 +189,7 @@
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
       "settings": {
-        "title": "Our Mother's Day Gift Collection",
+        "title": "Our Father's Day Gift Collection",
         "screen_visibility": "both"
       }
     },
