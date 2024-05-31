@@ -15,7 +15,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/embroidery.jpg",
         "image2": "shopify:\/\/shop_images\/D3_489.jpg",
-        "subtitle": "Make it extra special",
+        "subtitle": "Make it extra special with",
         "title": "<p>Personalisation<\/p>",
         "copy": "<p>This Father's Day, give the gift of luxury with our embroidered personalisation on robes and towels.<\/p><p>TBC.<\/p>",
         "button_label": "Shop Now",
@@ -165,11 +165,11 @@
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
           "type": "collection",
           "settings": {
-            "collection": "gifts-for-rest",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Suffolk_Garden_2.jpg",
-            "alt_title": "Luxurious Bedding",
-            "excerpt": "<h1>Treat your Mum to relaxing moments with our comfortable bedding.<\/h1>"
+            "collection": "category-wimbledon",
+            "usp_title": "Crowd Favourite",
+            "image": "shopify:\/\/shop_images\/wimbledon_champ_24.jpg",
+            "alt_title": "Wimbledon Towels",
+            "excerpt": "<h1>For all the sports fans out there, Wimbledon towels make the perfect gift.<\/h1>"
           }
         },
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
