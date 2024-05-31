@@ -17,9 +17,9 @@
         "image2": "shopify:\/\/shop_images\/D3_489.jpg",
         "subtitle": "Make it extra special with",
         "title": "<p>Personalisation<\/p>",
-        "copy": "<p>This Father's Day, give the gift of luxury with our embroidered personalisation on robes and towels.<\/p><p>TBC.<\/p>",
+        "copy": "<p>This Father's Day, give the gift of luxury with our embroidered personalisation on robes and towels.<\/p><p>Make it truly unique by selecting your choice of fonts and colours for a one off gift he will cherish everyday.<\/p>",
         "button_label": "Shop Now",
-        "button_link": "https:\/\/www.christy.co.uk\/products\/rosa-throw-and-cushion-bundle",
+        "button_link": "https:\/\/www.christy.co.uk\/collections\/personalisation",
         "content_position": "right",
         "header_position": false,
         "images_half_width": false,
@@ -437,11 +437,10 @@
         "button_link": "",
         "products": [
           "super-soft-cosy-robe",
-          "jaipur-cushion",
           "wimbledon-2024-championship-towel",
+          "brixton-robe",
           "supreme-hygro",
           "luxe-towels",
-          "mode-towels",
           "cirrus-bath-sheet-bundle"
         ],
         "screen_visibility": "both"
