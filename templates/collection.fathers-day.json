@@ -175,11 +175,11 @@
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
           "type": "collection",
           "settings": {
-            "collection": "gifts-for-bathing",
-            "usp_title": "Plush Towels",
-            "image": "shopify:\/\/shop_images\/CHRISTMAS_CREATIVES_600X600_16609328-ea10-45f5-ad3e-56ed75b8b896.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Upgrade their bathing rituals with spa-worthy pieces.<\/p>"
+            "collection": "personalisation",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/FD_initials.jpg",
+            "alt_title": "Embroidery",
+            "excerpt": "<p>Show how much you care with the most thoughtful personalised gift.<\/p>"
           }
         }
       },
