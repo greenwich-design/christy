@@ -13,12 +13,12 @@
     "b9932fb5-c80a-402d-977c-e883e9dff131": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/throw_portrait.jpg",
-        "image2": "shopify:\/\/shop_images\/throw_portrait2.jpg",
+        "image": "shopify:\/\/shop_images\/embroidery.jpg",
+        "image2": "shopify:\/\/shop_images\/D3_489.jpg",
         "subtitle": "Make it extra special",
         "title": "<p>Personalisation<\/p>",
         "copy": "<p>This Father's Day, give the gift of luxury with our embroidered personalisation on robes and towels.<\/p><p>TBC.<\/p>",
-        "button_label": "Shop Now | £50",
+        "button_label": "Shop Now",
         "button_link": "https:\/\/www.christy.co.uk\/products\/rosa-throw-and-cushion-bundle",
         "content_position": "right",
         "header_position": false,
@@ -237,66 +237,11 @@
     },
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/1920X960_1_70722709-75cb-445e-b547-b8ed1d192146.jpg",
         "link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "full_width": true
-      }
-    },
-    "products_carousel_CMFJm6": {
-      "type": "products-carousel",
-      "settings": {
-        "title": "Gifts Under £50",
-        "title_font_size_mob": 18,
-        "title_font_size_desktop": 30,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "button_title": "",
-        "button_link": "",
-        "products": [
-          "super-soft-cosy-robe",
-          "jaipur-cushion",
-          "wimbledon-2024-championship-towel",
-          "supreme-hygro",
-          "luxe-towels",
-          "mode-towels",
-          "cirrus-bath-sheet-bundle"
-        ],
-        "screen_visibility": "both"
-      }
-    },
-    "2594a997-818a-4de5-b1c1-015972b655d2": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "sub_title_size": "h2"
-          }
-        },
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1": {
-          "type": "main_heading",
-          "settings": {
-            "heading": "Elevate your Everyday Moments this Christmas with Christy"
-          }
-        },
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our signature gift box & personalised message options now available.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1",
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1",
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "anchor_id": ""
       }
     },
     "rich_text_yiEkhT": {
@@ -326,6 +271,40 @@
         "heading_TB8KEh",
         "main_heading_z9UJtx",
         "text_6hfjqW"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "anchor_id": ""
+      }
+    },
+    "2594a997-818a-4de5-b1c1-015972b655d2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "sub_title_size": "h2"
+          }
+        },
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1": {
+          "type": "main_heading",
+          "settings": {
+            "heading": "Elevate your Everyday Moments this Christmas with Christy"
+          }
+        },
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our signature gift box & personalised message options now available.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1",
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1",
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1"
       ],
       "disabled": true,
       "settings": {
@@ -444,6 +423,28 @@
         "image": "shopify:\/\/shop_images\/throw_lifestyle.jpg",
         "link": "https:\/\/www.christy.co.uk\/products\/rosa-throw-and-cushion-bundle",
         "full_width": true
+      }
+    },
+    "products_carousel_CMFJm6": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Gifts Under £50",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "",
+        "button_link": "",
+        "products": [
+          "super-soft-cosy-robe",
+          "jaipur-cushion",
+          "wimbledon-2024-championship-towel",
+          "supreme-hygro",
+          "luxe-towels",
+          "mode-towels",
+          "cirrus-bath-sheet-bundle"
+        ],
+        "screen_visibility": "both"
       }
     },
     "955ae530-8662-43db-b9cc-df67f9e5bda7": {
@@ -858,14 +859,14 @@
     "products_carousel_bQqamG",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
-    "products_carousel_CMFJm6",
-    "2594a997-818a-4de5-b1c1-015972b655d2",
     "rich_text_yiEkhT",
+    "2594a997-818a-4de5-b1c1-015972b655d2",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "hero_image_xJdRky",
+    "products_carousel_CMFJm6",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
     "393634d4-53d9-4c8e-be41-45c5d425188a",
