@@ -4,8 +4,8 @@
       "type": "hero-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/DESKTOP_01.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/BANNER_768X768_99bbeef5-8940-464a-b942-f997f9fa3bd6.jpg",
-        "image_tab": "shopify:\/\/shop_images\/BANNER_1024X1024_3e28e388-0d4a-4802-a0df-78206712896e.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/MOBILE_01.jpg",
+        "image_tab": "shopify:\/\/shop_images\/TABLET_01.jpg",
         "link": "shopify:\/\/collections\/bank-holiday-sale",
         "full_width": true
       }
