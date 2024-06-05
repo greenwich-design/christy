@@ -592,6 +592,11 @@
         "title": "Discover Bedding",
         "copy": "<p>You deserve the best of rest. Our bedding gently envelops you in a soft embrace to settle you into the sweetest dreams. Discover hand-painted designs, sumptuous fabrics, and durable materials at Christy. Your bed will be a haven for rest, relaxation, and deep sleep. From crisp, clean sheets to soft, snuggly throws, we've got the perfect combination for you.<\/p><p>Forget about your stresses and responsibilities and slip into a deep, peaceful sleep safely swaddled in the splendour of Christy’s bedding.<\/p>"
       }
+    },
+    "all_products_review_widget_RVw4rb": {
+      "type": "all-products-review-widget",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -611,6 +616,7 @@
     "07a57dc8-34ac-41ee-96df-37021aef7941",
     "product-grid",
     "recent-products",
-    "toggled-body-content"
+    "toggled-body-content",
+    "all_products_review_widget_RVw4rb"
   ]
 }
