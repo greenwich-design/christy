@@ -66,12 +66,12 @@
     },
     "all_products_review_widget_RVw4rb": {
       "type": "all-products-review-widget",
+      "disabled": true,
       "settings": {
       }
     },
     "reviews_io_carousel_eUthLk": {
       "type": "reviews-io-carousel",
-      "disabled": true,
       "settings": {
         "title": "Reviews"
       }
