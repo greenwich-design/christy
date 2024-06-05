@@ -120,7 +120,7 @@ App = {
       });
     });
 
-    //Add the onclick listeners.
+    // Add the onclick listeners.
     details.forEach(function (targetDetail) {
       targetDetail.addEventListener("click", function () {
         // Close all the details that are not targetDetail.

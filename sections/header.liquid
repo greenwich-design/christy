@@ -6,8 +6,25 @@
   endfor
 -%}
 
-<header id="header" class="w-full grid grid-cols-12 px-4 py-8 bg-white">
-  <div id="logo" class="col-span-3">
+<header
+  id="header"
+  class="w-full grid grid-cols-2 lg:grid-cols-12 px-8 bg-white z-10 pointer-events-auto h-[80px] items-center shadow-lg border-b border-b-slate-300"
+>
+  <div
+    id="search-bar"
+    class="fixed top-[80px] w-full bg-white left-0 px-8 flex gap-2 items-center overflow-hidden max-h-0 transition-all duration-500 shadow-lg"
+  >
+    <div class="">
+      {% render 'icon-search' %}
+    </div>
+    <div class="grow">
+      <input type="text" class="h-20 w-full border-none outline-none" placeholder="Search For">
+    </div>
+    <button id="search-close-icon" class="">
+      {% render 'icon-close' %}
+    </button>
+  </div>
+  <div id="logo" class="lg:col-span-2">
     {%- if request.page_type == 'index' -%}
       <h1 class="header__heading">
     {%- endif -%}
@@ -28,23 +45,35 @@
       </h1>
     {%- endif -%}
   </div>
-  <div id="menu" class="col-span-6">
-    <ul class="menu flex w-full justify-between">
+  <div id="menu" class="col-span-8 h-full hidden lg:block">
+    <ul class="menu flex w-full justify-center h-full items-center">
       {% for link in section.settings.menu.links %}
-        <li class="menu-link">
+        <li class="menu-link group relative h-full items-center flex px-6 after:absolute after:w-0 after:transition-all after:duration-500 after:bg-[#2c3b96] hover:after:w-full after:bottom-0 after:left-0 after:h-[2px]">
           <a href="{{ link.url }}">{{ link.title }}</a>
 
           {% if link.links.size > 0 %}
-            <ul class="menu dropdown-child hidden">
+            <ul class="menu dropdown-child hidden group-hover:grid grid-flow-col fixed bg-white p-4 top-[80px] left-0 right-0 mx-auto w-full shadow-lg transition-all duration-500">
               {% for child_link in link.links %}
-                <li class="menu-link">
-                  <a href="{{ child_link.url }}">{{ child_link.title }}</a>
+                <li class="menu-link font-bold grid grid-flow-row justify-center items-start auto-rows-max py-2">
+                  {% assign grand_child_count = child_link.links | size %}
+                  <a href="{{ child_link.url }}" class="flex flex-col gap-4 text-base pb-4 hover:underline">
+                    {% if grand_child_count == 0 %}
+                      <img
+                        src="{{ child_link.object.metafields.custom.menu_image | file_url }}"
+                        width="300"
+                        class="w-[300px] h-[300px] object-cover"
+                        height="300"
+                        alt="{{ child_link.title }}"
+                      >
+                    {% endif %}
+                    <span>{{ child_link.title }}</span>
+                  </a>
 
                   {% if child_link.links.size > 0 %}
-                    <ul class="menu dropdown-grandchild">
+                    <ul class="menu dropdown-grandchild flex flex-col items-start justify-start gap-4">
                       {% for grandchild_link in child_link.links %}
-                        <li class="menu-link">
-                          <a href="{{ grandchild_link.url }}">{{ grandchild_link.title }}</a>
+                        <li class="menu-link font-normal text-left">
+                          <a class="hover:underline" href="{{ grandchild_link.url }}">{{ grandchild_link.title }}</a>
                         </li>
                       {% endfor %}
                     </ul>
@@ -57,12 +86,11 @@
       {% endfor %}
     </ul>
   </div>
-  <div id="icons" class="col-span-3">
-    <div class="max-lg:hidden lg:max-w-[317px] flex-1">
-      {% render 'header-search', input_id: 'search_desktop' %}
-    </div>
-
-    <div class="header__icons flex items-center space-x-7">
+  <div id="icons" class="lg:col-span-2">
+    <div class="header__icons flex items-center justify-end space-x-4 lg:space-x-7">
+      <button id="search-icon" class="">
+        {% render 'icon-search' %}
+      </button>
       {%- if shop.customer_accounts_enabled -%}
         <a
           href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
@@ -129,6 +157,17 @@
     }
   </style>
 {% endif %}
+
+<script async defer type="text/javascript">
+  document.getElementById('search-icon').addEventListener('click', () => {
+    document.getElementById('search-bar').classList.remove('max-h-0');
+    document.getElementById('search-bar').classList.add('max-h-auto');
+  });
+  document.getElementById('search-close-icon').addEventListener('click', () => {
+    document.getElementById('search-bar').classList.remove('max-h-auto');
+    document.getElementById('search-bar').classList.add('max-h-0');
+  });
+</script>
 
 <script type="application/ld+json">
   {
