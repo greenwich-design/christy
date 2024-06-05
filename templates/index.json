@@ -666,11 +666,6 @@
         "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
         "button_link": "#quiz-gWHPoe"
       }
-    },
-    "all_products_review_widget_MR389d": {
-      "type": "all-products-review-widget",
-      "settings": {
-      }
     }
   },
   "order": [
@@ -697,7 +692,6 @@
     "billboard4",
     "featured-blogs",
     "d1799047-2d3f-4748-9804-8038692b0c63",
-    "2970b3ab-743a-4054-95d1-048d41881e08",
-    "all_products_review_widget_MR389d"
+    "2970b3ab-743a-4054-95d1-048d41881e08"
   ]
 }
