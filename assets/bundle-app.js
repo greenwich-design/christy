@@ -217,9 +217,8 @@ var bundleApp = {
       }, 500);
     }
     function getProductUrl() {
-      console.log("currentStep------",currentStep)
       if (currentStep == 0) {
-        return "/products/".concat(bundleData.bundleData.mainHandle, "?isAjax=true&section_id=").concat(sectionId);
+        return "/products/".concat(bundleData.bundleData.mainHandle, "?section_id=").concat(sectionId);
       }
       var _bundleData$steps = bundleData.steps[currentStep - 1],
         handle = _bundleData$steps.handle,
@@ -230,9 +229,9 @@ var bundleApp = {
           return variant.id.replace('gid://shopify/ProductVariant/', '');
         });
         var varIdsString = varIds.join(':');
-        return "/products/".concat(handle, "/v:").concat(varIdsString, ",sv:").concat(variantId, "?isAjax=true&section_id=").concat(sectionId);
+        return "/products/".concat(handle, "/v:").concat(varIdsString, ",sv:").concat(variantId, "&section_id=").concat(sectionId);
       } else {
-        return "/products/".concat(handle, "?isAjax=true&variant=").concat(variantId, "&section_id=").concat(sectionId);
+        return "/products/".concat(handle, "?variant=").concat(variantId, "&section_id=").concat(sectionId);
       }
     }
     if (btnPrev.length) {
@@ -333,8 +332,6 @@ var bundleApp = {
           var variantData = bundleData.variants.find(function (variant) {
             return variant.id === varId;
           });
-          console.log("step",step);
-          console.log("variantData",variantData);
           var quantity = 1;
           if (step.quantity) {
             quantity = step.quantity;
@@ -400,16 +397,13 @@ var bundleApp = {
       //let totalCompareFormatted = Shopify.formatMoney(totalCompare);
       var totalPriceFormatted = formatMoney(totalPrice);
       var totalCompareFormatted = formatMoney(totalCompare);
-      let discount = (totalCompare - totalPrice)*100/totalCompare
-      discount= Math.round(discount)
       if (totalCompare > totalPrice) {
-        
         bundlePriceHtml = "<span class=\"flex gap-x-2 font-semibold \">\n            <span class=\"line-through opacity-60\">\n              ".concat(totalCompareFormatted, "\n            </span>\n            <span>").concat(totalPriceFormatted, "</span>\n            </span>");
       } else {
         bundlePriceHtml = "<span class=\"font-semibold\">".concat(totalPriceFormatted, "</span>");
       }
       if (bundleData.bundleData.bundleDiscount > 0) {
-        bundleSavingsHtml = "Bundle Savings ".concat(discount, "% Off");
+        bundleSavingsHtml = "Bundle Savings ".concat(bundleData.bundleData.bundleDiscount, "% Off");
       } else {
         bundleSavingsHtml = "Bundle Savings";
       }
