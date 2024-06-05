@@ -16,7 +16,7 @@
     {% endif %}
   </div>
 
-  <span class="bundlesavings hidden inline-flex {% if hideSavingsMob != true %}flex-row-reverse{% endif %} items-center gap-1 whitespace-nowrap ui-pill ui-pill--bg-blue ui-shimmer before:animate-[shimmer_1s_linear_both]">
+  <span class="bundlesavings {% if showOnlyDiscount == true %} hidden {% else %} inline-flex {% endif %} {% if hideSavingsMob != true %}flex-row-reverse{% endif %} items-center gap-1 whitespace-nowrap ui-pill ui-pill--bg-blue ui-shimmer before:animate-[shimmer_1s_linear_both]">
     {% assign totalCompareMoney = totalCompare | money_without_currency %}
     {% assign totalPriceMonry = totalPrice | money_without_currency %}
 

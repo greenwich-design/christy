@@ -25,16 +25,15 @@
       <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
         <div class="field relative">
           <input
-            class="search__input field__input w-full py-2 lg:py-3 lg:w-full border-b border-blue-1/10 outline-none pl-10 placeholder:text-blue-1 font-normal appearance-none bg-transparent"
+            class="search__input field__input"
             id="{{ input_id }}"
             type="search"
             name="q"
             value="{{ search.terms | escape }}"
-            placeholder="{{ 'general.search.search' | t }}"
             {%- if settings.predictive_search_enabled -%}
               role="combobox"
               aria-expanded="false"
-              aria-owns="predictive-search-results"
+              aria-owns="predictive-search-results
               aria-controls="predictive-search-results"
               aria-haspopup="listbox"
               aria-autocomplete="list"

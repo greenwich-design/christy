@@ -45,14 +45,10 @@
 
         <li>
           <header-menu class="block">
-            <details
-              id="Details-HeaderMenu-shop"
-              class="mega-menu group py-[54px] flex items-center justify-center relative after:absolute after:h-1 after:bottom-8 after:w-0 hover:after:w-full after:bg-blue-1 after:transition-all after:duration-500"
-              open
-            >
+            <details id="Details-HeaderMenu-shop" class="mega-menu group">
               <summary
                 id="HeaderMenu-shop"
-                class="block group-hover:font-semibold outline-none"
+                class="block group-open:font-semibold outline-none"
               >
                 <span
                   {%- if link.child_active %}
@@ -63,16 +59,16 @@
                 </span>
               </summary>
               <div
-                class="fixed z-[-1] w-full left-0 top-[var(--header-height)] lg:top-[107px] -translate-y-14 hidden group-hover:block group-hover:translate-y-0 pointer-events-none"
+                class="fixed z-[-1] w-full left-0 top-[var(--header-height)] lg:top-[var(--header-height-lg)] -translate-y-14 opacity-0 pointer-events-none"
                 tabindex="-1"
               >
                 <div class="container">
                   <div class="bg-white/95 px-8 shadow-megamenu pointer-events-auto">
                     <ul
-                      class="grid grid-cols-4 gap-6 [&_>li]:pl-8 [&_>li:first-child]:pl-0 [&_>li]:py-12"
+                      class="grid grid-cols-4 gap-6 [&_>li]:pl-8 [&_>li:first-child]:pl-0 [&_>li]:py-12 [&_>li]:border-l [&_>li]:border-blue-1/10 [&_>li:first-child]:border-0"
                       role="list"
                     >
-                      <li class="[&_a:hover]:underline [&_a:hover]:font-bold">
+                      <li class="[&_a:hover]:underline">
                         <ul class="space-y-12">
                           {% if group_1_links_array.count %}
                             <li class="space-y-4">
@@ -95,9 +91,7 @@
                                     <li>
                                       <a href="{{ url }}">
                                         {{- link.link_title }}
-                                        <span class="block text-[10px] hover:font-bold">
-                                          {{- link.link_description -}}
-                                        </span></a
+                                        <span class="block text-[10px]">{{ link.link_description }}</span></a
                                       >
                                     </li>
                                   {% endif %}
@@ -124,11 +118,9 @@
                                   {%- endif -%}
                                   {% if url != blank %}
                                     <li>
-                                      <a href="{{ url }}" class="hover:font-bold">
+                                      <a href="{{ url }}">
                                         {{- link.link_title }}
-                                        <span class="block text-[10px] hover:font-bold">
-                                          {{- link.link_description -}}
-                                        </span></a
+                                        <span class="block text-[10px]">{{ link.link_description }}</span></a
                                       >
                                     </li>
                                   {% endif %}
@@ -141,7 +133,7 @@
 
                       {% if mm_content == 'menu' and menu != blank %}
                         <li class=" [&_a:hover]:underline col-span-3">
-                          <ul class="columns-3 column gap-16 column-rule-blue-1 [&_>li]:mb-12 min-h-full">
+                          <ul class="columns-3 column gap-16 column-rule-blue-1 [&_>li]:mb-12 fake-column-rule-blue-1 min-h-full">
                             {% assign links = linklists[menu].links %}
                             {% for parent in links %}
                               <li class="space-y-4 break-inside-avoid">
@@ -152,10 +144,7 @@
                                   <ul class="space-y-3 font-light">
                                     {% for child in parent.links %}
                                       <li>
-                                        <a
-                                          class="{% if child.current %} active{% endif %} hover:font-bold"
-                                          href="{{child.url}}"
-                                        >
+                                        <a class="{% if child.current %} active{% endif %}" href="{{child.url}}">
                                           {{- child.title -}}
                                           {% unless child.title contains 'Shop by' %}
                                             {%- if child.type == 'collection_link'
@@ -178,7 +167,7 @@
                         </li>
                       {% elsif mm_content == 'image_ctas' %}
                         <li class=" [&_a:hover]:underline col-span-3 !p-0">
-                          <ul class="grid grid-cols-2 column-rule-blue-1 [&_li]:px-8 [&_>li]:py-12 min-h-full">
+                          <ul class="grid grid-cols-2 column-rule-blue-1 [&_li]:px-8 [&_>li]:py-12 fake-column-rule-blue-2 min-h-full">
                             {% if image_link_1_image != blank
                               and image_link_1_title != blank
                               and image_link_1_url != blank
