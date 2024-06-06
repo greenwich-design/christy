@@ -84,6 +84,34 @@
               id="note"
             >
           {% endif %}
+          {% assign aplusVariants = current_variant.metafields.custom.a_plus_variants.value %}
+          {% assign showAplus = true %}
+          {% assign value = '' %}
+          {% for vars in aplusVariants %}
+            {% if vars.variant.value.inventory_quantity > 0 and vars.variant.value.inventory_quantity < vars.quantity %}
+              {% assign showAplus = false %}
+              {% break %}
+            {% endif %}
+            {% assign value = value
+              | append: vars.variant.value.id
+              | append: '-'
+              | append: vars.variant.value.product.id
+              | append: '-'
+              | append: vars.quantity
+              | append: ','
+            %}
+          {% endfor %}
+          {% if current_variant.metafields.custom.a_plus_display_text != blank and showAplus == true %}
+            <div id="aplusproducts" class="flex flex-row items-center justify-start gap-2">
+              <input
+                name="aplusproducts"
+                type="checkbox"
+                value="{{ value }}"
+                id="aplusproducts"
+              >
+              <label for="aplusproducts">{{ current_variant.metafields.custom.a_plus_display_text }}</label>
+            </div>
+          {% endif %}
           <div class="flex gap-2 items-end">
             <p class="font-semibold lg:d-h5 hidden sm:max-md:!block self-start max-w-[40%]">{{ product.title }}</p>
             <div class="flex-[2] overflow-hidden">
