@@ -196,9 +196,8 @@
     },
     "products_carousel_bQqamG": {
       "type": "products-carousel",
-      "disabled": true,
       "settings": {
-        "title": "Sale | Up to 50% Off",
+        "title": "Beach Towels",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -206,11 +205,8 @@
         "button_title": "",
         "button_link": "",
         "products": [
-          "400-thread-count-sateen-plain-dye",
-          "brixton-towels",
-          "fennel-print-duvet-set",
-          "copy-of-smooth-and-silky-cotton-sateen-deep-fitted-sheet-400-thread-count",
-          "serene-550-gsm-combed-cotton"
+          "cabana-beach-towels-450-gsm-cotton",
+          "amalfi-beach-towel"
         ],
         "screen_visibility": "both"
       }
