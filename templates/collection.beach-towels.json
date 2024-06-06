@@ -3,13 +3,14 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/THIN_BANNER_1.jpg",
+        "image": "shopify:\/\/shop_images\/THIN_BANNER_ea37ca27-c5ad-420a-85c9-a9bfb429db81.jpg",
         "link": "",
         "full_width": true
       }
     },
     "b9932fb5-c80a-402d-977c-e883e9dff131": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/embroidery.jpg",
         "image2": "shopify:\/\/shop_images\/D3_489.jpg",
@@ -29,6 +30,7 @@
       "blocks": {
         "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Halloween_1200X628_1_1.jpg",
             "mobile_media": "image",
@@ -186,6 +188,7 @@
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
+      "disabled": true,
       "settings": {
         "title": "Our Father's Day Gift Collection",
         "screen_visibility": "both"
@@ -214,6 +217,7 @@
     },
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "Curated Gifts He'll Adore",
         "title_font_size_mob": 18,
@@ -346,6 +350,7 @@
     },
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Gift_2.webp",
         "image2": "shopify:\/\/shop_images\/robe_box.jpg",
@@ -402,6 +407,7 @@
         "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea",
         "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5"
       ],
+      "disabled": true,
       "settings": {
         "title": "It takes 3 Simple Steps",
         "title_font_size_mob": 16,
@@ -425,6 +431,7 @@
     },
     "products_carousel_CMFJm6": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "Gifts Under £50",
         "title_font_size_mob": 18,
