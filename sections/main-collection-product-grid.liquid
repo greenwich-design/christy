@@ -66,7 +66,7 @@
       </ul>
     </nav>
 
-    <header class="flex items-start justify-between container space-x-6">
+    <header class="flex items-start flex-col container ">
       {% assign alt_title = collection.metafields.custom.alternative_collection_title %}
       {% if alt_title != blank %}
         <h1 class="s-m-h4 lg:s-d-h3">{{ alt_title.value }}</h1>
@@ -275,19 +275,19 @@
 </div>
 
 <script>
-  function initReviews(){
-    if(ratingSnippet !== undefined)
-    ratingSnippet("ruk_rating_snippet", {
-      store: "www.christy.co.uk",
-      mode: "default",
-      color: "#2c3b96",
-      linebreak: false,
-      text: "Reviews",
-      singularText: "Review",
-      lang: "en",
-      usePolaris: true,
-      showEmptyStars: false,
-    });
+  function initReviews() {
+    if (ratingSnippet !== undefined)
+      ratingSnippet('ruk_rating_snippet', {
+        store: 'www.christy.co.uk',
+        mode: 'default',
+        color: '#2c3b96',
+        linebreak: false,
+        text: 'Reviews',
+        singularText: 'Review',
+        lang: 'en',
+        usePolaris: true,
+        showEmptyStars: false,
+      });
   }
   function sectionProductGridInit() {
     // view toggle
@@ -465,7 +465,7 @@
         }
 
         getShowBtnTop();
-        initReviews()
+        initReviews();
       })
       .catch(function (error) {
         console.error('Error loading products:', error);
