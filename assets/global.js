@@ -1212,7 +1212,9 @@ class VariantSelects extends HTMLElement {
         } else if (document.querySelector(".personalization_init_button")) {
           document.querySelector(".personalization_init_button").innerHTML = "Personalization Not Allowed for this Variant"
         }
-
+        if (html.getElementById("aplusproducts") && document.querySelector("#aplusproducts")) {
+          document.querySelector("#aplusproducts").innerHTML = html.getElementById("aplusproducts").innerHTML
+        }
         const source = html.getElementById(
           `price-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`
         );

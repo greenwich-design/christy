@@ -101,8 +101,9 @@
               | append: ','
             %}
           {% endfor %}
-          {% if current_variant.metafields.custom.a_plus_display_text != blank and showAplus == true %}
-            <div id="aplusproducts" class="flex flex-row items-center justify-start gap-2">
+
+          <div id="aplusproducts" class="flex flex-row items-center justify-start gap-2">
+            {% if current_variant.metafields.custom.a_plus_display_text != blank and showAplus == true %}
               <input
                 name="aplusproducts"
                 type="checkbox"
@@ -110,8 +111,9 @@
                 id="aplusproducts"
               >
               <label for="aplusproducts">{{ current_variant.metafields.custom.a_plus_display_text }}</label>
-            </div>
-          {% endif %}
+            {% endif %}
+          </div>
+
           <div class="flex gap-2 items-end">
             <p class="font-semibold lg:d-h5 hidden sm:max-md:!block self-start max-w-[40%]">{{ product.title }}</p>
             <div class="flex-[2] overflow-hidden">
