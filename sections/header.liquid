@@ -178,27 +178,44 @@
                     <span class="m-body-copy-med lg:d-body-copy-med mr-auto">
                       {{- parent.title | escape -}}
                     </span>
-                    <span
-                      class="acc-toggle group-open/acc:before:rotate-90"
-                    ></span>
+                    <span class="">
+                      <svg
+                        viewBox="0 0 14 10"
+                        fill="none"
+                        aria-hidden="true"
+                        focusable="false"
+                        class="w-3 h-3 group-open/acc:rotate-90"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.537.808a.5.5 0 01.817-.162l4 4a.5.5 0 010 .708l-4 4a.5.5 0 11-.708-.708L11.793 5.5H1a.5.5 0 010-1h10.793L8.646 1.354a.5.5 0 01-.109-.546z" fill="currentColor">
+                      </svg>
+                    </span>
                   </summary>
                   <div class="pt-5 lg:pt-7">
                     <ul class="space-y-3 font-light">
                       {% for child in parent.links %}
-                        <li>
-                          <a class="{% if child.current %} active{% endif %}" href="{{child.url}}">
-                            {{- child.title -}}
-                            {% unless child.title contains 'Shop by' %}
-                              {%- if child.type == 'collection_link'
-                                and child.object.metafields.christy23.collection_usp != blank
-                              -%}
-                                <strong
-                                  >&nbsp;|&nbsp;
-                                  {{ child.object.metafields.christy23.collection_usp }}
-                                </strong>
-                              {%- endif -%}
-                            {% endunless %}
-                          </a>
+                        {% assign grandchildSize = child.links | size %}
+                        <li class="">
+                          <div class="flex items-center justify-between group/accc">
+                            <a class="{% if child.current %} active{% endif %} font-bold" href="{{child.url}}">
+                              {{- child.title -}}
+                            </a>
+
+                            {% if grandchildSize > 0 %}
+                              <span
+                                class="acc-toggle group-open/accc:before:rotate-90"
+                              ></span>
+                            {% endif %}
+                          </div>
+                          {% if grandchildSize > 0 %}
+                            <ul>
+                              {% for grandchild in child.links %}
+                                <li>
+                                  <a href="{{ grandchild.links }}">{{ grandchild.title }}</a>
+                                </li>
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
                         </li>
                       {% endfor %}
                     </ul>
