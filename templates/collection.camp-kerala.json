@@ -3,77 +3,148 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/REVIEW_PAGE_BANNER_2.jpg",
+        "image": "shopify:\/\/shop_images\/THIN_BANNER_1.jpg",
         "link": "",
         "full_width": true
       }
     },
-    "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
-      "type": "heading",
-      "disabled": true,
+    "b9932fb5-c80a-402d-977c-e883e9dff131": {
+      "type": "images-copy-cta",
       "settings": {
-        "heading": "<p>Loved Since 1850<\/p>",
-        "heading_width": "4",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "center",
-        "alignment_mob": "center",
-        "horiz_padding": true,
-        "margin_top": true
+        "image": "shopify:\/\/shop_images\/embroidery.jpg",
+        "image2": "shopify:\/\/shop_images\/D3_489.jpg",
+        "subtitle": "Make it extra special with",
+        "title": "<p>Personalisation<\/p>",
+        "copy": "<p>This Father's Day, give the gift of luxury with our embroidered personalisation on robes and towels.<\/p><p>Make it truly unique by selecting your choice of fonts and colours for a one off gift he will cherish everyday.<\/p>",
+        "button_label": "Shop Now",
+        "button_link": "https:\/\/www.christy.co.uk\/collections\/personalisation",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
       }
     },
-    "reviews_carousel_QcateL": {
-      "type": "reviews-carousel",
+    "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
+      "type": "hero-collection",
       "blocks": {
-        "block_bfwqF9": {
-          "type": "block",
+        "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1": {
+          "type": "slide",
           "settings": {
-            "product": "renaissance",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“Beautiful towels always the best quality, lovely colour blue. match my bathroom well.”<\/p>",
-            "name": "Carol Smith"
-          }
-        },
-        "block_6tXxb7": {
-          "type": "block",
-          "settings": {
-            "product": "coniston-bed-linen",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
-          }
-        },
-        "block_UhkyB3": {
-          "type": "block",
-          "settings": {
-            "product": "",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”<\/p>",
-            "name": "John Smith"
+            "image": "shopify:\/\/shop_images\/Halloween_1200X628_1_1.jpg",
+            "mobile_media": "image",
+            "subtitle": "",
+            "mobile_subtitle": "show",
+            "title": "",
+            "mob_title": "",
+            "copy": "",
+            "copy_visibility": "mobile",
+            "collection": "",
+            "button_text": ""
           }
         }
       },
       "block_order": [
-        "block_bfwqF9",
-        "block_6tXxb7",
-        "block_UhkyB3"
+        "template--21202653085984__e81c268d-881b-4c6d-a674-f0f49b2c9321-slide-1"
       ],
       "disabled": true,
       "settings": {
-        "title": "5,000 + Happy Customers",
-        "margin": "yes"
       }
     },
-    "all_products_review_widget_RVw4rb": {
-      "type": "all-products-review-widget",
-      "settings": {
-      }
-    },
-    "reviews_io_carousel_eUthLk": {
-      "type": "reviews-io-carousel",
+    "c_info_columns_gmFa3p": {
+      "type": "c-info-columns",
+      "blocks": {
+        "column_t9wx3Q": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_a1152671-8597-4981-bafc-b23d332351be.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "all-loungewear",
+            "collection_tag": ""
+          }
+        },
+        "column_aTDwA8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_f589f6af-21b8-44d3-99e8-b21b29408027.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "all-bundles",
+            "collection_tag": ""
+          }
+        },
+        "column_qDdMyR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_2c92a2cd-8dab-4c4a-ad0e-d3bbd8de248a.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "all-bath",
+            "collection_tag": ""
+          }
+        },
+        "column_pbPTHC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_e9757613-9714-458f-b972-ab57df34a33c.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "duvet-sets",
+            "collection_tag": ""
+          }
+        },
+        "column_QLNQEd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_d18088ec-c2db-481f-a8f4-888104f919d5.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "all-accessories",
+            "collection_tag": ""
+          }
+        },
+        "column_TMVFXE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_91476ba9-983f-46a9-846e-c754fc2b1a99.jpg",
+            "image_aspect": "1:1",
+            "title": "",
+            "text": "",
+            "button_label": "Shop Now",
+            "button_link": "duvet-pillows",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_t9wx3Q",
+        "column_aTDwA8",
+        "column_qDdMyR",
+        "column_pbPTHC",
+        "column_QLNQEd",
+        "column_TMVFXE"
+      ],
       "disabled": true,
       "settings": {
-        "title": "Reviews"
+        "title": "Share the love with up to 50% off",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
       }
     },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
@@ -82,74 +153,127 @@
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
           "type": "collection",
           "settings": {
-            "collection": "towels",
+            "collection": "all-loungewear",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/thick_indulgent_HP.jpg",
-            "alt_title": "Towels",
-            "excerpt": "<p>Upgrade your bathroom with a perfect blend of softness and functionality all wrapped into one.<\/p>"
+            "image": "shopify:\/\/shop_images\/Cosy-Robe-Blue-Velvet-4.jpg",
+            "alt_title": "Indulgent Robes",
+            "excerpt": "<h1>Explore plush and super soft robes that exude cosy comfort.<\/h1>"
           }
         },
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
           "type": "collection",
           "settings": {
-            "collection": "all-bedding",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Jaipur_Hazelnut_lifestyle2_1e7c05eb-e26d-4cba-965e-2e219fb0a944.jpg",
-            "alt_title": "Bedding",
-            "excerpt": "<p>Transform your bedroom into a haven of luxury with our bedding collections.<\/p>"
+            "collection": "category-wimbledon",
+            "usp_title": "Crowd Favourite",
+            "image": "shopify:\/\/shop_images\/wimbledon_champ_24.jpg",
+            "alt_title": "Wimbledon Towels",
+            "excerpt": "<h1>For all the sports fans out there, Wimbledon towels make the perfect gift.<\/h1>"
           }
         },
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
           "type": "collection",
           "settings": {
-            "collection": "robes",
+            "collection": "personalisation",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/robe_bundle.jpg",
-            "alt_title": "Robes",
-            "excerpt": "<p>Wrap yourself in comfort with our robes, designed to elevate your relaxation experience.<\/p>"
-          }
-        },
-        "collection_HPHPyL": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-accessories",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/D3-18.jpg",
-            "alt_title": "Accessories",
-            "excerpt": "<p>Level up your look with layers of colour and texture. <\/p>"
+            "image": "shopify:\/\/shop_images\/FD_initials.jpg",
+            "alt_title": "Embroidery",
+            "excerpt": "<p>Show how much you care with the most thoughtful personalised gift.<\/p>"
           }
         }
       },
       "block_order": [
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b",
-        "collection_HPHPyL"
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
       "settings": {
-        "title": "Discover Our Most-loved Collections ",
+        "title": "Our Father's Day Gift Collection",
         "screen_visibility": "both"
       }
     },
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
+    "products_carousel_bQqamG": {
       "type": "products-carousel",
       "disabled": true,
       "settings": {
-        "title": "Explore Towels",
+        "title": "Sale | Up to 50% Off",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
         "title_font_family": "sans-serif",
-        "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/towels",
+        "button_title": "",
+        "button_link": "",
         "products": [
-          "organic",
-          "renaissance",
-          "supreme-hygro",
+          "400-thread-count-sateen-plain-dye",
           "brixton-towels",
-          "luxe-towels"
+          "fennel-print-duvet-set",
+          "copy-of-smooth-and-silky-cotton-sateen-deep-fitted-sheet-400-thread-count",
+          "serene-550-gsm-combed-cotton"
         ],
         "screen_visibility": "both"
+      }
+    },
+    "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Curated Gifts He'll Adore",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "Explore More",
+        "button_link": "https:\/\/www.christy.co.uk\/collections\/gifts",
+        "products": [
+          "brixton-robe",
+          "wimbledon-2024-championship-towel",
+          "supreme-velour-robe",
+          "super-soft-cosy-robe",
+          "wimbledon-2023-face-cloth-pack-green-purple",
+          "wimbledon-2023-guest-towel"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "a6afff26-2b13-4416-a136-947cb17aad4f": {
+      "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1920X960_1_70722709-75cb-445e-b547-b8ed1d192146.jpg",
+        "link": "shopify:\/\/collections\/bedroom-bedroom-sale",
+        "full_width": true
+      }
+    },
+    "rich_text_yiEkhT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TB8KEh": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "sub_title_size": "h2"
+          }
+        },
+        "main_heading_z9UJtx": {
+          "type": "main_heading",
+          "settings": {
+            "heading": "This Valentine's Day, Christy invites you to celebrate the diverse and unique connections that make each love story one of a kind."
+          }
+        },
+        "text_6hfjqW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Let your gifts be a reflection of your love!<\/em><\/p><p><\/p><p>We are offering personalisation options on select products. Add that extra touch of detail, make it uniquely yours, and spoil them silly!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TB8KEh",
+        "main_heading_z9UJtx",
+        "text_6hfjqW"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "anchor_id": ""
       }
     },
     "2594a997-818a-4de5-b1c1-015972b655d2": {
@@ -186,30 +310,138 @@
         "anchor_id": ""
       }
     },
-    "b9932fb5-c80a-402d-977c-e883e9dff131": {
-      "type": "images-copy-cta",
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
+      "type": "products-carousel",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/WIMD150-809824.jpg",
-        "image2": "shopify:\/\/shop_images\/WimbledonChampionship2023Detail-273571.jpg",
-        "subtitle": "Wimbledon Championship Towel 2023",
-        "title": "<p>Ace Your Christmas Gift-Giving!<\/p>",
-        "copy": "<p>Elevate your Christmas gifting game with the Wimbledon Championship Towel 2023. <\/p><p>It's a versatile, stylish, and ultra-absorbent gift that tennis lovers and anyone with an appreciation for quality will adore. <\/p>",
-        "button_label": "Flat 30% Off - Shop Now",
-        "button_link": "shopify:\/\/collections\/wimbledon-collection",
+        "title": "Gifts under £50",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "Shop All",
+        "button_link": "shopify:\/\/collections\/shop-everything",
+        "products": [
+          "super-soft-cosy-robe",
+          "luxury-egyptian-robes",
+          "supreme-velour-robe",
+          "brixton-robe"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
+      "type": "heading",
+      "disabled": true,
+      "settings": {
+        "heading": "<p>Get ready for a 'spooktacular' soak!<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
+      }
+    },
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Gift_2.webp",
+        "image2": "shopify:\/\/shop_images\/robe_box.jpg",
+        "subtitle": "",
+        "title": "<p>Create your Father's Day Gift Box<\/p>",
+        "copy": "<p>Elevate your gift-giving experience with our luxurious gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
+        "button_label": "",
+        "button_link": "shopify:\/\/collections\/all",
         "content_position": "right",
         "header_position": false,
         "images_half_width": false,
         "anchor_id": ""
       }
     },
-    "a6afff26-2b13-4416-a136-947cb17aad4f": {
+    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
+      "type": "c-info-columns",
+      "blocks": {
+        "ffe46c4a-76e3-4116-904c-69ac29f094fb": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Step 1",
+            "text": "<p>Choose your gift items from across our collections and add to cart.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Step 2",
+            "text": "<p>Check the \"Make it extra special with a gift box\" option at the bottom of the cart (£5 per gift box).<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
+        "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5": {
+          "type": "column",
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Step 3",
+            "text": "<p>Add a free personal message to your loved one and proceed to checkout. All done!<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        }
+      },
+      "block_order": [
+        "ffe46c4a-76e3-4116-904c-69ac29f094fb",
+        "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea",
+        "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5"
+      ],
+      "settings": {
+        "title": "It takes 3 Simple Steps",
+        "title_font_size_mob": 16,
+        "title_font_size_desktop": 20,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "copy_font_size_mob": 12,
+        "copy_font_size_desktop": 14,
+        "copy_font_weight": "300",
+        "copy_font_family": "sans-serif"
+      }
+    },
+    "hero_image_xJdRky": {
       "type": "hero-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
-        "link": "",
+        "image": "shopify:\/\/shop_images\/throw_lifestyle.jpg",
+        "link": "https:\/\/www.christy.co.uk\/products\/rosa-throw-and-cushion-bundle",
         "full_width": true
+      }
+    },
+    "products_carousel_CMFJm6": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Gifts Under £50",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "",
+        "button_link": "",
+        "products": [
+          "super-soft-cosy-robe",
+          "wimbledon-2024-championship-towel",
+          "brixton-robe",
+          "supreme-hygro",
+          "luxe-towels",
+          "cirrus-bath-sheet-bundle"
+        ],
+        "screen_visibility": "both"
       }
     },
     "955ae530-8662-43db-b9cc-df67f9e5bda7": {
@@ -237,7 +469,7 @@
           "type": "block",
           "settings": {
             "title": "Loved by our Customers",
-            "copy": "<p>3000+ 5 star reviews with a score of 4.5 out of 5.<\/p>",
+            "copy": "<p>5000+ 5 star reviews with a score of 4.7 out of 5<\/p>",
             "button_link": "shopify:\/\/collections\/all",
             "button_title": "Shop the Range"
           }
@@ -261,45 +493,6 @@
       "settings": {
         "title": "Why Christy?",
         "margin": "yes"
-      }
-    },
-    "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
-      "type": "products-carousel",
-      "disabled": true,
-      "settings": {
-        "title": "Throws & Cushions",
-        "title_font_size_mob": 18,
-        "title_font_size_desktop": 30,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "button_title": "Shop the Range",
-        "button_link": "shopify:\/\/collections\/all-accessories",
-        "products": [
-          "jaipur-throw",
-          "oslo",
-          "cosy-throw",
-          "jaipur-cushion",
-          "metropolitan-throw",
-          "metropolitan-cushion"
-        ],
-        "screen_visibility": "both"
-      }
-    },
-    "6851d866-adb6-4f4b-8e77-da4ae8ec22ef": {
-      "type": "images-copy-cta",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/SuperiorSoftTouchDuvet_Lifestyle_3.jpg",
-        "image2": "shopify:\/\/shop_images\/Duvet-1024x1024_c434d424-997b-4160-b314-2c0a36d3680a.jpg",
-        "subtitle": "New Arrival",
-        "title": "<p>Feather & Down Duvets & Pillows<\/p>",
-        "copy": "<p>Want a duvet that is incredibly soft and warm? Made with the softest duck feather and down and a clever box construction, the naturally breathable filling remains even sleep after sleep to keep you cosy when it's colder.<\/p>",
-        "button_label": "Discover the Collection",
-        "button_link": "shopify:\/\/collections\/feather-down",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
       }
     },
     "d38727e6-070e-4d88-af8b-6b75b41f7719": {
@@ -380,6 +573,42 @@
         "screen_visibility": "both"
       }
     },
+    "393634d4-53d9-4c8e-be41-45c5d425188a": {
+      "type": "heading",
+      "disabled": true,
+      "settings": {
+        "heading": "<p>Pair with our exquisite Throws & Cushions<\/p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
+      }
+    },
+    "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e": {
+      "type": "products-carousel",
+      "disabled": true,
+      "settings": {
+        "title": "Throws | Up to 50% Off",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "Explore the Range",
+        "button_link": "shopify:\/\/collections\/all-accessories",
+        "products": [
+          "oslo",
+          "jaipur-throw-bundle",
+          "porto-throw",
+          "lisbon-throw",
+          "edmonton",
+          "metropolitan-throw"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "07a57dc8-34ac-41ee-96df-37021aef7941": {
       "type": "reviews-carousel",
       "blocks": {
@@ -410,6 +639,24 @@
       "settings": {
         "title": "Unveiling the Christy Experience: Happy Customer Reviews",
         "margin": "yes"
+      }
+    },
+    "32651ade-df62-44f5-8355-bb4039f60426": {
+      "type": "billboard",
+      "disabled": true,
+      "settings": {
+        "screen_visibility": "both",
+        "image": "shopify:\/\/shop_images\/Fennel_Lifestyle_4.jpg",
+        "subtitle": "",
+        "title": "<p>Bedding<\/p><p><\/p><p>Flat 25% Off<\/p>",
+        "copy": "",
+        "button_label": "Shop Now",
+        "button_link": "shopify:\/\/collections\/autumn-winter-2023-collection",
+        "button_type": "default",
+        "colour_theme": "white",
+        "alignment": "left",
+        "alignment_vertical": "top",
+        "mobile_content_position": "below"
       }
     },
     "product-grid": {
@@ -602,20 +849,27 @@
   },
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
-    "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
-    "reviews_carousel_QcateL",
-    "all_products_review_widget_RVw4rb",
-    "reviews_io_carousel_eUthLk",
-    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
-    "2594a997-818a-4de5-b1c1-015972b655d2",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
-    "a6afff26-2b13-4416-a136-947cb17aad4f",
-    "955ae530-8662-43db-b9cc-df67f9e5bda7",
+    "e81c268d-881b-4c6d-a674-f0f49b2c9321",
+    "c_info_columns_gmFa3p",
+    "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
+    "products_carousel_bQqamG",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
-    "6851d866-adb6-4f4b-8e77-da4ae8ec22ef",
+    "a6afff26-2b13-4416-a136-947cb17aad4f",
+    "rich_text_yiEkhT",
+    "2594a997-818a-4de5-b1c1-015972b655d2",
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
+    "76c6e56b-583c-4e8e-82a1-c452644a34b6",
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b",
+    "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
+    "hero_image_xJdRky",
+    "products_carousel_CMFJm6",
+    "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
+    "393634d4-53d9-4c8e-be41-45c5d425188a",
+    "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
     "07a57dc8-34ac-41ee-96df-37021aef7941",
+    "32651ade-df62-44f5-8355-bb4039f60426",
     "product-grid",
     "recent-products",
     "toggled-body-content"
