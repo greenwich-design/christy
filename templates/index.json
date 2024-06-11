@@ -3,10 +3,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DESKTOP_0caf1d42-1e0d-41b5-abac-997e186ca713.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/MOBILE_24199d8a-cde6-43c9-b2d1-a56f98ff560d.jpg",
-        "image_tab": "shopify:\/\/shop_images\/TABLET_d72f7b71-66c8-48fe-b91c-292c818ef5ac.jpg",
-        "link": "shopify:\/\/collections\/beach-towels",
+        "image": "shopify:\/\/shop_images\/1920X1080.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/768X768_40643924-cf31-4ba5-a4eb-a6bc024f92ba.jpg",
+        "image_tab": "shopify:\/\/shop_images\/1024X1024_5317c226-d006-4e82-a82b-ef5380e44ee3.jpg",
+        "link": "shopify:\/\/collections\/shop-all",
         "full_width": true
       }
     },
