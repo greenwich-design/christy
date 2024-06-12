@@ -2181,3 +2181,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 /******/ })()
 ;
+
+if( document.getElementById("aplusproducts-cb")){
+	document.getElementById("aplusproducts-cb").addEventListener("change",(e)=>{
+	  if(e.target.checked){
+		document.getElementById("price-small-snip").classList.add("hidden")
+		document.getElementById("aplus_cart_price").classList.remove("hidden")
+	  }else{
+		document.getElementById("price-small-snip").classList.remove("hidden")
+		document.getElementById("aplus_cart_price").classList.add("hidden")
+	  }
+	})
+  }
