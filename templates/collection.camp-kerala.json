@@ -10,6 +10,7 @@
     },
     "b9932fb5-c80a-402d-977c-e883e9dff131": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/embroidery.jpg",
         "image2": "shopify:\/\/shop_images\/D3_489.jpg",
@@ -21,6 +22,39 @@
         "content_position": "right",
         "header_position": false,
         "images_half_width": false,
+        "anchor_id": ""
+      }
+    },
+    "rich_text_yiEkhT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TB8KEh": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "sub_title_size": "h2"
+          }
+        },
+        "main_heading_z9UJtx": {
+          "type": "main_heading",
+          "settings": {
+            "heading": "TBC"
+          }
+        },
+        "text_6hfjqW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>TBC<\/em><\/p><p><\/p><p>TBC<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TB8KEh",
+        "main_heading_z9UJtx",
+        "text_6hfjqW"
+      ],
+      "settings": {
+        "full_width": false,
         "anchor_id": ""
       }
     },
@@ -186,6 +220,7 @@
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
+      "disabled": true,
       "settings": {
         "title": "Our Father's Day Gift Collection",
         "screen_visibility": "both"
@@ -215,7 +250,7 @@
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
       "type": "products-carousel",
       "settings": {
-        "title": "Curated Gifts He'll Adore",
+        "title": "Camp Kerala Bundle",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -240,40 +275,6 @@
         "image": "shopify:\/\/shop_images\/1920X960_1_70722709-75cb-445e-b547-b8ed1d192146.jpg",
         "link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "full_width": true
-      }
-    },
-    "rich_text_yiEkhT": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_TB8KEh": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "sub_title_size": "h2"
-          }
-        },
-        "main_heading_z9UJtx": {
-          "type": "main_heading",
-          "settings": {
-            "heading": "This Valentine's Day, Christy invites you to celebrate the diverse and unique connections that make each love story one of a kind."
-          }
-        },
-        "text_6hfjqW": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Let your gifts be a reflection of your love!<\/em><\/p><p><\/p><p>We are offering personalisation options on select products. Add that extra touch of detail, make it uniquely yours, and spoil them silly!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_TB8KEh",
-        "main_heading_z9UJtx",
-        "text_6hfjqW"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "anchor_id": ""
       }
     },
     "2594a997-818a-4de5-b1c1-015972b655d2": {
@@ -344,22 +345,6 @@
         "margin_top": false
       }
     },
-    "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
-      "type": "images-copy-cta",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Gift_2.webp",
-        "image2": "shopify:\/\/shop_images\/robe_box.jpg",
-        "subtitle": "",
-        "title": "<p>Create your Father's Day Gift Box<\/p>",
-        "copy": "<p>Elevate your gift-giving experience with our luxurious gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
-        "button_label": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
-      }
-    },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
       "type": "c-info-columns",
       "blocks": {
@@ -414,6 +399,22 @@
         "copy_font_family": "sans-serif"
       }
     },
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
+      "type": "images-copy-cta",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Gift_2.webp",
+        "image2": "shopify:\/\/shop_images\/robe_box.jpg",
+        "subtitle": "",
+        "title": "<p>Create your Father's Day Gift Box<\/p>",
+        "copy": "<p>Elevate your gift-giving experience with our luxurious gift box.<\/p><p>To add that personal touch, we also offer the option to include a heartfelt, personalised message. It's the perfect way to convey your warmest wishes and sentiments, making your gift truly unique and special.<\/p>",
+        "button_label": "",
+        "button_link": "shopify:\/\/collections\/all",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
+      }
+    },
     "hero_image_xJdRky": {
       "type": "hero-image",
       "disabled": true,
@@ -425,6 +426,7 @@
     },
     "products_carousel_CMFJm6": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "Gifts Under £50",
         "title_font_size_mob": 18,
@@ -850,18 +852,18 @@
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "b9932fb5-c80a-402d-977c-e883e9dff131",
+    "rich_text_yiEkhT",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "c_info_columns_gmFa3p",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "products_carousel_bQqamG",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
-    "rich_text_yiEkhT",
     "2594a997-818a-4de5-b1c1-015972b655d2",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
-    "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
+    "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "hero_image_xJdRky",
     "products_carousel_CMFJm6",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
