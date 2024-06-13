@@ -1,4 +1,4 @@
-<!-- begin Convert Experiences code-->
+<!-- begin Convert Experiences code -->
 <script type="text/javascript">
   // Function to turn on the conversion integration
   function _conv_integration_on() {
@@ -17,11 +17,10 @@
       source: segFromSecondFormat.source,
       campaign: segFromSecondFormat.campaign,
       // Directly map 'country' to 'ctry', ensuring a value is always provided
-      ctry: segFromSecondFormat.country || "",
+      ctry: segFromSecondFormat.country || '',
       // Handle 'customSegments' with a check to ensure it's treated correctly
       cust:
-        segFromSecondFormat.customSegments &&
-        Array.isArray(segFromSecondFormat.customSegments)
+        segFromSecondFormat.customSegments && Array.isArray(segFromSecondFormat.customSegments)
           ? segFromSecondFormat.customSegments
           : [],
     };
@@ -29,30 +28,23 @@
     // Adjust the 'new' flag based on 'visitorType'
     // Since 'visitorType' of "returning" implies the visitor is not new, we map accordingly
     alignedSeg.new =
-      segFromSecondFormat.visitorType === "new"
-        ? 1
-        : segFromSecondFormat.visitorType === "returning"
-        ? 0
-        : undefined;
+      segFromSecondFormat.visitorType === 'new' ? 1 : segFromSecondFormat.visitorType === 'returning' ? 0 : undefined;
 
     return alignedSeg;
   }
 
   // Push a new listener to the _conv_q array
   _conv_q.push({
-    what: "addListener",
+    what: 'addListener',
     params: {
-      event: "snippet.goals_evaluated",
+      event: 'snippet.goals_evaluated',
       handler: function () {
         // Try to get the session cookie
         let session_cookie;
         try {
-          session_cookie = convert.getCookie("_conv_s");
+          session_cookie = convert.getCookie('_conv_s');
         } catch (error) {
-          console.error(
-            'Convert: Error getting session cookie. Operation: convert.getCookie("_conv_s")',
-            error
-          );
+          console.error('Convert: Error getting session cookie. Operation: convert.getCookie("_conv_s")', error);
           return; // Exit the function if there's an error
         }
 
@@ -60,13 +52,10 @@
         const isHistoricalData = Boolean(convert.historicalData && convert.historicalData.experiences);
 
         // If there are experiments and a session cookie, proceed
-        if (
-          (isCurrentData || isHistoricalData) &&
-          session_cookie
-        ) {
+        if ((isCurrentData || isHistoricalData) && session_cookie) {
           // Define some variables
-          let revenue_goal_id = "100446528";
-          let visitor_id = session_cookie.split("*")[0].replace("sh:", "");
+          let revenue_goal_id = '100446528';
+          let visitor_id = session_cookie.split('*')[0].replace('sh:', '');
           let exp_list = [];
           let variation_list = [];
           let varID;
@@ -108,65 +97,43 @@
           // Try to get visitor segments
           try {
             let segmentsFromConvert = convert.getVisitorSegments();
-            convert_attributes.visitorSegments =
-              alignSegmentsToFirstFormat(segmentsFromConvert);
+            convert_attributes.visitorSegments = alignSegmentsToFirstFormat(segmentsFromConvert);
           } catch (error) {
-            console.error("Convert: Error getting visitor segments:", error);
+            console.error('Convert: Error getting visitor segments:', error);
           }
 
           // Try to set convert_attributes in localStorage
           try {
-            localStorage.setItem("convert_revenue_goal", revenue_goal_id);
-            console.log(
-              "%cConvert: convert_revenue_goal successfully saved to localStorage",
-              "color: lightgreen"
-            ); // Debugging line
+            localStorage.setItem('convert_revenue_goal', revenue_goal_id);
+            console.log('%cConvert: convert_revenue_goal successfully saved to localStorage', 'color: lightgreen'); // Debugging line
           } catch (error) {
-            console.error(
-              "%cConvert: Error saving convert_attributes to localStorage: ",
-              "color: deeppink",
-              error
-            ); // Error handling
+            console.error('%cConvert: Error saving convert_attributes to localStorage: ', 'color: deeppink', error); // Error handling
           }
 
           // Prefix the convert attributes
           const prefixed_convert_attributes = {
             __event: btoa(JSON.stringify(convert_attributes)),
-            __currency: "",
-            __version: "5",
+            __currency: '',
+            __version: '5',
           };
 
-          const shopifyRoot =
-            window.Shopify && window.Shopify.routes
-              ? window.Shopify.routes.root
-              : "/";
-          console.log("shopifyRoot:", shopifyRoot);
-          fetch(shopifyRoot + "cart/update.js", {
-            method: "POST",
+          const shopifyRoot = window.Shopify && window.Shopify.routes ? window.Shopify.routes.root : '/';
+          console.log('shopifyRoot:', shopifyRoot);
+          fetch(shopifyRoot + 'cart/update.js', {
+            method: 'POST',
             headers: {
-              "Content-Type": "application/json",
+              'Content-Type': 'application/json',
             },
             body: JSON.stringify({
               attributes: prefixed_convert_attributes,
             }),
           })
             .then(function () {
-              console.log(
-                "%cConvert: Hidden cart attributes successfully updated",
-                "color: lightgreen"
-              ); // Debugging line
+              console.log('%cConvert: Hidden cart attributes successfully updated', 'color: lightgreen'); // Debugging line
             })
             .catch(function (errorThrown) {
-              console.error(
-                "%cConvert: Error updating hidden cart attribute values: ",
-                "color: deeppink",
-                errorThrown
-              ); // Error handling
-              console.log(
-                "%cValues: ",
-                "color: deeppink",
-                prefixed_convert_attributes
-              ); // Error debugging
+              console.error('%cConvert: Error updating hidden cart attribute values: ', 'color: deeppink', errorThrown); // Error handling
+              console.log('%cValues: ', 'color: deeppink', prefixed_convert_attributes); // Error debugging
             });
         }
       },
@@ -174,8 +141,9 @@
   });
 </script>
 <script
+  defer
+  async
   type="text/javascript"
   src="//cdn-4.convertexperiments.com/v1/js/10041573-10049044.js"
 ></script>
 <!-- end Convert Experiences code -->
-
