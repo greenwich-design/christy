@@ -329,6 +329,7 @@ var bundleApp = {
       if (bundleData.steps.length > 0) {
         bundleData.steps.forEach(function (step, i) {
           var varId = step.variantId;
+          console.log("varId",varId)
           var variantData = bundleData.variants.find(function (variant) {
             return variant.id === varId;
           });
@@ -336,7 +337,7 @@ var bundleApp = {
           if (step.quantity) {
             quantity = step.quantity;
           }
-
+          
           // update price and compare price
           if (variantData.price) {
             totalPrice += variantData.price * quantity;
