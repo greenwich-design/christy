@@ -38,13 +38,13 @@
         "main_heading_z9UJtx": {
           "type": "main_heading",
           "settings": {
-            "heading": "TBC"
+            "heading": "<strong>Lorem Ipsum<\/strong> is simply dummy text of the printing and typesetting industry."
           }
         },
         "text_6hfjqW": {
           "type": "text",
           "settings": {
-            "text": "<p><em>TBC<\/em><\/p><p><\/p><p>TBC<\/p>"
+            "text": "<p><strong>Lorem Ipsum<\/strong>is simply dummy text of the printing . <\/p>"
           }
         }
       },
