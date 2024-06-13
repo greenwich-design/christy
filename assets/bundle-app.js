@@ -329,7 +329,7 @@ var bundleApp = {
       if (bundleData.steps.length > 0) {
         bundleData.steps.forEach(function (step, i) {
           var varId = step.variantId;
-          console.log("varId",varId)
+          console.log("varId",bundleData.steps)
           var variantData = bundleData.variants.find(function (variant) {
             return variant.id === varId;
           });
