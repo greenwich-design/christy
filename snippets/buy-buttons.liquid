@@ -152,11 +152,10 @@
                   {{ block.shopify_attributes }}
                 >
                   {%- render 'price-small', product: product, use_variant: true, current_variant: current_variant -%}
-                  <div id="aplus_cart_price" class="hidden">
-                    {{ aplus_price | plus: current_variant.price | money }}
-                  </div>
                 </div>
-
+                <div id="aplus_cart_price" class="hidden">
+                  {{ aplus_price | plus: current_variant.price | money }}
+                </div>
                 <div class="loading-overlay__spinner hidden g absolute top-1/2 right-3 -translate-y-1/2">
                   <svg
                     aria-hidden="true"
