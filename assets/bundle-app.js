@@ -179,7 +179,7 @@ var bundleApp = {
       document.querySelector('#product-bundle').dataset.step = currentStep;
       makeVisible();
       updateStepsValues();
-      //buildBunleReview();
+      buildBunleReview();
     }
     function showReview() {
       setTimeout(function () {
@@ -514,7 +514,7 @@ var bundleApp = {
     }
     window.addEventListener('variantchange', function () {
       updateStepsValues();
-      //buildBunleReview();
+      buildBunleReview();
     });
     updateStepsValues();
     //buildBunleReview();
