@@ -310,7 +310,7 @@ var bundleApp = {
     }
     function updateStepsValues() {
       if (currentStep > 0) {
-        if (document.querySelector('[data-variantid]')) {
+        if (document.querySelector('[data-variantid]') && document.querySelector('[data-variantid]').dataset.variantid) {
           bundleData.steps[currentStep - 1].variantId = parseInt(document.querySelector('[data-variantid]').dataset.variantid);
         }
 
