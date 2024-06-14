@@ -16,10 +16,16 @@
           "type": "shopify:\/\/apps\/sc-back-in-stock\/blocks\/app-block\/839cbcb7-0406-4c2b-8e74-a54d987b90ab",
           "settings": {
           }
+        },
+        "sc_back_in_stock_app_block_wHUhiD": {
+          "type": "shopify:\/\/apps\/sc-back-in-stock\/blocks\/app-block\/839cbcb7-0406-4c2b-8e74-a54d987b90ab",
+          "settings": {
+          }
         }
       },
       "block_order": [
-        "sc_back_in_stock_app_block_h7jE8P"
+        "sc_back_in_stock_app_block_h7jE8P",
+        "sc_back_in_stock_app_block_wHUhiD"
       ],
       "settings": {
       }
