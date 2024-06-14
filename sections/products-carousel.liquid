@@ -55,7 +55,7 @@
         <div class="splide__list text-blue-1">
           {% for car_product in section.settings.products -%}
             {% assign collection = block.settings.collection %}
-            {% assign theimage = blank %}
+            {% assign theimage = %}
 
             {% liquid
               assign span_class = 'w-[245px] lg:w-[327px]'

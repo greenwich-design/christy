@@ -98,29 +98,33 @@
     <!-- Google tag (gtag.js) -->
     <script async defer="defer" src="https://www.googletagmanager.com/gtag/js?id=AW-961149424"></script>
     <script>
-      window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-961149424');
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'AW-961149424');
     </script>
 
     {% if template == 'cart' %}{% include 'revy-bundle-script' %}{% endif %}
 
     {% include 'sm-red' %}
-  
-<script type="text/javascript">
- var _conv_page_type = "{{ request.page_type }}";
- var _conv_category_id = "{{ collection.id }}";
- var _conv_category_name = "{{ collection.title }}";
- var _conv_product_sku = "{{ product.selected_or_first_available_variant.sku }}";
- var _conv_product_name = '{{ product.title }}';
- var _conv_product_price = "{{ product.price_min | money_without_currency }}";
- var _conv_customer_id = "{{ customer.id }}";
- var _conv_custom_v1 = "{{ product.tags.first }}";
- var _conv_custom_v2 = "{{ collection.current_type }}";
- var _conv_custom_v3 = "{{ cart.item_count }}";
- var _conv_custom_v4 = "{{ cart.total_price | money_without_currency }}";
-</script>
-{% render 'convert' %}
 
-</head>
+    <script type="text/javascript">
+      var _conv_page_type = '{{ request.page_type }}';
+      var _conv_category_id = '{{ collection.id }}';
+      var _conv_category_name = '{{ collection.title }}';
+      var _conv_product_sku = '{{ product.selected_or_first_available_variant.sku }}';
+      var _conv_product_name = '{{ product.title }}';
+      var _conv_product_price = '{{ product.price_min | money_without_currency }}';
+      var _conv_customer_id = '{{ customer.id }}';
+      var _conv_custom_v1 = '{{ product.tags.first }}';
+      var _conv_custom_v2 = '{{ collection.current_type }}';
+      var _conv_custom_v3 = '{{ cart.item_count }}';
+      var _conv_custom_v4 = '{{ cart.total_price | money_without_currency }}';
+    </script>
+    {% render 'convert' %}
+  </head>
 
   <body id="{{ page_title | handle }}" class="h-full text-[12px] md:text-[14px] leading-[1.7] font-light text-blue-1">
     <!-- Google Tag Manager (noscript) -->
@@ -241,14 +245,14 @@
     <script src="https://widget.reviews.io/rating-snippet/dist.js"></script>
     <link rel="stylesheet" href="https://widget.reviews.io/rating-snippet/dist.css">
     <script>
-      ratingSnippet("ruk_rating_snippet", {
-        store: "www.christy.co.uk",
-        mode: "default",
-        color: "#2c3b96",
+      ratingSnippet('ruk_rating_snippet', {
+        store: 'www.christy.co.uk',
+        mode: 'default',
+        color: '#2c3b96',
         linebreak: false,
-        text: "Reviews",
-        singularText: "Review",
-        lang: "en",
+        text: 'Reviews',
+        singularText: 'Review',
+        lang: 'en',
         usePolaris: true,
         showEmptyStars: false,
       });
@@ -276,74 +280,74 @@
           }
         </script>
       -->
-     <script>
-      window.prechatTemplate = {
-        SubmitLabel: "Start Chat",
-        fields: {
-          1: {
-            error: "Please Enter a valid name",
-            fieldId: "name",
-            label: "Name",
-            required: "yes",
-            type: "text",
-          },
-          2: {
-            error: "Please Enter a valid Email",
-            fieldId: "email",
-            label: "Email",
-            required: "yes",
-            type: "email",
-          },
-          3: {
-            error: "Please Enter a valid Phone Number",
-            fieldId: "phone",
-            label: "Phone",
-            required: "no",
-            type: "phone",
-          },
-          4: {
-            error: "Please Enter issue",
-            fieldId: "cf_issue",
-            label: "Complaint/Query/Request",
-            required: "no",
-            type: "text",
-          },
-        },
-        heading: "Christy",
-        mainbgColor: "#2c3b96",
-        maintxColor: "#fff",
-        textBanner:
-          "We can't wait to talk to you. But first, please take a couple of moments to tell us a bit about yourself.",
-      };
- 
-      window.fcSettings = {
-        onInit: function () {
-          window.fcPreChatform.fcWidgetInit(window.prechatTemplate);
-        },
-      };
-      window.fcWidgetMessengerConfig = {
-        config: {
-          content: {
-            actions: {
-              tab_chat: "Chat",
+      <script>
+        window.prechatTemplate = {
+          SubmitLabel: 'Start Chat',
+          fields: {
+            1: {
+              error: 'Please Enter a valid name',
+              fieldId: 'name',
+              label: 'Name',
+              required: 'yes',
+              type: 'text',
             },
-            headers: {
-              chat: "Chat With Us",
+            2: {
+              error: 'Please Enter a valid Email',
+              fieldId: 'email',
+              label: 'Email',
+              required: 'yes',
+              type: 'email',
+            },
+            3: {
+              error: 'Please Enter a valid Phone Number',
+              fieldId: 'phone',
+              label: 'Phone',
+              required: 'no',
+              type: 'phone',
+            },
+            4: {
+              error: 'Please Enter issue',
+              fieldId: 'cf_issue',
+              label: 'Complaint/Query/Request',
+              required: 'no',
+              type: 'text',
             },
           },
-          cssNames: {
-            expanded: "custom_fc_expanded",
-            widget: "custom_fc_frame",
+          heading: 'Christy',
+          mainbgColor: '#2c3b96',
+          maintxColor: '#fff',
+          textBanner:
+            "We can't wait to talk to you. But first, please take a couple of moments to tell us a bit about yourself.",
+        };
+
+        window.fcSettings = {
+          onInit: function () {
+            window.fcPreChatform.fcWidgetInit(window.prechatTemplate);
           },
-        },
-      };
-    </script>
-    <script async defer src="https://snippets.freshchat.com/js/fc-pre-chat-form-v2.js"></script>
-    <script async defer src="//eu.fw-cdn.com/12707561/706000.js" chat="true"></script>
-    <script async defer>
-      // Add custom CSS styles directly via JavaScript
-      var customStyles = document.createElement("style");
-      customStyles.innerHTML = `
+        };
+        window.fcWidgetMessengerConfig = {
+          config: {
+            content: {
+              actions: {
+                tab_chat: 'Chat',
+              },
+              headers: {
+                chat: 'Chat With Us',
+              },
+            },
+            cssNames: {
+              expanded: 'custom_fc_expanded',
+              widget: 'custom_fc_frame',
+            },
+          },
+        };
+      </script>
+      <script async defer src="https://snippets.freshchat.com/js/fc-pre-chat-form-v2.js"></script>
+      <script async defer src="//eu.fw-cdn.com/12707561/706000.js" chat="true"></script>
+      <script async defer>
+        // Add custom CSS styles directly via JavaScript
+        var customStyles = document.createElement('style');
+        customStyles.innerHTML = `
         .fc-form p,
         .pre-fc-field label {
           font-size: medium;
@@ -352,14 +356,16 @@
           text-transform: capitalize;
         }
       `;
-      document.head.appendChild(customStyles);
-    </script>
-      <!-- <script
-        async
-        defer
-        src="//eu.fw-cdn.com/12707561/706000.js"
-        chat="true"
-      ></script> -->
+        document.head.appendChild(customStyles);
+      </script>
+      <!--
+        <script
+          async
+          defer
+          src="//eu.fw-cdn.com/12707561/706000.js"
+          chat="true"
+        ></script>
+      -->
     {% endif %}
     <script type="text/javascript">
       window._mfq = window._mfq || [];
