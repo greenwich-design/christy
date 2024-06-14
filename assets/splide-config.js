@@ -119,7 +119,7 @@ SplideConfig = {
         fixedHeight: 61,
         isNavigation: true,
         gap: 10,
-        focus: 'center',
+        //focus: 'center',
         pagination: false,
         cover: true,
         arrows: false,
