@@ -158,27 +158,46 @@
           "lang": "auto"
         }
       },
+      "855628211100114053": {
+        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15796953133730294439": {
+        "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.embed.socialshopwave-helper\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "2209279550302034861": {
+        "type": "shopify:\/\/apps\/shop-quiz-product-recommender\/blocks\/link-popup\/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
+        "disabled": false,
+        "settings": {
+          "show_list": true
+        }
+      },
       "15475920322851709167": {
         "type": "shopify:\/\/apps\/securify-block-ip-country\/blocks\/app-embed\/e3ed2576-9111-486f-86eb-a36b6bee4e94",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       },
       "12440966767595914869": {
         "type": "shopify:\/\/apps\/sales-motivator-free-gifts\/blocks\/app-block\/790f143d-f67c-4036-9b09-2d69c24dd826",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       },
       "246135896087123374": {
         "type": "shopify:\/\/apps\/1clickpopup\/blocks\/main\/233742b9-16cb-4f75-9de7-3fe92c29fdff",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       },
       "15014643352720781508": {
         "type": "shopify:\/\/apps\/wrapped\/blocks\/app-embed\/1714fc7d-e525-4a14-8c3e-1b6ed95734c5",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "gift_thumbnail_enabled": false,
           "gift_thumbnail_position": "--wrapped-thumbnail-position-start",
@@ -195,25 +214,6 @@
           "border_color": "#2c3b96",
           "border_radius": 6,
           "cart_widget_text_alignment": "--wrapped-checkbox--label-right"
-        }
-      },
-      "2209279550302034861": {
-        "type": "shopify:\/\/apps\/shop-quiz-product-recommender\/blocks\/link-popup\/672f3d48-fd3b-4227-8778-c6e58c4f8a98",
-        "disabled": true,
-        "settings": {
-          "show_list": true
-        }
-      },
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": true,
-        "settings": {
-        }
-      },
-      "15796953133730294439": {
-        "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.embed.socialshopwave-helper\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
-        "disabled": true,
-        "settings": {
         }
       }
     },
