@@ -43,6 +43,10 @@
           {% render 'icon-search' %}
         </div>
         <div class="grow">
+          <predictive-search
+            class="block search-modal__form group/search"
+            data-loading-text="{{ 'accessibility.loading' | t }}"
+          >
           <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
             <input
               type="text"
@@ -53,8 +57,21 @@
               id="search-bar-input"
               name="q"
               value="{{ search.terms | escape }}"
+              {%- if settings.predictive_search_enabled -%}
+                role="combobox"
+                aria-expanded="false"
+                aria-owns="predictive-search-results
+                aria-controls="predictive-search-results"
+                aria-haspopup="listbox"
+                aria-autocomplete="list"
+                autocorrect="off"
+                autocomplete="off"
+                autocapitalize="off"
+                spellcheck="false"
+              {%- endif -%}
             >
           </form>
+        </predictive-search>
         </div>
         <button
           id="search-clear-icon"
@@ -67,6 +84,23 @@
         </button>
       </div>
       <div class="w-full grid lg:grid-cols-3 pb-4 gap-8">
+        <div
+          class="predictive-search predictive-search--header max-lg:!max-h-none lg:shadow-megamenu lg:absolute lg:top-full lg:left-0 lg:bg-white/95 hidden group-open/search:!block group-open/search:py-5 lg:p-5 w-full lg:overflow-auto lg:-mt-px"
+          tabindex="-1"
+          data-predictive-search
+        >
+          <div class="predictive-search__loading-state !hidden">
+            <svg
+              aria-hidden="true"
+              focusable="false"
+              class="spinner"
+              viewBox="0 0 66 66"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+            </svg>
+          </div>
+        </div>
         <ul class="flex flex-col gap-4">
           <li class="text-base font-bold">Popular Searches</li>
           {% assign popular_searches = section.settings.popular_searches | escape | split: ',' %}
@@ -401,7 +435,10 @@
                         <span
                           class="group-open/acc:rotate-90"
                         >
-                          {% render 'icon-arrow' %}
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                          </svg>
+                          
                         </span>
                       </summary>
 
@@ -410,8 +447,8 @@
                           {% for child in parent.links %}
                             <li class="flex items-center justify-between">
                               {% if child.links.size > 0 %}
-                                <details class="block  !my-0 py-5 lg:py-7 group/accc">
-                                  <summary class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer">
+                                <details class="block  !my-0 py-5 lg:py-7 group/accc w-full">
+                                  <summary class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center justify-between cursor-pointer">
                                     <span class="m-body-copy-med lg:d-body-copy-med mr-auto">
                                       {{- child.title -}}
                                     </span>
