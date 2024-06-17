@@ -283,6 +283,23 @@
         "anchor_id": ""
       }
     },
+    "images_copy_cta_eEpNLG": {
+      "type": "images-copy-cta",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wimbledon_champ_24.jpg",
+        "image2": "shopify:\/\/shop_images\/wimbledon24.jpg",
+        "subtitle": "",
+        "title": "<p>Forever Iconic<\/p>",
+        "copy": "<p>One of the most famous global tennis events, Wimbledon is richly woven with instantly recognisable images. One of these is the iconic Championships towel, and Christy has been the official supplier for 37 years.<\/p><p><\/p><p>Draped over chairs and players’ shoulders, the Christy Wimbledon towel is naturally at the heart of the action every year. Unique in its classic Wimbledon green and purple colourway, it’s a cultural piece of iconography. This year, the new look celebrates the triumph, physicality and on-screen dynamism of the players.<\/p>",
+        "button_label": "Shop The 2024 Championships Towel",
+        "button_link": "shopify:\/\/products\/wimbledon-2024-championship-towel",
+        "content_position": "right",
+        "header_position": false,
+        "images_half_width": false,
+        "anchor_id": ""
+      }
+    },
     "bd6f3e07-9735-4568-9dd2-71c3bbca1c6d": {
       "type": "c-info-columns",
       "blocks": {
@@ -325,6 +342,7 @@
         "template--21202652987680__bd6f3e07-9735-4568-9dd2-71c3bbca1c6d-column-2",
         "template--21202652987680__bd6f3e07-9735-4568-9dd2-71c3bbca1c6d-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "It takes 3 Simple Steps",
         "title_font_size_mob": 16,
@@ -679,6 +697,7 @@
     "ab40295a-0b7a-4298-9100-6079c0215e8e",
     "billboard",
     "0e427065-4c47-4b8e-8eab-12cb0c11fc4a",
+    "images_copy_cta_eEpNLG",
     "bd6f3e07-9735-4568-9dd2-71c3bbca1c6d",
     "0e8d554c-badf-4239-a36e-276ffacfb5fc",
     "heading2",
