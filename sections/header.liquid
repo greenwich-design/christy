@@ -147,7 +147,8 @@
   }
 </script>
 <script type="text/javascript">
-  document.getElementById("header").click();
+  var e = document.createEvent('UIEvent');
+  e.initUIEvent();
 </script>
 {%- if request.page_type == 'index' -%}
   {% assign potential_action_target = request.origin | append: routes.search_url | append: '?q={search_term_string}' %}
