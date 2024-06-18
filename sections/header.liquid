@@ -147,9 +147,9 @@
   }
 </script>
 <script type="text/javascript">
-  document.addEventListener( "DOMContentLoaded", ()=>{
+  document.addEventListener( "TouchEvent", ()=>{
   var e = document.createEvent('UIEvent');
-  e.initUIEvent();
+  e.initTouchEvent();
   }, false );
 </script>
 {%- if request.page_type == 'index' -%}
