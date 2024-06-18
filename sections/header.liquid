@@ -152,7 +152,7 @@
     var e = new Event('touchstart');
     console.log("event started");
     document.getElementById('toucher').click()
-    document.getElementById('toucher').dispatchEvent(e);
+    document.getElementById('toucher').dispatchEvent('touch');
   });
 </script>
 {%- if request.page_type == 'index' -%}
