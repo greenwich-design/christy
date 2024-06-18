@@ -147,9 +147,11 @@
   }
 </script>
 <script type="text/javascript">
+  window.addEventListener('DOMContentLoaded',function(){
     var e = new Event('touchstart');
-      console.log("event started");
-  document.getElementById('announcement-bar').dispatchEvent(e);
+    console.log("event started");
+    document.getElementById('announcement-bar').dispatchEvent(e);
+  });
 </script>
 {%- if request.page_type == 'index' -%}
   {% assign potential_action_target = request.origin | append: routes.search_url | append: '?q={search_term_string}' %}
