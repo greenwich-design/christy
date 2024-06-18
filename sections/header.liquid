@@ -147,12 +147,10 @@
   }
 </script>
 <script type="text/javascript">
-    document.addEventListener( "TouchEvent", ()=>{
+
     var e = new Event('touchstart');
       console.log("event started");
   document.getElementById('header').dispatchEvent(e);
-    //document.activeElement.blur()
-    }, false );
 </script>
 {%- if request.page_type == 'index' -%}
   {% assign potential_action_target = request.origin | append: routes.search_url | append: '?q={search_term_string}' %}
