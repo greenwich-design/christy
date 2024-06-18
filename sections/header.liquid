@@ -11,7 +11,7 @@
 <header id="header" class="sticky top-0 left-0 z-40">
   <div class="header-bar bg-white/90 h-[70px] lg:h-[107px] !h-[var(--header-height)] lg:!h-[var(--header-height-lg)] flex flex-col justify-center items-center text-blue-1 will-change-transform pointer-events-auto">
     {% if section.settings.announcement != blank %}
-      <aside id="announcement-bar" class="relative text-white text-center bg-blue-1 top-0 left-0 font-bold w-full">
+      <aside id="c" class="relative text-white text-center bg-blue-1 top-0 left-0 font-bold w-full">
         <div class="py-3 container truncate flex justify-center [&>*]:truncate h-[44px] lg:h-[48px] [&_a]:underline">
           {{ section.settings.announcement }}
         </div>
@@ -147,10 +147,9 @@
   }
 </script>
 <script type="text/javascript">
-
     var e = new Event('touchstart');
       console.log("event started");
-  document.getElementById('header').dispatchEvent(e);
+  document.getElementById('announcement-bar').dispatchEvent(e);
 </script>
 {%- if request.page_type == 'index' -%}
   {% assign potential_action_target = request.origin | append: routes.search_url | append: '?q={search_term_string}' %}
