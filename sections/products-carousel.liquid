@@ -115,8 +115,10 @@
   {%- endif -%}
 {% endstyle %}
 <script type="text/javascript">
-  document.querySelector(".splide__arrow--next").click();
-  document.querySelector(".splide__arrow--prev").click();
+  window.addEventListener('DOMContentLoaded',function(){
+    document.querySelector(".splide__arrow--next").click();
+    document.querySelector(".splide__arrow--prev").click();
+  });
 </script>
 {% schema %}
 {
