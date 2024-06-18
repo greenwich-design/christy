@@ -37,7 +37,6 @@
       {%- if request.page_type == 'index' -%}
         </h1>
       {%- endif -%}
-      <div class="" id="toucher"></div>
 
       <div class="lg:col-span-3 lg:flex lg:justify-between lg:items-center lg:pl-8 lg:gap-3">
         {%- render 'header-mega-menu', blocks: section.blocks %}
@@ -147,14 +146,7 @@
     "url": {{ request.origin | append: page.url | json }}
   }
 </script>
-<script type="text/javascript">
-  window.addEventListener('DOMContentLoaded',function(){
-    var e = new Event('touchstart');
-    console.log("event started");
-    document.getElementById('toucher').click()
-    document.getElementById('toucher').dispatchEvent('touch');
-  });
-</script>
+
 {%- if request.page_type == 'index' -%}
   {% assign potential_action_target = request.origin | append: routes.search_url | append: '?q={search_term_string}' %}
   <script type="application/ld+json">
