@@ -115,8 +115,9 @@
   {%- endif -%}
 {% endstyle %}
 <script type="text/javascript">
-  window.addEventListener('DOMContentLoaded',function(){
+  window.addEventListener('load',function(){
     document.activeElement.blur()
+    console.log("Window Loaded. Element Blurred")
     document.querySelector(".splide__arrow--next").click();
     document.querySelector(".splide__arrow--prev").click();
   });
