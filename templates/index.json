@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
@@ -209,7 +218,7 @@
           "type": "block",
           "settings": {
             "title": "Loved by our Customers",
-            "copy": "<p>5000+ 5 star reviews with a score of 4.5 out of 5 <\/p>",
+            "copy": "<p>4000+ 5 star reviews with a score of 4.7 out of 5 <\/p>",
             "button_link": "shopify:\/\/collections\/shop-all",
             "button_title": "Shop the Range"
           }
