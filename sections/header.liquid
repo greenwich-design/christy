@@ -150,6 +150,7 @@
   document.addEventListener( "TouchEvent", ()=>{
   var e = document.createEvent('UIEvent');
   e.initTouchEvent();
+  document.activeElement.blur()
   }, false );
 </script>
 {%- if request.page_type == 'index' -%}
