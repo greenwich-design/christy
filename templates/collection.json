@@ -2,6 +2,7 @@
   "sections": {
     "1e4fcb9f-7716-4d21-b610-9cab633d219a": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/THIN_BANNER_ea37ca27-c5ad-420a-85c9-a9bfb429db81.jpg",
         "link": "",
