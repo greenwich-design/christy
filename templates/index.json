@@ -278,6 +278,7 @@
     },
     "0e427065-4c47-4b8e-8eab-12cb0c11fc4a": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/robe_bundle.jpg",
         "image2": "shopify:\/\/shop_images\/thick_indulgent_HP.jpg",
@@ -294,7 +295,6 @@
     },
     "images_copy_cta_eEpNLG": {
       "type": "images-copy-cta",
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/wimbledon_champ_24.jpg",
         "image2": "shopify:\/\/shop_images\/wimbledon24.jpg",
