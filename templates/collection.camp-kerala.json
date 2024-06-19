@@ -52,16 +52,24 @@
             "heading": "Revamp your glamping experience with the Christy + Camp Kerala bundle."
           }
         },
+        "heading_cQAN49": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>This summer, we’ve joined forces with Camp Kerala, a brand that pioneered the glamping experience, to inject lavish comfort into your tent adventures.<\/strong>",
+            "sub_title_size": "h5"
+          }
+        },
         "text_6hfjqW": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>This summer, we’ve joined forces with Camp Kerala, a brand that pioneered the glamping experience, to inject lavish comfort into your tent adventures.<\/strong><\/p><p><\/p><p>With our shared codes of everyday luxury and embracing tranquillity, we’re proud to bring these indulgent cushions, throws, quick dry towels, cosy robes and sustainable, buttery soft Organic cotton percale bed linen to level up your most magical outdoor moments. <\/p>"
+            "text": "<p><\/p><p><\/p><p>With our shared codes of everyday luxury and embracing tranquillity, we’re proud to bring these indulgent cushions, throws, quick dry towels, cosy robes and sustainable, buttery soft Organic cotton percale bed linen to level up your most magical outdoor moments. <\/p>"
           }
         }
       },
       "block_order": [
         "heading_TB8KEh",
         "main_heading_z9UJtx",
+        "heading_cQAN49",
         "text_6hfjqW"
       ],
       "settings": {
