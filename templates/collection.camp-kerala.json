@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
@@ -40,13 +49,13 @@
         "main_heading_z9UJtx": {
           "type": "main_heading",
           "settings": {
-            "heading": "<strong>Lorem Ipsum<\/strong> is simply dummy text of the printing and typesetting industry."
+            "heading": "Revamp your glamping experience with the Christy + Camp Kerala bundle."
           }
         },
         "text_6hfjqW": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Lorem Ipsum<\/strong>is simply dummy text of the printing . <\/p>"
+            "text": "<p><strong>This summer, we’ve joined forces with Camp Kerala, a brand that pioneered the glamping experience, to inject lavish comfort into your tent adventures.<\/strong><\/p><p><\/p><p>With our shared codes of everyday luxury and embracing tranquillity, we’re proud to bring these indulgent cushions, throws, quick dry towels, cosy robes and sustainable, buttery soft Organic cotton percale bed linen to level up your most magical outdoor moments. <\/p>"
           }
         }
       },
@@ -252,7 +261,7 @@
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
       "type": "products-carousel",
       "settings": {
-        "title": "Camp Kerala Bundle",
+        "title": "Camp Kerala Collection",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -389,6 +398,7 @@
         "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea",
         "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5"
       ],
+      "disabled": true,
       "settings": {
         "title": "It takes 3 Simple Steps",
         "title_font_size_mob": 16,
@@ -403,6 +413,7 @@
     },
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
       "type": "images-copy-cta",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Gift_2.webp",
         "image2": "shopify:\/\/shop_images\/robe_box.jpg",
@@ -473,7 +484,7 @@
           "type": "block",
           "settings": {
             "title": "Loved by our Customers",
-            "copy": "<p>5000+ 5 star reviews with a score of 4.7 out of 5<\/p>",
+            "copy": "<p>4000+ 5 star reviews with a score of 4.7 out of 5<\/p>",
             "button_link": "shopify:\/\/collections\/all",
             "button_title": "Shop the Range"
           }
