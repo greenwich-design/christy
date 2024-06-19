@@ -49,7 +49,7 @@
         "main_heading_z9UJtx": {
           "type": "main_heading",
           "settings": {
-            "heading": "Revamp your glamping experience with the Christy + Camp Kerala bundle."
+            "heading": "Revamp your glamping experience with the Christy + Camp Kerala Collection."
           }
         },
         "heading_cQAN49": {
@@ -274,15 +274,14 @@
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
         "title_font_family": "sans-serif",
-        "button_title": "Explore More",
-        "button_link": "https:\/\/www.christy.co.uk\/collections\/gifts",
+        "button_title": "",
+        "button_link": "",
         "products": [
-          "brixton-robe",
-          "wimbledon-2024-championship-towel",
-          "supreme-velour-robe",
           "super-soft-cosy-robe",
-          "wimbledon-2023-face-cloth-pack-green-purple",
-          "wimbledon-2023-guest-towel"
+          "200tc-organic",
+          "cirrus-towels-450-gsm-cotton",
+          "jaipur-cushion",
+          "jaipur-throw"
         ],
         "screen_visibility": "both"
       }
