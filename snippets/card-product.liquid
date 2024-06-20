@@ -216,6 +216,16 @@
           aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
           class="card__information space-y-2"
         >
+          <h3
+            class="font-semibold m-body-copy lg:d-h3"
+            id="title-{{ section_id }}-{{ card_product.id }}"
+          >
+            {% if bundleData != blank and bundleData.value.bundleTitle %}
+              {{ bundleData.value.bundleTitle }}
+            {% else %}
+              {{ card_product.title | escape }}
+            {% endif %}
+          </h3>
           <div class="flex justify-between max-md:text-[10px] flex-wrap">
             {% if bundleData != blank %}
               {% assign bundleDataValue = bundleData.value %}
@@ -295,25 +305,13 @@
                 {% endif %}
               </div>
             {% endif %}
-            <div
-              class="ruk_rating_snippet"
-              data-sku="{{ card_product.handle }};{{ card_product.variants | map: 'sku' | join: ';' }};{{ card_product.variants | map: 'id' | join: ';' }}"
-            ></div>
           </div>
 
-          <h3
-            class="font-semibold m-body-copy lg:d-h3"
-            id="title-{{ section_id }}-{{ card_product.id }}"
-          >
-            {% if bundleData != blank and bundleData.value.bundleTitle %}
-              {{ bundleData.value.bundleTitle }}
-            {% else %}
-              {{ card_product.title | escape }}
+          {% comment %}
+            {% if card_product.metafields.christy23.tagline_pdp %}
+              <p>{{ card_product.metafields.christy23.tagline_pdp }}</p>
             {% endif %}
-          </h3>
-          {% if card_product.metafields.christy23.tagline_pdp %}
-            <p>{{ card_product.metafields.christy23.tagline_pdp }}</p>
-          {% endif %}
+          {% endcomment %}
         </a>
       </div>
 
@@ -392,6 +390,10 @@
           </div>
         {% endif %}
       {%- endunless -%}
+      <div
+        class="ruk_rating_snippet"
+        data-sku="{{ card_product.handle }};{{ card_product.variants | map: 'sku' | join: ';' }};{{ card_product.variants | map: 'id' | join: ';' }}"
+      ></div>
     </div>
   </div>
 {%- else -%}

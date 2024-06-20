@@ -1,0 +1,26 @@
+<div class="product-card group/card info-content-block col-span-2 lg:col-span-1">
+  <div
+    class="space-y-4 h-full"
+  >
+    <div
+      class="card__inner relative h-full flex flex-col gap-4 items-center justify-center"
+    >
+      {%- if block.background_image -%}
+        {{
+          block.background_image
+          | image_url: width: 500, height: 500
+          | image_tag:
+            alt: 'Gallery Image',
+            class: 'w-full h-full object-cover left-0 top-0 -z-10 absolute brightness-50',
+            srcset: null
+        }}
+        <div class="relative z-0 w-full h-full flex flex-col items-center justify-center px-8 gap-6 text-white text-center">
+          <p class="text-xl">{{ block.short_title }}</p>
+          <p class="text-4xl">{{ block.long_title }}</p>
+          <p>{{ block.description | metafield_tag }}</p>
+          <a href="{{ block.button_url }}" class="px-4 py-2 bg-white text-blue-1">{{ block.button_text }}</a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

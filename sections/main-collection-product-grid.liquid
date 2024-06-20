@@ -20,6 +20,7 @@
   assign productsPerPage = section.settings.products_per
   assign collectionProducts = collection
   assign hideViewToggle = collection.metafields.custom.hide_view_toggle.value
+  assign indexCount = 0
 %}
 
 <div
@@ -66,23 +67,25 @@
       </ul>
     </nav>
 
-    <header class="flex items-start flex-col container">
+    <header class="flex items-center justify-center flex-col container">
       {% assign alt_title = collection.metafields.custom.alternative_collection_title %}
       {% if alt_title != blank %}
         <h1 class="s-m-h4 lg:s-d-h3">{{ alt_title.value }}</h1>
       {% else -%}
         <h1 class="s-m-h4 lg:s-d-h3">{{ collection.title }}</h1>
       {% endif %}
-
-      <div>
-        {% render 'facets-drawer',
-          results: collection,
-          enable_filtering: section.settings.enable_filtering,
-          enable_sorting: section.settings.enable_sorting,
-          filter_type: section.settings.filter_type,
-          paginate: paginate
-        %}
-      </div>
+      <p>{{ collection.metafields.custom.seo_1_liner }}</p>
+      {% comment %}
+        <div>
+          {% render 'facets-drawer',
+            results: collection,
+            enable_filtering: section.settings.enable_filtering,
+            enable_sorting: section.settings.enable_sorting,
+            filter_type: section.settings.filter_type,
+            paginate: paginate
+          %}
+        </div>
+      {% endcomment %}
     </header>
 
     {% assign has_sub_collections = false %}
@@ -151,9 +154,11 @@
             <ul
               id="product-grid"
               data-id="{{ section.id }}"
-              class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-2 gap-y-10 grid-flow-dense"
+              class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 gap-y-10 grid-flow-dense"
             >
               {% assign listscIndex = 0 %}
+              {% assign infoContentBlock = collection.metafields.custom.info_content_block.value %}
+
               {% assign listscCount = 0 %}
               {% assign pagOffset = paginate.current_page | times: productsPerPage %}
 
@@ -162,6 +167,7 @@
               {% assign infoCardCount = 0 %}
 
               {%- for product in collection.products -%}
+                {% assign indexCount = indexCount | plus: 1 %}
                 {% if product.handle contains 'docapp-free-gift-' %}{% continue %}{% endif %}
 
                 {% if product.type == 'giftbox_ghost_product' %}{% continue %}{% endif %}
@@ -173,6 +179,13 @@
                 {%- if forloop.index > 4 -%}
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
+
+                {% for block in collection.metafields.custom.info_content_block.value %}
+                  {% if block.position == indexCount %}
+                    {% render 'info-content-block', block: block %}
+                    {% assign indexCount = indexCount | plus: 1 %}
+                  {% endif %}
+                {% endfor %}
 
                 {% capture prodBlocks %}
                 {% for block in section.blocks -%}
@@ -443,6 +456,9 @@
       .then((response) => response.text())
       .then(function (responseText) {
         const html = new DOMParser().parseFromString(responseText, 'text/html');
+        html.querySelectorAll('.info-content-block').forEach((el) => {
+          el.remove();
+        });
         const productHtml = html.querySelector('#product-grid');
         if (productHtml && productHtml.querySelectorAll('.grid__item').length > 0) {
           productListing.insertAdjacentHTML('beforeend', productHtml.innerHTML);
