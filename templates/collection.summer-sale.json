@@ -138,10 +138,10 @@
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
           "type": "collection",
           "settings": {
-            "collection": "towels",
+            "collection": "",
             "usp_title": "",
             "image": "shopify:\/\/shop_images\/1_722e187a-5e5d-45ba-9f6d-82e39929bf55.png",
-            "alt_title": "Luxury Towels",
+            "alt_title": "",
             "excerpt": ""
           }
         },
@@ -171,6 +171,7 @@
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "screen_visibility": "both"
@@ -183,10 +184,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_b3375fab-b74b-4b04-90d8-d4c7159c8226.png",
-            "image_aspect": "1:1",
+            "image_aspect": "2:3",
             "title": "",
             "text": "",
-            "button_label": "Shop Now",
+            "button_label": "",
             "button_link": "all-bath",
             "collection_tag": ""
           }
@@ -195,7 +196,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/2_8c4dbbd4-6777-402a-b023-88a6f7695013.png",
-            "image_aspect": "1:1",
+            "image_aspect": "2:3",
             "title": "",
             "text": "",
             "button_label": "Shop Now",
@@ -207,7 +208,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/3_ed222c72-0769-4192-9056-0f4c9f1b71c4.png",
-            "image_aspect": "1:1",
+            "image_aspect": "2:3",
             "title": "",
             "text": "",
             "button_label": "Shop Now",
@@ -243,8 +244,8 @@
             "image_aspect": "1:1",
             "title": "",
             "text": "",
-            "button_label": "Shop Now",
-            "button_link": "all-accessories",
+            "button_label": "",
+            "button_link": "",
             "collection_tag": ""
           }
         },
