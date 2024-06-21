@@ -22,7 +22,9 @@
       "type": "hero-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/THIN_BANNER-1.jpg",
-        "link": "",
+        "image_mobile": "shopify:\/\/shop_images\/THIN_BANNER-1.jpg",
+        "image_tab": "shopify:\/\/shop_images\/THIN_BANNER-1.jpg",
+        "link": "https:\/\/www.christy.co.uk\/collections\/summer-sale",
         "full_width": true
       }
     },
