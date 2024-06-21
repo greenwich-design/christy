@@ -12,10 +12,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DESKTOP_BANNER.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/MOBILE_BANNER.jpg",
-        "image_tab": "shopify:\/\/shop_images\/TABLET_BANNER.jpg",
-        "link": "shopify:\/\/products\/wimbledon-2024-championship-towel",
+        "image": "shopify:\/\/shop_images\/DESKTOP-1.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/MOBILE-1.jpg",
+        "image_tab": "shopify:\/\/shop_images\/TABLET-1.jpg",
+        "link": "shopify:\/\/collections\/summer-sale",
         "full_width": true
       }
     },
