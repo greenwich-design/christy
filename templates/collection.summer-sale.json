@@ -187,7 +187,7 @@
             "image_aspect": "1:1",
             "title": "",
             "text": "",
-            "button_label": "",
+            "button_label": "Shop Now",
             "button_link": "all-bath",
             "collection_tag": ""
           }
@@ -244,8 +244,8 @@
             "image_aspect": "1:1",
             "title": "",
             "text": "",
-            "button_label": "",
-            "button_link": "",
+            "button_label": "Shop Now",
+            "button_link": "all-accessories",
             "collection_tag": ""
           }
         },
