@@ -1,10 +1,18 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1e4fcb9f-7716-4d21-b610-9cab633d219a": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/THIN_BANNER_ea37ca27-c5ad-420a-85c9-a9bfb429db81.jpg",
+        "image": "shopify:\/\/shop_images\/THIN_BANNER-1.jpg",
         "link": "",
         "full_width": true
       }
