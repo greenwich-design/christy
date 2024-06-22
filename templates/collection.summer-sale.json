@@ -429,16 +429,12 @@
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/offers-towels",
         "products": [
-          "renaissance",
-          "signum-675-gsm-combed-cotton",
-          "brixton-towels",
-          "luxe-towels",
-          "supreme-hygro",
+          "cabana-beach-towels-450-gsm-cotton",
           "carnaby-stripe",
-          "mode-towels",
-          "serene-550-gsm-combed-cotton",
-          "midori-towels",
-          "tribeca-towels"
+          "supreme-hygro",
+          "luxe-towels",
+          "amalfi-beach-towel",
+          "signum-675-gsm-combed-cotton"
         ],
         "screen_visibility": "both"
       }
