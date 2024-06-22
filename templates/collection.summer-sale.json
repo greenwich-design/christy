@@ -87,20 +87,15 @@
         "button_title": "Shop All",
         "button_link": "shopify:\/\/collections\/clearance",
         "products": [
-          "smooth-and-silky-cotton-sateen-sheet-sets-400-thread-count",
           "brixton-towels",
           "super-soft-cosy-robe",
+          "200tc-organic",
           "signum-675-gsm-combed-cotton",
           "coniston-bed-linen",
-          "appleby-bed-linen",
           "serene-550-gsm-combed-cotton",
-          "tribeca-towels",
-          "katsura-bed-linen",
-          "meeko-bed-linen",
-          "midori-towels",
+          "stornoway-chambray",
           "metropolitan-throw",
           "metropolitan-cushion",
-          "cosy-throw",
           "anti-allergy-mattress-and-pillow-protectors"
         ],
         "screen_visibility": "both"
@@ -119,15 +114,14 @@
         "products": [
           "renaissance",
           "400-thread-count-sateen-plain-dye",
-          "essence-towels-650-gsm-combed-cotton",
           "jaipur-throw",
-          "supreme-velour-robe",
-          "wimbledon-2023-championship-towel",
           "luxe-towels",
+          "deep-pile-rug",
+          "supreme-velour-robe",
           "luxury-microfibre-13-5-tog-duvet",
           "supreme-hygro",
-          "jaipur-cushion",
-          "deep-pile-rug"
+          "essence-towels-650-gsm-combed-cotton",
+          "jaipur-cushion"
         ],
         "screen_visibility": "both"
       }
