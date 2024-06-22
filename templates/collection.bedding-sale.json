@@ -255,10 +255,11 @@
         "button_link": "",
         "products": [
           "edmonton",
-          "metropolitan-cushion",
-          "metropolitan-throw",
+          "lisbon-throw",
+          "jaipur-throw",
           "jaipur-cushion",
-          "jaipur-throw"
+          "metropolitan-throw",
+          "metropolitan-cushion"
         ],
         "screen_visibility": "both"
       }
