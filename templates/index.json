@@ -116,15 +116,16 @@
         "button_title": "Shop now",
         "button_link": "shopify:\/\/collections\/valentines-day",
         "products": [
-          "supreme-hygro",
-          "renaissance",
-          "super-soft-cosy-robe",
-          "cirrus-towels-450-gsm-cotton",
           "luxe-towels",
+          "400-thread-count-sateen-plain-dye",
+          "super-soft-cosy-robe",
+          "jaipur-throw",
+          "renaissance",
+          "cirrus-towels-450-gsm-cotton",
+          "supreme-hygro",
           "brixton-towels",
           "signum-675-gsm-combed-cotton",
-          "essence-towels-650-gsm-combed-cotton",
-          "400-thread-count-sateen-plain-dye"
+          "essence-towels-650-gsm-combed-cotton"
         ],
         "screen_visibility": "both"
       }
