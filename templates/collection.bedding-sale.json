@@ -11,11 +11,10 @@
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/1920x500_2.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/768X768_7.jpg",
-        "image_tab": "shopify:\/\/shop_images\/1024X1024_7.jpg",
+        "image": "shopify:\/\/shop_images\/THIN_BANNER_9ad07a4c-4a2b-419f-8ef8-65b36ca64dab.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/THIN_BANNER_38a8a9bf-dd60-4e53-985f-a32307118395.jpg",
+        "image_tab": "shopify:\/\/shop_images\/THIN_BANNER_38a8a9bf-dd60-4e53-985f-a32307118395.jpg",
         "link": "",
         "full_width": true
       }
