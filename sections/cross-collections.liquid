@@ -1,0 +1,37 @@
+<div
+  id="Infocolumns-{{ section.id }}"
+  class="container"
+>
+  <div class="grid md:grid-cols-3 text-blue-1 gap-12 md:gap-3">
+    <div
+      class="animation an-fadeup max-md:!delay-0 space-y-6 lg:space-y-8"
+      style="transition-delay: {{ 200 | times: forloop.index0 }}ms"
+    >
+      <div class="space-y-4 lg:space-y-6">
+        <div class="space-y-3 lg:space-y-6">
+          <h3 class="m-h2 lg:d-h2">{{ collection.metafields.custom.cross_category_title }}</h3>
+          <div class="grid lg:grid-cols-2 gap-10">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Other Collections",
+  "tag": "section",
+  "class": "section-other-collections",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "enabled_on": {
+    "templates": ["collection"]
+  },
+  "presets": [
+    {
+      "name": "Browse Other Categories"
+    }
+  ]
+}
+{% endschema %}
