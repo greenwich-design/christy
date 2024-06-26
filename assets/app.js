@@ -160,6 +160,9 @@ App = {
     function navMobOpen() {
       document.querySelector('#header').classList.add('[&>.header-bar]:!translate-y-0');
       navMob.classList.add('open');
+      document.getElementById('search-bar').classList.remove('opacity-100');
+      document.getElementById('search-bar').classList.add('pointer-events-none');
+      document.getElementById('search-bar').classList.add('opacity-0');
     }
     function navMobClose() {
       document.querySelector('#header').classList.remove('[&>.header-bar]:!translate-y-0');

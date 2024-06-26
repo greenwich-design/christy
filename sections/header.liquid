@@ -173,11 +173,13 @@
                 {% for child_link in link.links %}
                   <li class="menu-link font-bold grid grid-flow-row justify-center items-start auto-rows-max py-2">
                     {% assign grand_child_count = child_link.links | size %}
-                    <a
-                      href="{{ child_link.url }}"
-                      class="flex flex-col gap-4 text-base pb-4 hover:underline"
-                    >
+                    
                       {% if grand_child_count == 0 %}
+                        <a
+                          href="{{ child_link.url }}"
+                          class="flex flex-col gap-4 text-base pb-4 hover:underline"
+                        >
+                          {% if child_link.object.metafields.custom.menu_image != blank %}
                         <img
                           src="{{ child_link.object.metafields.custom.menu_image | file_url }}"
                           width="300"
@@ -185,9 +187,12 @@
                           height="300"
                           alt="{{ child_link.title }}"
                         >
-                      {% endif %}
-                      <span>{{ child_link.title }}</span>
+                          {% endif %}
+                          <span>{{ child_link.title }}</span>
                     </a>
+                      {% else %}
+                      <span class="pb-4 block">{{ child_link.title }}</span>
+                    {% endif %}
 
                     {% if child_link.links.size > 0 %}
                       <ul class="menu dropdown-grandchild flex flex-col items-start justify-start gap-4">
@@ -478,7 +483,7 @@
                                 </details>
                               {% else %}
                                 <a class="{% if child.current %} active{% endif %} flex flex-col gap-2 justify-center font-bold w-full" href="{{child.url}}">
-                                  {% if child.links.size == 0 %}
+                                  {% if child.links.size == 0 and child_link.object.metafields.custom.menu_image != blank %}
                                     <img
                                       src="{{ child.object.metafields.custom.menu_image | file_url }}"
                                       width="300"
