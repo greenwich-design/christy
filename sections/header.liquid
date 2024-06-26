@@ -12,10 +12,10 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-14px, -15px);
+    transform: translate(-14px, -17px);
     z-index: 99;
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 34px;
     background-repeat: no-repeat;
   }
 </style>
@@ -33,7 +33,7 @@
       </div>
     </aside>
   {% endif %}
-  <div class="w-full grid grid-cols-3 xl:grid-cols-12 px-8 z-10 h-[70px] pointer-events-auto justify-start items-center shadow-lg border-b border-b-slate-300">
+  <div class="w-full flex justify-between lg:grid lg:grid-cols-3 xl:grid-cols-12 px-4 lg:px-8 z-10 h-[70px] pointer-events-auto lg:justify-start items-center shadow-lg border-b border-b-slate-300">
     <div
       id="search-bar"
       class="fixed top-[70px] !top-[var(--header-height)] lg:!top=[var(--header-height-lg)] w-full bg-white left-0 px-8 flex flex-col gap-4 items-center overflow-hidden opacity-0 pointer-events-none transition-all duration-1000 shadow-lg"
@@ -50,9 +50,9 @@
           <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
             <input
               type="text"
-              class="h-20 w-full outline-none border-b border-b-slate-300"
+              class="h-10 w-full outline-none border-b border-b-slate-300"
               autocomplete="one-time-code"
-              placeholder="'Search..."
+              placeholder="Search..."
               type="search"
               id="search-bar-input"
               name="q"
@@ -136,7 +136,7 @@
       {%- endif -%}
       <a
         href="{{ routes.root_url }}"
-        class="max-md:w-[88px] md:max-lg:w-[120px] block {% if request.page_type == 'collection' %} max-lg:order-[-1] {% endif %} "
+        class="w-[120px] block {% if request.page_type == 'collection' %} max-lg:order-[-1] {% endif %} "
       >
         <img
           class=""
@@ -216,7 +216,7 @@
         {%- if shop.customer_accounts_enabled -%}
           <button
             href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
-            class="max-lg:hidden relative group py-4 account-button"
+            class="relative group py-4 account-button"
           >
             {% if customer %}
               {% render 'icon-account-customer' %}
@@ -301,7 +301,7 @@
                 </ul>
                 <a class="py-4 block text-xs hover:underline" href="{{ routes.account_logout_url }}">Log out</a>
               {% else %}
-                <h3 class="text-base font-bold text-left">Sign In or Create an Account</h3>
+                <h3 class="text-base font-bold text-left">Sign In or create an account</h3>
                 <ul class="flex flex-col gap-1 justify-start items-start text-xs">
                   <li>For faster checkout</li>
                   <li>For easier order tracking</li>
@@ -378,7 +378,7 @@
         {%- endif -%}
 
         <button
-          class="group/wlbtn relative flex items-center outline-none mt-[5px] gap-2"
+          class="group/wlbtn relative max-lg:hidden flex items-center outline-none mt-[5px] gap-2"
           button-wishlist-drawer-toggle
           button-wishlist-header
           aria-label="Open Wishlist"
@@ -429,7 +429,7 @@
           <div class="container pt-10">
             <ul class="menu">
               {% for parent in section.settings.menu.links %}
-                <li class="space-y-4 break-inside-avoid border-blue-1/10 border-b last:border-b-0">
+                <li class="space-y-4 break-inside-avoid">
                   {% if parent.links.size > 0 %}
                     <details class="block  !my-0 py-5 lg:py-7 group/acc">
                       <summary class="font-semibold m-body-copy lg:d-h5 space-x-6 flex w-full items-center cursor-pointer">
@@ -513,7 +513,7 @@
 {% if section.settings.announcement != blank %}
   <style>
     :root {
-      --header-height: calc(74px + 44px);
+      --header-height: calc(74px + 40px);
       --header-height-lg: calc(74px + 48px);
     }
   </style>
