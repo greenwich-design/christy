@@ -209,20 +209,6 @@
         "anchor_id": ""
       }
     },
-    "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
-      "type": "heading",
-      "disabled": true,
-      "settings": {
-        "heading": "<p>Get ready for a 'spooktacular' soak!<\/p>",
-        "heading_width": "4",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "center",
-        "alignment_mob": "center",
-        "horiz_padding": true,
-        "margin_top": false
-      }
-    },
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c": {
       "type": "c-info-columns",
       "blocks": {
@@ -276,23 +262,6 @@
         "copy_font_size_desktop": 14,
         "copy_font_weight": "300",
         "copy_font_family": "sans-serif"
-      }
-    },
-    "b9932fb5-c80a-402d-977c-e883e9dff131": {
-      "type": "images-copy-cta",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/WIMD150-809824.jpg",
-        "image2": "shopify:\/\/shop_images\/WimbledonChampionship2023Detail-273571.jpg",
-        "subtitle": "Wimbledon Championship Towel 2023",
-        "title": "<p>Ace Your Christmas Gift-Giving!<\/p>",
-        "copy": "<p>Elevate your Christmas gifting game with the Wimbledon Championship Towel 2023. <\/p><p>It's a versatile, stylish, and ultra-absorbent gift that tennis lovers and anyone with an appreciation for quality will adore. <\/p>",
-        "button_label": "Flat 30% Off - Shop Now",
-        "button_link": "shopify:\/\/collections\/wimbledon-collection",
-        "content_position": "right",
-        "header_position": false,
-        "images_half_width": false,
-        "anchor_id": ""
       }
     },
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
@@ -732,9 +701,7 @@
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
-    "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
-    "b9932fb5-c80a-402d-977c-e883e9dff131",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "d0ddfec2-66c8-4bc0-8970-151deec6b0e9",
