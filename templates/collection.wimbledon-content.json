@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
@@ -68,6 +77,58 @@
         "anchor_id": ""
       }
     },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "a3d143c1-d950-489a-b150-df0870a4d9d0": {
+          "type": "infocard",
+          "disabled": true,
+          "settings": {
+            "text": "The Jaipur Throw",
+            "copy": "<p>Our <\/p>",
+            "button_text": "",
+            "button_url": "",
+            "styled": false,
+            "position": 8
+          }
+        },
+        "77b7bcba-adf8-4b59-84fa-2aed599efb4a": {
+          "type": "infocard",
+          "disabled": true,
+          "settings": {
+            "text": "Cotton Sateen Sheets",
+            "copy": "<p>Resist the temptation to take just a few more minutes nestled up in the indulgent comfort our smooth cotton sheets.  <br\/>The sateen fabric has a gentle sheen and feels oh-so-nice against the skin. Once you've snuggled up in bed, you may never want to get out again.<\/p>",
+            "button_text": "Discover Collection",
+            "button_url": "shopify:\/\/products\/400-thread-count-sateen-plain-dye",
+            "styled": true,
+            "position": 8
+          }
+        },
+        "9b178935-07f5-49c1-b91b-796defd6ca93": {
+          "type": "listsc",
+          "disabled": true,
+          "settings": {
+            "product_1": "",
+            "pos_l_1": 50,
+            "pos_t_1": 50,
+            "product_2": "",
+            "pos_l_2": 50,
+            "pos_t_2": 50,
+            "product_3": "",
+            "pos_l_3": 50,
+            "pos_t_3": 50
+          }
+        }
+      },
+      "block_order": [
+        "a3d143c1-d950-489a-b150-df0870a4d9d0",
+        "77b7bcba-adf8-4b59-84fa-2aed599efb4a",
+        "9b178935-07f5-49c1-b91b-796defd6ca93"
+      ],
+      "settings": {
+        "products_per": 12
+      }
+    },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
       "type": "collections-carousel",
       "blocks": {
@@ -107,6 +168,7 @@
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
+      "disabled": true,
       "settings": {
         "title": "Our Bundle Collections",
         "screen_visibility": "both"
@@ -114,19 +176,19 @@
     },
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
-        "title": "Our Recommendations",
+        "title": "Explore The Collection",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
         "title_font_family": "sans-serif",
         "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/all-bundles",
+        "button_link": "shopify:\/\/collections\/wimbledon-collection",
         "products": [
-          "renaissance-bed-bath-bundle",
-          "supreme-hygro-bath-towel-bundle",
-          "supreme-robe-bundles",
-          "jaipur-throw-bundle"
+          "wimbledon-2024-championship-towel",
+          "official-championships-upcycled-tote-bag",
+          "wimbledon-2023-guest-towel"
         ],
         "screen_visibility": "both"
       }
@@ -203,6 +265,7 @@
         "8689b6d4-79c2-4b5b-9c2b-a8e789fa0bea",
         "26e1c4e3-4c76-4c20-ba8e-06beae34d3b5"
       ],
+      "disabled": true,
       "settings": {
         "title": "It takes 3 Simple Steps",
         "title_font_size_mob": 16,
@@ -526,58 +589,6 @@
         "mobile_content_position": "below"
       }
     },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "blocks": {
-        "a3d143c1-d950-489a-b150-df0870a4d9d0": {
-          "type": "infocard",
-          "disabled": true,
-          "settings": {
-            "text": "The Jaipur Throw",
-            "copy": "<p>Our <\/p>",
-            "button_text": "",
-            "button_url": "",
-            "styled": false,
-            "position": 8
-          }
-        },
-        "77b7bcba-adf8-4b59-84fa-2aed599efb4a": {
-          "type": "infocard",
-          "disabled": true,
-          "settings": {
-            "text": "Cotton Sateen Sheets",
-            "copy": "<p>Resist the temptation to take just a few more minutes nestled up in the indulgent comfort our smooth cotton sheets.  <br\/>The sateen fabric has a gentle sheen and feels oh-so-nice against the skin. Once you've snuggled up in bed, you may never want to get out again.<\/p>",
-            "button_text": "Discover Collection",
-            "button_url": "shopify:\/\/products\/400-thread-count-sateen-plain-dye",
-            "styled": true,
-            "position": 8
-          }
-        },
-        "9b178935-07f5-49c1-b91b-796defd6ca93": {
-          "type": "listsc",
-          "disabled": true,
-          "settings": {
-            "product_1": "",
-            "pos_l_1": 50,
-            "pos_t_1": 50,
-            "product_2": "",
-            "pos_l_2": 50,
-            "pos_t_2": 50,
-            "product_3": "",
-            "pos_l_3": 50,
-            "pos_t_3": 50
-          }
-        }
-      },
-      "block_order": [
-        "a3d143c1-d950-489a-b150-df0870a4d9d0",
-        "77b7bcba-adf8-4b59-84fa-2aed599efb4a",
-        "9b178935-07f5-49c1-b91b-796defd6ca93"
-      ],
-      "settings": {
-        "products_per": 12
-      }
-    },
     "recent-products": {
       "type": "recent-products",
       "disabled": true,
@@ -717,6 +728,7 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "2594a997-818a-4de5-b1c1-015972b655d2",
+    "product-grid",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
@@ -734,7 +746,6 @@
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
     "07a57dc8-34ac-41ee-96df-37021aef7941",
     "32651ade-df62-44f5-8355-bb4039f60426",
-    "product-grid",
     "recent-products",
     "toggled-body-content"
   ]
