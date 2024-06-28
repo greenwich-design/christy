@@ -13,6 +13,8 @@
       "type": "hero-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/MicrosoftTeams-image.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/MicrosoftTeams-image.jpg",
+        "image_tab": "shopify:\/\/shop_images\/MicrosoftTeams-image.jpg",
         "link": "",
         "full_width": true
       }
