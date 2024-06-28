@@ -79,6 +79,26 @@
         "anchor_id": ""
       }
     },
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Explore The Collection",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "Shop All",
+        "button_link": "shopify:\/\/collections\/wimbledon-collection",
+        "products": [
+          "wimbledon-2024-championship-towel",
+          "official-championships-upcycled-tote-bag",
+          "wimbledon-2023-guest-towel",
+          "wimbledon-ace-towel",
+          "wimbledon-logo-towel"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -127,6 +147,7 @@
         "77b7bcba-adf8-4b59-84fa-2aed599efb4a",
         "9b178935-07f5-49c1-b91b-796defd6ca93"
       ],
+      "disabled": true,
       "settings": {
         "products_per": 12
       }
@@ -173,25 +194,6 @@
       "disabled": true,
       "settings": {
         "title": "Our Bundle Collections",
-        "screen_visibility": "both"
-      }
-    },
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
-      "type": "products-carousel",
-      "disabled": true,
-      "settings": {
-        "title": "Explore The Collection",
-        "title_font_size_mob": 18,
-        "title_font_size_desktop": 30,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/wimbledon-collection",
-        "products": [
-          "wimbledon-2024-championship-towel",
-          "official-championships-upcycled-tote-bag",
-          "wimbledon-2023-guest-towel"
-        ],
         "screen_visibility": "both"
       }
     },
@@ -714,9 +716,9 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "2594a997-818a-4de5-b1c1-015972b655d2",
+    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "product-grid",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
-    "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
