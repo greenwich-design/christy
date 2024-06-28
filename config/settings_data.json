@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "og_default_image": "shopify:\/\/shop_images\/Christy_Signifier_Egyptian_Blue_RGB_1.png",
@@ -214,6 +223,18 @@
           "border_color": "#2c3b96",
           "border_radius": 6,
           "cart_widget_text_alignment": "--wrapped-checkbox--label-right"
+        }
+      },
+      "14230651041339252739": {
+        "type": "shopify:\/\/apps\/sc-easy-redirects\/blocks\/app_404\/be3f8dbd-5d43-46b4-ba43-2d65046054c2",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "5017882195547572635": {
+        "type": "shopify:\/\/apps\/sc-easy-redirects\/blocks\/app\/be3f8dbd-5d43-46b4-ba43-2d65046054c2",
+        "disabled": false,
+        "settings": {
         }
       }
     },
