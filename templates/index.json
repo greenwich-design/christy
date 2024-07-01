@@ -12,9 +12,9 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DESKTOP_bd8b3e59-587f-409f-a2e3-7c58fc818174.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/TABLET_6c3d4d92-605a-4732-9171-66d53e3c19c7.jpg",
-        "image_tab": "shopify:\/\/shop_images\/TABLET_6c3d4d92-605a-4732-9171-66d53e3c19c7.jpg",
+        "image": "shopify:\/\/shop_images\/DESKTOP_BANNER.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/MOBILE_BANNER.jpg",
+        "image_tab": "shopify:\/\/shop_images\/TABLET_BANNER.jpg",
         "link": "shopify:\/\/collections\/summer-sale",
         "full_width": true
       }
