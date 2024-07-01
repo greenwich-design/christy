@@ -12,9 +12,9 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DESKTOP_BANNER.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/MOBILE_BANNER.jpg",
-        "image_tab": "shopify:\/\/shop_images\/TABLET_BANNER.jpg",
+        "image": "shopify:\/\/shop_images\/Artboard_19_7.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Babolat_Web_Banner_EDITED_28th_June_MOBILE.jpg",
+        "image_tab": "shopify:\/\/shop_images\/Babolat_Web_Banner_EDITED_28th_June_TABLET.jpg",
         "link": "shopify:\/\/products\/wimbledon-2024-championship-towel",
         "full_width": true
       }
