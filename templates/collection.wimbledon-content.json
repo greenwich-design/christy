@@ -320,6 +320,7 @@
     },
     "hero_image_7Yqmjx": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.jpg",
         "link": "https:\/\/www.christy.co.uk\/products\/wimbledon-2024-championship-towel",
