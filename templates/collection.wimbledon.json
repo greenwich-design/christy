@@ -1,10 +1,18 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "c22d2ac1-8d55-47be-99ef-ca4011c90b98": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
+        "image": "shopify:\/\/shop_images\/Babolat_Web_BannerTHIN_BANNER-01.jpg",
         "link": "",
         "full_width": true
       }
