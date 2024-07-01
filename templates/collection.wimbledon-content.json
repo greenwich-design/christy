@@ -73,12 +73,6 @@
         "screen_visibility": "both"
       }
     },
-    "product_showcase_LT9dCm": {
-      "type": "product-showcase",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Artboard_19_11.jpg"
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -247,6 +241,7 @@
         "slide_weAzn4",
         "slide_p8aQxB"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -763,7 +758,6 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
     "2594a997-818a-4de5-b1c1-015972b655d2",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
-    "product_showcase_LT9dCm",
     "product-grid",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
