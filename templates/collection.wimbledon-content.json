@@ -12,9 +12,9 @@
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/MicrosoftTeams-image.jpg",
-        "image_tab": "shopify:\/\/shop_images\/MicrosoftTeams-image.jpg",
+        "image": "shopify:\/\/shop_images\/Babolat_Web_Banner_EDITED_28th_June.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/Babolat_Web_Banner_EDITED_28th_June.jpg",
+        "image_tab": "shopify:\/\/shop_images\/Babolat_Web_Banner_EDITED_28th_June.jpg",
         "link": "",
         "full_width": true
       }
@@ -171,6 +171,14 @@
         "screen_visibility": "both"
       }
     },
+    "a6afff26-2b13-4416-a136-947cb17aad4f": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Artboard_1_99.jpg",
+        "link": "https:\/\/www.christy.co.uk\/products\/wimbledon-2024-championship-towel",
+        "full_width": true
+      }
+    },
     "6e86ee6f-cb13-4e1d-9544-79832418e94b": {
       "type": "images-copy-cta",
       "settings": {
@@ -300,20 +308,10 @@
         "copy_font_family": "sans-serif"
       }
     },
-    "a6afff26-2b13-4416-a136-947cb17aad4f": {
-      "type": "hero-image",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_1_ce0dcd02-68ab-4b81-b338-e62068343b04.jpg",
-        "link": "https:\/\/www.christy.co.uk\/products\/wimbledon-2024-championship-towel",
-        "full_width": true
-      }
-    },
     "hero_image_nbKN6b": {
       "type": "hero-image",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_2.jpg",
+        "image": "shopify:\/\/shop_images\/Artboard_3_83.jpg",
         "link": "https:\/\/www.christy.co.uk\/products\/wimbledon-2024-championship-towel",
         "full_width": true
       }
@@ -760,10 +758,10 @@
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "product-grid",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
+    "a6afff26-2b13-4416-a136-947cb17aad4f",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
-    "a6afff26-2b13-4416-a136-947cb17aad4f",
     "hero_image_nbKN6b",
     "hero_image_7Yqmjx",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
