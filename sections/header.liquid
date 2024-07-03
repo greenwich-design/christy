@@ -5,6 +5,7 @@
     endif
   endfor
 -%}
+<script src="{{ 'quick-search.js' | asset_url }}" async defer="defer"></script>
 <style>
   .icon-Gifting::after {
     content: '';
@@ -36,7 +37,7 @@
   <div class="w-full flex justify-between lg:grid lg:grid-cols-3 xl:grid-cols-12 px-4 lg:px-8 z-10 h-[70px] pointer-events-auto lg:justify-start items-center shadow-lg border-b border-b-slate-300">
     <div
       id="search-bar"
-      class="fixed top-[70px] !top-[var(--header-height)] lg:!top=[var(--header-height-lg)] w-full bg-white left-0 px-8 flex flex-col gap-4 items-center overflow-hidden opacity-0 pointer-events-none transition-all duration-1000 shadow-lg"
+      class="fixed !top-[var(--header-height)] lg:!top-[var(--header-height-lg)] w-full bg-white left-0 px-8 flex flex-col gap-4 items-center overflow-hidden opacity-0 pointer-events-none transition-all duration-1000 shadow-lg"
     >
       <div class="flex gap-4 items-center overflow-hidden w-full">
         <div class="">
@@ -47,31 +48,19 @@
             class="block search-modal__form group/search"
             data-loading-text="{{ 'accessibility.loading' | t }}"
           >
-          <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
-            <input
-              type="text"
-              class="h-10 w-full outline-none border-b border-b-slate-300"
-              autocomplete="one-time-code"
-              placeholder="Search..."
-              type="search"
-              id="search-bar-input"
-              name="q"
-              value="{{ search.terms | escape }}"
-              {%- if settings.predictive_search_enabled -%}
-                role="combobox"
-                aria-expanded="false"
-                aria-owns="predictive-search-results
-                aria-controls="predictive-search-results"
-                aria-haspopup="listbox"
-                aria-autocomplete="list"
-                autocorrect="off"
-                autocomplete="off"
-                autocapitalize="off"
-                spellcheck="false"
-              {%- endif -%}
-            >
-          </form>
-        </predictive-search>
+            <search-form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
+              <input
+                type="text"
+                class="h-10 w-full outline-none border-b border-b-slate-300"
+                autocomplete="one-time-code"
+                placeholder="Search..."
+                type="search"
+                id="search-bar-input"
+                name="q"
+                value="{{ search.terms | escape }}"
+              >
+            </search-form>
+          </predictive-search>
         </div>
         <button
           id="search-clear-icon"
@@ -83,7 +72,8 @@
           {% render 'icon-close' %}
         </button>
       </div>
-      <div class="w-full grid lg:grid-cols-3 pb-4 gap-8">
+
+      <div id="predsearch" class="w-full grid lg:grid-cols-3 pb-4 gap-8">
         <div
           class="predictive-search predictive-search--header max-lg:!max-h-none lg:shadow-megamenu lg:absolute lg:top-full lg:left-0 lg:bg-white/95 hidden group-open/search:!block group-open/search:py-5 lg:p-5 w-full lg:overflow-auto lg:-mt-px"
           tabindex="-1"
@@ -119,16 +109,16 @@
       </div>
     </div>
     <div class="flex gap-4 items-center justify-start xl:hidden">
-    <button class=" w-[20px] h-[13px] relative" data-navmobopen aria-label="Open Nav">
-      <span class="absolute -left-2 -top-2 space-y-[5px] flex flex-col items-end p-2 w-[36px]">
-        <span class="w-full h-[1px] bg-blue-1"></span>
-        <span class="w-full h-[1px] bg-blue-1"></span>
-        <span class="w-full h-[1px] bg-blue-1"></span>
-      </span>
-    </button>
-    <button id="" class="search-icon block xl:hidden">
-      {% render 'icon-search' %}
-    </button>
+      <button class=" w-[20px] h-[13px] relative" data-navmobopen aria-label="Open Nav">
+        <span class="absolute -left-2 -top-2 space-y-[5px] flex flex-col items-end p-2 w-[36px]">
+          <span class="w-full h-[1px] bg-blue-1"></span>
+          <span class="w-full h-[1px] bg-blue-1"></span>
+          <span class="w-full h-[1px] bg-blue-1"></span>
+        </span>
+      </button>
+      <button id="" class="search-icon block xl:hidden">
+        {% render 'icon-search' %}
+      </button>
     </div>
     <div id="logo" class="xl:col-span-2">
       {%- if request.page_type == 'index' -%}
@@ -169,28 +159,28 @@
               style="background:{{ link.object.metafields.custom.menu_colour }}"
             ></span>
             {% if link.links.size > 0 %}
-              <ul class="menu dropdown-child opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto grid grid-flow-col fixed bg-white p-4 top-[70px] !top-[var(--header-height)] lg:!top=[var(--header-height-lg)] left-0 right-0 mx-auto w-full shadow-lg transition-all duration-1000">
+              <ul class="menu dropdown-child opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto grid grid-flow-col fixed bg-white p-4 !top-[var(--header-height)] lg:!top-[var(--header-height-lg)] left-0 right-0 mx-auto w-full shadow-lg transition-all duration-1000">
                 {% for child_link in link.links %}
                   <li class="menu-link font-bold grid grid-flow-row justify-center items-start auto-rows-max py-2">
                     {% assign grand_child_count = child_link.links | size %}
-                    
-                      {% if grand_child_count == 0 %}
-                        <a
-                          href="{{ child_link.url }}"
-                          class="flex flex-col gap-4 text-base pb-4 hover:underline"
-                        >
-                          {% if child_link.object.metafields.custom.menu_image != blank %}
-                        <img
-                          src="{{ child_link.object.metafields.custom.menu_image | file_url }}"
-                          width="300"
-                          class="w-[300px] h-[300px] object-cover"
-                          height="300"
-                          alt="{{ child_link.title }}"
-                        >
-                          {% endif %}
-                          <span>{{ child_link.title }}</span>
-                    </a>
-                      {% else %}
+
+                    {% if grand_child_count == 0 %}
+                      <a
+                        href="{{ child_link.url }}"
+                        class="flex flex-col gap-4 text-base pb-4 hover:underline"
+                      >
+                        {% if child_link.object.metafields.custom.menu_image != blank %}
+                          <img
+                            src="{{ child_link.object.metafields.custom.menu_image | file_url }}"
+                            width="300"
+                            class="w-[300px] h-[300px] object-cover"
+                            height="300"
+                            alt="{{ child_link.title }}"
+                          >
+                        {% endif %}
+                        <span>{{ child_link.title }}</span>
+                      </a>
+                    {% else %}
                       <span class="pb-4 block">{{ child_link.title }}</span>
                     {% endif %}
 
@@ -445,10 +435,16 @@
                         <span
                           class="group-open/acc:rotate-90"
                         >
-                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-4 h-4">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="2.5"
+                            stroke="currentColor"
+                            class="w-4 h-4"
+                          >
                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                           </svg>
-                          
                         </span>
                       </summary>
 
@@ -482,8 +478,13 @@
                                   </div>
                                 </details>
                               {% else %}
-                                <a class="{% if child.current %} active{% endif %} flex flex-col gap-2 justify-center font-bold w-full" href="{{child.url}}">
-                                  {% if child.links.size == 0 and child_link.object.metafields.custom.menu_image != blank %}
+                                <a
+                                  class="{% if child.current %} active{% endif %} flex flex-col gap-2 justify-center font-bold w-full"
+                                  href="{{child.url}}"
+                                >
+                                  {% if child.links.size == 0
+                                    and child_link.object.metafields.custom.menu_image != blank
+                                  %}
                                     <img
                                       src="{{ child.object.metafields.custom.menu_image | file_url }}"
                                       width="300"
@@ -519,7 +520,7 @@
   <style>
     :root {
       --header-height: calc(74px + 40px);
-      --header-height-lg: calc(74px + 48px);
+      --header-height-lg: calc(74px + 44px);
     }
   </style>
 {% endif %}
@@ -547,9 +548,12 @@
 </style>
 
 <script async defer type="text/javascript">
-  document.querySelectorAll('.search-icon').forEach((el)=>{
+  document.querySelectorAll('.search-icon').forEach((el) => {
     el.addEventListener('click', () => {
       if (document.getElementById('search-bar').classList.contains('opacity-0')) {
+        const navMob = document.querySelector('#NavMob');
+        document.querySelector('#header').classList.remove('[&>.header-bar]:!translate-y-0');
+        navMob.classList.remove('open');
         document.getElementById('search-bar').classList.remove('opacity-0');
         document.getElementById('search-bar').classList.remove('pointer-events-none');
         document.getElementById('search-bar').classList.add('opacity-100');
@@ -558,7 +562,7 @@
         document.getElementById('search-bar').classList.add('opacity-0');
         document.getElementById('search-bar').classList.add('pointer-events-none');
       }
-  })
+    });
   });
   document.getElementById('search-bar-input').addEventListener('keyup', function cb(e) {
     if (e.target.value !== '') {
