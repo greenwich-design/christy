@@ -645,16 +645,16 @@
     "featured-blogs": {
       "type": "featured-blogs",
       "blocks": {
+        "458e4f16-65af-45ea-bf76-156d0bfc8da1": {
+          "type": "article",
+          "settings": {
+            "article": "lifestyle\/everything-we-love-about-the-new-christy-wimbledon-towels"
+          }
+        },
         "30dec819-818b-4bc2-b9c3-ff19c89ebaf4": {
           "type": "article",
           "settings": {
             "article": "lifestyle\/thread-count-meaning-explained"
-          }
-        },
-        "458e4f16-65af-45ea-bf76-156d0bfc8da1": {
-          "type": "article",
-          "settings": {
-            "article": "lifestyle\/the-best-bedroom-colour-schemes-for-2024"
           }
         },
         "dc2e0744-3035-4a8f-b0c9-4abd1e420569": {
@@ -665,8 +665,8 @@
         }
       },
       "block_order": [
-        "30dec819-818b-4bc2-b9c3-ff19c89ebaf4",
         "458e4f16-65af-45ea-bf76-156d0bfc8da1",
+        "30dec819-818b-4bc2-b9c3-ff19c89ebaf4",
         "dc2e0744-3035-4a8f-b0c9-4abd1e420569"
       ],
       "settings": {
