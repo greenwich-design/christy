@@ -173,6 +173,15 @@
     },
     "a6afff26-2b13-4416-a136-947cb17aad4f": {
       "type": "hero-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Artboard_1_102.jpg",
+        "link": "https:\/\/www.christy.co.uk\/products\/wimbledon-2024-championship-towel",
+        "full_width": true
+      }
+    },
+    "hero_image_cC9AtY": {
+      "type": "hero-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/1920x500_3.jpg",
         "link": "https:\/\/www.christy.co.uk\/products\/wimbledon-2024-championship-towel",
@@ -759,6 +768,7 @@
     "product-grid",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
+    "hero_image_cC9AtY",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
