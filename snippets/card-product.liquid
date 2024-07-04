@@ -311,9 +311,11 @@
               {{ card_product.title | escape }}
             {% endif %}
           </h3>
-          {% if card_product.metafields.christy23.tagline_pdp %}
-            <p>{{ card_product.metafields.christy23.tagline_pdp }}</p>
-          {% endif %}
+          {% comment %}
+            {% if card_product.metafields.christy23.tagline_pdp %}
+              <p>{{ card_product.metafields.christy23.tagline_pdp }}</p>
+            {% endif %}
+          {% endcomment %}
         </a>
       </div>
 
