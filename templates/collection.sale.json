@@ -24,18 +24,18 @@
           "type": "collection",
           "settings": {
             "collection": "offers-towels",
-            "usp_title": "",
+            "usp_title": "Up to 50% Off",
             "image": "shopify:\/\/shop_images\/Organic_Cinder_Lifestyle_1.jpg",
             "alt_title": "Towels",
-            "excerpt": "<p>Wrap up in a cocoon of luxury after every shower.<\/p>"
+            "excerpt": "<p>Wrap up in luxury after every shower.<\/p>"
           }
         },
         "collection_VbmqVP": {
           "type": "collection",
           "settings": {
             "collection": "bedroom-bedroom-sale",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Artboard_2_74_1.jpg",
+            "usp_title": "Up to 50% Off",
+            "image": "shopify:\/\/shop_images\/Organic-200-TC_Bedding_Hazelnut-_11_5f0fd72d-2b9c-411d-9555-ad4289e1752a.jpg",
             "alt_title": "Bedding",
             "excerpt": "<p>Get set for a blissful sleep.<\/p>"
           }
@@ -44,7 +44,7 @@
           "type": "collection",
           "settings": {
             "collection": "all-accessories",
-            "usp_title": "",
+            "usp_title": "Up to 40% Off",
             "image": "shopify:\/\/shop_images\/lisbon_lifestyle.webp",
             "alt_title": "Cushions & Throws",
             "excerpt": "<p>Adorn with rich colors and tantalising texture.<\/p>"
@@ -54,9 +54,10 @@
           "type": "collection",
           "settings": {
             "collection": "all-loungewear",
-            "usp_title": "",
+            "usp_title": "Up to 30% Off",
+            "image": "shopify:\/\/shop_images\/D3_489.jpg",
             "alt_title": "Robes",
-            "excerpt": ""
+            "excerpt": "<p>Transform your everyday moments.<\/p>"
           }
         }
       },
