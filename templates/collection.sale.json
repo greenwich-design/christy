@@ -12,7 +12,7 @@
     "6707d50c-5555-48d5-ade4-86ed7f2b1da0": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/THIN_BANNER_82aa7be3-0364-4418-b87f-0298da5f6975.jpg",
+        "image": "shopify:\/\/shop_images\/Artboard_3_94.jpg",
         "link": "",
         "full_width": true
       }
@@ -55,7 +55,7 @@
           "settings": {
             "collection": "all-loungewear",
             "usp_title": "",
-            "alt_title": "",
+            "alt_title": "Robes",
             "excerpt": ""
           }
         }
