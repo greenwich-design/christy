@@ -12,7 +12,7 @@
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/THIN_BANNER_52a3659b-4b67-44cb-96fb-494627ba78b2.jpg",
+        "image": "shopify:\/\/shop_images\/Artboard_3_94.jpg",
         "link": "",
         "full_width": true
       }
@@ -79,7 +79,7 @@
     "296b5fdf-eac7-4cd0-922e-5d27c605fc41": {
       "type": "products-carousel",
       "settings": {
-        "title": "Minimum 50% off",
+        "title": "Minimum 30% off",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -89,7 +89,6 @@
         "products": [
           "brixton-towels",
           "super-soft-cosy-robe",
-          "200tc-organic",
           "signum-675-gsm-combed-cotton",
           "coniston-bed-linen",
           "serene-550-gsm-combed-cotton",
