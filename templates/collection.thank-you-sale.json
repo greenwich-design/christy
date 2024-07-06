@@ -363,7 +363,7 @@
     "1faadb62-9346-46cf-8500-cc18fc75bda3": {
       "type": "heading",
       "settings": {
-        "heading": "<p>Threaded Bliss: Unwrap Luxury with Summer Sale Bath Deals!<\/p>",
+        "heading": "<p>Threaded Bliss: Unwrap Luxury with Bath Deals!<\/p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
@@ -412,6 +412,7 @@
         "collection_e8BQQz",
         "collection_nfNKEd"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "screen_visibility": "both"
@@ -420,7 +421,7 @@
     "0ea7c509-a0e6-4f26-8f0f-2d0f5eb7a796": {
       "type": "products-carousel",
       "settings": {
-        "title": "Fluff and Fold: Summer Sale Towel Frenzy!",
+        "title": "Fluff and Fold: Towel Frenzy!",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -428,11 +429,9 @@
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/offers-towels",
         "products": [
-          "cabana-beach-towels-450-gsm-cotton",
           "carnaby-stripe",
           "supreme-hygro",
           "luxe-towels",
-          "amalfi-beach-towel",
           "signum-675-gsm-combed-cotton"
         ],
         "screen_visibility": "both"
