@@ -522,6 +522,7 @@
         "b67ebaca-9de3-43d0-9ee0-554bcc673479",
         "1c561ecc-6e7c-4c2d-ae57-409320a93e2f"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "screen_visibility": "both"
@@ -530,7 +531,7 @@
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
       "settings": {
-        "title": "Elevate Your Sanctuary: Cool Bedding Offers",
+        "title": "Elevate Your Sanctuary: Bedding Offers",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
