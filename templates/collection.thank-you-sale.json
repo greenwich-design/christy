@@ -431,13 +431,13 @@
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/offers-towels",
         "products": [
+          "signum-675-gsm-combed-cotton",
+          "essence-towels-650-gsm-combed-cotton",
           "carnaby-stripe",
           "supreme-hygro",
           "luxe-towels",
-          "signum-675-gsm-combed-cotton",
           "renaissance",
-          "organic",
-          "essence-towels-650-gsm-combed-cotton"
+          "organic"
         ],
         "screen_visibility": "both"
       }
