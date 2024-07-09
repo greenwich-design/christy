@@ -25,10 +25,15 @@
       </li>
     {% endfor %}
   </ul>
-  <div class="hidden lg:grid lg:grid-cols-5 grow gap-4 col-span-2">
-    <h3 class="text-base font-bold col-span-5">Featured Products</h3>
+  <div class="hidden lg:grid lg:grid-cols-3 grow gap-4 col-span-2">
+    <h3 class="text-base font-bold col-span-3">Featured Products</h3>
     {% for product in predictive_search.resources.products %}
-      {% render 'card-product', card_product: product, section_id: section.id, horizontal_quick_add: true %}
+      {% render 'card-product',
+        card_product: product,
+        section_id: section.id,
+        horizontal_quick_add: true,
+        show_rating: false
+      %}
     {% endfor %}
   </div>
 </div>

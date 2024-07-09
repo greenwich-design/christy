@@ -199,15 +199,17 @@
           {%- endif -%}
         </div>
 
-        <button
-          type="button"
-          aria-label="Add to wishlist"
-          button-wishlist
-          data-product-handle="{{ card_product.handle }}"
-          class="card__wishlist wishlist-button [&.active_svg]:animate-scalein group/wlbtn max-md:hidden"
-        >
-          <span class="w-[16px] lg:w-[18px] block">{% render 'icon-heart' %}</span>
-        </button>
+        {% comment %}
+          <button
+            type="button"
+            aria-label="Add to wishlist"
+            button-wishlist
+            data-product-handle="{{ card_product.handle }}"
+            class="card__wishlist wishlist-button [&.active_svg]:animate-scalein group/wlbtn max-md:hidden"
+          >
+            <span class="w-[16px] lg:w-[18px] block">{% render 'icon-heart' %}</span>
+          </button>
+        {% endcomment %}
       </div>
       <div class="card__content text-blue-1">
         <a
