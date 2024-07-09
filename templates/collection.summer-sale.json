@@ -216,6 +216,7 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2",
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "title_font_size_mob": 16,
@@ -273,6 +274,7 @@
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-2",
         "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "title_font_size_mob": 16,
@@ -413,6 +415,7 @@
         "collection_e8BQQz",
         "collection_nfNKEd"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "screen_visibility": "both"
