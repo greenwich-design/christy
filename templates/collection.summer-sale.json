@@ -527,6 +527,7 @@
         "b67ebaca-9de3-43d0-9ee0-554bcc673479",
         "1c561ecc-6e7c-4c2d-ae57-409320a93e2f"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "screen_visibility": "both"
