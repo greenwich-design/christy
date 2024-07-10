@@ -131,9 +131,9 @@
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "towels",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/1_722e187a-5e5d-45ba-9f6d-82e39929bf55.png",
+            "image": "shopify:\/\/shop_images\/Artboard_7_47.jpg",
             "alt_title": "",
             "excerpt": ""
           }
@@ -141,20 +141,20 @@
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5": {
           "type": "collection",
           "settings": {
-            "collection": "all-loungewear",
+            "collection": "all-bedding",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/2_c0e7c58d-f03d-41c0-9826-60124bac15d1.png",
-            "alt_title": "Plush Bath Robes",
+            "image": "shopify:\/\/shop_images\/Artboard_7.jpg",
+            "alt_title": "Bedding",
             "excerpt": ""
           }
         },
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b": {
           "type": "collection",
           "settings": {
-            "collection": "bath-mats-and-rugs",
+            "collection": "all-loungewear",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/3_540c291d-9466-4b9b-800b-e2d2b5f41ee5.png",
-            "alt_title": "Mats & Rugs",
+            "image": "shopify:\/\/shop_images\/Artboard_8_15.jpg",
+            "alt_title": "Robes",
             "excerpt": ""
           }
         }
@@ -164,7 +164,50 @@
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
-      "disabled": true,
+      "settings": {
+        "title": "",
+        "screen_visibility": "both"
+      }
+    },
+    "collections_carousel_JQwwpr": {
+      "type": "collections-carousel",
+      "blocks": {
+        "collection_MzYaqN": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-accessories",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Artboard_7-10.jpg",
+            "alt_title": "Throws & Cushions",
+            "excerpt": ""
+          }
+        },
+        "collection_AkKdpt": {
+          "type": "collection",
+          "settings": {
+            "collection": "offers-duvets-pillows",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Artboard_7-05.jpg",
+            "alt_title": "Duvets & Pillows",
+            "excerpt": ""
+          }
+        },
+        "collection_UgTaxH": {
+          "type": "collection",
+          "settings": {
+            "collection": "clearance-1",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Artboard_7-12.jpg",
+            "alt_title": "",
+            "excerpt": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_MzYaqN",
+        "collection_AkKdpt",
+        "collection_UgTaxH"
+      ],
       "settings": {
         "title": "",
         "screen_visibility": "both"
@@ -214,64 +257,6 @@
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-1",
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-2",
         "template--21202653085984__06cfb5b0-ef0d-40ac-b0f2-de55cebec04c-column-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "title_font_size_mob": 16,
-        "title_font_size_desktop": 20,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "copy_font_size_mob": 12,
-        "copy_font_size_desktop": 14,
-        "copy_font_weight": "300",
-        "copy_font_family": "sans-serif"
-      }
-    },
-    "e922dd6b-de11-4348-9389-5260d6fa205a": {
-      "type": "c-info-columns",
-      "blocks": {
-        "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_4_51.jpg",
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "button_link": "all-accessories",
-            "collection_tag": ""
-          }
-        },
-        "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_5_34.jpg",
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "button_link": "duvet-pillows",
-            "collection_tag": ""
-          }
-        },
-        "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_6_36.jpg",
-            "image_aspect": "1:1",
-            "title": "",
-            "text": "",
-            "button_label": "Shop Now",
-            "button_link": "clearance",
-            "collection_tag": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-1",
-        "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-2",
-        "template--21521866129696__e922dd6b-de11-4348-9389-5260d6fa205a-column-3"
       ],
       "disabled": true,
       "settings": {
@@ -910,8 +895,8 @@
     "296b5fdf-eac7-4cd0-922e-5d27c605fc41",
     "82bff3e6-7ee4-4ad7-9806-4ffa6631c225",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
+    "collections_carousel_JQwwpr",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
-    "e922dd6b-de11-4348-9389-5260d6fa205a",
     "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "20b0aa22-bb43-4d2e-a28b-0d6b9fa691c1",
     "1faadb62-9346-46cf-8500-cc18fc75bda3",
