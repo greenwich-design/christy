@@ -19,40 +19,6 @@
         "full_width": true
       }
     },
-    "2594a997-818a-4de5-b1c1-015972b655d2": {
-      "type": "rich-text",
-      "blocks": {
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "sub_title_size": "h2"
-          }
-        },
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1": {
-          "type": "main_heading",
-          "settings": {
-            "heading": "Elevate your Everyday Moments this Christmas with Christy"
-          }
-        },
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our signature gift box & personalised message options now available.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1",
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1",
-        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "anchor_id": ""
-      }
-    },
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
       "disabled": true,
@@ -124,6 +90,39 @@
       ],
       "settings": {
         "products_per": 12
+      }
+    },
+    "2594a997-818a-4de5-b1c1-015972b655d2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "sub_title_size": "h2"
+          }
+        },
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1": {
+          "type": "main_heading",
+          "settings": {
+            "heading": ""
+          }
+        },
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-heading-1",
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-main_heading-1",
+        "template--21450563944736__2594a997-818a-4de5-b1c1-015972b655d2-text-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "anchor_id": ""
       }
     },
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2": {
@@ -685,9 +684,9 @@
   },
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
-    "2594a997-818a-4de5-b1c1-015972b655d2",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "product-grid",
+    "2594a997-818a-4de5-b1c1-015972b655d2",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
     "hero_image_cC9AtY",
