@@ -55,6 +55,7 @@
     },
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "Explore The Collection",
         "title_font_size_mob": 18,
@@ -121,7 +122,6 @@
         "77b7bcba-adf8-4b59-84fa-2aed599efb4a",
         "9b178935-07f5-49c1-b91b-796defd6ca93"
       ],
-      "disabled": true,
       "settings": {
         "products_per": 12
       }
@@ -455,84 +455,6 @@
         "anchor_id": ""
       }
     },
-    "d38727e6-070e-4d88-af8b-6b75b41f7719": {
-      "type": "collections-carousel",
-      "blocks": {
-        "3f15cc9c-c32d-43a2-b8a0-175614a8ae86": {
-          "type": "collection",
-          "settings": {
-            "collection": "duvet-sets",
-            "usp_title": "Up to 40% Off + 20% above £ 100",
-            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>"
-          }
-        },
-        "76a7aa40-fad4-4756-b863-71f413788066": {
-          "type": "collection",
-          "settings": {
-            "collection": "sheets",
-            "usp_title": "Up to 20% Off + 20% above £ 100",
-            "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
-            "alt_title": "",
-            "excerpt": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>"
-          }
-        },
-        "2c4374cb-ef41-43b7-96f5-f6b61b083b01": {
-          "type": "collection",
-          "settings": {
-            "collection": "flat-sheets",
-            "usp_title": "Up to 40% Off + 20% above £ 100",
-            "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>"
-          }
-        },
-        "6748815e-680b-4a82-9435-2cf556cc867c": {
-          "type": "collection",
-          "settings": {
-            "collection": "duvet-pillows",
-            "usp_title": "Up to 30% Off + 20% above £ 100",
-            "image": "shopify:\/\/shop_images\/subcategory_duvetandpillowoffers_desktop.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Discover a world of personalized comfort, available in a range of togs and firmness levels to suit your unique sleep preferences.<\/p>"
-          }
-        },
-        "b67ebaca-9de3-43d0-9ee0-554bcc673479": {
-          "type": "collection",
-          "settings": {
-            "collection": "pillowcases",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/200TC_Storm_Oxford_Pillow_Detail_f5f2f257-5325-4427-8858-f5ead033a124-129748.jpg",
-            "alt_title": "Pillowcases",
-            "excerpt": "<p>Where impeccable craftsmanship and a variety of colors and patterns allow you to express your unique style.<\/p>"
-          }
-        },
-        "1c561ecc-6e7c-4c2d-ae57-409320a93e2f": {
-          "type": "collection",
-          "settings": {
-            "collection": "protectors-and-toppers",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Christy_MattressTopper_Lifestyle_1-562387.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Offer a sanctuary of softness and hygiene, providing a cocoon of comfort while safeguarding your mattress from wear and tear.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "3f15cc9c-c32d-43a2-b8a0-175614a8ae86",
-        "76a7aa40-fad4-4756-b863-71f413788066",
-        "2c4374cb-ef41-43b7-96f5-f6b61b083b01",
-        "6748815e-680b-4a82-9435-2cf556cc867c",
-        "b67ebaca-9de3-43d0-9ee0-554bcc673479",
-        "1c561ecc-6e7c-4c2d-ae57-409320a93e2f"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Bedding",
-        "screen_visibility": "both"
-      }
-    },
     "393634d4-53d9-4c8e-be41-45c5d425188a": {
       "type": "heading",
       "disabled": true,
@@ -779,7 +701,6 @@
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "6851d866-adb6-4f4b-8e77-da4ae8ec22ef",
-    "d38727e6-070e-4d88-af8b-6b75b41f7719",
     "393634d4-53d9-4c8e-be41-45c5d425188a",
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
     "07a57dc8-34ac-41ee-96df-37021aef7941",
