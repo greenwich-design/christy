@@ -19,6 +19,25 @@
         "full_width": true
       }
     },
+    "rich_text_yQmVrb": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ymke6F": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "sub_title_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ymke6F"
+      ],
+      "settings": {
+        "full_width": false,
+        "anchor_id": ""
+      }
+    },
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
       "disabled": true,
@@ -684,6 +703,7 @@
   },
   "order": [
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02",
+    "rich_text_yQmVrb",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "product-grid",
     "2594a997-818a-4de5-b1c1-015972b655d2",
