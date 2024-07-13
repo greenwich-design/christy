@@ -65,10 +65,10 @@
         "button_link": "shopify:\/\/collections\/wimbledon-collection",
         "products": [
           "wimbledon-2024-championship-towel",
-          "official-championships-upcycled-tote-bag",
-          "wimbledon-2023-guest-towel",
           "wimbledon-ace-towel",
-          "wimbledon-logo-towel"
+          "wimbledon-logo-towel",
+          "wimbledon-2023-guest-towel",
+          "official-championships-upcycled-tote-bag"
         ],
         "screen_visibility": "both"
       }
