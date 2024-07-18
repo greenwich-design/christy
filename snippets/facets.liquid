@@ -113,7 +113,7 @@
                         </label>
                       </li>
                     {% endif %}
-                     {{- value.label | escape -}}
+                     {% if  value.label neq 'wrapped:disabled' %}
                     <li class="shrink-0 last:pr-6">
                       <label
                         for="Filter-{{ filter.param_name | escape }}-{{ forloop.index }}"
@@ -153,6 +153,7 @@
                         >
                       </label>
                     </li>
+                   {% endif %}    
                   {%- endfor -%}
                 </ul>
               </fieldset>
