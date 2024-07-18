@@ -114,7 +114,7 @@
                       </li>
                     {% endif %}
                     {% comment %}
-                    
+                    {{- value.label | escape -}}
                      {% if value.label neq "wrapped:disabled" %}
                     {% endcomment %}
                     <li class="shrink-0 last:pr-6">
