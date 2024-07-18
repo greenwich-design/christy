@@ -113,7 +113,7 @@
                         </label>
                       </li>
                     {% endif %}
-
+                     {{- value.label | escape -}}
                     <li class="shrink-0 last:pr-6">
                       <label
                         for="Filter-{{ filter.param_name | escape }}-{{ forloop.index }}"
