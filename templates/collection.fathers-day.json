@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
@@ -228,7 +237,7 @@
           "supreme-velour-robe",
           "super-soft-cosy-robe",
           "wimbledon-2023-face-cloth-pack-green-purple",
-          "wimbledon-2023-guest-towel"
+          "wimbledon-guest-towel"
         ],
         "screen_visibility": "both"
       }
