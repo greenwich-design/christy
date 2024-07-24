@@ -117,6 +117,7 @@
         "button_link": "shopify:\/\/collections\/valentines-day",
         "products": [
           "luxe-towels",
+          "cabana-beach-towels-450-gsm-cotton",
           "400-thread-count-sateen-plain-dye",
           "super-soft-cosy-robe",
           "jaipur-throw",
@@ -124,8 +125,7 @@
           "cirrus-towels-450-gsm-cotton",
           "supreme-hygro",
           "brixton-towels",
-          "signum-675-gsm-combed-cotton",
-          "essence-towels-650-gsm-combed-cotton"
+          "signum-675-gsm-combed-cotton"
         ],
         "screen_visibility": "both"
       }
