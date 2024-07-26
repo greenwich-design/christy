@@ -133,7 +133,7 @@
           "settings": {
             "collection": "towels",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Artboard_7_41_5c0e5dc9-a367-4ce8-bd78-b17d379fcbf8.jpg",
+            "image": "shopify:\/\/shop_images\/Artboard_1_92_1.jpg",
             "alt_title": "",
             "excerpt": ""
           }
@@ -143,7 +143,7 @@
           "settings": {
             "collection": "all-bedding",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Artboard_7.jpg",
+            "image": "shopify:\/\/shop_images\/Artboard_2_74_1_9d821f83-e90f-4444-b212-40509d1b5b1a.jpg",
             "alt_title": "Bedding",
             "excerpt": ""
           }
@@ -153,7 +153,7 @@
           "settings": {
             "collection": "all-loungewear",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Artboard_8_15.jpg",
+            "image": "shopify:\/\/shop_images\/Artboard_3_69_1.jpg",
             "alt_title": "Robes",
             "excerpt": ""
           }
@@ -177,7 +177,7 @@
           "settings": {
             "collection": "all-accessories",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Artboard_7-10.jpg",
+            "image": "shopify:\/\/shop_images\/Artboard_4_52_1.jpg",
             "alt_title": "Throws & Cushions",
             "excerpt": ""
           }
@@ -187,7 +187,7 @@
           "settings": {
             "collection": "offers-duvets-pillows",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Artboard_7-05.jpg",
+            "image": "shopify:\/\/shop_images\/Artboard_5_35_2.jpg",
             "alt_title": "Duvets & Pillows",
             "excerpt": ""
           }
@@ -197,7 +197,7 @@
           "settings": {
             "collection": "clearance-1",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Artboard_7-12.jpg",
+            "image": "shopify:\/\/shop_images\/Artboard_6_37_1.jpg",
             "alt_title": "",
             "excerpt": ""
           }
@@ -399,7 +399,6 @@
         "collection_e8BQQz",
         "collection_nfNKEd"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "screen_visibility": "both"
@@ -511,7 +510,6 @@
         "b67ebaca-9de3-43d0-9ee0-554bcc673479",
         "1c561ecc-6e7c-4c2d-ae57-409320a93e2f"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "screen_visibility": "both"
