@@ -276,7 +276,7 @@
     "products_carousel_CMFJm6": {
       "type": "products-carousel",
       "settings": {
-        "title": "Sale | Up to 40% Off Duvets & Pillows",
+        "title": "Sale | Up to 60% Off Duvets, Pillows & Toppers",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -287,7 +287,9 @@
           "anti-allergy-mattress-and-pillow-protectors",
           "luxury-microfibre-10-5-tog-duvet",
           "superior-soft-touch-anti-allergy-4-5-tog-duvet-and-pillow",
-          "superior-soft-touch-anti-allergy-pillow-1"
+          "superior-soft-touch-anti-allergy-pillow-1",
+          "feather-and-down-10-5-tog-duvet-copy",
+          "luxury-microfibre-4-5-tog-duvet"
         ],
         "screen_visibility": "both"
       }
