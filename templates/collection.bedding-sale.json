@@ -216,12 +216,14 @@
         "button_title": "Shop All",
         "button_link": "shopify:\/\/collections\/duvet-sets",
         "products": [
-          "coniston-bed-linen",
-          "400-thread-count-sateen-plain-dye",
           "200tc-organic",
+          "400-thread-count-sateen-plain-dye",
           "stornoway-chambray",
           "lerwick-stripe",
-          "sway"
+          "coniston-bed-linen",
+          "sway",
+          "ledbury",
+          "hartley-print-duvet-set"
         ],
         "screen_visibility": "both"
       }
