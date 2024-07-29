@@ -61,7 +61,7 @@
           <path d="M12.2071 13.4203L0.89338 2.10662L2.42033 0.579672L13.734 11.8934L12.2071 13.4203ZM2.41646 13.4165L0.897246 11.8972L12.211 0.583539L13.7302 2.10276L2.41646 13.4165Z" fill="#2C3B96"></path>
         </svg>
       </button>
-      <h2 class="drawer__heading m-h1 lg:d-h1 text-center">Personalize - {{ product.title }}</h2>
+      <h2 class="drawer__heading m-h1 lg:d-h1 text-center">Personalise - {{ product.title }}</h2>
 
       <div class="relative personalization_image" style="font-family:bodoniflfbold;">
         <img
@@ -321,7 +321,7 @@
                     {%- if current_variant.available == false or quantity_rule_soldout -%}
                       {{ 'products.product.sold_out' | t }}
                     {%- else -%}
-                      Personalize &amp; {{ 'products.product.add_to_cart' | t }}
+                      Personalise &amp; {{ 'products.product.add_to_cart' | t }}
                     {%- endif -%}
                   </p>
                   <span>-&nbsp;&nbsp;</span>
