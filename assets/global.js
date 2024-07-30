@@ -200,7 +200,7 @@ function onKeyUpEscape(event) {
 }
 
 class QuantityInput extends HTMLElement {
-  constructor() {
+  /*constructor() {
     super();
     this.input = this.querySelector('input');
     this.changeEvent = new Event('change', { bubbles: true });
@@ -209,6 +209,18 @@ class QuantityInput extends HTMLElement {
     this.querySelectorAll('button').forEach((button) =>
       button.addEventListener('click', this.onButtonClick.bind(this))
     );
+  }*/
+
+constructor() {
+    super();
+    this.input = this.querySelector('input');
+    this.changeEvent = new Event('change', { bubbles: true });
+    if (this.input) {
+      this.input.addEventListener('change', this.onInputChange.bind(this));
+      this.querySelectorAll('button').forEach((button) =>
+        button.addEventListener('click', this.onButtonClick.bind(this))
+      );
+    }
   }
 
   quantityUpdateUnsubscriber = undefined;
