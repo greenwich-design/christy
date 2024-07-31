@@ -87,15 +87,15 @@
         "button_title": "Shop All",
         "button_link": "shopify:\/\/collections\/clearance",
         "products": [
-          "brixton-towels",
-          "super-soft-cosy-robe",
           "signum-675-gsm-combed-cotton",
-          "coniston-bed-linen",
-          "serene-550-gsm-combed-cotton",
+          "super-soft-cosy-robe",
+          "200tc-organic",
+          "brixton-towels",
           "stornoway-chambray",
           "metropolitan-throw",
           "metropolitan-cushion",
-          "anti-allergy-mattress-and-pillow-protectors"
+          "anti-allergy-mattress-and-pillow-protectors",
+          "serene-550-gsm-combed-cotton"
         ],
         "screen_visibility": "both"
       }
@@ -114,13 +114,15 @@
           "renaissance",
           "400-thread-count-sateen-plain-dye",
           "jaipur-throw",
+          "wimbledon-2024-championship-towel",
           "luxe-towels",
           "deep-pile-rug",
+          "luxury-microfibre-10-5-tog-duvet",
           "supreme-velour-robe",
-          "luxury-microfibre-13-5-tog-duvet",
           "supreme-hygro",
           "essence-towels-650-gsm-combed-cotton",
-          "jaipur-cushion"
+          "jaipur-cushion",
+          "500-hygro-duvet-set"
         ],
         "screen_visibility": "both"
       }
@@ -416,10 +418,13 @@
         "button_link": "shopify:\/\/collections\/offers-towels",
         "products": [
           "cabana-beach-towels-450-gsm-cotton",
+          "cirrus-towels-450-gsm-cotton",
+          "wimbledon-2024-championship-towel",
           "carnaby-stripe",
+          "amalfi-beach-towel",
           "supreme-hygro",
           "luxe-towels",
-          "amalfi-beach-towel",
+          "organic",
           "signum-675-gsm-combed-cotton"
         ],
         "screen_visibility": "both"
@@ -527,9 +532,14 @@
         "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "products": [
           "smooth-and-silky-cotton-sateen-fitted-sheet",
-          "luxury-microfibre-13-5-tog-duvet",
+          "organic-retreat",
+          "200tc-organic-duvet-sets-copy-1",
+          "anti-allergy-mattress-and-pillow-protectors",
+          "feather-and-down-10-5-tog-duvet-copy",
+          "essential-pillow-pair",
           "coniston-bed-linen",
-          "anti-allergy-mattress-and-pillow-protectors"
+          "luxury-microfibre-10-5-tog-duvet",
+          "500-hygro-duvet-set"
         ],
         "screen_visibility": "both"
       }
@@ -559,12 +569,14 @@
         "button_link": "shopify:\/\/collections\/all-accessories",
         "products": [
           "jaipur-throw",
-          "edmonton",
+          "rosa-throw-and-cushion-bundle",
+          "lisbon-throw",
           "oslo",
+          "edmonton",
           "jaipur-cushion",
-          "cosy-throw",
           "metropolitan-throw",
-          "metropolitan-cushion"
+          "metropolitan-cushion",
+          "porto-throw"
         ],
         "screen_visibility": "both"
       }
