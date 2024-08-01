@@ -12,10 +12,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DESKTOP_1920X960_94d7d4c1-b065-4fb9-b6a7-42206e4195cb.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/MOBILE_768X768_25d4e8cd-ce64-4bee-a045-5b1fadfdd025.jpg",
-        "image_tab": "shopify:\/\/shop_images\/TABLET_1024X1024_7764b5bf-26fb-4ec0-b4d0-3fd8834e4ace.jpg",
-        "link": "shopify:\/\/collections\/birthday-sale",
+        "image": "shopify:\/\/shop_images\/HP_banner_1920x1080_019f4ac7-2c3c-4d0f-9c0a-a3ba6716ecbb.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/HP_banner_768x768_c01067bb-e83f-49e7-9d40-57f64e93e956.jpg",
+        "image_tab": "shopify:\/\/shop_images\/HP_banner_1024x1024_cccc9c81-bd85-49f6-a4a4-b44fbf3ba0b5.jpg",
+        "link": "shopify:\/\/collections\/beach-towels",
         "full_width": true
       }
     },
