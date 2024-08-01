@@ -111,8 +111,8 @@
         "title": "Our Bestsellers",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 29,
-        "title_font_weight": "400",
-        "title_font_family": "serif",
+        "title_font_weight": "700",
+        "title_font_family": "sans-serif",
         "button_title": "",
         "button_link": "",
         "products": [
@@ -181,7 +181,7 @@
         "554b3657-1406-482e-9b26-71d2a737a878"
       ],
       "settings": {
-        "title": "Shop our Categories",
+        "title": "Shop Our Categories",
         "screen_visibility": "both"
       }
     },
