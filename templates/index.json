@@ -12,10 +12,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/HP_banner_1920x1080_c6bfaddf-6087-4e3b-876b-3ea6d0769e1f.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/HP_banner_768x768_ec50f461-7769-4144-9c18-873decef97e9.jpg",
-        "image_tab": "shopify:\/\/shop_images\/HP_banner_1024x1024_f50e64fe-00f1-432b-b8da-42b51fd84923.jpg",
-        "link": "shopify:\/\/collections\/beach-towels",
+        "image": "shopify:\/\/shop_images\/1920X1080_655e1051-504d-4f79-8702-24f1207dcce0.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/768X768_b8fdea2e-3d83-408c-8b6f-8a2f5c32c8e1.jpg",
+        "image_tab": "shopify:\/\/shop_images\/1024X1024_46dbe898-4924-445b-a137-2131b5f0fd37.jpg",
+        "link": "shopify:\/\/collections\/shop-all",
         "full_width": true
       }
     },
