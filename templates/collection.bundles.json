@@ -132,10 +132,14 @@
         "button_title": "Shop All",
         "button_link": "shopify:\/\/collections\/all-bundles",
         "products": [
-          "renaissance-bed-bath-bundle",
-          "supreme-hygro-bath-towel-bundle",
-          "supreme-robe-bundles",
-          "jaipur-throw-bundle"
+          "signum-towels-combed-cotton-675-gsm-copy-1",
+          "renaissance-towels-egyptian-cotton-675-gsm-copy",
+          "wimbledon-2024-championships-towel-copy",
+          "cirrus-bath-towel-bundle",
+          "jaipur-throw-bundle",
+          "copy-of-smooth-and-silky-cotton-sateen-starter-sheet-bundle",
+          "luxe-towels-turkish-cotton-730-gsm-copy-1",
+          "supreme-hygro-refresh-bundle-copy"
         ],
         "screen_visibility": "both"
       }
