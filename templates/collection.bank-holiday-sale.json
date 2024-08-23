@@ -166,7 +166,6 @@
         "button_link": "",
         "products": [
           "super-soft-cosy-robe",
-          "stornoway-chambray",
           "cirrus-towels-450-gsm-cotton",
           "brixton-towels",
           "400-thread-count-sateen-plain-dye",
@@ -195,7 +194,7 @@
           "settings": {
             "collection": "duvet-sets",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Artboard_7_15ef095b-c50f-4f82-9b50-8bfe30167c6a.jpg",
+            "image": "shopify:\/\/shop_images\/bedding_50.jpg",
             "alt_title": "Luxurious Bedding",
             "excerpt": "<h1>Silky smooth sheets to sink into.<\/h1>"
           }
@@ -209,37 +208,59 @@
             "alt_title": "Cushions & Throws",
             "excerpt": "<p>Mix & match layers for the perfect touch.<\/p>"
           }
-        },
-        "collection_fKTfPa": {
-          "type": "collection",
-          "settings": {
-            "collection": "all-loungewear",
-            "usp_title": "Up To 30% Off",
-            "image": "shopify:\/\/shop_images\/1_4d36409e-6dc7-4f4c-88b2-bf54c631a486.jpg",
-            "alt_title": "Robes",
-            "excerpt": "<p>Perfect after a long hot soak.<\/p>"
-          }
-        },
-        "collection_RPPpXD": {
-          "type": "collection",
-          "settings": {
-            "collection": "duvet-pillows",
-            "usp_title": "Up To 40% Off",
-            "image": "shopify:\/\/shop_images\/5_a5794c08-2b27-4309-8bb4-f211fffe69e4.jpg",
-            "alt_title": "Duvets & Pillows",
-            "excerpt": "<p>Build your bed foundations.<\/p>"
-          }
         }
       },
       "block_order": [
         "4d759cd0-37d8-4277-9cda-5841b0bb3c4b",
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
-        "484f5ca2-a708-49c4-9ac3-08032d35cb5b",
-        "collection_fKTfPa",
-        "collection_RPPpXD"
+        "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
       "settings": {
         "title": "Shop By Category",
+        "screen_visibility": "both"
+      }
+    },
+    "collections_carousel_wCyNYa": {
+      "type": "collections-carousel",
+      "blocks": {
+        "collection_7g7BWK": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-loungewear",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/robes_30_4f953976-383b-4aa6-8665-601c34f983da.jpg",
+            "alt_title": "Robes",
+            "excerpt": "<p>Perfect after a long hot soak.<\/p>"
+          }
+        },
+        "collection_MDWN3M": {
+          "type": "collection",
+          "settings": {
+            "collection": "duvet-pillows",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Artboard_7-05_25488d7b-0523-4848-95f9-18f6b94faa67.jpg",
+            "alt_title": "Duvets & Pillows",
+            "excerpt": "<p>Build your bed foundations.<\/p>"
+          }
+        },
+        "collection_ckPHxJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "clearance-1",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Artboard_7_297e3027-9aa8-4033-bfae-cee88443544a.jpg",
+            "alt_title": "Last Chance To Buy",
+            "excerpt": "<p>Going. Going. Gone.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "collection_7g7BWK",
+        "collection_MDWN3M",
+        "collection_ckPHxJ"
+      ],
+      "settings": {
+        "title": "",
         "screen_visibility": "both"
       }
     },
@@ -289,12 +310,9 @@
         "button_link": "",
         "products": [
           "400-thread-count-sateen-plain-dye",
-          "coniston-bed-linen",
-          "organic-retreat",
-          "suffolk-garden-print-duvet-set",
-          "stornoway-chambray",
-          "jaipur-cushion",
-          "metropolitan-cushion"
+          "500-supima-duvet-sets",
+          "riley-duvet-set",
+          "sway"
         ],
         "screen_visibility": "both"
       }
@@ -810,6 +828,7 @@
     "products_carousel_bQqamG",
     "products_carousel_CMFJm6",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
+    "collections_carousel_wCyNYa",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
     "products_carousel_Rg7kmH",
