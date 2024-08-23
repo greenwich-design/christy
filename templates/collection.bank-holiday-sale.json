@@ -264,6 +264,57 @@
         "screen_visibility": "both"
       }
     },
+    "955ae530-8662-43db-b9cc-df67f9e5bda7": {
+      "type": "benefits-icons",
+      "blocks": {
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1": {
+          "type": "block",
+          "settings": {
+            "title": "Legacy of Innovation",
+            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.<\/p>",
+            "button_link": "shopify:\/\/pages\/our-heritage",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2": {
+          "type": "block",
+          "settings": {
+            "title": "Sustainability",
+            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.<\/p>",
+            "button_link": "shopify:\/\/pages\/responsibility",
+            "button_title": "Learn More"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3": {
+          "type": "block",
+          "settings": {
+            "title": "Loved by our Customers",
+            "copy": "<p>5000+ 5 star reviews with a score of 4.5 out of 5.<\/p>",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_title": "Shop the Range"
+          }
+        },
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4": {
+          "type": "block",
+          "settings": {
+            "title": "Free Shipping & Returns",
+            "copy": "<p>Free Shipping above £50 plus our Worry-Free Return Guarantee.<\/p>",
+            "button_link": "shopify:\/\/policies\/shipping-policy",
+            "button_title": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3",
+        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4"
+      ],
+      "settings": {
+        "title": "Why Christy?",
+        "margin": "yes"
+      }
+    },
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e": {
       "type": "products-carousel",
       "settings": {
@@ -434,57 +485,6 @@
         "header_position": false,
         "images_half_width": false,
         "anchor_id": ""
-      }
-    },
-    "955ae530-8662-43db-b9cc-df67f9e5bda7": {
-      "type": "benefits-icons",
-      "blocks": {
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1": {
-          "type": "block",
-          "settings": {
-            "title": "Legacy of Innovation",
-            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.<\/p>",
-            "button_link": "shopify:\/\/pages\/our-heritage",
-            "button_title": "Learn More"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2": {
-          "type": "block",
-          "settings": {
-            "title": "Sustainability",
-            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.<\/p>",
-            "button_link": "shopify:\/\/pages\/responsibility",
-            "button_title": "Learn More"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3": {
-          "type": "block",
-          "settings": {
-            "title": "Loved by our Customers",
-            "copy": "<p>5000+ 5 star reviews with a score of 4.5 out of 5.<\/p>",
-            "button_link": "shopify:\/\/collections\/all",
-            "button_title": "Shop the Range"
-          }
-        },
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4": {
-          "type": "block",
-          "settings": {
-            "title": "Free Shipping & Returns",
-            "copy": "<p>Free Shipping above £50 plus our Worry-Free Return Guarantee.<\/p>",
-            "button_link": "shopify:\/\/policies\/shipping-policy",
-            "button_title": "Learn More"
-          }
-        }
-      },
-      "block_order": [
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-1",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-2",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-3",
-        "template--21389292339488__955ae530-8662-43db-b9cc-df67f9e5bda7-block-4"
-      ],
-      "settings": {
-        "title": "Why Christy?",
-        "margin": "yes"
       }
     },
     "d38727e6-070e-4d88-af8b-6b75b41f7719": {
@@ -829,6 +829,7 @@
     "products_carousel_CMFJm6",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "collections_carousel_wCyNYa",
+    "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "4773ebfa-1456-4daf-80c3-f9c6478bf05e",
     "a6afff26-2b13-4416-a136-947cb17aad4f",
     "products_carousel_Rg7kmH",
@@ -837,7 +838,6 @@
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "6e86ee6f-cb13-4e1d-9544-79832418e94b",
-    "955ae530-8662-43db-b9cc-df67f9e5bda7",
     "d38727e6-070e-4d88-af8b-6b75b41f7719",
     "393634d4-53d9-4c8e-be41-45c5d425188a",
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e",
