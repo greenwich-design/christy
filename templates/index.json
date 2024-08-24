@@ -12,9 +12,9 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/HP_1920x1080_2bf58b47-c217-45c8-9248-a57e178cbb6e.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/HP_768x768_da8f5043-fbd3-4643-acc9-c7c7d708f520.jpg",
-        "image_tab": "shopify:\/\/shop_images\/HP_1024X1024_6b94dcd0-6bbf-41a7-a5aa-2544a69c014d.jpg",
+        "image": "shopify:\/\/shop_images\/HP_1920x1080_7e1b28db-4ec9-4d0e-a9f1-7fb9fd7b7474.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/HP_768x768_37dbac15-c81e-4c5d-8c79-c575cae1c1a4.jpg",
+        "image_tab": "shopify:\/\/shop_images\/HP.jpg",
         "link": "shopify:\/\/collections\/bank-holiday-sale",
         "full_width": true
       }
