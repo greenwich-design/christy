@@ -279,6 +279,16 @@
             "alt_title": "",
             "excerpt": "<p>Discover a world of personalized comfort, available in a range of togs and firmness levels to suit your unique sleep preferences.<\/p>"
           }
+        },
+        "collection_EpCWTd": {
+          "type": "collection",
+          "settings": {
+            "collection": "protectors-and-toppers",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Christy_MattressTopper_Lifestyle_4_05332688-9d06-428e-8ae6-40d7261e4842.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Offer a sanctuary of softness and hygiene, providing a cocoon of comfort while safeguarding your mattress from wear and tear.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -286,7 +296,8 @@
         "collection_XEzVaN",
         "collection_Jq34fn",
         "collection_JfXNy9",
-        "collection_QxhGDr"
+        "collection_QxhGDr",
+        "collection_EpCWTd"
       ],
       "disabled": true,
       "settings": {
