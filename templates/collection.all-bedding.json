@@ -249,11 +249,22 @@
             "alt_title": "",
             "excerpt": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>"
           }
+        },
+        "collection_Jq34fn": {
+          "type": "collection",
+          "settings": {
+            "collection": "flat-sheets",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>"
+          }
         }
       },
       "block_order": [
         "collection_CDEqFN",
-        "collection_XEzVaN"
+        "collection_XEzVaN",
+        "collection_Jq34fn"
       ],
       "disabled": true,
       "settings": {
