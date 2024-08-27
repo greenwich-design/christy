@@ -269,13 +269,24 @@
             "alt_title": "",
             "excerpt": "<p>Where impeccable craftsmanship and a variety of colors and patterns allow you to express your unique style.<\/p>"
           }
+        },
+        "collection_QxhGDr": {
+          "type": "collection",
+          "settings": {
+            "collection": "duvet-pillows",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/blog_duvet_648f3ad6-c4c8-4698-9c62-19581297e7a0.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Discover a world of personalized comfort, available in a range of togs and firmness levels to suit your unique sleep preferences.<\/p>"
+          }
         }
       },
       "block_order": [
         "collection_CDEqFN",
         "collection_XEzVaN",
         "collection_Jq34fn",
-        "collection_JfXNy9"
+        "collection_JfXNy9",
+        "collection_QxhGDr"
       ],
       "disabled": true,
       "settings": {
