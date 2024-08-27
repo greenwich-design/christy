@@ -27,6 +27,83 @@
         "full_width": true
       }
     },
+    "collections_carousel_UAyD7T": {
+      "type": "collections-carousel",
+      "blocks": {
+        "collection_CDEqFN": {
+          "type": "collection",
+          "settings": {
+            "collection": "duvet-sets",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>"
+          }
+        },
+        "collection_XEzVaN": {
+          "type": "collection",
+          "settings": {
+            "collection": "sheets",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
+            "alt_title": "",
+            "excerpt": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>"
+          }
+        },
+        "collection_Jq34fn": {
+          "type": "collection",
+          "settings": {
+            "collection": "flat-sheets",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>"
+          }
+        },
+        "collection_JfXNy9": {
+          "type": "collection",
+          "settings": {
+            "collection": "pillowcases",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/200TC_Fig_Oxford_Pillowcase_fca745b4-12d8-4db9-816e-9e3ddc93a271-594675.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Where impeccable craftsmanship and a variety of colors and patterns allow you to express your unique style.<\/p>"
+          }
+        },
+        "collection_QxhGDr": {
+          "type": "collection",
+          "settings": {
+            "collection": "duvet-pillows",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/blog_duvet_648f3ad6-c4c8-4698-9c62-19581297e7a0.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Discover a world of personalized comfort, available in a range of togs and firmness levels to suit your unique sleep preferences.<\/p>"
+          }
+        },
+        "collection_EpCWTd": {
+          "type": "collection",
+          "settings": {
+            "collection": "protectors-and-toppers",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Christy_MattressTopper_Lifestyle_4_05332688-9d06-428e-8ae6-40d7261e4842.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Offer a sanctuary of softness and hygiene, providing a cocoon of comfort while safeguarding your mattress from wear and tear.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "collection_CDEqFN",
+        "collection_XEzVaN",
+        "collection_Jq34fn",
+        "collection_JfXNy9",
+        "collection_QxhGDr",
+        "collection_EpCWTd"
+      ],
+      "settings": {
+        "title": "Shop Our Collection",
+        "screen_visibility": "both"
+      }
+    },
     "e81c268d-881b-4c6d-a674-f0f49b2c9321": {
       "type": "hero-collection",
       "blocks": {
@@ -137,6 +214,7 @@
         "159406bd-019d-4005-a068-5ff04e88e3c7",
         "0e44cbf6-5127-44b8-ae2a-026a5627deda"
       ],
+      "disabled": true,
       "settings": {
         "title": "Shop our Collection",
         "title_font_size_mob": 16,
@@ -224,84 +302,6 @@
       ],
       "settings": {
         "title": "What is your perfect bedding?",
-        "screen_visibility": "both"
-      }
-    },
-    "collections_carousel_UAyD7T": {
-      "type": "collections-carousel",
-      "blocks": {
-        "collection_CDEqFN": {
-          "type": "collection",
-          "settings": {
-            "collection": "duvet-sets",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>"
-          }
-        },
-        "collection_XEzVaN": {
-          "type": "collection",
-          "settings": {
-            "collection": "sheets",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
-            "alt_title": "",
-            "excerpt": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>"
-          }
-        },
-        "collection_Jq34fn": {
-          "type": "collection",
-          "settings": {
-            "collection": "flat-sheets",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>"
-          }
-        },
-        "collection_JfXNy9": {
-          "type": "collection",
-          "settings": {
-            "collection": "pillowcases",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/200TC_Fig_Oxford_Pillowcase_fca745b4-12d8-4db9-816e-9e3ddc93a271-594675.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Where impeccable craftsmanship and a variety of colors and patterns allow you to express your unique style.<\/p>"
-          }
-        },
-        "collection_QxhGDr": {
-          "type": "collection",
-          "settings": {
-            "collection": "duvet-pillows",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/blog_duvet_648f3ad6-c4c8-4698-9c62-19581297e7a0.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Discover a world of personalized comfort, available in a range of togs and firmness levels to suit your unique sleep preferences.<\/p>"
-          }
-        },
-        "collection_EpCWTd": {
-          "type": "collection",
-          "settings": {
-            "collection": "protectors-and-toppers",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Christy_MattressTopper_Lifestyle_4_05332688-9d06-428e-8ae6-40d7261e4842.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Offer a sanctuary of softness and hygiene, providing a cocoon of comfort while safeguarding your mattress from wear and tear.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "collection_CDEqFN",
-        "collection_XEzVaN",
-        "collection_Jq34fn",
-        "collection_JfXNy9",
-        "collection_QxhGDr",
-        "collection_EpCWTd"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Shop Our Collection",
         "screen_visibility": "both"
       }
     },
@@ -667,12 +667,12 @@
   "order": [
     "39b56b76-44e1-4c0a-9d31-c4d952d9caef",
     "039e5ce4-f144-479c-bfe7-c6b54629b19c",
+    "collections_carousel_UAyD7T",
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
-    "collections_carousel_UAyD7T",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
     "6851d866-adb6-4f4b-8e77-da4ae8ec22ef",
     "07a57dc8-34ac-41ee-96df-37021aef7941",
