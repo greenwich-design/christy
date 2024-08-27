@@ -259,12 +259,23 @@
             "alt_title": "",
             "excerpt": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>"
           }
+        },
+        "collection_JfXNy9": {
+          "type": "collection",
+          "settings": {
+            "collection": "pillowcases",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/200TC_Fig_Oxford_Pillowcase_fca745b4-12d8-4db9-816e-9e3ddc93a271-594675.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Where impeccable craftsmanship and a variety of colors and patterns allow you to express your unique style.<\/p>"
+          }
         }
       },
       "block_order": [
         "collection_CDEqFN",
         "collection_XEzVaN",
-        "collection_Jq34fn"
+        "collection_Jq34fn",
+        "collection_JfXNy9"
       ],
       "disabled": true,
       "settings": {
