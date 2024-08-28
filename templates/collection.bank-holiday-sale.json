@@ -136,7 +136,7 @@
     "products_carousel_bQqamG": {
       "type": "products-carousel",
       "settings": {
-        "title": "Curated Selections | Up to 50% Off",
+        "title": "Curated Selections | Flat 50% Off",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -160,7 +160,7 @@
     "products_carousel_CMFJm6": {
       "type": "products-carousel",
       "settings": {
-        "title": "Most Loved",
+        "title": "Our Bestsellers | Minimum 25% Off",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -168,13 +168,16 @@
         "button_title": "",
         "button_link": "",
         "products": [
-          "supreme-hygro",
+          "renaissance",
           "400-thread-count-sateen-plain-dye",
           "super-soft-cosy-robe",
-          "cirrus-towels-450-gsm-cotton",
+          "deep-pile-rug",
+          "luxury-microfibre-10-5-tog-duvet",
           "brixton-towels",
-          "luxe-towels",
-          "renaissance"
+          "200tc-organic",
+          "200tc-organic-duvet-sets-copy-1",
+          "essence-towels-650-gsm-combed-cotton",
+          "reversible-bath-rug"
         ],
         "screen_visibility": "both"
       }
