@@ -135,9 +135,8 @@
     },
     "products_carousel_bQqamG": {
       "type": "products-carousel",
-      "disabled": true,
       "settings": {
-        "title": "Easter Sale | Up to 50% Off",
+        "title": "Curated Selections | Up to 50% Off",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -145,11 +144,15 @@
         "button_title": "",
         "button_link": "",
         "products": [
-          "400-thread-count-sateen-plain-dye",
-          "brixton-towels",
-          "fennel-print-duvet-set",
-          "copy-of-smooth-and-silky-cotton-sateen-deep-fitted-sheet-400-thread-count",
-          "serene-550-gsm-combed-cotton"
+          "signum-675-gsm-combed-cotton",
+          "lerwick-stripe",
+          "serene-550-gsm-combed-cotton",
+          "cool-and-crisp-cotton-chambray-fitted-sheet",
+          "stornoway-chambray",
+          "metropolitan-cushion",
+          "metropolitan-throw",
+          "edmonton",
+          "mode-towels"
         ],
         "screen_visibility": "both"
       }
