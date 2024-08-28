@@ -361,15 +361,19 @@
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
         "title_font_family": "sans-serif",
-        "button_title": "",
-        "button_link": "",
+        "button_title": "Shop All",
+        "button_link": "https:\/\/www.christy.co.uk\/collections\/bedroom-bedroom-sale",
         "products": [
-          "400-thread-count-sateen-plain-dye",
-          "lerwick-stripe",
-          "stornoway-chambray",
           "500-hygro-duvet-set",
-          "200tc-organic",
-          "riley-duvet-set"
+          "jaipur-throw",
+          "jaipur-cushion",
+          "oslo",
+          "stornoway-chambray",
+          "cool-and-crisp-cotton-chambray-fitted-sheet",
+          "temperature-balancing-duvet-set-copy",
+          "lisbon-throw",
+          "riley-duvet-set",
+          "coniston-bed-linen"
         ],
         "screen_visibility": "both"
       }
