@@ -12,10 +12,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1920x960_c000619c-1522-4916-a09c-9b75271c840a.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/768x768_bdfa6cda-edf5-4f45-9035-7b8d1da2164f.jpg",
-        "image_tab": "shopify:\/\/shop_images\/1024x1024_287a5045-9ba8-4295-aef2-1ac2dd8ac9dd.jpg",
-        "link": "shopify:\/\/collections\/organic-cotton-collection",
+        "image": "shopify:\/\/shop_images\/1920X1080_5442965a-ede5-4476-b84a-d6a12391a80a.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/768X768_adf996b1-f701-487b-9896-3435407762f1.jpg",
+        "image_tab": "shopify:\/\/shop_images\/1048X1048.jpg",
+        "link": "shopify:\/\/collections\/bathroom-new-in",
         "full_width": true
       }
     },
