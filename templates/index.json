@@ -300,13 +300,13 @@
     "images_copy_cta_eEpNLG": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/500TC_Parchment-_4.jpg",
-        "image2": "shopify:\/\/shop_images\/Hygro_HP1.jpg",
+        "image": "shopify:\/\/shop_images\/Waffle_Robe_Towel_White-_4.jpg",
+        "image2": "shopify:\/\/shop_images\/Waffle_Robe_Group.jpg",
         "subtitle": "",
-        "title": "<p>NEW! Temperature-Balancing Duvet Set<\/p>",
-        "copy": "<p>Say goodbye to restless nights caused by unpredictable weather. Our innovative bedding features a patented Hygro Cotton weave that adjusts to keep you cool during hot days and warm when temperatures drop. Also perfect for couples, it balances comfort for both cold and hot sleepers. The luxurious feel of the fabric adds an elegant touch to your bedroom, while the beautiful cotton pouches provide convenient storage.<\/p><p><\/p><p>Enjoy a peaceful slumber with our new advanced temperature-control technology!<\/p>",
+        "title": "<p>NEW! Waffle Collection<\/p>",
+        "copy": "<p>Bring the spa feeling to your home with the Waffle Robe and Towel. Woven from 100% cotton to the highest standards, it adds a modern twist to your bathroom with a silky, sensory waffle pattern and quick-drying fabric. <br\/>More absorbent, lightweight and incredibly soft, the slightly springy texture of the waffle weave creates a skin-sensory experience that’s hard to beat.<\/p>",
         "button_label": "Shop Now",
-        "button_link": "shopify:\/\/products\/500-hygro-duvet-set",
+        "button_link": "https:\/\/www.christy.co.uk\/collections\/bathroom-new-in",
         "content_position": "right",
         "header_position": false,
         "images_half_width": false,
