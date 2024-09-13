@@ -116,16 +116,19 @@
         "button_title": "",
         "button_link": "",
         "products": [
-          "luxe-towels",
-          "cabana-beach-towels-450-gsm-cotton",
-          "400-thread-count-sateen-plain-dye",
-          "super-soft-cosy-robe",
-          "jaipur-throw",
-          "renaissance",
-          "cirrus-towels-450-gsm-cotton",
           "supreme-hygro",
+          "cirrus-towels-450-gsm-cotton",
+          "signum-675-gsm-combed-cotton",
+          "super-soft-cosy-robe",
+          "400-thread-count-sateen-plain-dye",
+          "stornoway-chambray",
+          "edmonton",
+          "jaipur-throw",
+          "anti-allergy-mattress-and-pillow-protectors",
+          "cabana-beach-towels-450-gsm-cotton",
+          "luxe-towels",
           "brixton-towels",
-          "signum-675-gsm-combed-cotton"
+          "renaissance"
         ],
         "screen_visibility": "both"
       }
