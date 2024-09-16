@@ -11,6 +11,7 @@
   "sections": {
     "9cbbf3db-9560-4cc3-8e41-727f9fe4d27c": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/THIN_BANNER_b6dbded5-0591-4560-abb0-c5bc25c051d1.jpg",
         "link": "",
@@ -85,17 +86,12 @@
         "title_font_weight": "600",
         "title_font_family": "sans-serif",
         "button_title": "Shop All",
-        "button_link": "shopify:\/\/collections\/clearance",
+        "button_link": "",
         "products": [
-          "brixton-towels",
-          "super-soft-cosy-robe",
           "signum-675-gsm-combed-cotton",
-          "coniston-bed-linen",
           "serene-550-gsm-combed-cotton",
-          "stornoway-chambray",
           "metropolitan-throw",
-          "metropolitan-cushion",
-          "anti-allergy-mattress-and-pillow-protectors"
+          "metropolitan-cushion"
         ],
         "screen_visibility": "both"
       }
