@@ -531,7 +531,7 @@
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
       "settings": {
-        "title": "Elevate Your Sanctuary: Bedding Offers",
+        "title": "Elevate Your Sanctuary: Bedroom Offers",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -539,16 +539,19 @@
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "products": [
-          "luxury-microfibre-4-5-tog-duvet",
-          "metropolitan-cushion",
+          "luxury-microfibre-10-5-tog-duvet",
+          "luxury-microfibre-13-5-tog-duvet",
           "metropolitan-throw",
-          "edmonton"
+          "metropolitan-cushion",
+          "edmonton",
+          "superior-soft-touch-anti-allergy-pillow-1"
         ],
         "screen_visibility": "both"
       }
     },
     "393634d4-53d9-4c8e-be41-45c5d425188a": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Pair with our exquisite Throws & Cushions<\/p>",
         "heading_width": "4",
@@ -562,6 +565,7 @@
     },
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "",
         "title_font_size_mob": 18,
