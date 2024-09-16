@@ -12,10 +12,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1920X1080_5442965a-ede5-4476-b84a-d6a12391a80a.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/768X768_adf996b1-f701-487b-9896-3435407762f1.jpg",
-        "image_tab": "shopify:\/\/shop_images\/1048X1048.jpg",
-        "link": "shopify:\/\/collections\/bathroom-new-in",
+        "image": "shopify:\/\/shop_images\/DESKTOP_1920X960_3b23e6a7-8d9b-4e5b-99c1-080b9bc407f5.jpg",
+        "image_mobile": "shopify:\/\/shop_images\/MOBILE_768X768_d1b6c69e-b631-4e90-8087-ccbf3595a071.jpg",
+        "image_tab": "shopify:\/\/shop_images\/TABLET_1048X1048_cac75eb3-331d-46eb-aa37-51e815dc3980.jpg",
+        "link": "https:\/\/www.christy.co.uk\/collections\/flannel",
         "full_width": true
       }
     },
