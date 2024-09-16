@@ -98,6 +98,7 @@
     },
     "82bff3e6-7ee4-4ad7-9806-4ffa6631c225": {
       "type": "products-carousel",
+      "disabled": true,
       "settings": {
         "title": "Discover Our Best Sellers",
         "title_font_size_mob": 18,
@@ -429,10 +430,6 @@
         "products": [
           "signum-675-gsm-combed-cotton",
           "essence-towels-650-gsm-combed-cotton",
-          "carnaby-stripe",
-          "supreme-hygro",
-          "luxe-towels",
-          "renaissance",
           "organic"
         ],
         "screen_visibility": "both"
