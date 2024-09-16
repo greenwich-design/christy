@@ -539,12 +539,7 @@
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "products": [
-          "coniston-bed-linen",
-          "400-thread-count-sateen-plain-dye",
-          "luxury-microfibre-4-5-tog-duvet",
-          "stornoway-chambray",
-          "anti-allergy-mattress-and-pillow-protectors",
-          "lerwick-stripe"
+          "luxury-microfibre-4-5-tog-duvet"
         ],
         "screen_visibility": "both"
       }
