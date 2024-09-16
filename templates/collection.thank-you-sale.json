@@ -539,7 +539,10 @@
         "button_title": "Shop Now",
         "button_link": "shopify:\/\/collections\/bedroom-bedroom-sale",
         "products": [
-          "luxury-microfibre-4-5-tog-duvet"
+          "luxury-microfibre-4-5-tog-duvet",
+          "metropolitan-cushion",
+          "metropolitan-throw",
+          "edmonton"
         ],
         "screen_visibility": "both"
       }
