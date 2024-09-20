@@ -426,6 +426,7 @@
     },
     "393634d4-53d9-4c8e-be41-45c5d425188a": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Pair with our exquisite Throws & Cushions<\/p>",
         "heading_width": "4",
@@ -440,20 +441,23 @@
     "2c7e8cac-6078-4c3b-b5eb-fd09baf5939e": {
       "type": "products-carousel",
       "settings": {
-        "title": "",
+        "title": "Cushions & Throws",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
         "title_font_family": "sans-serif",
-        "button_title": "Explore the Range",
-        "button_link": "shopify:\/\/collections\/all-accessories",
+        "button_title": "",
+        "button_link": "",
         "products": [
           "jaipur-throw",
-          "cosy-throw",
           "oslo",
           "metropolitan-throw",
           "jaipur-cushion",
-          "metropolitan-cushion"
+          "metropolitan-cushion",
+          "edmonton",
+          "lisbon-throw",
+          "porto-throw",
+          "rosa-throw-and-cushion-bundle"
         ],
         "screen_visibility": "both"
       }
@@ -675,51 +679,6 @@
         "title": "Discover Bedding",
         "copy": "<p>You deserve the best of rest. Our bedding gently envelops you in a soft embrace to settle you into the sweetest dreams. Discover hand-painted designs, sumptuous fabrics, and durable materials at Christy. Your bed will be a haven for rest, relaxation, and deep sleep. From crisp, clean sheets to soft, snuggly throws, we've got the perfect combination for you.<\/p><p>Forget about your stresses and responsibilities and slip into a deep, peaceful sleep safely swaddled in the splendour of Christy’s bedding.<\/p>"
       }
-    },
-    "d38727e6-070e-4d88-af8b-6b75b41f7719": {
-      "type": "collections-carousel",
-      "blocks": {
-        "3f15cc9c-c32d-43a2-b8a0-175614a8ae86": {
-          "type": "collection",
-          "settings": {
-            "collection": "duvet-sets",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>"
-          }
-        },
-        "76a7aa40-fad4-4756-b863-71f413788066": {
-          "type": "collection",
-          "settings": {
-            "collection": "sheets",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
-            "alt_title": "",
-            "excerpt": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>"
-          }
-        },
-        "2c4374cb-ef41-43b7-96f5-f6b61b083b01": {
-          "type": "collection",
-          "settings": {
-            "collection": "flat-sheets",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "3f15cc9c-c32d-43a2-b8a0-175614a8ae86",
-        "76a7aa40-fad4-4756-b863-71f413788066",
-        "2c4374cb-ef41-43b7-96f5-f6b61b083b01"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "Shop Our Collection",
-        "screen_visibility": "both"
-      }
     }
   },
   "order": [
@@ -741,7 +700,6 @@
     "32651ade-df62-44f5-8355-bb4039f60426",
     "product-grid",
     "recent-products",
-    "toggled-body-content",
-    "d38727e6-070e-4d88-af8b-6b75b41f7719"
+    "toggled-body-content"
   ]
 }
