@@ -679,6 +679,44 @@
         "title": "Discover Bedding",
         "copy": "<p>You deserve the best of rest. Our bedding gently envelops you in a soft embrace to settle you into the sweetest dreams. Discover hand-painted designs, sumptuous fabrics, and durable materials at Christy. Your bed will be a haven for rest, relaxation, and deep sleep. From crisp, clean sheets to soft, snuggly throws, we've got the perfect combination for you.<\/p><p>Forget about your stresses and responsibilities and slip into a deep, peaceful sleep safely swaddled in the splendour of Christy’s bedding.<\/p>"
       }
+    },
+    "why_christy_xDCFFg": {
+      "type": "why-christy",
+      "blocks": {
+        "block_iRzB38": {
+          "type": "block",
+          "settings": {
+            "title": "Premium Materials",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.<\/p>"
+          }
+        },
+        "block_t7YepT": {
+          "type": "block",
+          "settings": {
+            "title": "Premium Materials",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.<\/p>"
+          }
+        },
+        "block_3AcERQ": {
+          "type": "block",
+          "settings": {
+            "title": "Premium Materials",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "block_iRzB38",
+        "block_t7YepT",
+        "block_3AcERQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Why Christy?",
+        "button_title": "",
+        "button_link": "",
+        "margin": "no"
+      }
     }
   },
   "order": [
@@ -700,6 +738,7 @@
     "32651ade-df62-44f5-8355-bb4039f60426",
     "product-grid",
     "recent-products",
-    "toggled-body-content"
+    "toggled-body-content",
+    "why_christy_xDCFFg"
   ]
 }
