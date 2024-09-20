@@ -27,6 +27,46 @@
         "full_width": true
       }
     },
+    "collections_carousel_tnzxpy": {
+      "type": "collections-carousel",
+      "blocks": {
+        "collection_kPrJNP": {
+          "type": "collection",
+          "settings": {
+            "collection": "duvet-sets",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Scallop_Matcha-_2.jpg",
+            "alt_title": "Duvet Sets",
+            "excerpt": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_kPrJNP"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shop By Type",
+        "screen_visibility": "both"
+      }
+    },
+    "products_carousel_Wmttn6": {
+      "type": "products-carousel",
+      "disabled": true,
+      "settings": {
+        "title": "Bestsellers You'll Fall In Love With",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "",
+        "button_link": "",
+        "products": [
+          "200tc-organic"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -123,6 +163,8 @@
   "order": [
     "1d82b188-dbd0-4b5a-9133-e748104fe16d",
     "350a0dfc-aa6f-4324-a5e0-c8df8361e76f",
+    "collections_carousel_tnzxpy",
+    "products_carousel_Wmttn6",
     "product-grid",
     "recent-products",
     "32651ade-df62-44f5-8355-bb4039f60426"
