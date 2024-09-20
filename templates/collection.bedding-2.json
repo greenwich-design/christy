@@ -9,19 +9,6 @@
 */
 {
   "sections": {
-    "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
-      "type": "heading",
-      "settings": {
-        "heading": "<p>Ranging from smooth options to earthy, tactile textures<\/p>",
-        "heading_width": "4",
-        "copy": "",
-        "copy_style": "default",
-        "alignment": "left",
-        "alignment_mob": "center",
-        "horiz_padding": false,
-        "margin_top": false
-      }
-    },
     "collections_carousel_UAyD7T": {
       "type": "collections-carousel",
       "blocks": {
@@ -683,7 +670,6 @@
     }
   },
   "order": [
-    "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "collections_carousel_UAyD7T",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
