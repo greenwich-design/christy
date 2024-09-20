@@ -35,7 +35,7 @@
           "settings": {
             "collection": "duvet-sets",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Egyptian_Lifestyle_Cream_8e5eba5a-ed2c-49e0-bfa7-4f9106830747-648169.jpg",
+            "image": "shopify:\/\/shop_images\/Scallop_Silver-_5.jpg",
             "alt_title": "",
             "excerpt": "<p>Your passport to a world of premium comfort and timeless style for the ultimate bedroom retreat.<\/p>"
           }
@@ -45,9 +45,19 @@
           "settings": {
             "collection": "sheets",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/200TC_White_Fitted_Sheet_Detail-888706.jpg",
+            "image": "shopify:\/\/shop_images\/Flannel_Grey_Fitted_Sheet_Detail.jpg",
             "alt_title": "",
             "excerpt": "<p>The epitome of both snug precision and luxurious comfort, ensuring a perfect fit that stays in place throughout the night.<\/p>"
+          }
+        },
+        "collection_JfXNy9": {
+          "type": "collection",
+          "settings": {
+            "collection": "pillowcases",
+            "usp_title": "",
+            "image": "shopify:\/\/shop_images\/Flannel_Marl_Oat_003.jpg",
+            "alt_title": "",
+            "excerpt": "<p>Where impeccable craftsmanship and a variety of colors and patterns allow you to express your unique style.<\/p>"
           }
         },
         "collection_Jq34fn": {
@@ -58,16 +68,6 @@
             "image": "shopify:\/\/shop_images\/Sateen_Gold_Flat_Sheet_Detail-855643.jpg",
             "alt_title": "",
             "excerpt": "<p>Elevate your bedroom with our flat sheets, where quality and elegance meet in a seamless blend of softness and design.<\/p>"
-          }
-        },
-        "collection_JfXNy9": {
-          "type": "collection",
-          "settings": {
-            "collection": "pillowcases",
-            "usp_title": "",
-            "image": "shopify:\/\/shop_images\/200TC_Fig_Oxford_Pillowcase_fca745b4-12d8-4db9-816e-9e3ddc93a271-594675.jpg",
-            "alt_title": "",
-            "excerpt": "<p>Where impeccable craftsmanship and a variety of colors and patterns allow you to express your unique style.<\/p>"
           }
         },
         "collection_QxhGDr": {
@@ -94,8 +94,8 @@
       "block_order": [
         "collection_CDEqFN",
         "collection_XEzVaN",
-        "collection_Jq34fn",
         "collection_JfXNy9",
+        "collection_Jq34fn",
         "collection_QxhGDr",
         "collection_EpCWTd"
       ],
@@ -230,7 +230,7 @@
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d": {
       "type": "products-carousel",
       "settings": {
-        "title": "Shop All Bedding",
+        "title": "Dreamy Duvet Covers",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "600",
@@ -238,18 +238,48 @@
         "button_title": "",
         "button_link": "",
         "products": [
+          "flannel-marl-duvet-set",
+          "scallop-edge-duvet-set",
+          "500-hygro-duvet-set",
           "coniston-bed-linen",
-          "superior-soft-touch-anti-allergy-13-5-tog-duvet-and-pillow",
-          "lerwick-stripe",
-          "essential-pillow-pair",
           "organic-retreat",
-          "superior-soft-touch-anti-allergy-10-5-tog-duvet-and-pillow"
+          "flannel-stripe-duvet-set",
+          "200tc-organic",
+          "riley-duvet-set",
+          "500-supima-duvet-sets",
+          "400-thread-count-sateen-plain-dye",
+          "900tc-picot"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "products_carousel_MTjTrm": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Essential Sheets & Pillowcases",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "",
+        "button_link": "",
+        "products": [
+          "flannel-marl-fitted-sheet",
+          "200tc-organic-duvet-sets-copy-2",
+          "flannel-marl-pillowcases",
+          "smooth-and-silky-cotton-sateen-fitted-sheet",
+          "temperature-balancing-duvet-sets-copy",
+          "temperature-balancing-duvet-set-copy",
+          "soft-and-relaxed-organic-cotton-fitted-sheet",
+          "smooth-and-silky-cotton-sateen-pillowcases",
+          "soft-and-relaxed-organic-cotton-pillowcases"
         ],
         "screen_visibility": "both"
       }
     },
     "76c6e56b-583c-4e8e-82a1-c452644a34b6": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Ranging from smooth options to earthy, tactile textures<\/p>",
         "heading_width": "4",
@@ -300,6 +330,7 @@
         "1ae70297-a748-4b57-b0a1-b53cc14bb4f5",
         "484f5ca2-a708-49c4-9ac3-08032d35cb5b"
       ],
+      "disabled": true,
       "settings": {
         "title": "What is your perfect bedding?",
         "screen_visibility": "both"
@@ -307,6 +338,7 @@
     },
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Each thread embodies our commitment to your perfect comfort and style.<\/p>",
         "heading_width": "4",
@@ -362,7 +394,7 @@
         "template--21202653085984__07a57dc8-34ac-41ee-96df-37021aef7941-block-2"
       ],
       "settings": {
-        "title": "Unveiling the Christy Experience: Happy Customer Reviews",
+        "title": "Discover Why Customers Choose Christy",
         "margin": "yes"
       }
     },
@@ -671,6 +703,7 @@
     "e81c268d-881b-4c6d-a674-f0f49b2c9321",
     "06cfb5b0-ef0d-40ac-b0f2-de55cebec04c",
     "543b28bf-821e-4b5d-bfe7-b6b214117f7d",
+    "products_carousel_MTjTrm",
     "76c6e56b-583c-4e8e-82a1-c452644a34b6",
     "9c1de53b-ac15-4e36-a743-64c26dabf7e2",
     "c35d7fce-a552-4f31-9ffb-048a8c4c5b25",
