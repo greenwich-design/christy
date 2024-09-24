@@ -12,10 +12,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/DESKTOP_1920X960_3b23e6a7-8d9b-4e5b-99c1-080b9bc407f5.jpg",
-        "image_mobile": "shopify:\/\/shop_images\/MOBILE_768X768_d1b6c69e-b631-4e90-8087-ccbf3595a071.jpg",
-        "image_tab": "shopify:\/\/shop_images\/TABLET_1048X1048_cac75eb3-331d-46eb-aa37-51e815dc3980.jpg",
-        "link": "https:\/\/www.christy.co.uk\/collections\/flannel",
+        "image": "shopify://shop_images/DESKTOP_1920X960_2d98cd92-34ac-4c49-b71b-dae13d6aa845.jpg",
+        "image_mobile": "shopify://shop_images/MOBILE_768X768_4aefdc60-335b-4c6c-8db8-dbf49f52df61.jpg",
+        "image_tab": "shopify://shop_images/TABLET_1024X1024_7fcee67b-c19a-4157-8877-3b1157c5655d.jpg",
+        "link": "shopify://collections/shop-everything",
         "full_width": true
       }
     },
@@ -26,10 +26,10 @@
           "type": "column",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/EMAILER_600X700_4.jpg",
+            "image": "shopify://shop_images/EMAILER_600X700_4.jpg",
             "image_aspect": "1:1",
             "title": "Personalised Robes",
-            "text": "<h4>Wrap your loved ones in warmth & cherished memories with a personalised Christy robe, where comfort meets customisation.<\/h4>",
+            "text": "<h4>Wrap your loved ones in warmth & cherished memories with a personalised Christy robe, where comfort meets customisation.</h4>",
             "button_label": "Explore the Feeling",
             "button_link": "all-loungewear",
             "collection_tag": ""
@@ -38,10 +38,10 @@
         "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Gift_1.jpg",
+            "image": "shopify://shop_images/Gift_1.jpg",
             "image_aspect": "1:1",
             "title": "Create your own Gift Box",
-            "text": "<p>Elevate your gift giving experience and add that personal touch by including a heartfelt, personalised message.<\/p>",
+            "text": "<p>Elevate your gift giving experience and add that personal touch by including a heartfelt, personalised message.</p>",
             "button_label": "Shop our Gifting Range",
             "button_link": "gifts",
             "collection_tag": ""
@@ -50,10 +50,10 @@
         "template--21202652987680__d2113c42-d705-4b50-99be-017b00de7fc9-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WIMD150-809824.jpg",
+            "image": "shopify://shop_images/WIMD150-809824.jpg",
             "image_aspect": "1:1",
             "title": "Complimentary Wimbledon Towel*",
-            "text": "<p>Get a complimentary Wimbledon Championship Towel worth £39 on orders above £50.<\/p>",
+            "text": "<p>Get a complimentary Wimbledon Championship Towel worth £39 on orders above £50.</p>",
             "button_label": "Shop the Range",
             "button_link": "shop-all",
             "collection_tag": ""
@@ -62,10 +62,10 @@
         "75fc2433-cb2f-4b69-b52a-98ccd9f953fe": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EMAILER_600X700_89dbcf20-159c-494d-b98b-7230a2f7e3a0.jpg",
+            "image": "shopify://shop_images/EMAILER_600X700_89dbcf20-159c-494d-b98b-7230a2f7e3a0.jpg",
             "image_aspect": "1:1",
             "title": "Extended Hassle Free Returns",
-            "text": "<p>Wrap up your Christmas shopping without worrying about returns! We will now accept returns and exchanges till 31st January 2024.<\/p>",
+            "text": "<p>Wrap up your Christmas shopping without worrying about returns! We will now accept returns and exchanges till 31st January 2024.</p>",
             "button_label": "",
             "button_link": "",
             "collection_tag": ""
@@ -95,7 +95,7 @@
       "type": "heading",
       "disabled": true,
       "settings": {
-        "heading": "<p>Discover the magic in <br\/>everyday moments.<\/p>",
+        "heading": "<p>Discover the magic in <br/>everyday moments.</p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
@@ -141,9 +141,9 @@
           "settings": {
             "collection": "all-bedding",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/3_a483913e-0384-4f25-8a5a-adaaad691d53.jpg",
+            "image": "shopify://shop_images/3_a483913e-0384-4f25-8a5a-adaaad691d53.jpg",
             "alt_title": "Bed",
-            "excerpt": "<p>Slip between a fresh pair of sheets, from crisp cotton options to sumptuously silky ones.<\/p>"
+            "excerpt": "<p>Slip between a fresh pair of sheets, from crisp cotton options to sumptuously silky ones.</p>"
           }
         },
         "683c86e1-1e16-4aa5-b1fc-ed306a9535cc": {
@@ -151,7 +151,7 @@
           "settings": {
             "collection": "all-bath",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Renaissance_Denim_Lifestyle-868964_d2753d44-a2ae-404d-aed9-aa128a7ecea6.webp",
+            "image": "shopify://shop_images/Renaissance_Denim_Lifestyle-868964_d2753d44-a2ae-404d-aed9-aa128a7ecea6.webp",
             "alt_title": "Bath",
             "excerpt": ""
           }
@@ -161,9 +161,9 @@
           "settings": {
             "collection": "all-loungewear",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/Cosy-Robe-Tarmac-3.jpg",
+            "image": "shopify://shop_images/Cosy-Robe-Tarmac-3.jpg",
             "alt_title": "Bath Robes",
-            "excerpt": "<p>Embrace the feeling of a gentle hug all day with our plush bath robes.<\/p>"
+            "excerpt": "<p>Embrace the feeling of a gentle hug all day with our plush bath robes.</p>"
           }
         },
         "554b3657-1406-482e-9b26-71d2a737a878": {
@@ -171,9 +171,9 @@
           "settings": {
             "collection": "all-accessories",
             "usp_title": "",
-            "image": "shopify:\/\/shop_images\/lisbon_lifestyle.webp",
+            "image": "shopify://shop_images/lisbon_lifestyle.webp",
             "alt_title": "Throws & Cushions",
-            "excerpt": "<p>Transform your space into a cosy haven with our throws and cushions.<\/p>"
+            "excerpt": "<p>Transform your space into a cosy haven with our throws and cushions.</p>"
           }
         }
       },
@@ -192,8 +192,8 @@
       "type": "hero-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_3.png",
-        "link": "https:\/\/www.christy.co.uk\/collections\/cyber-jammies-pyjama-sets",
+        "image": "shopify://shop_images/MicrosoftTeams-image_3.png",
+        "link": "https://www.christy.co.uk/collections/cyber-jammies-pyjama-sets",
         "full_width": true
       }
     },
@@ -204,8 +204,8 @@
           "type": "block",
           "settings": {
             "title": "Legacy of Innovation",
-            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.<\/p>",
-            "button_link": "shopify:\/\/pages\/our-heritage",
+            "copy": "<p>Bringing you quality and durability through 170 years of legacy and innovation.</p>",
+            "button_link": "shopify://pages/our-heritage",
             "button_title": "Learn More"
           }
         },
@@ -213,8 +213,8 @@
           "type": "block",
           "settings": {
             "title": "Sustainability",
-            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.<\/p>",
-            "button_link": "shopify:\/\/pages\/responsibility",
+            "copy": "<p>Sustainable material to ethical manufacturing and mindful packaging.</p>",
+            "button_link": "shopify://pages/responsibility",
             "button_title": "Learn More"
           }
         },
@@ -222,8 +222,8 @@
           "type": "block",
           "settings": {
             "title": "Loved By Our Customers",
-            "copy": "<p>4000+ 5 star reviews with a score of 4.7 out of 5.<\/p>",
-            "button_link": "shopify:\/\/collections\/shop-all",
+            "copy": "<p>4000+ 5 star reviews with a score of 4.7 out of 5.</p>",
+            "button_link": "shopify://collections/shop-all",
             "button_title": "Shop the Range"
           }
         },
@@ -231,8 +231,8 @@
           "type": "block",
           "settings": {
             "title": "Free Shipping & Returns",
-            "copy": "<p>Free shipping above £50 plus our worry-free return guarantee.<\/p>",
-            "button_link": "shopify:\/\/pages\/shipping-policy",
+            "copy": "<p>Free shipping above £50 plus our worry-free return guarantee.</p>",
+            "button_link": "shopify://pages/shipping-policy",
             "button_title": "Learn More"
           }
         }
@@ -252,7 +252,7 @@
       "type": "heading",
       "disabled": true,
       "settings": {
-        "heading": "<p>Discover the magic in <br\/>everyday moments.<\/p>",
+        "heading": "<p>Discover the magic in <br/>everyday moments.</p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
@@ -267,12 +267,12 @@
       "disabled": true,
       "settings": {
         "screen_visibility": "both",
-        "image": "shopify:\/\/shop_images\/bath-home.jpg",
+        "image": "shopify://shop_images/bath-home.jpg",
         "subtitle": "Explore",
-        "title": "<p>Bath<\/p>",
-        "copy": "<p>Step into a spa-like sanctuary with our luxurious selection of bathroom products.<\/p>",
+        "title": "<p>Bath</p>",
+        "copy": "<p>Step into a spa-like sanctuary with our luxurious selection of bathroom products.</p>",
         "button_label": "Shop All",
-        "button_link": "shopify:\/\/collections\/all-bath",
+        "button_link": "shopify://collections/all-bath",
         "button_type": "default",
         "colour_theme": "white",
         "alignment": "left",
@@ -284,13 +284,13 @@
       "type": "images-copy-cta",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/robe_bundle.jpg",
-        "image2": "shopify:\/\/shop_images\/thick_indulgent_HP.jpg",
+        "image": "shopify://shop_images/robe_bundle.jpg",
+        "image2": "shopify://shop_images/thick_indulgent_HP.jpg",
         "subtitle": "",
-        "title": "<p>Create your bespoke bundle<\/p>",
-        "copy": "<p>Introducing our bundle collection, designed to redefine your home experience.<\/p><p>Crafted with care, these bundles not only bring a touch of sophistication to your home but also offer incredible value, making every moment at home an indulgent retreat.<\/p><p>Bundles also make for excellent gifts. Whether for a housewarming, wedding, or other occasion, a thoughtfully curated bundle provides a practical and stylish present.<\/p>",
+        "title": "<p>Create your bespoke bundle</p>",
+        "copy": "<p>Introducing our bundle collection, designed to redefine your home experience.</p><p>Crafted with care, these bundles not only bring a touch of sophistication to your home but also offer incredible value, making every moment at home an indulgent retreat.</p><p>Bundles also make for excellent gifts. Whether for a housewarming, wedding, or other occasion, a thoughtfully curated bundle provides a practical and stylish present.</p>",
         "button_label": "Shop our Bundle Range",
-        "button_link": "shopify:\/\/collections\/all-bundles",
+        "button_link": "shopify://collections/all-bundles",
         "content_position": "right",
         "header_position": false,
         "images_half_width": false,
@@ -300,13 +300,13 @@
     "images_copy_cta_eEpNLG": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Waffle_Robe_Towel_White-_4.jpg",
-        "image2": "shopify:\/\/shop_images\/Waffle_Robe_Group.jpg",
+        "image": "shopify://shop_images/Waffle_Robe_Towel_White-_4.jpg",
+        "image2": "shopify://shop_images/Waffle_Robe_Group.jpg",
         "subtitle": "",
-        "title": "<p>NEW! Waffle Collection<\/p>",
-        "copy": "<p>Bring the spa feeling to your home with the Waffle Robe and Towel. Woven from 100% cotton to the highest standards, it adds a modern twist to your bathroom with a silky, sensory waffle pattern and quick-drying fabric. <br\/>More absorbent, lightweight and incredibly soft, the slightly springy texture of the waffle weave creates a skin-sensory experience that’s hard to beat.<\/p>",
+        "title": "<p>NEW! Waffle Collection</p>",
+        "copy": "<p>Bring the spa feeling to your home with the Waffle Robe and Towel. Woven from 100% cotton to the highest standards, it adds a modern twist to your bathroom with a silky, sensory waffle pattern and quick-drying fabric. <br/>More absorbent, lightweight and incredibly soft, the slightly springy texture of the waffle weave creates a skin-sensory experience that’s hard to beat.</p>",
         "button_label": "Shop Now",
-        "button_link": "https:\/\/www.christy.co.uk\/collections\/bathroom-new-in",
+        "button_link": "https://www.christy.co.uk/collections/bathroom-new-in",
         "content_position": "right",
         "header_position": false,
         "images_half_width": false,
@@ -321,7 +321,7 @@
           "settings": {
             "image_aspect": "1:1",
             "title": "Step 1",
-            "text": "<p>Choose your perfect bundle collection and then click 'Build Your Bundle'.<\/p>",
+            "text": "<p>Choose your perfect bundle collection and then click 'Build Your Bundle'.</p>",
             "button_label": "",
             "button_link": "",
             "collection_tag": ""
@@ -332,7 +332,7 @@
           "settings": {
             "image_aspect": "1:1",
             "title": "Step 2",
-            "text": "<p>Pick your bespoke options for size and\/or colour.<\/p>",
+            "text": "<p>Pick your bespoke options for size and/or colour.</p>",
             "button_label": "",
             "button_link": "",
             "collection_tag": ""
@@ -343,7 +343,7 @@
           "settings": {
             "image_aspect": "1:1",
             "title": "Step 3",
-            "text": "<p>Add your bundle selection to the basket. All done!<\/p>",
+            "text": "<p>Add your bundle selection to the basket. All done!</p>",
             "button_label": "",
             "button_link": "",
             "collection_tag": ""
@@ -376,7 +376,7 @@
           "settings": {
             "product": "renaissance",
             "title": "Renaissance Towels",
-            "testimonial": "<p>\"Lovely quality towels which don’t leave fluff all over the bathroom and dry really well.\"<\/p>",
+            "testimonial": "<p>\"Lovely quality towels which don’t leave fluff all over the bathroom and dry really well.\"</p>",
             "name": "Averii Richards"
           }
         },
@@ -385,7 +385,7 @@
           "settings": {
             "product": "400-thread-count-sateen-plain-dye",
             "title": "Smooth & Silky Cotton Sateen Duvet Set",
-            "testimonial": "<p>\"Gorgeous sheets! Beautiful colour as well. Cannot go wrong with Christy!\"<\/p>",
+            "testimonial": "<p>\"Gorgeous sheets! Beautiful colour as well. Cannot go wrong with Christy!\"</p>",
             "name": "Ellie Foulkes"
           }
         },
@@ -394,7 +394,7 @@
           "settings": {
             "product": "super-soft-cosy-robe",
             "title": "Super Soft Cosy Robe",
-            "testimonial": "<p>\"So pleased to find this gorgeous robe in something other than grey or navy; poolside was perfect. The colour, quality and supersoftness surpassed all expectations.\"<\/p>",
+            "testimonial": "<p>\"So pleased to find this gorgeous robe in something other than grey or navy; poolside was perfect. The colour, quality and supersoftness surpassed all expectations.\"</p>",
             "name": "A Hall"
           }
         }
@@ -412,7 +412,7 @@
     "heading2": {
       "type": "heading",
       "settings": {
-        "heading": "<p>Your style, your choice: keep it personal with perfect-fit products.<\/p>",
+        "heading": "<p>Your style, your choice: keep it personal with perfect-fit products.</p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
@@ -428,10 +428,10 @@
         "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/thick-fluffy.jpg",
+            "image": "shopify://shop_images/thick-fluffy.jpg",
             "image_aspect": "1:1",
             "title": "Thick & Indulgent",
-            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.<\/p>",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.</p>",
             "button_label": "Explore the Feeling",
             "button_link": "all-bath",
             "collection_tag": "Thick & Indulgent"
@@ -440,10 +440,10 @@
         "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/light-easy.jpg",
+            "image": "shopify://shop_images/light-easy.jpg",
             "image_aspect": "1:1",
             "title": "Fluffy & Light",
-            "text": "<p>Keep your home comforts close with take-them-anywhere lightweight options. <\/p>",
+            "text": "<p>Keep your home comforts close with take-them-anywhere lightweight options. </p>",
             "button_label": "Explore the Feeling",
             "button_link": "all-bath",
             "collection_tag": "Fluffy & Light"
@@ -452,10 +452,10 @@
         "template--19440932552979__b25d4794-78f6-4222-8e57-f4d67b3e4a48-1686843997bc378748-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_41.png",
+            "image": "shopify://shop_images/2_41.png",
             "image_aspect": "1:1",
             "title": "Invigorating & Durable",
-            "text": "<p>Start (or end) your day the refreshing way, with our selection of revitalising products.<\/p>",
+            "text": "<p>Start (or end) your day the refreshing way, with our selection of revitalising products.</p>",
             "button_label": "Explore the Feeling",
             "button_link": "all-bath",
             "collection_tag": "Invigorating & Durable"
@@ -485,12 +485,12 @@
       "disabled": true,
       "settings": {
         "screen_visibility": "both",
-        "image": "shopify:\/\/shop_images\/bed-home.jpg",
+        "image": "shopify://shop_images/bed-home.jpg",
         "subtitle": "Explore",
-        "title": "<p>Bed<\/p>",
-        "copy": "<p>Slip between a fresh pair of sheets, from crisp cotton options to sumptuously silky ones.<\/p>",
+        "title": "<p>Bed</p>",
+        "copy": "<p>Slip between a fresh pair of sheets, from crisp cotton options to sumptuously silky ones.</p>",
         "button_label": "Shop All",
-        "button_link": "shopify:\/\/collections\/all-bedding",
+        "button_link": "shopify://collections/all-bedding",
         "button_type": "default",
         "colour_theme": "white",
         "alignment": "right",
@@ -504,10 +504,10 @@
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hp_banner_bed.jpg",
+            "image": "shopify://shop_images/hp_banner_bed.jpg",
             "image_aspect": "1:1",
             "title": "Soft & Relaxed",
-            "text": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.<\/p>",
+            "text": "<p>Drift off to dreamland in our snuggliest selection of bedding, crafted from the cosiest fabrics.</p>",
             "button_label": "Explore the Feeling",
             "button_link": "all-bedding",
             "collection_tag": "Soft & Relaxed"
@@ -516,10 +516,10 @@
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cool-crisp.jpg",
+            "image": "shopify://shop_images/cool-crisp.jpg",
             "image_aspect": "1:1",
             "title": "Cool & Crisp",
-            "text": "<p>Keep comfortably cool in fresh cotton bedding.<\/p>",
+            "text": "<p>Keep comfortably cool in fresh cotton bedding.</p>",
             "button_label": "Explore the Feeling",
             "button_link": "all-bedding",
             "collection_tag": "Cool & Crisp"
@@ -528,10 +528,10 @@
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/smooth_sily_hp.jpg",
+            "image": "shopify://shop_images/smooth_sily_hp.jpg",
             "image_aspect": "1:1",
             "title": "Smooth & Silky",
-            "text": "<p>Add a touch of luxury to your bedtime routine with silky-smooth materials.<\/p>",
+            "text": "<p>Add a touch of luxury to your bedtime routine with silky-smooth materials.</p>",
             "button_label": "Explore the Feeling",
             "button_link": "all-bedding",
             "collection_tag": "Smooth & Silky"
@@ -541,10 +541,10 @@
           "type": "column",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/christy_katsura_vintage_main-338117.jpg",
+            "image": "shopify://shop_images/christy_katsura_vintage_main-338117.jpg",
             "image_aspect": "1:1",
             "title": "Printed & Stripes",
-            "text": "<p>From Classic Stripes to Hand Painted Designs, elevate your bedroom with our wide collection. <\/p>",
+            "text": "<p>From Classic Stripes to Hand Painted Designs, elevate your bedroom with our wide collection. </p>",
             "button_label": "Explore the Collection",
             "button_link": "printed-and-hand-painted-bedding",
             "collection_tag": ""
@@ -573,12 +573,12 @@
       "type": "billboard",
       "settings": {
         "screen_visibility": "both",
-        "image": "shopify:\/\/shop_images\/innovators-home.jpg",
+        "image": "shopify://shop_images/innovators-home.jpg",
         "subtitle": "Technology",
-        "title": "<p>Innovators <br\/>Since 1850<\/p>",
-        "copy": "<p>From our pioneering terry towels to today’s ultra-absorbent Hygro technology, we have over 170 years’ experience at the forefront of innovation.<\/p>",
+        "title": "<p>Innovators <br/>Since 1850</p>",
+        "copy": "<p>From our pioneering terry towels to today’s ultra-absorbent Hygro technology, we have over 170 years’ experience at the forefront of innovation.</p>",
         "button_label": "Discover our Innovation",
-        "button_link": "shopify:\/\/pages\/innovation",
+        "button_link": "shopify://pages/innovation",
         "button_type": "default",
         "colour_theme": "blue",
         "alignment": "left",
@@ -589,13 +589,13 @@
     "images-copy-cta": {
       "type": "images-copy-cta",
       "settings": {
-        "image": "shopify:\/\/shop_images\/timeless-2.jpg",
-        "image2": "shopify:\/\/shop_images\/timeless-1.jpg",
+        "image": "shopify://shop_images/timeless-2.jpg",
+        "image2": "shopify://shop_images/timeless-1.jpg",
         "subtitle": "Responsibility",
-        "title": "<p>Timeless Products, Consciously Made<\/p>",
-        "copy": "<p>We’re devoted to building a sustainable future, always moving forwards to improve our processes for the good of our consumers, our communities and the wider environment.<\/p>",
+        "title": "<p>Timeless Products, Consciously Made</p>",
+        "copy": "<p>We’re devoted to building a sustainable future, always moving forwards to improve our processes for the good of our consumers, our communities and the wider environment.</p>",
         "button_label": "Discover our Initiatives",
-        "button_link": "shopify:\/\/pages\/responsibility",
+        "button_link": "shopify://pages/responsibility",
         "content_position": "right",
         "header_position": false,
         "images_half_width": false,
@@ -606,9 +606,9 @@
       "type": "heading",
       "disabled": true,
       "settings": {
-        "heading": "<p>Feel-good <br\/>Bedding<\/p>",
+        "heading": "<p>Feel-good <br/>Bedding</p>",
         "heading_width": "4",
-        "copy": "<p>Elevate your sleep sanctuary with our selection of sustainably made pieces.<\/p>",
+        "copy": "<p>Elevate your sleep sanctuary with our selection of sustainably made pieces.</p>",
         "copy_style": "heading3",
         "alignment": "right",
         "alignment_mob": "center",
@@ -619,9 +619,9 @@
     "heading4": {
       "type": "heading",
       "settings": {
-        "heading": "<p>Christy Life<\/p>",
+        "heading": "<p>Christy Life</p>",
         "heading_width": "4",
-        "copy": "<p>Welcome to our blog: from interiors inspiration to expert how-tos, walkthroughs and all our latest news, it's designed to guide and inspire your bath and bedding journey.<\/p>",
+        "copy": "<p>Welcome to our blog: from interiors inspiration to expert how-tos, walkthroughs and all our latest news, it's designed to guide and inspire your bath and bedding journey.</p>",
         "copy_style": "default",
         "alignment": "right",
         "alignment_mob": "center",
@@ -633,12 +633,12 @@
       "type": "billboard",
       "settings": {
         "screen_visibility": "both",
-        "image": "shopify:\/\/shop_images\/perfect-towel.jpg",
+        "image": "shopify://shop_images/perfect-towel.jpg",
         "subtitle": "Feature",
-        "title": "<p>Only the best: picking your perfect towel<\/p>",
-        "copy": "<p>There's an art to choosing the right towel. Absorb our expert tips to discover your ideal drying-down companion.<\/p>",
+        "title": "<p>Only the best: picking your perfect towel</p>",
+        "copy": "<p>There's an art to choosing the right towel. Absorb our expert tips to discover your ideal drying-down companion.</p>",
         "button_label": "Read more",
-        "button_link": "https:\/\/www.christy.co.uk\/blogs\/lifestyle\/christys-towel-size-guide",
+        "button_link": "https://www.christy.co.uk/blogs/lifestyle/christys-towel-size-guide",
         "button_type": "tertiary",
         "colour_theme": "white",
         "alignment": "left",
@@ -652,19 +652,19 @@
         "458e4f16-65af-45ea-bf76-156d0bfc8da1": {
           "type": "article",
           "settings": {
-            "article": "lifestyle\/everything-we-love-about-the-new-christy-wimbledon-towels"
+            "article": "lifestyle/everything-we-love-about-the-new-christy-wimbledon-towels"
           }
         },
         "30dec819-818b-4bc2-b9c3-ff19c89ebaf4": {
           "type": "article",
           "settings": {
-            "article": "lifestyle\/thread-count-meaning-explained"
+            "article": "lifestyle/thread-count-meaning-explained"
           }
         },
         "dc2e0744-3035-4a8f-b0c9-4abd1e420569": {
           "type": "article",
           "settings": {
-            "article": "lifestyle\/how-to-fold-towels-for-a-luxurious-bathroom-experience"
+            "article": "lifestyle/how-to-fold-towels-for-a-luxurious-bathroom-experience"
           }
         }
       },
@@ -680,7 +680,7 @@
     "d1799047-2d3f-4748-9804-8038692b0c63": {
       "type": "heading",
       "settings": {
-        "heading": "<p>                                 Creating  little luxuries since 1850.                                   <\/p>",
+        "heading": "<p>                                 Creating  little luxuries since 1850.                                   </p>",
         "heading_width": "4",
         "copy": "",
         "copy_style": "default",
@@ -695,7 +695,7 @@
       "disabled": true,
       "settings": {
         "title": "What's your perfect towel?",
-        "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.<\/p>",
+        "copy": "<p>Not sure what to buy? Find your perfect post-bathing companion.</p>",
         "button_link": "#quiz-gWHPoe"
       }
     }
