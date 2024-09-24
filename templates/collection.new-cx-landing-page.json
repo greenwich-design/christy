@@ -17,6 +17,24 @@
         "full_width": true
       }
     },
+    "products_carousel_qH6wqq": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Our Best Sellers",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "See more",
+        "button_link": "",
+        "products": [
+          "supreme-hygro",
+          "renaissance",
+          "luxe-towels"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "reviews_carousel_nagPRn": {
       "type": "reviews-carousel",
       "blocks": {
@@ -189,31 +207,36 @@
         "copy": "<p>Synonymous with British style and heritage, our luxury bath collection helps you to reimagine your bathroom into the home spa you’ve always dreamed of. </p><p>Our bathroom products are carefully created to provide the ultimate combination of comfort, aesthetics and utility; drawing upon nearly two centuries of experience our range of bath mats, bathrobes and towels create a fresh new look for any bathroom.</p>"
       }
     },
-    "products_carousel_qH6wqq": {
-      "type": "products-carousel",
+    "collections_carousel_KapxMb": {
+      "type": "collections-carousel",
+      "blocks": {
+        "collection_yY8hxf": {
+          "type": "collection",
+          "settings": {
+            "collection": "towels",
+            "usp_title": "",
+            "image": "shopify://shop_images/Waffle_All-Cols-_7_22466a0d-f9b9-4cb8-8fd8-bb5a67c1fd3e.jpg",
+            "alt_title": "",
+            "excerpt": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_yY8hxf"
+      ],
       "settings": {
-        "title": "Our Best Sellers",
-        "title_font_size_mob": 18,
-        "title_font_size_desktop": 30,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
-        "button_title": "See more",
-        "button_link": "",
-        "products": [
-          "supreme-hygro",
-          "renaissance",
-          "luxe-towels"
-        ],
-        "screen_visibility": "both"
+        "title": "",
+        "screen_visibility": "mobile"
       }
     }
   },
   "order": [
     "1e4fcb9f-7716-4d21-b610-9cab633d219a",
+    "products_carousel_qH6wqq",
     "reviews_carousel_nagPRn",
     "product-grid",
     "recent-products",
     "toggled-body-content",
-    "products_carousel_qH6wqq"
+    "collections_carousel_KapxMb"
   ]
 }
