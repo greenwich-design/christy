@@ -17,23 +17,57 @@
         "full_width": true
       }
     },
-    "5a12f38e-3474-454d-bc99-288616b9576e": {
-      "type": "hero-image",
-      "disabled": true,
+    "reviews_carousel_nagPRn": {
+      "type": "reviews-carousel",
+      "blocks": {
+        "block_pmxKk9": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "title": "Customer Reviews",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”</p>",
+            "name": "John Smith"
+          }
+        },
+        "block_N8pTNz": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "title": "Customer Reviews",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”</p>",
+            "name": "John Smith"
+          }
+        },
+        "block_EefM8b": {
+          "type": "block",
+          "settings": {
+            "product": "",
+            "title": "Customer Reviews",
+            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”</p>",
+            "name": "John Smith"
+          }
+        }
+      },
+      "block_order": [
+        "block_pmxKk9",
+        "block_N8pTNz",
+        "block_EefM8b"
+      ],
       "settings": {
-        "image": "shopify://shop_images/MicrosoftTeams-image_25.png",
-        "link": "",
-        "full_width": true
+        "title": "Title TBC",
+        "margin": "yes"
       }
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per": 12
       }
     },
     "recent-products": {
       "type": "recent-products",
+      "disabled": true,
       "settings": {
         "heading": "Previously explored"
       }
@@ -154,13 +188,32 @@
         "title": "Discover Bath",
         "copy": "<p>Synonymous with British style and heritage, our luxury bath collection helps you to reimagine your bathroom into the home spa you’ve always dreamed of. </p><p>Our bathroom products are carefully created to provide the ultimate combination of comfort, aesthetics and utility; drawing upon nearly two centuries of experience our range of bath mats, bathrobes and towels create a fresh new look for any bathroom.</p>"
       }
+    },
+    "products_carousel_qH6wqq": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Our Best Sellers",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "600",
+        "title_font_family": "sans-serif",
+        "button_title": "See more",
+        "button_link": "",
+        "products": [
+          "supreme-hygro",
+          "renaissance",
+          "luxe-towels"
+        ],
+        "screen_visibility": "both"
+      }
     }
   },
   "order": [
     "1e4fcb9f-7716-4d21-b610-9cab633d219a",
-    "5a12f38e-3474-454d-bc99-288616b9576e",
+    "reviews_carousel_nagPRn",
     "product-grid",
     "recent-products",
-    "toggled-body-content"
+    "toggled-body-content",
+    "products_carousel_qH6wqq"
   ]
 }
