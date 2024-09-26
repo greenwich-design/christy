@@ -19,4 +19,11 @@
     padding-top: .5rem;
 }
 
+#NavMob .space-y-3>:not([hidden])~:not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-bottom: calc(.75rem* var(--tw-space-y-reverse));
+    margin-top: calc(1rem*(1 - var(--tw-space-y-reverse)));
+}
+
+
 
