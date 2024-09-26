@@ -117,10 +117,43 @@
             "alt_title": "",
             "excerpt": ""
           }
+        },
+        "collection_Ufaxw9": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-loungewear",
+            "usp_title": "",
+            "image": "shopify://shop_images/Waffle_Robe_Towel_White-_4.jpg",
+            "alt_title": "Robes",
+            "excerpt": ""
+          }
+        },
+        "collection_cqFRPF": {
+          "type": "collection",
+          "settings": {
+            "collection": "towel-bundles",
+            "usp_title": "",
+            "image": "shopify://shop_images/towel_offer.webp",
+            "alt_title": "",
+            "excerpt": ""
+          }
+        },
+        "collection_fYWjyA": {
+          "type": "collection",
+          "settings": {
+            "collection": "bath-mats-and-rugs",
+            "usp_title": "",
+            "image": "shopify://shop_images/Organic_Cinder_Lifestyle-_2.jpg",
+            "alt_title": "Bath Mats & Rugs",
+            "excerpt": ""
+          }
         }
       },
       "block_order": [
-        "collection_yY8hxf"
+        "collection_yY8hxf",
+        "collection_Ufaxw9",
+        "collection_cqFRPF",
+        "collection_fYWjyA"
       ],
       "settings": {
         "title": "Discover Our Collections",
