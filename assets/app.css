@@ -23,6 +23,7 @@
     --tw-space-y-reverse: 0;
     margin-bottom: calc(.75rem* var(--tw-space-y-reverse));
     margin-top: calc(.75rem*(1 - var(--tw-space-y-reverse)));
+    margin-left: calc(.75rem*(1 - var(--tw-space-y-reverse)));
 }
 
 
