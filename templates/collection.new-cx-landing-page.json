@@ -33,14 +33,27 @@
       "settings": {
       }
     },
+    "heading_7jfcLF": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Creating Luxuries Since 1850.</p>",
+        "heading_width": "4",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "center",
+        "alignment_mob": "center",
+        "horiz_padding": false,
+        "margin_top": false
+      }
+    },
     "products_carousel_qH6wqq": {
       "type": "products-carousel",
       "settings": {
         "title": "Our Best Sellers",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
-        "title_font_weight": "600",
-        "title_font_family": "sans-serif",
+        "title_font_weight": "400",
+        "title_font_family": "serif",
         "button_title": "See more",
         "button_link": "",
         "products": [
@@ -57,10 +70,10 @@
         "block_pmxKk9": {
           "type": "block",
           "settings": {
-            "product": "",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”</p>",
-            "name": "John Smith"
+            "product": "supreme-hygro",
+            "title": "Supreme Towels",
+            "testimonial": "<p>“Christy towels are the best in the market. Well worth the spend as they are lovely and soft, wash well and outlast other brands.”</p>",
+            "name": "Alex Fanti"
           }
         },
         "block_N8pTNz": {
@@ -88,8 +101,43 @@
         "block_EefM8b"
       ],
       "settings": {
-        "title": "Title TBC",
-        "margin": "yes"
+        "title": "Rave Reviews",
+        "margin": "no"
+      }
+    },
+    "collections_carousel_KapxMb": {
+      "type": "collections-carousel",
+      "blocks": {
+        "collection_yY8hxf": {
+          "type": "collection",
+          "settings": {
+            "collection": "towels",
+            "usp_title": "",
+            "image": "shopify://shop_images/Waffle_All-Cols-_7_22466a0d-f9b9-4cb8-8fd8-bb5a67c1fd3e.jpg",
+            "alt_title": "",
+            "excerpt": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_yY8hxf"
+      ],
+      "settings": {
+        "title": "Discover Our Collections",
+        "screen_visibility": "both"
+      }
+    },
+    "heading_MNbEEw": {
+      "type": "heading",
+      "settings": {
+        "heading": "<p>Discover the magic in everyday moments.</p>",
+        "heading_width": "6",
+        "copy": "",
+        "copy_style": "default",
+        "alignment": "right",
+        "alignment_mob": "center",
+        "horiz_padding": true,
+        "margin_top": false
       }
     },
     "product-grid": {
@@ -222,38 +270,18 @@
         "title": "Discover Bath",
         "copy": "<p>Synonymous with British style and heritage, our luxury bath collection helps you to reimagine your bathroom into the home spa you’ve always dreamed of. </p><p>Our bathroom products are carefully created to provide the ultimate combination of comfort, aesthetics and utility; drawing upon nearly two centuries of experience our range of bath mats, bathrobes and towels create a fresh new look for any bathroom.</p>"
       }
-    },
-    "collections_carousel_KapxMb": {
-      "type": "collections-carousel",
-      "blocks": {
-        "collection_yY8hxf": {
-          "type": "collection",
-          "settings": {
-            "collection": "towels",
-            "usp_title": "",
-            "image": "shopify://shop_images/Waffle_All-Cols-_7_22466a0d-f9b9-4cb8-8fd8-bb5a67c1fd3e.jpg",
-            "alt_title": "",
-            "excerpt": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_yY8hxf"
-      ],
-      "settings": {
-        "title": "",
-        "screen_visibility": "mobile"
-      }
     }
   },
   "order": [
     "1e4fcb9f-7716-4d21-b610-9cab633d219a",
     "1727191270de791b6d",
+    "heading_7jfcLF",
     "products_carousel_qH6wqq",
     "reviews_carousel_nagPRn",
+    "collections_carousel_KapxMb",
+    "heading_MNbEEw",
     "product-grid",
     "recent-products",
-    "toggled-body-content",
-    "collections_carousel_KapxMb"
+    "toggled-body-content"
   ]
 }
