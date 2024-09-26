@@ -25,5 +25,10 @@
     margin-top: calc(.75rem*(1 - var(--tw-space-y-reverse)));
 }
 
+#NavMob .space-y-3 {
+    margin-left: .5rem;
+}
+
+
 
 
