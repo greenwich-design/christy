@@ -49,7 +49,7 @@
     "products_carousel_qH6wqq": {
       "type": "products-carousel",
       "settings": {
-        "title": "Our Best Sellers",
+        "title": "Our Bestsellers",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "400",
@@ -156,7 +156,7 @@
         "collection_fYWjyA"
       ],
       "settings": {
-        "title": "Discover Our Collections",
+        "title": "Shop By Collection",
         "screen_visibility": "both"
       }
     },
