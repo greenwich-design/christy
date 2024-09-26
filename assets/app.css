@@ -5,3 +5,8 @@
     padding-top: .5rem;
     margin-right: .5rem;
 }
+
+#NavMob .py-5 {
+    padding-bottom: 0rem;
+    padding-top: 1.25rem;
+}
