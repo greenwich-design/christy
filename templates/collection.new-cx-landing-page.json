@@ -180,11 +180,75 @@
         "products_per": 12
       }
     },
+    "products_carousel_nfwdEM": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "In The Spotlight: Supreme Collection",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "400",
+        "title_font_family": "serif",
+        "button_title": "See more",
+        "button_link": "",
+        "products": [
+          "supreme-hygro",
+          "supreme-hygro®-towels-supima-cotton-650-gsm-copy",
+          "supreme-velour-robe",
+          "supreme-hygro-bath-mat",
+          "supreme-robe-bundles",
+          "supreme-hygro-refresh-bundle-copy",
+          "supreme-hygro-towel-bale-bundles",
+          "supreme-hygro-complete-home-bundle-copy",
+          "supreme-hygro-move-in-bundles",
+          "supreme-bath-mat-duo-bundle",
+          "supreme-hygro®-towels-supima-cotton-650-gsm-copy-1",
+          "supreme-hygro-bed-bath-bundles"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "recent-products": {
       "type": "recent-products",
       "disabled": true,
       "settings": {
         "heading": "Previously explored"
+      }
+    },
+    "why_christy_pAVPeW": {
+      "type": "why-christy",
+      "blocks": {
+        "block_jHqatG": {
+          "type": "block",
+          "settings": {
+            "title": "Premium Materials",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.</p>"
+          }
+        },
+        "block_x87cdq": {
+          "type": "block",
+          "settings": {
+            "title": "Premium Materials",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.</p>"
+          }
+        },
+        "block_WQJbFA": {
+          "type": "block",
+          "settings": {
+            "title": "Premium Materials",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "block_jHqatG",
+        "block_x87cdq",
+        "block_WQJbFA"
+      ],
+      "settings": {
+        "title": "Why Christy?",
+        "button_title": "",
+        "button_link": "",
+        "margin": "no"
       }
     },
     "toggled-body-content": {
@@ -314,7 +378,9 @@
     "collections_carousel_KapxMb",
     "heading_MNbEEw",
     "product-grid",
+    "products_carousel_nfwdEM",
     "recent-products",
+    "why_christy_pAVPeW",
     "toggled-body-content"
   ]
 }
