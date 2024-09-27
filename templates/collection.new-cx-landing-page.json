@@ -35,6 +35,7 @@
     },
     "heading_7jfcLF": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Creating Luxuries Since 1850.</p>",
         "heading_width": "4",
@@ -59,7 +60,9 @@
         "products": [
           "supreme-hygro",
           "renaissance",
-          "luxe-towels"
+          "luxe-towels",
+          "brixton-towels",
+          "cirrus-towels-450-gsm-cotton"
         ],
         "screen_visibility": "both"
       }
@@ -162,6 +165,7 @@
     },
     "heading_MNbEEw": {
       "type": "heading",
+      "disabled": true,
       "settings": {
         "heading": "<p>Discover the magic in everyday moments.</p>",
         "heading_width": "6",
