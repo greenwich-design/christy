@@ -91,10 +91,10 @@
         "block_EefM8b": {
           "type": "block",
           "settings": {
-            "product": "",
-            "title": "Customer Reviews",
-            "testimonial": "<p>“One of the highest quality products I have experienced. Very very soft and drapes beautifully on my bed.”</p>",
-            "name": "John Smith"
+            "product": "luxe-towels",
+            "title": "Luxe Towels",
+            "testimonial": "<p>“Excellent towels. A short, very dense pile which is highly absorbent and comfortable against the skin. Ideal.”</p>",
+            "name": "D. Thomas"
           }
         }
       },
