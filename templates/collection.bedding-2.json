@@ -9,6 +9,14 @@
 */
 {
   "sections": {
+    "hero_image_NAWzUT": {
+      "type": "hero-image",
+      "settings": {
+        "image": "shopify://shop_images/THIN_BANNER_1920X500_6f1a1a16-957f-4186-87fc-dca0dc8d1c1b.jpg",
+        "link": "",
+        "full_width": true
+      }
+    },
     "collections_carousel_UAyD7T": {
       "type": "collections-carousel",
       "blocks": {
@@ -666,15 +674,6 @@
         "button_title": "",
         "button_link": "",
         "margin": "no"
-      }
-    },
-    "hero_image_NAWzUT": {
-      "type": "hero-image",
-      "settings": {
-        "image": "shopify://shop_images/THIN_BANNER_1920X500_d81fc96d-7d56-4b38-9864-f1ba9cc8ff5c.jpg",
-        "image_mobile": "shopify://shop_images/MOBILE_768X768_6efdbb57-1305-49c1-a05e-b8e718a8eb5f.jpg",
-        "link": "",
-        "full_width": true
       }
     }
   },
