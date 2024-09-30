@@ -342,6 +342,7 @@
         "e14b8b02-c53c-4069-85cc-43e31732c3cb",
         "d21bf329-3944-47a0-832b-9162c451db72"
       ],
+      "disabled": true,
       "settings": {
         "title": "Shop the Collection",
         "collection": "all-bedding"
