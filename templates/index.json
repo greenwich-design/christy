@@ -633,14 +633,14 @@
       "type": "billboard",
       "settings": {
         "screen_visibility": "both",
-        "image": "shopify://shop_images/Mode_Silver_Lifestyle.jpg",
+        "image": "shopify://shop_images/Waffle-Towel_White_Lifestyle.jpg",
         "subtitle": "Feature",
         "title": "<p>Only the best: picking your perfect towel</p>",
         "copy": "<p>There's an art to choosing the right towel. Absorb our expert tips to discover your ideal drying-down companion.</p>",
         "button_label": "Read more",
         "button_link": "https://www.christy.co.uk/blogs/lifestyle/christys-towel-size-guide",
         "button_type": "tertiary",
-        "colour_theme": "blue",
+        "colour_theme": "white",
         "alignment": "left",
         "alignment_vertical": "center",
         "mobile_content_position": "overlay"
