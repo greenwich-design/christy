@@ -182,22 +182,21 @@
           "type": "product",
           "settings": {
             "product": "supreme-hygro",
-            "text": "<p>Wrap yourself up in pure luxury with our ultra soft and absorbant Supreme Hygro® towel collection</p>"
+            "text": ""
           }
         },
         "e14b8b02-c53c-4069-85cc-43e31732c3cb": {
           "type": "product",
           "settings": {
             "product": "supreme-velour-robe",
-            "text": "<p>Wrap yourself up in pure luxury with our ultra soft and absorbant Supreme Hygro® towel collection</p>"
+            "text": ""
           }
         },
         "d21bf329-3944-47a0-832b-9162c451db72": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "product": "supreme-hygro-bath-mat",
-            "text": "<p>Wrap yourself up in pure luxury with our ultra soft and absorbant Supreme Hygro® towel collection</p>"
+            "text": ""
           }
         }
       },
@@ -215,7 +214,7 @@
       "type": "images-copy-cta",
       "settings": {
         "image": "shopify://shop_images/zero-twist-yarn-1.jpg",
-        "image2": "shopify://shop_images/zero-twist-yarn-2.jpg",
+        "image2": "shopify://shop_images/Luxe-Pearl-3_3bb0b3df-905b-4052-902d-f412fd0cf43d.jpg",
         "subtitle": "Products",
         "title": "<p>Zero Twist Yarn</p>",
         "copy": "<p>Zero twist yarns are velvety-soft yarns that create super-absorbent, refreshing towels. Most towels are made with cotton that is spun by twisting it together. This twisting process joins the fibers to make a long, fine yarn, which is very durable and which means that you can work with shorter (read: lower quality) fibers. <br/><br/>But for Zero Twist yarns, the fibers aren't twisted together to increase length and strength—they have to be high quality and naturally strong from the get go. And because they aren't twisted, each yarn has more surface area. The result is a smooth, plush towel that is wonderfully soft-to-the-touch. Dry off in the embrace of a super-soft, velvety Mode towel made with Zero Twist cotton yarn.</p>",
