@@ -11,6 +11,7 @@
   "sections": {
     "hero_image_NAWzUT": {
       "type": "hero-image",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/THIN_BANNER_1920X500_6f1a1a16-957f-4186-87fc-dca0dc8d1c1b.jpg",
         "link": "",
