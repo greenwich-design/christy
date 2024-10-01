@@ -12,10 +12,10 @@
     "97fe06ff-d1d9-4c8d-9cb3-24b8e821d00d": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify://shop_images/DESKTOP_1920X960_a7db6c93-6d0b-425e-8a37-1a2f8154b9e3.jpg",
-        "image_mobile": "shopify://shop_images/MOBILE_768X768_cba0dfc2-9a03-4c5f-90c2-fe3344970e6c.jpg",
-        "image_tab": "shopify://shop_images/TABLET_1024X1024_e98326cf-a519-4013-b281-6a2c983252ff.jpg",
-        "link": "shopify://collections/all-bedding",
+        "image": "shopify://shop_images/DESKTOP_1920X960_3b23e6a7-8d9b-4e5b-99c1-080b9bc407f5.jpg",
+        "image_mobile": "shopify://shop_images/MOBILE_768X768_d1b6c69e-b631-4e90-8087-ccbf3595a071.jpg",
+        "image_tab": "shopify://shop_images/TABLET_1048X1048_cac75eb3-331d-46eb-aa37-51e815dc3980.jpg",
+        "link": "https://www.christy.co.uk/collections/flannel",
         "full_width": true
       }
     },
