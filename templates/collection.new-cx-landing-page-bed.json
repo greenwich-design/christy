@@ -12,7 +12,7 @@
     "1e4fcb9f-7716-4d21-b610-9cab633d219a": {
       "type": "hero-image",
       "settings": {
-        "image": "shopify://shop_images/Bath-2.2.jpg",
+        "image": "shopify://shop_images/Bed-2.jpg",
         "link": "",
         "full_width": true
       }
@@ -58,11 +58,10 @@
         "button_title": "See more",
         "button_link": "",
         "products": [
-          "supreme-hygro",
-          "renaissance",
-          "cirrus-towels-450-gsm-cotton",
-          "luxe-towels",
-          "brixton-towels"
+          "400-thread-count-sateen-plain-dye",
+          "jaipur-throw",
+          "200tc-organic",
+          "organic-retreat"
         ],
         "screen_visibility": "both"
       }
