@@ -50,6 +50,24 @@
     "products_carousel_qH6wqq": {
       "type": "products-carousel",
       "settings": {
+        "title": "New In",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "400",
+        "title_font_family": "serif",
+        "button_title": "See more",
+        "button_link": "",
+        "products": [
+          "flannel-marl-duvet-set",
+          "flannel-stripe-duvet-set",
+          "scallop-edge-duvet-set"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "products_carousel_4wCjaC": {
+      "type": "products-carousel",
+      "settings": {
         "title": "Our Bestsellers",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
@@ -90,7 +108,7 @@
     "products_carousel_h4h3fC": {
       "type": "products-carousel",
       "settings": {
-        "title": "Save Big On Bathroom Bundles",
+        "title": "Save Big On Bedroom Bundles",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "400",
@@ -98,14 +116,12 @@
         "button_title": "See more",
         "button_link": "",
         "products": [
-          "renaissance-move-in-bundle",
-          "supreme-hygro-towel-bale-bundles",
-          "luxe-towels-turkish-cotton-730-gsm-copy-1",
-          "cirrus-urban-retreat-bundle-copy",
-          "renaissance-towels-egyptian-cotton-675-gsm-copy-1",
-          "serene-towels-combed-cotton-550-gsm-copy",
-          "brixton-bath-towel-bundle",
-          "trellis-complete-home-plus-bundle"
+          "copy-of-smooth-and-silky-cotton-sateen-deep-fitted-sheet-400-thread-count",
+          "copy-of-metropolitan-throw",
+          "jaipur-throw-bundle",
+          "copy-of-smooth-and-silky-cotton-sateen-starter-sheet-bundle",
+          "feather-and-down-10-5-tog-duvet-pillow-bundle",
+          "rosa-throw-and-cushion-bundle"
         ],
         "screen_visibility": "both"
       }
@@ -416,6 +432,7 @@
     "1727191270de791b6d",
     "heading_7jfcLF",
     "products_carousel_qH6wqq",
+    "products_carousel_4wCjaC",
     "products_carousel_aPQxTT",
     "products_carousel_h4h3fC",
     "reviews_carousel_nagPRn",
