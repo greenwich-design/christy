@@ -246,7 +246,7 @@
     "products_carousel_nfwdEM": {
       "type": "products-carousel",
       "settings": {
-        "title": "In The Spotlight: Supreme Collection",
+        "title": "In The Spotlight: Flannel Bedding",
         "title_font_size_mob": 18,
         "title_font_size_desktop": 30,
         "title_font_weight": "400",
@@ -254,18 +254,10 @@
         "button_title": "See more",
         "button_link": "",
         "products": [
-          "supreme-hygro",
-          "supreme-hygro®-towels-supima-cotton-650-gsm-copy",
-          "supreme-velour-robe",
-          "supreme-hygro-bath-mat",
-          "supreme-robe-bundles",
-          "supreme-hygro-refresh-bundle-copy",
-          "supreme-hygro-towel-bale-bundles",
-          "supreme-hygro-complete-home-bundle-copy",
-          "supreme-hygro-move-in-bundles",
-          "supreme-bath-mat-duo-bundle",
-          "supreme-hygro®-towels-supima-cotton-650-gsm-copy-1",
-          "supreme-hygro-bed-bath-bundles"
+          "flannel-stripe-duvet-set",
+          "flannel-marl-duvet-set",
+          "flannel-marl-fitted-sheet",
+          "flannel-marl-pillowcases"
         ],
         "screen_visibility": "both"
       }
