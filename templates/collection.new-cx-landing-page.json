@@ -67,6 +67,50 @@
         "screen_visibility": "both"
       }
     },
+    "products_carousel_aPQxTT": {
+      "type": "products-carousel",
+      "disabled": true,
+      "settings": {
+        "title": "Save Big On Bathroom Deals",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "400",
+        "title_font_family": "serif",
+        "button_title": "See more",
+        "button_link": "",
+        "products": [
+          "supreme-hygro",
+          "renaissance",
+          "cirrus-towels-450-gsm-cotton",
+          "luxe-towels",
+          "brixton-towels"
+        ],
+        "screen_visibility": "both"
+      }
+    },
+    "products_carousel_h4h3fC": {
+      "type": "products-carousel",
+      "settings": {
+        "title": "Save Big On Bathroom Bundles",
+        "title_font_size_mob": 18,
+        "title_font_size_desktop": 30,
+        "title_font_weight": "400",
+        "title_font_family": "serif",
+        "button_title": "See more",
+        "button_link": "",
+        "products": [
+          "renaissance-move-in-bundle",
+          "supreme-hygro-towel-bale-bundles",
+          "luxe-towels-turkish-cotton-730-gsm-copy-1",
+          "cirrus-urban-retreat-bundle-copy",
+          "renaissance-towels-egyptian-cotton-675-gsm-copy-1",
+          "serene-towels-combed-cotton-550-gsm-copy",
+          "brixton-bath-towel-bundle",
+          "trellis-complete-home-plus-bundle"
+        ],
+        "screen_visibility": "both"
+      }
+    },
     "reviews_carousel_nagPRn": {
       "type": "reviews-carousel",
       "blocks": {
@@ -224,22 +268,22 @@
         "block_jHqatG": {
           "type": "block",
           "settings": {
-            "title": "Premium Materials",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.</p>"
+            "title": "Legacy of Innovation",
+            "text": "<p>Bringing you quality and durability through 170 years of legacy and innovation.</p><p><a href=\"/pages/our-heritage\" title=\"Our Heritage\">Learn More</a></p>"
           }
         },
         "block_x87cdq": {
           "type": "block",
           "settings": {
-            "title": "Premium Materials",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.</p>"
+            "title": "Loved By Our Customers",
+            "text": "<p>4000+ 5 star reviews with a score of 4.7 out of 5.</p><p><a href=\"/collections/reviews\" target=\"_blank\" title=\"Reviews\">Read Our Reviews</a></p>"
           }
         },
         "block_WQJbFA": {
           "type": "block",
           "settings": {
-            "title": "Premium Materials",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet venenatis urna cursus eget nunc scelerisque.</p>"
+            "title": "Free Shipping & Returns",
+            "text": "<p>Free shipping above £50 plus our worry-free return guarantee.</p><p><a href=\"https://www.christy.co.uk/pages/shipping-policy\" title=\"Delivery and Returns\">Learn More</a></p>"
           }
         }
       },
@@ -373,6 +417,8 @@
     "1727191270de791b6d",
     "heading_7jfcLF",
     "products_carousel_qH6wqq",
+    "products_carousel_aPQxTT",
+    "products_carousel_h4h3fC",
     "reviews_carousel_nagPRn",
     "collections_carousel_KapxMb",
     "heading_MNbEEw",
