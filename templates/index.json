@@ -537,6 +537,18 @@
             "collection_tag": "Smooth & Silky"
           }
         },
+        "column_KXK7iy": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image_aspect": "1:1",
+            "title": "Thick & Fluffy",
+            "text": "<p>Cocoon yourself in the pampering comfort of a sumptuously thick towel or bathrobe.</p>",
+            "button_label": "Explore the Feeling",
+            "button_link": "",
+            "collection_tag": ""
+          }
+        },
         "f251865b-ab2f-44aa-ab1f-0a92b8034d6e": {
           "type": "column",
           "disabled": true,
@@ -555,6 +567,7 @@
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-0",
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-1",
         "template--19440932552979__8f8f8cb5-ef5b-4e34-9690-e88260e7d59f-1686843997bc378748-2",
+        "column_KXK7iy",
         "f251865b-ab2f-44aa-ab1f-0a92b8034d6e"
       ],
       "settings": {

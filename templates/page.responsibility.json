@@ -187,10 +187,19 @@
             "width": "full",
             "aspect": "16/9"
           }
+        },
+        "image_4yBijy": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "full",
+            "aspect": "16/9"
+          }
         }
       },
       "block_order": [
-        "5b646956-a5dd-4637-a66e-a4ca816853e0"
+        "5b646956-a5dd-4637-a66e-a4ca816853e0",
+        "image_4yBijy"
       ],
       "settings": {
         "fullscreen": true
