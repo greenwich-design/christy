@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1e4fcb9f-7716-4d21-b610-9cab633d219a": {
@@ -30,8 +30,7 @@
       "block_order": [
         "klaviyo_email_marketing_sms_form_embed_block_8Dmwxi"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "heading_7jfcLF": {
       "type": "heading",
@@ -240,7 +239,7 @@
         "button_link": "",
         "products": [
           "supreme-hygro",
-          "supreme-hygro®-towels-supima-cotton-650-gsm-copy",
+          "supreme-hygro-r-towels-supima-cotton-650-gsm-copy",
           "supreme-velour-robe",
           "supreme-hygro-bath-mat",
           "supreme-robe-bundles",
@@ -249,7 +248,7 @@
           "supreme-hygro-complete-home-bundle-copy",
           "supreme-hygro-move-in-bundles",
           "supreme-bath-mat-duo-bundle",
-          "supreme-hygro®-towels-supima-cotton-650-gsm-copy-1",
+          "supreme-hygro-r-towels-supima-cotton-650-gsm-copy-1",
           "supreme-hygro-bed-bath-bundles"
         ],
         "screen_visibility": "both"
