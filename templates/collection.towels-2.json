@@ -59,7 +59,7 @@
           "disabled": true,
           "settings": {
             "image": "shopify://shop_images/zero-twist-yarn-2.jpg",
-            "product_1": "cabana-beach-towels-550-gsm-cotton",
+            "product_1": "cabana-beach-towels-500-gsm-cotton",
             "pos_l_1": 70,
             "pos_t_1": 45,
             "product_2": "carnaby-stripe",
@@ -74,7 +74,7 @@
           "type": "listsc",
           "disabled": true,
           "settings": {
-            "product_1": "cabana-beach-towels-550-gsm-cotton",
+            "product_1": "cabana-beach-towels-500-gsm-cotton",
             "pos_l_1": 25,
             "pos_t_1": 15,
             "product_2": "carnaby-stripe",
