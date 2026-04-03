@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero-static": {
@@ -57,8 +57,7 @@
         "template--19974381371680__8f9e3ef3-0d55-43c1-b496-14c674ab688e-anchor_link-3",
         "a96b90be-0de5-4063-a37a-ced6f72b034b"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "heading": {
       "type": "heading",
@@ -327,7 +326,7 @@
         "4a655c37-2240-43bd-aa0c-b3e113217a08": {
           "type": "product",
           "settings": {
-            "product": "400-thread-count-sateen-plain-dye",
+            "product": "classic-sateen-duvet-set",
             "text": "<p>Wrap yourself up in pure luxury with our ultra soft and absorbant Supreme Hygro® towel collection</p>"
           }
         },

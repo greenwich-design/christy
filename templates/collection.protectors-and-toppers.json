@@ -1,10 +1,19 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "088d3636-f921-45b2-be1e-913bab978dac": {
       "type": "hero-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Collection_Banner.jpg",
+        "image": "shopify://shop_images/Collection_Banner.jpg",
         "link": "",
         "full_width": true
       }
@@ -13,7 +22,7 @@
       "type": "hero-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/MicrosoftTeams-image_25.png",
+        "image": "shopify://shop_images/MicrosoftTeams-image_25.png",
         "link": "",
         "full_width": true
       }
@@ -26,9 +35,9 @@
           "disabled": true,
           "settings": {
             "text": "Build your Bundle",
-            "copy": "<p>Discover your perfect match for a restful night’s slumber.<\/p>",
+            "copy": "<p>Discover your perfect match for a restful night’s slumber.</p>",
             "button_text": "Build your Dream Duvet Set",
-            "button_url": "https:\/\/quickstart-3a56366d.myshopify.com\/collections\/bed-duvet-sets",
+            "button_url": "https://quickstart-3a56366d.myshopify.com/collections/bed-duvet-sets",
             "styled": false,
             "position": 7
           }
@@ -38,7 +47,7 @@
           "disabled": true,
           "settings": {
             "text": "Easycare Percale",
-            "copy": "<p>This stylish collection is made from a high quality polycotton blend, which is both practical and easy to care for.<br\/><br\/>The range of gorgeous colours and simple tailoring make this collection a real winner.<\/p>",
+            "copy": "<p>This stylish collection is made from a high quality polycotton blend, which is both practical and easy to care for.<br/><br/>The range of gorgeous colours and simple tailoring make this collection a real winner.</p>",
             "button_text": "Discover Collection",
             "button_url": "",
             "styled": true,
@@ -52,7 +61,7 @@
             "product_1": "luxury-mattress-topper",
             "pos_l_1": 70,
             "pos_t_1": 45,
-            "product_2": "400-thread-count-sateen-plain-dye",
+            "product_2": "classic-sateen-duvet-set",
             "pos_l_2": 20,
             "pos_t_2": 75,
             "product_3": "",
@@ -64,7 +73,7 @@
           "type": "listsc",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/zero-twist-yarn-2.jpg",
+            "image": "shopify://shop_images/zero-twist-yarn-2.jpg",
             "product_1": "anti-allergy-mattress-and-pillow-protectors",
             "pos_l_1": 25,
             "pos_t_1": 15,
@@ -99,10 +108,10 @@
       "settings": {
         "screen_visibility": "both",
         "subtitle": "Christy Life",
-        "title": "<p>7 simple everyday self-care rituals<\/p>",
-        "copy": "<p>Add a bit of TLC to your daily routine with these ideas to help you pause and enjoy the little moments.<\/p>",
+        "title": "<p>7 simple everyday self-care rituals</p>",
+        "copy": "<p>Add a bit of TLC to your daily routine with these ideas to help you pause and enjoy the little moments.</p>",
         "button_label": "Read more",
-        "button_link": "https:\/\/quickstart-3a56366d.myshopify.com\/collections\/bed-duvet-sets",
+        "button_link": "https://quickstart-3a56366d.myshopify.com/collections/bed-duvet-sets",
         "button_type": "tertiary",
         "colour_theme": "white",
         "alignment": "left",

@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "c13e9ca8-ca9c-4ed4-9a12-8bfd34eb0a02": {
@@ -75,8 +75,7 @@
     },
     "all_products_review_widget_RVw4rb": {
       "type": "all-products-review-widget",
-      "settings": {
-      }
+      "settings": {}
     },
     "reviews_io_carousel_eUthLk": {
       "type": "reviews-io-carousel",
@@ -443,7 +442,7 @@
             "text": "Cotton Sateen Sheets",
             "copy": "<p>Resist the temptation to take just a few more minutes nestled up in the indulgent comfort our smooth cotton sheets.  <br/>The sateen fabric has a gentle sheen and feels oh-so-nice against the skin. Once you've snuggled up in bed, you may never want to get out again.</p>",
             "button_text": "Discover Collection",
-            "button_url": "shopify://products/400-thread-count-sateen-plain-dye",
+            "button_url": "shopify://products/classic-sateen-duvet-set",
             "styled": true,
             "position": 8
           }

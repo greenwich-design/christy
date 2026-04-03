@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1e4fcb9f-7716-4d21-b610-9cab633d219a": {
@@ -30,8 +30,7 @@
       "block_order": [
         "klaviyo_email_marketing_sms_form_embed_block_8Dmwxi"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "heading_7jfcLF": {
       "type": "heading",
@@ -76,7 +75,7 @@
         "button_title": "See more",
         "button_link": "",
         "products": [
-          "400-thread-count-sateen-plain-dye",
+          "classic-sateen-duvet-set",
           "jaipur-throw",
           "200tc-organic",
           "organic-retreat"
@@ -132,7 +131,7 @@
         "block_pmxKk9": {
           "type": "block",
           "settings": {
-            "product": "400-thread-count-sateen-plain-dye",
+            "product": "classic-sateen-duvet-set",
             "title": "Smooth & Silky Cotton Sateen Bedding",
             "testimonial": "<p>“I always buy the 400 thread white fitted sheets for all of my beds they are so very comfortable and wonderful to lay on. Guests always remark on them and have now changed to them too.”</p>",
             "name": "Valerie Manners"
