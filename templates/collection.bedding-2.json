@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero_image_NAWzUT": {
@@ -205,7 +205,7 @@
         "products": [
           "flannel-marl-duvet-set",
           "scallop-edge-duvet-set",
-          "500-hygro-duvet-set",
+          "premium-sateen-duvet-set",
           "coniston-bed-linen",
           "organic-retreat",
           "flannel-stripe-duvet-set",
