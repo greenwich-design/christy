@@ -77,7 +77,7 @@
         "products": [
           "classic-sateen-duvet-set",
           "jaipur-throw",
-          "200tc-organic",
+          "pure-organic-duvet-set",
           "organic-retreat"
         ],
         "screen_visibility": "both"
@@ -149,7 +149,7 @@
         "block_EefM8b": {
           "type": "block",
           "settings": {
-            "product": "200tc-organic",
+            "product": "pure-organic-duvet-set",
             "title": "Organic Cool & Crisp Percale Duvet Set",
             "testimonial": "<p>“Fabulous, well made and lovely to sleep on. Washes well. Excellent!”</p>",
             "name": "Mrs Gibbon"
